@@ -1,0 +1,74 @@
+{
+  "Sections": [
+    {
+      "context": "In the summer of 1920, women in the United States celebrated as the 19th Amendment to the U.S. Constitution was ratified, granting them the right to vote. This achievement was the result of decades of campaigning by women's rights advocates. One of the key events in this struggle was the Seneca Falls Convention in 1848, which marked the start of the women's suffrage movement in the U.S.",
+      "questions": [
+        {
+          "text": "What was the significance of the Seneca Falls Convention?",
+          "answers": {
+            "a": "It marked the start of the women's suffrage movement in the U.S.",
+            "b": "It marked the end of the women's suffrage movement in the U.S.",
+            "c": "It had nothing to do with the women's suffrage movement in the U.S.",
+            "d": "It was a convention for men's rights."
+          },
+          "correct": "a"
+        },
+        {
+          "text": "In which year was the 19th Amendment to the U.S. Constitution ratified?",
+          "answers": {
+            "a": "1848",
+            "b": "1900",
+            "c": "1920",
+            "d": "2000"
+          },
+          "correct": "c"
+        },
+        {
+          "text": "What did the 19th Amendment grant to women?",
+          "answers": {
+            "a": "The right to own property",
+            "b": "The right to vote",
+            "c": "The right to work",
+            "d": "The right to education"
+          },
+          "correct": "b"
+        }
+      ]
+    },
+    {
+      "context": "The Civil War in the United States, which lasted from 1861 to 1865, marked a significant turning point in the nation's history. The conflict stemmed from tensions between the North and the South, primarily regarding the issue of the abolition of slavery. The North, or Union, wanted to abolish slavery, while the South, also known as the Confederacy, vehemently defended this institution.",
+      "questions": [
+        {
+          "text": "When did the Civil War in the United States take place?",
+          "answers": {
+            "a": "1756-1763",
+            "b": "1861-1865",
+            "c": "1914-1918",
+            "d": "1939-1945"
+          },
+          "correct": "b"
+        },
+        {
+          "text": "What was the primary issue that led to the Civil War?",
+          "answers": {
+            "a": "Economic disparities",
+            "b": "Territorial disputes",
+            "c": "Abolition of slavery",
+            "d": "Religious differences"
+          },
+          "correct": "c"
+        },
+        {
+          "text": "Which region was known as the Union during the Civil War?",
+          "answers": {
+            "a": "East",
+            "b": "West",
+            "c": "North",
+            "d": "South"
+          },
+          "correct": "c"
+        }
+      ]
+    }
+  ]
+}
