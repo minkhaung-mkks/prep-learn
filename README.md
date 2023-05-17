@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎓 Praczone: Practice to your heart content🌟
 
-## Getting Started
+Hi, and thanks for stopping by! This repository houses a project that I hold close to my heart. As a student who has recently returned to the education path via a GED prep school, I found a scarcity of free resources for subjects like Reasoning Through Language Arts (RLA) and Social Studies. This struggle has motivated me to develop this app, which aims to provide a free, comprehensive quiz platform for GED exam preparation.
 
-First, run the development server:
+## 🌍 Why This Matters
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+This project is particularly dedicated to my peers in Myanmar, who often face difficulties with these subjects due to language barriers and lack of resources. I hope that this quiz app can become an invaluable tool to aid their learning and success.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💡 The Idea 
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+The Praczone will start by reading from a file and subsequently from a database to generate practice exams. The user will interact with these exams by selecting answers from multiple choices. The ultimate goal is to create a free, accessible resource for GED students everywhere to enhance their studies.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🛠️ The Roadmap
 
-## Learn More
+The development of this app will follow a roadmap divided into three categories: 
 
-To learn more about Next.js, take a look at the following resources:
+### 🎯 Main Features 
+These are the essential components of the app, and they must be bug-free before the app can be considered ready for launch.
+1. Convert text input into a set of questions and answers swiftly.
+2. Present the questions to the user for answering.
+3. Provide a score to the user upon submission of the exam.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🎈 Add-on Features 
+These features would be great additions to the app if feasible.
+1. User Account system with score tracking.
+2. Allow users to upload un-vetted exams to the database, which can be confirmed by me to be displayed on the website.
+3. Separate quizzes not only based on subjects but also on individual topics like Government and Civics.
+4. Timed quizzes.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 🌈 Dream Features 
+These features would be awesome to have, but they might be challenging to implement due to their complexity.
+1. User roles for teachers and students, and even class grouping. This feature would enable schools to use the app to assign practice work and homework.
 
-## Deploy on Vercel
+## 🤝 Let's Collaborate!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I invite like-minded individuals passionate about education to collaborate on this project. Together, we can create an invaluable resource to empower students and help them succeed in their GED journey.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📬 Get in Touch
+
+Have ideas or suggestions? I would love to hear from you! Please feel free to reach out to me at [minkhaung.mkks@gmail.com](mailto:minkhaung.mkks@gmail.com) 📧. Let's work together to make learning accessible for all! 🌍🎓
