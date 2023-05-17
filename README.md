@@ -19,6 +19,7 @@ These are the essential components of the app, and they must be bug-free before 
 1. Convert text input into a set of questions and answers swiftly.
 2. Present the questions to the user for answering.
 3. Provide a score to the user upon submission of the exam.
+4. Store your unsubmitted data inside local storage to persists through refresh and accidental closing of the tab.
 
 ### 🎈 Add-on Features 
 These features would be great additions to the app if feasible.
@@ -26,10 +27,13 @@ These features would be great additions to the app if feasible.
 2. Allow users to upload un-vetted exams to the database, which can be confirmed by me to be displayed on the website.
 3. Separate quizzes not only based on subjects but also on individual topics like Government and Civics.
 4. Timed quizzes.
+5. Crash Courses on the topics
 
 ### 🌈 Dream Features 
 These features would be awesome to have, but they might be challenging to implement due to their complexity.
 1. User roles for teachers and students, and even class grouping. This feature would enable schools to use the app to assign practice work and homework.
+2. Identifying the user weaknesses and suggesting quizzes to improve on those.
+3. Provide Burmese translation for words on hover or click
 
 ## 🤝 Let's Collaborate!
 
