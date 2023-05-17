@@ -1,4 +1,4 @@
-# 🎓 Praczone: Practice to your heart content🌟
+# 🎓 Prep&Learn: Practice to your heart content🌟
 
 Hi, and thanks for stopping by! This repository houses a project that I hold close to my heart. As a student who has recently returned to the education path via a GED prep school, I found a scarcity of free resources for subjects like Reasoning Through Language Arts (RLA) and Social Studies. This struggle has motivated me to develop this app, which aims to provide a free, comprehensive quiz platform for GED exam preparation.
 
@@ -8,7 +8,7 @@ This project is particularly dedicated to my peers in Myanmar, who often face di
 
 ## 💡 The Idea 
 
-The Praczone will start by reading from a file and subsequently from a database to generate practice exams. The user will interact with these exams by selecting answers from multiple choices. The ultimate goal is to create a free, accessible resource for GED students everywhere to enhance their studies.
+The Prep&Learn will start by reading from a file and subsequently from a database to generate practice exams. The user will interact with these exams by selecting answers from multiple choices. The ultimate goal is to create a free, accessible resource for GED students everywhere to enhance their studies.
 
 ## 🛠️ The Roadmap
 
