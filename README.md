@@ -28,6 +28,7 @@ These features would be great additions to the app if feasible.
 3. Separate quizzes not only based on subjects but also on individual topics like Government and Civics.
 4. Timed quizzes.
 5. Crash Courses on the topics
+6. Making the app display x^2 as x with a small 2 on top and other math related quirks.
 
 ### 🌈 Dream Features 
 These features would be awesome to have, but they might be challenging to implement due to their complexity.
@@ -42,3 +43,11 @@ I invite like-minded individuals passionate about education to collaborate on th
 ## 📬 Get in Touch
 
 Have ideas or suggestions? I would love to hear from you! Please feel free to reach out to me at [minkhaung.mkks@gmail.com](mailto:minkhaung.mkks@gmail.com) 📧. Let's work together to make learning accessible for all! 🌍🎓
+
+# Latest Update
+
+I recently talked with teachers at my prep school and they all expressed interest in the app, and was more than happy to contribute to it with practices and questions. 
+
+I'm currently preparing the first set of questions on all the subjects except math and sending them over to the teachers to get feedback on them.
+
+I'm also thinking of making the crash courses a essential part of the app, as it maybe crucial to get more out of the practices, but since I would be the one providing them, I feel hesistant to do.
