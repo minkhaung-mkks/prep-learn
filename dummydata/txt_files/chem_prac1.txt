@@ -1,0 +1,240 @@
+1 Which of the following is not a physical property?
+    	A. Mass
+    	B. Density
+    	C. Chemical reactivity
+    	D. Volume
+
+2 What is the atomic number of an element?
+    	A. The number of protons
+    	B. The number of neutrons
+    	C. The sum of protons and neutrons
+    	D. The sum of protons and electrons
+
+3 What is the charge of a neutron?
+    	A. Positive
+    	B. Negative
+    	C. Neutral
+    	D. Variable
+
+4 What type of bond occurs when electrons are shared between two atoms?
+    	A. Ionic
+    	B. Covalent
+    	C. Hydrogen
+    	D. Metallic
+
+5 Which of the following is a noble gas?
+    	A. Nitrogen
+    	B. Oxygen
+    	C. Argon
+    	D. Chlorine
+
+6 Which state of matter has a definite shape and a definite volume?
+    	A. Solid
+    	B. Liquid
+    	C. Gas
+    	D. Plasma
+
+7 Which substance is known as the "universal solvent"?
+    	A. Water
+    	B. Alcohol
+    	C. Acid
+    	D. Base
+
+8 What is the pH of a neutral substance?
+    	A. 0
+    	B. 7
+    	C. 14
+    	D. Varies depending on the substance
+
+9 What is the name given to substances that resist changes in pH?
+    	A. Acids
+    	B. Bases
+    	C. Buffers
+    	D. Neutralizers
+
+10 What is the process of converting a liquid to a gas?
+    	A. Condensation
+    	B. Sublimation
+    	C. Evaporation
+    	D. Deposition
+
+11 What type of reaction occurs when a single compound breaks down into two or more elements or new compounds?
+    	A. Combination reaction
+    	B. Decomposition reaction
+    	C. Single-replacement reaction
+    	D. Double-replacement reaction
+
+12 What is the term for the amount of matter in an object?
+    	A. Weight
+    	B. Density
+    	C. Volume
+    	D. Mass
+
+13 What is the smallest particle of a compound that retains the properties of the compound?
+    	A. Atom
+    	B. Molecule
+    	C. Electron
+    	D. Neutron
+
+14 What is the formula for calculating density?
+    	A. Density = Mass + Volume
+    	B. Density = Mass - Volume
+    	C. Density = Mass / Volume
+    	D. Density = Mass x Volume
+
+15 What is Avogadro's number?
+    	A. The number of atoms in 1 gram of a substance
+    	B. The number of molecules in 1 mole of a substance
+    	C. The number of electrons in 1 atom of a substance
+    	D. The number of protons in 1 atom of a substance
+
+16 Which term refers to a substance that cannot be broken down into simpler substances by chemical means?
+    	A. Molecule
+    	B. Compound
+    	C. Element
+    	D. Mixture
+
+17 How many hydrogen atoms are there in one molecule of water (H2O)?
+    	A. One
+    	B. Two
+C. Three
+D. Four
+
+18 What is the process by which a solid transforms directly into a gas, without passing through the liquid phase?
+A. Sublimation
+B. Deposition
+C. Evaporation
+D. Condensation
+
+19 What is the atomic mass unit (amu) approximately equal to?
+A. Mass of a proton
+B. Mass of an electron
+C. Mass of a neutron
+D. Sum of the masses of all subatomic particles
+
+20 What does the Law of Conservation of Mass state?
+A. Mass can neither be created nor destroyed
+B. Mass is always lost in a chemical reaction
+C. Mass is always gained in a chemical reaction
+D. Mass can be converted into energy
+
+21 Which term refers to the heat energy that is absorbed or released during a chemical reaction?
+A. Thermal energy
+B. Kinetic energy
+C. Potential energy
+D. Enthalpy
+
+22 What is a catalyst?
+A. A substance that slows down a chemical reaction
+B. A substance that starts a chemical reaction
+C. A substance that changes the rate of a chemical reaction without being consumed
+D. A substance that changes during a chemical reaction
+
+23 Which of the following is a property of acids?
+A. They turn blue litmus paper red
+B. They taste bitter
+C. They feel slippery to the touch
+D. They react with metals to form salts and oxygen
+
+24 What does the periodic table of elements display?
+A. All known isotopes
+B. All known molecules
+C. All known compounds
+D. All known elements
+
+25 Which of the following is an example of a chemical change?
+A. Melting ice
+B. Breaking glass
+C. Rusting iron
+D. Boiling water
+
+26 What does the 's' orbital shape represent in an atom's electron cloud?
+A. Sphere
+B. Spiral
+C. Square
+D. Shell
+
+27 Which of the following is a common use of sulfuric acid (H2SO4)?
+A. As a sweetener in food
+B. As a drying agent in paints
+C. As a bleaching agent in paper production
+D. As a fertilizer in agriculture
+
+28 What are isotopes?
+A. Atoms of the same element with the same number of protons but different numbers of neutrons
+B. Atoms of the same element with the same number of neutrons but different numbers of protons
+C. Atoms of different elements with the same number of protons
+D. Atoms of different elements with the same number of neutrons
+
+29 What does the term 'molarity' refer to in chemistry?
+A. The number of moles of solute per liter of solution
+B. The number of moles of solute per kilogram of solvent
+C. The number of grams of solute per liter of solution
+D. The number of grams of solute per kilogram of solvent
+
+30 What is a hydrocarbon?
+A. A compound made up only of hydrogen and carbon atoms
+B. A compound made up only of hydrogen and oxygen atoms
+C. A compound made up only of carbon and oxygen atoms
+D. A compound made up of hydrogen, carbon, and oxygen atoms
+
+31 What is the term for a homogeneous mixture of two or more substances?
+A. Element
+B. Compound
+C. Solution
+D. Heterogeneous mixture
+
+32 What are valence electrons?
+A. Electrons in the innermost shell of an atom
+B. Electrons in the outermost shell of an atom
+C. Electrons in the nucleus of an atom
+D. Electrons shared between atoms
+
+33 What type of substance increases the concentration of hydrogen ions (H+) when dissolved in water?
+A. Base
+B. Salt
+C. Buffer
+D. Acid
+
+34 Which law states that the volume of a gas is directly proportional to its temperature, provided the pressure and the amount of gas remain constant?
+A. Boyle's Law
+B. Charles's Law
+C. Gay-Lussac's Law
+D. Avogadro's Law
+
+35 What is the oxidation state of an individual atom in its elemental form?
+A. +1
+B. -1
+C. 0
+D. Depends on the atom
+
+36 What is the term for a reaction in which an atom, ion, or molecule donates an electron pair to form a covalent bond?
+
+A. Oxidation
+B. Reduction
+C. Acidification
+D. Neutralization
+
+37 What is the common name for the compound NaCl?
+A. Baking soda
+B. Table salt
+C. Vinegar
+D. Sugar
+
+38 Which of the following elements is a metalloid?
+A. Sodium
+B. Silicon
+C. Oxygen
+D. Carbon
+
+39 How many electrons can the first shell of an atom hold?
+A. 2
+B. 8
+C. 18
+D. 32
+
+40 Which of the following is not one of the six most common elements in living organisms?
+A. Carbon
+B. Hydrogen
+C. Oxygen
+D. Aluminum
