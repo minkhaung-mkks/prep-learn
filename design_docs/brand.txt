@@ -1,6 +1,12 @@
+Name: Prep & Learn
+Taglines: 
+Inspiring Potential, Encouraging Dreams: Your Portal to Free Learning - main tagline
+A Personal Journey Turned Public Mission - For telling the app origin
+Together Towards Breaking the Barrier - can be used as an alternative way of mentioning educational instiutes that provide the app with learning resources.
+From One Learner to Another - can be used to describe people who contribute to the app.
+
 Font = Libre
-Colors = 
+Colors:
 #FFC604: Brand Main Color, use in important/attention grabbing places.
 #3D3839: Text Color
-#00D4A4: Action Btn Colors
 #FFEECA: Rare Background
