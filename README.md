@@ -46,6 +46,21 @@ I invite like-minded individuals passionate about education to collaborate on th
 
 Have ideas or suggestions? I would love to hear from you! Please feel free to reach out to me at [minkhaung.mkks@gmail.com](mailto:minkhaung.mkks@gmail.com) 📧. Let's work together to make learning accessible for all! 🌍🎓
 
+## Free Resources Used:
+
+App Logo from [logo.com](https://logo.com/)
+
+3 Vector Graphics from [Vecteezy](https://www.vecteezy.com/)
+
+![Studying Vector Graphic](./public/assets/imgs/590.jpg)
+![Studying Vector Graphic](./public/assets/imgs/vecteezy_flat-isometric-concept-illustration-online-study-schedule-plan_6202044.jpg)
+![Studying Vector Graphic](./public/assets/imgs/vecteezy_studying-book-illustration_18246021_108.png)
+
+Attribution Text to put in the web_pages
+<a href="https://www.vecteezy.com/free-vector/studying">Studying Vectors by Vecteezy</a>
+<a href="https://www.vecteezy.com/free-png/studying">Studying PNGs by Vecteezy</a>
+<a href="https://www.vecteezy.com/free-vector/studying">Studying Vectors by Vecteezy</a>
+
 # Latest Update
 
 I recently talked with teachers at my prep school and they all expressed interest in the app, and was more than happy to contribute to it with practices and questions. 
