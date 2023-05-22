@@ -1,0 +1,6 @@
+Font = Libre
+Colors = 
+#FFC604: Brand Main Color, use in important/attention grabbing places.
+#3D3839: Text Color
+#00D4A4: Action Btn Colors
+#FFEECA: Rare Background
