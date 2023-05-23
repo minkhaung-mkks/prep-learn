@@ -1,0 +1,27 @@
+3 main types of creating questions
+
+Programatically Insert New Quizes:
+-Indivually create questions and answers while providing correct answers in doing so.
+
+Pros:
+Easy to use, and simple.
+Can easily introduce other types of questions
+Will be shown all the additions that can be put into the questions like, topic, link to read about the question, the correct answer, the reason for the correct answer, addtional note.
+Cons:
+Slow
+Requires users to continuously interact with the app.
+
+Convert a paragraph of normal text questions into a mutiple choice question and select the right answers and provide the reason.
+Pros:
+Can easily copy paste existing question papers to the app
+Contributors can easily write questions on their favourite text editor.
+Doesnt require any interaction with the app other than copy paste into the text-field.
+Cons:
+All text files need to be written in a way that the machince can easily recognize
+Cannot easily introduce other question types without requiring addtional param,(Unless I can somehow make the app recognize it.)
+
+Convert a paragraph normal text questions into a multiple choice question but provide the answer and reason throught another normal text.
+Pros:
+Faster than the 2nd method due to how most answers exists on a serperate paper.
+Cons:
+Same cons as the 2nd method
