@@ -1,102 +1,129 @@
 const fs = require('fs');
 const fsPromise = require('fs').promises;
 
+/**
+ * Removes the leading and trailing white space from the context string
+ * @param {string} context - The context string to be parsed
+ * @returns {string} The parsed context string
+ */
 const parseContext = (context) => {
     return context.trim();
 }
 
+/**
+ * Parses the question string and constructs a list of question objects
+ * @param {string} questionText - The string of questions
+ * @returns {Array} An array of question objects
+ * @example
+ * Returns [{ text: "What is the capital of France?", answers: { a: "Paris" }, correct: "" }]
+ */
 const parseQuestions = (questionText) => {
-    const lines = questionText.split('\n').filter(Boolean); // split by newline and remove empty lines
+    // Split by newline and remove empty lines
+    const lines = questionText.split('\n').filter(Boolean);
+
     let questions = [];
     let answers = {};
 
     for (let i = 0; i < lines.length; i++) {
         let line = lines[i];
 
-        if (/^\d+\./.test(line)) { // a new question starts with number.
+        // A new question starts with number.
+        if (/^\d+\./.test(line)) {
             // Add a new question with empty answers
+            // Remove number and dot from start
             questions.push({
-                text: line.slice(2).trim(), // remove number and dot from start
+                text: line.slice(2).trim(),
                 answers: {},
                 correct: ""
             });
         } else if (line.startsWith('   ')) {
-            // this line is an answer
+            // This line is an answer
             const answerKey = line.charAt(3);
             const answerText = line.slice(5).trim();
+            // Assign answers to the last question
             answers[answerKey] = answerText;
-            questions[questions.length - 1].answers = answers; // assign answers to last question
+            questions[questions.length - 1].answers = answers;
         }
     }
-
     return questions;
 }
 
+/**
+ * Parses the answers string and constructs an object with correct answers and reasons
+ * @param {string} answersText - The string of answers
+ * @returns {Object} An object containing correct answers and reasons
+ * 
+ * @example
+ * Returns { correct: ["a. Paris"], reasons: ["Because it's the most populous city in France"] }
+ */
 const parseAnswers = (answersText) => {
     // Split the input text into individual lines
     const answerLines = answersText.split('\n');
 
     // Initialize variables to hold the correct answer and the reason
-    let correctAnswer = '';
-    let reason = '';
     let correctAnswers = []
     let reasons = []
 
     // Loop over each line
     for (let line of answerLines) {
-        reason = ''
-        // Try to match the line to the pattern for a correct answer (e.g., "1. a. Some text")
+        // Try to match the line to the pattern for a correct answer
         let match = line.match(/^\s*\d+\.\s*(\w)\.\s*(.*)\s*$/);
         if (match) {
-
             // If the line matches, extract the option letter and the answer text
             const [_, option, text] = match;
-            // Set `correctAnswer` to the option letter and answer text combined (e.g., "a. Some text")
-            correctAnswer = `${option}. ${text}`;
-            correctAnswers.push(correctAnswer)
+            // Set `correctAnswer` to the option letter and answer text combined
+            correctAnswers.push(`${option}. ${text}`);
         }
 
-        // Try to match the line to the pattern for a reason (e.g., " - Some text")
+        // Try to match the line to the pattern for a reason
         match = line.match(/^\s*- (.*)$/);
         if (match) {
-
             // If the line matches, extract the reason text
             const [_, reasonText] = match;
             // Set `reason` to the reason text
-            reason = reasonText;
-            reasons.push(reason)
+            reasons.push(reasonText);
         }
     }
 
-    // Return the correct answer and the reason
+    // Return the correct answers and the reasons
     return {
         correct: correctAnswers,
         reasons,
     };
 }
 
-
+/**
+ * Parses the provided context, question and answer strings into a structured data object
+ * @param {string} context - The context string
+ * @param {string} question - The question string
+ * @param {string} [answer=null] - The answers string (optional)
+ * @returns {Object} The parsed data object
+ * @example
+ * Returns { Sections: [{ context: "World War II", questions: [{ text: "What is the capital of France?", answers: { a: "Paris" }, correct: "a. Paris", reason: "Because it's the most populous city in France" }]}]}
+ *
+ */
 const txtToData = (context, question, answer = null) => {
     let section = {
         context: parseContext(context),
         questions: parseQuestions(question)
     };
-    // This assume the correct answer was correctly 
-    //indicated in the question with * so theres no need to get answers
-    if (!answer) return section
-    // Update answers for questions
-    let answers = parseAnswers(answer);
-    for (let i = 0; i < section.questions.length; i++) {
-        if (answers.correct[i]) {
-            section.questions[i].correct = answers.correct[i];
-        }
-        if (answers.reasons[i]) {
-            section.questions[i].reason = answers.reasons[i];
-        }
-        else {
-            section.questions[i].reason = ''
+
+    // If the answer string is provided, update the answers for the questions
+    if (answer) {
+        let answers = parseAnswers(answer);
+        for (let i = 0; i < section.questions.length; i++) {
+            if (answers.correct[i]) {
+                section.questions[i].correct = answers.correct[i];
+            }
+            if (answers.reasons[i]) {
+                section.questions[i].reason = answers.reasons[i];
+            }
+            else {
+                section.questions[i].reason = ''
+            }
         }
     }
+
     let quiz = {
         Sections: [
             section
@@ -105,6 +132,7 @@ const txtToData = (context, question, answer = null) => {
     console.log(quiz)
     return quiz;
 }
+
 
 let c = ""
 let q = `
