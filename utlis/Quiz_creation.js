@@ -373,5 +373,24 @@ let a2 = `1. a. Assassination of Archduke Franz Ferdinand
 - Amelia Earhart was the first woman to fly solo across the Atlantic Ocean, in 1932.
 `
 
-txtToData(c,q,a)
-txtToData(c2,q2,a2)
+let s1 = txtToData(c,q,a)
+let s2 = txtToData(c2,q2,a2)
+
+const appendToData = async (existingData,newData) => {
+    try {
+        // console.log(existingData)
+        existingData.Section.push(...newData);
+        console.log(existingData)
+        await fsPromise.writeFile('dummyData.json', JSON.stringify(existingData, null, 2));
+        
+        console.log('Data successfully appended to file');
+        
+    } catch (error) {
+        console.error(`Error appending data to file: ${error}`);
+    }
+}
+let ed = {
+    Sections:[]
+}
+appendToData(ed,s1)
+appendToData(s1,s2)
