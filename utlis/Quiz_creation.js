@@ -1,3 +1,6 @@
+const fs = require('fs');
+const fsPromise = require('fs').promises;
+
 const parseContext = (context) => {
     return context.trim();
 }
@@ -36,7 +39,7 @@ const parseAnswers = (answersText) => {
     // Initialize variables to hold the correct answer and the reason
     let correctAnswer = '';
     let reason = '';
-    let correctAnswers =[]
+    let correctAnswers = []
     let reasons = []
 
     // Loop over each line
@@ -45,18 +48,18 @@ const parseAnswers = (answersText) => {
         // Try to match the line to the pattern for a correct answer (e.g., "1. a. Some text")
         let match = line.match(/^\s*\d+\.\s*(\w)\.\s*(.*)\s*$/);
         if (match) {
-            console.log(match)
+
             // If the line matches, extract the option letter and the answer text
             const [_, option, text] = match;
             // Set `correctAnswer` to the option letter and answer text combined (e.g., "a. Some text")
             correctAnswer = `${option}. ${text}`;
             correctAnswers.push(correctAnswer)
         }
-        
+
         // Try to match the line to the pattern for a reason (e.g., " - Some text")
         match = line.match(/^\s*- (.*)$/);
         if (match) {
-            console.log(match)
+
             // If the line matches, extract the reason text
             const [_, reasonText] = match;
             // Set `reason` to the reason text
@@ -87,12 +90,20 @@ const txtToData = (context, question, answer = null) => {
         if (answers.correct[i]) {
             section.questions[i].correct = answers.correct[i];
         }
-        if(answers.reasons[i]){
+        if (answers.reasons[i]) {
             section.questions[i].reason = answers.reasons[i];
         }
+        else {
+            section.questions[i].reason = ''
+        }
     }
-    console.log(section)
-    return section;
+    let quiz = {
+        Sections: [
+            section
+        ]
+    }
+    console.log(quiz)
+    return quiz;
 }
 
 let c = ""
@@ -191,8 +202,8 @@ let a = `
 12. a. Direct democracy
 13. a. Elected officials
 `
-let c2 =""
-let q2 =`1. What was the primary cause of World War I?
+let c2 = ""
+let q2 = `1. What was the primary cause of World War I?
 a. Assassination of Archduke Franz Ferdinand
 b. Bombing of Pearl Harbor
 c. The Great Depression
@@ -373,24 +384,25 @@ let a2 = `1. a. Assassination of Archduke Franz Ferdinand
 - Amelia Earhart was the first woman to fly solo across the Atlantic Ocean, in 1932.
 `
 
-let s1 = txtToData(c,q,a)
-let s2 = txtToData(c2,q2,a2)
+let s1 = txtToData(c, q, a)
+let s2 = txtToData(c2, q2, a2)
 
-const appendToData = async (existingData,newData) => {
+const appendToData = async (existingData, newData) => {
     try {
         // console.log(existingData)
-        existingData.Section.push(...newData);
         console.log(existingData)
+        // console.log(newData)
+        existingData.Sections.push(...newData.Sections);
         await fsPromise.writeFile('dummyData.json', JSON.stringify(existingData, null, 2));
-        
+
         console.log('Data successfully appended to file');
-        
+
     } catch (error) {
         console.error(`Error appending data to file: ${error}`);
     }
 }
 let ed = {
-    Sections:[]
+    Sections: []
 }
-appendToData(ed,s1)
-appendToData(s1,s2)
+appendToData(ed, s1)
+appendToData(s1, s2)
