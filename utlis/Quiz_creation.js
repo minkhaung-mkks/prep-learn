@@ -44,18 +44,19 @@ const parseAnswers = (answersText) => {
         reason = ''
         // Try to match the line to the pattern for a correct answer (e.g., "1. a. Some text")
         let match = line.match(/^\s*\d+\.\s*(\w)\.\s*(.*)\s*$/);
-        console.log(match)
         if (match) {
+            console.log(match)
             // If the line matches, extract the option letter and the answer text
             const [_, option, text] = match;
             // Set `correctAnswer` to the option letter and answer text combined (e.g., "a. Some text")
             correctAnswer = `${option}. ${text}`;
             correctAnswers.push(correctAnswer)
         }
-
-        // Try to match the line to the pattern for a reason (e.g., "- Some text")
-        match = line.match(/^- (.*)/);
+        
+        // Try to match the line to the pattern for a reason (e.g., " - Some text")
+        match = line.match(/^\s*- (.*)$/);
         if (match) {
+            console.log(match)
             // If the line matches, extract the reason text
             const [_, reasonText] = match;
             // Set `reason` to the reason text
@@ -85,6 +86,9 @@ const txtToData = (context, question, answer = null) => {
     for (let i = 0; i < section.questions.length; i++) {
         if (answers.correct[i]) {
             section.questions[i].correct = answers.correct[i];
+        }
+        if(answers.reasons[i]){
+            section.questions[i].reason = answers.reasons[i];
         }
     }
     console.log(section)
@@ -187,5 +191,187 @@ let a = `
 12. a. Direct democracy
 13. a. Elected officials
 `
+let c2 =""
+let q2 =`1. What was the primary cause of World War I?
+a. Assassination of Archduke Franz Ferdinand
+b. Bombing of Pearl Harbor
+c. The Great Depression
+d. The Russian Revolution
+
+2. The United Nations was founded in:
+a. 1919
+b. 1939
+c. 1945
+d. 1950
+
+3. Who was the President of the United States during the majority of the Civil Rights Movement in the 1960s?
+a. Richard Nixon
+b. Lyndon B. Johnson
+c. John F. Kennedy
+d. Dwight D. Eisenhower
+
+4. The concept of separation of powers is most closely associated with which of the following documents?
+a. The Magna Carta
+b. The U.S. Constitution
+c. The Bill of Rights
+d. The Declaration of Independence
+
+5. What economic system is characterized by private or corporate ownership of goods and means of production?
+a. Communism
+b. Socialism
+c. Capitalism
+d. Feudalism
+
+6. The Industrial Revolution began in which country?
+a. France
+b. Germany
+c. United States
+d. United Kingdom
+
+7. The Treaty of Versailles ended which conflict?
+a. World War I
+b. World War II
+c. The French Revolution
+d. The American Revolution
+
+8. Who first proposed the idea of the separation of powers?
+a. Thomas Jefferson
+b. John Locke
+c. Montesquieu
+d. Jean-Jacques Rousseau
+
+9. The Great Wall of China was primarily built as a defense against:
+a. The Mongols
+b. The Romans
+c. The Japanese
+d. The British
+
+10. The term "Cold War" refers to the political tension and non-combative rivalry that existed between which two superpowers?
+a. USA and Japan
+b. Germany and USSR
+c. USA and USSR
+d. China and USA
+
+11. The primary purpose of the Federal Reserve in the United States is to:
+a. Regulate the national defense
+b. Control the money supply and stabilize the economy
+c. Supervise healthcare policies
+d. Manage international trade policies
+
+12. Which document declared the United States' independence from Great Britain?
+a. The Emancipation Proclamation
+b. The Mayflower Compact
+c. The U.S. Constitution
+d. The Declaration of Independence
+
+13. What was the main reason for the establishment of the United Nations?
+a. To promote global free trade
+b. To maintain international peace and security
+c. To spread democracy worldwide
+d. To manage global healthcare crisis
+
+14. The phrase “Life, Liberty, and the Pursuit of Happiness” is found in:
+a. The U.S. Constitution
+b. The Declaration of Independence
+c. The Bill of Rights
+d. The Magna Carta
+
+15. The term "Iron Curtain" was used to describe:
+a. The defensive fortifications of ancient China
+b. The division between capitalist Western Europe and communist Eastern Europe during the Cold War
+c. The defense strategy of the Roman Empire
+d. The trade barrier policies of the United States in the 19th century
+
+16. The abolitionist movement in the United States focused on ending:
+a. Prohibition
+b. Segregation
+c. Slavery
+d. Women's suffrage
+
+17. In a democratic society, how are government officials usually chosen?
+a. By royal appointment
+b. By lottery selection
+c. By public vote or election
+d. By religious leaders
+
+18. The Berlin Wall was a symbol of:
+a. Nazi Germany
+b. The division between East and West Germany during the Cold War
+c. The First World War
+d. The Great Depression
+
+19. The period of intense fear of communism in the United States during the 1950s is known as:
+a. The Cold War
+b. The Red Scare
+c. McCarthyism
+d. The Berlin Crisis
+
+20. Who was the first woman to fly solo across the Atlantic Ocean?
+a. Rosa Parks
+b. Amelia Earhart
+c. Eleanor Roosevelt
+d. Margaret Thatcher
+`
+let a2 = `1. a. Assassination of Archduke Franz Ferdinand
+- The assassination of Archduke Franz Ferdinand of Austria-Hungary in 1914 was the immediate trigger of World War I.
+
+2. c. 1945
+- The United Nations was founded in 1945 after World War II to replace the League of Nations, to stop wars between countries, and to provide a platform for dialogue.
+
+3. b. Lyndon B. Johnson
+- Lyndon B. Johnson was the President of the United States from 1963 to 1969, a significant portion of the Civil Rights Movement.
+
+4. b. The U.S. Constitution
+- The U.S. Constitution introduced the principle of separation of powers into practice, providing the framework for the U.S. government.
+
+5. c. Capitalism
+- Capitalism is characterized by private or corporate ownership of goods and means of production.
+
+6. d. United Kingdom
+- The Industrial Revolution began in the United Kingdom in the late 18th century.
+
+7. a. World War I
+- The Treaty of Versailles officially ended World War I. 
+
+8. c. Montesquieu
+- Montesquieu, a French philosopher, was the one who articulated the principle of separation of powers.
+
+9. a. The Mongols
+- The Great Wall of China was mainly built as a defense against invasions by the Mongols.
+
+10. c. USA and USSR
+- The term "Cold War" refers to the political tension and non-combative rivalry that existed between the USA and the USSR from 1947 to 1991.
+
+11. b. Control the money supply and stabilize the economy
+- The primary purpose of the Federal Reserve in the United States is to control the money supply to promote effectively the goals of maximum employment, stable prices, and moderate long-term interest rates.
+
+12. d. The Declaration of Independence
+- The Declaration of Independence, adopted on July 4, 1776, declared the 13 American colonies independent from Great Britain.
+
+13. b. To maintain international peace and security
+- The United Nations was established primarily to maintain international peace and security, and to develop friendly relations among nations based on respect for equal rights and self-determination of peoples.
+
+14. b. The Declaration of Independence
+- The phrase “Life, Liberty, and the Pursuit of Happiness” is found in the United States' Declaration of Independence.
+
+15. b. The division between capitalist Western Europe and communist Eastern Europe during the Cold War
+- The term "Iron Curtain" was used by Winston Churchill in his speech in 1946 to describe the division between free capitalist Western Europe and the communist Eastern Europe during the Cold War.
+
+16. c. Slavery
+- The abolitionist movement in the United States was a movement to end slavery.
+
+17. c. By public vote or election
+- In a democratic society, government officials are usually chosen by public vote or election.
+
+18. b. The division between East and West Germany during the Cold War
+- The Berlin Wall was a symbol of the division between East and West Germany during the Cold War.
+
+19. b. The Red Scare
+- The period of intense fear of communism in the United States during the 1950s is known as the Red Scare.
+
+20. b. Amelia Earhart
+- Amelia Earhart was the first woman to fly solo across the Atlantic Ocean, in 1932.
+`
 
 txtToData(c,q,a)
+txtToData(c2,q2,a2)
