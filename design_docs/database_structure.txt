@@ -1,0 +1,79 @@
+3 main database
+Subjects:[
+    {
+        "_id": "subject1",
+        "name": "Subject Name",
+        "topics": ["Topic1", "Topic2", "Topic3"]
+    },
+    {
+        "_id": "subject2",
+        "name": "Subject Name",
+        "topics": ["Topic1", "Topic2", "Topic3"]
+    }
+]
+
+Quizs:[
+    {
+        name: String,
+        subject: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'Subject'
+        },
+        topic: String,
+        quiz_maker: String,
+        status: String,
+        date_created: Date,
+        max_score: Number,
+        sections: [
+            {
+                context: String,
+                questions:[
+                    {
+                        text: String,
+                        type: String,
+                        choices: Object,
+                        blank: String,
+                        correct: String,
+                        reason: String,
+                    },
+                    {
+                        text: String,
+                        type: String,
+                        choices: Object,
+                        blank: String,
+                        correct: String,
+                        reason: String,
+                    }
+                ]
+            }
+        ],
+    }
+]
+
+Users:[
+    {
+        email: String,
+        password: String,
+        name: String,
+        age: Number,
+        school: String,
+        class: String,
+        image_url: String,
+        quizzes_completed: [
+            {
+                quiz_id: {
+                    type: mongoose.Schema.Types.ObjectId,
+                    ref: 'Quiz'
+                },
+                score: Number,
+            },
+            {
+                quiz_id: {
+                    type: mongoose.Schema.Types.ObjectId,
+                    ref: 'Quiz'
+                },
+                score: Number,
+            },
+        ],
+    }
+]
