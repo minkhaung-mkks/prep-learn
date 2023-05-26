@@ -23,6 +23,7 @@ const parseQuestions = (questionText) => {
 
     let questions = [];
     let answers = {};
+    let reasons = []
 
     for (let i = 0; i < lines.length; i++) {
         let line = lines[i];
@@ -34,15 +35,40 @@ const parseQuestions = (questionText) => {
             questions.push({
                 text: line.slice(2).trim(),
                 answers: {},
-                correct: ""
+                correct: "",
+                reason: ""
             });
         } else if (line.startsWith('   ')) {
             // This line is an answer
             const answerKey = line.charAt(3);
             const answerText = line.slice(5).trim();
+            let isCorrect = false;
+
+            // Check if the answer ends with an asterisk
+            if (answerText.endsWith('*')) {
+                // If so, remove the asterisk and set the answer as correct
+                answerText = answerText.slice(0, -1).trim();  // remove asterisk from end
+                isCorrect = true;
+            }
+
             // Assign answers to the last question
             answers[answerKey] = answerText;
             questions[questions.length - 1].answers = answers;
+
+            // If this is the correct answer, set it
+            if (isCorrect) {
+                questions[questions.length - 1].correct = `${answerKey}. ${answerText}`;
+            }
+        }
+        else {
+            // Try to match the line to the pattern for a reason
+            match = line.match(/^\s*- (.*)$/);
+            if (match) {
+                // If the line matches, extract the reason text
+                const [_, reasonText] = match;
+                // Set `reason` to the reason text
+                questions[questions.length - 1].reason = reasonText;
+            }
         }
     }
     return questions;
@@ -117,9 +143,6 @@ const txtToData = (context, question, answer = null) => {
             }
             if (answers.reasons[i]) {
                 section.questions[i].reason = answers.reasons[i];
-            }
-            else {
-                section.questions[i].reason = ''
             }
         }
     }
@@ -417,9 +440,6 @@ let s2 = txtToData(c2, q2, a2)
 
 const appendToData = async (existingData, newData) => {
     try {
-        // console.log(existingData)
-        console.log(existingData)
-        // console.log(newData)
         existingData.Sections.push(...newData.Sections);
         await fsPromise.writeFile('dummyData.json', JSON.stringify(existingData, null, 2));
 
