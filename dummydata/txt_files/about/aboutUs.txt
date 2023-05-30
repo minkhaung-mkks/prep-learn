@@ -1,0 +1,29 @@
+Apporach
+One of the biggest hurdle any practice test provider face is the amount 
+of manpower required to both create and vet tests for quality and relevance. 
+Prep & Learn solution to this is AI, more specificaly GPT-4, using GPT-4 practice 
+tests can be made in mere minutes. Afterwards, a human instructor or myself review 
+these tests to make sure they are up to standards.
+
+One of the best parts of using GPT-4 is that it doesn’t just give answers—it also explains
+why those answers are correct. This is a real game-changer, especially for tests like RLA where 
+understanding why an answer is right can sometimes be tricky. Additionally,
+these explanations also serve as handy, bite-sized study notes, helping students remember important info.
+So with Prep & Learn, you're not just testing yourself, you're learning something new every time you take a test!
+
+Limitations
+However this doesn't come free of limitation, 
+one of the biggest is the training data cut off of GPT-4, 
+which means some informations might be incorrect and it is up to us to find out.
+
+Moreover, these AI-generated practice tests are excellent for reinforcing your study
+knowledge but aren't designed to fully prepare you for the actual exam. 
+Many of our tests serve as great refreshers for concepts you've learned,
+while the real exam always has a unique set of questions and style that might not mirror the generated tests.
+
+That's where I hope that partnerships with educational institutions would come into play. 
+With their understanding of how GED exam questions work,combined with AI-created contents, 
+Prep & learn will be able to better prepare students for their exams.
+
+There's also the unavoidable fact, that in its current state Prep & Learn is solely being worked on by me for everything from programing, 
+system design, general designs, generating tests, validating tests and fact checking for certain answers. So if you wanna change that in any way you can, feel free to contact me at minkhaung.mkks@gmail.com
