@@ -48,18 +48,19 @@ Have ideas or suggestions? I would love to hear from you! Please feel free to re
 
 ## Free Resources Used:
 
+![Prep & Learn](./public/assets/imgs/logo-no-background.png)
+
 App Logo from [logo.com](https://logo.com/)
 
-3 Vector Graphics from [Vecteezy](https://www.vecteezy.com/)
+4 Vector Graphics from [Vecteezy](https://www.vecteezy.com/)
 
 ![Studying Vector Graphic](./public/assets/imgs/590.jpg)
-![Studying Vector Graphic](./public/assets/imgs/vecteezy_flat-isometric-concept-illustration-online-study-schedule-plan_6202044.jpg)
-![Studying Vector Graphic](./public/assets/imgs/vecteezy_studying-book-illustration_18246021_108.png)
+![Studying Vector Graphic](./public/assets/imgs/AI.jpg)
+![Studying Vector Graphic](./public/assets/imgs/book.png)
+![Problem Solving Vector Graphic](./public/assets/imgs/636_generated.jpg)
 
 Attribution Text to put in the web_pages
-<a href="https://www.vecteezy.com/free-vector/studying">Studying Vectors by Vecteezy</a>
 <a href="https://www.vecteezy.com/free-png/studying">Studying PNGs by Vecteezy</a>
-<a href="https://www.vecteezy.com/free-vector/studying">Studying Vectors by Vecteezy</a>
 
 # Latest Update
 
