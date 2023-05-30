@@ -25,5 +25,8 @@ That's where I hope that partnerships with educational institutions would come i
 With their understanding of how GED exam questions work,combined with AI-created contents, 
 Prep & learn will be able to better prepare students for their exams.
 
-There's also the unavoidable fact, that in its current state Prep & Learn is solely being worked on by me for everything from programing, 
-system design, general designs, generating tests, validating tests and fact checking for certain answers. So if you wanna change that in any way you can, feel free to contact me at minkhaung.mkks@gmail.com
+There's also the unavoidable fact, that in its current state Prep & Learn is solely being worked on by 
+me for everything from programing, 
+system design, general designs, generating tests,
+ validating tests and fact checking for certain answers. 
+ So if you wanna change that in any way you can, feel free to contact me at minkhaung.mkks@gmail.com
