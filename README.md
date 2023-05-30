@@ -60,17 +60,15 @@ Have ideas or suggestions? I would love to hear from you! Please feel free to re
 
 App Logo from [logo.com](https://logo.com/)
 
-4 Vector Graphics from [Vecteezy](https://www.vecteezy.com/)
+3 Vector Graphics from [Vecteezy](https://www.vecteezy.com/)
 
 ![Studying Vector Graphic](./public/assets/imgs/590.jpg)
 ![Studying Vector Graphic](./public/assets/imgs/AI.jpg)
-![Studying Vector Graphic](./public/assets/imgs/book.png)
 ![Problem Solving Vector Graphic](./public/assets/imgs/636_generated.jpg)
 
-Attribution Text to put in the web_pages
-<a href="https://www.vecteezy.com/free-png/studying">Studying PNGs by Vecteezy</a>
+Button 5 from [Collection of Button Hover Effects codepen by David Conner](https://codepen.io/davidicus/pen/emgQKJ) as baseline for the final call to action button pulse effect.
 
-# Latest Update
+### Latest Update
 
 I recently talked with teachers at my prep school and they all expressed interest in the app, and was more than happy to contribute to it with practices and questions.
 
