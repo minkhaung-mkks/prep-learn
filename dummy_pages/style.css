@@ -67,6 +67,11 @@
     font-weight: 400;
 }
 
+.reminder{
+    width: 45%;
+    text-align: center;
+}
+
 .action_btns {
     background-color: #ffc604;
     padding: 1.5vh 3vw;
@@ -92,18 +97,18 @@
     
 }
 
-
 .LR_box{
     width: 70%;
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 4vh;   
+    margin-top: 15vh;   
 }
 
 .sub_heading{
     font-size: 1.4rem;
     color: #00C2E9;
+    padding-bottom: 2vh;
 }
 
 .graphic_art{
