@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prep & Learn</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="scroll_checker.js"></script>
 </head>
 
 <body>
@@ -124,17 +125,22 @@
             </div>
         </section>
         <section class="hero_box final_box">
+            <div class="final_box_in_view"></div>
             <h2 class="tagline">
                 Every dream begins with a step 
             </h2>
             <h2 class="tagline">
                 Let Prep & Learn be that first step on your path to success.
             </h2>
-            <button class="last_call_btn btn-5">
+            <button onclick="toggleView()" class="last_call_btn btn-5">
                 Take the first step
             </button>
         </section>
     </main>
+    <script>
+        const toggleView=()=>{
+        }
+    </script>
 </body>
 
 </html>
