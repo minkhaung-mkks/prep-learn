@@ -6,6 +6,20 @@
 
 Hi, and thanks for stopping by! This repository houses a project that I hold close to my heart. As a student who has recently returned to the education path via a GED prep school, I found a scarcity of free resources for subjects like Reasoning Through Language Arts (RLA) and Social Studies. This struggle has motivated me to develop this app, which aims to provide a free, comprehensive quiz platform for GED exam preparation.
 
+## Current Planned Timeline
+
+Please note these times are the worst possible times, In reality I hope to have everything production ready by mid July
+
+Launch of the app with just the functions to choose quizes and answer them (June 10th 2023)
+Time Quizes (June 15th 2023)
+Switch to MongoDB for data storage (June 20th 2023)
+Login with google (June 25th 2023)
+Login with other providers (July 2nd 2023)
+Login with Username & Password (Unconfirmed but possibly July 10th 2023)
+Crash Courses (July 15th 2023)
+User roles (July 23th 2023)
+Classes (August 3rd 2023)
+
 ## 🌍 Why This Matters
 
 This project is particularly dedicated to my peers in Myanmar, who often face difficulties with these subjects due to language barriers and lack of resources. I hope that this quiz app can become an invaluable tool to aid their learning and success.
