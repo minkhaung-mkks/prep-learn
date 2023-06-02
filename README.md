@@ -84,8 +84,4 @@ Button 5 from [Collection of Button Hover Effects codepen by David Conner](https
 
 ### Latest Update
 
-I recently talked with teachers at my prep school and they all expressed interest in the app, and was more than happy to contribute to it with practices and questions.
-
-I'm currently preparing the first set of questions on all the subjects except math and sending them over to the teachers to get feedback on them.
-
-I'm also thinking of making the crash courses a essential part of the app, as it maybe crucial to get more out of the practices, but since I would be the one providing them, I feel hesistant to do.
+I finally managed to fix my PC crashing due to running out of space, turns out there was 13 sec video with file size of 8gb, I dont even know how it happened. Anyway, I can finally work on my PC on days where I'm home, so that would speed up development a lot.
