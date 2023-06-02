@@ -11,23 +11,145 @@
 
 <body>
     <!-- Navbar -->
-    <!-- Buttons to select Exam Type current default is GED-->
-    <!-- Buttons to select Exam Subject only show after exam type is seleceted, default is All-->
-    <!-- dropdown to select the subject topic Only shows if subject was selected -->
-    <!-- A list of quizzes -->
-    <!-- Quiz Card with infos -->
-    <!-- Quiz left Side -->
-    <!-- Quiz maker Img -->
-    <!-- Quiz maker Name that links to their info page/ user profile -->
-    <!-- Quiz left Side End-->
-    <!-- Quiz top part -->
-    <!-- Quiz Name -->
-    <!-- Quiz Subject -->
-    <!-- Quiz topic -->
-    <!-- Show a timer if the quiz is timed -->
-    <!-- Top part end -->
-    <!-- Quiz description -->
-    <!-- Take Quiz Btn -->
+    <main id="web_page">
+        <div class="selector_btns_box">
+            <!-- Buttons to select Exam Type current default is GED-->
+            <button data-exam="GED" data class="selected_selector_btn selector_btn">
+                GED
+            </button>
+        </div>
+        <div id="GED" class="selector_btns_box">
+            <!-- Buttons to select Exam Subject only show after exam type is seleceted, default is All-->
+            <button data class="selected_selector_btn selector_btn">
+                All
+            </button>
+            <button data class="selector_btn">
+                Social Studies
+            </button>
+            <button data class="selector_btn">
+                Reasoning through Art
+            </button>
+            <button data class="selector_btn">
+                Math
+            </button>
+            <button data class="selector_btn">
+                Sciences
+            </button>
+        </div>
+
+        <div id="GEDSocialStudies" class="selector_btns_box">
+            <!-- Not sure if a dropdown is better or radio buttons would be better -->
+            <!-- dropdown to select the subject topic Only shows if subject was selected -->
+            <select name="" id="">
+                <option value="All">All</option>
+                <option value="All">Mixed</option>
+                <option value="All">Types of Government</option>
+                <option value="All">American Principal and Consitution</option>
+                <option value="All">American Goverment Strucutre</option>
+                <option value="All">American History</option>
+            </select>
+        </div>
+        <div id="GEDMath" class="selector_btns_box">
+            <!-- Not sure if a dropdown is better or radio buttons would be better -->
+            <!-- dropdown to select the subject topic Only shows if subject was selected -->
+            <select name="" id="">
+                <option value="All">All</option>
+                <option value="All">Mixed</option>
+                <option value="All">Percent & Rate</option>
+                <option value="All">Polynomial Expressions</option>
+                <option value="All">Quadratic Equations</option>
+                <option value="All">Graphs and Functions</option>
+            </select>
+        </div>
+        <div id="GEDRLA" class="selector_btns_box">
+            <!-- Not sure if a dropdown is better or radio buttons would be better -->
+            <!-- dropdown to select the subject topic Only shows if subject was selected -->
+            <select name="" id="">
+                <option value="All">All</option>
+                <option value="All">Mixed</option>
+                <option value="All">Fictional Reading Comprehension</option>
+                <option value="All">Non-Fictional Reading Comprehension</option>
+                <option value="All">Grammar</option>
+            </select>
+        </div>
+        <div id="GEDSciences" class="selector_btns_box">
+            <button data class="selected_selector_btn selector_btn">
+                All
+            </button>
+            <button data class="selector_btn">
+                Mixed
+            </button>
+            <button data class="selector_btn">
+                Chemistry
+            </button>
+            <button data class="selector_btn">
+                Physics
+            </button>
+            <button data class="selector_btn">
+                Biology
+            </button>
+            <button data class="selector_btn">
+                Earth and Space
+            </button>
+        </div>
+        <div id="GEDScience_chemistry">
+            <select name="" id="">
+
+            </select>
+        </div>
+        <div id="GEDScience_physics">
+            <select name="" id="">
+
+            </select>
+        </div>
+        <div id="GEDScience_biology">
+            <select name="" id="">
+
+            </select>
+        </div>
+        <!-- A list of quizzes -->
+        <div class="quiz_select_box">
+            <!-- Quiz Card with infos -->
+            <div class="quiz_card">
+                <!-- On the left Side -->
+                <!-- Quiz left Side -->
+                <div class="creator_info_box">
+                    <!-- Quiz maker Img -->
+                    <img src="" alt="" class="creator_img">
+                    <!-- Quiz maker Name that links to their info page/ user profile -->
+                    <a href="" class="creator_name"></a>
+                    <h5 class="creator_type"></h5>
+                </div>
+                <!-- Quiz left Side End-->
+                <!-- On The right -->
+                <div class="quiz_info_box">
+                    <!-- Quiz top part -->
+                    <div class="quiz_info_top_part">
+                        <!-- PLanned to later include icons on the right and the title and stuff on left -->
+                        <div class="quiz_title_box">
+                            <!-- Quiz Name -->
+                            <h2 class="quiz_title"></h2>
+                            <!-- Quiz Subject -->
+                            <h3 class="quiz_subject"></h3>
+                            <!-- Quiz topic -->
+                            <h5 class="quiz_topic"></h5>
+                        </div>
+                        <!-- Planned Icon -->
+                        <!-- Show a timer if the quiz is timed -->
+                    </div>
+                    <!-- Top part end -->
+                    <!-- Quiz description -->
+                    <!-- Was thinking of putting in descriptions of the quiz like a summary of the questions asked but might be too much work -->
+                    <div class="take_quiz_btn_box">
+                        <button class="take_quiz_btn">
+                            Take Test
+                        </button>
+                    </div>
+                </div>
+                <!-- Take Quiz Btn -->
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
