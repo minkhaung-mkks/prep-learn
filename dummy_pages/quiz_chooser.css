@@ -107,10 +107,6 @@ a {
     border: 1px solid black;
 }
 
-.take_quiz_btn_box {
-    /* margin-left: auto; */
-}
-
 .take_quiz_btn {
     padding: 50px 30px;
     height: auto;
