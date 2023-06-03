@@ -10,7 +10,7 @@ Hi, and thanks for stopping by! This repository houses a project that I hold clo
 
 Please note these times are the worst possible times, In reality I hope to have everything production ready by mid July
 
-Launch of the app with just the functions to choose quizes and answer them (June 10th 2023)
+Launch of the app with just the functions to choose quizes and answer them (June 10th 2023) Progess : Dummy pages all styled for desktop, I will now start working directly in Next.
 Time Quizes (June 15th 2023)
 Switch to MongoDB for data storage (June 20th 2023)
 Login with google (June 25th 2023)
