@@ -82,6 +82,8 @@ App Logo from [logo.com](https://logo.com/)
 
 Button 5 from [Collection of Button Hover Effects codepen by David Conner](https://codepen.io/davidicus/pen/emgQKJ) as baseline for the final call to action button pulse effect.
 
+Button 30 from [92 cool css buttons from CSS Scan](https://getcssscan.com/css-buttons-examples) as the baseline for take a quiz btn.
+
 ### Latest Update
 
 I finally managed to fix my PC crashing due to running out of space, turns out there was 13 sec video with file size of 8gb, I dont even know how it happened. Anyway, I can finally work on my PC on days where I'm home, so that would speed up development a lot.
