@@ -30,12 +30,27 @@
 }
 
 .selector_btn:hover,
+.dropdowns,
 .selected_selector_btn {
     background-color: #ffc604;
     color: rgb(0, 0, 0);
     font-weight: 100;
     text-rendering: optimizeLegibility;
     letter-spacing: 1px;
+}
+
+.dropdowns {
+    padding: 10px 5px;
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+option:hover {
+    background-color: #ff0000;
 }
 
 .creator_img {
