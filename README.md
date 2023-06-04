@@ -86,4 +86,6 @@ Button 30 from [92 cool css buttons from CSS Scan](https://getcssscan.com/css-bu
 
 ### Latest Update
 
-I finally managed to fix my PC crashing due to running out of space, turns out there was 13 sec video with file size of 8gb, I dont even know how it happened. Anyway, I can finally work on my PC on days where I'm home, so that would speed up development a lot.
+I finally managed to fix my PC crashing due to running out of space, turns out there was 13 sec video with file size of 8gb, I dont even know how it happened. Anyway, I can finally work on my PC on days where I'm home, so that would speed up development a lot
+
+Well so much for that, my pc died on me so I'm back to my laptop, The repair shop said it will take at least 4 days just to get an update on whats the problem, My mood is kinda really low rn so I gonna slow down development for a few days, and just focus on learning again since that doesnt require me to be passionate to progress.
