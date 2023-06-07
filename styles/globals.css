@@ -1,4 +1,33 @@
 * {
     margin: 0;
     padding: 0;
+    border: none;
+    font-family: 'Libre', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #402E32;
+}
+
+@font-face {
+    font-family: Libre;
+    src: url('../public/assets/fonts/LibreFranklin-VariableFont_wght.ttf') format('truetype');
+}
+
+@keyframes bg_gradient {
+    0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes pulse {
+    100%{
+        border: 1px solid;
+        box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+        outline-color: rgba(255, 255, 255, 0);
+        outline-offset: 15px;
+    }
 }
