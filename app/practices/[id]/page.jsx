@@ -1,10 +1,12 @@
 'use client'
-import React,{useEffect,useState} from 'react'
+import React,{useEffect,useState} from 'react';
+import '@styles/global.css'
+import '@styles/quiz.css'
 
 const PraticePage = () => {
     const [questions, setQuestions] = useState([])
     const submitTest=()=>{
-        
+
     }
     return (
         <main id="web_page">

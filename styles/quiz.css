@@ -1,0 +1,69 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#web_page {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.question_card {
+    margin: 30px 0;
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.answer_card {
+    border: 1px solid rgba(0,
+            0,
+            0,
+            0.103);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.answer_card:hover {
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.answer_box {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid;
+}
+
+.submit_btn_box {
+    display: flex;
+    justify-content: center;
+}
+
+.submit_btn {
+    color: #fff;
+    padding: 15px 80px;
+    border: none;
+    background-color: #4a03b3;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
