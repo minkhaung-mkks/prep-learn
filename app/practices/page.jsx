@@ -77,26 +77,26 @@ const PracticeListPage = () => {
         <h2 class="headings">Exam</h2>
         <div class="heading_line"></div>
         <div class="selector_btns_box">
-            <button data-exam="GED" data class="selected_selector_btn selector_btn">
+            <button data-exam="GED" class="selected_selector_btn selector_btn">
                 GED
             </button>
         </div>
         <h2 class="headings">Subject</h2>
         <div class="heading_line"></div>
         <div id="GED" class="selector_btns_box">
-            <button onClick={setSelectedSubject('All')} data class="selected_selector_btn selector_btn">
+            <button onClick={setSelectedSubject('All')} class="selected_selector_btn selector_btn">
                 All
             </button>
-            <button  onClick={setSelectedSubject('Social Studies')} data class="selector_btn">
+            <button  onClick={setSelectedSubject('Social Studies')} class="selector_btn">
                 Social Studies
             </button>
-            <button  onClick={setSelectedSubject('RLA')} data class="selector_btn">
+            <button  onClick={setSelectedSubject('RLA')} class="selector_btn">
                 Reasoning through Art
             </button>
-            <button  onClick={setSelectedSubject('Math')} data class="selector_btn">
+            <button  onClick={setSelectedSubject('Math')} class="selector_btn">
                 Math
             </button>
-            <button  onClick={setSelectedSubject('Sciences')} data class="selector_btn">
+            <button  onClick={setSelectedSubject('Sciences')} class="selector_btn">
                 Sciences
             </button>
         </div>
@@ -104,76 +104,73 @@ const PracticeListPage = () => {
         <div class="heading_line"></div>
         {selectedSubject === 'Social Studies' && (
             <div id="GEDSocialStudies" class="selector_btns_box">
-                <button onClick={selectTopics('All')} data class="selected_selector_btn selector_btn">
+                <button onClick={selectTopics('All')} class="selected_selector_btn selector_btn">
                     All
                 </button>
-                <button onClick={selectTopics('Types of Government')} data class="selector_btn">
+                <button onClick={selectTopics('Types of Government')} class="selector_btn">
                     Types of Government
                 </button>
-                <button onClick={selectTopics('American Principal and Consitution')} data class="selector_btn">
+                <button onClick={selectTopics('American Principal and Consitution')} class="selector_btn">
                     American Principal and Consitution
                 </button>
-                <button onClick={selectTopics('American Goverment Strucutre')} data class="selector_btn">
+                <button onClick={selectTopics('American Goverment Strucutre')} class="selector_btn">
                     American Goverment Strucutre
                 </button>
-                <button onClick={selectTopics('American History')} data class="selector_btn">
+                <button onClick={selectTopics('American History')} class="selector_btn">
                     American History
                 </button>
             </div>
         )}
         {selectedSubject === 'Sciences' && (
             <div id="GEDSciences" class="selector_btns_box">
-            <button data class="selected_selector_btn selector_btn">
+            <button onClick={selectTopics('All')} class="selected_selector_btn selector_btn">
                 All
             </button>
-            <button data class="selector_btn">
-                Mixed
-            </button>
-            <button data class="selector_btn">
+            <button onClick={selectTopics('Chemistry')} class="selector_btn">
                 Chemistry
             </button>
-            <button data class="selector_btn">
+            <button onClick={selectTopics('Physics')} class="selector_btn">
                 Physics
             </button>
-            <button data class="selector_btn">
+            <button onClick={selectTopics('Biology')} class="selector_btn">
                 Biology
             </button>
-            <button data class="selector_btn">
+            <button onClick={selectTopics('Earth and Space')} class="selector_btn">
                 Earth and Space
             </button>
         </div>
         )}
         {selectedSubject === 'RLA' && (
              <div id="GEDRLA" class="selector_btns_box">
-                <button data class="selected_selector_btn selector_btn">
+                <button onClick={selectTopics('All')} class="selected_selector_btn selector_btn">
                     All
                 </button>
-                <button data class="selector_btn">
+                <button onClick={selectTopics('Fictional Reading Comprehension')} class="selector_btn">
                     Fictional Reading Comprehension
                 </button>
-                <button data class="selector_btn">
+                <button onClick={selectTopics('Non-Fictional Reading Comprehension')} class="selector_btn">
                     Non-Fictional Reading Comprehension
                 </button>
-                <button data class="selector_btn">
+                <button onClick={selectTopics('Grammar')} class="selector_btn">
                     Grammar
                 </button>
             </div>
         )}
         {selectedSubject === 'Math' && (
             <div id="GEDMath" class="selector_btns_box">
-                <button data class="selected_selector_btn selector_btn">
+                <button onClick={selectTopics('All')} class="selected_selector_btn selector_btn">
                     All
                 </button>
-                <button data class="selector_btn">
+                <button onClick={selectTopics('Percent & Rate')} class="selector_btn">
                     Percent & Rate
                 </button>
-                <button data class="selector_btn">
+                <button onClick={selectTopics('Polynomial Expressions')} class="selector_btn">
                     Polynomial Expressions
                 </button>
-                <button data class="selector_btn">
+                <button  onClick={selectTopics('Quadratic Equations')} class="selector_btn">
                     Quadratic Equations
                 </button>
-                <button data class="selector_btn">
+                <button onClick={selectTopics('Graphs and Functions')} class="selector_btn">
                     Graphs and Functions
                 </button>
             </div>
@@ -185,44 +182,32 @@ const PracticeListPage = () => {
                 <div class="heading_line"></div>
                 {selectedTopics.includes('Chemistry') && (
                     <div id="GEDScience_chemistry" class="selector_btns_box">
-                        <button data class="selected_selector_btn selector_btn">
+                        <button onClick={selectSubTopics('All')} class="selected_selector_btn selector_btn">
                             All
-                        </button>
-                        <button data class="selector_btn">
-                            Mixed
                         </button>
                     </div>
                     )
                 }
                 {selectedTopics.includes('Biology') && (
                     <div id="GEDScience_biology" class="selector_btns_box">
-                        <button data class="selected_selector_btn selector_btn">
+                        <button onClick={selectSubTopics('All')} class="selected_selector_btn selector_btn">
                             All
-                        </button>
-                        <button data class="selector_btn">
-                            Mixed
                         </button>
                     </div>
                     )
                 }
                 {selectedTopics.includes('Physics') && (
                     <div id="GEDScience_physics" class="selector_btns_box">
-                        <button data class="selected_selector_btn selector_btn">
+                        <button onClick={selectSubTopics('All')} class="selected_selector_btn selector_btn">
                             All
-                        </button>
-                        <button data class="selector_btn">
-                            Mixed
                         </button>
                     </div>
                     )
                 }
                 {selectedTopics.includes('EarthAndScience') && (
                     <div id="GEDScience_EarthAndSpace" class="selector_btns_box">
-                        <button data class="selected_selector_btn selector_btn">
+                        <button onClick={selectSubTopics('All')} class="selected_selector_btn selector_btn">
                             All
-                        </button>
-                        <button data class="selector_btn">
-                            Mixed
                         </button>
                     </div>
                     )
