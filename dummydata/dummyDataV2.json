@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "name": "Quiz 1",
+        "subject": "Social Studies",
+        "topic": "Types of Government",
+        "sub_topic": "Monarchy",
+        "difficulty": "Easy",
+        "Creator": "Prep & Learn",
+        "CreatorID": "Prep & Learn",
+        "Type": "Normal",
+        "Source": "Generated",
+        "sections": [
+            {
+                "context": "Section 1 context",
+                "questions": [
+                    {
+                        "text": "A system where a single authority, like a monarch, exercises absolute power is known as:",
+                        "answers": {
+                            "a": "Elected officials",
+                            "b": "All citizens",
+                            "c": "The monarch",
+                            "d": "The military"
+                        },
+                        "correct": "c. Autocracy",
+                        "reason": "An autocracy is a system of government in which supreme power is concentrated in the hands of one person."
+                    },
+                    {
+                        "text": "The United States government is best characterized as a:",
+                        "answers": {
+                            "a": "Elected officials",
+                            "b": "All citizens",
+                            "c": "The monarch",
+                            "d": "The military"
+                        },
+                        "correct": "c. Federal republic",
+                        "reason": "The U.S. government is characterized as a federal republic because it is both a federation (states have power) and republic (representatives are elected)."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Quiz 2",
+        "subject": "Sciences",
+        "topic": "Chemistry",
+        "sub_topic": "Atomic Structure",
+        "difficulty": "Hard",
+        "sections": [
+            {
+                "context": "Section 1 context",
+                "questions": [
+                    {
+                        "text": "What is the charge of a proton?",
+                        "answers": {
+                            "a": "Positive",
+                            "b": "Negative",
+                            "c": "Neutral",
+                            "d": "None of the above"
+                        },
+                        "correct": "a. Positive",
+                        "reason": "In atomic structure, a proton carries a positive charge."
+                    },
+                    {
+                        "text": "What is the charge of an electron?",
+                        "answers": {
+                            "a": "Positive",
+                            "b": "Negative",
+                            "c": "Neutral",
+                            "d": "None of the above"
+                        },
+                        "correct": "b. Negative",
+                        "reason": "In atomic structure, an electron carries a negative charge."
+                    }
+                ]
+            }
+        ]
+    }
+]
