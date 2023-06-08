@@ -1,6 +1,9 @@
 'use client'
 import React,{useEffect,useState} from 'react'
 import Image from 'next/image'
+import Link from 'next/link';
+import { useRouter } from "next/navigation";
+
 
 const PracticeListPage = () => {
     const [quizzes, setQuizzes] = useState([]);
@@ -9,6 +12,10 @@ const PracticeListPage = () => {
     const [selectedTopics, setSelectedTopics] = useState([]); 
     const [selectedSubTopics, setSelectedSubTopics] = useState([]); 
 
+  const router = useRouter();
+
+
+    
     const selectSubTopics = (sub_topic) =>{
         // When provided a function on setState, react calls the function with the current State
         // so setSelectedSubTopic(prev => prev + topic) = setSelectedSubTopic((prev)=> prev + topic)
@@ -21,6 +28,10 @@ const PracticeListPage = () => {
             setSelectedSubTopics([]);
         }
         
+    }
+
+    const takeQuiz = (id)=>{
+        router.push(`/practices/${id}`)
     }
     useEffect(()=>{
         const retriveData = async ()=>{
@@ -40,8 +51,9 @@ const PracticeListPage = () => {
     
                 // Filter by selected subtopics if any subtopic is selected
                 if(selectedSubTopics.length > 0){
-                    data = data.filter(quiz=> selectedSubTopics.includes(quiz.subTopic))
+                    data = data.filter(quiz=> selectedSubTopics.includes(quiz.sub_topic))
                 }
+
     
                 setQuizzes(data);
             } catch (error) {
@@ -81,7 +93,7 @@ const PracticeListPage = () => {
         </div>
         <h2 class="headings">Topic</h2>
         <div class="heading_line"></div>
-        ${selectedSubject === 'Social Studies' && (
+        {selectedSubject === 'Social Studies' && (
             <div id="GEDSocialStudies" class="selector_btns_box">
                 <button data class="selected_selector_btn selector_btn">
                     All
@@ -103,7 +115,7 @@ const PracticeListPage = () => {
                 </button>
             </div>
         )}
-        ${selectedSubject === 'Sciences' && (
+        {selectedSubject === 'Sciences' && (
             <div id="GEDSciences" class="selector_btns_box">
             <button data class="selected_selector_btn selector_btn">
                 All
@@ -125,7 +137,7 @@ const PracticeListPage = () => {
             </button>
         </div>
         )}
-        ${selectedSubject === 'RLA' && (
+        {selectedSubject === 'RLA' && (
              <div id="GEDRLA" class="selector_btns_box">
                 <button data class="selected_selector_btn selector_btn">
                     All
@@ -144,7 +156,7 @@ const PracticeListPage = () => {
                 </button>
             </div>
         )}
-        ${selectedSubject === 'Math' && (
+        {selectedSubject === 'Math' && (
             <div id="GEDMath" class="selector_btns_box">
                 <button data class="selected_selector_btn selector_btn">
                     All
@@ -167,11 +179,11 @@ const PracticeListPage = () => {
             </div>
         )}
         
-        ${selectedSubject === 'Sciences' && (
+        {selectedSubject === 'Sciences' && (
             <>
                 <h2 class="headings">Sub-Topic</h2>
                 <div class="heading_line"></div>
-                ${selectedTopics.includes('Chemistry') && (
+                {selectedTopics.includes('Chemistry') && (
                     <div id="GEDScience_chemistry" class="selector_btns_box">
                         <button data class="selected_selector_btn selector_btn">
                             All
@@ -182,7 +194,7 @@ const PracticeListPage = () => {
                     </div>
                     )
                 }
-                ${selectedTopics.includes('Biology') && (
+                {selectedTopics.includes('Biology') && (
                     <div id="GEDScience_biology" class="selector_btns_box">
                         <button data class="selected_selector_btn selector_btn">
                             All
@@ -193,7 +205,7 @@ const PracticeListPage = () => {
                     </div>
                     )
                 }
-                ${selectedTopics.includes('Physics') && (
+                {selectedTopics.includes('Physics') && (
                     <div id="GEDScience_physics" class="selector_btns_box">
                         <button data class="selected_selector_btn selector_btn">
                             All
@@ -204,7 +216,7 @@ const PracticeListPage = () => {
                     </div>
                     )
                 }
-                ${selectedTopics.includes('EarthAndScience') && (
+                {selectedTopics.includes('EarthAndScience') && (
                     <div id="GEDScience_EarthAndSpace" class="selector_btns_box">
                         <button data class="selected_selector_btn selector_btn">
                             All
@@ -221,25 +233,29 @@ const PracticeListPage = () => {
         
        
         <div class="quiz_select_box">
-            <div class="quiz_card">
+            {quizzes.map((quiz, index)=>(
+                <div key={index} class="quiz_card">
                 
                 <div class="creator_info_box">
                     <Image src="../public/assets/preplearn-website-favicon-color.png" alt="" class="creator_img"/>
                     
-                    <a href="" class="creator_name">Prep & Learn</a>
+                    <a href={`../users/{quiz.creatorID}`} class="creator_name">{quiz.creator}</a>
                     <h5 class="creator_type"></h5>
-                    <h4 class="quiz_type"> Generated Quiz</h4>
+                    <h4 class="quiz_type"> {quiz.source}</h4>
                 </div>
                 
                 <div class="quiz_info_box">
                     
                     <div class="quiz_title_box">
                        
-                        <h2 class="quiz_title">Practice Test # 1</h2>
+                        <h2 class="quiz_title">{quiz.name}</h2>
                        
-                        <h3 class="quiz_subject">Subject : Social Studies</h3>
+                        <h3 class="quiz_subject">Subject : {quiz.subject}</h3>
                         
-                        <h3 class="quiz_topic"> Topic : Types of Government</h3>
+                        <h3 class="quiz_topic">Topic : {quiz.topic}</h3>
+                        {quiz.sub_topic !== "" && 
+                            <h3 class="quiz_topic">Sub Topic {quiz.sub_topic}</h3>
+                        }
                     </div>
                     
                 </div>
@@ -247,21 +263,22 @@ const PracticeListPage = () => {
                     
                     <div class="quiz_title_box">
                         
-                        <h3 class="quiz_title">Difficulty : Easy</h3>
+                        <h3 class="quiz_title">Difficulty : {quiz.difficulty}</h3>
                        
-                        <h3 class="quiz_subject">Questions : 40 questions</h3>
+                        <h3 class="quiz_subject">Questions : {quiz.total_questions} questions</h3>
                         
-                        <h3 class="quiz_topic"> Ideal Time : 10 Mins</h3>
+                        <h3 class="quiz_topic"> Ideal Time : {quiz.ideal_time} Mins</h3>
                     </div>
                     
                 </div>
                 <div class="take_quiz_btn_box">
-                    
-                    <button class="take_quiz_btn">
+                    <button onClick={takeQuiz(quiz.id)} class="take_quiz_btn">
                         Start
                     </button>
                 </div>
             </div>
+            ))}
+            
         </div>
     </main>
     )
