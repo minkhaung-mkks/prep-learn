@@ -19,15 +19,24 @@ const PracticeListPage = () => {
     const selectSubTopics = (sub_topic) =>{
         // When provided a function on setState, react calls the function with the current State
         // so setSelectedSubTopic(prev => prev + topic) = setSelectedSubTopic((prev)=> prev + topic)
-        setSelectedSubTopics((prev)=>[...prev,sub_topic])
+        if(sub_topic !== 'All'){
+            setSelectedSubTopics((prev)=>[...prev,sub_topic])
+        }
+        else{
+            setSelectedSubTopics([])
+        }
     }
 
     const selectTopics = (topic)=>{
-        setSelectedTopics((prev)=>[...prev,topic])
         if (topic !== 'Sciences') {
             setSelectedSubTopics([]);
         }
-        
+        if(topic !== 'All'){
+            setSelectedTopics((prev)=>[...prev,topic])
+        }
+        else{
+            setSelectedTopics([])
+        }
     }
 
     const takeQuiz = (id)=>{
@@ -46,12 +55,12 @@ const PracticeListPage = () => {
     
                 // Filter by selected topics if any topic is selected
                 if (selectedTopics.length > 0) {
-                    data = data.filter(quiz => selectedTopics.includes(quiz.topic));
-                }
-    
+                    data = data.filter(quiz => quiz.topic.some(topic => selectedTopics.includes(topic)));
+                }    
+                
                 // Filter by selected subtopics if any subtopic is selected
                 if(selectedSubTopics.length > 0){
-                    data = data.filter(quiz=> selectedSubTopics.includes(quiz.sub_topic))
+                    data = data.filter(quiz=> quiz.sub_topic.some(subTopic => selectedSubTopics.includes(subTopic)))
                 }
 
     
@@ -75,19 +84,19 @@ const PracticeListPage = () => {
         <h2 class="headings">Subject</h2>
         <div class="heading_line"></div>
         <div id="GED" class="selector_btns_box">
-            <button data class="selected_selector_btn selector_btn">
+            <button onClick={setSelectedSubject('All')} data class="selected_selector_btn selector_btn">
                 All
             </button>
-            <button data class="selector_btn">
+            <button  onClick={setSelectedSubject('Social Studies')} data class="selector_btn">
                 Social Studies
             </button>
-            <button data class="selector_btn">
+            <button  onClick={setSelectedSubject('RLA')} data class="selector_btn">
                 Reasoning through Art
             </button>
-            <button data class="selector_btn">
+            <button  onClick={setSelectedSubject('Math')} data class="selector_btn">
                 Math
             </button>
-            <button data class="selector_btn">
+            <button  onClick={setSelectedSubject('Sciences')} data class="selector_btn">
                 Sciences
             </button>
         </div>
@@ -95,22 +104,19 @@ const PracticeListPage = () => {
         <div class="heading_line"></div>
         {selectedSubject === 'Social Studies' && (
             <div id="GEDSocialStudies" class="selector_btns_box">
-                <button data class="selected_selector_btn selector_btn">
+                <button onClick={selectTopics('All')} data class="selected_selector_btn selector_btn">
                     All
                 </button>
-                <button data class="selector_btn">
-                    Mixed
-                </button>
-                <button data class="selector_btn">
+                <button onClick={selectTopics('Types of Government')} data class="selector_btn">
                     Types of Government
                 </button>
-                <button data class="selector_btn">
+                <button onClick={selectTopics('American Principal and Consitution')} data class="selector_btn">
                     American Principal and Consitution
                 </button>
-                <button data class="selector_btn">
+                <button onClick={selectTopics('American Goverment Strucutre')} data class="selector_btn">
                     American Goverment Strucutre
                 </button>
-                <button data class="selector_btn">
+                <button onClick={selectTopics('American History')} data class="selector_btn">
                     American History
                 </button>
             </div>
@@ -143,9 +149,6 @@ const PracticeListPage = () => {
                     All
                 </button>
                 <button data class="selector_btn">
-                    Mixed
-                </button>
-                <button data class="selector_btn">
                     Fictional Reading Comprehension
                 </button>
                 <button data class="selector_btn">
@@ -160,9 +163,6 @@ const PracticeListPage = () => {
             <div id="GEDMath" class="selector_btns_box">
                 <button data class="selected_selector_btn selector_btn">
                     All
-                </button>
-                <button data class="selector_btn">
-                    Mixed
                 </button>
                 <button data class="selector_btn">
                     Percent & Rate
