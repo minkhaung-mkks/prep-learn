@@ -1,15 +1,18 @@
 [
     {
         "id": 1,
-        "name": "Quiz 1",
+        "name": "Types of Government Quiz, GED Social Studies",
         "subject": "Social Studies",
+        "exam":"GED",
         "topic": "Types of Government",
         "sub_topic": "Monarchy",
         "difficulty": "Easy",
-        "Creator": "Prep & Learn",
-        "CreatorID": "Prep & Learn",
-        "Type": "Normal",
-        "Source": "Generated",
+        "creator": "Prep & Learn",
+        "creatorID": "Prep & Learn",
+        "type": "Normal",
+        "ideal_time":3,
+        "total_questions":2,
+        "source": "Generated",
         "sections": [
             {
                 "context": "Section 1 context",
