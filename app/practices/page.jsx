@@ -3,14 +3,11 @@ import React,{useEffect,useState} from 'react'
 import Image from 'next/image'
 
 const PracticeListPage = () => {
+    const [quizzes, setQuizzes] = useState([]);
     const [selecetdExam, setSelecetdExam]=useState("GED")
     const [selectedSubject, setSelectedSubject] = useState('All');
     const [selectedTopics, setSelectedTopics] = useState([]); 
     const [selectedSubTopics, setSelectedSubTopics] = useState([]); 
-
-    const selectTopics = (topic)=>{
-        setSelectedTopics((prev)=>[...prev,sub_topic])
-    }
 
     const selectSubTopics = (sub_topic) =>{
         // When provided a function on setState, react calls the function with the current State
@@ -18,14 +15,41 @@ const PracticeListPage = () => {
         setSelectedSubTopics((prev)=>[...prev,sub_topic])
     }
 
-    const retriveData = ()=>{
-        // Get Quizzes
-            // Fliter Quiz based on Subject
-                // Fliter out by Selected Topics
+    const selectTopics = (topic)=>{
+        setSelectedTopics((prev)=>[...prev,topic])
+        if (topic !== 'Sciences') {
+            setSelectedSubTopics([]);
+        }
+        
     }
-
     useEffect(()=>{
+        const retriveData = async ()=>{
+            try {
+                const response = await fetch('../../dummydata/dummyData.json');
+                const data = await response.json();
+    
+                // Filter by selected subject if it's not 'All'
+                if (selectedSubject !== 'All') {
+                    data = data.filter(quiz => quiz.subject === selectedSubject);
+                }
+    
+                // Filter by selected topics if any topic is selected
+                if (selectedTopics.length > 0) {
+                    data = data.filter(quiz => selectedTopics.includes(quiz.topic));
+                }
+    
+                // Filter by selected subtopics if any subtopic is selected
+                if(selectedSubTopics.length > 0){
+                    data = data.filter(quiz=> selectedSubTopics.includes(quiz.subTopic))
+                }
+    
+                setQuizzes(data);
+            } catch (error) {
+                console.error('Error fetching quiz data: ', error);
+            }
+        }
         retriveData();
+    
     },[selectedSubject,selectedTopics,selectedSubTopics])
     return (
         <main id="web_page">
