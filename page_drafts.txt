@@ -1,9 +1,0 @@
-Home Page => Have Name, Tagline and the intention of the app. A button to go to the quizzes.
-Quizzes Page => Choose from a list of quizzes(Stored inside the json file/database), Functions: filter by Subject, question count, Topic.
-Quiz Page => {id} as a param, display the sections of the quize.
-
-Compoments
-Quiz Card => Contains quiz name, question count, subject,(?topic),author of the quiz, a button to take the quiz.
-Section Card => Contains 2 addtional Components 
- => Question Card => Contains a question and a radio button type answers, you can choose 1.
- => Context Card (Used to provide additional info esp on RLA questions(passages)) 
