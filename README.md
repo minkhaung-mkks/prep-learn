@@ -10,14 +10,15 @@ Hi, and thanks for stopping by! This repository houses a project that I hold clo
 
 Please note these times are the worst possible times, In reality I hope to have everything production ready by mid July
 
-Launch of the app with just the functions to choose quizes and answer them (June 10th 2023) Progess : All the necessary functions are done but not tested since my laptop cant handle next without crashing, I will get my pc back in a week or so.
-Time Quizes (June 15th 2023)
-Switch to MongoDB for data storage (June 20th 2023)
-Login with google (June 25th 2023)
-Login with other providers (July 2nd 2023)
-Login with Username & Password (Unconfirmed but possibly July 10th 2023)
-Crash Courses (July 15th 2023)
-User roles (July 23th 2023)
+## A Little Delayed due to pc problems
+
+Launch of the app with just the functions to choose quizes and answer them (June 15th 2023) Progess : All the necessary functions are done but not tested since my laptop cant handle next without crashing, I will get my pc back in a week or so.
+Time Quizes (June 20th 2023)
+Switch to MongoDB for data storage (June 30th 2023)
+Login with google (July 5th 2023)
+Login with other providers (July 10th 2023)
+Crash Courses (July 20th 2023) Unsure
+User roles (July 23th 2023) Unsure
 Classes (August 3rd 2023)
 
 ## 🌍 Why This Matters
