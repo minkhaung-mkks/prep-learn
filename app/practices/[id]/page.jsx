@@ -2,6 +2,7 @@
 import React,{useEffect,useState} from 'react';
 import '@styles/global.css'
 import '@styles/quiz.css'
+import QuestionCard from '@components/QuestionCard';
 
 const PraticePage = () => {
     const [quiz, setQuiz] = useState([])
@@ -129,29 +130,7 @@ const PraticePage = () => {
                 </div>
                 {
                     section.quiz.map((question, qIndex)=>{
-                        <div class="question_card">
-                            <h3 class="question">
-                                {question.text}
-                            </h3>
-                            <div class="answers_box">
-                                <div onClick={toggleRadio(index,qIndex)} className="radioContainer">
-                                    <input class="answers" type="radio" value="a" name={question.text} id="A"/>
-                                    <label for="A">{quiz.answers.a}</label>
-                                </div>
-                                <div onClick={toggleRadio(index,qIndex)} className="radioContainer">
-                                    <input class="answers" type="radio" value="b" name={question.text} id="B"/>
-                                    <label for="B">{quiz.answers.b}</label>
-                                </div>
-                                <div onClick={toggleRadio(index,qIndex)} className="radioContainer">
-                                    <input class="answers" type="radio" value="c" name={question.text} id="C"/>
-                                    <label for="C">{quiz.answers.c}</label>
-                                </div>
-                                <div onClick={toggleRadio(index,qIndex)} className="radioContainer">
-                                    <input class="answers" type="radio" value="d" name={question.text} id="D"/>
-                                    <label for="D">{quiz.answers.d}</label>
-                                </div>
-                            </div>
-                        </div>
+                        <QuestionCard question={question} qIndex={qIndex} index={index} toggleRadio={toggleRadio}/>
                     })
                 }
                 </>
