@@ -64,7 +64,7 @@ const PraticePage = () => {
         }
         retriveData();
     
-    },[])
+    },[quizId])
     const handleOptionChange = (answer, sectionIndex, questionIndex) => {
         setAnswers(prevAnswers => ({
             ...prevAnswers,
