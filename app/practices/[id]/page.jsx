@@ -4,9 +4,10 @@ import '@styles/global.css'
 import '@styles/quiz.css'
 import QuestionCard from '@components/QuestionCard';
 
-const PraticePage = () => {
-    const [quiz, setQuiz] = useState([])
+const PraticePage = ({params}) => {
+    const [quiz, setQuiz] = useState({})
     const firstUpdate = useRef(true);
+    const quizFetch = useRef(false);
     const [answers, setAnswers] = useState({});
     const [showScore, setShowScore] = useState(false);
     const [score, setScore] = useState(null);
@@ -17,12 +18,14 @@ const PraticePage = () => {
     useEffect(()=>{
         const retriveData = async ()=>{
             try {
-                const response = await fetch('../../dummydata/dummyData.json');
+                const response = await fetch('../dummydata/dummyData.json');
                 let data = await response.json();
-
+                console.log(data)
                 data = data.filter(quiz=> quiz.id === quizId)
+                console.log(data)
+                console.log(data[0].sections)
                 let totalQuestions = 0;
-                data.sections.forEach((section) => {
+                data[0].sections.forEach((section) => {
                     totalQuestions += section.questions.length;
             });
 
@@ -35,13 +38,13 @@ const PraticePage = () => {
                 /**
                     * Initializes `initialAnswers` to store user's answers.
                     * 
-                    * 1. `reduce` is used on `data.Sections` to create an object from the array.
+                    * 1. `reduce` is used on `data[0].Sections` to create an object from the array.
                     * 2. In each iteration, the callback returns a new object that merges the accumulator object (`acc`) and a new property, where key is the section index (`[i]`), and value is another object.
                     * 3. The value object is created by reducing the `questions` array of the current section. It returns an object with an empty string for each unanswered question. 
                     * 4. `acc, _, j` in the inner `reduce` represents the accumulator (object being built), the current question (ignored - `_`), and the question index (`j`).
                     * 5. `initialAnswers` structure is { sectionIndex: { questionIndex: answer }, ...}, where answer is an empty string for an unanswered question.
                 */
-                initialAnswers = data.Sections.reduce(
+                initialAnswers = data[0].sections.reduce(
                     (acc, section, i) => ({
                         ...acc,
                         [i]: section.questions.reduce(
@@ -55,7 +58,8 @@ const PraticePage = () => {
 
 
             console.log(initialAnswers)
-            setQuiz(data);
+            setQuiz(data[0]);
+            quizFetch.current = true;
             setTotalScore(totalQuestions)
             setAnswers(initialAnswers);
             } catch (error) {
@@ -75,9 +79,9 @@ const PraticePage = () => {
         }));
     };
 
-    const toggleRadio = (sectionIndex,questionIndex)=>{
+    const toggleRadio = (event,sectionIndex,questionIndex)=>{
+        const clickedElement = event.target;
         const radioButton = clickedElement.querySelector('input[type="radio"]');
-
         if (radioButton) {
             // Select the radio button
             radioButton.checked = true;
@@ -108,7 +112,6 @@ const PraticePage = () => {
             firstUpdate.current = false;
             return;
         }
-
         // Save to local storage whenever answers change
         localStorage.setItem('answers', JSON.stringify(answers));
     }, [answers]);
@@ -118,23 +121,24 @@ const PraticePage = () => {
 
         </div>
         <form onSubmit={handleSubmit} className="quiz_box">
-            {quiz.sections.map((section, index) => {
-                <>
-                <h2 className="section_title">
-                    Section {index+1}
-                </h2>
-                <div className="context_box">
-                    <p className="contenxt">
-                        {section.context}
-                    </p>
+            {console.log(quiz)}
+            {quizFetch.current && quiz.sections.map((section, index) => (
+                <div key={index}>
+                    <h2 className="section_title">
+                        Section {index}
+                    </h2>
+                    <div className="context_box">
+                        <p className="contenxt">
+                            {section.context}
+                        </p>
+                    </div>
+                    {
+                        section.questions.map((question, qIndex)=>(
+                            <QuestionCard key={qIndex} question={question} qIndex={qIndex} index={index} toggleRadio={toggleRadio} answer={answers[index][qIndex]} />
+                        ))
+                    }
                 </div>
-                {
-                    section.quiz.map((question, qIndex)=>{
-                        <QuestionCard question={question} qIndex={qIndex} index={index} toggleRadio={toggleRadio}/>
-                    })
-                }
-                </>
-            })}
+            ))}
         </form>
         <div className="submit_btn_box">
             <button type="submit" className="submit_btn">Submit</button>
