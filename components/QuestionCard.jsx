@@ -5,7 +5,7 @@ const QuestionCard = ({ question, qIndex, index, toggleRadio, answer }) => {
     <div className="question_card">
       <h3 className="question">{question.text}</h3>
       <div className="answers_box">
-        <div onClick={(e) => toggleRadio(e, index, qIndex)} className={`radioContainer ${answer === "a" ? "checkedContainer" : ""}`}>
+        <div onClick={(e) => toggleRadio(e, index, qIndex)} className={`radio_container ${answer === "a" ? "checked_container" : ""}`}>
           <input
             className="answers"
             type="radio"
@@ -16,7 +16,7 @@ const QuestionCard = ({ question, qIndex, index, toggleRadio, answer }) => {
           />
           <label htmlFor="A">{question.answers.a}</label>
         </div>
-        <div onClick={(e) => toggleRadio(e, index, qIndex)} className={`radioContainer ${answer === "b" ? "checkedContainer" : ""}`}>
+        <div onClick={(e) => toggleRadio(e, index, qIndex)} className={`radio_container ${answer === "b" ? "checked_container" : ""}`}>
           <input
             className="answers"
             type="radio"
@@ -27,7 +27,7 @@ const QuestionCard = ({ question, qIndex, index, toggleRadio, answer }) => {
           />
           <label htmlFor="B">{question.answers.b}</label>
         </div>
-        <div onClick={(e) => toggleRadio(e, index, qIndex)} className={`radioContainer ${answer === "c" ? "checkedContainer" : ""}`}>
+        <div onClick={(e) => toggleRadio(e, index, qIndex)} className={`radio_container ${answer === "c" ? "checked_container" : ""}`}>
           <input
             className="answers"
             type="radio"
@@ -38,7 +38,7 @@ const QuestionCard = ({ question, qIndex, index, toggleRadio, answer }) => {
           />
           <label htmlFor="C">{question.answers.c}</label>
         </div>
-        <div onClick={(e) => toggleRadio(e, index, qIndex)} className={`radioContainer ${answer === "d" ? "checkedContainer" : ""}`}>
+        <div onClick={(e) => toggleRadio(e, index, qIndex)} className={`radio_container ${answer === "d" ? "checked_container" : ""}`}>
           <input
             className="answers"
             type="radio"
