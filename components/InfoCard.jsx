@@ -1,12 +1,17 @@
 import React from 'react'
 import Image from 'next/image'
+import { useRouter } from 'next/navigation';
 
 const InfoCard = ({index,quiz}) => {
+    const router = useRouter();
+    const takeQuiz = (id)=>{
+        router.push(`/practices/${id}`)
+    }
     return (
         <div class="quiz_card">
                 
                 <div class="creator_info_box">
-                    <Image src="../public/assets/preplearn-website-favicon-color.png" alt="" class="creator_img"/>
+                    <Image width={50} height={50} src="/assets/preplearn-website-favicon-color.png" alt="" class="creator_img"/>
                     
                     <a href={`../users/{quiz.creatorID}`} class="creator_name">{quiz.creator}</a>
                     <h5 class="creator_type"></h5>
@@ -41,7 +46,7 @@ const InfoCard = ({index,quiz}) => {
                     
                 </div>
                 <div class="take_quiz_btn_box">
-                    <button onClick={takeQuiz(quiz.id)} class="take_quiz_btn">
+                    <button onClick={()=>takeQuiz(quiz.id)} class="take_quiz_btn">
                         Start
                     </button>
                 </div>
