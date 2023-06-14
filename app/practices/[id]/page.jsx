@@ -94,9 +94,10 @@ const PraticePage = ({params}) => {
     const handleSubmit = e => {
         e.preventDefault();
         let totalScore = 0;
-
-        sections.forEach((section, i) => {
+        quiz.sections.forEach((section, i) => {
             section.questions.forEach((question, j) => {
+                console.log(question.correct)
+                console.log(answers[i][j])
                 if (answers[i][j] === question.correct) {
                     totalScore++;
                 }
@@ -139,10 +140,10 @@ const PraticePage = ({params}) => {
                     }
                 </div>
             ))}
+            <div className="submit_btn_box">
+                <button type="submit" className="submit_btn">Submit</button>
+            </div>
         </form>
-        <div className="submit_btn_box">
-            <button type="submit" className="submit_btn">Submit</button>
-        </div>
         {showScore && <h1>Your Score: {score}/{totalScore}</h1>}
         <div className="timer_box">
 
