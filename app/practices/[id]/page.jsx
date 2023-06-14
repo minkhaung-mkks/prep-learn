@@ -18,7 +18,7 @@ const PraticePage = () => {
         const retriveData = async ()=>{
             try {
                 const response = await fetch('../../dummydata/dummyData.json');
-                const data = await response.json();
+                let data = await response.json();
 
                 data = data.filter(quiz=> quiz.id === quizId)
                 let totalQuestions = 0;
@@ -114,17 +114,17 @@ const PraticePage = () => {
     }, [answers]);
     return (
         <main id="web_page">
-        <div class="quiz_info_box">
+        <div className="quiz_info_box">
 
         </div>
-        <form onSubmit={handleSubmit} class="quiz_box">
+        <form onSubmit={handleSubmit} className="quiz_box">
             {quiz.sections.map((section, index) => {
                 <>
-                <h2 class="section_title">
+                <h2 className="section_title">
                     Section {index+1}
                 </h2>
-                <div class="context_box">
-                    <p class="contenxt">
+                <div className="context_box">
+                    <p className="contenxt">
                         {section.context}
                     </p>
                 </div>
@@ -136,11 +136,11 @@ const PraticePage = () => {
                 </>
             })}
         </form>
-        <div class="submit_btn_box">
-            <button type="submit" class="submit_btn">Submit</button>
+        <div className="submit_btn_box">
+            <button type="submit" className="submit_btn">Submit</button>
         </div>
         {showScore && <h1>Your Score: {score}/{totalScore}</h1>}
-        <div class="timer_box">
+        <div className="timer_box">
 
         </div>
         </main>
