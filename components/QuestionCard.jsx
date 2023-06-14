@@ -5,7 +5,7 @@ const QuestionCard = ({question,qIndex,index, toggleRadio}) => {
     <div class="question_card">
       <h3 class="question">{question.text}</h3>
       <div class="answers_box">
-        <div onClick={toggleRadio(index, qIndex)} className="radioContainer">
+        <div onClick={()=>toggleRadio(index, qIndex)} className="radioContainer">
           <input
             class="answers"
             type="radio"
@@ -15,7 +15,7 @@ const QuestionCard = ({question,qIndex,index, toggleRadio}) => {
           />
           <label for="A">{question.answers.a}</label>
         </div>
-        <div onClick={toggleRadio(index, qIndex)} className="radioContainer">
+        <div onClick={()=>toggleRadio(index, qIndex)} className="radioContainer">
           <input
             class="answers"
             type="radio"
@@ -25,7 +25,7 @@ const QuestionCard = ({question,qIndex,index, toggleRadio}) => {
           />
           <label for="B">{question.answers.b}</label>
         </div>
-        <div onClick={toggleRadio(index, qIndex)} className="radioContainer">
+        <div onClick={()=>toggleRadio(index, qIndex)} className="radioContainer">
           <input
             class="answers"
             type="radio"
@@ -35,7 +35,7 @@ const QuestionCard = ({question,qIndex,index, toggleRadio}) => {
           />
           <label for="C">{question.answers.c}</label>
         </div>
-        <div onClick={toggleRadio(index, qIndex)} className="radioContainer">
+        <div onClick={()=>toggleRadio(index, qIndex)} className="radioContainer">
           <input
             class="answers"
             type="radio"
