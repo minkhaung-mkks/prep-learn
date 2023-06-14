@@ -2,12 +2,12 @@ import React from "react";
 
 const QuestionCard = ({question,qIndex,index, toggleRadio}) => {
   return (
-    <div class="question_card">
-      <h3 class="question">{question.text}</h3>
-      <div class="answers_box">
+    <div className="question_card">
+      <h3 className="question">{question.text}</h3>
+      <div className="answers_box">
         <div onClick={()=>toggleRadio(e,index, qIndex)} className="radioContainer">
           <input
-            class="answers"
+            className="answers"
             type="radio"
             value="a"
             name={question.text}
@@ -17,7 +17,7 @@ const QuestionCard = ({question,qIndex,index, toggleRadio}) => {
         </div>
         <div onClick={()=>toggleRadio(e,index, qIndex)} className="radioContainer">
           <input
-            class="answers"
+            className="answers"
             type="radio"
             value="b"
             name={question.text}
@@ -27,7 +27,7 @@ const QuestionCard = ({question,qIndex,index, toggleRadio}) => {
         </div>
         <div onClick={()=>toggleRadio(e,index, qIndex)} className="radioContainer">
           <input
-            class="answers"
+            className="answers"
             type="radio"
             value="c"
             name={question.text}
@@ -37,7 +37,7 @@ const QuestionCard = ({question,qIndex,index, toggleRadio}) => {
         </div>
         <div onClick={()=>toggleRadio(e,index, qIndex)} className="radioContainer">
           <input
-            class="answers"
+            className="answers"
             type="radio"
             value="d"
             name={question.text}
