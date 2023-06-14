@@ -23,9 +23,9 @@
                             "a": "Elected officials",
                             "b": "All citizens",
                             "c": "The monarch",
-                            "d": "The military"
+                            "d": "Autocracy"
                         },
-                        "correct": "c. Autocracy",
+                        "correct": "d",
                         "reason": "An autocracy is a system of government in which supreme power is concentrated in the hands of one person."
                     },
                     {
@@ -34,9 +34,9 @@
                             "a": "Elected officials",
                             "b": "All citizens",
                             "c": "The monarch",
-                            "d": "The military"
+                            "d": "Federal republic"
                         },
-                        "correct": "c. Federal republic",
+                        "correct": "d",
                         "reason": "The U.S. government is characterized as a federal republic because it is both a federation (states have power) and republic (representatives are elected)."
                     }
                 ]
