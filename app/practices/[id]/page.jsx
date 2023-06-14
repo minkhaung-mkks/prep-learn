@@ -1,5 +1,5 @@
 'use client'
-import React,{useEffect,useState} from 'react';
+import React,{useEffect,useState,useRef} from 'react';
 import '@styles/global.css'
 import '@styles/quiz.css'
 import QuestionCard from '@components/QuestionCard';
