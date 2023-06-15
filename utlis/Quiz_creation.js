@@ -349,7 +349,41 @@ const addSection = async () =>{
     })
 }
 
-const makeQuiz = async ()=>{
+/**
+ * Creates a quiz object and appends it to a data file.
+ *
+ * @param {string} name - The name of the quiz.
+ * @param {string} subject - The subject of the quiz.
+ * @param {string} exam - The exam related to the quiz.
+ * @param {Array.<string>} [topic=[]] - The topic(s) covered in the quiz.
+ * @param {Array.<string>} [sub_topic=[]] - The sub-topic(s) covered in the quiz.
+ * @param {string} difficulty - The difficulty level of the quiz.
+ * @param {string} creator - The creator of the quiz.
+ * @param {string} creatorID - The creator's ID.
+ * @param {string} type - The type of the quiz.
+ * @param {number} ideal_time - The ideal time (in minutes) to complete the quiz.
+ * @param {number} total_questions - The total number of questions in the quiz.
+ * @param {string} source - The source of the quiz.
+ * @param {Array.<Object>} [sections=[]] - The sections of the quiz, each containing context, questions, and answers.
+ * @returns {Promise<void>} - A promise that resolves once the quiz is appended to the data file.
+ */
+const makeQuiz = async (name,subject,exam,topic=[],sub_topic=[],difficulty,creator,creatorID,type,ideal_time,total_questions,source,sections=[])=>{
+    let newData = {
+        id: 1,
+        name,
+        subject,
+        exam,
+        topic,
+        sub_topic,
+        difficulty,
+        creator: "Prep & Learn",
+        creatorID: "Prep & Learn",
+        type: "Normal",
+        ideal_time: 3,
+        total_questions: total_questions,
+        source: "Generated",
+        sections: []
+      };
     for(let i = 0; i < quizSections.length; i++){
         let section = await txtToData(quizSections[i].context,quizSections[i].questions,quizSections[i].answers)
         newData = await addToSection(newData,section)
@@ -360,5 +394,3 @@ const makeQuiz = async ()=>{
     finalData = await addToFile(oldData,newData)
     appendToData(finalData)
 }
-
-makeQuiz();
