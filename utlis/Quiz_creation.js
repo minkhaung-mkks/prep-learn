@@ -25,7 +25,7 @@ const parseQuestions = (questionText) => {
     let answers = {};
   
     for (let i = 0; i < lines.length; i++) {
-      let line = lines[i];
+      let line = lines[i].trim(); // Trim spaces from the line
   
       // A new question starts with a number.
       if (/^\d+\./.test(line)) {
@@ -39,10 +39,10 @@ const parseQuestions = (questionText) => {
           reason: "",
         });
         answers = {}; // Initialize answers for the new question
-      } else if (line.startsWith('   ')) {
+      } else if (line.match(/^[a-z]\./i)) {
         // This line is an answer
-        const answerKey = line.charAt(3);
-        let answerText = line.slice(5).trim();
+        const answerKey = line.charAt(0).toLowerCase();
+        let answerText = line.slice(2).trim();
         let isCorrect = false;
   
         // Check if the answer ends with an asterisk
@@ -63,7 +63,7 @@ const parseQuestions = (questionText) => {
         }
       } else {
         // Try to match the line to the pattern for a reason
-        const match = line.match(/^\s*- (.*)$/);
+        const match = line.match(/^- (.*)$/);
         if (match) {
           // If the line matches, extract the reason text
           const [, reasonText] = match;
@@ -73,8 +73,7 @@ const parseQuestions = (questionText) => {
       }
     }
     return questions;
-  };
-  
+  };  
 
 /**
  * Parses the answers string and constructs an object with correct answers and reasons
@@ -87,41 +86,46 @@ const parseQuestions = (questionText) => {
 const parseAnswers = (answersText) => {
     // Split the input text into individual lines
     const answerLines = answersText.split('\n');
-
+  
     // Initialize variables to hold the correct answer and the reason
-    let correctAnswers = []
-    let correctText = []
-    let reasons = []
-
+    let correctAnswers = [];
+    let correctText = [];
+    let reasons = [];
+  
     // Loop over each line
     for (let line of answerLines) {
-        // Try to match the line to the pattern for a correct answer
-        let match = line.match(/^\s*\d+\.\s*(\w)\.\s*(.*)\s*$/);
-        if (match) {
-            // If the line matches, extract the option letter and the answer text
-            const [_, option, text] = match;
-            // Set `correctAnswer` to the option letter and answer text combined
-            correctAnswers.push(`${option}`);
-            correctText.push(text)
-        }
-
-        // Try to match the line to the pattern for a reason
-        match = line.match(/^\s*- (.*)$/);
-        if (match) {
-            // If the line matches, extract the reason text
-            const [_, reasonText] = match;
-            // Set `reason` to the reason text
-            reasons.push(reasonText);
-        }
+      // Trim spaces from the line
+      line = line.trim();
+  
+      // Try to match the line to the pattern for a correct answer
+      let match = line.match(/^\d+\.\s*([a-z])\.\s*(.*)$/i);
+      if (match) {
+        // If the line matches, extract the option letter and the answer text
+        const [, option, text] = match;
+        // Set `correctAnswers` to the option letter
+        correctAnswers.push(option);
+        // Set `correctText` to the answer text
+        correctText.push(text);
+      }
+  
+      // Try to match the line to the pattern for a reason
+      match = line.match(/^-\s*(.*)$/);
+      if (match) {
+        // If the line matches, extract the reason text
+        const [, reasonText] = match;
+        // Set `reasons` to the reason text
+        reasons.push(reasonText);
+      }
     }
-
+  
     // Return the correct answers and the reasons
     return {
-        correct: correctAnswers,
-        answer_text: correctText,
-        reasons,
+      correct: correctAnswers,
+      answer_text: correctText,
+      reasons,
     };
-}
+  };
+  
 
 /**
  * Parses the provided context, question and answer strings into a structured data object
@@ -233,7 +237,8 @@ b. Socialism
 c. Capitalism
 d. Feudalism
 `
-let a2 = `1. a. Assassination of Archduke Franz Ferdinand
+let a2 = `
+1. a. Assassination of Archduke Franz Ferdinand
 - The assassination of Archduke Franz Ferdinand of Austria-Hungary in 1914 was the immediate trigger of World War I.
 
 2. c. 1945

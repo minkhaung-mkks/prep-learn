@@ -86,35 +86,60 @@
         "questions": [
           {
             "text": "What was the primary cause of World War I?",
-            "answers": {},
+            "answers": {
+              "a": "Assassination of Archduke Franz Ferdinand",
+              "b": "Bombing of Pearl Harbor",
+              "c": "The Great Depression",
+              "d": "The Russian Revolution"
+            },
             "correct": "a",
             "answer_text": "Assassination of Archduke Franz Ferdinand",
             "reason": "The assassination of Archduke Franz Ferdinand of Austria-Hungary in 1914 was the immediate trigger of World War I."
           },
           {
             "text": "The United Nations was founded in:",
-            "answers": {},
+            "answers": {
+              "a": "1919",
+              "b": "1939",
+              "c": "1945",
+              "d": "1950"
+            },
             "correct": "c",
             "answer_text": "1945",
             "reason": "The United Nations was founded in 1945 after World War II to replace the League of Nations, to stop wars between countries, and to provide a platform for dialogue."
           },
           {
             "text": "Who was the President of the United States during the majority of the Civil Rights Movement in the 1960s?",
-            "answers": {},
+            "answers": {
+              "a": "Richard Nixon",
+              "b": "Lyndon B. Johnson",
+              "c": "John F. Kennedy",
+              "d": "Dwight D. Eisenhower"
+            },
             "correct": "b",
             "answer_text": "Lyndon B. Johnson",
             "reason": "Lyndon B. Johnson was the President of the United States from 1963 to 1969, a significant portion of the Civil Rights Movement."
           },
           {
             "text": "The concept of separation of powers is most closely associated with which of the following documents?",
-            "answers": {},
+            "answers": {
+              "a": "The Magna Carta",
+              "b": "The U.S. Constitution",
+              "c": "The Bill of Rights",
+              "d": "The Declaration of Independence"
+            },
             "correct": "b",
             "answer_text": "The U.S. Constitution",
             "reason": "The U.S. Constitution introduced the principle of separation of powers into practice, providing the framework for the U.S. government."
           },
           {
             "text": "What economic system is characterized by private or corporate ownership of goods and means of production?",
-            "answers": {},
+            "answers": {
+              "a": "Communism",
+              "b": "Socialism",
+              "c": "Capitalism",
+              "d": "Feudalism"
+            },
             "correct": "c",
             "answer_text": "Capitalism",
             "reason": "Capitalism is characterized by private or corporate ownership of goods and means of production."
