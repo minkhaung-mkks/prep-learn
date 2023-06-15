@@ -78,6 +78,14 @@ a {
     color: white;
 }
 
+.correctBox{
+    background-color: #4cc64a;
+}
+
+.wrongBox{
+    background-color:#df253e;
+}
+
 .noClick{
     pointer-events: none;
 }
