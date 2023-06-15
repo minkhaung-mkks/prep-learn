@@ -163,8 +163,6 @@ const txtToData = (context, question, answer = null) => {
     return quiz;
 }
 
-
-let c = ""
 let q = `
 1. A system where a single authority, like a monarch, exercises absolute power is known as:
    a. Democracy
@@ -204,7 +202,7 @@ let a = `
 4. b. Constitutional monarchy
 5. c. The Prime Minister
 `
-let c2 = ""
+
 let q2 = `1. What was the primary cause of World War I?
 a. Assassination of Archduke Franz Ferdinand
 b. Bombing of Pearl Harbor
@@ -337,16 +335,23 @@ let quizSections = [
         answers:a2
     },
 ]
+
+const addSection = async () =>{
+    quizSections.push({
+        context:"",
+        questions:"",
+        answers:""
+    })
+}
+
 const makeQuiz = async ()=>{
     for(let i = 0; i < quizSections.length; i++){
         let section = await txtToData(quizSections[i].context,quizSections[i].questions,quizSections[i].answers)
         newData = await addToSection(newData,section)
     }
     let oldData = await fetchOldData();
-    console.log(oldData)
+    newData.id = oldData.length + 1;
     let finalData =[]
     finalData = await addToFile(oldData,newData)
     appendToData(finalData)
 }
-
-makeQuiz()

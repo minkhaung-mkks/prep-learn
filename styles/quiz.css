@@ -77,3 +77,7 @@ a {
 .checked_container label{
     color: white;
 }
+
+.noClick{
+    pointer-events: none;
+}
