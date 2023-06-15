@@ -8,6 +8,7 @@ const PraticePage = ({params}) => {
     const [quiz, setQuiz] = useState({})
     const firstUpdate = useRef(true);
     const quizFetch = useRef(false);
+    const [hasSubmitted, setHasSubmitted]=useState(false)
     const [answers, setAnswers] = useState({});
     const [showScore, setShowScore] = useState(false);
     const [score, setScore] = useState(null);
@@ -96,16 +97,16 @@ const PraticePage = ({params}) => {
         let totalScore = 0;
         quiz.sections.forEach((section, i) => {
             section.questions.forEach((question, j) => {
-                console.log(question.correct)
                 console.log(answers[i][j])
                 if (answers[i][j] === question.correct) {
                     totalScore++;
                 }
             });
         });
-
+        
         setScore(totalScore);
         setShowScore(true);
+        setHasSubmitted(true)
     };
     useEffect(() => {
         // Skip on first render
@@ -135,7 +136,7 @@ const PraticePage = ({params}) => {
                     </div>
                     {
                         section.questions.map((question, qIndex)=>(
-                            <QuestionCard key={qIndex} question={question} qIndex={qIndex} index={index} toggleRadio={toggleRadio} answer={answers[index][qIndex]} />
+                            <QuestionCard key={qIndex} question={question} qIndex={qIndex} index={index} toggleRadio={toggleRadio} answer={answers[index][qIndex]} hasSubmitted={hasSubmitted}/>
                         ))
                     }
                 </div>
