@@ -20,61 +20,61 @@ const parseContext = (context) => {
 const parseQuestions = (questionText) => {
     // Split by newline and remove empty lines
     const lines = questionText.split('\n').filter(Boolean);
-
+  
     let questions = [];
     let answers = {};
-    let reasons = []
-
+  
     for (let i = 0; i < lines.length; i++) {
-        let line = lines[i];
-
-        // A new question starts with number.
-        if (/^\d+\./.test(line)) {
-            // Add a new question with empty answers
-            // Remove number and dot from start
-            questions.push({
-                text: line.slice(2).trim(),
-                answers: {},
-                correct: "",
-                answer_text: "",
-                reason: ""
-            });
-        } else if (line.startsWith('   ')) {
-            // This line is an answer
-            const answerKey = line.charAt(3);
-            const answerText = line.slice(5).trim();
-            let isCorrect = false;
-
-            // Check if the answer ends with an asterisk
-            if (answerText.endsWith('*')) {
-                // If so, remove the asterisk and set the answer as correct
-                answerText = answerText.slice(0, -1).trim();  // remove asterisk from end
-                isCorrect = true;
-            }
-
-            // Assign answers to the last question
-            answers[answerKey] = answerText;
-            questions[questions.length - 1].answers = answers;
-
-            // If this is the correct answer, set it
-            if (isCorrect) {
-                questions[questions.length - 1].correct = `${answerKey}`;
-                questions[questions.length - 1].answer_text = `${answerText}`;
-            }
+      let line = lines[i];
+  
+      // A new question starts with a number.
+      if (/^\d+\./.test(line)) {
+        // Add a new question with empty answers
+        // Remove the number and dot from the start
+        questions.push({
+          text: line.slice(2).trim(),
+          answers: {},
+          correct: "",
+          answer_text: "",
+          reason: "",
+        });
+        answers = {}; // Initialize answers for the new question
+      } else if (line.startsWith('   ')) {
+        // This line is an answer
+        const answerKey = line.charAt(3);
+        let answerText = line.slice(5).trim();
+        let isCorrect = false;
+  
+        // Check if the answer ends with an asterisk
+        if (answerText.endsWith('*')) {
+          // If so, remove the asterisk and set the answer as correct
+          answerText = answerText.slice(0, -1).trim(); // remove asterisk from end
+          isCorrect = true;
         }
-        else {
-            // Try to match the line to the pattern for a reason
-            match = line.match(/^\s*- (.*)$/);
-            if (match) {
-                // If the line matches, extract the reason text
-                const [_, reasonText] = match;
-                // Set `reason` to the reason text
-                questions[questions.length - 1].reason = reasonText;
-            }
+  
+        // Assign answers to the last question
+        answers[answerKey] = answerText;
+        questions[questions.length - 1].answers = answers;
+  
+        // If this is the correct answer, set it
+        if (isCorrect) {
+          questions[questions.length - 1].correct = answerKey;
+          questions[questions.length - 1].answer_text = answerText;
         }
+      } else {
+        // Try to match the line to the pattern for a reason
+        const match = line.match(/^\s*- (.*)$/);
+        if (match) {
+          // If the line matches, extract the reason text
+          const [, reasonText] = match;
+          // Set `reason` to the reason text
+          questions[questions.length - 1].reason = reasonText;
+        }
+      }
     }
     return questions;
-}
+  };
+  
 
 /**
  * Parses the answers string and constructs an object with correct answers and reasons
@@ -138,7 +138,7 @@ const txtToData = (context, question, answer = null) => {
         context: parseContext(context),
         questions: parseQuestions(question)
     };
-
+    
     // If the answer string is provided, update the answers for the questions
     if (answer) {
         let answers = parseAnswers(answer);
@@ -355,3 +355,5 @@ const makeQuiz = async ()=>{
     finalData = await addToFile(oldData,newData)
     appendToData(finalData)
 }
+
+makeQuiz();
