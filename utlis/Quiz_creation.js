@@ -251,6 +251,18 @@ let a2 = `1. a. Assassination of Archduke Franz Ferdinand
 - Capitalism is characterized by private or corporate ownership of goods and means of production.
 `
 
+const fetchOldData = async ()=>{
+    try {
+        const fileData = fs.readFileSync('dummyData.json', 'utf8');
+        const jsonData = JSON.parse(fileData);
+        return jsonData;
+      } catch (error) {
+        console.error(`Error reading JSON file: ${error}`);
+        return [];
+      }
+    
+}
+
 
 const appendToData = async (data) => {
     try {
@@ -261,6 +273,20 @@ const appendToData = async (data) => {
     }
   };
 
+const addToFile = async (oldData, newData)=>{
+    let updatedData = [];
+
+  // Check if existingData is an array
+  if (Array.isArray(oldData)) {
+    updatedData = oldData;
+  } else if (oldData) {
+    updatedData.push(oldData);
+  }
+
+  updatedData.push(newData);
+  return updatedData;
+}
+
 const addToSection = async (existingData,newData)=>{
     let updatedData = {
         ...existingData,
@@ -268,6 +294,19 @@ const addToSection = async (existingData,newData)=>{
       };
     return updatedData
 }
+
+let quizName;
+let subject;
+let exam;
+let topic=[];
+let sub_topic=[];
+let difficulty;
+let creator;
+let creatorID;
+let type;
+let ideal_time;
+let total_questions;
+let source;
 
   let newData = {
     id: 1,
@@ -303,7 +342,11 @@ const makeQuiz = async ()=>{
         let section = await txtToData(quizSections[i].context,quizSections[i].questions,quizSections[i].answers)
         newData = await addToSection(newData,section)
     }
-    appendToData(newData)
+    let oldData = await fetchOldData();
+    console.log(oldData)
+    let finalData =[]
+    finalData = await addToFile(oldData,newData)
+    appendToData(finalData)
 }
 
 makeQuiz()

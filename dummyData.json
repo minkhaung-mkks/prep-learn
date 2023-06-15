@@ -1,124 +1,126 @@
-{
-  "id": 1,
-  "name": "Types of Government Quiz, GED Social Studies",
-  "subject": "Social Studies",
-  "exam": "GED",
-  "topic": [
-    "Types of Government"
-  ],
-  "sub_topic": [],
-  "difficulty": "Easy",
-  "creator": "Prep & Learn",
-  "creatorID": "Prep & Learn",
-  "type": "Normal",
-  "ideal_time": 3,
-  "total_questions": 2,
-  "source": "Generated",
-  "sections": [
-    {
-      "context": "",
-      "questions": [
-        {
-          "text": "A system where a single authority, like a monarch, exercises absolute power is known as:",
-          "answers": {
-            "a": "The Queen/King",
-            "b": "The President",
-            "c": "The Prime Minister",
-            "d": "The Judiciary"
+[
+  {
+    "id": 1,
+    "name": "Types of Government Quiz, GED Social Studies",
+    "subject": "Social Studies",
+    "exam": "GED",
+    "topic": [
+      "Types of Government"
+    ],
+    "sub_topic": [],
+    "difficulty": "Easy",
+    "creator": "Prep & Learn",
+    "creatorID": "Prep & Learn",
+    "type": "Normal",
+    "ideal_time": 3,
+    "total_questions": 2,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "A system where a single authority, like a monarch, exercises absolute power is known as:",
+            "answers": {
+              "a": "The Queen/King",
+              "b": "The President",
+              "c": "The Prime Minister",
+              "d": "The Judiciary"
+            },
+            "correct": "c",
+            "answer_text": "Autocracy",
+            "reason": ""
           },
-          "correct": "c",
-          "answer_text": "Autocracy",
-          "reason": ""
-        },
-        {
-          "text": "The United States government is best characterized as a:",
-          "answers": {
-            "a": "The Queen/King",
-            "b": "The President",
-            "c": "The Prime Minister",
-            "d": "The Judiciary"
+          {
+            "text": "The United States government is best characterized as a:",
+            "answers": {
+              "a": "The Queen/King",
+              "b": "The President",
+              "c": "The Prime Minister",
+              "d": "The Judiciary"
+            },
+            "correct": "c",
+            "answer_text": "Federal republic",
+            "reason": ""
           },
-          "correct": "c",
-          "answer_text": "Federal republic",
-          "reason": ""
-        },
-        {
-          "text": "In which system of government is power divided between a central government and individual states or provinces?",
-          "answers": {
-            "a": "The Queen/King",
-            "b": "The President",
-            "c": "The Prime Minister",
-            "d": "The Judiciary"
+          {
+            "text": "In which system of government is power divided between a central government and individual states or provinces?",
+            "answers": {
+              "a": "The Queen/King",
+              "b": "The President",
+              "c": "The Prime Minister",
+              "d": "The Judiciary"
+            },
+            "correct": "b",
+            "answer_text": "Federal system",
+            "reason": ""
           },
-          "correct": "b",
-          "answer_text": "Federal system",
-          "reason": ""
-        },
-        {
-          "text": "What type of government does the United Kingdom have?",
-          "answers": {
-            "a": "The Queen/King",
-            "b": "The President",
-            "c": "The Prime Minister",
-            "d": "The Judiciary"
+          {
+            "text": "What type of government does the United Kingdom have?",
+            "answers": {
+              "a": "The Queen/King",
+              "b": "The President",
+              "c": "The Prime Minister",
+              "d": "The Judiciary"
+            },
+            "correct": "b",
+            "answer_text": "Constitutional monarchy",
+            "reason": ""
           },
-          "correct": "b",
-          "answer_text": "Constitutional monarchy",
-          "reason": ""
-        },
-        {
-          "text": "In a parliamentary system of government, who typically holds the most power?",
-          "answers": {
-            "a": "The Queen/King",
-            "b": "The President",
-            "c": "The Prime Minister",
-            "d": "The Judiciary"
+          {
+            "text": "In a parliamentary system of government, who typically holds the most power?",
+            "answers": {
+              "a": "The Queen/King",
+              "b": "The President",
+              "c": "The Prime Minister",
+              "d": "The Judiciary"
+            },
+            "correct": "c",
+            "answer_text": "The Prime Minister",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What was the primary cause of World War I?",
+            "answers": {},
+            "correct": "a",
+            "answer_text": "Assassination of Archduke Franz Ferdinand",
+            "reason": "The assassination of Archduke Franz Ferdinand of Austria-Hungary in 1914 was the immediate trigger of World War I."
           },
-          "correct": "c",
-          "answer_text": "The Prime Minister",
-          "reason": ""
-        }
-      ]
-    },
-    {
-      "context": "",
-      "questions": [
-        {
-          "text": "What was the primary cause of World War I?",
-          "answers": {},
-          "correct": "a",
-          "answer_text": "Assassination of Archduke Franz Ferdinand",
-          "reason": "The assassination of Archduke Franz Ferdinand of Austria-Hungary in 1914 was the immediate trigger of World War I."
-        },
-        {
-          "text": "The United Nations was founded in:",
-          "answers": {},
-          "correct": "c",
-          "answer_text": "1945",
-          "reason": "The United Nations was founded in 1945 after World War II to replace the League of Nations, to stop wars between countries, and to provide a platform for dialogue."
-        },
-        {
-          "text": "Who was the President of the United States during the majority of the Civil Rights Movement in the 1960s?",
-          "answers": {},
-          "correct": "b",
-          "answer_text": "Lyndon B. Johnson",
-          "reason": "Lyndon B. Johnson was the President of the United States from 1963 to 1969, a significant portion of the Civil Rights Movement."
-        },
-        {
-          "text": "The concept of separation of powers is most closely associated with which of the following documents?",
-          "answers": {},
-          "correct": "b",
-          "answer_text": "The U.S. Constitution",
-          "reason": "The U.S. Constitution introduced the principle of separation of powers into practice, providing the framework for the U.S. government."
-        },
-        {
-          "text": "What economic system is characterized by private or corporate ownership of goods and means of production?",
-          "answers": {},
-          "correct": "c",
-          "answer_text": "Capitalism",
-          "reason": "Capitalism is characterized by private or corporate ownership of goods and means of production."
-        }
-      ]
-    }
-  ]
-}
+          {
+            "text": "The United Nations was founded in:",
+            "answers": {},
+            "correct": "c",
+            "answer_text": "1945",
+            "reason": "The United Nations was founded in 1945 after World War II to replace the League of Nations, to stop wars between countries, and to provide a platform for dialogue."
+          },
+          {
+            "text": "Who was the President of the United States during the majority of the Civil Rights Movement in the 1960s?",
+            "answers": {},
+            "correct": "b",
+            "answer_text": "Lyndon B. Johnson",
+            "reason": "Lyndon B. Johnson was the President of the United States from 1963 to 1969, a significant portion of the Civil Rights Movement."
+          },
+          {
+            "text": "The concept of separation of powers is most closely associated with which of the following documents?",
+            "answers": {},
+            "correct": "b",
+            "answer_text": "The U.S. Constitution",
+            "reason": "The U.S. Constitution introduced the principle of separation of powers into practice, providing the framework for the U.S. government."
+          },
+          {
+            "text": "What economic system is characterized by private or corporate ownership of goods and means of production?",
+            "answers": {},
+            "correct": "c",
+            "answer_text": "Capitalism",
+            "reason": "Capitalism is characterized by private or corporate ownership of goods and means of production."
+          }
+        ]
+      }
+    ]
+  }
+]
