@@ -36,6 +36,7 @@ const parseQuestions = (questionText) => {
                 text: line.slice(2).trim(),
                 answers: {},
                 correct: "",
+                answer_text: "",
                 reason: ""
             });
         } else if (line.startsWith('   ')) {
@@ -57,7 +58,8 @@ const parseQuestions = (questionText) => {
 
             // If this is the correct answer, set it
             if (isCorrect) {
-                questions[questions.length - 1].correct = `${answerKey}. ${answerText}`;
+                questions[questions.length - 1].correct = `${answerKey}`;
+                questions[questions.length - 1].answer_text = `${answerText}`;
             }
         }
         else {
@@ -88,6 +90,7 @@ const parseAnswers = (answersText) => {
 
     // Initialize variables to hold the correct answer and the reason
     let correctAnswers = []
+    let correctText = []
     let reasons = []
 
     // Loop over each line
@@ -98,7 +101,8 @@ const parseAnswers = (answersText) => {
             // If the line matches, extract the option letter and the answer text
             const [_, option, text] = match;
             // Set `correctAnswer` to the option letter and answer text combined
-            correctAnswers.push(`${option}. ${text}`);
+            correctAnswers.push(`${option}`);
+            correctText.push(text)
         }
 
         // Try to match the line to the pattern for a reason
@@ -114,6 +118,7 @@ const parseAnswers = (answersText) => {
     // Return the correct answers and the reasons
     return {
         correct: correctAnswers,
+        answer_text: correctText,
         reasons,
     };
 }
@@ -125,7 +130,7 @@ const parseAnswers = (answersText) => {
  * @param {string} [answer=null] - The answers string (optional)
  * @returns {Object} The parsed data object
  * @example
- * Returns { Sections: [{ context: "World War II", questions: [{ text: "What is the capital of France?", answers: { a: "Paris" }, correct: "a. Paris", reason: "Because it's the most populous city in France" }]}]}
+ * Returns { sections: [{ context: "World War II", questions: [{ text: "What is the capital of France?", answers: { a: "Paris" }, correct: "a. Paris", reason: "Because it's the most populous city in France" }]}]}
  *
  */
 const txtToData = (context, question, answer = null) => {
@@ -144,11 +149,14 @@ const txtToData = (context, question, answer = null) => {
             if (answers.reasons[i]) {
                 section.questions[i].reason = answers.reasons[i];
             }
+            if(answers.answer_text[i]){
+                section.questions[i].answer_text = answers.answer_text[i]
+            }
         }
     }
 
     let quiz = {
-        Sections: [
+        sections: [
             section
         ]
     }
@@ -440,17 +448,32 @@ let s2 = txtToData(c2, q2, a2)
 
 const appendToData = async (existingData, newData) => {
     try {
-        existingData.Sections.push(...newData.Sections);
-        await fsPromise.writeFile('dummyData.json', JSON.stringify(existingData, null, 2));
-
-        console.log('Data successfully appended to file');
-
+      await fsPromise.writeFile('dummyData.json', JSON.stringify(updatedData, null, 2));
+      console.log('Data successfully appended to file');
     } catch (error) {
-        console.error(`Error appending data to file: ${error}`);
+      console.error(`Error appending data to file: ${error}`);
     }
-}
-let ed = {
-    Sections: []
-}
-appendToData(ed, s1)
-appendToData(s1, s2)
+  };
+  
+  let ed = {
+    sections: []
+  };
+  
+  const newData = {
+    id: 1,
+    name: "Types of Government Quiz, GED Social Studies",
+    subject: "Social Studies",
+    exam: "GED",
+    topic: ["Types of Government"],
+    sub_topic: [],
+    difficulty: "Easy",
+    creator: "Prep & Learn",
+    creatorID: "Prep & Learn",
+    type: "Normal",
+    ideal_time: 3,
+    total_questions: 2,
+    source: "Generated",
+    sections: []
+  };
+  
+appendToData(newData, s1);
