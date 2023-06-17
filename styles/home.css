@@ -145,6 +145,16 @@
     -o-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
+.last_call_btn_in_view {
+    transition: 0.8s all ease;
+    color: var(--background);
+    -webkit-transition: 0.8s all ease;
+    -moz-transition: 0.8s all ease;
+    -ms-transition: 0.8s all ease;
+    -o-transition: 0.8s all ease;
+    outline-color: rgba(255, 255, 255, .5);
+}
+
 .btn-5:hover {
     background-color: var(--primary);
     outline-color: var(--primary-faded);
@@ -152,6 +162,11 @@
     animation: 0.5s ease-out 0s infinite forwards pulse;
     -webkit-animation: 0.5s ease-out 0s infinite forwards pulse;
     text-shadow: 1px 1px 2px #427388;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
 }
 
 .final_box {
@@ -163,7 +178,7 @@
 
 .final_box_in_view {
     background-size: 400%;
-    background-image: linear-gradient(to left bottom, #ffc604, #aada48, #4ae092, #00ddd1, #00d2f5);
+    background-image: linear-gradient(to left bottom, #ffc604, #f2ffd0, #b1dbc5, #d6f3f2, #22ceec);
     animation: 10s linear 0s infinite alternate forwards bg_gradient;
     -webkit-animation: 10s linear 0s infinite alternate forwards bg_gradient;
     background-attachment: local;
@@ -200,14 +215,4 @@
     -moz-transition: 1s all ease;
     -ms-transition: 1s all ease;
     -o-transition: 1s all ease;
-}
-
-.last_call_btn_in_view {
-    transition: 1.5s all ease;
-    color: var(--background);
-    -webkit-transition: 1.5s all ease;
-    -moz-transition: 1.5s all ease;
-    -ms-transition: 1.5s all ease;
-    -o-transition: 1.5s all ease;
-    outline-color: rgba(255, 255, 255, .5);
 }
