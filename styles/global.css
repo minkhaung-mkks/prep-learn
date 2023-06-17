@@ -17,13 +17,13 @@
 }
 
 .darkMode {
-    --text: #f2f3f1;
-    --faded: #b8b8b8;
-    --background: #131613;
-    --primary-button: #ffc604;
+    --text: #f7fafd;
+    --faded: #c0c0c0;
+    --background: #010304;
+    --primary: #ffc604;
     --primary-faded: #ffc4042e;
-    --secondary-button: #bdfefe;
-    --accent: #6cb6da;
+    --secondary: #e1eef4;
+    --accent: #975ed4;
 }
 
 a {
