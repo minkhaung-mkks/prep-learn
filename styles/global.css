@@ -3,12 +3,34 @@
     padding: 0;
     border: none;
     font-family: 'Libre', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #402E32;
+    color: var(--text);
 }
+
+:root {
+    --text: #05151f;
+    --faded: #303030;
+    --background: #ffffff;
+    --primary: #ffc604;
+    --primary-faded: #ffc4042e;
+    --secondary: #e5ebf6;
+    --accent: #6d8fca;
+}
+
+.darkMode {
+    --text: #f2f3f1;
+    --faded: #b8b8b8;
+    --background: #131613;
+    --primary-button: #ffc604;
+    --primary-faded: #ffc4042e;
+    --secondary-button: #bdfefe;
+    --accent: #6cb6da;
+}
+
 a {
-    color: black;
+    color: var(--text);
     text-decoration: none;
 }
+
 @font-face {
     font-family: Libre;
     src: url('../public/assets/fonts/LibreFranklin-VariableFont_wght.ttf') format('truetype');
@@ -16,18 +38,20 @@ a {
 
 @keyframes bg_gradient {
     0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 @keyframes pulse {
-    100%{
+    100% {
         border: 1px solid;
         box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
         outline-color: rgba(255, 255, 255, 0);
