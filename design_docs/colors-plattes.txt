@@ -1,0 +1,39 @@
+Too Corporate
+--text: #05151f;
+--background: #ffffff;
+--primary-button: #ffc604;
+--secondary-button: #15050e;
+--accent: #220255;
+
+Favourite
+--text: #05151f;
+--background: #ffffff;
+--primary-button: #ffc604;
+--secondary-button: #e5ebf6;
+--accent: #6d8fca;
+
+
+Dark Modes:
+--text: #f2f3f1;
+--background: #131613;
+--primary-button: #ffc604;
+--secondary-button: #bdfefe;
+--accent: #6cb6da;
+
+--text: #f7fafd;
+--background: #010304;
+--primary-button: #ffc604;
+--secondary-button: #e0c5fc;
+--accent: #975ed4;
+
+--text: #f7fafd;
+--background: #010304;
+--primary-button: #ffc604;
+--secondary-button: #f0f4ff;
+--accent: #975ed4;
+
+--text: #f7fafd;
+--background: #010304;
+--primary-button: #ffc604;
+--secondary-button: #e1eef4;
+--accent: #975ed4;
