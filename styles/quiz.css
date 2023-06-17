@@ -1,8 +1,3 @@
-a {
-    color: black;
-    text-decoration: none;
-}
-
 #web_page {
     width: 60%;
     margin: 0 auto;
@@ -55,10 +50,10 @@ a {
 }
 
 .submit_btn {
-    color: #fff;
+    color: var(--background);
     padding: 15px 80px;
     border: none;
-    background-color: #4a03b3;
+    background-color: var(--accent);
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
@@ -69,23 +64,23 @@ a {
     box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
 }
 
-.checked_container{
-    background-color: #4a03b3;
+.checked_container {
+    background-color: var(--accent);
     box-shadow: rgba(39, 108, 227, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 
-.checked_container label{
+.checked_container label {
     color: white;
 }
 
-.correctBox{
+.correctBox {
     background-color: #4cc64a;
 }
 
-.wrongBox{
-    background-color:#df253e;
+.wrongBox {
+    background-color: #df253e;
 }
 
-.noClick{
+.noClick {
     pointer-events: none;
 }

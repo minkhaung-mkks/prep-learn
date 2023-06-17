@@ -14,14 +14,14 @@
     width: 100%;
     height: 1px;
     margin-top: 5px;
-    background-color: black;
+    background-color: var(--text);
 }
 
 .selector_btn {
-    color: #fff8ee;
+    color: var(--background);
     padding: 12px 40px;
     border: none;
-    background-color: #363636;
+    background-color: var(--text);
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -38,7 +38,7 @@
 
 .selector_btn:hover,
 .selected_selector_btn {
-    background-color: #ffc604;
+    background-color: var(--primary);
     color: rgb(0, 0, 0);
     font-weight: 100;
     text-rendering: optimizeLegibility;
@@ -49,7 +49,7 @@
     display: flex;
     align-items: center;
     gap: 50px;
-    border: 1px solid black;
+    border: 1px solid var(--text);
     padding: 50px 40px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -94,16 +94,16 @@
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
-    border: 1px solid black;
+    border: 1px solid var(--text);
 }
 
 .take_quiz_btn {
     padding: 50px 30px;
     height: auto;
-    color: #363636;
-    border: 1px solid #363636;
+    color: var(--text);
+    border: 1px solid var(--text);
     font-weight: 500;
-    background-color: #ffc604;
+    background-color: var(--primary);
     cursor: pointer;
     font-size: 1.2rem;
 }
@@ -139,11 +139,11 @@
 }
 
 .take_quiz_btn:focus {
-    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-shadow: var(--secondary) 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--secondary) 0 -3px 0 inset;
 }
 
 .take_quiz_btn:hover {
-    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, var(--secondary) 0 -3px 0 inset;
     transform: translateY(2px);
     -webkit-transform: translateY(2px);
     -moz-transform: translateY(2px);
@@ -152,7 +152,7 @@
 }
 
 .take_quiz_btn:active {
-    box-shadow: #D6D6E7 0 3px 7px inset;
+    box-shadow: var(--secondary) 0 3px 7px inset;
     transform: translateY(4px);
     -webkit-transform: translateY(4px);
     -moz-transform: translateY(4px);
