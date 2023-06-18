@@ -1,8 +1,10 @@
-import { txtToData, fetchOldData, addToFile, appendToData } from './utils'; // Import your utility functions
+import { txtToData, fetchOldData, addToSection, addToFile, appendToData } from '@utlis/Quiz_creation.js'; // Import your utility functions
 
-export default async function makeQuizHandler(req, res) {
-    const { name, subject, exam, topic, sub_topic, difficulty, creator, creatorID, type, ideal_time, total_questions, source, sections } = req.body;
-
+export const POST = async (req) => {
+    const { name, subject, exam, topic, sub_topic, difficulty, creator, creatorID, type, ideal_time, source, sections } = await req.json();
+    console.log(`${name}`)
+    console.log(`${sections} : WTF`)
+    console.log(`${sections[0].questions}`)
     try {
         let newData = {
             id: 1,
@@ -16,24 +18,30 @@ export default async function makeQuizHandler(req, res) {
             creatorID,
             type,
             ideal_time,
-            total_questions,
+            total_questions: 0,
             source,
             sections: [],
         };
 
         for (let i = 0; i < sections.length; i++) {
-            let section = await txtToData(sections[i].context, sections[i].question, sections[i].answer);
+            let section = await txtToData(sections[i].context, sections[i].questions, sections[i].answers);
             newData = await addToSection(newData, section);
         }
 
         let oldData = await fetchOldData();
-        newData.id = oldData.length + 1;
+        if (Array.isArray(oldData)) {
+            newData.id = oldData.length + 1;
+        }
         let finalData = await addToFile(oldData, newData);
         appendToData(finalData);
 
-        res.status(200).json({ success: 'Quiz created successfully' });
+        return new Response(JSON.stringify(finalData), {
+            status: 201
+        })
     } catch (error) {
         console.error(error);
-        res.status(500).json({ error: 'Failed to create the quiz' });
+        return new Response("Failed to create New Prompt", {
+            status: 500
+        })
     }
 }
