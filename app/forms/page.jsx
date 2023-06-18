@@ -2,20 +2,22 @@
 import { useState } from 'react';
 import QuizInfo from '@components/QuizInfo';
 import SectionForm from '@components/SectionForm';
-import { makeQuiz } from '@utlis/Quiz_creation';
+
 
 const Form = () => {
+
     const [formState, setFormState] = useState({
         quizName: '',
         quizSubject: '',
-        quizTopic: '',
-        quizSubTopic: '',
+        quizTopic: [],
+        quizSubTopic: [],
         difficulty: '',
         idealTime: '',
         creator: '',
         creatorID: '',
         sections: [],
     });
+
 
     const [currentPage, setCurrentPage] = useState('info');
     const [sectionIndex, setSectionIndex] = useState(0);
@@ -87,6 +89,30 @@ const Form = () => {
         }));
     };
 
+    // Function to handle creating the quiz
+    const handleCreateQuiz = async () => {
+        try {
+            const data = JSON.stringify(formState)
+            console.log(`Data : ${data}`)
+            console.log(`${formState.sections[0].context}`)
+            const response = await fetch('/api/quiz/create', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: data,
+            });
+
+            if (response.ok) {
+                alert("Sucess")
+            } else {
+                alert("WTF")
+            }
+        } catch (error) {
+            console.error(error);
+            // Handle network or server errors
+        }
+    };
     return (
         <div>
             {currentPage === 'info' ? (
@@ -102,6 +128,7 @@ const Form = () => {
                     updateSectionState={updateSectionState}
                     prevPage={prevPage}
                     nextPage={nextPage}
+                    createQuiz={handleCreateQuiz}
                 />
             )}
         </div>
