@@ -1,6 +1,31 @@
 import { useState } from 'react';
 
 const QuizInfo = ({ quizInfoState, updateQuizInfoState, nextPage }) => {
+  const [quizTopic, setQuizTopic] = useState([]);
+  const [quizSubtopic, setQuizSubtopic] = useState([]);
+
+  const handleTopicClick = (topic) => {
+    let updatedQuizTopic = [];
+    if (quizTopic.includes(topic)) {
+      updatedQuizTopic = quizTopic.filter((st) => st !== topic);
+    } else {
+      updatedQuizTopic = [...quizTopic, topic];
+    }
+    setQuizTopic(updatedQuizTopic);
+    updateQuizInfoState({ ...quizInfoState, quizTopic: updatedQuizTopic });
+  };
+
+  const handleSubtopicClick = (subtopic) => {
+    let updatedQuizSubtopic = [];
+    if (quizSubtopic.includes(subtopic)) {
+      updatedQuizSubtopic = quizSubtopic.filter((st) => st !== subtopic);
+    } else {
+      updatedQuizSubtopic = [...quizSubtopic, subtopic];
+    }
+    setQuizSubtopic(updatedQuizSubtopic);
+    updateQuizInfoState({ ...quizInfoState, quizSubTopic: updatedQuizSubtopic });
+  };
+
   const handleNext = () => {
     // Validate the quiz information fields
     // ...
@@ -24,18 +49,19 @@ const QuizInfo = ({ quizInfoState, updateQuizInfoState, nextPage }) => {
         onChange={(e) => updateQuizInfoState({ ...quizInfoState, quizSubject: e.target.value })}
         placeholder="Quiz Subject"
       />
-      <input
-        type="text"
-        value={quizInfoState.quizTopic}
-        onChange={(e) => updateQuizInfoState({ ...quizInfoState, quizTopic: e.target.value })}
-        placeholder="Quiz Topic"
-      />
-      <input
-        type="text"
-        value={quizInfoState.quizSubTopic}
-        onChange={(e) => updateQuizInfoState({ ...quizInfoState, quizSubTopic: e.target.value })}
-        placeholder="Quiz Sub-Topic"
-      />
+      <div>
+        <h4>Quiz Topics:</h4>
+        <button onClick={() => handleTopicClick('government')}>
+          Government
+        </button>
+        <button onClick={() => handleTopicClick('history')}>History</button>
+        <button onClick={() => handleTopicClick('economy')}>Economy</button>
+      </div>
+      <div>
+        <h4>Quiz Subtopics:</h4>
+        <button onClick={() => handleSubtopicClick('greek')}>Greek</button>
+        <button onClick={() => handleSubtopicClick('US')}>US</button>
+      </div>
       <input
         type="text"
         value={quizInfoState.difficulty}
@@ -62,6 +88,7 @@ const QuizInfo = ({ quizInfoState, updateQuizInfoState, nextPage }) => {
       />
 
       <button onClick={handleNext}>Next</button>
+      <button onClick={() => console.log(quizInfoState)}>Tests</button>
     </div>
   );
 };
