@@ -6,8 +6,8 @@ const fsPromise = require('fs').promises;
  * @param {string} context - The context string to be parsed
  * @returns {string} The parsed context string
  */
-const parseContext = (context) => {
-    return context.trim();
+export const parseContext = (context) => {
+  return context.trim();
 }
 
 /**
@@ -17,63 +17,63 @@ const parseContext = (context) => {
  * @example
  * Returns [{ text: "What is the capital of France?", answers: { a: "Paris" }, correct: "" }]
  */
-const parseQuestions = (questionText) => {
-    // Split by newline and remove empty lines
-    const lines = questionText.split('\n').filter(Boolean);
-  
-    let questions = [];
-    let answers = {};
-  
-    for (let i = 0; i < lines.length; i++) {
-      let line = lines[i].trim(); // Trim spaces from the line
-  
-      // A new question starts with a number.
-      if (/^\d+\./.test(line)) {
-        // Add a new question with empty answers
-        // Remove the number and dot from the start
-        questions.push({
-          text: line.slice(2).trim(),
-          answers: {},
-          correct: "",
-          answer_text: "",
-          reason: "",
-        });
-        answers = {}; // Initialize answers for the new question
-      } else if (line.match(/^[a-z]\./i)) {
-        // This line is an answer
-        const answerKey = line.charAt(0).toLowerCase();
-        let answerText = line.slice(2).trim();
-        let isCorrect = false;
-  
-        // Check if the answer ends with an asterisk
-        if (answerText.endsWith('*')) {
-          // If so, remove the asterisk and set the answer as correct
-          answerText = answerText.slice(0, -1).trim(); // remove asterisk from end
-          isCorrect = true;
-        }
-  
-        // Assign answers to the last question
-        answers[answerKey] = answerText;
-        questions[questions.length - 1].answers = answers;
-  
-        // If this is the correct answer, set it
-        if (isCorrect) {
-          questions[questions.length - 1].correct = answerKey;
-          questions[questions.length - 1].answer_text = answerText;
-        }
-      } else {
-        // Try to match the line to the pattern for a reason
-        const match = line.match(/^- (.*)$/);
-        if (match) {
-          // If the line matches, extract the reason text
-          const [, reasonText] = match;
-          // Set `reason` to the reason text
-          questions[questions.length - 1].reason = reasonText;
-        }
+export const parseQuestions = (questionText) => {
+  // Split by newline and remove empty lines
+  const lines = questionText.split('\n').filter(Boolean);
+
+  let questions = [];
+  let answers = {};
+
+  for (let i = 0; i < lines.length; i++) {
+    let line = lines[i].trim(); // Trim spaces from the line
+
+    // A new question starts with a number.
+    if (/^\d+\./.test(line)) {
+      // Add a new question with empty answers
+      // Remove the number and dot from the start
+      questions.push({
+        text: line.slice(2).trim(),
+        answers: {},
+        correct: "",
+        answer_text: "",
+        reason: "",
+      });
+      answers = {}; // Initialize answers for the new question
+    } else if (line.match(/^[a-z]\./i)) {
+      // This line is an answer
+      const answerKey = line.charAt(0).toLowerCase();
+      let answerText = line.slice(2).trim();
+      let isCorrect = false;
+
+      // Check if the answer ends with an asterisk
+      if (answerText.endsWith('*')) {
+        // If so, remove the asterisk and set the answer as correct
+        answerText = answerText.slice(0, -1).trim(); // remove asterisk from end
+        isCorrect = true;
+      }
+
+      // Assign answers to the last question
+      answers[answerKey] = answerText;
+      questions[questions.length - 1].answers = answers;
+
+      // If this is the correct answer, set it
+      if (isCorrect) {
+        questions[questions.length - 1].correct = answerKey;
+        questions[questions.length - 1].answer_text = answerText;
+      }
+    } else {
+      // Try to match the line to the pattern for a reason
+      const match = line.match(/^- (.*)$/);
+      if (match) {
+        // If the line matches, extract the reason text
+        const [, reasonText] = match;
+        // Set `reason` to the reason text
+        questions[questions.length - 1].reason = reasonText;
       }
     }
-    return questions;
-  };  
+  }
+  return questions;
+};
 
 /**
  * Parses the answers string and constructs an object with correct answers and reasons
@@ -83,49 +83,49 @@ const parseQuestions = (questionText) => {
  * @example
  * Returns { correct: ["a. Paris"], reasons: ["Because it's the most populous city in France"] }
  */
-const parseAnswers = (answersText) => {
-    // Split the input text into individual lines
-    const answerLines = answersText.split('\n');
-  
-    // Initialize variables to hold the correct answer and the reason
-    let correctAnswers = [];
-    let correctText = [];
-    let reasons = [];
-  
-    // Loop over each line
-    for (let line of answerLines) {
-      // Trim spaces from the line
-      line = line.trim();
-  
-      // Try to match the line to the pattern for a correct answer
-      let match = line.match(/^\d+\.\s*([a-z])\.\s*(.*)$/i);
-      if (match) {
-        // If the line matches, extract the option letter and the answer text
-        const [, option, text] = match;
-        // Set `correctAnswers` to the option letter
-        correctAnswers.push(option);
-        // Set `correctText` to the answer text
-        correctText.push(text);
-      }
-  
-      // Try to match the line to the pattern for a reason
-      match = line.match(/^-\s*(.*)$/);
-      if (match) {
-        // If the line matches, extract the reason text
-        const [, reasonText] = match;
-        // Set `reasons` to the reason text
-        reasons.push(reasonText);
-      }
+export const parseAnswers = (answersText) => {
+  // Split the input text into individual lines
+  const answerLines = answersText.split('\n');
+
+  // Initialize variables to hold the correct answer and the reason
+  let correctAnswers = [];
+  let correctText = [];
+  let reasons = [];
+
+  // Loop over each line
+  for (let line of answerLines) {
+    // Trim spaces from the line
+    line = line.trim();
+
+    // Try to match the line to the pattern for a correct answer
+    let match = line.match(/^\d+\.\s*([a-z])\.\s*(.*)$/i);
+    if (match) {
+      // If the line matches, extract the option letter and the answer text
+      const [, option, text] = match;
+      // Set `correctAnswers` to the option letter
+      correctAnswers.push(option);
+      // Set `correctText` to the answer text
+      correctText.push(text);
     }
-  
-    // Return the correct answers and the reasons
-    return {
-      correct: correctAnswers,
-      answer_text: correctText,
-      reasons,
-    };
+
+    // Try to match the line to the pattern for a reason
+    match = line.match(/^-\s*(.*)$/);
+    if (match) {
+      // If the line matches, extract the reason text
+      const [, reasonText] = match;
+      // Set `reasons` to the reason text
+      reasons.push(reasonText);
+    }
+  }
+
+  // Return the correct answers and the reasons
+  return {
+    correct: correctAnswers,
+    answer_text: correctText,
+    reasons,
   };
-  
+};
+
 
 /**
  * Parses the provided context, question and answer strings into a structured data object
@@ -137,34 +137,34 @@ const parseAnswers = (answersText) => {
  * Returns { sections: [{ context: "World War II", questions: [{ text: "What is the capital of France?", answers: { a: "Paris" }, correct: "a. Paris", reason: "Because it's the most populous city in France" }]}]}
  *
  */
-const txtToData = (context, question, answer = null) => {
-    let section = {
-        context: parseContext(context),
-        questions: parseQuestions(question)
-    };
-    
-    // If the answer string is provided, update the answers for the questions
-    if (answer) {
-        let answers = parseAnswers(answer);
-        for (let i = 0; i < section.questions.length; i++) {
-            if (answers.correct[i]) {
-                section.questions[i].correct = answers.correct[i];
-            }
-            if (answers.reasons[i]) {
-                section.questions[i].reason = answers.reasons[i];
-            }
-            if(answers.answer_text[i]){
-                section.questions[i].answer_text = answers.answer_text[i]
-            }
-        }
-    }
+export const txtToData = (context, question, answer = null) => {
+  let section = {
+    context: parseContext(context),
+    questions: parseQuestions(question)
+  };
 
-    let quiz = {
-        sections: [
-            section
-        ]
+  // If the answer string is provided, update the answers for the questions
+  if (answer) {
+    let answers = parseAnswers(answer);
+    for (let i = 0; i < section.questions.length; i++) {
+      if (answers.correct[i]) {
+        section.questions[i].correct = answers.correct[i];
+      }
+      if (answers.reasons[i]) {
+        section.questions[i].reason = answers.reasons[i];
+      }
+      if (answers.answer_text[i]) {
+        section.questions[i].answer_text = answers.answer_text[i]
+      }
     }
-    return quiz;
+  }
+
+  let quiz = {
+    sections: [
+      section
+    ]
+  }
+  return quiz;
 }
 
 let q = `
@@ -254,30 +254,30 @@ let a2 = `
 - Capitalism is characterized by private or corporate ownership of goods and means of production.
 `
 
-const fetchOldData = async ()=>{
-    try {
-        const fileData = fs.readFileSync('dummyData.json', 'utf8');
-        const jsonData = JSON.parse(fileData);
-        return jsonData;
-      } catch (error) {
-        console.error(`Error reading JSON file: ${error}`);
-        return [];
-      }
-    
+export const fetchOldData = async () => {
+  try {
+    const fileData = fs.readFileSync('dummyData.json', 'utf8');
+    const jsonData = JSON.parse(fileData);
+    return jsonData;
+  } catch (error) {
+    console.error(`Error reading JSON file: ${error}`);
+    return [];
+  }
+
 }
 
 
-const appendToData = async (data) => {
-    try {
-      await fsPromise.writeFile('dummyData.json', JSON.stringify(data, null, 2));
-      console.log('Data successfully appended to file');
-    } catch (error) {
-      console.error(`Error appending data to file: ${error}`);
-    }
-  };
+export const appendToData = async (data) => {
+  try {
+    await fsPromise.writeFile('dummyData.json', JSON.stringify(data, null, 2));
+    console.log('Data successfully appended to file');
+  } catch (error) {
+    console.error(`Error appending data to file: ${error}`);
+  }
+};
 
-const addToFile = async (oldData, newData)=>{
-    let updatedData = [];
+export const addToFile = async (oldData, newData) => {
+  let updatedData = [];
 
   // Check if existingData is an array
   if (Array.isArray(oldData)) {
@@ -290,19 +290,19 @@ const addToFile = async (oldData, newData)=>{
   return updatedData;
 }
 
-const addToSection = async (existingData,newData)=>{
-    let updatedData = {
-        ...existingData,
-        sections: [...existingData.sections, ...newData.sections]
-      };
-    return updatedData
+export const addToSection = async (existingData, newData) => {
+  let updatedData = {
+    ...existingData,
+    sections: [...existingData.sections, ...newData.sections]
+  };
+  return updatedData
 }
 
 let quizName;
 let subject;
 let exam;
-let topic=[];
-let sub_topic=[];
+let topic = [];
+let sub_topic = [];
 let difficulty;
 let creator;
 let creatorID;
@@ -311,42 +311,42 @@ let ideal_time;
 let total_questions;
 let source;
 
-  let newData = {
-    id: 1,
-    name: "Types of Government Quiz, GED Social Studies",
-    subject: "Social Studies",
-    exam: "GED",
-    topic: ["Types of Government"],
-    sub_topic: [],
-    difficulty: "Easy",
-    creator: "Prep & Learn",
-    creatorID: "Prep & Learn",
-    type: "Normal",
-    ideal_time: 3,
-    total_questions: 2,
-    source: "Generated",
-    sections: []
-  };
+let newData = {
+  id: 1,
+  name: "Types of Government Quiz, GED Social Studies",
+  subject: "Social Studies",
+  exam: "GED",
+  topic: ["Types of Government"],
+  sub_topic: [],
+  difficulty: "Easy",
+  creator: "Prep & Learn",
+  creatorID: "Prep & Learn",
+  type: "Normal",
+  ideal_time: 3,
+  total_questions: 2,
+  source: "Generated",
+  sections: []
+};
 
 let quizSections = [
-    {
-        context:"",
-        questions:q,
-        answers:a
-    },
-    {
-        context:"",
-        questions:q2,
-        answers:a2
-    },
+  {
+    context: "",
+    questions: q,
+    answers: a
+  },
+  {
+    context: "",
+    questions: q2,
+    answers: a2
+  },
 ]
 
-const addSection = async () =>{
-    quizSections.push({
-        context:"",
-        questions:"",
-        answers:""
-    })
+const addSection = async () => {
+  quizSections.push({
+    context: "",
+    questions: "",
+    answers: ""
+  })
 }
 
 /**
@@ -367,30 +367,30 @@ const addSection = async () =>{
  * @param {Array.<Object>} [sections=[]] - The sections of the quiz, each containing context, questions, and answers.
  * @returns {Promise<void>} - A promise that resolves once the quiz is appended to the data file.
  */
-const makeQuiz = async (name,subject,exam,topic=[],sub_topic=[],difficulty,creator,creatorID,type,ideal_time,total_questions,source,sections=[])=>{
-    let newData = {
-        id: 1,
-        name,
-        subject,
-        exam,
-        topic,
-        sub_topic,
-        difficulty,
-        creator: "Prep & Learn",
-        creatorID: "Prep & Learn",
-        type: "Normal",
-        ideal_time: 3,
-        total_questions: total_questions,
-        source: "Generated",
-        sections: []
-      };
-    for(let i = 0; i < quizSections.length; i++){
-        let section = await txtToData(quizSections[i].context,quizSections[i].questions,quizSections[i].answers)
-        newData = await addToSection(newData,section)
-    }
-    let oldData = await fetchOldData();
-    newData.id = oldData.length + 1;
-    let finalData =[]
-    finalData = await addToFile(oldData,newData)
-    appendToData(finalData)
+export const makeQuiz = async (name, subject, exam, topic = [], sub_topic = [], difficulty, creator, creatorID, type, ideal_time, total_questions, source, sections = []) => {
+  let newData = {
+    id: 1,
+    name,
+    subject,
+    exam,
+    topic,
+    sub_topic,
+    difficulty,
+    creator: "Prep & Learn",
+    creatorID: "Prep & Learn",
+    type: "Normal",
+    ideal_time: 3,
+    total_questions: total_questions,
+    source: "Generated",
+    sections: []
+  };
+  for (let i = 0; i < quizSections.length; i++) {
+    let section = await txtToData(quizSections[i].context, quizSections[i].questions, quizSections[i].answers)
+    newData = await addToSection(newData, section)
+  }
+  let oldData = await fetchOldData();
+  newData.id = oldData.length + 1;
+  let finalData = []
+  finalData = await addToFile(oldData, newData)
+  appendToData(finalData)
 }
