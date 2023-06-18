@@ -1,8 +1,9 @@
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
-const SectionForm = ({ sectionIndex, sectionState, updateSectionState, prevPage, nextPage }) => {
+const SectionForm = ({ sectionIndex, sectionState, updateSectionState, prevPage, nextPage, createQuiz }) => {
     const [isEditing, setIsEditing] = useState(sectionState ? true : false);
-
+    const router = useRouter();
     const handlePrev = () => {
         prevPage();
     };
@@ -15,11 +16,7 @@ const SectionForm = ({ sectionIndex, sectionState, updateSectionState, prevPage,
         nextPage()
     };
 
-    const handleAddSection = () => {
-        setIsEditing(true);
-        updateSectionState(sectionIndex, { context: '', question: '', answer: '' });
-    };
-
+    // Check if the current route is the makeQuiz API route
     return (
         <div>
             <h2>Section Form</h2>
@@ -29,28 +26,29 @@ const SectionForm = ({ sectionIndex, sectionState, updateSectionState, prevPage,
                 onChange={(e) => updateSectionState(sectionIndex, { ...sectionState, context: e.target.value })}
                 placeholder="Section Context"
             />
-            <input
-                type="text"
-                value={sectionState ? sectionState.question : ''}
-                onChange={(e) => updateSectionState(sectionIndex, { ...sectionState, question: e.target.value })}
+            <textarea
+                value={sectionState ? sectionState.questions : ''}
+                onChange={(e) => updateSectionState(sectionIndex, { ...sectionState, questions: e.target.value })}
                 placeholder="Section Question"
+                rows={4}
+                cols={50}
             />
-            <input
+            <textarea
                 type="text"
-                value={sectionState ? sectionState.answer : ''}
-                onChange={(e) => updateSectionState(sectionIndex, { ...sectionState, answer: e.target.value })}
+                value={sectionState ? sectionState.answers : ''}
+                onChange={(e) => updateSectionState(sectionIndex, { ...sectionState, answers: e.target.value })}
                 placeholder="Section Answer"
+                rows={4}
+                cols={50}
             />
 
             <button onClick={handlePrev}>Previous</button>
-            {isEditing ? (
-                <>
-                    <button onClick={handleNext}>Next</button>
-                    <button onClick={() => setIsEditing(false)}>Save Section</button>
-                </>
-            ) : (
-                <button onClick={handleAddSection}>Add Section</button>
-            )}
+
+
+            <button onClick={handleNext}>Next</button>
+            <button onClick={createQuiz}>Save Section</button>
+
+
         </div>
     );
 };
