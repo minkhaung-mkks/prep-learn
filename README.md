@@ -12,7 +12,7 @@ Please note these times are the worst possible times, In reality I hope to have 
 
 ## A Little Delayed due to pc problems
 
-Launch of the app with just the functions to choose quizes and answer them (June 20th 2023) Progess : Fully done, just need to show the score in a better way, and gave reason afterwards for correct answer. I getting my PC back on saturday so I hoping, there will be less delays afterwards.
+Launch of the app with just the functions to choose quizes and answer them (June 20th 2023) Progess : 90% done, just need to show the correct answers and the reason for that answer.
 Time Quizes (June 25th 2023)
 Switch to MongoDB for data storage (June 30th 2023)
 Login with google (July 5th 2023)
