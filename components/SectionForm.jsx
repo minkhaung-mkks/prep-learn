@@ -1,9 +1,4 @@
-import { useState } from 'react';
-import { useRouter } from 'next/navigation';
-
 const SectionForm = ({ sectionIndex, sectionState, updateSectionState, prevPage, nextPage, createQuiz }) => {
-    const [isEditing, setIsEditing] = useState(sectionState ? true : false);
-    const router = useRouter();
     const handlePrev = () => {
         prevPage();
     };
@@ -25,6 +20,7 @@ const SectionForm = ({ sectionIndex, sectionState, updateSectionState, prevPage,
                 value={sectionState ? sectionState.context : ''}
                 onChange={(e) => updateSectionState(sectionIndex, { ...sectionState, context: e.target.value })}
                 placeholder="Section Context"
+                className='input_fields'
             />
             <textarea
                 value={sectionState ? sectionState.questions : ''}
@@ -32,6 +28,7 @@ const SectionForm = ({ sectionIndex, sectionState, updateSectionState, prevPage,
                 placeholder="Section Question"
                 rows={4}
                 cols={50}
+                className='input_areas'
             />
             <textarea
                 type="text"
@@ -40,13 +37,14 @@ const SectionForm = ({ sectionIndex, sectionState, updateSectionState, prevPage,
                 placeholder="Section Answer"
                 rows={4}
                 cols={50}
+                className='input_areas'
             />
 
-            <button onClick={handlePrev}>Previous</button>
+            <button className='next_btn' onClick={handlePrev}>Previous</button>
 
 
-            <button onClick={handleNext}>Next</button>
-            <button onClick={createQuiz}>Save Section</button>
+            <button className='next_btn' onClick={handleNext}>Next</button>
+            <button className='save_btn' onClick={createQuiz}>Save Section</button>
 
 
         </div>
