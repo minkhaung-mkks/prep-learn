@@ -7,10 +7,11 @@ import SectionForm from '@components/SectionForm';
 const Form = () => {
 
     const [formState, setFormState] = useState({
-        quizName: '',
-        quizSubject: '',
-        quizTopic: [],
-        quizSubTopic: [],
+        name: '',
+        id: 0,
+        subject: '',
+        topic: [],
+        sub_topic: [],
         difficulty: '',
         idealTime: '',
         creator: '',
