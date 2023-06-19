@@ -12,7 +12,7 @@ const QuizInfo = ({ quizInfoState, updateQuizInfoState, nextPage }) => {
       updatedQuizTopic = [...quizTopic, topic];
     }
     setQuizTopic(updatedQuizTopic);
-    updateQuizInfoState({ ...quizInfoState, quizTopic: updatedQuizTopic });
+    updateQuizInfoState({ ...quizInfoState, topic: updatedQuizTopic });
   };
 
   const handleSubtopicClick = (subtopic) => {
@@ -23,7 +23,7 @@ const QuizInfo = ({ quizInfoState, updateQuizInfoState, nextPage }) => {
       updatedQuizSubtopic = [...quizSubtopic, subtopic];
     }
     setQuizSubtopic(updatedQuizSubtopic);
-    updateQuizInfoState({ ...quizInfoState, quizSubTopic: updatedQuizSubtopic });
+    updateQuizInfoState({ ...quizInfoState, sub_topic: updatedQuizSubtopic });
   };
 
   const handleNext = () => {
@@ -40,13 +40,13 @@ const QuizInfo = ({ quizInfoState, updateQuizInfoState, nextPage }) => {
       <input
         type="text"
         value={quizInfoState.quizName}
-        onChange={(e) => updateQuizInfoState({ ...quizInfoState, quizName: e.target.value })}
+        onChange={(e) => updateQuizInfoState({ ...quizInfoState, name: e.target.value })}
         placeholder="Quiz Name"
       />
       <input
         type="text"
         value={quizInfoState.quizSubject}
-        onChange={(e) => updateQuizInfoState({ ...quizInfoState, quizSubject: e.target.value })}
+        onChange={(e) => updateQuizInfoState({ ...quizInfoState, subject: e.target.value })}
         placeholder="Quiz Subject"
       />
       <div>
