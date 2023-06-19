@@ -9,6 +9,7 @@ const Form = () => {
     const [formState, setFormState] = useState({
         name: '',
         id: 0,
+        exam: "GED",
         subject: '',
         topic: [],
         sub_topic: [],
@@ -16,6 +17,8 @@ const Form = () => {
         idealTime: '',
         creator: '',
         creatorID: '',
+        type: 'Normal',
+        source: 'Generated',
         sections: [],
     });
 
