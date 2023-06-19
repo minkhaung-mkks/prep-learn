@@ -1,11 +1,11 @@
 import React from "react";
 
-const QuestionCard = ({ question, qIndex, index, toggleRadio, answer ,hasSubmitted}) => {
+const QuestionCard = ({ question, qIndex, index, toggleRadio, answer, hasSubmitted }) => {
   return (
     <div className="question_card">
       <h3 className="question">{question.text}</h3>
       <div className="answers_box">
-        <div onClick={(e) => toggleRadio(e, index, qIndex)} className={`radio_container ${hasSubmitted ? "noClick" : ""} ${answer === "a" ? `checked_container ${hasSubmitted && question.correct!=='a' ? "wrongBox" : "" }` : ""} ${hasSubmitted && question.correct ==='a' ? "correctBox" : "" }`}>
+        <div onClick={(e) => toggleRadio(e, index, qIndex)} className={`radio_container ${hasSubmitted ? "noClick" : ""} ${answer === "a" ? `checked_container ${hasSubmitted && question.correct !== 'a' ? "wrongBox" : ""}` : ""} ${hasSubmitted && question.correct === 'a' ? "correctBox" : ""}`}>
           <input
             className="answers"
             type="radio"
@@ -16,7 +16,7 @@ const QuestionCard = ({ question, qIndex, index, toggleRadio, answer ,hasSubmitt
           />
           <label htmlFor="A">{question.answers.a}</label>
         </div>
-        <div onClick={(e) => toggleRadio(e, index, qIndex)} className={`radio_container ${hasSubmitted ? "noClick" : ""} ${answer === "b" ? `checked_container ${hasSubmitted && question.correct!=='b' ? "wrongBox" : "" }` : ""} ${hasSubmitted && question.correct ==='b' ? "correctBox" : "" }`}>
+        <div onClick={(e) => toggleRadio(e, index, qIndex)} className={`radio_container ${hasSubmitted ? "noClick" : ""} ${answer === "b" ? `checked_container ${hasSubmitted && question.correct !== 'b' ? "wrongBox" : ""}` : ""} ${hasSubmitted && question.correct === 'b' ? "correctBox" : ""}`}>
           <input
             className="answers"
             type="radio"
@@ -27,7 +27,7 @@ const QuestionCard = ({ question, qIndex, index, toggleRadio, answer ,hasSubmitt
           />
           <label htmlFor="B">{question.answers.b}</label>
         </div>
-        <div onClick={(e) => toggleRadio(e, index, qIndex)} className={`radio_container ${hasSubmitted ? "noClick" : ""} ${answer === "c" ? `checked_container ${hasSubmitted && question.correct!=='c' ? "wrongBox" : "" }` : ""} ${hasSubmitted && question.correct ==='c' ? "correctBox" : "" }`}>
+        <div onClick={(e) => toggleRadio(e, index, qIndex)} className={`radio_container ${hasSubmitted ? "noClick" : ""} ${answer === "c" ? `checked_container ${hasSubmitted && question.correct !== 'c' ? "wrongBox" : ""}` : ""} ${hasSubmitted && question.correct === 'c' ? "correctBox" : ""}`}>
           <input
             className="answers"
             type="radio"
@@ -38,7 +38,7 @@ const QuestionCard = ({ question, qIndex, index, toggleRadio, answer ,hasSubmitt
           />
           <label htmlFor="C">{question.answers.c}</label>
         </div>
-        <div onClick={(e) => toggleRadio(e, index, qIndex)} className={`radio_container ${hasSubmitted ? "noClick" : ""} ${answer === "d" ? `checked_container ${hasSubmitted && question.correct!=='d' ? "wrongBox" : "" }` : ""} ${hasSubmitted && question.correct ==='d' ? "correctBox" : "" }`}>
+        <div onClick={(e) => toggleRadio(e, index, qIndex)} className={`radio_container ${hasSubmitted ? "noClick" : ""} ${answer === "d" ? `checked_container ${hasSubmitted && question.correct !== 'd' ? "wrongBox" : ""}` : ""} ${hasSubmitted && question.correct === 'd' ? "correctBox" : ""}`}>
           <input
             className="answers"
             type="radio"
@@ -50,6 +50,17 @@ const QuestionCard = ({ question, qIndex, index, toggleRadio, answer ,hasSubmitt
           <label htmlFor="D">{question.answers.d}</label>
         </div>
       </div>
+      {hasSubmitted &&
+        <div className="correct_box">
+          <h5 className={answer === question.correct ? 'correct_answer' : 'wrong_answer'}>
+            {question.correct + ' ' + question.answer_text}
+          </h5>
+          <div className="underline"></div>
+          <p className="correct_reason">
+            {question.reason}
+          </p>
+        </div>
+      }
     </div>
   );
 };
