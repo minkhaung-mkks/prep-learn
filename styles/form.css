@@ -1,24 +1,24 @@
-input_field {
+.input_field {
     padding: 5px;
 }
 
-selectingBtn {
+.selectingBtn {
     padding: 5px 10px;
     background-color: var(--secondary);
 }
 
-selectedBtn {
+.selectedBtn {
     background-color: var(--accent);
 }
 
-next_btn {
+.next_btn {
     background-color: var(--accent);
 }
 
-save_btn {
+.save_btn {
     background-color: var(--primary);
 }
 
-input_areas {
+.input_areas {
     padding: 5px;
 }
