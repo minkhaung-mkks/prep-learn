@@ -74,11 +74,11 @@
 }
 
 .correctBox {
-    background-color: #4cc64a;
+    background-color: var(--correct);
 }
 
 .wrongBox {
-    background-color: #df253e;
+    background-color: var(--wrong);
 }
 
 .noClick {

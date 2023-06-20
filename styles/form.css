@@ -1,0 +1,14 @@
+input_field {}
+
+selectingBtn {
+    padding: 5px 10px;
+    background-color: var(--secondary);
+}
+
+selectedBtn {}
+
+next_btn {}
+
+save_btn {}
+
+input_areas {}

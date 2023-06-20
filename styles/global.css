@@ -14,6 +14,8 @@
     --primary-faded: #ffc4042e;
     --secondary: #e5ebf6;
     --accent: #6d8fca;
+    --correct: #4cc64a;
+    --wrong: #df253e;
 }
 
 .darkMode {
@@ -24,6 +26,8 @@
     --primary-faded: #ffc4042e;
     --secondary: #e1eef4;
     --accent: #975ed4;
+    --correct: #4cc64a;
+    --wrong: #df253e;
 }
 
 a {
