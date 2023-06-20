@@ -1,5 +1,5 @@
 'use client'
-import React, { useEffect, useState, useRef } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import '@styles/global.css'
 import '@styles/quiz.css'
 import QuestionCard from '@components/QuestionCard';
@@ -9,7 +9,6 @@ const PraticePage = ({ params }) => {
     const firstUpdate = useRef(true);
     const quizFetch = useRef(false);
     const [hasSubmitted, setHasSubmitted] = useState(false)
-    const [showAllAnswers, setShowAllAnswers] = useState(false)
     const [answers, setAnswers] = useState({});
     const [showScore, setShowScore] = useState(false);
     const [score, setScore] = useState(null);

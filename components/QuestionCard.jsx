@@ -1,5 +1,3 @@
-import React from "react";
-
 const QuestionCard = ({ question, qIndex, index, toggleRadio, answer, hasSubmitted }) => {
   return (
     <div className="question_card">
