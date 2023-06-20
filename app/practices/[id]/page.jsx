@@ -20,6 +20,9 @@ const PraticePage = ({ params }) => {
         const retriveData = async () => {
             try {
                 const response = await fetch('/data.json');
+                if (!response.ok) {
+                    throw new Error('Failed to fetch JSON file');
+                }
                 let data = await response.json();
                 console.log(data)
                 data = data.filter(quiz => quiz.id === quizId)
