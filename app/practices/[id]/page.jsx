@@ -13,7 +13,7 @@ const PraticePage = ({ params }) => {
     const [showScore, setShowScore] = useState(false);
     const [score, setScore] = useState(null);
     const [totalScore, setTotalScore] = useState(null);
-
+    console.log(params.id)
     const quizId = parseInt(params.id);
 
     useEffect(() => {
@@ -119,9 +119,6 @@ const PraticePage = ({ params }) => {
     }, [answers]);
     return (
         <main id="web_page">
-            <div className="quiz_info_box">
-
-            </div>
             <form onSubmit={handleSubmit} className="quiz_box">
                 {quizFetch.current && quiz.sections.map((section, index) => (
                     <div key={index}>
@@ -145,12 +142,6 @@ const PraticePage = ({ params }) => {
                 </div>
             </form>
             {showScore && <h1>Your Score: {score}/{totalScore}</h1>}
-            <div className="show_answers">
-                {/* */}
-            </div>
-            <div className="timer_box">
-
-            </div>
         </main>
     )
 }
