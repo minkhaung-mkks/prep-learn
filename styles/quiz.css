@@ -33,6 +33,10 @@
     cursor: pointer;
 }
 
+.radio_container label {
+    pointer-events: none;
+}
+
 .radio_container:hover {
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
@@ -70,7 +74,8 @@
 }
 
 .checked_container label {
-    color: white;
+    color: var(--correct-text);
+
 }
 
 .correctBox {
@@ -83,4 +88,40 @@
 
 .noClick {
     pointer-events: none;
+}
+
+
+.underline {
+    margin: 10px 1px;
+    height: 1px;
+    background-color: var(--correct-text);
+}
+
+.correct_box {
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: var(--correct-text);
+    border: 0px solid var(--text);
+}
+
+.correct_answer {
+    color: var(--correct);
+    background-color: var(--correct);
+}
+
+.wrong_answer {
+    background-color: var(--wrong);
+}
+
+.provided_answer {
+    color: var(--correct-text);
+}
+
+.correct_reason {
+    color: var(--correct-text);
+    font-weight: 500;
 }
