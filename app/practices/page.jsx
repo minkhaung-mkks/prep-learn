@@ -41,7 +41,7 @@ const PracticeListPage = () => {
     useEffect(() => {
         const retriveData = async () => {
             try {
-                const response = await fetch('dummydata/dummyData.json');
+                const response = await fetch('/data.json');
                 let data = await response.json();
                 console.log(data)
 
