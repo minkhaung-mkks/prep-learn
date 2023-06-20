@@ -3,6 +3,7 @@ import { useState } from 'react';
 const QuizInfo = ({ quizInfoState, updateQuizInfoState, nextPage }) => {
   const [quizTopic, setQuizTopic] = useState([]);
   const [quizSubject, setQuizSubject] = useState('')
+  const [difficulty, setDifficulty] = useState('')
   const [quizSubtopic, setQuizSubtopic] = useState([]);
 
   const handleTopicClick = (topic) => {
@@ -29,6 +30,10 @@ const QuizInfo = ({ quizInfoState, updateQuizInfoState, nextPage }) => {
   const handleSubjectClick = (subject) => {
     updateQuizInfoState({ ...quizInfoState, subject: subject })
     setQuizSubject(subject)
+  }
+  const handleDifficultyClick = (difficulty) => {
+    updateQuizInfoState({ ...quizInfoState, difficulty: difficulty })
+    setDifficulty(difficulty)
   }
   const handleNext = () => {
     // Validate the quiz information fields
@@ -82,13 +87,19 @@ const QuizInfo = ({ quizInfoState, updateQuizInfoState, nextPage }) => {
         <button className={`selectingBtn ${quizSubtopic.includes(`chemistry`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('chemistry')}>chemistry</button>
         <button className={`selectingBtn ${quizSubtopic.includes(`biology`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('biology')}>biology</button>
       </div>
-      <input
-        type="text"
-        value={quizInfoState.difficulty}
-        onChange={(e) => updateQuizInfoState({ ...quizInfoState, difficulty: e.target.value })}
-        placeholder="Difficulty"
-        className='input_fields'
-      />
+      <h4>Difficulty</h4>
+      <button className={`selectingBtn ${difficulty === 'Easy' ? 'selectedBtn' : ''} `} onClick={() => handleDifficultyClick('Easy')}>
+        Easy
+      </button>
+      <button className={`selectingBtn ${difficulty === 'Medium' ? 'selectedBtn' : ''} `} onClick={() => handleDifficultyClick('Medium')}>
+        Medium
+      </button>
+      <button className={`selectingBtn ${difficulty === 'Hard' ? 'selectedBtn' : ''} `} onClick={() => handleDifficultyClick('Hard')}>
+        Hard
+      </button>
+      <button className={`selectingBtn ${difficulty === 'Very Hard' ? 'selectedBtn' : ''} `} onClick={() => handleDifficultyClick('Very Hard')}>
+        Very Hard
+      </button>
       <input
         type="text"
         value={quizInfoState.idealTime}
@@ -98,15 +109,15 @@ const QuizInfo = ({ quizInfoState, updateQuizInfoState, nextPage }) => {
       />
       <input
         type="text"
-        value={quizInfoState.creator}
-        onChange={(e) => updateQuizInfoState({ ...quizInfoState, creator: e.target.value })}
+        value={"Prep & Learn"}
+        onChange={(e) => updateQuizInfoState({ ...quizInfoState, creator: "Prep & Learn" })}
         placeholder="Creator"
         className='input_fields'
       />
       <input
         type="text"
-        value={quizInfoState.creatorID}
-        onChange={(e) => updateQuizInfoState({ ...quizInfoState, creatorID: e.target.value })}
+        value={0}
+        onChange={(e) => updateQuizInfoState({ ...quizInfoState, creatorID: 0 })}
         placeholder="Creator ID"
         className='input_fields'
       />
