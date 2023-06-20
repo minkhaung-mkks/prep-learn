@@ -20,7 +20,7 @@ const PraticePage = ({ params }) => {
     useEffect(() => {
         const retriveData = async () => {
             try {
-                const response = await fetch('dummydata/dummyData.json');
+                const response = await fetch('/dummydata/json/data.json');
                 let data = await response.json();
                 console.log(data)
                 data = data.filter(quiz => quiz.id === quizId)
@@ -61,9 +61,9 @@ const PraticePage = ({ params }) => {
 
                 console.log(initialAnswers)
                 setQuiz(data[0]);
-                quizFetch.current = true;
                 setTotalScore(totalQuestions)
                 setAnswers(initialAnswers);
+                quizFetch.current = true;
             } catch (error) {
                 console.error('Error fetching quiz data: ', error);
             }
