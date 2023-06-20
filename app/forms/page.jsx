@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import QuizInfo from '@components/QuizInfo';
 import SectionForm from '@components/SectionForm';
-
+import '@styles/form.css'
 
 const Form = () => {
 

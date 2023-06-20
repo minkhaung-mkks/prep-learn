@@ -123,7 +123,7 @@ const QuizInfo = ({ quizInfoState, updateQuizInfoState, nextPage }) => {
       />
 
       <button className='next_btn' onClick={handleNext}>Next</button>
-      <button onClick={() => console.log(quizInfoState)}>Tests</button>
+      {/* <button onClick={() => console.log(quizInfoState)}>Tests</button> */}
     </div>
   );
 };
