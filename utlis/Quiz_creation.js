@@ -269,7 +269,7 @@ export const fetchOldData = async () => {
 
 export const appendToData = async (data) => {
   try {
-    await fsPromise.writeFile('dummyData.json', JSON.stringify(data, null, 2));
+    await fsPromise.writeFile('public/dummydata/dummyData.json', JSON.stringify(data, null, 2));
     console.log('Data successfully appended to file');
   } catch (error) {
     console.error(`Error appending data to file: ${error}`);
