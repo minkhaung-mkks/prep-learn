@@ -97,8 +97,8 @@
 17 How many hydrogen atoms are there in one molecule of water (H2O)?
     	A. One
     	B. Two
-C. Three
-D. Four
+		C. Three
+		D. Four
 
 18 What is the process by which a solid transforms directly into a gas, without passing through the liquid phase?
 A. Sublimation

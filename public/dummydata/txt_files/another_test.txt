@@ -174,13 +174,13 @@
 	c. The original Constitution
 	d. The last ten amendments to the U.S. Constitution
 
-100. The U.S. Constitution was signed in what year?
+10. The U.S. Constitution was signed in what year?
 	a. 1776
 	b. 1787
 	c. 1791
 	d. 1812
 
-101. The right to remain silent when arrested or interrogated is protected under:
+10. The right to remain silent when arrested or interrogated is protected under:
 
 
 	a. The Fourth Amendment
@@ -188,55 +188,55 @@
 	c. The Eighth Amendment
 	d. The Tenth Amendment
 
-102. The President's power to veto a bill passed by Congress is an example of:
+10. The President's power to veto a bill passed by Congress is an example of:
 	a. Popular sovereignty
 	b. Judicial review
 	c. Checks and balances
 	d. Federalism
 
-103. Who is considered the "Father of the Constitution"?
+13. Who is considered the "Father of the Constitution"?
 	a. George Washington
 	b. Thomas Jefferson
 	c. Benjamin Franklin
 	d. James Madison
 
-104. The U.S. Constitution replaced which of the following documents?
+14. The U.S. Constitution replaced which of the following documents?
 	a. The Articles of Confederation
 	b. The Bill of Rights
 	c. The Declaration of Independence
 	d. The Federalist Papers
 
-105. The 26th Amendment to the U.S. Constitution:
+15. The 26th Amendment to the U.S. Constitution:
 	a. Lowered the voting age from 21 to 18
 	b. Provided for direct election of senators
 	c. Granted women the right to vote
 	d. Abolished slavery
 
-106. Which of the following best describes the system of federalism?
+16. Which of the following best describes the system of federalism?
 	a. A system in which power is divided between the national and state governments
 	b. A system in which all power is held by the national government
 	c. A system in which all power is held by the state governments
 	d. A system in which power is equally distributed among all citizens
 
-107. The "double jeopardy" clause in the U.S. Constitution is part of which amendment?
+17. The "double jeopardy" clause in the U.S. Constitution is part of which amendment?
 	a. Fifth Amendment
 	b. Sixth Amendment
 	c. Seventh Amendment
 	d. Eighth Amendment
 
-108. The right to petition the government is guaranteed in which amendment?
+18. The right to petition the government is guaranteed in which amendment?
 	a. First Amendment
 	b. Third Amendment
 	c. Fifth Amendment
 	d. Seventh Amendment
 
-109. What does the Eighth Amendment to the U.S. Constitution prohibit?
+19. What does the Eighth Amendment to the U.S. Constitution prohibit?
 	a. Cruel and unusual punishment
 	b. Unreasonable search and seizure
 	c. Self-incrimination
 	d. Disrespect of the American flag
 
-110. Who has the power to declare war according to the U.S. Constitution?
+10. Who has the power to declare war according to the U.S. Constitution?
 	a. The President
 	b. The Supreme Court
 	c. The Secretary of Defense
@@ -331,35 +331,35 @@
 99. a. The first ten amendments to the U.S. Constitution
    - The Bill of Rights is the term for the first ten amendments to the U.S. Constitution.
 
-100. b. 1787
+10. b. 1787
    - The U.S. Constitution was signed in the year 1787.
 
-101. b. The Fifth Amendment
+11. b. The Fifth Amendment
    - The right to remain silent when arrested or interrogated is protected under the Fifth Amendment to the U.S. Constitution.
 
-102. c. Checks and balances
+10. c. Checks and balances
    - The President's power to veto a bill passed by Congress is an example of checks and balances.
 
-103. d. James Madison
+10. d. James Madison
    - James Madison is often referred to as the "Father of the Constitution" due to his key role in drafting and promoting the U.S. Constitution.
 
-104. a. The Articles of Confederation
+10. a. The Articles of Confederation
    - The U.S. Constitution replaced the Articles of Confederation.
 
-105. a. Lowered the voting age from 21 to 18
+10. a. Lowered the voting age from 21 to 18
    - The 26th Amendment to the U.S. Constitution lowered the voting age from 21 to 18.
 
-106. a. A system in which power is divided between the national and state governments
+10. a. A system in which power is divided between the national and state governments
    - Federalism is a system in which power is divided between the national and state governments.
 
-107. a. Fifth Amendment
+10. a. Fifth Amendment
    - The "double jeopardy" clause in the U.S. Constitution, which protects against being tried twice for the same crime, is part of the Fifth Amendment.
 
-108. a. First Amendment
+18. a. First Amendment
    - The right to petition the government is guaranteed in the First Amendment to the U.S. Constitution.
 
-109. a. Cruel and unusual punishment
+10. a. Cruel and unusual punishment
    - The Eighth Amendment to the U.S. Constitution prohibits cruel and unusual punishment.
 
-110. d. The Congress
+10. d. The Congress
    - According to the U.S. Constitution, the power to declare war is vested in Congress.
