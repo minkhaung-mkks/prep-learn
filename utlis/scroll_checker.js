@@ -30,6 +30,10 @@ const final_box_into_view = () => {
     document.querySelector('.last_call_btn').classList.add('last_call_btn_in_view')
 }
 
+export const startUp = () => {
+
+}
+
 export const setupObservers = () => {
     scroll_into_view('.final_box', final_box_into_view)
 }
