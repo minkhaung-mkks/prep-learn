@@ -1,201 +1,242 @@
-Which of the following is an example of a physical property?
-A. Flammability
-B. Reactivity with acid
-C. Boiling point
-D. Ability to oxidize
-An atom becomes an ion when it:
-A. Gains or loses neutrons
-B. Gains or loses protons
-C. Gains or loses electrons
-D. Changes its state of matter
-In a neutral atom, the number of protons is equal to the number of:
-A. Neutrons
-B. Electrons
-C. Isotopes
-D. Nuclei
-How many electrons can a single orbital hold?
-A. 1
-B. 2
-C. 4
-D. 8
-Which of the following is not a state of matter?
-A. Solid
-B. Liquid
-C. Gas
-D. Plasma
-E. Energy
-Distilled water is an example of a:
-A. Heterogeneous mixture
-B. Homogeneous mixture
-C. Solution
-D. Compound
-Which of the following is the correct formula for carbon dioxide?
-A. CO
-B. CO2
-C. C2O
-D. C2O2
-On the pH scale, a value of 5 indicates a:
-A. Strong acid
-B. Weak acid
-C. Neutral solution
-D. Base
-The mass number of an atom can be calculated by:
-A. Adding the number of protons and electrons
-B. Adding the number of protons and neutrons
-C. Subtracting the number of neutrons from the number of protons
-D. Adding the number of electrons and neutrons
-The atomic number of an atom is determined by the number of:
-A. Protons
-B. Neutrons
-C. Electrons
-D. Ions
-In a chemical equation, the substances to the right of the arrow are called:
-A. Reactants
-B. Products
-C. Catalysts
-D. Inhibitors
-If a gas at a constant temperature is compressed, its pressure will:
-A. Increase
-B. Decrease
-C. Stay the same
-D. Cannot be determined
-How many valence electrons does a carbon atom have?
-A. 2
-B. 4
-C. 6
-D. 8
-What is the most common isotope of hydrogen?
-A. Deuterium
-B. Tritium
-C. Protium
-D. Helium
-The substance being dissolved in a solution is called the:
-A. Solvent
-B. Solute
-C. Soluble
-D. Solution
-Which phase change involves a solid turning directly into a gas?
-A. Melting
-B. Freezing
-C. Evaporation
-D. Sublimation
-In a displacement reaction:
-A. All reactants combine to form a single product
-B. A single compound breaks down into two or more simpler substances
-C. An element replaces a similar element in a compound
-D. A compound breaks down into a pure element and a new compound
-What does the "n" in the ideal gas law (PV=nRT) represent?
-A. Number of moles
-B. Number of atoms
-C. Number of molecules
-D. Volume
-Which element is most likely to lose an electron in a chemical reaction?
-A. Hydrogen
-B. Oxygen
-C. Sodium
-D. Chlorine
-What is the purpose of a balance in a chemistry lab?
-A. To measure volume
-B. To measure mass
-C. To measure density
-D. To measure pressure
-Which of the following represents a chemical change?
-A. Melting ice
-B. Crushing a can
-C. Burning a log
-D. Dissolving salt in water
-The element in the periodic table with the highest atomic number is:
-A. Hydrogen
-B. Oxygen
-C. Iron
-D. Uranium
-What does STP stand for in chemistry?
-A. Standard temperature and pressure
-B. Specific temperature and pressure
-C. Saturated temperature and pressure
-D. Stable temperature and pressure
-A reaction in which heat is absorbed is called:
-A. Exothermic
-B. Endothermic
-C. Enzymatic
-D. Energetic
-What is the term for a horizontal row on the periodic table?
-A. Group
-B. Period
-C. Family
-D. Series
-Which of the following is an example of a physical change?
-A. Iron rusting
-B. Sugar fermenting
-C. Water boiling
-D. Wood burning
-Which type of reaction occurs when an acid reacts with a base?
-A. Neutralization
-B. Oxidation
-C. Reduction
-D. Decomposition
-What is the correct name for MgCl2?
-A. Magnesium chloride
-B. Manganese chloride
-C. Magnesium chlorate
-D. Manganese chlorate
-In a covalent bond, electrons are:
-A. Transferred
-B. Shared
-C. Removed
-D. Absorbed
-Which of the following is the correct formula for sulfuric acid?
-A. H2SO4
-B. H2S
-C. SO4
-D. S2O4
-A process by which a gas turns directly into a solid is called:
-A. Freezing
-B. Melting
-C. Deposition
-D. Condensation
-An ionic bond is a bond that forms between:
-A. Two nonmetals
-B. Two metals
-C. A metal and a nonmetal
-D. A gas and a liquid
-Which state of matter has the highest energy particles?
-A. Solid
-B. Liquid
-C. Gas
-D. Plasma
-The atomic mass of an atom is approximately equal to:
-A. The number of protons only
-B. The number of neutrons only
-C. The number of protons plus electrons
-D. The number of protons plus neutrons
-An example of a compound is:
-A. Water
-B. Nitrogen gas
-C. Salt
-D. Both A and C
-A molecule of oxygen gas (O2) consists of how many oxygen atoms?
-A. 1
-B. 2
-C. 3
-D. 4
-Which of the following is a property of bases?
-A. They taste sour
-B. They turn litmus paper red
-C. They feel slippery
-D. They react with metals to produce hydrogen gas
-Which group in the periodic table contains the halogens?
-A. Group 1
-B. Group 2
-C. Group 17
-D. Group 18
-What happens when a substance dissolves in water?
-A. It reacts chemically with the water
-B. It separates into ions or molecules
-C. It evaporates with the water
-D. It forms a new substance with the water
-Which of the following elements is a noble gas?
-A. Hydrogen
-B. Helium
-C. Oxygen
-D. Neon
+1. Which of the following is an example of a physical property?
+    A. Flammability
+    B. Reactivity with acid
+    C. Boiling point
+    D. Ability to oxidize
+2. An atom becomes an ion when it:
+    A. Gains or loses neutrons
+    B. Gains or loses protons
+    C. Gains or loses electrons
+    D. Changes its state of matter
+3. In a neutral atom, the number of protons is equal to the number of:
+    A. Neutrons
+    B. Electrons
+    C. Isotopes
+    D. Nuclei
+4. How many electrons can a single orbital hold?
+    A. 1
+    B. 2
+    C. 4
+    D. 8
+5.Which of the following is not a state of matter?
+    A. Solid
+    B. Liquid
+    C. Gas
+    D. Plasma
+    E. Energy
+6. Distilled water is an example of a:
+    A. Heterogeneous mixture
+    B. Homogeneous mixture
+    C. Solution
+    D. Compound
+7. Which of the following is the correct formula for carbon dioxide?
+    A. CO
+    B. CO2
+    C. C2O
+    D. C2O2
+8. On the pH scale, a value of 5 indicates a:
+    A. Strong acid
+    B. Weak acid
+    C. Neutral solution
+    D. Base
+9. The mass number of an atom can be calculated by:
+    A. Adding the number of protons and electrons
+    B. Adding the number of protons and neutrons
+    C. Subtracting the number of neutrons from the number of protons
+    D. Adding the number of electrons and neutrons
+10. The atomic number of an atom is determined by the number of:
+    A. Protons
+    B. Neutrons
+    C. Electrons
+    D. Ions
+11. In a chemical equation, the substances to the right of the arrow are called:
+    A. Reactants
+    B. Products
+    C. Catalysts
+    D. Inhibitors
+12. If a gas at a constant temperature is compressed, its pressure will:
+    A. Increase
+    B. Decrease
+    C. Stay the same
+    D. Cannot be determined
+13. How many valence electrons does a carbon atom have?
+    A. 2
+    B. 4
+    C. 6
+    D. 8
+14. What is the most common isotope of hydrogen?
+    A. Deuterium
+    B. Tritium
+    C. Protium
+    D. Helium
+15. The substance being dissolved in a solution is called the:
+    A. Solvent
+    B. Solute
+    C. Soluble
+    D. Solution
+16. Which phase change involves a solid turning directly into a gas?
+    A. Melting
+    B. Freezing
+    C. Evaporation
+    D. Sublimation
+17. In a displacement reaction:
+    A. All reactants combine to form a single product
+    B. A single compound breaks down into two or more simpler substances
+    C. An element replaces a similar element in a compound
+    D. A compound breaks down into a pure element and a new compound
+18. What does the "n" in the ideal gas law (PV=nRT) represent?
+    A. Number of moles
+    B. Number of atoms
+    C. Number of molecules
+    D. Volume
+19. Which element is most likely to lose an electron in a chemical reaction?
+    A. Hydrogen
+    B. Oxygen
+    C. Sodium
+    D. Chlorine
+20. What is the purpose of a balance in a chemistry lab?
+    A. To measure volume
+    B. To measure mass
+    C. To measure density
+    D. To measure pressure
+21. Which of the following represents a chemical change?
+    A. Melting ice
+    B. Crushing a can
+    C. Burning a log
+    D. Dissolving salt in water
+22. The element in the periodic table with the highest atomic number is:
+    A. Hydrogen
+    B. Oxygen
+    C. Iron
+    D. Uranium
+23. What does STP stand for in chemistry?
+    A. Standard temperature and pressure
+    B. Specific temperature and pressure
+    C. Saturated temperature and pressure
+    D. Stable temperature and pressure
+24. A reaction in which heat is absorbed is called:
+    A. Exothermic
+    B. Endothermic
+    C. Enzymatic
+    D. Energetic
+25. What is the term for a horizontal row on the periodic table?
+    A. Group
+    B. Period
+    C. Family
+    D. Series
+26. Which of the following is an example of a physical change?
+    A. Iron rusting
+    B. Sugar fermenting
+    C. Water boiling
+    D. Wood burning
+27. Which type of reaction occurs when an acid reacts with a base?
+    A. Neutralization
+    B. Oxidation
+    C. Reduction
+    D. Decomposition
+28. What is the correct name for MgCl2?
+    A. Magnesium chloride
+    B. Manganese chloride
+    C. Magnesium chlorate
+    D. Manganese chlorate
+29. In a covalent bond, electrons are:
+    A. Transferred
+    B. Shared
+    C. Removed
+    D. Absorbed
+30. Which of the following is the correct formula for sulfuric acid?
+    A. H2SO4
+    B. H2S
+    C. SO4
+    D. S2O4
+31. A process by which a gas turns directly into a solid is called:
+    A. Freezing
+    B. Melting
+    C. Deposition
+    D. Condensation
+32. An ionic bond is a bond that forms between:
+    A. Two nonmetals
+    B. Two metals
+    C. A metal and a nonmetal
+    D. A gas and a liquid
+33. Which state of matter has the highest energy particles?
+    A. Solid
+    B. Liquid
+    C. Gas
+    D. Plasma
+34. The atomic mass of an atom is approximately equal to:
+    A. The number of protons only
+    B. The number of neutrons only
+    C. The number of protons plus electrons
+    D. The number of protons plus neutrons
+35. An example of a compound is:
+    A. Water
+    B. Nitrogen gas
+    C. Salt
+    D. Both A and C
+36. A molecule of oxygen gas (O2) consists of how many oxygen atoms?
+    A. 1
+    B. 2
+    C. 3
+    D. 4
+37. Which of the following is a property of bases?
+    A. They taste sour
+    B. They turn litmus paper red
+    C. They feel slippery
+    D. They react with metals to produce hydrogen gas
+38. Which group in the periodic table contains the halogens?
+    A. Group 1
+    B. Group 2
+    C. Group 17
+    D. Group 18
+39. What happens when a substance dissolves in water?
+    A. It reacts chemically with the water
+    B. It separates into ions or molecules
+    C. It evaporates with the water
+    D. It forms a new substance with the water
+40. Which of the following elements is a noble gas?
+    A. Hydrogen
+    B. Helium
+    C. Oxygen
+    D. Neon
+
+1. C. Boiling point
+2. C. Gains or loses electrons
+3. B. Electrons
+4. B. 2
+5. E. Energy
+6. B. Homogeneous mixture
+7. B. CO2
+8. B. Weak acid
+9. B. Adding the number of protons and neutrons
+10. A. Protons
+11. B. Products
+12. A. Increase
+13. B. 4
+14. C. Protium
+15. B. Solute
+16. D. Sublimation
+17. C. An element replaces a similar element in a compound
+18. A. Number of moles
+19. C. Sodium
+20. B. To measure mass
+21. C. Burning a log
+22. D. Uranium
+23. A. Standard temperature and pressure
+24. B. Endothermic
+25. B. Period
+26. C. Water boiling
+27. A. Neutralization
+28. A. Magnesium chloride
+29. B. Shared
+30. A. H2SO4
+31. C. Deposition
+32. C. A metal and a nonmetal
+33. C. Gas
+34. D. The number of protons plus neutrons
+35. D. Both A and C
+36. B. 2
+37. C. They feel slippery
+38. C. Group 17
+39. B. It separates into ions or molecules
+40. D. Neon

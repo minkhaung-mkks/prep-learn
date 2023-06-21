@@ -209,32 +209,75 @@ C. 0
 D. Depends on the atom
 
 36 What is the term for a reaction in which an atom, ion, or molecule donates an electron pair to form a covalent bond?
-
-A. Oxidation
-B. Reduction
-C. Acidification
-D. Neutralization
+	A. Oxidation
+	B. Reduction
+	C. Acidification
+	D. Neutralization
 
 37 What is the common name for the compound NaCl?
-A. Baking soda
-B. Table salt
-C. Vinegar
-D. Sugar
+	A. Baking soda
+	B. Table salt
+	C. Vinegar
+	D. Sugar
 
 38 Which of the following elements is a metalloid?
-A. Sodium
-B. Silicon
-C. Oxygen
-D. Carbon
+	A. Sodium
+	B. Silicon
+	C. Oxygen
+	D. Carbon
 
 39 How many electrons can the first shell of an atom hold?
-A. 2
-B. 8
-C. 18
-D. 32
+	A. 2
+	B. 8
+	C. 18
+	D. 32
 
 40 Which of the following is not one of the six most common elements in living organisms?
-A. Carbon
-B. Hydrogen
-C. Oxygen
-D. Aluminum
+	A. Carbon
+	B. Hydrogen
+	C. Oxygen
+	D. Aluminum
+
+
+Here are the answers to the chemistry questions:
+
+1. C. Chemical reactivity
+2. A. The number of protons
+3. C. Neutral
+4. B. Covalent
+5. C. Argon
+6. A. Solid
+7. A. Water
+8. B. 7
+9. C. Buffers
+10. C. Evaporation
+11. B. Decomposition reaction
+12. D. Mass
+13. B. Molecule
+14. C. Density = Mass / Volume
+15. B. The number of molecules in 1 mole of a substance
+16. C. Element
+17. B. Two
+18. A. Sublimation
+19. D. Sum of the masses of all subatomic particles
+20. A. Mass can neither be created nor destroyed
+21. D. Enthalpy
+22. C. A substance that changes the rate of a chemical reaction without being consumed
+23. A. They turn blue litmus paper red
+24. D. All known elements
+25. C. Rusting iron
+26. A. Sphere
+27. B. As a drying agent in paints
+28. A. Atoms of the same element with the same number of protons but different numbers of neutrons
+29. A. The number of moles of solute per liter of solution
+30. A. A compound made up only of hydrogen and carbon atoms
+31. C. Solution
+32. B. Electrons in the outermost shell of an atom
+33. D. Acid
+34. B. Charles's Law
+35. C. 0
+36. B. Reduction
+37. B. Table salt
+38. B. Silicon
+39. A. 2
+40. D. Aluminum
