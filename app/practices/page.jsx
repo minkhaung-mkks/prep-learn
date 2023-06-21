@@ -101,76 +101,76 @@ const PracticeListPage = () => {
             <div className="heading_line"></div>
             {selectedSubject === 'Social Studies' && (
                 <div id="GEDSocialStudies" className="selector_btns_box">
-                    <button onClick={() => selectTopics('All')} className={`selector_btn ${selectedTopics === 'All' ? "selected_selector_btn" : ""}`}>
+                    <button onClick={() => selectTopics('All')} className={`selector_btn ${selectedTopics.length < 1 ? "selected_selector_btn" : ""}`}>
                         All
                     </button>
-                    <button onClick={() => selectTopics('Civics & Government')} className={`selector_btn ${selectedTopics === 'Civics & Government' ? "selected_selector_btn" : ""}`}>
+                    <button onClick={() => selectTopics('Civics & Government')} className={`selector_btn ${selectedTopics.includes('Civics & Government') ? "selected_selector_btn" : ""}`}>
                         Civics & Government
                     </button>
-                    <button onClick={() => selectTopics('American Principals')} className={`selector_btn ${selectedTopics === 'American Principals' ? "selected_selector_btn" : ""}`}>
+                    <button onClick={() => selectTopics('American Principals')} className={`selector_btn ${selectedTopics.includes('American Principals') ? "selected_selector_btn" : ""}`}>
                         American Principals
                     </button>
-                    <button onClick={() => selectTopics('American Goverment Strucutre')} className={`selector_btn ${selectedTopics === 'American Goverment Strucutre' ? "selected_selector_btn" : ""}`}>
+                    <button onClick={() => selectTopics('American Goverment Strucutre')} className={`selector_btn ${selectedTopics.includes('American Goverment Strucutre') ? "selected_selector_btn" : ""}`}>
                         American Goverment Strucutre
                     </button>
-                    <button onClick={() => selectTopics('American History')} className={`selector_btn ${selectedTopics === 'American History' ? "selected_selector_btn" : ""}`}>
+                    <button onClick={() => selectTopics('American History')} className={`selector_btn ${selectedTopics.includes('American History') ? "selected_selector_btn" : ""}`}>
                         American History
                     </button>
-                    <button onClick={() => selectTopics('World History')} className={`selector_btn ${selectedTopics === 'World History' ? "selected_selector_btn" : ""}`}>
+                    <button onClick={() => selectTopics('World History')} className={`selector_btn ${selectedTopics.includes('World History') ? "selected_selector_btn" : ""}`}>
                         World History
                     </button>
                 </div>
             )}
             {selectedSubject === 'Sciences' && (
                 <div id="GEDSciences" className="selector_btns_box">
-                    <button onClick={() => selectTopics('All')} className={`selector_btn ${selectedTopics === 'All' ? "selected_selector_btn" : ""}`}>
+                    <button onClick={() => selectTopics('All')} className={`selector_btn ${selectedTopics.length < 1 ? "selected_selector_btn" : ""}`}>
                         All
                     </button>
-                    <button onClick={() => selectTopics('Chemistry')} className={`selector_btn ${selectedTopics === 'Chemistry' ? "selected_selector_btn" : ""}`}>
+                    <button onClick={() => selectTopics('Chemistry')} className={`selector_btn ${selectedTopics.includes('Chemistry') ? "selected_selector_btn" : ""}`}>
                         Chemistry
                     </button>
-                    <button onClick={() => selectTopics('Physics')} className={`selector_btn ${selectedTopics === 'Physics' ? "selected_selector_btn" : ""}`}>
+                    <button onClick={() => selectTopics('Physics')} className={`selector_btn ${selectedTopics.includes('Physics') ? "selected_selector_btn" : ""}`}>
                         Physics
                     </button>
-                    <button onClick={() => selectTopics('Biology')} className={`selector_btn ${selectedTopics === 'Biology' ? "selected_selector_btn" : ""}`}>
+                    <button onClick={() => selectTopics('Biology')} className={`selector_btn ${selectedTopics.includes('Biology') ? "selected_selector_btn" : ""}`}>
                         Biology
                     </button>
-                    <button onClick={() => selectTopics('Earth and Space')} className={`selector_btn ${selectedTopics === 'Earth and Space' ? "selected_selector_btn" : ""}`}>
+                    <button onClick={() => selectTopics('Earth and Space')} className={`selector_btn ${selectedTopics.includes('Earth and Space') ? "selected_selector_btn" : ""}`}>
                         Earth and Space
                     </button>
                 </div>
             )}
             {selectedSubject === 'RLA' && (
                 <div id="GEDRLA" className="selector_btns_box">
-                    <button onClick={() => selectTopics('All')} className={`selector_btn ${selectedTopics === 'All' ? "selected_selector_btn" : ""}`}>
+                    <button onClick={() => selectTopics('All')} className={`selector_btn ${selectedTopics.length < 1 ? "selected_selector_btn" : ""}`}>
                         All
                     </button>
-                    <button onClick={() => selectTopics('Fictional Reading Comprehension')} className={`selector_btn ${selectedTopics === 'Fictional Reading Comprehension' ? "selected_selector_btn" : ""}`}>
+                    <button onClick={() => selectTopics('Fictional Reading Comprehension')} className={`selector_btn ${selectedTopics.includes('Fictional Reading Comprehension') ? "selected_selector_btn" : ""}`}>
                         Fictional Reading Comprehension
                     </button>
-                    <button onClick={() => selectTopics('Non-Fictional Reading Comprehension')} className={`selector_btn ${selectedTopics === 'Non-Fictional Reading Comprehension' ? "selected_selector_btn" : ""}`}>
+                    <button onClick={() => selectTopics('Non-Fictional Reading Comprehension')} className={`selector_btn ${selectedTopics.includes('Non-Fictional Reading Comprehension') ? "selected_selector_btn" : ""}`}>
                         Non-Fictional Reading Comprehension
                     </button>
-                    <button onClick={() => selectTopics('Grammar')} className={`selector_btn ${selectedTopics === 'Grammar' ? "selected_selector_btn" : ""}`}>
+                    <button onClick={() => selectTopics('Grammar')} className={`selector_btn ${selectedTopics.includes('Grammar') ? "selected_selector_btn" : ""}`}>
                         Grammar
                     </button>
                 </div>
             )}
             {selectedSubject === 'Math' && (
                 <div id="GEDMath" className="selector_btns_box">
-                    <button onClick={() => selectTopics('All')} className={`selector_btn ${selectedTopics === 'All' ? "selected_selector_btn" : ""}`}>
+                    <button onClick={() => selectTopics('All')} className={`selector_btn ${selectedTopics.length < 1 ? "selected_selector_btn" : ""}`}>
                         All
                     </button>
-                    <button onClick={() => selectTopics('Percent & Rate')} className={`selector_btn ${selectedTopics === 'Percent & Rate' ? "selected_selector_btn" : ""}`}>
+                    <button onClick={() => selectTopics('Percent & Rate')} className={`selector_btn ${selectedTopics.includes('Percent & Rate') ? "selected_selector_btn" : ""}`}>
                         Percent & Rate
                     </button>
-                    <button onClick={() => selectTopics('Polynomial Expressions')} className={`selector_btn ${selectedTopics === 'Polynomial Expressions' ? "selected_selector_btn" : ""}`}>
+                    <button onClick={() => selectTopics('Polynomial Expressions')} className={`selector_btn ${selectedTopics.includes('Polynomial Expressions') ? "selected_selector_btn" : ""}`}>
                         Polynomial Expressions
                     </button>
-                    <button onClick={() => selectTopics('Quadratic Equations')} className={`selector_btn ${selectedTopics === 'Quadratic Equations' ? "selected_selector_btn" : ""}`}>
+                    <button onClick={() => selectTopics('Quadratic Equations')} className={`selector_btn ${selectedTopics.includes('Quadratic Equations') ? "selected_selector_btn" : ""}`}>
                         Quadratic Equations
                     </button>
-                    <button onClick={() => selectTopics('Graphs and Functions')} className={`selector_btn ${selectedTopics === 'Graphs and Functions' ? "selected_selector_btn" : ""}`}>
+                    <button onClick={() => selectTopics('Graphs and Functions')} className={`selector_btn ${selectedTopics.includes('Graphs and Functions') ? "selected_selector_btn" : ""}`}>
                         Graphs and Functions
                     </button>
                 </div>
@@ -182,7 +182,7 @@ const PracticeListPage = () => {
                     <div className="heading_line"></div>
                     {selectedTopics.includes('Chemistry') && (
                         <div id="GEDScience_chemistry" className="selector_btns_box">
-                            <button onClick={selectSubTopics('All')} className={`selector_btn ${selectedSubTopics === 'All' ? "selected_selector_btn" : ""}`}>
+                            <button onClick={selectSubTopics('All')} className={`selector_btn ${selectedSubTopics.length < 1 ? "selected_selector_btn" : ""}`}>
                                 All
                             </button>
                         </div>
@@ -190,7 +190,7 @@ const PracticeListPage = () => {
                     }
                     {selectedTopics.includes('Biology') && (
                         <div id="GEDScience_biology" className="selector_btns_box">
-                            <button onClick={selectSubTopics('All')} className={`selector_btn ${selectedSubTopics === 'All' ? "selected_selector_btn" : ""}`}>
+                            <button onClick={selectSubTopics('All')} className={`selector_btn ${selectedSubTopics.length < 1 ? "selected_selector_btn" : ""}`}>
                                 All
                             </button>
                         </div>
@@ -198,7 +198,7 @@ const PracticeListPage = () => {
                     }
                     {selectedTopics.includes('Physics') && (
                         <div id="GEDScience_physics" className="selector_btns_box">
-                            <button onClick={selectSubTopics('All')} className={`selector_btn ${selectedSubTopics === 'All' ? "selected_selector_btn" : ""}`}>
+                            <button onClick={selectSubTopics('All')} className={`selector_btn ${selectedSubTopics.length < 1 ? "selected_selector_btn" : ""}`}>
                                 All
                             </button>
                         </div>
@@ -206,7 +206,7 @@ const PracticeListPage = () => {
                     }
                     {selectedTopics.includes('EarthAndScience') && (
                         <div id="GEDScience_EarthAndSpace" className="selector_btns_box">
-                            <button onClick={selectSubTopics('All')} className={`selector_btn ${selectedSubTopics === 'All' ? "selected_selector_btn" : ""}`}>
+                            <button onClick={selectSubTopics('All')} className={`selector_btn ${selectedSubTopics.length < 1 ? "selected_selector_btn" : ""}`}>
                                 All
                             </button>
                         </div>
