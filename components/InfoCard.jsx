@@ -17,7 +17,7 @@ const InfoCard = ({ index, quiz }) => {
                 <h4 className="quiz_type"> {quiz.source}</h4>
             </div>
 
-            <div className="quiz_info_box">
+            <div className="quiz_info_box quiz_long_box">
 
                 <div className="quiz_title_box">
 
@@ -25,9 +25,24 @@ const InfoCard = ({ index, quiz }) => {
 
                     <h3 className="quiz_subject">Subject : {quiz.subject}</h3>
 
-                    <h3 className="quiz_topic">Topic : {quiz.topic}</h3>
-                    {quiz.sub_topic !== "" &&
-                        <h3 className="quiz_topic">Sub Topic {quiz.sub_topic}</h3>
+                    <h3 className="quiz_topic">
+                        Topics:
+                        <div className="topics_box">
+                            {quiz.topic.map((topic, index) => (
+                                <button className='selector_btn' key={index}>{topic}</button>
+                            ))}
+                        </div>
+
+                    </h3>
+
+                    {quiz.sub_topic.length > 0 &&
+                        <h3 className="quiz_topic">Sub Topics:
+                            <div className="topics_box">
+                                {quiz.sub_topic.map((sub_topic, index) => (
+                                    <button className='selector_btn' key={index}>{sub_topic}</button>
+                                ))}
+                            </div>
+                        </h3>
                     }
                 </div>
 
