@@ -17,6 +17,89 @@ export const parseContext = (context) => {
  * @example
  * Returns [{ text: "What is the capital of France?", answers: { a: "Paris" }, correct: "" }]
  */
+// export const parseQuestions = (questionText) => {
+//   // Split by newline and remove empty lines
+//   // const lines = questionText.split('\n').filter(Boolean);
+//   // Remove spaces from the question text
+
+//   // for (let i = 0; i < lines.length; i++) {
+//   //   let line = lines[i].trim(); // Trim spaces from the line
+
+//   //   // A new question starts with a number.
+//   //   if (/^\d+\./.test(line)) {
+//   //     // Add a new question with empty answers
+//   //     // Remove the number and dot from the start
+//   //     questions.push({
+//   //       text: line.slice(2).trim(),
+//   //       answers: {},
+//   //       correct: "",
+//   //       answer_text: "",
+//   //       reason: "",
+//   //     });
+//   //     answers = {}; // Initialize answers for the new question
+//   // Split by newline and remove empty lines
+//   const lines = questionText.split('\n').filter(Boolean);
+
+//   let questions = [];
+//   let answers = {};
+
+//   for (let i = 0; i < lines.length; i++) {
+//     let line = lines[i].trim(); // Trim spaces from the line
+//     // Remove numbers from the beginning of the line
+//     line = line.replace(/^\d+\s*/, '');
+//     // A new question starts with one or two digits and a dot.
+//     // if (/^\d{1,2}\./.test(line)) 
+//     // if (/^\d{1,2}\.? /.test(line)) 
+//     console.log(line)
+//     if (/^[\d.]*\s*/.test(line)) {
+//       // Add a new question with empty answers
+//       // Remove the number and dot from the start
+//       questions.push({
+//         text: line.slice(line.indexOf('.') + 1).trim(),
+//         answers: {},
+//         correct: "",
+//         answer_text: "",
+//         reason: "",
+//       });
+//       answers = {}; // Initialize answers for the new question
+//       //  else if (line.match(/^[a-z]\./i)) 
+//     } else if (line.match(/^[a-z]\.?\s/i)) {
+//       console.log(line)
+//       // This line is an answer
+//       const answerKey = line.charAt(0).toLowerCase();
+//       console.log(questions[questions.length - 1])
+//       let answerText = line.slice(2).trim();
+//       let isCorrect = false;
+//       // Check if the answer ends with an asterisk  
+//       if (answerText.endsWith('*')) {
+//         // If so, remove the asterisk and set the answer as correct
+//         answerText = answerText.slice(0, -1).trim(); // remove asterisk from end
+//         isCorrect = true;
+//       }
+
+//       // Assign answers to the last question
+//       answers[answerKey] = answerText;
+//       questions[questions.length - 1].answers = answers;
+
+//       // If this is the correct answer, set it
+//       if (isCorrect) {
+//         questions[questions.length - 1].correct = answerKey;
+//         questions[questions.length - 1].answer_text = answerText;
+//       }
+//     } else {
+//       // Try to match the line to the pattern for a reason
+//       const match = line.match(/^- (.*)$/);
+//       if (match) {
+//         // If the line matches, extract the reason text
+//         const [, reasonText] = match;
+//         // Set `reason` to the reason text
+//         questions[questions.length - 1].reason = reasonText;
+//       }
+//     }
+//   }
+//   return questions;
+// };
+
 export const parseQuestions = (questionText) => {
   // Split by newline and remove empty lines
   const lines = questionText.split('\n').filter(Boolean);
@@ -28,18 +111,24 @@ export const parseQuestions = (questionText) => {
     let line = lines[i].trim(); // Trim spaces from the line
 
     // A new question starts with a number.
-    if (/^\d+\./.test(line)) {
+    // A new question starts with one or two digits and a dot.
+    if (/^\d{1,2}\.? /.test(line)) {
       // Add a new question with empty answers
-      // Remove the number and dot from the start
+
+      // Remove the number from the start
+      line = line.replace(/^\d+\s*/, '');
+      // Remove the dot from the start of the text, if present
+      line = line.replace(/^\./, '');
       questions.push({
-        text: line.slice(2).trim(),
+        text: line.trim(),
         answers: {},
         correct: "",
         answer_text: "",
         reason: "",
       });
       answers = {}; // Initialize answers for the new question
-    } else if (line.match(/^[a-z]\./i)) {
+    }
+    else if (line.match(/^[a-z]\./i)) {
       // This line is an answer
       const answerKey = line.charAt(0).toLowerCase();
       let answerText = line.slice(2).trim();
@@ -72,8 +161,10 @@ export const parseQuestions = (questionText) => {
       }
     }
   }
+
   return questions;
 };
+
 
 /**
  * Parses the answers string and constructs an object with correct answers and reasons
@@ -103,7 +194,7 @@ export const parseAnswers = (answersText) => {
       // If the line matches, extract the option letter and the answer text
       const [, option, text] = match;
       // Set `correctAnswers` to the option letter
-      correctAnswers.push(option);
+      correctAnswers.push(option.toLowerCase());
       // Set `correctText` to the answer text
       correctText.push(text);
     }
@@ -256,7 +347,7 @@ let a2 = `
 
 export const fetchOldData = async () => {
   try {
-    const fileData = fs.readFileSync('dummyData.json', 'utf8');
+    const fileData = fs.readFileSync('public/data.json', 'utf8');
     const jsonData = JSON.parse(fileData);
     return jsonData;
   } catch (error) {
@@ -269,7 +360,7 @@ export const fetchOldData = async () => {
 
 export const appendToData = async (data) => {
   try {
-    await fsPromise.writeFile('public/dummydata/dummyData.json', JSON.stringify(data, null, 2));
+    await fsPromise.writeFile('public/data.json', JSON.stringify(data, null, 2));
     console.log('Data successfully appended to file');
   } catch (error) {
     console.error(`Error appending data to file: ${error}`);
