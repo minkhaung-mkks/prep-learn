@@ -101,7 +101,7 @@ const PraticePage = ({ params }) => {
         quiz.sections.forEach((section, i) => {
             section.questions.forEach((question, j) => {
                 console.log(answers[i][j])
-                if (answers[i][j] === question.correct) {
+                if (answers[i][j].toLowerCase() === question.correct.toLowerCase()) {
                     totalScore++;
                 }
             });
