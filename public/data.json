@@ -14,7 +14,7 @@
     "creator": "Prep & Learn",
     "creatorID": 0,
     "type": "Normal",
-    "total_questions": 0,
+    "total_questions": 40,
     "source": "Generated",
     "sections": [{
       "context": "",
@@ -513,10 +513,10 @@
     ],
     "sub_topic": [],
     "difficulty": "Hard",
-    "creator": "",
+    "creator": "Prep & Learn",
     "creatorID": "",
     "type": "Normal",
-    "total_questions": 0,
+    "total_questions": 40,
     "source": "Generated",
     "sections": [{
       "context": "",
@@ -1014,10 +1014,10 @@
     ],
     "sub_topic": [],
     "difficulty": "Medium",
-    "creator": "",
+    "creator": "Prep & Learn",
     "creatorID": "",
     "type": "Normal",
-    "total_questions": 0,
+    "total_questions": 40,
     "source": "Generated",
     "sections": [{
       "context": "",
@@ -1514,10 +1514,10 @@
     ],
     "sub_topic": [],
     "difficulty": "Easy",
-    "creator": "",
+    "creator": "Prep & Learn",
     "creatorID": "",
     "type": "Normal",
-    "total_questions": 0,
+    "total_questions": 40,
     "source": "Generated",
     "sections": [{
       "context": "",
@@ -1740,7 +1740,6 @@
         {
           "text": "In what type of government does a monarch share power with other parts of government?",
           "answers": {
-            "a": "Monarch",
             "b": "Constitutional monarchy",
             "c": "Oligarchy",
             "d": "Theocracy"
@@ -2014,10 +2013,10 @@
     ],
     "sub_topic": [],
     "difficulty": "Medium",
-    "creator": "",
+    "creator": "Prep & Learn",
     "creatorID": "",
     "type": "Normal",
-    "total_questions": 0,
+    "total_questions": 40,
     "source": "Generated",
     "sections": [{
       "context": "",
@@ -2515,10 +2514,10 @@
     ],
     "sub_topic": [],
     "difficulty": "Easy",
-    "creator": "",
+    "creator": "Prep & Learn",
     "creatorID": "",
     "type": "Normal",
-    "total_questions": 0,
+    "total_questions": 40,
     "source": "Generated",
     "sections": [{
       "context": "",
