@@ -20,13 +20,13 @@ const Nav = () => {
                 <Link href='/practices'>
                     Practice Tests
                 </Link>
-                <Link href='/study_bits'>
+                <Link className='lockedLinks' href='/study_bits'>
                     Crash Courses
                 </Link>
-                <Link href='/about'>
+                <Link className='lockedLinks' href='/about'>
                     About
                 </Link>
-                <Link href='/contribute'>
+                <Link className='lockedLinks' href='/contribute'>
                     Contribute
                 </Link>
             </div>
