@@ -1,9 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 "use client"
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import '@styles/global.css';
 import '@styles/home.css';
-import { setupObservers, scroll_into_view } from '@utlis/scroll_checker';
+import { setupObservers } from '@utlis/scroll_checker';
+import Link from 'next/link';
 
 const Page = () => {
     useEffect(() => {
@@ -26,7 +27,7 @@ const Page = () => {
                     you on your learning journey by giving you the tools needed to
                     succeed.
                 </p>
-                <button className="action_btns">Get Started</button>
+                <Link href='/practices' className="action_btns">Get Started</Link>
             </section>
             <section className="LR_box imgR">
                 <div className="left_side">
@@ -106,9 +107,9 @@ const Page = () => {
                 <h2 className="tagline">
                     Let Prep & Learn be that first step on your path to success.
                 </h2>
-                <button onClick="toggleView()" className="last_call_btn btn-5">
+                <Link href='/practices' className="last_call_btn btn-5">
                     Take the first step
-                </button>
+                </Link>
             </section>
         </main>
     )
