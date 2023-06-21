@@ -2,9 +2,6 @@ import { txtToData, fetchOldData, addToSection, addToFile, appendToData } from '
 
 export const POST = async (req) => {
     const { name, subject, exam, topic, sub_topic, difficulty, creator, creatorID, type, ideal_time, source, sections } = await req.json();
-    console.log(`${name}`)
-    console.log(`${sections} : WTF`)
-    console.log(`${sections[0].questions}`)
     try {
         let newData = {
             id: 1,
