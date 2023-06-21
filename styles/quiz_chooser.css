@@ -18,10 +18,10 @@
 }
 
 .selector_btn {
-    color: var(--background);
-    padding: 12px 40px;
+    color: var(--text);
+    padding: 12px 30px;
     border: none;
-    background-color: var(--text);
+    background-color: var(--secondary);
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -45,10 +45,27 @@
     letter-spacing: 1px;
 }
 
+.quiz_select_box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.quiz_long_box {
+    width: 25vw;
+}
+
+.topics_box {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
 .quiz_card {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     border: 1px solid var(--text);
     padding: 50px 40px;
     border-radius: 20px;
