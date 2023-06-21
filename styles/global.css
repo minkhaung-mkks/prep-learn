@@ -17,6 +17,7 @@
     --correct: #4fbb4b;
     --wrong: #be0b23;
     --correct-text: #ffffff;
+    --nav: #fff9e9ab;
 }
 
 .darkMode {
@@ -30,6 +31,7 @@
     --correct: #4cc64a;
     --wrong: #df253e;
     --correct-text: #ffffff;
+    --nav: #fff9e9ab;
 }
 
 a {
@@ -63,4 +65,59 @@ a {
         outline-color: rgba(255, 255, 255, 0);
         outline-offset: 15px;
     }
+}
+
+@keyframes startUp {
+    100% {
+        background-size: 100vw 100vh;
+    }
+}
+
+.nav_bar {
+    margin: 0%;
+    padding: 0;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--nav);
+    position: sticky;
+    top: 0;
+    border-bottom: 1px dotted var(--text);
+    z-index: 90;
+}
+
+.nav_logo {
+    margin-left: 5%;
+}
+
+.rightNav {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+.nav_links {
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    padding: 10px 15px;
+}
+
+.nav_links:hover {
+    border-radius: 5px;
+    color: white;
+    background-color: var(--primary);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.lockedLinks {
+    color: #cfcfcf;
+    pointer-events: none;
 }
