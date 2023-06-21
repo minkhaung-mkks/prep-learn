@@ -7,26 +7,26 @@ const Nav = () => {
     // Not sure if this should be on the quiz page or if this should become a sidebar.
     // Contains the Name on the left most side,
     return (
-        <nav>
-            <Link href='/'>
+        <nav className='nav_bar'>
+            <Link className='nav_logo' href='/'>
                 <Image
                     src="/assets/imgs/logo-no-background.png"
-                    width={100}
-                    height={40}
+                    width={250}
+                    height={22.5}
                     alt='Prep & Learn Logo'
                 />
             </Link>
             <div className="rightNav">
-                <Link href='/practices'>
+                <Link className='nav_links' href='/practices'>
                     Practice Tests
                 </Link>
-                <Link className='lockedLinks' href='/study_bits'>
+                <Link className='lockedLinks nav_links' href='/study_bits'>
                     Crash Courses
                 </Link>
-                <Link className='lockedLinks' href='/about'>
+                <Link className='lockedLinks nav_links' href='/about'>
                     About
                 </Link>
-                <Link className='lockedLinks' href='/contribute'>
+                <Link className='lockedLinks nav_links' href='/contribute'>
                     Contribute
                 </Link>
             </div>
