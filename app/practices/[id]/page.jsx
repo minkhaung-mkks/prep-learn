@@ -111,6 +111,15 @@ const PraticePage = ({ params }) => {
         setShowScore(true);
         setHasSubmitted(true)
     };
+    const renderWithLineBreaks = (text) => {
+        const paragraphs = text.split('\n\n'); // Split the text into paragraphs
+
+        return paragraphs.map((paragraph, index) => (
+            <p className="context" key={index}>
+                {paragraph}
+            </p>
+        ));
+    };
     useEffect(() => {
         // Skip on first render
         if (firstUpdate.current) {
@@ -124,14 +133,12 @@ const PraticePage = ({ params }) => {
         <main id="web_page">
             <form onSubmit={handleSubmit} className="quiz_box">
                 {quizFetch.current && quiz.sections.map((section, index) => (
-                    <div key={index}>
+                    <div className='section_box' key={index}>
                         <h2 className="section_title">
-                            Section {index}
+                            Section {index + 1}
                         </h2>
                         <div className="context_box">
-                            <p className="contenxt">
-                                {section.context}
-                            </p>
+                            {renderWithLineBreaks(section.context)}
                         </div>
                         {
                             section.questions.map((question, qIndex) => (
