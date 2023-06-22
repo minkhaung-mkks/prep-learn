@@ -4532,5 +4532,285 @@
         ]
       }
     ]
+  },
+  {
+    "id": 10,
+    "name": "RLA non-ficitional reading test #1",
+    "subject": "RLA",
+    "exam": "GED",
+    "topic": [
+      "Non-Fictional Reading Comprehension"
+    ],
+    "sub_topic": [],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 0,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "In the early 20th century, bicycles were seen as a symbol of freedom and a means of transportation for the masses. They were a cheaper and more accessible alternative to horses and carriages, and their popularity skyrocketed as manufacturers began producing them in large quantities.\n\nBicycles became a symbol of empowerment for women, who were finally able to travel independently without relying on male chaperones. They were also embraced by the working class, who used them to commute to and from work. The popularity of bicycles was so great that entire cities were redesigned to accommodate them.\n\nHowever, the rise of the automobile industry in the mid-20th century led to a decline in the use of bicycles for transportation. Cars were faster, more comfortable, and more convenient, and their use quickly became the norm. In many places, cycling was seen as a leisure activity rather than a practical means of transportation.\n\nRecently, however, there has been a renewed interest in cycling as a means of transportation. Bicycles are seen as a solution to many problems facing modern cities, including traffic congestion, air pollution, and a lack of physical activity. Cycling is also a relatively inexpensive and environmentally friendly alternative to cars.",
+        "questions": [
+          {
+            "text": "What was the significance of bicycles in the early 20th century?",
+            "answers": {
+              "a": "They were primarily used by the wealthy as a status symbol.",
+              "b": "They were a means of transportation for the masses and a symbol of freedom.",
+              "c": "They were viewed as a leisure activity for the upper class.",
+              "d": "They were not very popular due to their high cost."
+            },
+            "correct": "b",
+            "answer_text": "They were a means of transportation for the masses and a symbol of freedom.",
+            "reason": "The significance of bicycles in the early 20th century was that they were a means of transportation for the masses and a symbol of freedom. Bicycles were cheaper and more accessible than horses and carriages, and they allowed people to travel independently."
+          },
+          {
+            "text": "Who benefited from the rise of bicycles in the early 20th century?",
+            "answers": {
+              "a": "Only men who wanted to travel independently.",
+              "b": "Only the wealthy who could afford them.",
+              "c": "Women who were able to travel independently and the working class who used them for transportation.",
+              "d": "Only leisure cyclists who used them for exercise."
+            },
+            "correct": "c",
+            "answer_text": "Women who were able to travel independently and the working class who used them for transportation.",
+            "reason": "Women who were able to travel independently and the working class who used bicycles for transportation benefited from the rise of bicycles in the early 20th century. Bicycles allowed women to travel without male chaperones, and they provided a cheaper and more convenient means of transportation for the working class."
+          },
+          {
+            "text": "What caused the decline in the use of bicycles for transportation in the mid-20th century?",
+            "answers": {
+              "a": "The popularity of motorcycles.",
+              "b": "The rise of the automobile industry.",
+              "c": "The lack of bicycle infrastructure in cities.",
+              "d": "The decline in physical activity."
+            },
+            "correct": "b",
+            "answer_text": "The rise of the automobile industry.",
+            "reason": "The decline in the use of bicycles for transportation in the mid-20th century was caused by the rise of the automobile industry. Cars were faster, more comfortable, and more convenient than bicycles, and their popularity quickly surpassed that of bicycles."
+          },
+          {
+            "text": "What is one reason for the renewed interest in cycling as a means of transportation?",
+            "answers": {
+              "a": "It is more expensive than cars.",
+              "b": "It is not environmentally friendly.",
+              "c": "It can exacerbate traffic congestion in cities.",
+              "d": "It is seen as a solution to problems facing modern cities, such as traffic congestion and air pollution."
+            },
+            "correct": "d",
+            "answer_text": "It is seen as a solution to problems facing modern cities, such as traffic congestion and air pollution.",
+            "reason": "One reason for the renewed interest in cycling as a means of transportation is that it is seen as a solution to problems facing modern cities, such as traffic congestion and air pollution. Bicycles are also relatively inexpensive and environmentally friendly, making them an attractive alternative to cars."
+          },
+          {
+            "text": "Which sentence from the passage provides evidence that cycling was once seen as a practical means of transportation?",
+            "answers": {
+              "a": "\"They were a cheaper and more accessible alternative to horses and carriages, and their popularity skyrocketed as manufacturers began producing them in large quantities.\"",
+              "b": "\"However, the rise of the automobile industry in the mid-20th century led to a decline in the use of bicycles for transportation.\"",
+              "c": "\"Recently, however, there has been a renewed interest in cycling as a means of transportation.\"",
+              "d": "\"Bicycles became a symbol of empowerment for women, who were finally able to travel independently without relying on male chaperones.\""
+            },
+            "correct": "a",
+            "answer_text": "\"They were a cheaper and more accessible alternative to horses and carriages, and their popularity skyrocketed as manufacturers began producing them in large quantities.\"",
+            "reason": "This sentence provides evidence that cycling was once seen as a practical means of transportation. The sentence states that bicycles were a cheaper and more accessible alternative to horses and carriages, which suggests that they were viewed as a practical means of transportation."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "RLA reading test #1",
+    "subject": "RLA",
+    "exam": "GED",
+    "topic": [
+      "Non-Fictional Reading Comprehension",
+      "Fictional Reading Comprehension"
+    ],
+    "sub_topic": [],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 0,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "The sun was shining brightly, casting a warm glow over the meadow. Sarah sat under a large oak tree, engrossed in her book. As she turned the pages, she could hear the gentle rustling of the leaves in the breeze. It was a peaceful afternoon, and Sarah felt a sense of tranquility enveloping her. The book she was reading was a gripping tale of adventure, transporting her to faraway lands and igniting her imagination. Time seemed to stand still as she delved deeper into the story, completely absorbed in the words on the page.",
+        "questions": [
+          {
+            "text": "Where was Sarah sitting?",
+            "answers": {
+              "a": "Under a large oak tree",
+              "b": "In a bustling city",
+              "c": "On a sandy beach",
+              "d": "In a crowded park"
+            },
+            "correct": "d",
+            "answer_text": "Reading a book.",
+            "reason": "This answer is supported by the information in the question, which states that Sarah was sitting in the meadow. Among the given options, \"under a large oak tree\" best fits the description of a peaceful meadow setting."
+          },
+          {
+            "text": "What was Sarah doing?",
+            "answers": {
+              "a": "Listening to music",
+              "b": "Playing a video game",
+              "c": "Having a picnic",
+              "d": "Reading a book"
+            },
+            "correct": "a",
+            "answer_text": "Tranquil.",
+            "reason": "This answer is directly stated in the question, which asks about what Sarah was doing. The given option \"reading a book\" aligns with the information provided."
+          },
+          {
+            "text": "How did Sarah feel during the afternoon?",
+            "answers": {
+              "a": "Tranquil",
+              "b": "Anxious",
+              "c": "Excited",
+              "d": "Bored"
+            },
+            "correct": "d",
+            "answer_text": "An adventure story.",
+            "reason": "This answer is inferred from the question's context, which asks how Sarah felt during the afternoon. Given that she was sitting in a peaceful meadow and reading a book, it can be inferred that she felt tranquil."
+          },
+          {
+            "text": "What was the book about?",
+            "answers": {
+              "a": "A cookbook",
+              "b": "A science textbook",
+              "c": "A romantic novel",
+              "d": "An adventure story"
+            },
+            "correct": "a",
+            "answer_text": "Engrossed.",
+            "reason": "This answer is provided in the question, which asks about the content of the book Sarah was reading. The option \"an adventure story\" aligns with the idea of being transported to imaginary worlds."
+          },
+          {
+            "text": "How did Sarah feel while reading the book?",
+            "answers": {
+              "a": "Engrossed",
+              "b": "Distracted",
+              "c": "Confused",
+              "d": "Indifferent"
+            },
+            "correct": "a",
+            "answer_text": "Peaceful.",
+            "reason": "This answer is inferred from the question's context, which asks how Sarah felt while reading the book. The word \"engrossed\" suggests a deep and absorbed involvement in the book, which fits the given information."
+          },
+          {
+            "text": "Which word best describes the atmosphere in the meadow?",
+            "answers": {
+              "a": "Peaceful",
+              "b": "Chaotic",
+              "c": "Noisy",
+              "d": "Hectic"
+            },
+            "correct": "a",
+            "answer_text": "It transported her to imaginary worlds.",
+            "reason": "This answer is supported by the word \"tranquil\" used in the question to describe the atmosphere in the meadow. Among the given options, \"peaceful\" best describes a tranquil environment."
+          },
+          {
+            "text": "What effect did the book have on Sarah?",
+            "answers": {
+              "a": "It transported her to imaginary worlds.",
+              "b": "It made her sleepy.",
+              "c": "It made her hungry.",
+              "d": "It made her sad."
+            },
+            "correct": "",
+            "answer_text": "",
+            "reason": "This answer is provided in the question, which asks about the effect the book had on Sarah. The option \"it transported her to imaginary worlds\" aligns with the idea that reading the book had a transformative effect on her imagination."
+          }
+        ]
+      },
+      {
+        "context": "Julia was an avid gardener who dedicated hours each day to tending her beautiful flower beds. She had a vast collection of flowers, ranging from vibrant roses to delicate orchids. To Julia, gardening was more than a hobby; it was a form of therapy that brought her joy and serenity. Each morning, she would stroll through her garden, inspecting the blooms, and carefully tending to their needs. The sight of colorful petals and the gentle fragrance of her flowers filled her heart with contentment.",
+        "questions": [
+          {
+            "text": "What is Julia's main hobby?",
+            "answers": {
+              "a": "Painting landscapes",
+              "b": "Playing a musical instrument",
+              "c": "Gardening",
+              "d": "Collecting stamps"
+            },
+            "correct": "c",
+            "answer_text": "Gardening.",
+            "reason": "Gardening is Julia's main hobby, as mentioned in the passage."
+          },
+          {
+            "text": "How does Julia feel when she tends to her garden?",
+            "answers": {
+              "a": "Stressed",
+              "b": "Annoyed",
+              "c": "Joyful",
+              "d": "Bored"
+            },
+            "correct": "c",
+            "answer_text": "Joyful.",
+            "reason": "Julia feels joyful when she tends to her garden, as mentioned in the passage."
+          },
+          {
+            "text": "What does Julia do each morning?",
+            "answers": {
+              "a": "Cook breakfast",
+              "b": "Go for a jog",
+              "c": "Inspect her flower beds",
+              "d": "Read a book"
+            },
+            "correct": "c",
+            "answer_text": "Inspect her flower beds.",
+            "reason": "Each morning, Julia inspects her flower beds, as mentioned in the passage."
+          },
+          {
+            "text": "What brings Julia contentment?",
+            "answers": {
+              "a": "Listening to music",
+              "b": "Taking long walks",
+              "c": "Tending to her flowers",
+              "d": "Watching movies"
+            },
+            "correct": "c",
+            "answer_text": "Tending to her flowers.",
+            "reason": "Tending to her flowers brings Julia contentment, as mentioned in the passage."
+          },
+          {
+            "text": "What best describes Julia's collection of flowers?",
+            "answers": {
+              "a": "Colorful and diverse",
+              "b": "Plain and unremarkable",
+              "c": "Fragile and delicate",
+              "d": "Non-existent"
+            },
+            "correct": "a",
+            "answer_text": "Colorful and diverse.",
+            "reason": "Julia's collection of flowers is described as ranging from vibrant roses to delicate orchids, indicating that it is colorful and diverse."
+          },
+          {
+            "text": "Which word best characterizes Julia's relationship with gardening?",
+            "answers": {
+              "a": "Therapeutic",
+              "b": "Stressful",
+              "c": "Boring",
+              "d": "Complicated"
+            },
+            "correct": "a",
+            "answer_text": "Therapeutic.",
+            "reason": "The passage states that gardening is a form of therapy for Julia, suggesting that her relationship with gardening is therapeutic."
+          },
+          {
+            "text": "Why does Julia stroll through her garden each morning?",
+            "answers": {
+              "a": "To inspect the blooms and tend to their needs",
+              "b": "To catch butterflies",
+              "c": "To exercise",
+              "d": "To enjoy the sunshine"
+            },
+            "correct": "a",
+            "answer_text": "To inspect the blooms and tend to their needs.",
+            "reason": "Julia strolls through her garden each morning to inspect the blooms and tend to their needs, as mentioned in the passage."
+          }
+        ]
+      }
+    ]
   }
 ]

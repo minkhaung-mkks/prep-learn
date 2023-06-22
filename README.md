@@ -6,11 +6,13 @@
 
 Hi, and thanks for stopping by! This repository houses a project that I hold close to my heart. As a student who has recently returned to the education path via a GED prep school, I found a scarcity of free resources for subjects like Reasoning Through Language Arts (RLA) and Social Studies. This struggle has motivated me to develop this app, which aims to provide a free, comprehensive quiz platform for GED exam preparation.
 
+## You can test it [here](https://prep-learn.vercel.app/)
+
 ## Current Planned Timeline
 
 Please note these times are the worst possible times, In reality I hope to have everything production ready by mid July
 
-## A Little Del
+## Launched 
 
 Launch of the app with just the functions to choose quizes and answer them (June 20th 2023) Progess : 100% DONE
 Time Quizes (June 30th 2023) Progress : Might prioritize Quiz Mode Over this
@@ -88,6 +90,4 @@ Button 30 from [92 cool css buttons from CSS Scan](https://getcssscan.com/css-bu
 
 ### Latest Update
 
-I finally managed to fix my PC crashing due to running out of space, turns out there was 13 sec video with file size of 8gb, I dont even know how it happened. Anyway, I can finally work on my PC on days where I'm home, so that would speed up development a lot
-
-Well so much for that, my pc died on me so I'm back to my laptop, The repair shop said it will take at least 4 days just to get an update on whats the problem, My mood is kinda really low rn so I gonna slow down development for a few days, and just focus on learning again since that doesnt require me to be passionate to progress.
+Improved the flexibility of the input text format.
