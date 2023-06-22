@@ -3,6 +3,25 @@
     margin: 0 auto;
 }
 
+.context_box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.context {
+    text-align: justify;
+    letter-spacing: 1.2px;
+    line-height: 1.6rem;
+    text-indent: 100px;
+}
+
+.section_box {
+    border-bottom: 1px solid black;
+}
+
 .question_card {
     margin: 30px 0;
     padding: 20px;
@@ -49,8 +68,10 @@
 }
 
 .submit_btn_box {
+    margin-top: 5vh;
     display: flex;
     justify-content: center;
+    padding-bottom: 5vh;
 }
 
 .submit_btn {
