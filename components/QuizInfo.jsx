@@ -1,10 +1,10 @@
 import { useState } from 'react';
 
 const QuizInfo = ({ quizInfoState, updateQuizInfoState, nextPage }) => {
-  const [quizTopic, setQuizTopic] = useState([]);
-  const [quizSubject, setQuizSubject] = useState('')
-  const [difficulty, setDifficulty] = useState('')
-  const [quizSubtopic, setQuizSubtopic] = useState([]);
+  const [quizTopic, setQuizTopic] = useState(quizInfoState.topic);
+  const [quizSubject, setQuizSubject] = useState(quizInfoState.subject)
+  const [difficulty, setDifficulty] = useState(quizInfoState.difficulty)
+  const [quizSubtopic, setQuizSubtopic] = useState(quizInfoState.sub_topic);
 
   const handleTopicClick = (topic) => {
     let updatedQuizTopic = [];
@@ -48,7 +48,7 @@ const QuizInfo = ({ quizInfoState, updateQuizInfoState, nextPage }) => {
       <h2>Quiz Information</h2>
       <input
         type="text"
-        value={quizInfoState.quizName}
+        value={quizInfoState.name}
         onChange={(e) => updateQuizInfoState({ ...quizInfoState, name: e.target.value })}
         className='input_fields'
         placeholder="Quiz Name"
