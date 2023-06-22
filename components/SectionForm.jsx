@@ -15,12 +15,14 @@ const SectionForm = ({ sectionIndex, sectionState, updateSectionState, prevPage,
     return (
         <div>
             <h2>Section Form</h2>
-            <input
+            <textarea
                 type="text"
                 value={sectionState ? sectionState.context : ''}
                 onChange={(e) => updateSectionState(sectionIndex, { ...sectionState, context: e.target.value })}
                 placeholder="Section Context"
-                className='input_fields'
+                rows={4}
+                cols={50}
+                className='input_areas'
             />
             <textarea
                 value={sectionState ? sectionState.questions : ''}
