@@ -35,7 +35,7 @@ const PraticePage = ({ params }) => {
 
                 let initialAnswers;
                 const savedAnswers = localStorage.getItem('answers');
-                if (savedAnswers) {
+                if (savedAnswers && false) {
                     initialAnswers = JSON.parse(savedAnswers);
                 }
                 else {
