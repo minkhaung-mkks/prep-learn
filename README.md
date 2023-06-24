@@ -12,11 +12,13 @@ Hi, and thanks for stopping by! This repository houses a project that I hold clo
 
 Please note these times are the worst possible times, In reality I hope to have everything production ready by mid July
 
-## Launched 
+## Launched
+
+## Potentially Delayed on dates due to moving
 
 Launch of the app with just the functions to choose quizes and answer them (June 20th 2023) Progess : 100% DONE
 Time Quizes (June 30th 2023) Progress : Might prioritize Quiz Mode Over this
-Quiz Mode (June 25th 2023) Progress : I dk how to even do this yet.
+Quiz Mode (June 30th 2023) Progress : I dk how to even do this yet,
 Switch to MongoDB for data storage (N/A) Not sure if I wanna switch to Database yet.
 Login with google (N/A) Not sure if I want to go this route, instead focusing on making the base functions a lot better and more user friendly
 Login with other providers (N/A)
