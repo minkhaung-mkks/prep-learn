@@ -1,0 +1,367 @@
+1. Which scientist is credited with developing the cell theory?
+   a. Louis Pasteur
+   b. Robert Hooke
+   c. Anton van Leeuwenhoek
+   d. Rudolf Virchow
+
+2. Which of the following is NOT part of the cell theory?
+   a. Cells are the basic unit of life.
+   b. All living organisms are composed of cells.
+   c. Cells can only arise from pre-existing cells.
+   d. All cells contain a nucleus.
+
+3. What is the main function of the cell membrane?
+   a. It provides structural support to the cell.
+   b. It controls the movement of substances into and out of the cell.
+   c. It synthesizes proteins.
+   d. It stores genetic information.
+
+4. Which organelle is responsible for protein synthesis?
+   a. Endoplasmic reticulum
+   b. Mitochondria
+   c. Golgi apparatus
+   d. Nucleus
+
+5. Which of the following organelles is found only in plant cells?
+   a. Lysosomes
+   b. Vacuoles
+   c. Centrioles
+   d. Peroxisomes
+
+6. The powerhouse of the cell is the:
+   a. Lysosome
+   b. Mitochondria
+   c. Nucleus
+   d. Golgi apparatus
+
+7. Which organelle is responsible for breaking down waste materials and cellular debris?
+   a. Nucleus
+   b. Ribosome
+   c. Lysosome
+   d. Endoplasmic reticulum
+
+8. Which organelle is involved in the synthesis of lipids and detoxification of harmful substances?
+   a. Mitochondria
+   b. Golgi apparatus
+   c. Endoplasmic reticulum
+   d. Vacuole
+
+9. Which of the following is a function of the Golgi apparatus?
+   a. Storage of genetic information
+   b. Protein synthesis
+   c. Modifying, sorting, and packaging of proteins
+   d. Energy production
+
+10. Which statement about plant cells is correct?
+    a. Plant cells lack a cell membrane.
+    b. Plant cells have a rigid cell wall composed of cellulose.
+    c. Plant cells have a small central vacuole.
+    d. Plant cells do not contain mitochondria.
+
+11. The control center of the cell is the:
+    a. Endoplasmic reticulum
+    b. Golgi apparatus
+    c. Nucleus
+    d. Vacuole
+
+12. Which of the following is NOT found in animal cells?
+    a. Nucleus
+    b. Centrioles
+    c. Chloroplasts
+    d. Ribosomes
+
+13. The organelle responsible for converting light energy into chemical energy through photosynthesis is the:
+    a. Mitochondria
+    b. Nucleus
+    c. Lysosome
+    d. Chloroplast
+
+14. Which organelle contains the cell's genetic material?
+    a. Endoplasmic reticulum
+    b. Nucleus
+    c. Ribosome
+    d. Vacuole
+
+15. Which of the following organelles is responsible for producing energy in the form of ATP?
+    a. Endoplasmic reticulum
+    b. Nucleus
+    c. Ribosome
+    d. Mitochondria
+
+16. Which organelle is responsible for the synthesis and packaging of proteins in the cell?
+    a
+
+. Lysosome
+    b. Nucleus
+    c. Golgi apparatus
+    d. Vacuole
+
+17. Which organelle is responsible for the production of ribosomes?
+    a. Endoplasmic reticulum
+    b. Nucleus
+    c. Lysosome
+    d. Nucleolus
+
+18. Which of the following is a function of the cell wall?
+    a. Regulates the movement of substances into and out of the cell
+    b. Provides structural support and protection to the cell
+    c. Synthesizes proteins
+    d. Stores genetic information
+
+19. The fluid-filled sac found in plant cells that stores water, nutrients, and waste materials is called a:
+    a. Nucleus
+    b. Vacuole
+    c. Lysosome
+    d. Endoplasmic reticulum
+
+20. Which organelle is responsible for the production of ATP through cellular respiration?
+    a. Endoplasmic reticulum
+    b. Nucleus
+    c. Ribosome
+    d. Mitochondria
+
+21. Which of the following organelles is responsible for detoxifying harmful substances in the cell?
+    a. Lysosome
+    b. Nucleus
+    c. Peroxisome
+    d. Vacuole
+
+22. The organelle that contains the DNA and controls the cell's activities is the:
+    a. Golgi apparatus
+    b. Nucleus
+    c. Endoplasmic reticulum
+    d. Lysosome
+
+23. Which organelle is responsible for the synthesis and transport of lipids?
+    a. Mitochondria
+    b. Golgi apparatus
+    c. Endoplasmic reticulum
+    d. Vacuole
+
+24. Which of the following organelles is responsible for producing and assembling ribosomes?
+    a. Nucleus
+    b. Endoplasmic reticulum
+    c. Lysosome
+    d. Nucleolus
+
+25. The organelle that helps in cell division and is only found in animal cells is the:
+    a. Lysosome
+    b. Centriole
+    c. Chloroplast
+    d. Vacuole
+
+26. Which organelle is responsible for storing and releasing energy in the form of ATP?
+    a. Nucleus
+    b. Mitochondria
+    c. Golgi apparatus
+    d. Ribosome
+
+27. The process by which cells capture energy from the sun and convert it into chemical energy is called:
+    a. Mitosis
+    b. Osmosis
+    c. Photosynthesis
+    d. Respiration
+
+28. Which organelle is responsible for breaking down complex molecules into simpler ones in order to release energy?
+    a. Nucleus
+    b. Ribosome
+    c. Lysosome
+    d. Chloroplast
+
+29. Which of the following organelles is responsible for regulating the movement of substances into and out of the cell?
+    a. Nucleus
+    b. Cell membrane
+    c. Golgi apparatus
+    d. Ribosome
+
+30. Which organelle is responsible for the synthesis of proteins in the cell?
+    a. Nucleus
+    b. Endoplasmic reticulum
+    c. Mitochondria
+    d. Vacuole
+
+31. The organelle that helps maintain cell shape and provides mechanical support is the:
+    a. Endoplasmic reticulum
+    b. Cell membrane
+    c. Golgi apparatus
+    d. Cyt
+
+oskeleton
+
+32. Which of the following is NOT a function of the cytoskeleton?
+    a. Providing structural support to the cell
+    b. Facilitating cell division
+    c. Aiding in intracellular transport
+    d. Synthesizing proteins
+
+33. Which organelle is responsible for detoxifying harmful substances in the liver cells?
+    a. Nucleus
+    b. Peroxisome
+    c. Endoplasmic reticulum
+    d. Vacuole
+
+34. The organelle responsible for the synthesis of RNA and assembly of ribosomes is the:
+    a. Nucleus
+    b. Golgi apparatus
+    c. Lysosome
+    d. Nucleolus
+
+35. Which of the following organelles is responsible for the breakdown of fatty acids and the detoxification of alcohol in liver cells?
+    a. Nucleus
+    b. Ribosome
+    c. Peroxisome
+    d. Chloroplast
+
+36. The organelle that contains digestive enzymes and is involved in intracellular digestion is the:
+    a. Endoplasmic reticulum
+    b. Nucleus
+    c. Lysosome
+    d. Vacuole
+
+37. Which organelle is responsible for producing and transporting proteins within the cell?
+    a. Golgi apparatus
+    b. Nucleus
+    c. Mitochondria
+    d. Lysosome
+
+38. Which of the following is a function of the ribosomes?
+    a. Energy production
+    b. Synthesis of proteins
+    c. Storage of genetic information
+    d. Breakdown of waste materials
+
+39. The organelle responsible for the synthesis of phospholipids and steroid hormones is the:
+    a. Nucleus
+    b. Endoplasmic reticulum
+    c. Golgi apparatus
+    d. Vacuole
+
+40. Which organelle is responsible for maintaining water balance in plant cells?
+    a. Nucleus
+    b. Chloroplast
+    c. Cell membrane
+    d. Vacuole
+
+1. d. Rudolf Virchow
+   - Rudolf Virchow is credited with developing the cell theory. He proposed that cells arise from pre-existing cells, supporting the principle of cell division.
+
+2. d. All cells contain a nucleus.
+   - The cell theory states that all living organisms are composed of cells, cells are the basic unit of life, and cells can only arise from pre-existing cells. The presence of a nucleus is not a requirement for a cell to be considered part of the cell theory.
+
+3. b. It controls the movement of substances into and out of the cell.
+   - The main function of the cell membrane is to regulate the movement of substances into and out of the cell. It acts as a selectively permeable barrier, allowing certain substances to pass while restricting others.
+
+4. a. Endoplasmic reticulum
+   - The endoplasmic reticulum (ER) is responsible for protein synthesis in the cell. It plays a crucial role in the synthesis, folding, and transport of proteins within the cell.
+
+5. b. Vacuoles
+   - Vacuoles are organelles found in both plant and animal cells, but they are larger and more prominent in plant cells. They are responsible for storing water, nutrients, and waste materials in plant cells.
+
+6. b. Mitochondria
+   - Mitochondria are often referred to as the powerhouse of the cell because they are responsible for generating energy in the form of ATP through cellular respiration.
+
+7. c. Lysosome
+   - Lysosomes are organelles involved in intracellular digestion. They contain digestive enzymes that break down waste materials and cellular debris.
+
+8. c. Endoplasmic reticulum
+   - The endoplasmic reticulum (ER) is involved in the synthesis of lipids and the detoxification of harmful substances in the cell. It also plays a role in the transport of synthesized lipids.
+
+9. c. Modifying, sorting, and packaging of proteins
+   - The Golgi apparatus is responsible for modifying, sorting, and packaging proteins before they are transported to their final destinations within or outside the cell.
+
+10. b. Plant cells have a rigid cell wall composed of cellulose.
+    - Plant cells have a rigid cell wall composed of cellulose, which provides structural support and protection to the cell. This is a characteristic feature that distinguishes plant cells from animal cells.
+
+11. c. Nucleus
+    - The nucleus is the control center of the cell. It contains the cell's genetic material, DNA, which regulates the cell's activities and coordinates cellular functions.
+
+12. c. Chloroplasts
+    - Chloroplasts are organelles found only in plant cells. They are responsible for converting light energy into chemical energy through the process of photosynthesis.
+
+13. d. Chloroplast
+    - Chloroplasts are the organelles responsible for converting light energy into chemical energy through photosynthesis. They contain chlorophyll, a pigment that captures sunlight and drives the synthesis of glucose.
+
+14. b. Nucleus
+    - The nucleus is an organelle that contains the cell's genetic material, DNA. It serves as the control center of the cell, regulating gene expression and coordinating cellular activities.
+
+15. d. Mitochondria
+    - Mitochondria are organelles responsible for producing energy in the form of ATP through cellular respiration. They are often referred to as the "powerhouses" of the cell.
+
+16. c. Golgi apparatus
+    - The Golgi apparatus is involved in the synthesis and packaging of proteins in the cell. It receives proteins from the endoplasmic reticulum, modifies them, and packages them into ves
+
+icles for transport.
+
+17. d. Nucleolus
+    - The nucleolus is an organelle within the nucleus that is responsible for the production of ribosomes. It assembles ribosomal subunits before they are transported to the cytoplasm.
+
+18. b. Provides structural support and protection to the cell
+    - The cell wall is a rigid structure found in plant cells that provides structural support and protection to the cell. It helps maintain the shape of the cell and protects it from external stresses.
+
+19. b. Vacuole
+    - Vacuoles are fluid-filled sacs found in plant cells that store water, nutrients, and waste materials. They play a role in maintaining turgor pressure and regulating cell volume.
+
+20. d. Mitochondria
+    - Mitochondria are responsible for the production of ATP through cellular respiration. They generate energy by breaking down glucose and other organic molecules.
+
+21. c. Peroxisome
+    - Peroxisomes are organelles responsible for detoxifying harmful substances in the cell. They contain enzymes that break down toxic compounds, such as hydrogen peroxide.
+
+22. b. Nucleus
+    - The nucleus is an organelle that contains the cell's DNA and controls the cell's activities. It regulates gene expression, DNA replication, and cell division.
+
+23. c. Endoplasmic reticulum
+    - The endoplasmic reticulum (ER) is responsible for the synthesis and transport of lipids. It plays a role in lipid metabolism, including the synthesis of phospholipids and steroid hormones.
+
+24. d. Nucleolus
+    - The nucleolus is responsible for producing and assembling ribosomes within the nucleus. It plays a crucial role in protein synthesis.
+
+25. b. Centriole
+    - Centrioles are organelles found only in animal cells. They play a key role in cell division, specifically in the organization of spindle fibers during mitosis and meiosis.
+
+26. b. Mitochondria
+    - Mitochondria are responsible for storing and releasing energy in the form of ATP. They are involved in cellular respiration, which is the process of converting energy from nutrients into ATP.
+
+27. c. Photosynthesis
+    - Photosynthesis is the process by which cells capture energy from the sun and convert it into chemical energy, specifically glucose. It occurs in chloroplasts in plant cells.
+
+28. c. Lysosome
+    - Lysosomes are organelles involved in intracellular digestion. They contain digestive enzymes that break down complex molecules into simpler ones, releasing energy in the process.
+
+29. b. Cell membrane
+    - The cell membrane, also known as the plasma membrane, regulates the movement of substances into and out of the cell. It maintains homeostasis by selectively allowing the passage of certain molecules.
+
+30. b. Endoplasmic reticulum
+    - The endoplasmic reticulum (ER) is responsible for the synthesis of proteins in the cell. It plays a crucial role in protein synthesis, folding, and transport.
+
+31. d. Cytoskeleton
+    - The cytoskeleton helps maintain cell shape and provides mechanical support to the cell. It is composed of protein filaments and plays a role in cell movement and intracellular transport.
+
+32. d. Synthesizing proteins
+    - Synthesizing proteins is not a function of the cytoskeleton. The cytoskeleton is primarily involved in providing structural support, facilitating cell division, and aiding in intracellular transport.
+
+33. b. Peroxisome
+    - Peroxisomes are organelles responsible for detoxifying harmful substances, particularly in liver cells. They break down fatty acids and detoxify
+
+ alcohol and other toxins.
+
+34. b. Ribosomes
+    - Ribosomes are responsible for protein synthesis in the cell. They translate the genetic information from mRNA into proteins by linking amino acids together.
+
+35. c. Cell wall
+    - The cell wall is a rigid structure found in plant cells, fungi, and some bacteria. It provides structural support, protection, and helps maintain the shape of the cell.
+
+36. a. Nucleus
+    - The nucleus is the organelle that contains the cell's genetic material, DNA. It controls the cell's activities by regulating gene expression and coordinating cellular functions.
+
+37. a. Ribosomes
+    - Ribosomes are responsible for protein synthesis in the cell. They are composed of RNA and protein and can be found in the cytoplasm or attached to the endoplasmic reticulum.
+
+38. c. Nucleus
+    - The nucleus is the control center of the cell. It contains the cell's DNA and is responsible for regulating gene expression and coordinating cellular activities.
+
+39. a. Chloroplasts
+    - Chloroplasts are organelles found in plant cells that are responsible for photosynthesis. They contain chlorophyll and other pigments that capture sunlight and convert it into chemical energy.
+
+40. b. Controls the movement of substances in and out of the cell
+    - The cell membrane regulates the movement of substances in and out of the cell. It is selectively permeable, allowing certain molecules to pass through while restricting others.

@@ -1,0 +1,361 @@
+1. Which scientist is credited with developing the cell theory?
+   a. Louis Pasteur
+   b. Robert Hooke
+   c. Anton van Leeuwenhoek
+   d. Rudolf Virchow
+
+2. Which statement best describes the cell theory?
+   a. Cells are the basic units of life.
+   b. Cells can only be found in plants.
+   c. Cells are composed of organelles.
+   d. All cells have a nucleus.
+
+3. What is the function of the cell membrane?
+   a. Provides support and protection to the cell
+   b. Controls the movement of substances in and out of the cell
+   c. Contains genetic material and controls cell activities
+   d. Produces energy for the cell
+
+4. Which organelle is responsible for the production of proteins in a cell?
+   a. Mitochondria
+   b. Golgi apparatus
+   c. Ribosomes
+   d. Lysosomes
+
+5. Which of the following is NOT found in plant cells?
+   a. Cell wall
+   b. Chloroplasts
+   c. Vacuoles
+   d. Centrioles
+
+6. Which organelle is known as the "powerhouse" of the cell?
+   a. Mitochondria
+   b. Nucleus
+   c. Endoplasmic reticulum
+   d. Golgi apparatus
+
+7. What is the function of the Golgi apparatus?
+   a. Stores water, nutrients, and waste materials
+   b. Breaks down old cell parts and foreign substances
+   c. Modifies, sorts, and packages proteins for transport
+   d. Provides structural support to the cell
+
+8. Which organelle contains DNA and controls the cell's activities?
+   a. Mitochondria
+   b. Nucleus
+   c. Ribosomes
+   d. Endoplasmic reticulum
+
+9. Which statement describes the function of lysosomes?
+   a. Converts light energy into chemical energy
+   b. Converts food into usable energy for the cell
+   c. Breaks down waste materials and cellular debris
+   d. Synthesizes lipids and steroids
+
+10. What is the primary function of the vacuole in plant cells?
+    a. Storage of water, nutrients, and waste materials
+    b. Production of ATP for cellular energy
+    c. Synthesis of proteins
+    d. Control of cell division
+
+11. Which organelle is responsible for photosynthesis in plant cells?
+    a. Mitochondria
+    b. Nucleus
+    c. Chloroplasts
+    d. Golgi apparatus
+
+12. Which of the following is a function of the cytoskeleton?
+    a. Synthesis of proteins
+    b. Storage of genetic material
+    c. Provides structural support and helps in cell movement
+    d. Detoxification of harmful substances
+
+13. Which organelle is responsible for detoxifying harmful substances in the cell?
+    a. Mitochondria
+    b. Peroxisomes
+    c. Lysosomes
+    d. Vacuoles
+
+14. Which of the following statements is true about prokaryotic cells?
+    a. They have a nucleus.
+    b. They lack membrane-bound organelles.
+    c. They are only found in plants.
+    d. They are more complex than eukaryotic cells.
+
+15. Which organelle is responsible for breaking down and recycling cellular waste?
+    a. Lysosomes
+    b. Golgi apparatus
+    c. Endoplasmic reticulum
+    d. Ribosomes
+
+16. What is the function of the cell wall in plant cells?
+    a. Controls the movement of substances in and out of the cell
+    b. Provides support and protection to the cell
+    c. Converts light energy into chemical energy
+    d. Stores water, nutrients, and waste materials
+
+17. Which organelle contains enzymes for intracellular digestion?
+    a. Ribosomes
+    b. Nucleus
+    c. Lysosomes
+    d. Endoplasmic reticulum
+
+18. What is the primary function of the mitochondria?
+    a. Synthesis of lipids and steroids
+    b. Storage of water, nutrients, and waste materials
+    c. Production of ATP for cellular energy
+    d. Modifies, sorts, and packages proteins for transport
+
+19. Which statement best describes the function of the nucleus?
+    a. Controls the movement of substances in and out of the cell
+    b. Converts light energy into chemical energy
+    c. Contains genetic material and controls cell activities
+    d. Breaks down waste materials and cellular debris
+
+20. Which organelle is responsible for maintaining cell shape and providing mechanical support?
+    a. Vacuoles
+    b. Nucleus
+    c. Golgi apparatus
+    d. Cytoskeleton
+
+21. What is the function of ribosomes in a cell?
+    a. Produces energy for the cell
+    b. Synthesizes proteins
+    c. Modifies, sorts, and packages proteins for transport
+    d. Breaks down old cell parts and foreign substances
+
+22. Which organelle is responsible for the synthesis of lipids and steroids?
+    a. Mitochondria
+    b. Nucleus
+    c. Endoplasmic reticulum
+    d. Golgi apparatus
+
+23. Which of the following is an example of a eukaryotic cell?
+    a. Bacteria
+    b. Archaea
+    c. Fungi
+    d. Cyanobacteria
+
+24. Which organelle is responsible for maintaining turgor pressure in plant cells?
+    a. Mitochondria
+    b. Chloroplasts
+    c. Vacuoles
+    d. Golgi apparatus
+
+25. What is the function of the endoplasmic reticulum?
+    a. Produces energy for the cell
+    b. Synthesizes proteins and lipids
+    c. Modifies, sorts, and packages proteins for transport
+    d. Breaks down waste materials and cellular debris
+
+26. Which statement is true about both animal and plant cells?
+    a. They have a cell wall.
+    b. They lack a nucleus.
+    c. They contain mitochondria.
+    d. They can perform photosynthesis.
+
+27. Which organelle contains chlorophyll and is responsible for photosynthesis?
+    a. Mitochondria
+    b. Nucleus
+    c. Chloroplasts
+    d. Golgi apparatus
+
+28. What is the function of the nucleolus?
+    a. Stores water, nutrients, and waste materials
+    b. Synthesizes proteins
+    c. Contains genetic material and controls cell activities
+    d. Produces ribosomes
+
+29. Which organelle is responsible for packaging and distributing proteins within the cell?
+    a. Ribosomes
+    b. Nucleus
+    c. Golgi apparatus
+    d. Lysosomes
+
+30. What is the primary function of the cytoplasm in a cell?
+    a. Controls the movement of substances in and out of the cell
+    b. Converts light energy into chemical energy
+    c. Stores water, nutrients, and waste materials
+    d. Provides a medium for cellular activities
+
+31. Which organelle is responsible for the breakdown of glucose and production of ATP?
+    a. Mitochondria
+    b. Nucleus
+    c. Chloroplasts
+    d. Endoplasmic reticulum
+
+32. Which of the following is NOT a function of the cytoskeleton?
+    a. Provides structural support to the cell
+    b. Helps in cell movement
+    c. Synthesizes proteins
+    d. Facilitates intracellular transport
+
+33. What is the function of the centrioles in animal cells?
+    a. Converts light energy into chemical energy
+    b. Controls the movement of substances in and out of the cell
+    c. Helps in cell division and the formation of the spindle apparatus
+    d. Synthesizes lipids and steroids
+
+34. Which organelle is responsible for the synthesis and modification of proteins?
+    a. Ribosomes
+    b. Nucleus
+    c. Golgi apparatus
+    d. Endoplasmic reticulum
+
+35. What is the function of the peroxisomes in a cell?
+    a. Breaks down waste materials and cellular debris
+    b. Produces ATP for cellular energy
+    c. Converts light energy into chemical energy
+    d. Detoxifies harmful substances
+
+36. Which organelle is responsible for the synthesis of ribosomes?
+    a. Mitochondria
+    b. Nucleus
+    c. Chloroplasts
+    d. Nucleolus
+
+37. What is the function of the cilia and flagella in cells?
+    a. Synthesis of proteins
+    b. Storage of genetic material
+    c. Facilitates intracellular transport
+    d. Cell movement and locomotion
+
+38. Which statement best describes the function of the cell nucleus?
+    a. Breaks down waste materials and cellular debris
+    b. Stores water, nutrients, and waste materials
+    c. Contains genetic material and controls cell activities
+    d. Synthesizes proteins and lipids
+
+39. Which organelle is responsible for maintaining osmotic balance and storing water in plant cells?
+    a. Mitochondria
+    b. Chloroplasts
+    c. Vacuoles
+    d. Endoplasmic reticulum
+
+40. What is the function of the cell membrane in a cell?
+    a. Provides support and protection to the cell
+    b. Controls the movement of substances in and out of the cell
+    c. Modifies, sorts, and packages proteins for transport
+    d. Breaks down old cell parts and foreign substances
+
+Certainly! Here are the answers with each explanation on a new line:
+
+1. d. Rudolf Virchow 
+   - Rudolf Virchow is credited with developing the cell theory.
+
+2. a. Cells are the basic units of life.
+   - The cell theory states that cells are the fundamental building blocks of all living organisms.
+
+3. b. Controls the movement of substances in and out of the cell.
+   - The cell membrane regulates the passage of molecules and ions in and out of the cell.
+
+4. c. Ribosomes 
+   - Ribosomes are responsible for the production of proteins in a cell.
+
+5. d. Centrioles 
+   - Centrioles are not found in plant cells.
+
+6. a. Mitochondria 
+   - Mitochondria are known as the "powerhouse" of the cell, producing energy in the form of ATP.
+
+7. c. Modifies, sorts, and packages proteins for transport 
+   - The Golgi apparatus modifies proteins and lipids and packages them into vesicles for transport.
+
+8. b. Nucleus 
+   - The nucleus contains DNA and controls the cell's activities.
+
+9. c. Breaks down waste materials and cellular debris 
+   - Lysosomes contain enzymes that degrade and recycle cellular waste materials.
+
+10. a. Storage of water, nutrients, and waste materials 
+    - The vacuole in plant cells primarily serves as a storage organelle.
+
+11. c. Chloroplasts 
+    - Chloroplasts are responsible for photosynthesis in plant cells.
+
+12. c. Provides structural support and helps in cell movement 
+    - The cytoskeleton is involved in maintaining cell shape and facilitating cell movement.
+
+13. b. Peroxisomes 
+    - Peroxisomes are responsible for detoxifying harmful substances in the cell.
+
+14. b. They lack membrane-bound organelles.
+    - Prokaryotic cells, such as bacteria, do not have membrane-bound organelles like eukaryotic cells do.
+
+15. a. Lysosomes 
+    - Lysosomes contain enzymes for breaking down and recycling cellular waste.
+
+16. b. Provides support and protection to the cell 
+    - The cell wall in plant cells provides structural support and protection.
+
+17. c. Lysosomes 
+    - Lysosomes contain enzymes for intracellular digestion.
+
+18. c. Production of ATP for cellular energy 
+    - The primary function of mitochondria is to produce ATP through cellular respiration.
+
+19. c. Contains genetic material and controls cell activities 
+    - The nucleus contains DNA and controls the cell's activities.
+
+20. d. Cytoskeleton 
+    - The cytoskeleton provides structural support to the cell and helps in cell movement.
+
+21. b. Synthesizes proteins 
+    - Ribosomes are responsible for protein synthesis.
+
+22. c. Endoplasmic reticulum 
+    - The endoplasmic reticulum is involved in the synthesis and modification of lipids and proteins.
+
+23. c. Fungi 
+    - Fungi are examples of eukaryotic cells.
+
+24. c. Vacuoles 
+    - Vacuoles help maintain turgor pressure in plant cells.
+
+25. b. Synthesizes proteins and lipids 
+    - The endoplasmic reticulum is involved in the synthesis of proteins and lipids.
+
+26. c. They contain mitochondria 
+    - Both animal and plant cells contain mitochondria for energy production.
+
+27. c. Chloroplasts 
+    - Chloroplasts contain chlorophyll and are responsible for photosynthesis.
+
+28. d. Produces ribosomes 
+    - The nucleolus is involved in producing ribosomes.
+
+29. c. Golgi apparatus 
+    - The Golgi apparatus packages and distributes proteins within the cell.
+
+30. d. Provides a medium for cellular activities 
+    - The cytoplasm provides a medium for various cellular activities to occur.
+
+31. a. Mitochondria 
+    - Mitochondria are responsible for the breakdown of glucose and production of ATP.
+
+32. c. Synthesizes proteins 
+    - Protein synthesis is primarily carried out by ribosomes.
+
+33. c. Helps in cell division and the formation of the spindle apparatus 
+    - Centrioles play a role in cell division and the organization of the spindle apparatus.
+
+34. d. Endoplasmic reticulum 
+    - The endoplasmic reticulum is responsible for the synthesis and modification of proteins.
+
+35. d. Detoxifies harmful substances 
+    - Peroxisomes are involved in detoxifying harmful substances.
+
+36. d. Nucleolus 
+    - The nucleolus is responsible for the synthesis of ribosomes.
+
+37. d. Cell movement and locomotion 
+    - Cilia and flagella are involved in cell movement and locomotion.
+
+38. c. Contains genetic material and controls cell activities 
+    - The cell nucleus contains DNA and regulates cell activities.
+
+39. c. Vacuoles 
+    - Vacuoles maintain osmotic balance and store water in plant cells.
+
+40. b. Controls the movement of substances in and out of the cell 
+    - The cell membrane regulates the movement of substances in and out of the cell.
