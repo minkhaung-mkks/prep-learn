@@ -14,7 +14,7 @@ Please note these times are the worst possible times, In reality I hope to have 
 
 ## Launched
 
-## Potentially Delayed on dates due to moving
+## Only gonna be doing simple updates like more tests, till the 2nd week of July potentially, so there will be delays on all the planned dates, gonna give an update on the dates after I finish moving
 
 Launch of the app with just the functions to choose quizes and answer them (June 20th 2023) Progess : 100% DONE
 Time Quizes (June 30th 2023) Progress : Might prioritize Quiz Mode Over this
