@@ -1,0 +1,366 @@
+1. Which scientist is credited with developing the cell theory?
+   a. Louis Pasteur
+   b. Robert Hooke
+   c. Anton van Leeuwenhoek
+   d. Rudolf Virchow
+
+2. Which of the following is not a part of the cell theory?
+   a. All living organisms are made up of cells.
+   b. Cells are the basic units of structure and function in living organisms.
+   c. Cells arise spontaneously from non-living matter.
+   d. Cells come from pre-existing cells.
+
+3. Which organelle is responsible for the synthesis of proteins in a cell?
+   a. Mitochondria
+   b. Nucleus
+   c. Ribosomes
+   d. Golgi apparatus
+
+4. Which organelle is known as the "powerhouse" of the cell and produces energy?
+   a. Lysosomes
+   b. Chloroplasts
+   c. Mitochondria
+   d. Endoplasmic reticulum
+
+5. Which organelle is responsible for storing and maintaining genetic information in a eukaryotic cell?
+   a. Vacuole
+   b. Nucleus
+   c. Cell membrane
+   d. Golgi apparatus
+
+6. In plant cells, which organelle is responsible for capturing sunlight and carrying out photosynthesis?
+   a. Mitochondria
+   b. Chloroplasts
+   c. Endoplasmic reticulum
+   d. Nucleus
+
+7. Which organelle is responsible for detoxifying harmful substances in the cell?
+   a. Lysosomes
+   b. Peroxisomes
+   c. Golgi apparatus
+   d. Ribosomes
+
+8. Which of the following is not a function of the cell membrane?
+   a. Regulating the passage of substances into and out of the cell
+   b. Providing structural support to the cell
+   c. Facilitating cell-cell communication
+   d. Controlling the movement of organelles within the cell
+
+9. Which of the following is a characteristic of animal cells but not plant cells?
+   a. Cell wall
+   b. Chloroplasts
+   c. Vacuoles
+   d. Centrioles
+
+10. Which statement accurately describes the process of mitosis?
+    a. Mitosis results in the formation of four daughter cells with half the number of chromosomes.
+    b. Mitosis is a type of cell division that occurs only in prokaryotic cells.
+    c. Mitosis produces genetically identical daughter cells with the same number of chromosomes as the parent cell.
+    d. Mitosis is the process by which gametes are formed.
+
+11. Which of the following is the correct sequence of events during mitosis?
+    a. Prophase, metaphase, anaphase, telophase
+    b. Telophase, anaphase, metaphase, prophase
+    c. Metaphase, prophase, anaphase, telophase
+    d. Anaphase, prophase, metaphase, telophase
+
+12. What is the purpose of meiosis?
+    a. To produce genetically identical cells for growth and repair.
+    b. To produce gametes for sexual reproduction.
+    c. To facilitate cell division in plant cells.
+    d. To generate energy for cellular processes.
+
+13. Which of the following describes a haploid cell?
+    a. A cell with two sets of chromosomes.
+    b. A cell with one set of chromosomes.
+    c. A cell with no chromosomes
+
+.
+    d. A cell with three sets of chromosomes.
+
+14. What is the primary function of the testes in the male reproductive system?
+    a. Production of sperm
+    b. Production of estrogen
+    c. Production of eggs
+    d. Production of testosterone
+
+15. Which of the following is responsible for releasing an egg during the menstrual cycle?
+    a. Uterus
+    b. Ovary
+    c. Cervix
+    d. Fallopian tube
+
+16. Which structure connects the ovaries to the uterus in the female reproductive system?
+    a. Cervix
+    b. Fallopian tube
+    c. Vagina
+    d. Uterus
+
+17. Fertilization of an egg by sperm typically occurs in which part of the female reproductive system?
+    a. Uterus
+    b. Ovary
+    c. Cervix
+    d. Fallopian tube
+
+18. What is the purpose of the placenta during pregnancy?
+    a. To provide nutrients and oxygen to the developing fetus.
+    b. To remove waste products from the developing fetus.
+    c. To produce hormones that maintain pregnancy.
+    d. To protect the developing fetus from external harm.
+
+19. Which of the following best describes asexual reproduction?
+    a. Two parents contribute genetic material to produce offspring.
+    b. Offspring are produced through the fusion of gametes.
+    c. Offspring are genetically identical to the parent organism.
+    d. Offspring receive a combination of genetic material from both parents.
+
+20. Which of the following is an example of asexual reproduction in plants?
+    a. Fertilization
+    b. Budding
+    c. Pollination
+    d. Meiosis
+
+21. Which term describes the transfer of pollen from the anther to the stigma in flowering plants?
+    a. Pollination
+    b. Fertilization
+    c. Germination
+    d. Photosynthesis
+
+22. What is the function of the ovule in a flower?
+    a. To produce pollen
+    b. To receive pollen
+    c. To produce eggs
+    d. To attract pollinators
+
+23. Which of the following is the correct sequence of stages in the cell cycle?
+    a. Interphase, prophase, metaphase, anaphase, telophase
+    b. Prophase, metaphase, anaphase, telophase, interphase
+    c. Interphase, prophase, anaphase, metaphase, telophase
+    d. Interphase, prophase, metaphase, telophase, anaphase
+
+24. Which of the following is a characteristic of a prokaryotic cell?
+    a. Presence of a nucleus
+    b. Membrane-bound organelles
+    c. Large size
+    d. Circular DNA
+
+25. Which of the following best describes the function of the Golgi apparatus?
+    a. Protein synthesis
+    b. Cellular respiration
+    c. Lipid synthesis
+    d. Modification and packaging of proteins
+
+26. Which organelle is responsible for breaking down and recycling cellular waste?
+    a. Mitochondria
+    b. Endoplasmic reticulum
+    c. Lysosomes
+    d. Nucleus
+
+27. Which of the following is responsible for the production of ribosomes in a cell?
+    a. Nucleus
+    b. Endoplasmic reticulum
+    c. Golgi apparatus
+    d. Nucleolus
+
+28. Which of the following is an example of passive transport?
+    a. Active transport
+    b. Facilitated diffusion
+   
+
+ c. Exocytosis
+    d. Phagocytosis
+
+29. Which of the following best describes the process of photosynthesis?
+    a. Conversion of light energy into chemical energy
+    b. Breakdown of glucose to release energy
+    c. Synthesis of proteins from amino acids
+    d. Replication of DNA
+
+30. Which of the following is a characteristic of eukaryotic cells but not prokaryotic cells?
+    a. Membrane-bound organelles
+    b. Cell wall
+    c. Circular DNA
+    d. Nucleoid region
+
+31. Which of the following is a function of the cell wall in plant cells?
+    a. Regulation of nutrient exchange
+    b. Protection and support
+    c. Synthesis of proteins
+    d. Storage of genetic material
+
+32. Which of the following is responsible for the conversion of glucose into ATP in cellular respiration?
+    a. Mitochondria
+    b. Chloroplasts
+    c. Nucleus
+    d. Golgi apparatus
+
+33. Which of the following is responsible for the storage of water, nutrients, and waste materials in plant cells?
+    a. Nucleus
+    b. Mitochondria
+    c. Vacuole
+    d. Ribosomes
+
+34. Which of the following is a product of cellular respiration?
+    a. Oxygen
+    b. Glucose
+    c. Carbon dioxide
+    d. Chlorophyll
+
+35. Which type of cellular transport requires the input of energy?
+    a. Diffusion
+    b. Osmosis
+    c. Active transport
+    d. Facilitated diffusion
+
+36. Which of the following best describes the relationship between photosynthesis and cellular respiration?
+    a. Photosynthesis releases oxygen, while cellular respiration releases carbon dioxide.
+    b. Photosynthesis and cellular respiration are independent processes that do not affect each other.
+    c. Photosynthesis produces glucose, while cellular respiration uses glucose to produce energy.
+    d. Photosynthesis and cellular respiration are the same processes occurring in different cell types.
+
+37. Which of the following is a characteristic of sexual reproduction?
+    a. Production of genetically identical offspring
+    b. Involvement of a single parent
+    c. Fusion of gametes
+    d. Rapid production of offspring
+
+38. Which of the following is responsible for the transmission of genetic information from parents to offspring?
+    a. DNA
+    b. RNA
+    c. Proteins
+    d. Enzymes
+
+39. Which of the following best describes the function of enzymes in cells?
+    a. Energy production
+    b. Transport of materials
+    c. Regulation of gene expression
+    d. Facilitation of chemical reactions
+
+40. Which of the following best describes the role of DNA in the cell?
+    a. Storage of genetic information
+    b. Production of energy
+    c. Regulation of cell division
+    d. Synthesis of proteins
+
+
+1. b. Robert Hooke
+   - Robert Hooke is credited with developing the cell theory.
+
+2. c. Cells arise spontaneously from non-living matter.
+   - This statement is not a part of the cell theory. The cell theory states that all living organisms are made up of cells, cells are the basic units of structure and function in living organisms, and cells come from pre-existing cells.
+
+3. c. Ribosomes
+   - Ribosomes are responsible for protein synthesis in a cell.
+
+4. c. Mitochondria
+   - Mitochondria are known as the "powerhouse" of the cell and produce energy in the form of ATP through cellular respiration.
+
+5. b. Nucleus
+   - The nucleus is responsible for storing and maintaining genetic information in a eukaryotic cell.
+
+6. b. Chloroplasts
+   - Chloroplasts are responsible for capturing sunlight and carrying out photosynthesis in plant cells.
+
+7. b. Peroxisomes
+   - Peroxisomes are responsible for detoxifying harmful substances in the cell.
+
+8. b. Providing structural support to the cell
+   - Structural support to the cell is primarily provided by the cell wall, not the cell membrane.
+
+9. d. Centrioles
+   - Centrioles are a characteristic of animal cells and are involved in cell division, but they are not present in plant cells.
+
+10. c. Mitosis produces genetically identical daughter cells with the same number of chromosomes as the parent cell.
+    - This statement accurately describes the process of mitosis.
+
+11. a. Prophase, metaphase, anaphase, telophase
+    - This is the correct sequence of events during mitosis.
+
+12. b. To produce gametes for sexual reproduction.
+    - The purpose of meiosis is to produce gametes (sperm and eggs) for sexual reproduction.
+
+13. b. A cell with one set of chromosomes.
+    - A haploid cell contains one set of chromosomes, whereas a diploid cell contains two sets of chromosomes.
+
+14. a. Production of sperm
+    - The testes are responsible for the production of sperm in the male reproductive system.
+
+15. b. Ovary
+    - The ovary is responsible for releasing an egg during the menstrual cycle.
+
+16. b. Fallopian tube
+    - The fallopian tube connects the ovaries to the uterus in the female reproductive system.
+
+17. d. Fallopian tube
+    - Fertilization of an egg by sperm typically occurs in the fallopian tube.
+
+18. a. To provide nutrients and oxygen to the developing fetus.
+    - The placenta acts as a connection between the mother and the developing fetus, providing nutrients and oxygen to support fetal development.
+
+19. c. Offspring are genetically identical to the parent organism.
+    - This describes asexual reproduction, where offspring are genetically identical to the parent organism.
+
+20. b. Budding
+    - Budding is an example of asexual reproduction in plants, where a new individual develops as an outgrowth or bud from the parent organism.
+
+21. a. Pollination
+    - Pollination is the transfer of pollen from the anther to the stigma in flowering plants.
+
+22. c. To produce eggs
+    - The ovule in a flower is responsible for producing eggs (female gametes).
+
+23. d. Interphase, prophase, metaphase, telophase, anaphase
+    - This is the correct sequence of stages in the cell cycle.
+
+24. d. Circular DNA
+    - Prokaryotic cells have circular DNA, whereas eukaryotic cells have linear DNA organized into chromosomes.
+
+25. d. Modification and packaging of proteins
+    - The Golgi
+
+ apparatus is responsible for modifying, sorting, and packaging proteins for transport within the cell or secretion outside the cell.
+
+26. c. Lysosomes
+    - Lysosomes are responsible for breaking down and recycling cellular waste and debris.
+
+27. d. Nucleolus
+    - The nucleolus is responsible for the production of ribosomes in a cell.
+
+28. b. Facilitated diffusion
+    - Facilitated diffusion is an example of passive transport, where molecules move across the cell membrane with the help of transport proteins but without the input of energy.
+
+29. a. Conversion of light energy into chemical energy
+    - Photosynthesis is the process by which plants and some other organisms convert light energy into chemical energy (glucose) using chlorophyll and other pigments.
+
+30. a. Membrane-bound organelles
+    - Eukaryotic cells have membrane-bound organelles, while prokaryotic cells do not.
+
+31. b. Protection and support
+    - The cell wall in plant cells provides protection and structural support to the cell.
+
+32. a. Mitochondria
+    - Mitochondria are responsible for the conversion of glucose into ATP (adenosine triphosphate) through cellular respiration.
+
+33. c. Vacuole
+    - The vacuole in plant cells is responsible for the storage of water, nutrients, and waste materials.
+
+34. c. Carbon dioxide
+    - Carbon dioxide is a product of cellular respiration.
+
+35. c. Active transport
+    - Active transport requires the input of energy to move molecules against their concentration gradient.
+
+36. c. Photosynthesis produces glucose, while cellular respiration uses glucose to produce energy.
+    - Photosynthesis and cellular respiration are interconnected processes. Photosynthesis produces glucose using light energy, and cellular respiration uses glucose to produce ATP, releasing carbon dioxide as a byproduct.
+
+37. c. Fusion of gametes
+    - Sexual reproduction involves the fusion of gametes (sperm and eggs) from two parents to produce genetically diverse offspring.
+
+38. a. DNA
+    - DNA carries and transmits genetic information from parents to offspring.
+
+39. d. Facilitation of chemical reactions
+    - Enzymes in cells facilitate and speed up chemical reactions without being consumed in the process.
+
+40. a. Storage of genetic information
+    - DNA stores and carries the genetic information necessary for the synthesis of proteins and the functioning of cells.
