@@ -1,3 +1,7 @@
+# Request for Help
+
+ChatGPT seems to be unable to generete diverse Biology questions, thus resulting in lots of repeated questions with even the exact same wording. If you know any other AI or Tool (Free to use) that can do better please let me know, or if you want to help make them yourself, please contact me [minkhaung.mkks@gmail.com](mailto:minkhaung.mkks@gmail.com)
+
 # Prep & Learn
 
 ![Prep & Learn](./public/assets/imgs/logo-no-background.png)
