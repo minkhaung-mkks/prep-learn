@@ -12,13 +12,14 @@ const PracticeListPage = () => {
     const [selectedTopics, setSelectedTopics] = useState([]);
     const [selectedSubTopics, setSelectedSubTopics] = useState([]);
 
-
-
     const selectSubTopics = (sub_topic) => {
         // When provided a function on setState, react calls the function with the current State
         // so setSelectedSubTopic(prev => prev + topic) = setSelectedSubTopic((prev)=> prev + topic)
-        if (sub_topic !== 'All') {
+        if (sub_topic !== 'All' && !selectSubTopics.includes(sub_topic)) {
             setSelectedSubTopics((prev) => [...prev, sub_topic])
+        }
+        else if(selectedSubTopics.includes(sub_topic)){
+            
         }
         else {
             setSelectedSubTopics([])
@@ -26,11 +27,11 @@ const PracticeListPage = () => {
     }
 
     const selectTopics = (topic) => {
-        if (topic !== 'Sciences') {
-            setSelectedSubTopics([]);
-        }
-        if (topic !== 'All') {
+        if (topic !== 'All' && !selectedTopics.includes(topic)) {
             setSelectedTopics((prev) => [...prev, topic])
+        }
+        else if(selectedTopics.includes(topic)){
+
         }
         else {
             setSelectedTopics([])
@@ -47,19 +48,27 @@ const PracticeListPage = () => {
 
                 // Filter by selected subject if it's not 'All'
                 if (selectedSubject !== 'All') {
-                    data = data.filter(quiz => quiz.subject === selectedSubject);
+                    temp_data = data.filter(quiz => quiz.subject === selectedSubject);
+                    if(temp_data.length>0){
+                        data = temp_data
+                    }
                 }
 
                 // Filter by selected topics if any topic is selected
                 if (selectedTopics.length > 0) {
-                    data = data.filter(quiz => quiz.topic.some(topic => selectedTopics.includes(topic)));
+                    temp_data = data.filter(quiz => quiz.topic.some(topic => selectedTopics.includes(topic)));
+                    if(temp_data.length>0){
+                        data = temp_data
+                    }
                 }
 
                 // Filter by selected subtopics if any subtopic is selected
                 if (selectedSubTopics.length > 0) {
-                    data = data.filter(quiz => quiz.sub_topic.some(subTopic => selectedSubTopics.includes(subTopic)))
+                    let temp_data = data.filter(quiz => quiz.sub_topic.some(subTopic => selectedSubTopics.includes(subTopic)))
+                    if(temp_data.length>0){
+                        data = temp_data
+                    }
                 }
-
 
                 setQuizzes(data);
             } catch (error) {
