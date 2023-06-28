@@ -44,27 +44,30 @@ const PracticeListPage = () => {
             try {
                 const response = await fetch('/data.json');
                 let data = await response.json();
-                console.log(data)
-
+                let temp_data;
                 // Filter by selected subject if it's not 'All'
                 if (selectedSubject !== 'All') {
+
                     temp_data = data.filter(quiz => quiz.subject === selectedSubject);
                     if(temp_data.length>0){
                         data = temp_data
+    
                     }
                 }
-
+                
                 // Filter by selected topics if any topic is selected
                 if (selectedTopics.length > 0) {
                     temp_data = data.filter(quiz => quiz.topic.some(topic => selectedTopics.includes(topic)));
+                    console.log(temp_data.length)
                     if(temp_data.length>0){
                         data = temp_data
+    
                     }
                 }
 
                 // Filter by selected subtopics if any subtopic is selected
                 if (selectedSubTopics.length > 0) {
-                    let temp_data = data.filter(quiz => quiz.sub_topic.some(subTopic => selectedSubTopics.includes(subTopic)))
+                    temp_data = data.filter(quiz => quiz.sub_topic.some(subTopic => selectedSubTopics.includes(subTopic)))
                     if(temp_data.length>0){
                         data = temp_data
                     }
