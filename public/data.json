@@ -5112,5 +5112,1513 @@
         ]
       }
     ]
+  },
+  {
+    "id": 15,
+    "name": "Bio Test #1",
+    "subject": "Sciences",
+    "exam": "GED",
+    "topic": [
+      "Biology"
+    ],
+    "sub_topic": [],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 0,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "Which scientist is credited with developing the cell theory?",
+            "answers": {
+              "a": "Louis Pasteur",
+              "b": "Robert Hooke",
+              "c": "Anton van Leeuwenhoek",
+              "d": "Rudolf Virchow"
+            },
+            "correct": "d",
+            "answer_text": "Rudolf Virchow",
+            "reason": "Rudolf Virchow is credited with developing the cell theory."
+          },
+          {
+            "text": "Which statement best describes the cell theory?",
+            "answers": {
+              "a": "Cells are the basic units of life.",
+              "b": "Cells can only be found in plants.",
+              "c": "Cells are composed of organelles.",
+              "d": "All cells have a nucleus."
+            },
+            "correct": "a",
+            "answer_text": "Cells are the basic units of life.",
+            "reason": "The cell theory states that cells are the fundamental building blocks of all living organisms."
+          },
+          {
+            "text": "What is the function of the cell membrane?",
+            "answers": {
+              "a": "Provides support and protection to the cell",
+              "b": "Controls the movement of substances in and out of the cell",
+              "c": "Contains genetic material and controls cell activities",
+              "d": "Produces energy for the cell"
+            },
+            "correct": "b",
+            "answer_text": "Controls the movement of substances in and out of the cell.",
+            "reason": "The cell membrane regulates the passage of molecules and ions in and out of the cell."
+          },
+          {
+            "text": "Which organelle is responsible for the production of proteins in a cell?",
+            "answers": {
+              "a": "Mitochondria",
+              "b": "Golgi apparatus",
+              "c": "Ribosomes",
+              "d": "Lysosomes"
+            },
+            "correct": "c",
+            "answer_text": "Ribosomes",
+            "reason": "Ribosomes are responsible for the production of proteins in a cell."
+          },
+          {
+            "text": "Which of the following is NOT found in plant cells?",
+            "answers": {
+              "a": "Cell wall",
+              "b": "Chloroplasts",
+              "c": "Vacuoles",
+              "d": "Centrioles"
+            },
+            "correct": "d",
+            "answer_text": "Centrioles",
+            "reason": "Centrioles are not found in plant cells."
+          },
+          {
+            "text": "Which organelle is known as the \"powerhouse\" of the cell?",
+            "answers": {
+              "a": "Mitochondria",
+              "b": "Nucleus",
+              "c": "Endoplasmic reticulum",
+              "d": "Golgi apparatus"
+            },
+            "correct": "a",
+            "answer_text": "Mitochondria",
+            "reason": "Mitochondria are known as the \"powerhouse\" of the cell, producing energy in the form of ATP."
+          },
+          {
+            "text": "What is the function of the Golgi apparatus?",
+            "answers": {
+              "a": "Stores water, nutrients, and waste materials",
+              "b": "Breaks down old cell parts and foreign substances",
+              "c": "Modifies, sorts, and packages proteins for transport",
+              "d": "Provides structural support to the cell"
+            },
+            "correct": "c",
+            "answer_text": "Modifies, sorts, and packages proteins for transport",
+            "reason": "The Golgi apparatus modifies proteins and lipids and packages them into vesicles for transport."
+          },
+          {
+            "text": "Which organelle contains DNA and controls the cell's activities?",
+            "answers": {
+              "a": "Mitochondria",
+              "b": "Nucleus",
+              "c": "Ribosomes",
+              "d": "Endoplasmic reticulum"
+            },
+            "correct": "b",
+            "answer_text": "Nucleus",
+            "reason": "The nucleus contains DNA and controls the cell's activities."
+          },
+          {
+            "text": "Which statement describes the function of lysosomes?",
+            "answers": {
+              "a": "Converts light energy into chemical energy",
+              "b": "Converts food into usable energy for the cell",
+              "c": "Breaks down waste materials and cellular debris",
+              "d": "Synthesizes lipids and steroids"
+            },
+            "correct": "c",
+            "answer_text": "Breaks down waste materials and cellular debris",
+            "reason": "Lysosomes contain enzymes that degrade and recycle cellular waste materials."
+          },
+          {
+            "text": "What is the primary function of the vacuole in plant cells?",
+            "answers": {
+              "a": "Storage of water, nutrients, and waste materials",
+              "b": "Production of ATP for cellular energy",
+              "c": "Synthesis of proteins",
+              "d": "Control of cell division"
+            },
+            "correct": "a",
+            "answer_text": "Storage of water, nutrients, and waste materials",
+            "reason": "The vacuole in plant cells primarily serves as a storage organelle."
+          },
+          {
+            "text": "Which organelle is responsible for photosynthesis in plant cells?",
+            "answers": {
+              "a": "Mitochondria",
+              "b": "Nucleus",
+              "c": "Chloroplasts",
+              "d": "Golgi apparatus"
+            },
+            "correct": "c",
+            "answer_text": "Chloroplasts",
+            "reason": "Chloroplasts are responsible for photosynthesis in plant cells."
+          },
+          {
+            "text": "Which of the following is a function of the cytoskeleton?",
+            "answers": {
+              "a": "Synthesis of proteins",
+              "b": "Storage of genetic material",
+              "c": "Provides structural support and helps in cell movement",
+              "d": "Detoxification of harmful substances"
+            },
+            "correct": "c",
+            "answer_text": "Provides structural support and helps in cell movement",
+            "reason": "The cytoskeleton is involved in maintaining cell shape and facilitating cell movement."
+          },
+          {
+            "text": "Which organelle is responsible for detoxifying harmful substances in the cell?",
+            "answers": {
+              "a": "Mitochondria",
+              "b": "Peroxisomes",
+              "c": "Lysosomes",
+              "d": "Vacuoles"
+            },
+            "correct": "b",
+            "answer_text": "Peroxisomes",
+            "reason": "Peroxisomes are responsible for detoxifying harmful substances in the cell."
+          },
+          {
+            "text": "Which of the following statements is true about prokaryotic cells?",
+            "answers": {
+              "a": "They have a nucleus.",
+              "b": "They lack membrane-bound organelles.",
+              "c": "They are only found in plants.",
+              "d": "They are more complex than eukaryotic cells."
+            },
+            "correct": "b",
+            "answer_text": "They lack membrane-bound organelles.",
+            "reason": "Prokaryotic cells, such as bacteria, do not have membrane-bound organelles like eukaryotic cells do."
+          },
+          {
+            "text": "Which organelle is responsible for breaking down and recycling cellular waste?",
+            "answers": {
+              "a": "Lysosomes",
+              "b": "Golgi apparatus",
+              "c": "Endoplasmic reticulum",
+              "d": "Ribosomes"
+            },
+            "correct": "a",
+            "answer_text": "Lysosomes",
+            "reason": "Lysosomes contain enzymes for breaking down and recycling cellular waste."
+          },
+          {
+            "text": "What is the function of the cell wall in plant cells?",
+            "answers": {
+              "a": "Controls the movement of substances in and out of the cell",
+              "b": "Provides support and protection to the cell",
+              "c": "Converts light energy into chemical energy",
+              "d": "Stores water, nutrients, and waste materials"
+            },
+            "correct": "b",
+            "answer_text": "Provides support and protection to the cell",
+            "reason": "The cell wall in plant cells provides structural support and protection."
+          },
+          {
+            "text": "Which organelle contains enzymes for intracellular digestion?",
+            "answers": {
+              "a": "Ribosomes",
+              "b": "Nucleus",
+              "c": "Lysosomes",
+              "d": "Endoplasmic reticulum"
+            },
+            "correct": "c",
+            "answer_text": "Lysosomes",
+            "reason": "Lysosomes contain enzymes for intracellular digestion."
+          },
+          {
+            "text": "What is the primary function of the mitochondria?",
+            "answers": {
+              "a": "Synthesis of lipids and steroids",
+              "b": "Storage of water, nutrients, and waste materials",
+              "c": "Production of ATP for cellular energy",
+              "d": "Modifies, sorts, and packages proteins for transport"
+            },
+            "correct": "c",
+            "answer_text": "Production of ATP for cellular energy",
+            "reason": "The primary function of mitochondria is to produce ATP through cellular respiration."
+          },
+          {
+            "text": "Which statement best describes the function of the nucleus?",
+            "answers": {
+              "a": "Controls the movement of substances in and out of the cell",
+              "b": "Converts light energy into chemical energy",
+              "c": "Contains genetic material and controls cell activities",
+              "d": "Breaks down waste materials and cellular debris"
+            },
+            "correct": "c",
+            "answer_text": "Contains genetic material and controls cell activities",
+            "reason": "The nucleus contains DNA and controls the cell's activities."
+          },
+          {
+            "text": "Which organelle is responsible for maintaining cell shape and providing mechanical support?",
+            "answers": {
+              "a": "Vacuoles",
+              "b": "Nucleus",
+              "c": "Golgi apparatus",
+              "d": "Cytoskeleton"
+            },
+            "correct": "d",
+            "answer_text": "Cytoskeleton",
+            "reason": "The cytoskeleton provides structural support to the cell and helps in cell movement."
+          },
+          {
+            "text": "What is the function of ribosomes in a cell?",
+            "answers": {
+              "a": "Produces energy for the cell",
+              "b": "Synthesizes proteins",
+              "c": "Modifies, sorts, and packages proteins for transport",
+              "d": "Breaks down old cell parts and foreign substances"
+            },
+            "correct": "b",
+            "answer_text": "Synthesizes proteins",
+            "reason": "Ribosomes are responsible for protein synthesis."
+          },
+          {
+            "text": "Which organelle is responsible for the synthesis of lipids and steroids?",
+            "answers": {
+              "a": "Mitochondria",
+              "b": "Nucleus",
+              "c": "Endoplasmic reticulum",
+              "d": "Golgi apparatus"
+            },
+            "correct": "c",
+            "answer_text": "Endoplasmic reticulum",
+            "reason": "The endoplasmic reticulum is involved in the synthesis and modification of lipids and proteins."
+          },
+          {
+            "text": "Which of the following is an example of a eukaryotic cell?",
+            "answers": {
+              "a": "Bacteria",
+              "b": "Archaea",
+              "c": "Fungi",
+              "d": "Cyanobacteria"
+            },
+            "correct": "c",
+            "answer_text": "Fungi",
+            "reason": "Fungi are examples of eukaryotic cells."
+          },
+          {
+            "text": "Which organelle is responsible for maintaining turgor pressure in plant cells?",
+            "answers": {
+              "a": "Mitochondria",
+              "b": "Chloroplasts",
+              "c": "Vacuoles",
+              "d": "Golgi apparatus"
+            },
+            "correct": "c",
+            "answer_text": "Vacuoles",
+            "reason": "Vacuoles help maintain turgor pressure in plant cells."
+          },
+          {
+            "text": "What is the function of the endoplasmic reticulum?",
+            "answers": {
+              "a": "Produces energy for the cell",
+              "b": "Synthesizes proteins and lipids",
+              "c": "Modifies, sorts, and packages proteins for transport",
+              "d": "Breaks down waste materials and cellular debris"
+            },
+            "correct": "b",
+            "answer_text": "Synthesizes proteins and lipids",
+            "reason": "The endoplasmic reticulum is involved in the synthesis of proteins and lipids."
+          },
+          {
+            "text": "Which statement is true about both animal and plant cells?",
+            "answers": {
+              "a": "They have a cell wall.",
+              "b": "They lack a nucleus.",
+              "c": "They contain mitochondria.",
+              "d": "They can perform photosynthesis."
+            },
+            "correct": "c",
+            "answer_text": "They contain mitochondria",
+            "reason": "Both animal and plant cells contain mitochondria for energy production."
+          },
+          {
+            "text": "Which organelle contains chlorophyll and is responsible for photosynthesis?",
+            "answers": {
+              "a": "Mitochondria",
+              "b": "Nucleus",
+              "c": "Chloroplasts",
+              "d": "Golgi apparatus"
+            },
+            "correct": "c",
+            "answer_text": "Chloroplasts",
+            "reason": "Chloroplasts contain chlorophyll and are responsible for photosynthesis."
+          },
+          {
+            "text": "What is the function of the nucleolus?",
+            "answers": {
+              "a": "Stores water, nutrients, and waste materials",
+              "b": "Synthesizes proteins",
+              "c": "Contains genetic material and controls cell activities",
+              "d": "Produces ribosomes"
+            },
+            "correct": "d",
+            "answer_text": "Produces ribosomes",
+            "reason": "The nucleolus is involved in producing ribosomes."
+          },
+          {
+            "text": "Which organelle is responsible for packaging and distributing proteins within the cell?",
+            "answers": {
+              "a": "Ribosomes",
+              "b": "Nucleus",
+              "c": "Golgi apparatus",
+              "d": "Lysosomes"
+            },
+            "correct": "c",
+            "answer_text": "Golgi apparatus",
+            "reason": "The Golgi apparatus packages and distributes proteins within the cell."
+          },
+          {
+            "text": "What is the primary function of the cytoplasm in a cell?",
+            "answers": {
+              "a": "Controls the movement of substances in and out of the cell",
+              "b": "Converts light energy into chemical energy",
+              "c": "Stores water, nutrients, and waste materials",
+              "d": "Provides a medium for cellular activities"
+            },
+            "correct": "d",
+            "answer_text": "Provides a medium for cellular activities",
+            "reason": "The cytoplasm provides a medium for various cellular activities to occur."
+          },
+          {
+            "text": "Which organelle is responsible for the breakdown of glucose and production of ATP?",
+            "answers": {
+              "a": "Mitochondria",
+              "b": "Nucleus",
+              "c": "Chloroplasts",
+              "d": "Endoplasmic reticulum"
+            },
+            "correct": "a",
+            "answer_text": "Mitochondria",
+            "reason": "Mitochondria are responsible for the breakdown of glucose and production of ATP."
+          },
+          {
+            "text": "Which of the following is NOT a function of the cytoskeleton?",
+            "answers": {
+              "a": "Provides structural support to the cell",
+              "b": "Helps in cell movement",
+              "c": "Synthesizes proteins",
+              "d": "Facilitates intracellular transport"
+            },
+            "correct": "c",
+            "answer_text": "Synthesizes proteins",
+            "reason": "Protein synthesis is primarily carried out by ribosomes."
+          },
+          {
+            "text": "What is the function of the centrioles in animal cells?",
+            "answers": {
+              "a": "Converts light energy into chemical energy",
+              "b": "Controls the movement of substances in and out of the cell",
+              "c": "Helps in cell division and the formation of the spindle apparatus",
+              "d": "Synthesizes lipids and steroids"
+            },
+            "correct": "c",
+            "answer_text": "Helps in cell division and the formation of the spindle apparatus",
+            "reason": "Centrioles play a role in cell division and the organization of the spindle apparatus."
+          },
+          {
+            "text": "Which organelle is responsible for the synthesis and modification of proteins?",
+            "answers": {
+              "a": "Ribosomes",
+              "b": "Nucleus",
+              "c": "Golgi apparatus",
+              "d": "Endoplasmic reticulum"
+            },
+            "correct": "d",
+            "answer_text": "Endoplasmic reticulum",
+            "reason": "The endoplasmic reticulum is responsible for the synthesis and modification of proteins."
+          },
+          {
+            "text": "What is the function of the peroxisomes in a cell?",
+            "answers": {
+              "a": "Breaks down waste materials and cellular debris",
+              "b": "Produces ATP for cellular energy",
+              "c": "Converts light energy into chemical energy",
+              "d": "Detoxifies harmful substances"
+            },
+            "correct": "d",
+            "answer_text": "Detoxifies harmful substances",
+            "reason": "Peroxisomes are involved in detoxifying harmful substances."
+          },
+          {
+            "text": "Which organelle is responsible for the synthesis of ribosomes?",
+            "answers": {
+              "a": "Mitochondria",
+              "b": "Nucleus",
+              "c": "Chloroplasts",
+              "d": "Nucleolus"
+            },
+            "correct": "d",
+            "answer_text": "Nucleolus",
+            "reason": "The nucleolus is responsible for the synthesis of ribosomes."
+          },
+          {
+            "text": "What is the function of the cilia and flagella in cells?",
+            "answers": {
+              "a": "Synthesis of proteins",
+              "b": "Storage of genetic material",
+              "c": "Facilitates intracellular transport",
+              "d": "Cell movement and locomotion"
+            },
+            "correct": "d",
+            "answer_text": "Cell movement and locomotion",
+            "reason": "Cilia and flagella are involved in cell movement and locomotion."
+          },
+          {
+            "text": "Which statement best describes the function of the cell nucleus?",
+            "answers": {
+              "a": "Breaks down waste materials and cellular debris",
+              "b": "Stores water, nutrients, and waste materials",
+              "c": "Contains genetic material and controls cell activities",
+              "d": "Synthesizes proteins and lipids"
+            },
+            "correct": "c",
+            "answer_text": "Contains genetic material and controls cell activities",
+            "reason": "The cell nucleus contains DNA and regulates cell activities."
+          },
+          {
+            "text": "Which organelle is responsible for maintaining osmotic balance and storing water in plant cells?",
+            "answers": {
+              "a": "Mitochondria",
+              "b": "Chloroplasts",
+              "c": "Vacuoles",
+              "d": "Endoplasmic reticulum"
+            },
+            "correct": "c",
+            "answer_text": "Vacuoles",
+            "reason": "Vacuoles maintain osmotic balance and store water in plant cells."
+          },
+          {
+            "text": "What is the function of the cell membrane in a cell?",
+            "answers": {
+              "a": "Provides support and protection to the cell",
+              "b": "Controls the movement of substances in and out of the cell",
+              "c": "Modifies, sorts, and packages proteins for transport",
+              "d": "Breaks down old cell parts and foreign substances"
+            },
+            "correct": "b",
+            "answer_text": "Controls the movement of substances in and out of the cell",
+            "reason": "The cell membrane regulates the movement of substances in and out of the cell."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Bio Test #2",
+    "subject": "Sciences",
+    "exam": "GED",
+    "topic": [
+      "Biology"
+    ],
+    "sub_topic": [],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 0,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "Which scientist is credited with developing the cell theory?",
+            "answers": {
+              "a": "Louis Pasteur",
+              "b": "Robert Hooke",
+              "c": "Anton van Leeuwenhoek",
+              "d": "Rudolf Virchow"
+            },
+            "correct": "d",
+            "answer_text": "Rudolf Virchow",
+            "reason": "Rudolf Virchow is credited with developing the cell theory. He proposed that cells arise from pre-existing cells, supporting the principle of cell division."
+          },
+          {
+            "text": "Which of the following is NOT part of the cell theory?",
+            "answers": {
+              "a": "Cells are the basic unit of life.",
+              "b": "All living organisms are composed of cells.",
+              "c": "Cells can only arise from pre-existing cells.",
+              "d": "All cells contain a nucleus."
+            },
+            "correct": "d",
+            "answer_text": "All cells contain a nucleus.",
+            "reason": "The cell theory states that all living organisms are composed of cells, cells are the basic unit of life, and cells can only arise from pre-existing cells. The presence of a nucleus is not a requirement for a cell to be considered part of the cell theory."
+          },
+          {
+            "text": "What is the main function of the cell membrane?",
+            "answers": {
+              "a": "It provides structural support to the cell.",
+              "b": "It controls the movement of substances into and out of the cell.",
+              "c": "It synthesizes proteins.",
+              "d": "It stores genetic information."
+            },
+            "correct": "b",
+            "answer_text": "It controls the movement of substances into and out of the cell.",
+            "reason": "The main function of the cell membrane is to regulate the movement of substances into and out of the cell. It acts as a selectively permeable barrier, allowing certain substances to pass while restricting others."
+          },
+          {
+            "text": "Which organelle is responsible for protein synthesis?",
+            "answers": {
+              "a": "Endoplasmic reticulum",
+              "b": "Mitochondria",
+              "c": "Golgi apparatus",
+              "d": "Nucleus"
+            },
+            "correct": "a",
+            "answer_text": "Endoplasmic reticulum",
+            "reason": "The endoplasmic reticulum (ER) is responsible for protein synthesis in the cell. It plays a crucial role in the synthesis, folding, and transport of proteins within the cell."
+          },
+          {
+            "text": "Which of the following organelles is found only in plant cells?",
+            "answers": {
+              "a": "Lysosomes",
+              "b": "Vacuoles",
+              "c": "Centrioles",
+              "d": "Peroxisomes"
+            },
+            "correct": "b",
+            "answer_text": "Vacuoles",
+            "reason": "Vacuoles are organelles found in both plant and animal cells, but they are larger and more prominent in plant cells. They are responsible for storing water, nutrients, and waste materials in plant cells."
+          },
+          {
+            "text": "The powerhouse of the cell is the:",
+            "answers": {
+              "a": "Lysosome",
+              "b": "Mitochondria",
+              "c": "Nucleus",
+              "d": "Golgi apparatus"
+            },
+            "correct": "b",
+            "answer_text": "Mitochondria",
+            "reason": "Mitochondria are often referred to as the powerhouse of the cell because they are responsible for generating energy in the form of ATP through cellular respiration."
+          },
+          {
+            "text": "Which organelle is responsible for breaking down waste materials and cellular debris?",
+            "answers": {
+              "a": "Nucleus",
+              "b": "Ribosome",
+              "c": "Lysosome",
+              "d": "Endoplasmic reticulum"
+            },
+            "correct": "c",
+            "answer_text": "Lysosome",
+            "reason": "Lysosomes are organelles involved in intracellular digestion. They contain digestive enzymes that break down waste materials and cellular debris."
+          },
+          {
+            "text": "Which organelle is involved in the synthesis of lipids and detoxification of harmful substances?",
+            "answers": {
+              "a": "Mitochondria",
+              "b": "Golgi apparatus",
+              "c": "Endoplasmic reticulum",
+              "d": "Vacuole"
+            },
+            "correct": "c",
+            "answer_text": "Endoplasmic reticulum",
+            "reason": "The endoplasmic reticulum (ER) is involved in the synthesis of lipids and the detoxification of harmful substances in the cell. It also plays a role in the transport of synthesized lipids."
+          },
+          {
+            "text": "Which of the following is a function of the Golgi apparatus?",
+            "answers": {
+              "a": "Storage of genetic information",
+              "b": "Protein synthesis",
+              "c": "Modifying, sorting, and packaging of proteins",
+              "d": "Energy production"
+            },
+            "correct": "c",
+            "answer_text": "Modifying, sorting, and packaging of proteins",
+            "reason": "The Golgi apparatus is responsible for modifying, sorting, and packaging proteins before they are transported to their final destinations within or outside the cell."
+          },
+          {
+            "text": "Which statement about plant cells is correct?",
+            "answers": {
+              "a": "Plant cells lack a cell membrane.",
+              "b": "Plant cells have a rigid cell wall composed of cellulose.",
+              "c": "Plant cells have a small central vacuole.",
+              "d": "Plant cells do not contain mitochondria."
+            },
+            "correct": "b",
+            "answer_text": "Plant cells have a rigid cell wall composed of cellulose.",
+            "reason": "Plant cells have a rigid cell wall composed of cellulose, which provides structural support and protection to the cell. This is a characteristic feature that distinguishes plant cells from animal cells."
+          },
+          {
+            "text": "The control center of the cell is the:",
+            "answers": {
+              "a": "Endoplasmic reticulum",
+              "b": "Golgi apparatus",
+              "c": "Nucleus",
+              "d": "Vacuole"
+            },
+            "correct": "c",
+            "answer_text": "Nucleus",
+            "reason": "The nucleus is the control center of the cell. It contains the cell's genetic material, DNA, which regulates the cell's activities and coordinates cellular functions."
+          },
+          {
+            "text": "Which of the following is NOT found in animal cells?",
+            "answers": {
+              "a": "Nucleus",
+              "b": "Centrioles",
+              "c": "Chloroplasts",
+              "d": "Ribosomes"
+            },
+            "correct": "c",
+            "answer_text": "Chloroplasts",
+            "reason": "Chloroplasts are organelles found only in plant cells. They are responsible for converting light energy into chemical energy through the process of photosynthesis."
+          },
+          {
+            "text": "The organelle responsible for converting light energy into chemical energy through photosynthesis is the:",
+            "answers": {
+              "a": "Mitochondria",
+              "b": "Nucleus",
+              "c": "Lysosome",
+              "d": "Chloroplast"
+            },
+            "correct": "d",
+            "answer_text": "Chloroplast",
+            "reason": "Chloroplasts are the organelles responsible for converting light energy into chemical energy through photosynthesis. They contain chlorophyll, a pigment that captures sunlight and drives the synthesis of glucose."
+          },
+          {
+            "text": "Which organelle contains the cell's genetic material?",
+            "answers": {
+              "a": "Endoplasmic reticulum",
+              "b": "Nucleus",
+              "c": "Ribosome",
+              "d": "Vacuole"
+            },
+            "correct": "b",
+            "answer_text": "Nucleus",
+            "reason": "The nucleus is an organelle that contains the cell's genetic material, DNA. It serves as the control center of the cell, regulating gene expression and coordinating cellular activities."
+          },
+          {
+            "text": "Which of the following organelles is responsible for producing energy in the form of ATP?",
+            "answers": {
+              "a": "Endoplasmic reticulum",
+              "b": "Nucleus",
+              "c": "Ribosome",
+              "d": "Mitochondria"
+            },
+            "correct": "d",
+            "answer_text": "Mitochondria",
+            "reason": "Mitochondria are organelles responsible for producing energy in the form of ATP through cellular respiration. They are often referred to as the \"powerhouses\" of the cell."
+          },
+          {
+            "text": "Which organelle is responsible for the synthesis and packaging of proteins in the cell?",
+            "answers": {
+              "b": "Nucleus",
+              "c": "Golgi apparatus",
+              "d": "Vacuole"
+            },
+            "correct": "c",
+            "answer_text": "Golgi apparatus",
+            "reason": "The Golgi apparatus is involved in the synthesis and packaging of proteins in the cell. It receives proteins from the endoplasmic reticulum, modifies them, and packages them into ves"
+          },
+          {
+            "text": "Which organelle is responsible for the production of ribosomes?",
+            "answers": {
+              "a": "Endoplasmic reticulum",
+              "b": "Nucleus",
+              "c": "Lysosome",
+              "d": "Nucleolus"
+            },
+            "correct": "d",
+            "answer_text": "Nucleolus",
+            "reason": "The nucleolus is an organelle within the nucleus that is responsible for the production of ribosomes. It assembles ribosomal subunits before they are transported to the cytoplasm."
+          },
+          {
+            "text": "Which of the following is a function of the cell wall?",
+            "answers": {
+              "a": "Regulates the movement of substances into and out of the cell",
+              "b": "Provides structural support and protection to the cell",
+              "c": "Synthesizes proteins",
+              "d": "Stores genetic information"
+            },
+            "correct": "b",
+            "answer_text": "Provides structural support and protection to the cell",
+            "reason": "The cell wall is a rigid structure found in plant cells that provides structural support and protection to the cell. It helps maintain the shape of the cell and protects it from external stresses."
+          },
+          {
+            "text": "The fluid-filled sac found in plant cells that stores water, nutrients, and waste materials is called a:",
+            "answers": {
+              "a": "Nucleus",
+              "b": "Vacuole",
+              "c": "Lysosome",
+              "d": "Endoplasmic reticulum"
+            },
+            "correct": "b",
+            "answer_text": "Vacuole",
+            "reason": "Vacuoles are fluid-filled sacs found in plant cells that store water, nutrients, and waste materials. They play a role in maintaining turgor pressure and regulating cell volume."
+          },
+          {
+            "text": "Which organelle is responsible for the production of ATP through cellular respiration?",
+            "answers": {
+              "a": "Endoplasmic reticulum",
+              "b": "Nucleus",
+              "c": "Ribosome",
+              "d": "Mitochondria"
+            },
+            "correct": "d",
+            "answer_text": "Mitochondria",
+            "reason": "Mitochondria are responsible for the production of ATP through cellular respiration. They generate energy by breaking down glucose and other organic molecules."
+          },
+          {
+            "text": "Which of the following organelles is responsible for detoxifying harmful substances in the cell?",
+            "answers": {
+              "a": "Lysosome",
+              "b": "Nucleus",
+              "c": "Peroxisome",
+              "d": "Vacuole"
+            },
+            "correct": "c",
+            "answer_text": "Peroxisome",
+            "reason": "Peroxisomes are organelles responsible for detoxifying harmful substances in the cell. They contain enzymes that break down toxic compounds, such as hydrogen peroxide."
+          },
+          {
+            "text": "The organelle that contains the DNA and controls the cell's activities is the:",
+            "answers": {
+              "a": "Golgi apparatus",
+              "b": "Nucleus",
+              "c": "Endoplasmic reticulum",
+              "d": "Lysosome"
+            },
+            "correct": "b",
+            "answer_text": "Nucleus",
+            "reason": "The nucleus is an organelle that contains the cell's DNA and controls the cell's activities. It regulates gene expression, DNA replication, and cell division."
+          },
+          {
+            "text": "Which organelle is responsible for the synthesis and transport of lipids?",
+            "answers": {
+              "a": "Mitochondria",
+              "b": "Golgi apparatus",
+              "c": "Endoplasmic reticulum",
+              "d": "Vacuole"
+            },
+            "correct": "c",
+            "answer_text": "Endoplasmic reticulum",
+            "reason": "The endoplasmic reticulum (ER) is responsible for the synthesis and transport of lipids. It plays a role in lipid metabolism, including the synthesis of phospholipids and steroid hormones."
+          },
+          {
+            "text": "Which of the following organelles is responsible for producing and assembling ribosomes?",
+            "answers": {
+              "a": "Nucleus",
+              "b": "Endoplasmic reticulum",
+              "c": "Lysosome",
+              "d": "Nucleolus"
+            },
+            "correct": "d",
+            "answer_text": "Nucleolus",
+            "reason": "The nucleolus is responsible for producing and assembling ribosomes within the nucleus. It plays a crucial role in protein synthesis."
+          },
+          {
+            "text": "The organelle that helps in cell division and is only found in animal cells is the:",
+            "answers": {
+              "a": "Lysosome",
+              "b": "Centriole",
+              "c": "Chloroplast",
+              "d": "Vacuole"
+            },
+            "correct": "b",
+            "answer_text": "Centriole",
+            "reason": "Centrioles are organelles found only in animal cells. They play a key role in cell division, specifically in the organization of spindle fibers during mitosis and meiosis."
+          },
+          {
+            "text": "Which organelle is responsible for storing and releasing energy in the form of ATP?",
+            "answers": {
+              "a": "Nucleus",
+              "b": "Mitochondria",
+              "c": "Golgi apparatus",
+              "d": "Ribosome"
+            },
+            "correct": "b",
+            "answer_text": "Mitochondria",
+            "reason": "Mitochondria are responsible for storing and releasing energy in the form of ATP. They are involved in cellular respiration, which is the process of converting energy from nutrients into ATP."
+          },
+          {
+            "text": "The process by which cells capture energy from the sun and convert it into chemical energy is called:",
+            "answers": {
+              "a": "Mitosis",
+              "b": "Osmosis",
+              "c": "Photosynthesis",
+              "d": "Respiration"
+            },
+            "correct": "c",
+            "answer_text": "Photosynthesis",
+            "reason": "Photosynthesis is the process by which cells capture energy from the sun and convert it into chemical energy, specifically glucose. It occurs in chloroplasts in plant cells."
+          },
+          {
+            "text": "Which organelle is responsible for breaking down complex molecules into simpler ones in order to release energy?",
+            "answers": {
+              "a": "Nucleus",
+              "b": "Ribosome",
+              "c": "Lysosome",
+              "d": "Chloroplast"
+            },
+            "correct": "c",
+            "answer_text": "Lysosome",
+            "reason": "Lysosomes are organelles involved in intracellular digestion. They contain digestive enzymes that break down complex molecules into simpler ones, releasing energy in the process."
+          },
+          {
+            "text": "Which of the following organelles is responsible for regulating the movement of substances into and out of the cell?",
+            "answers": {
+              "a": "Nucleus",
+              "b": "Cell membrane",
+              "c": "Golgi apparatus",
+              "d": "Ribosome"
+            },
+            "correct": "b",
+            "answer_text": "Cell membrane",
+            "reason": "The cell membrane, also known as the plasma membrane, regulates the movement of substances into and out of the cell. It maintains homeostasis by selectively allowing the passage of certain molecules."
+          },
+          {
+            "text": "Which organelle is responsible for the synthesis of proteins in the cell?",
+            "answers": {
+              "a": "Nucleus",
+              "b": "Endoplasmic reticulum",
+              "c": "Mitochondria",
+              "d": "Vacuole"
+            },
+            "correct": "b",
+            "answer_text": "Endoplasmic reticulum",
+            "reason": "The endoplasmic reticulum (ER) is responsible for the synthesis of proteins in the cell. It plays a crucial role in protein synthesis, folding, and transport."
+          },
+          {
+            "text": "The organelle that helps maintain cell shape and provides mechanical support is the:",
+            "answers": {
+              "a": "Endoplasmic reticulum",
+              "b": "Cell membrane",
+              "c": "Golgi apparatus",
+              "d": "Cyt"
+            },
+            "correct": "d",
+            "answer_text": "Cytoskeleton",
+            "reason": "The cytoskeleton helps maintain cell shape and provides mechanical support to the cell. It is composed of protein filaments and plays a role in cell movement and intracellular transport."
+          },
+          {
+            "text": "Which of the following is NOT a function of the cytoskeleton?",
+            "answers": {
+              "a": "Providing structural support to the cell",
+              "b": "Facilitating cell division",
+              "c": "Aiding in intracellular transport",
+              "d": "Synthesizing proteins"
+            },
+            "correct": "d",
+            "answer_text": "Synthesizing proteins",
+            "reason": "Synthesizing proteins is not a function of the cytoskeleton. The cytoskeleton is primarily involved in providing structural support, facilitating cell division, and aiding in intracellular transport."
+          },
+          {
+            "text": "Which organelle is responsible for detoxifying harmful substances in the liver cells?",
+            "answers": {
+              "a": "Nucleus",
+              "b": "Peroxisome",
+              "c": "Endoplasmic reticulum",
+              "d": "Vacuole"
+            },
+            "correct": "b",
+            "answer_text": "Peroxisome",
+            "reason": "Peroxisomes are organelles responsible for detoxifying harmful substances, particularly in liver cells. They break down fatty acids and detoxify"
+          },
+          {
+            "text": "The organelle responsible for the synthesis of RNA and assembly of ribosomes is the:",
+            "answers": {
+              "a": "Nucleus",
+              "b": "Golgi apparatus",
+              "c": "Lysosome",
+              "d": "Nucleolus"
+            },
+            "correct": "b",
+            "answer_text": "Ribosomes",
+            "reason": "Ribosomes are responsible for protein synthesis in the cell. They translate the genetic information from mRNA into proteins by linking amino acids together."
+          },
+          {
+            "text": "Which of the following organelles is responsible for the breakdown of fatty acids and the detoxification of alcohol in liver cells?",
+            "answers": {
+              "a": "Nucleus",
+              "b": "Ribosome",
+              "c": "Peroxisome",
+              "d": "Chloroplast"
+            },
+            "correct": "c",
+            "answer_text": "Cell wall",
+            "reason": "The cell wall is a rigid structure found in plant cells, fungi, and some bacteria. It provides structural support, protection, and helps maintain the shape of the cell."
+          },
+          {
+            "text": "The organelle that contains digestive enzymes and is involved in intracellular digestion is the:",
+            "answers": {
+              "a": "Endoplasmic reticulum",
+              "b": "Nucleus",
+              "c": "Lysosome",
+              "d": "Vacuole"
+            },
+            "correct": "a",
+            "answer_text": "Nucleus",
+            "reason": "The nucleus is the organelle that contains the cell's genetic material, DNA. It controls the cell's activities by regulating gene expression and coordinating cellular functions."
+          },
+          {
+            "text": "Which organelle is responsible for producing and transporting proteins within the cell?",
+            "answers": {
+              "a": "Golgi apparatus",
+              "b": "Nucleus",
+              "c": "Mitochondria",
+              "d": "Lysosome"
+            },
+            "correct": "a",
+            "answer_text": "Ribosomes",
+            "reason": "Ribosomes are responsible for protein synthesis in the cell. They are composed of RNA and protein and can be found in the cytoplasm or attached to the endoplasmic reticulum."
+          },
+          {
+            "text": "Which of the following is a function of the ribosomes?",
+            "answers": {
+              "a": "Energy production",
+              "b": "Synthesis of proteins",
+              "c": "Storage of genetic information",
+              "d": "Breakdown of waste materials"
+            },
+            "correct": "c",
+            "answer_text": "Nucleus",
+            "reason": "The nucleus is the control center of the cell. It contains the cell's DNA and is responsible for regulating gene expression and coordinating cellular activities."
+          },
+          {
+            "text": "The organelle responsible for the synthesis of phospholipids and steroid hormones is the:",
+            "answers": {
+              "a": "Nucleus",
+              "b": "Endoplasmic reticulum",
+              "c": "Golgi apparatus",
+              "d": "Vacuole"
+            },
+            "correct": "a",
+            "answer_text": "Chloroplasts",
+            "reason": "Chloroplasts are organelles found in plant cells that are responsible for photosynthesis. They contain chlorophyll and other pigments that capture sunlight and convert it into chemical energy."
+          },
+          {
+            "text": "Which organelle is responsible for maintaining water balance in plant cells?",
+            "answers": {
+              "a": "Nucleus",
+              "b": "Chloroplast",
+              "c": "Cell membrane",
+              "d": "Vacuole"
+            },
+            "correct": "b",
+            "answer_text": "Controls the movement of substances in and out of the cell",
+            "reason": "The cell membrane regulates the movement of substances in and out of the cell. It is selectively permeable, allowing certain molecules to pass through while restricting others."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Bio Test #3",
+    "subject": "Sciences",
+    "exam": "GED",
+    "topic": [
+      "Biology"
+    ],
+    "sub_topic": [],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 0,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "Which scientist is credited with developing the cell theory?",
+            "answers": {
+              "a": "Louis Pasteur",
+              "b": "Robert Hooke",
+              "c": "Anton van Leeuwenhoek",
+              "d": "Rudolf Virchow"
+            },
+            "correct": "b",
+            "answer_text": "Robert Hooke",
+            "reason": "Robert Hooke is credited with developing the cell theory."
+          },
+          {
+            "text": "Which of the following is not a part of the cell theory?",
+            "answers": {
+              "a": "All living organisms are made up of cells.",
+              "b": "Cells are the basic units of structure and function in living organisms.",
+              "c": "Cells arise spontaneously from non-living matter.",
+              "d": "Cells come from pre-existing cells."
+            },
+            "correct": "c",
+            "answer_text": "Cells arise spontaneously from non-living matter.",
+            "reason": "This statement is not a part of the cell theory. The cell theory states that all living organisms are made up of cells, cells are the basic units of structure and function in living organisms, and cells come from pre-existing cells."
+          },
+          {
+            "text": "Which organelle is responsible for the synthesis of proteins in a cell?",
+            "answers": {
+              "a": "Mitochondria",
+              "b": "Nucleus",
+              "c": "Ribosomes",
+              "d": "Golgi apparatus"
+            },
+            "correct": "c",
+            "answer_text": "Ribosomes",
+            "reason": "Ribosomes are responsible for protein synthesis in a cell."
+          },
+          {
+            "text": "Which organelle is known as the \"powerhouse\" of the cell and produces energy?",
+            "answers": {
+              "a": "Lysosomes",
+              "b": "Chloroplasts",
+              "c": "Mitochondria",
+              "d": "Endoplasmic reticulum"
+            },
+            "correct": "c",
+            "answer_text": "Mitochondria",
+            "reason": "Mitochondria are known as the \"powerhouse\" of the cell and produce energy in the form of ATP through cellular respiration."
+          },
+          {
+            "text": "Which organelle is responsible for storing and maintaining genetic information in a eukaryotic cell?",
+            "answers": {
+              "a": "Vacuole",
+              "b": "Nucleus",
+              "c": "Cell membrane",
+              "d": "Golgi apparatus"
+            },
+            "correct": "b",
+            "answer_text": "Nucleus",
+            "reason": "The nucleus is responsible for storing and maintaining genetic information in a eukaryotic cell."
+          },
+          {
+            "text": "In plant cells, which organelle is responsible for capturing sunlight and carrying out photosynthesis?",
+            "answers": {
+              "a": "Mitochondria",
+              "b": "Chloroplasts",
+              "c": "Endoplasmic reticulum",
+              "d": "Nucleus"
+            },
+            "correct": "b",
+            "answer_text": "Chloroplasts",
+            "reason": "Chloroplasts are responsible for capturing sunlight and carrying out photosynthesis in plant cells."
+          },
+          {
+            "text": "Which organelle is responsible for detoxifying harmful substances in the cell?",
+            "answers": {
+              "a": "Lysosomes",
+              "b": "Peroxisomes",
+              "c": "Golgi apparatus",
+              "d": "Ribosomes"
+            },
+            "correct": "b",
+            "answer_text": "Peroxisomes",
+            "reason": "Peroxisomes are responsible for detoxifying harmful substances in the cell."
+          },
+          {
+            "text": "Which of the following is not a function of the cell membrane?",
+            "answers": {
+              "a": "Regulating the passage of substances into and out of the cell",
+              "b": "Providing structural support to the cell",
+              "c": "Facilitating cell-cell communication",
+              "d": "Controlling the movement of organelles within the cell"
+            },
+            "correct": "b",
+            "answer_text": "Providing structural support to the cell",
+            "reason": "Structural support to the cell is primarily provided by the cell wall, not the cell membrane."
+          },
+          {
+            "text": "Which of the following is a characteristic of animal cells but not plant cells?",
+            "answers": {
+              "a": "Cell wall",
+              "b": "Chloroplasts",
+              "c": "Vacuoles",
+              "d": "Centrioles"
+            },
+            "correct": "d",
+            "answer_text": "Centrioles",
+            "reason": "Centrioles are a characteristic of animal cells and are involved in cell division, but they are not present in plant cells."
+          },
+          {
+            "text": "Which statement accurately describes the process of mitosis?",
+            "answers": {
+              "a": "Mitosis results in the formation of four daughter cells with half the number of chromosomes.",
+              "b": "Mitosis is a type of cell division that occurs only in prokaryotic cells.",
+              "c": "Mitosis produces genetically identical daughter cells with the same number of chromosomes as the parent cell.",
+              "d": "Mitosis is the process by which gametes are formed."
+            },
+            "correct": "c",
+            "answer_text": "Mitosis produces genetically identical daughter cells with the same number of chromosomes as the parent cell.",
+            "reason": "This statement accurately describes the process of mitosis."
+          },
+          {
+            "text": "Which of the following is the correct sequence of events during mitosis?",
+            "answers": {
+              "a": "Prophase, metaphase, anaphase, telophase",
+              "b": "Telophase, anaphase, metaphase, prophase",
+              "c": "Metaphase, prophase, anaphase, telophase",
+              "d": "Anaphase, prophase, metaphase, telophase"
+            },
+            "correct": "a",
+            "answer_text": "Prophase, metaphase, anaphase, telophase",
+            "reason": "This is the correct sequence of events during mitosis."
+          },
+          {
+            "text": "What is the purpose of meiosis?",
+            "answers": {
+              "a": "To produce genetically identical cells for growth and repair.",
+              "b": "To produce gametes for sexual reproduction.",
+              "c": "To facilitate cell division in plant cells.",
+              "d": "To generate energy for cellular processes."
+            },
+            "correct": "b",
+            "answer_text": "To produce gametes for sexual reproduction.",
+            "reason": "The purpose of meiosis is to produce gametes (sperm and eggs) for sexual reproduction."
+          },
+          {
+            "text": "Which of the following describes a haploid cell?",
+            "answers": {
+              "a": "A cell with two sets of chromosomes.",
+              "b": "A cell with one set of chromosomes.",
+              "c": "A cell with no chromosomes",
+              "d": "A cell with three sets of chromosomes."
+            },
+            "correct": "b",
+            "answer_text": "A cell with one set of chromosomes.",
+            "reason": "A haploid cell contains one set of chromosomes, whereas a diploid cell contains two sets of chromosomes."
+          },
+          {
+            "text": "What is the primary function of the testes in the male reproductive system?",
+            "answers": {
+              "a": "Production of sperm",
+              "b": "Production of estrogen",
+              "c": "Production of eggs",
+              "d": "Production of testosterone"
+            },
+            "correct": "a",
+            "answer_text": "Production of sperm",
+            "reason": "The testes are responsible for the production of sperm in the male reproductive system."
+          },
+          {
+            "text": "Which of the following is responsible for releasing an egg during the menstrual cycle?",
+            "answers": {
+              "a": "Uterus",
+              "b": "Ovary",
+              "c": "Cervix",
+              "d": "Fallopian tube"
+            },
+            "correct": "b",
+            "answer_text": "Ovary",
+            "reason": "The ovary is responsible for releasing an egg during the menstrual cycle."
+          },
+          {
+            "text": "Which structure connects the ovaries to the uterus in the female reproductive system?",
+            "answers": {
+              "a": "Cervix",
+              "b": "Fallopian tube",
+              "c": "Vagina",
+              "d": "Uterus"
+            },
+            "correct": "b",
+            "answer_text": "Fallopian tube",
+            "reason": "The fallopian tube connects the ovaries to the uterus in the female reproductive system."
+          },
+          {
+            "text": "Fertilization of an egg by sperm typically occurs in which part of the female reproductive system?",
+            "answers": {
+              "a": "Uterus",
+              "b": "Ovary",
+              "c": "Cervix",
+              "d": "Fallopian tube"
+            },
+            "correct": "d",
+            "answer_text": "Fallopian tube",
+            "reason": "Fertilization of an egg by sperm typically occurs in the fallopian tube."
+          },
+          {
+            "text": "What is the purpose of the placenta during pregnancy?",
+            "answers": {
+              "a": "To provide nutrients and oxygen to the developing fetus.",
+              "b": "To remove waste products from the developing fetus.",
+              "c": "To produce hormones that maintain pregnancy.",
+              "d": "To protect the developing fetus from external harm."
+            },
+            "correct": "a",
+            "answer_text": "To provide nutrients and oxygen to the developing fetus.",
+            "reason": "The placenta acts as a connection between the mother and the developing fetus, providing nutrients and oxygen to support fetal development."
+          },
+          {
+            "text": "Which of the following best describes asexual reproduction?",
+            "answers": {
+              "a": "Two parents contribute genetic material to produce offspring.",
+              "b": "Offspring are produced through the fusion of gametes.",
+              "c": "Offspring are genetically identical to the parent organism.",
+              "d": "Offspring receive a combination of genetic material from both parents."
+            },
+            "correct": "c",
+            "answer_text": "Offspring are genetically identical to the parent organism.",
+            "reason": "This describes asexual reproduction, where offspring are genetically identical to the parent organism."
+          },
+          {
+            "text": "Which of the following is an example of asexual reproduction in plants?",
+            "answers": {
+              "a": "Fertilization",
+              "b": "Budding",
+              "c": "Pollination",
+              "d": "Meiosis"
+            },
+            "correct": "b",
+            "answer_text": "Budding",
+            "reason": "Budding is an example of asexual reproduction in plants, where a new individual develops as an outgrowth or bud from the parent organism."
+          },
+          {
+            "text": "Which term describes the transfer of pollen from the anther to the stigma in flowering plants?",
+            "answers": {
+              "a": "Pollination",
+              "b": "Fertilization",
+              "c": "Germination",
+              "d": "Photosynthesis"
+            },
+            "correct": "a",
+            "answer_text": "Pollination",
+            "reason": "Pollination is the transfer of pollen from the anther to the stigma in flowering plants."
+          },
+          {
+            "text": "What is the function of the ovule in a flower?",
+            "answers": {
+              "a": "To produce pollen",
+              "b": "To receive pollen",
+              "c": "To produce eggs",
+              "d": "To attract pollinators"
+            },
+            "correct": "c",
+            "answer_text": "To produce eggs",
+            "reason": "The ovule in a flower is responsible for producing eggs (female gametes)."
+          },
+          {
+            "text": "Which of the following is the correct sequence of stages in the cell cycle?",
+            "answers": {
+              "a": "Interphase, prophase, metaphase, anaphase, telophase",
+              "b": "Prophase, metaphase, anaphase, telophase, interphase",
+              "c": "Interphase, prophase, anaphase, metaphase, telophase",
+              "d": "Interphase, prophase, metaphase, telophase, anaphase"
+            },
+            "correct": "d",
+            "answer_text": "Interphase, prophase, metaphase, telophase, anaphase",
+            "reason": "This is the correct sequence of stages in the cell cycle."
+          },
+          {
+            "text": "Which of the following is a characteristic of a prokaryotic cell?",
+            "answers": {
+              "a": "Presence of a nucleus",
+              "b": "Membrane-bound organelles",
+              "c": "Large size",
+              "d": "Circular DNA"
+            },
+            "correct": "d",
+            "answer_text": "Circular DNA",
+            "reason": "Prokaryotic cells have circular DNA, whereas eukaryotic cells have linear DNA organized into chromosomes."
+          },
+          {
+            "text": "Which of the following best describes the function of the Golgi apparatus?",
+            "answers": {
+              "a": "Protein synthesis",
+              "b": "Cellular respiration",
+              "c": "Lipid synthesis",
+              "d": "Modification and packaging of proteins"
+            },
+            "correct": "d",
+            "answer_text": "Modification and packaging of proteins",
+            "reason": "The Golgi"
+          },
+          {
+            "text": "Which organelle is responsible for breaking down and recycling cellular waste?",
+            "answers": {
+              "a": "Mitochondria",
+              "b": "Endoplasmic reticulum",
+              "c": "Lysosomes",
+              "d": "Nucleus"
+            },
+            "correct": "c",
+            "answer_text": "Lysosomes",
+            "reason": "Lysosomes are responsible for breaking down and recycling cellular waste and debris."
+          },
+          {
+            "text": "Which of the following is responsible for the production of ribosomes in a cell?",
+            "answers": {
+              "a": "Nucleus",
+              "b": "Endoplasmic reticulum",
+              "c": "Golgi apparatus",
+              "d": "Nucleolus"
+            },
+            "correct": "d",
+            "answer_text": "Nucleolus",
+            "reason": "The nucleolus is responsible for the production of ribosomes in a cell."
+          },
+          {
+            "text": "Which of the following is an example of passive transport?",
+            "answers": {
+              "a": "Active transport",
+              "b": "Facilitated diffusion",
+              "c": "Exocytosis",
+              "d": "Phagocytosis"
+            },
+            "correct": "b",
+            "answer_text": "Facilitated diffusion",
+            "reason": "Facilitated diffusion is an example of passive transport, where molecules move across the cell membrane with the help of transport proteins but without the input of energy."
+          },
+          {
+            "text": "Which of the following best describes the process of photosynthesis?",
+            "answers": {
+              "a": "Conversion of light energy into chemical energy",
+              "b": "Breakdown of glucose to release energy",
+              "c": "Synthesis of proteins from amino acids",
+              "d": "Replication of DNA"
+            },
+            "correct": "a",
+            "answer_text": "Conversion of light energy into chemical energy",
+            "reason": "Photosynthesis is the process by which plants and some other organisms convert light energy into chemical energy (glucose) using chlorophyll and other pigments."
+          },
+          {
+            "text": "Which of the following is a characteristic of eukaryotic cells but not prokaryotic cells?",
+            "answers": {
+              "a": "Membrane-bound organelles",
+              "b": "Cell wall",
+              "c": "Circular DNA",
+              "d": "Nucleoid region"
+            },
+            "correct": "a",
+            "answer_text": "Membrane-bound organelles",
+            "reason": "Eukaryotic cells have membrane-bound organelles, while prokaryotic cells do not."
+          },
+          {
+            "text": "Which of the following is a function of the cell wall in plant cells?",
+            "answers": {
+              "a": "Regulation of nutrient exchange",
+              "b": "Protection and support",
+              "c": "Synthesis of proteins",
+              "d": "Storage of genetic material"
+            },
+            "correct": "b",
+            "answer_text": "Protection and support",
+            "reason": "The cell wall in plant cells provides protection and structural support to the cell."
+          },
+          {
+            "text": "Which of the following is responsible for the conversion of glucose into ATP in cellular respiration?",
+            "answers": {
+              "a": "Mitochondria",
+              "b": "Chloroplasts",
+              "c": "Nucleus",
+              "d": "Golgi apparatus"
+            },
+            "correct": "a",
+            "answer_text": "Mitochondria",
+            "reason": "Mitochondria are responsible for the conversion of glucose into ATP (adenosine triphosphate) through cellular respiration."
+          },
+          {
+            "text": "Which of the following is responsible for the storage of water, nutrients, and waste materials in plant cells?",
+            "answers": {
+              "a": "Nucleus",
+              "b": "Mitochondria",
+              "c": "Vacuole",
+              "d": "Ribosomes"
+            },
+            "correct": "c",
+            "answer_text": "Vacuole",
+            "reason": "The vacuole in plant cells is responsible for the storage of water, nutrients, and waste materials."
+          },
+          {
+            "text": "Which of the following is a product of cellular respiration?",
+            "answers": {
+              "a": "Oxygen",
+              "b": "Glucose",
+              "c": "Carbon dioxide",
+              "d": "Chlorophyll"
+            },
+            "correct": "c",
+            "answer_text": "Carbon dioxide",
+            "reason": "Carbon dioxide is a product of cellular respiration."
+          },
+          {
+            "text": "Which type of cellular transport requires the input of energy?",
+            "answers": {
+              "a": "Diffusion",
+              "b": "Osmosis",
+              "c": "Active transport",
+              "d": "Facilitated diffusion"
+            },
+            "correct": "c",
+            "answer_text": "Active transport",
+            "reason": "Active transport requires the input of energy to move molecules against their concentration gradient."
+          },
+          {
+            "text": "Which of the following best describes the relationship between photosynthesis and cellular respiration?",
+            "answers": {
+              "a": "Photosynthesis releases oxygen, while cellular respiration releases carbon dioxide.",
+              "b": "Photosynthesis and cellular respiration are independent processes that do not affect each other.",
+              "c": "Photosynthesis produces glucose, while cellular respiration uses glucose to produce energy.",
+              "d": "Photosynthesis and cellular respiration are the same processes occurring in different cell types."
+            },
+            "correct": "c",
+            "answer_text": "Photosynthesis produces glucose, while cellular respiration uses glucose to produce energy.",
+            "reason": "Photosynthesis and cellular respiration are interconnected processes. Photosynthesis produces glucose using light energy, and cellular respiration uses glucose to produce ATP, releasing carbon dioxide as a byproduct."
+          },
+          {
+            "text": "Which of the following is a characteristic of sexual reproduction?",
+            "answers": {
+              "a": "Production of genetically identical offspring",
+              "b": "Involvement of a single parent",
+              "c": "Fusion of gametes",
+              "d": "Rapid production of offspring"
+            },
+            "correct": "c",
+            "answer_text": "Fusion of gametes",
+            "reason": "Sexual reproduction involves the fusion of gametes (sperm and eggs) from two parents to produce genetically diverse offspring."
+          },
+          {
+            "text": "Which of the following is responsible for the transmission of genetic information from parents to offspring?",
+            "answers": {
+              "a": "DNA",
+              "b": "RNA",
+              "c": "Proteins",
+              "d": "Enzymes"
+            },
+            "correct": "a",
+            "answer_text": "DNA",
+            "reason": "DNA carries and transmits genetic information from parents to offspring."
+          },
+          {
+            "text": "Which of the following best describes the function of enzymes in cells?",
+            "answers": {
+              "a": "Energy production",
+              "b": "Transport of materials",
+              "c": "Regulation of gene expression",
+              "d": "Facilitation of chemical reactions"
+            },
+            "correct": "d",
+            "answer_text": "Facilitation of chemical reactions",
+            "reason": "Enzymes in cells facilitate and speed up chemical reactions without being consumed in the process."
+          },
+          {
+            "text": "Which of the following best describes the role of DNA in the cell?",
+            "answers": {
+              "a": "Storage of genetic information",
+              "b": "Production of energy",
+              "c": "Regulation of cell division",
+              "d": "Synthesis of proteins"
+            },
+            "correct": "a",
+            "answer_text": "Storage of genetic information",
+            "reason": "DNA stores and carries the genetic information necessary for the synthesis of proteins and the functioning of cells."
+          }
+        ]
+      }
+    ]
   }
 ]
