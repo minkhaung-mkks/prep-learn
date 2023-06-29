@@ -13,8 +13,8 @@ const PraticePage = ({ params }) => {
     const [showScore, setShowScore] = useState(false);
     const [score, setScore] = useState(null);
     const [totalScore, setTotalScore] = useState(null);
-    console.log(params.id)
     const quizId = parseInt(params.id);
+    const mode = params.mode
 
     useEffect(() => {
         const retriveData = async () => {
@@ -132,24 +132,34 @@ const PraticePage = ({ params }) => {
     return (
         <main id="web_page">
             <form onSubmit={handleSubmit} className="quiz_box">
-                {quizFetch.current && quiz.sections.map((section, index) => (
-                    <div className='section_box' key={index}>
-                        <h2 className="section_title">
-                            Section {index + 1}
-                        </h2>
-                        <div className="context_box">
-                            {renderWithLineBreaks(section.context)}
+                {mode === "test" ? (
+                    <>
+                        {quizFetch.current && quiz.sections.map((section, index) => (
+                        <div className='section_box' key={index}>
+                            <h2 className="section_title">
+                                Section {index + 1}
+                            </h2>
+                            <div className="context_box">
+                                {renderWithLineBreaks(section.context)}
+                            </div>
+                            {
+                                section.questions.map((question, qIndex) => (
+                                    <QuestionCard key={qIndex} question={question} qIndex={qIndex} index={index} toggleRadio={toggleRadio} answer={answers[index][qIndex]} hasSubmitted={hasSubmitted} />
+                                ))
+                            }
                         </div>
-                        {
-                            section.questions.map((question, qIndex) => (
-                                <QuestionCard key={qIndex} question={question} qIndex={qIndex} index={index} toggleRadio={toggleRadio} answer={answers[index][qIndex]} hasSubmitted={hasSubmitted} />
-                            ))
-                        }
+                        ))}
+                        <div className="submit_btn_box">
+                            <button type="submit" className="submit_btn">Submit</button>
+                        </div>
+                    </>
+                )
+                 : (
+                    <div>
+                        <h1> QUiz Mode</h1>
                     </div>
-                ))}
-                <div className="submit_btn_box">
-                    <button type="submit" className="submit_btn">Submit</button>
-                </div>
+                    )
+                }
             </form>
             {showScore && <h1>Your Score: {score}/{totalScore}</h1>}
         </main>
