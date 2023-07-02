@@ -236,6 +236,9 @@ const PracticeListPage = () => {
                 {quizzes.length > 0 && quizzes.map((quiz, index) => (
                     <InfoCard key={index} quiz={quiz} />
                 ))}
+                {quizzes.length < 0 && (
+                    <h4>No Quiz of such type found</h4>
+                )}
             </div>
         </main>
     )
