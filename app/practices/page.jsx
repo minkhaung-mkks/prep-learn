@@ -18,8 +18,8 @@ const PracticeListPage = () => {
         if (sub_topic !== 'All' && !selectSubTopics.includes(sub_topic)) {
             setSelectedSubTopics((prev) => [...prev, sub_topic])
         }
-        else if(selectedSubTopics.includes(sub_topic)){
-            
+        else if (selectedSubTopics.includes(sub_topic)) {
+
         }
         else {
             setSelectedSubTopics([])
@@ -30,7 +30,7 @@ const PracticeListPage = () => {
         if (topic !== 'All' && !selectedTopics.includes(topic)) {
             setSelectedTopics((prev) => [...prev, topic])
         }
-        else if(selectedTopics.includes(topic)){
+        else if (selectedTopics.includes(topic)) {
 
         }
         else {
@@ -49,26 +49,26 @@ const PracticeListPage = () => {
                 if (selectedSubject !== 'All') {
 
                     temp_data = data.filter(quiz => quiz.subject === selectedSubject);
-                    if(temp_data.length>0){
+                    if (temp_data.length > 0) {
                         data = temp_data
-    
+
                     }
                 }
-                
+
                 // Filter by selected topics if any topic is selected
                 if (selectedTopics.length > 0) {
                     temp_data = data.filter(quiz => quiz.topic.some(topic => selectedTopics.includes(topic)));
                     console.log(temp_data.length)
-                    if(temp_data.length>0){
+                    if (temp_data.length > 0) {
                         data = temp_data
-    
+
                     }
                 }
 
                 // Filter by selected subtopics if any subtopic is selected
                 if (selectedSubTopics.length > 0) {
                     temp_data = data.filter(quiz => quiz.sub_topic.some(subTopic => selectedSubTopics.includes(subTopic)))
-                    if(temp_data.length>0){
+                    if (temp_data.length > 0) {
                         data = temp_data
                     }
                 }
@@ -127,6 +127,9 @@ const PracticeListPage = () => {
                     </button>
                     <button onClick={() => selectTopics('American History')} className={`selector_btn ${selectedTopics.includes('American History') ? "selected_selector_btn" : ""}`}>
                         American History
+                    </button>
+                    <button onClick={() => selectTopics('Famous Speeches')} className={`selector_btn ${selectedTopics.includes('Famous Speeches') ? "selected_selector_btn" : ""}`}>
+                        Famous Speeches
                     </button>
                     <button onClick={() => selectTopics('World History')} className={`selector_btn ${selectedTopics.includes('World History') ? "selected_selector_btn" : ""}`}>
                         World History
@@ -230,10 +233,12 @@ const PracticeListPage = () => {
 
 
             <div className="quiz_select_box">
-                {quizzes.map((quiz, index) => (
+                {quizzes.length > 0 && quizzes.map((quiz, index) => (
                     <InfoCard key={index} quiz={quiz} />
                 ))}
-
+                {quizzes.length < 0 && (
+                    <h4>No Quiz of such type found</h4>
+                )}
             </div>
         </main>
     )

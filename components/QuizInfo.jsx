@@ -84,8 +84,17 @@ const QuizInfo = ({ quizInfoState, updateQuizInfoState, nextPage }) => {
       </div>
       <div>
         <h4>Quiz Subtopics:</h4>
-        <button className={`selectingBtn ${quizSubtopic.includes(`chemistry`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('chemistry')}>chemistry</button>
-        <button className={`selectingBtn ${quizSubtopic.includes(`biology`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('biology')}>biology</button>
+        <h5>Chemistry</h5>
+        <button className={`selectingBtn ${quizSubtopic.includes(`Matter`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Matter')}>Matter</button>
+        <button className={`selectingBtn ${quizSubtopic.includes(`Molecues & Compound`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Molecues & Compound')}>Molecues & Compound</button>
+        <button className={`selectingBtn ${quizSubtopic.includes(`Periodic Table Elements`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Periodic Table Elements')}>Periodic Table Elements</button>
+        <button className={`selectingBtn ${quizSubtopic.includes(`Chemical & Physical Properties`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Chemical & Physical Properties')}>Chemical & Physical Properties</button>
+        <button className={`selectingBtn ${quizSubtopic.includes(`Chemical Reaction`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Chemical Reaction')}>Chemical Reaction</button>
+        <button className={`selectingBtn ${quizSubtopic.includes(`Rate of Reaction`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Rate of Reaction')}>Rate of Reaction</button>
+        <button className={`selectingBtn ${quizSubtopic.includes(`Acid & Base`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Acid & Base')}>Acid & Base</button>
+        <button className={`selectingBtn ${quizSubtopic.includes(`Nuclear Processes & Radioactivity`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Nuclear Processes & Radioactivity')}>Nuclear Processes & Radioactivity</button>
+        <h5>Physics</h5>
+        <h5>Biology</h5>
       </div>
       <h4>Difficulty</h4>
       <button className={`selectingBtn ${difficulty === 'Easy' ? 'selectedBtn' : ''} `} onClick={() => handleDifficultyClick('Easy')}>
