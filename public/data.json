@@ -6620,5 +6620,1013 @@
         ]
       }
     ]
+  },
+  {
+    "id": 18,
+    "name": "Social Studies World History #1",
+    "subject": "Social Studies",
+    "exam": "GED",
+    "topic": [
+      "American History",
+      "World History"
+    ],
+    "sub_topic": [],
+    "difficulty": "Hard",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 0,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "Which ancient civilization built the Great Wall of China?",
+            "answers": {
+              "a": "Mesopotamia",
+              "b": "Egypt",
+              "c": "China",
+              "d": "Greece"
+            },
+            "correct": "c",
+            "answer_text": "China",
+            "reason": ""
+          },
+          {
+            "text": "Who is considered the father of modern physics?",
+            "answers": {
+              "a": "Isaac Newton",
+              "b": "Albert Einstein",
+              "c": "Galileo Galilei",
+              "d": "Nikola Tesla"
+            },
+            "correct": "c",
+            "answer_text": "Galileo Galilei",
+            "reason": ""
+          },
+          {
+            "text": "The Industrial Revolution began in which country?",
+            "answers": {
+              "a": "United States",
+              "b": "France",
+              "c": "England",
+              "d": "Germany"
+            },
+            "correct": "c",
+            "answer_text": "England",
+            "reason": ""
+          },
+          {
+            "text": "Who was the first female Prime Minister of the United Kingdom?",
+            "answers": {
+              "a": "Margaret Thatcher",
+              "b": "Angela Merkel",
+              "c": "Theresa May",
+              "d": "Indira Gandhi"
+            },
+            "correct": "a",
+            "answer_text": "Margaret Thatcher",
+            "reason": ""
+          },
+          {
+            "text": "The French Revolution began in which year?",
+            "answers": {
+              "a": "1776",
+              "b": "1789",
+              "c": "1812",
+              "d": "1848"
+            },
+            "correct": "b",
+            "answer_text": "1789",
+            "reason": ""
+          },
+          {
+            "text": "Who delivered the famous \"I Have a Dream\" speech?",
+            "answers": {
+              "a": "Martin Luther King Jr.",
+              "b": "John F. Kennedy",
+              "c": "Abraham Lincoln",
+              "d": "Franklin D. Roosevelt"
+            },
+            "correct": "a",
+            "answer_text": "Martin Luther King Jr.",
+            "reason": ""
+          },
+          {
+            "text": "The Renaissance originated in which country?",
+            "answers": {
+              "a": "Italy",
+              "b": "England",
+              "c": "Spain",
+              "d": "France"
+            },
+            "correct": "a",
+            "answer_text": "Italy",
+            "reason": ""
+          },
+          {
+            "text": "The Magna Carta was signed in which country?",
+            "answers": {
+              "a": "France",
+              "b": "England",
+              "c": "Spain",
+              "d": "Italy"
+            },
+            "correct": "b",
+            "answer_text": "England",
+            "reason": ""
+          },
+          {
+            "text": "Who wrote the book \"1984\"?",
+            "answers": {
+              "a": "George Orwell",
+              "b": "F. Scott Fitzgerald",
+              "c": "Aldous Huxley",
+              "d": "Ray Bradbury"
+            },
+            "correct": "a",
+            "answer_text": "George Orwell",
+            "reason": ""
+          },
+          {
+            "text": "The American Civil War took place during which years?",
+            "answers": {
+              "a": "1850-1860",
+              "b": "1861-1865",
+              "c": "1870-1880",
+              "d": "1900-1910"
+            },
+            "correct": "b",
+            "answer_text": "1861-1865",
+            "reason": ""
+          },
+          {
+            "text": "Who invented the telephone?",
+            "answers": {
+              "a": "Alexander Graham Bell",
+              "b": "Thomas Edison",
+              "c": "Nikola Tesla",
+              "d": "Guglielmo Marconi"
+            },
+            "correct": "a",
+            "answer_text": "Alexander Graham Bell",
+            "reason": ""
+          },
+          {
+            "text": "The Treaty of Versailles was signed after which war?",
+            "answers": {
+              "a": "World War I",
+              "b": "World War II",
+              "c": "Cold War",
+              "d": "Korean War"
+            },
+            "correct": "a",
+            "answer_text": "World War I",
+            "reason": ""
+          },
+          {
+            "text": "Which US president issued the Emancipation Proclamation?",
+            "answers": {
+              "a": "Abraham Lincoln",
+              "b": "Thomas Jefferson",
+              "c": "George Washington",
+              "d": "Franklin D. Roosevelt"
+            },
+            "correct": "a",
+            "answer_text": "Abraham Lincoln",
+            "reason": ""
+          },
+          {
+            "text": "The Berlin Wall fell in which year, marking the end of the Cold War?",
+            "answers": {
+              "a": "1989",
+              "b": "1991",
+              "c": "1993",
+              "d": "1987"
+            },
+            "correct": "a",
+            "answer_text": "1989",
+            "reason": ""
+          },
+          {
+            "text": "Who wrote the play \"Romeo and Juliet\"?",
+            "answers": {
+              "a": "William Shakespeare",
+              "b": "Arthur Miller",
+              "c": "Tennessee Williams",
+              "d": "Oscar Wilde"
+            },
+            "correct": "a",
+            "answer_text": "William Shakespeare",
+            "reason": ""
+          },
+          {
+            "text": "Which country did Christopher Columbus sail for during his famous voyage in 1492?",
+            "answers": {
+              "a": "Spain",
+              "b": "Portugal",
+              "c": "England",
+              "d": "Italy"
+            },
+            "correct": "a",
+            "answer_text": "Spain",
+            "reason": ""
+          },
+          {
+            "text": "Who was the first President of the United States?",
+            "answers": {
+              "a": "George Washington",
+              "b": "Thomas Jefferson",
+              "c": "John Adams",
+              "d": "James Madison"
+            },
+            "correct": "a",
+            "answer_text": "George Washington",
+            "reason": ""
+          },
+          {
+            "text": "The Declaration of Independence was adopted in which year?",
+            "answers": {
+              "a": "1776",
+              "b": "1787",
+              "c": "1791",
+              "d": "1800"
+            },
+            "correct": "a",
+            "answer_text": "1776",
+            "reason": ""
+          },
+          {
+            "text": "Who painted the Mona Lisa?",
+            "answers": {
+              "a": "Leonardo da Vinci",
+              "b": "Vincent van Gogh",
+              "c": "Pablo Picasso",
+              "d": "Michelangelo"
+            },
+            "correct": "a",
+            "answer_text": "Leonardo da Vinci",
+            "reason": ""
+          },
+          {
+            "text": "The Battle of Waterloo took place during which war?",
+            "answers": {
+              "a": "Napoleonic Wars",
+              "b": "American Revolution",
+              "c": "World War I",
+              "d": "American Civil War"
+            },
+            "correct": "a",
+            "answer_text": "Napoleonic Wars",
+            "reason": ""
+          },
+          {
+            "text": "\"Give me liberty or give me death\" is a famous quote by:",
+            "answers": {
+              "a": "Patrick Henry",
+              "b": "George Washington",
+              "c": "Benjamin Franklin",
+              "d": "Thomas Jefferson"
+            },
+            "correct": "a",
+            "answer_text": "Patrick Henry",
+            "reason": ""
+          },
+          {
+            "text": "Who was the last tsar of Russia before the Russian Revolution?",
+            "answers": {
+              "a": "Nicholas II",
+              "b": "Peter the Great",
+              "c": "Vladimir Lenin",
+              "d": "Joseph Stalin"
+            },
+            "correct": "a",
+            "answer_text": "Nicholas II",
+            "reason": ""
+          },
+          {
+            "text": "The Enlightenment was a cultural movement primarily centered in which country?",
+            "answers": {
+              "a": "France",
+              "b": "England",
+              "c": "Germany",
+              "d": "Italy"
+            },
+            "correct": "a",
+            "answer_text": "France",
+            "reason": ""
+          },
+          {
+            "text": "Who wrote the book \"To Kill a Mockingbird\"?",
+            "answers": {
+              "a": "Harper Lee",
+              "b": "J.D. Salinger",
+              "c": "Mark Twain",
+              "d": "F. Scott Fitzgerald"
+            },
+            "correct": "a",
+            "answer_text": "Harper Lee",
+            "reason": ""
+          },
+          {
+            "text": "The Louisiana Purchase took place during which US presidency?",
+            "answers": {
+              "a": "Thomas Jefferson",
+              "b": "George Washington",
+              "c": "Abraham Lincoln",
+              "d": "James Madison"
+            },
+            "correct": "a",
+            "answer_text": "Thomas Jefferson",
+            "reason": ""
+          },
+          {
+            "text": "Who was the leader of the Soviet Union during World War II?",
+            "answers": {
+              "a": "Joseph Stalin",
+              "b": "Vladimir Lenin",
+              "c": "Leon Trotsky",
+              "d": "Nikita Khrushchev"
+            },
+            "correct": "a",
+            "answer_text": "Joseph Stalin",
+            "reason": ""
+          },
+          {
+            "text": "The Boston Tea Party took place in which year?",
+            "answers": {
+              "a": "1773",
+              "b": "1781",
+              "c": "1799",
+              "d": "1765"
+            },
+            "correct": "a",
+            "answer_text": "1773",
+            "reason": ""
+          },
+          {
+            "text": "Who wrote the Communist Manifesto?",
+            "answers": {
+              "a": "Karl Marx and Friedrich Engels",
+              "b": "Vladimir Lenin",
+              "c": "Joseph Stalin",
+              "d": "Leon Trotsky"
+            },
+            "correct": "a",
+            "answer_text": "Karl Marx and Friedrich Engels",
+            "reason": ""
+          },
+          {
+            "text": "The Battle of Gettysburg was a significant battle fought during which war?",
+            "answers": {
+              "a": "American Civil War",
+              "b": "American Revolutionary War",
+              "c": "World War I",
+              "d": "World War II"
+            },
+            "correct": "a",
+            "answer_text": "American Civil War",
+            "reason": ""
+          },
+          {
+            "text": "Who was the first person to step foot on the moon?",
+            "answers": {
+              "a": "Neil Armstrong",
+              "b": "Buzz Aldrin",
+              "c": "Yuri Gagarin",
+              "d": "Alan Shepard"
+            },
+            "correct": "a",
+            "answer_text": "Neil Armstrong",
+            "reason": ""
+          },
+          {
+            "text": "The Renaissance is known for its revival of interest in which ancient civilization?",
+            "answers": {
+              "a": "Ancient Greece",
+              "b": "Ancient Egypt",
+              "c": "Ancient Rome",
+              "d": "Ancient Persia"
+            },
+            "correct": "a",
+            "answer_text": "Ancient Greece",
+            "reason": ""
+          },
+          {
+            "text": "The United States acquired the territory of Alaska from which country?",
+            "answers": {
+              "a": "Russia",
+              "b": "France",
+              "c": "Spain",
+              "d": "England"
+            },
+            "correct": "a",
+            "answer_text": "Russia",
+            "reason": ""
+          },
+          {
+            "text": "Who delivered the famous \"Ask not what your country can do for you\" speech?",
+            "answers": {
+              "a": "John F. Kennedy",
+              "b": "Franklin D. Roosevelt",
+              "c": "Martin Luther King Jr.",
+              "d": "Ronald Reagan"
+            },
+            "correct": "a",
+            "answer_text": "John F. Kennedy",
+            "reason": ""
+          },
+          {
+            "text": "The Silk Road was an ancient trade route connecting which regions?",
+            "answers": {
+              "a": "Asia and Europe",
+              "b": "Africa and South America",
+              "c": "North America and Australia",
+              "d": "Europe and South Asia"
+            },
+            "correct": "a",
+            "answer_text": "Asia and Europe",
+            "reason": ""
+          },
+          {
+            "text": "Who was the principal author of the US Constitution?",
+            "answers": {
+              "a": "James Madison",
+              "b": "George Washington",
+              "c": "Thomas Jefferson",
+              "d": "Alexander Hamilton"
+            },
+            "correct": "a",
+            "answer_text": "James Madison",
+            "reason": ""
+          },
+          {
+            "text": "The Battle of Hastings in 1066 resulted in the Norman conquest of which country?",
+            "answers": {
+              "a": "England",
+              "b": "France",
+              "c": "Spain",
+              "d": "Scotland"
+            },
+            "correct": "a",
+            "answer_text": "England",
+            "reason": ""
+          },
+          {
+            "text": "Who led the Mexican Revolution in the early 20th century?",
+            "answers": {
+              "a": "Emiliano Zapata",
+              "b": "Pancho Villa",
+              "c": "Porfirio Díaz",
+              "d": "Benito Juárez"
+            },
+            "correct": "a",
+            "answer_text": "Emiliano Zapata",
+            "reason": ""
+          },
+          {
+            "text": "The Treaty of Tordesillas divided the New World between which two countries?",
+            "answers": {
+              "a": "Spain and Portugal",
+              "b": "England and France",
+              "c": "Italy and Germany",
+              "d": "Netherlands and Sweden"
+            },
+            "correct": "a",
+            "answer_text": "Spain and Portugal",
+            "reason": ""
+          },
+          {
+            "text": "Who is known for discovering the theory of evolution by natural selection?",
+            "answers": {
+              "a": "Charles Darwin",
+              "b": "Albert Einstein",
+              "c": "Isaac Newton",
+              "d": "Gregor Mendel"
+            },
+            "correct": "a",
+            "answer_text": "Charles Darwin",
+            "reason": ""
+          },
+          {
+            "text": "The Trail of Tears refers to the forced relocation of which indigenous group?",
+            "answers": {
+              "a": "Cherokee",
+              "b": "Apache",
+              "c": "Sioux",
+              "d": "Iroquois"
+            },
+            "correct": "a",
+            "answer_text": "Cherokee",
+            "reason": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Social Studies World History #2",
+    "subject": "Social Studies",
+    "exam": "GED",
+    "topic": [
+      "American History",
+      "World History"
+    ],
+    "sub_topic": [],
+    "difficulty": "Hard",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 0,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "The Treaty of Versailles, signed in 1919, ended which war?",
+            "answers": {
+              "a": "World War I",
+              "b": "World War II",
+              "c": "Korean War",
+              "d": "Cold War"
+            },
+            "correct": "a",
+            "answer_text": "World War I",
+            "reason": ""
+          },
+          {
+            "text": "The Boston Tea Party was a protest against which act imposed on the American colonies?",
+            "answers": {
+              "a": "Stamp Act",
+              "b": "Townshend Acts",
+              "c": "Tea Act",
+              "d": "Intolerable Acts"
+            },
+            "correct": "c",
+            "answer_text": "Tea Act",
+            "reason": ""
+          },
+          {
+            "text": "The signing of the Declaration of Independence occurred in which year?",
+            "answers": {
+              "a": "1776",
+              "b": "1787",
+              "c": "1791",
+              "d": "1800"
+            },
+            "correct": "a",
+            "answer_text": "1776",
+            "reason": ""
+          },
+          {
+            "text": "The Battle of Waterloo, in 1815, marked the final defeat of which military leader?",
+            "answers": {
+              "a": "Napoleon Bonaparte",
+              "b": "Alexander the Great",
+              "c": "Genghis Khan",
+              "d": "Julius Caesar"
+            },
+            "correct": "a",
+            "answer_text": "Napoleon Bonaparte",
+            "reason": ""
+          },
+          {
+            "text": "The Berlin Wall, constructed in 1961, divided which two countries?",
+            "answers": {
+              "a": "East Germany and West Germany",
+              "b": "France and Germany",
+              "c": "Germany and Austria",
+              "d": "East Germany and Czechoslovakia"
+            },
+            "correct": "a",
+            "answer_text": "East Germany and West Germany",
+            "reason": ""
+          },
+          {
+            "text": "The Cuban Missile Crisis in 1962 was a tense standoff between the United States and which other country?",
+            "answers": {
+              "a": "Soviet Union",
+              "b": "Cuba",
+              "c": "China",
+              "d": "Vietnam"
+            },
+            "correct": "a",
+            "answer_text": "Soviet Union",
+            "reason": ""
+          },
+          {
+            "text": "The Battle of Stalingrad, fought from 1942 to 1943, was a significant turning point in which war?",
+            "answers": {
+              "a": "World War II",
+              "b": "World War I",
+              "c": "Cold War",
+              "d": "Korean War"
+            },
+            "correct": "a",
+            "answer_text": "World War II",
+            "reason": ""
+          },
+          {
+            "text": "The signing of the Magna Carta in 1215 marked an important step towards establishing what principle?",
+            "answers": {
+              "a": "Rule of law and limited government",
+              "b": "Democracy and universal suffrage",
+              "c": "Separation of powers and checks and balances",
+              "d": "Freedom of speech and expression"
+            },
+            "correct": "a",
+            "answer_text": "Rule of law and limited government",
+            "reason": ""
+          },
+          {
+            "text": "The Montgomery Bus Boycott, initiated in 1955, was a pivotal event in which social movement?",
+            "answers": {
+              "a": "Civil Rights Movement",
+              "b": "Women's Suffrage Movement",
+              "c": "Anti-War Movement",
+              "d": "Labor Movement"
+            },
+            "correct": "a",
+            "answer_text": "Civil Rights Movement",
+            "reason": ""
+          },
+          {
+            "text": "The Bolshevik Revolution in 1917 led to the establishment of which country?",
+            "answers": {
+              "a": "Soviet Union",
+              "b": "United States",
+              "c": "China",
+              "d": "France"
+            },
+            "correct": "a",
+            "answer_text": "Soviet Union",
+            "reason": ""
+          },
+          {
+            "text": "The signing of the Treaty of Ghent in 1814 ended which conflict?",
+            "answers": {
+              "a": "War of 1812",
+              "b": "American Revolutionary War",
+              "c": "Spanish-American War",
+              "d": "French and Indian War"
+            },
+            "correct": "a",
+            "answer_text": "War of 1812",
+            "reason": ""
+          },
+          {
+            "text": "The D-Day invasion, on June 6, 1944, was a significant military operation in which war?",
+            "answers": {
+              "a": "World War II",
+              "b": "World War I",
+              "c": "Vietnam War",
+              "d": "Korean War"
+            },
+            "correct": "a",
+            "answer_text": "World War II",
+            "reason": ""
+          },
+          {
+            "text": "The Indian Independence Act of 1947 resulted in the creation of which two countries?",
+            "answers": {
+              "a": "India and Pakistan",
+              "b": "India and Bangladesh",
+              "c": "India and Sri Lanka",
+              "d": "India and Myanmar"
+            },
+            "correct": "a",
+            "answer_text": "India and Pakistan",
+            "reason": ""
+          },
+          {
+            "text": "The Great Depression, starting in 1929, originated in which country?",
+            "answers": {
+              "a": "United States",
+              "b": "United Kingdom",
+              "c": "Germany",
+              "d": "Japan"
+            },
+            "correct": "a",
+            "answer_text": "United States",
+            "reason": ""
+          },
+          {
+            "text": "The signing of the Camp David Accords in 1978 was a significant peace agreement between which two countries?",
+            "answers": {
+              "a": "Israel and Egypt",
+              "b": "Israel and Palestine",
+              "c": "Israel and Jordan",
+              "d": "Israel and Lebanon"
+            },
+            "correct": "a",
+            "answer_text": "Israel and Egypt",
+            "reason": ""
+          },
+          {
+            "text": "The Battle of Yorktown, in 1781, was a decisive victory for which side in the American Revolutionary War?",
+            "answers": {
+              "a": "Americans and their French allies",
+              "b": "British and their Hessian mercenaries",
+              "c": "Native American tribes",
+              "d": "Spanish and their American allies"
+            },
+            "correct": "a",
+            "answer_text": "Americans and their French allies",
+            "reason": ""
+          },
+          {
+            "text": "The construction of the Panama Canal was completed in which year?",
+            "answers": {
+              "a": "1914",
+              "b": "1901",
+              "c": "1929",
+              "d": "1898"
+            },
+            "correct": "a",
+            "answer_text": "1914",
+            "reason": ""
+          },
+          {
+            "text": "The Berlin Airlift, from 1948 to 1949, was a response to which event?",
+            "answers": {
+              "a": "Soviet blockade of West Berlin",
+              "b": "German invasion of Poland",
+              "c": "Cuban Missile Crisis",
+              "d": "Korean War"
+            },
+            "correct": "a",
+            "answer_text": "Soviet blockade of West Berlin",
+            "reason": ""
+          },
+          {
+            "text": "The Iranian Revolution in 1979 resulted in the establishment of which form of government?",
+            "answers": {
+              "a": "Islamic Republic",
+              "b": "Monarchy",
+              "c": "Socialist State",
+              "d": "Democratic Republic"
+            },
+            "correct": "a",
+            "answer_text": "Islamic Republic",
+            "reason": ""
+          },
+          {
+            "text": "The signing of the Treaty of Nanjing in 1842 marked the end of which conflict?",
+            "answers": {
+              "a": "First Opium War",
+              "b": "Taiping Rebellion",
+              "c": "Boxer Rebellion",
+              "d": "Sino-Japanese War"
+            },
+            "correct": "a",
+            "answer_text": "First Opium War",
+            "reason": ""
+          },
+          {
+            "text": "The Trail of Tears refers to the forced relocation of which indigenous group?",
+            "answers": {
+              "a": "Cherokee",
+              "b": "Apache",
+              "c": "Sioux",
+              "d": "Iroquois"
+            },
+            "correct": "a",
+            "answer_text": "Cherokee",
+            "reason": ""
+          },
+          {
+            "text": "The October Revolution in 1917 led to the establishment of which country?",
+            "answers": {
+              "a": "Soviet Union",
+              "b": "United States",
+              "c": "Germany",
+              "d": "China"
+            },
+            "correct": "a",
+            "answer_text": "Soviet Union",
+            "reason": ""
+          },
+          {
+            "text": "The signing of the Good Friday Agreement in 1998 aimed to bring peace to which region?",
+            "answers": {
+              "a": "Northern Ireland",
+              "b": "Cyprus",
+              "c": "Palestine",
+              "d": "Kashmir"
+            },
+            "correct": "a",
+            "answer_text": "Northern Ireland",
+            "reason": ""
+          },
+          {
+            "text": "The Kristallnacht, or \"Night of Broken Glass,\" in 1938 targeted which group of people?",
+            "answers": {
+              "a": "Jewish people",
+              "b": "Romani people",
+              "c": "LGBTQ+ community",
+              "d": "Intellectuals and artists"
+            },
+            "correct": "a",
+            "answer_text": "Jewish people",
+            "reason": ""
+          },
+          {
+            "text": "The Treaty of Tordesillas, signed in 1494, divided the New World between which two countries?",
+            "answers": {
+              "a": "Spain and Portugal",
+              "b": "England and France",
+              "c": "Italy and Germany",
+              "d": "Netherlands and Sweden"
+            },
+            "correct": "a",
+            "answer_text": "Spain and Portugal",
+            "reason": ""
+          },
+          {
+            "text": "The Space Race between the United States and the Soviet Union reached a milestone with which event?",
+            "answers": {
+              "a": "Moon landing",
+              "b": "Launch of Sputnik",
+              "c": "First human in space",
+              "d": "Space shuttle program"
+            },
+            "correct": "a",
+            "answer_text": "Moon landing",
+            "reason": ""
+          },
+          {
+            "text": "The Scramble for Africa in the late 19th century was driven by which European powers?",
+            "answers": {
+              "a": "Britain, France, Germany, Belgium, Italy",
+              "b": "Spain, Portugal, Netherlands, Sweden, Denmark",
+              "c": "Russia, Austria-Hungary, Ottoman Empire",
+              "d": "United States, Canada, Mexico"
+            },
+            "correct": "a",
+            "answer_text": "Britain, France, Germany, Belgium, Italy",
+            "reason": ""
+          },
+          {
+            "text": "The Battle of Midway, in 1942, was a significant naval battle between which two countries?",
+            "answers": {
+              "a": "United States and Japan",
+              "b": "United States and Germany",
+              "c": "United States and Italy",
+              "d": "United States and Soviet Union"
+            },
+            "correct": "a",
+            "answer_text": "United States and Japan",
+            "reason": ""
+          },
+          {
+            "text": "The signing of the Treaty of Brest-Litovsk in 1918 marked the withdrawal of which country from World War I?",
+            "answers": {
+              "a": "Russia",
+              "b": "United States",
+              "c": "Germany",
+              "d": "France"
+            },
+            "correct": "a",
+            "answer_text": "Russia",
+            "reason": ""
+          },
+          {
+            "text": "The Tiananmen Square protests in 1989 took place in which country?",
+            "answers": {
+              "a": "China",
+              "b": "United States",
+              "c": "France",
+              "d": "South Korea"
+            },
+            "correct": "a",
+            "answer_text": "China",
+            "reason": ""
+          },
+          {
+            "text": "The Battle of the Somme, in 1916, was a major battle fought during which war?",
+            "answers": {
+              "a": "World War I",
+              "b": "World War II",
+              "c": "Korean War",
+              "d": "Cold War"
+            },
+            "correct": "a",
+            "answer_text": "World War I",
+            "reason": ""
+          },
+          {
+            "text": "The signing of the Emancipation Proclamation in 1863 had a significant impact on which issue?",
+            "answers": {
+              "a": "Slavery in the United States",
+              "b": "Women's suffrage",
+              "c": "Prohibition",
+              "d": "Civil rights for Native Americans"
+            },
+            "correct": "a",
+            "answer_text": "Slavery in the United States",
+            "reason": ""
+          },
+          {
+            "text": "The Treaty of Paris, signed in 1783, officially ended which conflict?",
+            "answers": {
+              "a": "American Revolutionary War",
+              "b": "French Revolution",
+              "c": "Seven Years' War",
+              "d": "War of 1812"
+            },
+            "correct": "a",
+            "answer_text": "American Revolutionary War",
+            "reason": ""
+          },
+          {
+            "text": "The Cultural Revolution, initiated in 1966, was a sociopolitical movement in which country?",
+            "answers": {
+              "a": "China",
+              "b": "Russia",
+              "c": "India",
+              "d": "Brazil"
+            },
+            "correct": "a",
+            "answer_text": "China",
+            "reason": ""
+          },
+          {
+            "text": "The signing of the Treaty of Guadalupe Hidalgo in 1848 ended which war?",
+            "answers": {
+              "a": "Mexican-American War",
+              "b": "Spanish-American War",
+              "c": "Civil War",
+              "d": "French and Indian War"
+            },
+            "correct": "a",
+            "answer_text": "Mexican-American War",
+            "reason": ""
+          },
+          {
+            "text": "The Manhattan Project, during World War II, led to the development of which devastating weapon?",
+            "answers": {
+              "a": "Atomic bomb",
+              "b": "Tank",
+              "c": "Airplane",
+              "d": "Submarine"
+            },
+            "correct": "a",
+            "answer_text": "Atomic bomb",
+            "reason": ""
+          },
+          {
+            "text": "The signing of the Helsinki Accords in 1975 aimed to improve relations between which two blocs?",
+            "answers": {
+              "a": "Eastern Bloc and Western Bloc",
+              "b": "NATO and Warsaw Pact",
+              "c": "European Union and Arab League",
+              "d": "United Nations and Non-Aligned Movement"
+            },
+            "correct": "a",
+            "answer_text": "Eastern Bloc and Western Bloc",
+            "reason": ""
+          },
+          {
+            "text": "The signing of the Treaty of Rome in 1957 led to the establishment of which supranational organization?",
+            "answers": {
+              "a": "European Economic Community (EEC)",
+              "b": "United Nations (UN)",
+              "c": "North Atlantic Treaty Organization (NATO)",
+              "d": "Organization of American States (OAS)"
+            },
+            "correct": "a",
+            "answer_text": "European Economic Community (EEC)",
+            "reason": ""
+          },
+          {
+            "text": "The Battle of Thermopylae, in 480 BCE, was a significant conflict during which ancient war?",
+            "answers": {
+              "a": "Greco-Persian Wars",
+              "b": "Punic Wars",
+              "c": "Peloponnesian War",
+              "d": "Roman-Germanic Wars"
+            },
+            "correct": "a",
+            "answer_text": "Greco-Persian Wars",
+            "reason": ""
+          },
+          {
+            "text": "The signing of the Oslo Accords in 1993 aimed to establish peace between which two parties?",
+            "answers": {
+              "a": "Israel and Palestine",
+              "b": "North Korea and South Korea",
+              "c": "Iran and Iraq",
+              "d": "United States and Soviet Union"
+            },
+            "correct": "a",
+            "answer_text": "Israel and Palestine",
+            "reason": ""
+          }
+        ]
+      }
+    ]
   }
 ]
