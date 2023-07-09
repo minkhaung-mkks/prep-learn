@@ -97,4 +97,4 @@ Button 30 from [92 cool css buttons from CSS Scan](https://getcssscan.com/css-bu
 
 ### Latest Update
 
-Improved the flexibility of the input text format.
+I'm trying to get the practice test used at my school, it has much more questions that relates to reading passages instead of my own knowledge, which I found to be a challange right now.
