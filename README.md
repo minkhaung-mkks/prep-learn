@@ -12,11 +12,14 @@ Hi, and thanks for stopping by! This repository houses a project that I hold clo
 
 ## You can test it [here](https://prep-learn.vercel.app/)
 
+
+## Latest Update
+
+I'm trying to get the practice test used at my school, it has much more questions that relates to reading passages instead of my own knowledge, which I found to be a challange right now.
+
 ## Current Planned Timeline
 
 Please note these times are the worst possible times, In reality I hope to have everything production ready by mid July
-
-## Launched
 
 ## Only gonna be doing simple updates like more tests, till the 2nd week of July potentially, so there will be delays on all the planned dates, gonna give an update on the dates after I finish moving
 
@@ -95,6 +98,3 @@ Button 5 from [Collection of Button Hover Effects codepen by David Conner](https
 
 Button 30 from [92 cool css buttons from CSS Scan](https://getcssscan.com/css-buttons-examples) as the baseline for take a quiz btn.
 
-### Latest Update
-
-I'm trying to get the practice test used at my school, it has much more questions that relates to reading passages instead of my own knowledge, which I found to be a challange right now.
