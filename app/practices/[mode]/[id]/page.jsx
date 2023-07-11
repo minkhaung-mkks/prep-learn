@@ -36,7 +36,7 @@ const PraticePage = ({ params }) => {
 
                 let initialAnswers;
                 let initialSavedQuestion;
-                const savedData = JSON.parse(localStorage.getItem('answers'));
+                const savedData = JSON.parse(localStorage.getItem('savedData'));
                 const savedAnswers = savedData.quizId.answers;
                 const savedQuestion = savedData.quizId.currentQuestion
                 if (savedData) {
@@ -161,7 +161,7 @@ const PraticePage = ({ params }) => {
                 currentQuestion: currentQuestion
             }
         };
-        localStorage.setItem('answers', JSON.stringify(updatedAnswers));
+        localStorage.setItem('savedData', JSON.stringify(updatedAnswers));
     }, [answers, quizId, currentQuestion]);
     return (
         <main id="web_page">
