@@ -10,7 +10,7 @@ const QuestionCard = ({ question, qIndex, index, toggleRadio, answer, hasSubmitt
             value="a"
             name={question.text}
             id="A"
-            checked={answer === "a"}
+            defaultChecked={answer === "a"}
           />
           <label htmlFor="A">{question.answers.a}</label>
         </div>
@@ -21,7 +21,7 @@ const QuestionCard = ({ question, qIndex, index, toggleRadio, answer, hasSubmitt
             value="b"
             name={question.text}
             id="B"
-            checked={answer === "b"}
+            defaultChecked={answer === "b"}
           />
           <label htmlFor="B">{question.answers.b}</label>
         </div>
@@ -32,7 +32,7 @@ const QuestionCard = ({ question, qIndex, index, toggleRadio, answer, hasSubmitt
             value="c"
             name={question.text}
             id="C"
-            checked={answer === "c"}
+            defaultChecked={answer === "c"}
           />
           <label htmlFor="C">{question.answers.c}</label>
         </div>
@@ -43,7 +43,7 @@ const QuestionCard = ({ question, qIndex, index, toggleRadio, answer, hasSubmitt
             value="d"
             name={question.text}
             id="D"
-            checked={answer === "d"}
+            defaultChecked={answer === "d"}
           />
           <label htmlFor="D">{question.answers.d}</label>
         </div>

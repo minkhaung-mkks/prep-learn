@@ -37,9 +37,11 @@ const PraticePage = ({ params }) => {
                 let initialAnswers;
                 let initialSavedQuestion;
                 let savedData = JSON.parse(localStorage.getItem('savedData'));
+                console.log(quizId)
                 if (savedData) {
-                    const savedAnswers = savedData.quizId.answers;
+                    const savedAnswers = savedData[quizId].answers;
                     if (savedAnswers) {
+                        console.log(savedData[quizId].answers)
                         initialAnswers = savedAnswers;
                     }
                     else {
@@ -63,7 +65,7 @@ const PraticePage = ({ params }) => {
                             {}
                         );
                     }
-                    const savedQuestion = savedData.quizId.currentQuestion
+                    const savedQuestion = savedData[quizId].currentQuestion
                     if (savedQuestion) {
                         initialSavedQuestion = savedQuestion
                     }
