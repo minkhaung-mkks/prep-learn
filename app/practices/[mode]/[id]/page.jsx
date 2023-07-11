@@ -16,7 +16,7 @@ const PraticePage = ({ params }) => {
     const [totalScore, setTotalScore] = useState(null);
     const quizId = parseInt(params.id);
     const mode = params.mode
-
+    const [savedData, setSavedData] = useState();
     useEffect(() => {
         const retriveData = async () => {
             try {
@@ -36,23 +36,22 @@ const PraticePage = ({ params }) => {
 
                 let initialAnswers;
                 let initialSavedQuestion;
-                const savedData = JSON.parse(localStorage.getItem('savedData'));
-                const savedAnswers = savedData.quizId.answers;
-                const savedQuestion = savedData.quizId.currentQuestion
+                let savedData = JSON.parse(localStorage.getItem('savedData'));
                 if (savedData) {
+                    const savedAnswers = savedData.quizId.answers;
                     if (savedAnswers) {
                         initialAnswers = savedAnswers;
                     }
                     else {
                         /**
-                            * Initializes `initialAnswers` to store user's answers.
-                            * 
+                         * Initializes `initialAnswers` to store user's answers.
+                         * 
                             * 1. `reduce` is used on `data[0].Sections` to create an object from the array.
                             * 2. In each iteration, the callback returns a new object that merges the accumulator object (`acc`) and a new property, where key is the section index (`[i]`), and value is another object.
                             * 3. The value object is created by reducing the `questions` array of the current section. It returns an object with an empty string for each unanswered question. 
                             * 4. `acc, _, j` in the inner `reduce` represents the accumulator (object being built), the current question (ignored - `_`), and the question index (`j`).
                             * 5. `initialAnswers` structure is { sectionIndex: { questionIndex: answer }, ...}, where answer is an empty string for an unanswered question.
-                        */
+                         */
                         initialAnswers = data[0].sections.reduce(
                             (acc, section, i) => ({
                                 ...acc,
@@ -64,6 +63,7 @@ const PraticePage = ({ params }) => {
                             {}
                         );
                     }
+                    const savedQuestion = savedData.quizId.currentQuestion
                     if (savedQuestion) {
                         initialSavedQuestion = savedQuestion
                     }
@@ -91,6 +91,7 @@ const PraticePage = ({ params }) => {
                 setTotalScore(totalQuestions)
                 setAnswers(initialAnswers);
                 setCurrentQuestion(initialSavedQuestion);
+                setSavedData(savedData)
                 quizFetch.current = true;
             } catch (error) {
                 console.error('Error fetching quiz data: ', error);
@@ -155,14 +156,14 @@ const PraticePage = ({ params }) => {
         }
         // Save to local storage whenever answers change
         const updatedAnswers = {
-            ...prevAnswers,
+            ...savedData,
             [quizId]: {
                 answers: answers,
                 currentQuestion: currentQuestion
             }
         };
         localStorage.setItem('savedData', JSON.stringify(updatedAnswers));
-    }, [answers, quizId, currentQuestion]);
+    }, [answers, quizId, currentQuestion, savedData]);
     return (
         <main id="web_page">
             <form onSubmit={handleSubmit} className="quiz_box">
