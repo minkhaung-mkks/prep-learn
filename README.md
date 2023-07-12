@@ -25,8 +25,6 @@ I'm trying to get the practice test used at my school, it has much more question
 
 Please note these times are the worst possible times, In reality I hope to have everything production ready by mid July
 
-## Only gonna be doing simple updates like more tests, till the 2nd week of July potentially, so there will be delays on all the planned dates, gonna give an update on the dates after I finish moving
-
 - [x] Launch of the app with just the functions to choose quizes and answer them (June 20th 2023) Progess : 100% DONE
 - [x] New method to save answers ( July 20th 2023 ) Crucial for the new Quiz mode.
 - [ ] Time Quizes (July 25th 2023) Progress : Might prioritize Quiz Mode Over this
