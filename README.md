@@ -27,16 +27,16 @@ Please note these times are the worst possible times, In reality I hope to have 
 
 ## Only gonna be doing simple updates like more tests, till the 2nd week of July potentially, so there will be delays on all the planned dates, gonna give an update on the dates after I finish moving
 
-Launch of the app with just the functions to choose quizes and answer them (June 20th 2023) Progess : 100% DONE
-New method to save answers ( July 20th 2023 ) Crucial for the new Quiz mode.
-Time Quizes (July 25th 2023) Progress : Might prioritize Quiz Mode Over this
-Quiz Mode (July 15th 2023) Progress : The complexity is reduced abit, but still need to change how saved answers are stored.
-Switch to MongoDB for data storage (N/A) Not sure if I wanna switch to Database yet.
-Login with google (N/A) Not sure if I want to go this route, instead focusing on making the base functions a lot better and more user friendly
-Login with other providers (N/A)
-Crash Courses (N/A) Focus switched to diversifying question types.
-User roles (N/A) Unsure
-Classes (N/A)
+- [x] Launch of the app with just the functions to choose quizes and answer them (June 20th 2023) Progess : 100% DONE
+- [x] New method to save answers ( July 20th 2023 ) Crucial for the new Quiz mode.
+- [ ] Time Quizes (July 25th 2023) Progress : Might prioritize Quiz Mode Over this
+- [ ] Quiz Mode (July 15th 2023) Progress : The complexity is reduced abit, but still need to change how saved answers are stored.
+- [ ] Switch to MongoDB for data storage (N/A) Not sure if I wanna switch to Database yet.
+- [ ] Login with google (N/A) Not sure if I want to go this route, instead focusing on making the base functions a lot better and more user friendly
+- [ ] Login with other providers (N/A)
+- [ ] Crash Courses (N/A) Focus switched to diversifying question types.
+- [ ] User roles (N/A) Unsure
+- [ ] Classes (N/A)
 
 ## 🌍 Why This Matters
 
