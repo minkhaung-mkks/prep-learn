@@ -13,7 +13,7 @@ Hi, and thanks for stopping by! This repository houses a project that I hold clo
 ## You can test it [here](https://prep-learn.vercel.app/)
 
 
-## Latest Update
+## 📝 Latest Update
 
 Currently Quiz mode is like 60% done, I only need to re-write the questionCard Component to not rely on hasSubmitted on displaying if the answer is correct or not afterwards I would say its 80% done. The rest being bug testing and styling
 
@@ -21,7 +21,7 @@ I'm trying to get the practice test used at my school, it has much more question
 
 
 
-## Current Planned Timeline
+## 🕖 Current Planned Timeline
 
 Please note these times are the worst possible times, In reality I hope to have everything production ready by mid July
 
