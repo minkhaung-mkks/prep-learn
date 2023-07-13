@@ -23,6 +23,8 @@ I'm trying to get the practice test used at my school, it has much more question
 
 ## 🕖 Current Planned Timeline
 
+## I have to go to Taungyi for a week or so for legal reasons, I'm not sure when it will be but during that time, I will try to focus on re-designing the app and getting more tests.
+
 Please note these times are the worst possible times, In reality I hope to have everything production ready by mid July
 
 - [x] Launch of the app with just the functions to choose quizes and answer them (June 20th 2023) Progess : 100% DONE
