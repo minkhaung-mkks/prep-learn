@@ -9,6 +9,7 @@ const PraticePage = ({ params }) => {
     const firstUpdate = useRef(true);
     const quizFetch = useRef(false);
     const [hasSubmitted, setHasSubmitted] = useState(false)
+    const [hasFinished, setHasFinished] = useState(false)
     const [answers, setAnswers] = useState({});
     const [currentQuestion, setCurrentQuestion] = useState({})
     const [showScore, setShowScore] = useState(false);
@@ -110,9 +111,6 @@ const PraticePage = ({ params }) => {
                 [questionIndex]: answer
             }
         }));
-        if (mode === "quiz") {
-            // setCurrentQuestion({ sectionIndex, questionIndex });
-        }
     };
 
     const toggleRadio = (event, sectionIndex, questionIndex) => {
@@ -149,11 +147,20 @@ const PraticePage = ({ params }) => {
         }
         setShowScore(true);
         setHasSubmitted(true);
+        setHasFinished(true);
     };
 
-    const quizModeSumit = e => {
+    const quizModeSubmit = (e, sectionIndex, questionIndex) => {
         e.preventDefault();
-        quiz.sections
+        let correct = checkAnswer(sectionIndex, questionIndex)
+        if (correct) {
+            setScore(prev => prev + 1)
+        }
+        setHasSubmitted(true);
+
+    }
+    const nextQuestion = (sectionIndex, questionIndex) => {
+        setHasSubmitted(false)
         setCurrentQuestion({ sectionIndex, questionIndex })
     }
     const renderWithLineBreaks = (text) => {
@@ -244,8 +251,19 @@ const PraticePage = ({ params }) => {
                                                         <button
                                                             className="nav_btn"
                                                             type='button'
+                                                            onClick={(e) => {
+                                                                quizModeSubmit(e, sectionIndex, questionIndex)
+                                                            }}
+                                                        >
+                                                            Check Answer
+                                                        </button>
+                                                    )}
+                                                    {hasSubmitted && questionIndex < section.questions.length - 1 && (
+                                                        <button
+                                                            className="nav_btn"
+                                                            type='button'
                                                             onClick={() => {
-
+                                                                nextQuestion(sectionIndex, questionIndex + 1)
                                                             }}
                                                         >
                                                             Next
@@ -255,8 +273,7 @@ const PraticePage = ({ params }) => {
                                                         <button
                                                             className="nav_btn"
                                                             onClick={() => {
-                                                                setCurrentSectionIndex(sectionIndex + 1);
-                                                                setCurrentQuestionIndex(0);
+                                                                nextQuestion(sectionIndex + 1, questionIndex)
                                                             }}
                                                         >
                                                             Next Section
