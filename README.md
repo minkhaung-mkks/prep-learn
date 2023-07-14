@@ -23,7 +23,7 @@ I'm trying to get the practice test used at my school, it has much more question
 
 ## 🕖 Current Planned Timeline
 
-## I have to go to Taungyi for a week or so for legal reasons, I'm not sure when it will be but during that time, I will try to focus on re-designing the app and getting more tests.
+## Turns out I dont have to go anymore, so more time for this project, but I thinking of pausing any further big updates after the quiz mode, and go back to learning for a while, there were many times during my time coding this that I felt like I was exploring something completely foreign to me and it has only gotten stronger as the app progressed furthered.
 
 Please note these times are the worst possible times, In reality I hope to have everything production ready by mid July
 
