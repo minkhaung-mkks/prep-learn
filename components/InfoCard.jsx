@@ -3,9 +3,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const InfoCard = ({ index, quiz }) => {
-    const takeQuiz = (id) => {
-        router.push(`/practices/${id}`)
-    }
     return (
         <div className="quiz_card">
 
