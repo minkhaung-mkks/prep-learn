@@ -1,5 +1,6 @@
 'use client'
 import { useEffect, useState, useRef } from 'react';
+import { useRouter } from 'next/navigation'
 import '@styles/global.css'
 import '@styles/quiz.css'
 import QuestionCard from '@components/QuestionCard';
@@ -18,6 +19,7 @@ const PraticePage = ({ params }) => {
     const quizId = parseInt(params.id);
     const mode = params.mode
     const [savedData, setSavedData] = useState();
+    const router = useRouter();
     useEffect(() => {
         const retriveData = async () => {
             try {
@@ -26,10 +28,7 @@ const PraticePage = ({ params }) => {
                     throw new Error('Failed to fetch JSON file');
                 }
                 let data = await response.json();
-                console.log(data)
                 data = data.filter(quiz => quiz.id === quizId)
-                console.log(data)
-                console.log(data[0].sections)
                 let totalQuestions = 0;
                 data[0].sections.forEach((section) => {
                     totalQuestions += section.questions.length;
@@ -38,11 +37,9 @@ const PraticePage = ({ params }) => {
                 let initialAnswers;
                 let initialSavedQuestion;
                 let savedData = JSON.parse(localStorage.getItem('savedData'));
-                console.log(quizId)
                 if (savedData) {
                     const savedAnswers = savedData[quizId]?.answers;
                     if (savedAnswers) {
-                        console.log(savedData[quizId]?.answers)
                         initialAnswers = savedAnswers;
                     }
                     else {
@@ -89,7 +86,7 @@ const PraticePage = ({ params }) => {
                 }
 
 
-                console.log(initialAnswers)
+
                 setQuiz(data[0]);
                 setTotalScore(totalQuestions)
                 setAnswers(initialAnswers);
@@ -131,7 +128,7 @@ const PraticePage = ({ params }) => {
 
         return answer.toLowerCase() === question.correct.toLowerCase();
     }
-    const handleSubmit = e => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         if (mode === "test") {
             let totalScore = 0;
@@ -148,6 +145,33 @@ const PraticePage = ({ params }) => {
         setShowScore(true);
         setHasSubmitted(true);
         setHasFinished(true);
+        const response = await fetch('/data.json');
+        if (!response.ok) {
+            throw new Error('Failed to fetch JSON file');
+        }
+        let data = await response.json();
+        data = data.filter(quiz => quiz.id === quizId)
+        let initialAnswers = data[0].sections.reduce(
+            (acc, section, i) => ({
+                ...acc,
+                [i]: section.questions.reduce(
+                    (acc, _, j) => ({ ...acc, [j]: '' }),
+                    {}
+                ),
+            }),
+            {}
+        );
+        let initialSavedQuestion = { sectionIndex: 0, questionIndex: 0 }
+        // Save to local storage whenever answers change
+        const updatedAnswers = {
+            ...savedData,
+            [quizId]: {
+                answers: initialAnswers,
+                currentQuestion: initialSavedQuestion
+            }
+        };
+        localStorage.setItem('savedData', JSON.stringify(updatedAnswers));
+        router.push('/')
     };
 
     const quizModeSubmit = (e, sectionIndex, questionIndex) => {
@@ -247,7 +271,7 @@ const PraticePage = ({ params }) => {
                                                             Previous
                                                         </button>
                                                     )} */}
-                                                    {!hasSubmitted && questionIndex < section.questions.length - 1 && (
+                                                    {!hasSubmitted && (
                                                         <button
                                                             className="nav_btn"
                                                             type='button'
@@ -282,9 +306,8 @@ const PraticePage = ({ params }) => {
                                                     {hasSubmitted && questionIndex === section.questions.length - 1 && sectionIndex === quiz.sections.length - 1 && (
                                                         <button
                                                             className="nav_btn"
-                                                            onClick={() => {
-                                                                setCurrentSectionIndex(0);
-                                                                setCurrentQuestionIndex(0);
+                                                            onClick={(e) => {
+                                                                handleSubmit(e)
                                                             }}
                                                         >
                                                             Finish
