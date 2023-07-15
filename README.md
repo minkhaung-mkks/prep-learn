@@ -15,7 +15,7 @@ Hi, and thanks for stopping by! This repository houses a project that I hold clo
 
 ## 📝 Latest Update
 
-Currently Quiz mode is fully coded, just need a few more polish and it will be ready to go.
+Currently Quiz mode is done and tested, only need to code the answer screen and the button styles
 
 I'm trying to get the practice test used at my school, it has much more questions that relates to reading passages instead of my own knowledge, which I found to be a challange right now. ( Still trying T_T )
 
