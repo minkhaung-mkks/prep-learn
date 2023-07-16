@@ -37,6 +37,8 @@ const PraticePage = ({ params }) => {
 
                 let initialAnswers;
                 let initialSavedQuestion;
+                let initialSubmissions = [];
+                let currentQuestionSubmissionStatus = false;
                 let savedData = JSON.parse(localStorage.getItem('savedData'));
                 if (savedData) {
                     const savedAnswers = savedData[quizId]?.answers;
@@ -71,6 +73,11 @@ const PraticePage = ({ params }) => {
                     else {
                         initialSavedQuestion = { sectionIndex: 0, questionIndex: 0 }
                     }
+                    const savedSubmissions = savedData[quizId]?.submittedQuestions
+                    if (savedSubmissions) {
+                        initialSubmissions = savedSubmissions
+                        currentQuestionSubmissionStatus = isQuestionSubmitted(initialSavedQuestion.sectionIndex, initialSavedQuestion.questionIndex, initialSubmissions)
+                    }
                 }
                 else {
                     initialAnswers = data[0].sections.reduce(
@@ -92,7 +99,9 @@ const PraticePage = ({ params }) => {
                 setTotalScore(totalQuestions)
                 setAnswers(initialAnswers);
                 setCurrentQuestion(initialSavedQuestion);
+                setSubmittedQuestions(initialSubmissions)
                 setSavedData(savedData)
+                setHasSubmitted(currentQuestionSubmissionStatus)
                 quizFetch.current = true;
             } catch (error) {
                 console.error('Error fetching quiz data: ', error);
@@ -183,16 +192,19 @@ const PraticePage = ({ params }) => {
             setScore(prev => prev + 1)
         }
         setHasSubmitted(true);
-        setSubmittedQuestions((prev) => [...prev, { sectionIndex, questionIndex }]);
+        setSubmittedQuestions((prev) => ({
+            ...prev,
+            [sectionIndex]: [...(prev[sectionIndex] || []), questionIndex],
+        }));
 
     }
-    const isQuestionSubmitted = (sectionIndex, questionIndex) => {
-        return submittedQuestions.some(
-            (submittedQuestion) =>
-                submittedQuestion.sectionIndex === sectionIndex &&
-                submittedQuestion.questionIndex === questionIndex
+    const isQuestionSubmitted = (sectionIndex, questionIndex, checkedSubmissions = submittedQuestions) => {
+        return (
+            checkedSubmissions[sectionIndex] &&
+            checkedSubmissions[sectionIndex].includes(questionIndex)
         );
     };
+
     const nextQuestion = (sectionIndex, questionIndex) => {
         const isNextQuestionSubmitted = isQuestionSubmitted(sectionIndex, questionIndex);
         setHasSubmitted(isNextQuestionSubmitted)
@@ -226,6 +238,7 @@ const PraticePage = ({ params }) => {
                 submittedQuestions: submittedQuestions
             }
         };
+        console.log(submittedQuestions)
         localStorage.setItem('savedData', JSON.stringify(updatedAnswers));
     }, [answers, quizId, currentQuestion, submittedQuestions, savedData]);
     return (
