@@ -10,6 +10,7 @@ const PraticePage = ({ params }) => {
     const firstUpdate = useRef(true);
     const quizFetch = useRef(false);
     const [hasSubmitted, setHasSubmitted] = useState(false)
+    const [submittedQuestions, setSubmittedQuestions] = useState([]);
     const [hasFinished, setHasFinished] = useState(false)
     const [answers, setAnswers] = useState({});
     const [currentQuestion, setCurrentQuestion] = useState({})
@@ -167,7 +168,8 @@ const PraticePage = ({ params }) => {
             ...savedData,
             [quizId]: {
                 answers: initialAnswers,
-                currentQuestion: initialSavedQuestion
+                currentQuestion: initialSavedQuestion,
+                submittedQuestions: [{ sectionIndex: null, questionIndex: null }],
             }
         };
         localStorage.setItem('savedData', JSON.stringify(updatedAnswers));
@@ -181,10 +183,19 @@ const PraticePage = ({ params }) => {
             setScore(prev => prev + 1)
         }
         setHasSubmitted(true);
+        setSubmittedQuestions((prev) => [...prev, { sectionIndex, questionIndex }]);
 
     }
+    const isQuestionSubmitted = (sectionIndex, questionIndex) => {
+        return submittedQuestions.some(
+            (submittedQuestion) =>
+                submittedQuestion.sectionIndex === sectionIndex &&
+                submittedQuestion.questionIndex === questionIndex
+        );
+    };
     const nextQuestion = (sectionIndex, questionIndex) => {
-        setHasSubmitted(false)
+        const isNextQuestionSubmitted = isQuestionSubmitted(sectionIndex, questionIndex);
+        setHasSubmitted(isNextQuestionSubmitted)
         setCurrentQuestion({ sectionIndex, questionIndex })
     }
     const prevQuestion = (sectionIndex, questionIndex) => {
@@ -211,11 +222,12 @@ const PraticePage = ({ params }) => {
             ...savedData,
             [quizId]: {
                 answers: answers,
-                currentQuestion: currentQuestion
+                currentQuestion: currentQuestion,
+                submittedQuestions: submittedQuestions
             }
         };
         localStorage.setItem('savedData', JSON.stringify(updatedAnswers));
-    }, [answers, quizId, currentQuestion, savedData]);
+    }, [answers, quizId, currentQuestion, submittedQuestions, savedData]);
     return (
         <main id="web_page">
             <form onSubmit={handleSubmit} className="quiz_box">
@@ -284,7 +296,7 @@ const PraticePage = ({ params }) => {
                                                             className="nav_btn"
                                                             type="button"
                                                             onClick={() => {
-                                                                nextQuestion(sectionIndex, questionIndex - 1);
+                                                                prevQuestion(sectionIndex, questionIndex - 1);
                                                             }}
                                                         >
                                                             Previous
@@ -293,8 +305,9 @@ const PraticePage = ({ params }) => {
                                                     {questionIndex === 0 && sectionIndex > 0 && (
                                                         <button
                                                             className="nav_btn"
+                                                            type='button'
                                                             onClick={() => {
-                                                                nextQuestion(sectionIndex - 1, quiz.sections[sectionIndex - 1].questions.length - 1);
+                                                                prevQuestion(sectionIndex - 1, quiz.sections[sectionIndex - 1].questions.length - 1);
                                                             }}
                                                         >
                                                             Previous Section
