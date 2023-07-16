@@ -246,8 +246,22 @@ const PraticePage = ({ params }) => {
                             {quizFetch.current &&
                                 quiz.sections.map((section, sectionIndex) => (
                                     <div className="section_box" key={sectionIndex}>
-                                        <h2 className="section_title">Section {sectionIndex + 1}</h2>
-                                        <div className="context_box">
+                                        <h2 className="section_title"
+                                            style={{
+                                                display:
+                                                    currentQuestion.sectionIndex === sectionIndex
+                                                        ? "block"
+                                                        : "none",
+                                            }}
+                                        >Section {sectionIndex + 1}</h2>
+                                        <div className="context_box"
+                                            style={{
+                                                display:
+                                                    currentQuestion.sectionIndex === sectionIndex
+                                                        ? "block"
+                                                        : "none",
+                                            }}
+                                        >
                                             {renderWithLineBreaks(section.context)}
                                         </div>
                                         {section.questions.map((question, questionIndex) => (
