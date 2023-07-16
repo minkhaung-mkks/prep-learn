@@ -187,6 +187,10 @@ const PraticePage = ({ params }) => {
         setHasSubmitted(false)
         setCurrentQuestion({ sectionIndex, questionIndex })
     }
+    const prevQuestion = (sectionIndex, questionIndex) => {
+        setHasSubmitted(true)
+        setCurrentQuestion({ sectionIndex, questionIndex })
+    }
     const renderWithLineBreaks = (text) => {
         const paragraphs = text.split('\n\n'); // Split the text into paragraphs
 
@@ -261,16 +265,28 @@ const PraticePage = ({ params }) => {
                                                     hasSubmitted={hasSubmitted}
                                                 />
                                                 <div className="question_nav">
-                                                    {/* {questionIndex > 0 && (
+                                                    {questionIndex > 0 && (
                                                         <button
                                                             className="nav_btn"
+                                                            type="button"
                                                             onClick={() => {
-                                                                setCurrentQuestionIndex(questionIndex - 1);
+                                                                nextQuestion(sectionIndex, questionIndex - 1);
                                                             }}
                                                         >
                                                             Previous
                                                         </button>
-                                                    )} */}
+                                                    )}
+                                                    {questionIndex === 0 && sectionIndex > 0 && (
+                                                        <button
+                                                            className="nav_btn"
+                                                            onClick={() => {
+                                                                nextQuestion(sectionIndex - 1, quiz.sections[sectionIndex - 1].questions.length - 1);
+                                                            }}
+                                                        >
+                                                            Previous Section
+                                                        </button>
+                                                    )}
+
                                                     {!hasSubmitted && (
                                                         <button
                                                             className="nav_btn"
@@ -297,7 +313,7 @@ const PraticePage = ({ params }) => {
                                                         <button
                                                             className="nav_btn"
                                                             onClick={() => {
-                                                                nextQuestion(sectionIndex + 1, questionIndex)
+                                                                nextQuestion(sectionIndex + 1, 0)
                                                             }}
                                                         >
                                                             Next Section
