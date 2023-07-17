@@ -188,7 +188,7 @@ const PraticePage = ({ params }) => {
         };
 
         localStorage.setItem('savedData', JSON.stringify(updatedSavedData));
-        router.push('/')
+        // router.push('/')
     };
 
     const quizModeSubmit = (e, sectionIndex, questionIndex) => {
