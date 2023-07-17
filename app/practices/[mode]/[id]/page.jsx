@@ -172,16 +172,22 @@ const PraticePage = ({ params }) => {
             {}
         );
         let initialSavedQuestion = { sectionIndex: 0, questionIndex: 0 }
+        const updatedSubmittedQuestions = { ...submittedQuestions };
+        for (const sectionIndex in updatedSubmittedQuestions) {
+            updatedSubmittedQuestions[sectionIndex] = [];
+        }
+
         // Save to local storage whenever answers change
-        const updatedAnswers = {
+        const updatedSavedData = {
             ...savedData,
             [quizId]: {
                 answers: initialAnswers,
                 currentQuestion: initialSavedQuestion,
-                submittedQuestions: [{ sectionIndex: null, questionIndex: null }],
-            }
+                submittedQuestions: updatedSubmittedQuestions,
+            },
         };
-        localStorage.setItem('savedData', JSON.stringify(updatedAnswers));
+
+        localStorage.setItem('savedData', JSON.stringify(updatedSavedData));
         router.push('/')
     };
 
@@ -306,7 +312,7 @@ const PraticePage = ({ params }) => {
                                                 <div className="question_nav">
                                                     {questionIndex > 0 && (
                                                         <button
-                                                            className="nav_btn"
+                                                            className="nav_btn prev_btn"
                                                             type="button"
                                                             onClick={() => {
                                                                 prevQuestion(sectionIndex, questionIndex - 1);
@@ -317,7 +323,7 @@ const PraticePage = ({ params }) => {
                                                     )}
                                                     {questionIndex === 0 && sectionIndex > 0 && (
                                                         <button
-                                                            className="nav_btn"
+                                                            className="nav_btn prev_btn"
                                                             type='button'
                                                             onClick={() => {
                                                                 prevQuestion(sectionIndex - 1, quiz.sections[sectionIndex - 1].questions.length - 1);
@@ -329,7 +335,7 @@ const PraticePage = ({ params }) => {
 
                                                     {!hasSubmitted && (
                                                         <button
-                                                            className="nav_btn"
+                                                            className="nav_btn check_btn"
                                                             type='button'
                                                             onClick={(e) => {
                                                                 quizModeSubmit(e, sectionIndex, questionIndex)
@@ -340,7 +346,7 @@ const PraticePage = ({ params }) => {
                                                     )}
                                                     {hasSubmitted && questionIndex < section.questions.length - 1 && (
                                                         <button
-                                                            className="nav_btn"
+                                                            className="nav_btn next_btn"
                                                             type='button'
                                                             onClick={() => {
                                                                 nextQuestion(sectionIndex, questionIndex + 1)
@@ -351,7 +357,7 @@ const PraticePage = ({ params }) => {
                                                     )}
                                                     {hasSubmitted && questionIndex === section.questions.length - 1 && sectionIndex < quiz.sections.length - 1 && (
                                                         <button
-                                                            className="nav_btn"
+                                                            className="nav_btn next_btn"
                                                             onClick={() => {
                                                                 nextQuestion(sectionIndex + 1, 0)
                                                             }}
