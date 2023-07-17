@@ -367,7 +367,7 @@ const PraticePage = ({ params }) => {
                                                     )}
                                                     {hasSubmitted && questionIndex === section.questions.length - 1 && sectionIndex === quiz.sections.length - 1 && (
                                                         <button
-                                                            className="nav_btn"
+                                                            className="nav_btn finish_btn"
                                                             onClick={(e) => {
                                                                 handleSubmit(e)
                                                             }}
@@ -384,6 +384,21 @@ const PraticePage = ({ params }) => {
                     )
                 }
             </form>
+            {false &&
+                <div className="summary_box">
+                    <h3 className="quiz_name">
+
+                    </h3>
+                    <div className="summary_l">
+                        {/* Quiz Infos */}
+                    </div>
+                    <div className="summary_r">
+                        <h2 className="user_score">
+                            90%
+                        </h2>
+                    </div>
+                </div>
+            }
             {showScore && <h1>Your Score: {score}/{totalScore}</h1>}
         </main>
     )
