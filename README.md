@@ -15,7 +15,7 @@ Hi, and thanks for stopping by! This repository houses a project that I hold clo
 
 ## 📝 Latest Update
 
-Currently Quiz mode is done and tested, only need to code the answer screen and the button styles
+The whole app is pretty much finished except for the summary screen to show the show, I'm currently designing it but tbh dont even have a base idea for it.
 
 I'm trying to get the practice test used at my school, it has much more questions that relates to reading passages instead of my own knowledge, which I found to be a challange right now. ( Still trying T_T )
 
