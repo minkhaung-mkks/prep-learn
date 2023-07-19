@@ -15,6 +15,8 @@ Hi, and thanks for stopping by! This repository houses a project that I hold clo
 
 ## 📝 Latest Update
 
+I met with a few people today and got their feedback and idea on how to move forward with the app. I also decided to start sharing the app after I get at least a member system working, so that people can keep track of quizzes they finished, share their results and more.
+
 The whole app is pretty much finished except for the summary screen to show the show, I'm currently designing it but tbh dont even have a base idea for it.
 
 I'm trying to get the practice test used at my school, it has much more questions that relates to reading passages instead of my own knowledge, which I found to be a challange right now. ( Still trying T_T )
