@@ -15,6 +15,8 @@ Hi, and thanks for stopping by! This repository houses a project that I hold clo
 
 ## 📝 Latest Update
 
+Still desigining I will try to get it done by 25th along with the timed quiz.
+
 I met with a few people today and got their feedback and idea on how to move forward with the app. I also decided to start sharing the app after I get at least a member system working, so that people can keep track of quizzes they finished, share their results and more.
 
 The whole app is pretty much finished except for the summary screen to show the show, I'm currently designing it but tbh dont even have a base idea for it.
