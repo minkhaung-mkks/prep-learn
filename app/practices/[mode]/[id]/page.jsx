@@ -15,8 +15,8 @@ const PraticePage = ({ params }) => {
     const [answers, setAnswers] = useState({});
     const [currentQuestion, setCurrentQuestion] = useState({})
     const [showScore, setShowScore] = useState(false);
-    const [score, setScore] = useState(null);
-    const [totalScore, setTotalScore] = useState(null);
+    const [score, setScore] = useState(0);
+    const [totalScore, setTotalScore] = useState(0);
     const quizId = parseInt(params.id);
     const mode = params.mode
     const [savedData, setSavedData] = useState();
@@ -34,7 +34,6 @@ const PraticePage = ({ params }) => {
                 data[0].sections.forEach((section) => {
                     totalQuestions += section.questions.length;
                 });
-
                 let initialAnswers;
                 let initialSavedQuestion;
                 let initialSubmissions = [];
@@ -137,6 +136,9 @@ const PraticePage = ({ params }) => {
         const answer = answers[sectionIndex][questionIndex];
 
         return answer.toLowerCase() === question.correct.toLowerCase();
+    }
+    const convertToPercent = (max, number) => {
+        return Math.ceil((number / max) * 100)
     }
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -394,7 +396,7 @@ const PraticePage = ({ params }) => {
                     </div>
                     <div className="summary_r">
                         <h2 className="user_score">
-                            90%
+                            {convertToPercent(totalScore, score)} %
                         </h2>
                     </div>
                 </div>
