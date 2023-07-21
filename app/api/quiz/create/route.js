@@ -19,12 +19,16 @@ export const POST = async (req) => {
             source,
             sections: [],
         };
-
+        let totalQuestions = 0;
         for (let i = 0; i < sections.length; i++) {
             let section = await txtToData(sections[i].context, sections[i].questions, sections[i].answers);
             newData = await addToSection(newData, section);
+            sections.forEach((section) => {
+                totalQuestions += section.questions.length;
+            });
         }
 
+        newData.total_questions = totalQuestions;
         let oldData = await fetchOldData();
         if (Array.isArray(oldData)) {
             newData.id = oldData.length + 1;
