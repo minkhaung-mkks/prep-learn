@@ -97,8 +97,6 @@ const Form = () => {
     const handleCreateQuiz = async () => {
         try {
             const data = JSON.stringify(formState)
-            console.log(`Data : ${data}`)
-            console.log(`${formState.sections[0].context}`)
             const response = await fetch('/api/quiz/create', {
                 method: 'POST',
                 headers: {
