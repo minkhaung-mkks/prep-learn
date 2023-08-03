@@ -95,6 +95,11 @@ const QuizInfo = ({ quizInfoState, updateQuizInfoState, nextPage }) => {
         <button className={`selectingBtn ${quizSubtopic.includes(`Nuclear Processes & Radioactivity`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Nuclear Processes & Radioactivity')}>Nuclear Processes & Radioactivity</button>
         <h5>Physics</h5>
         <h5>Biology</h5>
+        <button className={`selectingBtn ${quizSubtopic.includes(`Cell Theory`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Cell Theory')}>Cell Theory</button>
+        <button className={`selectingBtn ${quizSubtopic.includes(`Reproduction & Genes`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Reproduction & Genes')}>Reproduction & Genes</button>
+        <button className={`selectingBtn ${quizSubtopic.includes(`Human Organ Systems`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Human Organ Systems')}>Human Organ Systems</button>
+        <button className={`selectingBtn ${quizSubtopic.includes(`Evolution`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Evolution')}>Evolution</button>
+        <button className={`selectingBtn ${quizSubtopic.includes(`Immune System & Diseases`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Immune System & Diseases')}>Immune System & Diseases</button>
       </div>
       <h4>Difficulty</h4>
       <button className={`selectingBtn ${difficulty === 'Easy' ? 'selectedBtn' : ''} `} onClick={() => handleDifficultyClick('Easy')}>
