@@ -8070,5 +8070,509 @@
         }
       ]
     }]
+  },
+  {
+    "id": 21,
+    "name": "Bio Test #4",
+    "subject": "Sciences",
+    "exam": "GED",
+    "topic": [
+      "Biology"
+    ],
+    "sub_topic": [
+      "Cell Theory",
+      "Reproduction & Genes",
+      "Human Organ Systems"
+    ],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [{
+      "context": "",
+      "questions": [{
+          "text": "Who is credited with the discovery of cells by observing cork under a microscope?",
+          "answers": {
+            "a": "Louis Pasteur",
+            "b": "Robert Hooke",
+            "c": "Anton van Leeuwenhoek",
+            "d": "Rudolf Virchow"
+          },
+          "correct": "b",
+          "answer_text": "Robert Hooke",
+          "reason": "Robert Hooke is credited with the discovery of cells by observing cork under a microscope."
+        },
+        {
+          "text": "Which statement is a part of the cell theory?",
+          "answers": {
+            "a": "Cells can only come from other cells.",
+            "b": "All cells contain chloroplasts.",
+            "c": "Cells are only present in plants.",
+            "d": "Cells are always visible to the naked eye."
+          },
+          "correct": "a",
+          "answer_text": "Cells",
+          "reason": "One of the principles of the cell theory is that all living things are composed of cells."
+        },
+        {
+          "text": "The idea that \"all cells come from pre-existing cells\" was proposed by __________.",
+          "answers": {
+            "a": "Robert Hooke",
+            "b": "Anton van Leeuwenhoek",
+            "c": "Rudolf Virchow",
+            "d": "Louis Pasteur"
+          },
+          "correct": "c",
+          "answer_text": "Rudolf Virchow",
+          "reason": "Rudolf Virchow proposed that all cells arise from pre-existing cells."
+        },
+        {
+          "text": "Which type of microscope is best suited for studying the detailed structures inside cells?",
+          "answers": {
+            "a": "Light microscope",
+            "b": "Compound microscope",
+            "c": "Scanning electron microscope",
+            "d": "Transmission electron microscope"
+          },
+          "correct": "c",
+          "answer_text": "Scanning electron microscope",
+          "reason": "Detailed structures inside cells can be studied using a scanning electron microscope."
+        },
+        {
+          "text": "Which of the following is a characteristic of eukaryotic cells?",
+          "answers": {
+            "a": "Lack of a nucleus",
+            "b": "Presence of cell walls",
+            "c": "Absence of membrane-bound organelles",
+            "d": "Presence of a true nucleus"
+          },
+          "correct": "d",
+          "answer_text": "Presence of a true nucleus",
+          "reason": "Eukaryotic cells are characterized by the presence of a true nucleus."
+        },
+        {
+          "text": "Which organelle is responsible for packaging and transporting proteins within the cell?",
+          "answers": {
+            "a": "Mitochondria",
+            "b": "Nucleus",
+            "c": "Golgi apparatus",
+            "d": "Ribosome"
+          },
+          "correct": "c",
+          "answer_text": "Golgi apparatus",
+          "reason": "The Golgi apparatus is responsible for packaging and transporting proteins within the cell."
+        },
+        {
+          "text": "What is the primary function of the mitochondria?",
+          "answers": {
+            "a": "Photosynthesis",
+            "b": "Cellular respiration",
+            "c": "Protein synthesis",
+            "d": "Lipid synthesis"
+          },
+          "correct": "b",
+          "answer_text": "Cellular respiration",
+          "reason": "The primary function of mitochondria is to carry out cellular respiration."
+        },
+        {
+          "text": "Which organelle is responsible for producing ribosomes?",
+          "answers": {
+            "a": "Golgi apparatus",
+            "b": "Nucleus",
+            "c": "Endoplasmic reticulum",
+            "d": "Nucleolus"
+          },
+          "correct": "d",
+          "answer_text": "Nucleolus",
+          "reason": "The nucleolus is responsible for producing ribosomes."
+        },
+        {
+          "text": "What is the primary role of the cell membrane?",
+          "answers": {
+            "a": "Energy production",
+            "b": "DNA replication",
+            "c": "Controls the movement of substances in and out of the cell",
+            "d": "Synthesis of proteins"
+          },
+          "correct": "c",
+          "answer_text": "Controls the movement of substances in and out of the cell",
+          "reason": "The primary function of the cell membrane is to regulate the movement of substances."
+        },
+        {
+          "text": "In a hypertonic solution, a cell will likely __________.",
+          "answers": {
+            "a": "Gain water and swell",
+            "b": "Lose water and shrink",
+            "c": "Remain unchanged",
+            "d": "Divide into two daughter cells"
+          },
+          "correct": "b",
+          "answer_text": "Lose water and shrink",
+          "reason": "In a hypertonic solution, a cell tends to lose water and shrink."
+        },
+        {
+          "text": "Which type of cell division is responsible for producing gametes?",
+          "answers": {
+            "a": "Mitosis",
+            "b": "Meiosis",
+            "c": "Binary fission",
+            "d": "Budding"
+          },
+          "correct": "b",
+          "answer_text": "Meiosis",
+          "reason": "Meiosis is the type of cell division that produces gametes."
+        },
+        {
+          "text": "The diploid number of chromosomes in a human cell is typically __________.",
+          "answers": {
+            "a": "23",
+            "b": "46",
+            "c": "12",
+            "d": "92"
+          },
+          "correct": "b",
+          "answer_text": "46",
+          "reason": "The diploid number of chromosomes in a human cell is typically 46."
+        },
+        {
+          "text": "During which phase of meiosis does crossing over occur?",
+          "answers": {
+            "a": "Prophase I",
+            "b": "Metaphase I",
+            "c": "Anaphase I",
+            "d": "Telophase I"
+          },
+          "correct": "a",
+          "answer_text": "Prophase I",
+          "reason": "Crossing over occurs during prophase I of meiosis."
+        },
+        {
+          "text": "The process of fertilization involves the fusion of __________.",
+          "answers": {
+            "a": "Two diploid cells",
+            "b": "Two haploid cells",
+            "c": "A haploid cell and a diploid cell",
+            "d": "Two identical cells"
+          },
+          "correct": "c",
+          "answer_text": "A haploid cell and a diploid cell",
+          "reason": "Fertilization involves the fusion of a haploid sperm cell and a haploid egg cell."
+        },
+        {
+          "text": "Which of the following is a reproductive adaptation that increases genetic diversity?",
+          "answers": {
+            "a": "Cloning",
+            "b": "Binary fission",
+            "c": "Asexual reproduction",
+            "d": "Sexual reproduction"
+          },
+          "correct": "d",
+          "answer_text": "Sexual reproduction",
+          "reason": "Sexual reproduction increases genetic diversity."
+        },
+        {
+          "text": "What is the function of the placenta during pregnancy?",
+          "answers": {
+            "a": "Oxygen production",
+            "b": "Nutrient storage",
+            "c": "Gas exchange between mother and fetus",
+            "d": "Protection of the uterus"
+          },
+          "correct": "c",
+          "answer_text": "Gas exchange between mother and fetus",
+          "reason": "The placenta facilitates gas exchange between the mother and the developing fetus."
+        },
+        {
+          "text": "The process by which a single fertilized egg splits into two embryos is called __________.",
+          "answers": {
+            "a": "Budding",
+            "b": "Mitosis",
+            "c": "Fertilization",
+            "d": "Identical twinning"
+          },
+          "correct": "d",
+          "answer_text": "Identical twinning",
+          "reason": "Identical twins result from a single fertilized egg splitting into two embryos."
+        },
+        {
+          "text": "Which of the following is NOT a male reproductive structure?",
+          "answers": {
+            "a": "Sperm",
+            "b": "Testes",
+            "c": "Ovary",
+            "d": "Vas deferens"
+          },
+          "correct": "c",
+          "answer_text": "Ovary",
+          "reason": "The ovary is a female reproductive structure."
+        },
+        {
+          "text": "A gamete with the genotype XY represents a __________.",
+          "answers": {
+            "a": "Female",
+            "b": "Male",
+            "c": "Hermaphrodite",
+            "d": "Asexual organism"
+          },
+          "correct": "b",
+          "answer_text": "Male",
+          "reason": "The XY genotype represents a male."
+        },
+        {
+          "text": "Which hormone is responsible for the development of female secondary sexual characteristics?",
+          "answers": {
+            "a": "Estrogen",
+            "b": "Testosterone",
+            "c": "Progesterone",
+            "d": "Insulin"
+          },
+          "correct": "a",
+          "answer_text": "Estrogen",
+          "reason": "Estrogen is responsible for the development of female secondary sexual characteristics."
+        },
+        {
+          "text": "Which organ is responsible for filtering waste from the blood and producing urine?",
+          "answers": {
+            "a": "Heart",
+            "b": "Liver",
+            "c": "Kidneys",
+            "d": "Stomach"
+          },
+          "correct": "c",
+          "answer_text": "Kidneys",
+          "reason": "The kidneys filter waste from the blood and produce urine."
+        },
+        {
+          "text": "What is the main function of the respiratory system?",
+          "answers": {
+            "a": "Pump blood throughout the body",
+            "b": "Digest food",
+            "c": "Exchange gases with the environment",
+            "d": "Regulate body temperature"
+          },
+          "correct": "c",
+          "answer_text": "Exchange gases with the environment",
+          "reason": "The main function of the respiratory system is to exchange gases like oxygen and carbon dioxide."
+        },
+        {
+          "text": "The primary function of the circulatory system is __________.",
+          "answers": {
+            "a": "Movement",
+            "b": "Digestion",
+            "c": "Transportation of nutrients and gases",
+            "d": "Protection"
+          },
+          "correct": "c",
+          "answer_text": "Transportation of nutrients and gases",
+          "reason": "The circulatory system is responsible for transporting nutrients and gases throughout the body."
+        },
+        {
+          "text": "Which organ is responsible for producing insulin to regulate blood sugar levels?",
+          "answers": {
+            "a": "Kidneys",
+            "b": "Liver",
+            "c": "Pancreas",
+            "d": "Spleen"
+          },
+          "correct": "c",
+          "answer_text": "Pancreas",
+          "reason": "The pancreas produces insulin to regulate blood sugar levels."
+        },
+        {
+          "text": "The central nervous system consists of the __________.",
+          "answers": {
+            "a": "Brain and spinal cord",
+            "b": "Nerves and sensory receptors",
+            "c": "Autonomic and somatic nervous systems",
+            "d": "Sympathetic and parasympathetic systems"
+          },
+          "correct": "a",
+          "answer_text": "Brain and spinal cord",
+          "reason": "The central nervous system consists of the brain and spinal cord."
+        },
+        {
+          "text": "What is the function of red blood cells?",
+          "answers": {
+            "a": "Carry oxygen",
+            "b": "Fight infections",
+            "c": "Produce hormones",
+            "d": "Digest food"
+          },
+          "correct": "a",
+          "answer_text": "Carry oxygen",
+          "reason": "Red blood cells primarily carry oxygen."
+        },
+        {
+          "text": "Which gland is often referred to as the \"master gland\" because it regulates other glands?",
+          "answers": {
+            "a": "Adrenal gland",
+            "b": "Thyroid gland",
+            "c": "Pancreas",
+            "d": "Pituitary gland"
+          },
+          "correct": "d",
+          "answer_text": "Pituitary gland",
+          "reason": "The pituitary gland is often referred to as the \"master gland.\""
+        },
+        {
+          "text": "The brain is divided into different regions called __________.",
+          "answers": {
+            "a": "Ventricles",
+            "b": "Hemispheres",
+            "c": "Nodes",
+            "d": "Ganglia"
+          },
+          "correct": "b",
+          "answer_text": "Hemispheres",
+          "reason": "The brain is divided into two hemispheres."
+        },
+        {
+          "text": "Which part of the digestive system is responsible for absorbing water and forming feces?",
+          "answers": {
+            "a": "Stomach",
+            "b": "Small intestine",
+            "c": "Large intestine",
+            "d": "Esophagus"
+          },
+          "correct": "c",
+          "answer_text": "Large intestine",
+          "reason": "The large intestine absorbs water and forms feces."
+        },
+        {
+          "text": "The hormone responsible for fight-or-flight responses is __________.",
+          "answers": {
+            "a": "Estrogen",
+            "b": "Testosterone",
+            "c": "Epinephrine (adrenaline)",
+            "d": "Melatonin"
+          },
+          "correct": "c",
+          "answer_text": "Epinephrine (adrenaline)",
+          "reason": "Epinephrine (adrenaline) is responsible for fight-or-flight responses."
+        },
+        {
+          "text": "Which of the following is an example of an autotrophic organism?",
+          "answers": {
+            "a": "Human",
+            "b": "Lion",
+            "c": "Oak tree",
+            "d": "Dog"
+          },
+          "correct": "c",
+          "answer_text": "Oak tree",
+          "reason": "Oak trees are autotrophic, meaning they produce their own food through photosynthesis."
+        },
+        {
+          "text": "In the process of photosynthesis, plants convert __________ into __________.",
+          "answers": {
+            "a": "Carbon dioxide, oxygen",
+            "b": "Glucose, oxygen",
+            "c": "Oxygen, carbon dioxide",
+            "d": "Water, nitrogen"
+          },
+          "correct": "b",
+          "answer_text": "Glucose, oxygen",
+          "reason": "In photosynthesis, plants convert carbon dioxide and water into glucose and oxygen."
+        },
+        {
+          "text": "Which macromolecule is primarily broken down by enzymes in the stomach?",
+          "answers": {
+            "a": "Proteins",
+            "b": "Carbohydrates",
+            "c": "Lipids",
+            "d": "Nucleic acids"
+          },
+          "correct": "a",
+          "answer_text": "Proteins",
+          "reason": "Enzymes in the stomach primarily break down proteins."
+        },
+        {
+          "text": "The process by which cells convert glucose into energy in the presence of oxygen is called __________.",
+          "answers": {
+            "a": "Photosynthesis",
+            "b": "Fermentation",
+            "c": "Cellular respiration",
+            "d": "Diffusion"
+          },
+          "correct": "c",
+          "answer_text": "Cellular respiration",
+          "reason": "Cellular respiration converts glucose and oxygen into energy."
+        },
+        {
+          "text": "What is the role of DNA polymerase in DNA replication?",
+          "answers": {
+            "a": "Initiating DNA synthesis",
+            "b": "Unzipping the DNA double helix",
+            "c": "Repairing damaged DNA",
+            "d": "Adding new nucleotides to the growing DNA strand"
+          },
+          "correct": "d",
+          "answer_text": "Adding new nucleotides to the growing DNA strand",
+          "reason": "DNA polymerase adds new nucleotides during DNA replication."
+        },
+        {
+          "text": "The process by which certain animals enter a dormant state to conserve energy during harsh conditions is called __________.",
+          "answers": {
+            "a": "Hibernation",
+            "b": "Migration",
+            "c": "Camouflage",
+            "d": "Photosynthesis"
+          },
+          "correct": "a",
+          "answer_text": "Hibernation",
+          "reason": "Hibernation is a state of dormancy used by certain animals to conserve energy."
+        },
+        {
+          "text": "Which of the following diseases is caused by a virus?",
+          "answers": {
+            "a": "Tuberculosis",
+            "b": "Malaria",
+            "c": "Influenza",
+            "d": "Cholera"
+          },
+          "correct": "c",
+          "answer_text": "Influenza",
+          "reason": "Influenza is caused by a virus."
+        },
+        {
+          "text": "What is the primary function of the lymphatic system?",
+          "answers": {
+            "a": "Pumping blood",
+            "b": "Regulating body temperature",
+            "c": "Transporting nutrients",
+            "d": "Fighting infections"
+          },
+          "correct": "d",
+          "answer_text": "Fighting infections",
+          "reason": "The lymphatic system plays a role in fighting infections."
+        },
+        {
+          "text": "Osmosis is the movement of __________.",
+          "answers": {
+            "a": "Solvent molecules from a lower concentration to a higher concentration",
+            "b": "Solvent molecules from a higher concentration to a lower concentration",
+            "c": "Solute molecules from a lower concentration to a higher concentration",
+            "d": "Solute molecules from a higher concentration to a lower concentration"
+          },
+          "correct": "b",
+          "answer_text": "Solvent molecules from a higher concentration to a lower concentration",
+          "reason": "Osmosis involves the movement of solvent molecules from a higher concentration to a lower concentration."
+        },
+        {
+          "text": "During which phase of the cell cycle does cell division occur?",
+          "answers": {
+            "a": "G1 phase",
+            "b": "S phase",
+            "c": "G2 phase",
+            "d": "M phase"
+          },
+          "correct": "d",
+          "answer_text": "M phase",
+          "reason": "Cell division occurs during the M phase of the cell cycle."
+        }
+      ]
+    }]
   }
 ]

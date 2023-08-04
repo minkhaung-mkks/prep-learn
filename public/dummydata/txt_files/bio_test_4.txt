@@ -237,3 +237,124 @@
     b. S phase
     c. G2 phase
     d. M phase
+
+
+1. b. Robert Hooke
+   - Robert Hooke is credited with the discovery of cells by observing cork under a microscope.
+
+2. a. Cells
+   - One of the principles of the cell theory is that all living things are composed of cells.
+
+3. c. Rudolf Virchow
+   - Rudolf Virchow proposed that all cells arise from pre-existing cells.
+
+4. c. Scanning electron microscope
+   - Detailed structures inside cells can be studied using a scanning electron microscope.
+
+5. d. Presence of a true nucleus
+   - Eukaryotic cells are characterized by the presence of a true nucleus.
+
+6. c. Golgi apparatus
+   - The Golgi apparatus is responsible for packaging and transporting proteins within the cell.
+
+7. b. Cellular respiration
+   - The primary function of mitochondria is to carry out cellular respiration.
+
+8. d. Nucleolus
+   - The nucleolus is responsible for producing ribosomes.
+
+9. c. Controls the movement of substances in and out of the cell
+   - The primary function of the cell membrane is to regulate the movement of substances.
+
+10. b. Lose water and shrink
+    - In a hypertonic solution, a cell tends to lose water and shrink.
+
+11. b. Meiosis
+    - Meiosis is the type of cell division that produces gametes.
+
+12. b. 46
+    - The diploid number of chromosomes in a human cell is typically 46.
+
+13. a. Prophase I
+    - Crossing over occurs during prophase I of meiosis.
+
+14. c. A haploid cell and a diploid cell
+    - Fertilization involves the fusion of a haploid sperm cell and a haploid egg cell.
+
+15. d. Sexual reproduction
+    - Sexual reproduction increases genetic diversity.
+
+16. c. Gas exchange between mother and fetus
+    - The placenta facilitates gas exchange between the mother and the developing fetus.
+
+17. d. Identical twinning
+    - Identical twins result from a single fertilized egg splitting into two embryos.
+
+18. c. Ovary
+    - The ovary is a female reproductive structure.
+
+19. b. Male
+    - The XY genotype represents a male.
+
+20. a. Estrogen
+    - Estrogen is responsible for the development of female secondary sexual characteristics.
+
+21. c. Kidneys
+    - The kidneys filter waste from the blood and produce urine.
+
+22. c. Exchange gases with the environment
+    - The main function of the respiratory system is to exchange gases like oxygen and carbon dioxide.
+
+23. c. Transportation of nutrients and gases
+    - The circulatory system is responsible for transporting nutrients and gases throughout the body.
+
+24. c. Pancreas
+    - The pancreas produces insulin to regulate blood sugar levels.
+
+25. a. Brain and spinal cord
+    - The central nervous system consists of the brain and spinal cord.
+
+26. a. Carry oxygen
+    - Red blood cells primarily carry oxygen.
+
+27. d. Pituitary gland
+    - The pituitary gland is often referred to as the "master gland."
+
+28. b. Hemispheres
+    - The brain is divided into two hemispheres.
+
+29. c. Large intestine
+    - The large intestine absorbs water and forms feces.
+
+30. c. Epinephrine (adrenaline)
+    - Epinephrine (adrenaline) is responsible for fight-or-flight responses.
+
+31. c. Oak tree
+    - Oak trees are autotrophic, meaning they produce their own food through photosynthesis.
+
+32. b. Glucose, oxygen
+    - In photosynthesis, plants convert carbon dioxide and water into glucose and oxygen.
+
+33. a. Proteins
+    - Enzymes in the stomach primarily break down proteins.
+
+34. c. Cellular respiration
+    - Cellular respiration converts glucose and oxygen into energy.
+
+35. d. Adding new nucleotides to the growing DNA strand
+    - DNA polymerase adds new nucleotides during DNA replication.
+
+36. a. Hibernation
+    - Hibernation is a state of dormancy used by certain animals to conserve energy.
+
+37. c. Influenza
+    - Influenza is caused by a virus.
+
+38. d. Fighting infections
+    - The lymphatic system plays a role in fighting infections.
+
+39. b. Solvent molecules from a higher concentration to a lower concentration
+    - Osmosis involves the movement of solvent molecules from a higher concentration to a lower concentration.
+
+40. d. M phase
+    - Cell division occurs during the M phase of the cell cycle.
