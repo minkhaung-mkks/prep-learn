@@ -1,0 +1,239 @@
+1. Who is credited with the discovery of cells by observing cork under a microscope?
+   a. Louis Pasteur
+   b. Robert Hooke
+   c. Anton van Leeuwenhoek
+   d. Rudolf Virchow
+
+2. Which statement is a part of the cell theory?
+   a. Cells can only come from other cells.
+   b. All cells contain chloroplasts.
+   c. Cells are only present in plants.
+   d. Cells are always visible to the naked eye.
+
+3. The idea that "all cells come from pre-existing cells" was proposed by __________.
+   a. Robert Hooke
+   b. Anton van Leeuwenhoek
+   c. Rudolf Virchow
+   d. Louis Pasteur
+
+4. Which type of microscope is best suited for studying the detailed structures inside cells?
+   a. Light microscope
+   b. Compound microscope
+   c. Scanning electron microscope
+   d. Transmission electron microscope
+
+5. Which of the following is a characteristic of eukaryotic cells?
+   a. Lack of a nucleus
+   b. Presence of cell walls
+   c. Absence of membrane-bound organelles
+   d. Presence of a true nucleus
+
+6. Which organelle is responsible for packaging and transporting proteins within the cell?
+   a. Mitochondria
+   b. Nucleus
+   c. Golgi apparatus
+   d. Ribosome
+
+7. What is the primary function of the mitochondria?
+   a. Photosynthesis
+   b. Cellular respiration
+   c. Protein synthesis
+   d. Lipid synthesis
+
+8. Which organelle is responsible for producing ribosomes?
+   a. Golgi apparatus
+   b. Nucleus
+   c. Endoplasmic reticulum
+   d. Nucleolus
+
+9. What is the primary role of the cell membrane?
+   a. Energy production
+   b. DNA replication
+   c. Controls the movement of substances in and out of the cell
+   d. Synthesis of proteins
+
+10. In a hypertonic solution, a cell will likely __________.
+    a. Gain water and swell
+    b. Lose water and shrink
+    c. Remain unchanged
+    d. Divide into two daughter cells
+
+11. Which type of cell division is responsible for producing gametes?
+    a. Mitosis
+    b. Meiosis
+    c. Binary fission
+    d. Budding
+
+12. The diploid number of chromosomes in a human cell is typically __________.
+    a. 23
+    b. 46
+    c. 12
+    d. 92
+
+13. During which phase of meiosis does crossing over occur?
+    a. Prophase I
+    b. Metaphase I
+    c. Anaphase I
+    d. Telophase I
+
+14. The process of fertilization involves the fusion of __________.
+    a. Two diploid cells
+    b. Two haploid cells
+    c. A haploid cell and a diploid cell
+    d. Two identical cells
+
+15. Which of the following is a reproductive adaptation that increases genetic diversity?
+    a. Cloning
+    b. Binary fission
+    c. Asexual reproduction
+    d. Sexual reproduction
+
+16. What is the function of the placenta during pregnancy?
+    a. Oxygen production
+    b. Nutrient storage
+    c. Gas exchange between mother and fetus
+    d. Protection of the uterus
+
+17. The process by which a single fertilized egg splits into two embryos is called __________.
+    a. Budding
+    b. Mitosis
+    c. Fertilization
+    d. Identical twinning
+
+18. Which of the following is NOT a male reproductive structure?
+    a. Sperm
+    b. Testes
+    c. Ovary
+    d. Vas deferens
+
+19. A gamete with the genotype XY represents a __________.
+    a. Female
+    b. Male
+    c. Hermaphrodite
+    d. Asexual organism
+
+20. Which hormone is responsible for the development of female secondary sexual characteristics?
+    a. Estrogen
+    b. Testosterone
+    c. Progesterone
+    d. Insulin
+
+21. Which organ is responsible for filtering waste from the blood and producing urine?
+    a. Heart
+    b. Liver
+    c. Kidneys
+    d. Stomach
+
+22. What is the main function of the respiratory system?
+    a. Pump blood throughout the body
+    b. Digest food
+    c. Exchange gases with the environment
+    d. Regulate body temperature
+
+23. The primary function of the circulatory system is __________.
+    a. Movement
+    b. Digestion
+    c. Transportation of nutrients and gases
+    d. Protection
+
+24. Which organ is responsible for producing insulin to regulate blood sugar levels?
+    a. Kidneys
+    b. Liver
+    c. Pancreas
+    d. Spleen
+
+25. The central nervous system consists of the __________.
+    a. Brain and spinal cord
+    b. Nerves and sensory receptors
+    c. Autonomic and somatic nervous systems
+    d. Sympathetic and parasympathetic systems
+
+26. What is the function of red blood cells?
+    a. Carry oxygen
+    b. Fight infections
+    c. Produce hormones
+    d. Digest food
+
+27. Which gland is often referred to as the "master gland" because it regulates other glands?
+    a. Adrenal gland
+    b. Thyroid gland
+    c. Pancreas
+    d. Pituitary gland
+
+28. The brain is divided into different regions called __________.
+    a. Ventricles
+    b. Hemispheres
+    c. Nodes
+    d. Ganglia
+
+29. Which part of the digestive system is responsible for absorbing water and forming feces?
+    a. Stomach
+    b. Small intestine
+    c. Large intestine
+    d. Esophagus
+
+30. The hormone responsible for fight-or-flight responses is __________.
+    a. Estrogen
+    b. Testosterone
+    c. Epinephrine (adrenaline)
+    d. Melatonin
+
+31. Which of the following is an example of an autotrophic organism?
+    a. Human
+    b. Lion
+    c. Oak tree
+    d. Dog
+
+32. In the process of photosynthesis, plants convert __________ into __________.
+    a. Carbon dioxide, oxygen
+    b. Glucose, oxygen
+    c. Oxygen, carbon dioxide
+    d. Water, nitrogen
+
+33. Which macromolecule is primarily broken down by enzymes in the stomach?
+    a. Proteins
+    b. Carbohydrates
+    c. Lipids
+    d. Nucleic acids
+
+34. The process by which cells convert glucose into energy in the presence of oxygen is called __________.
+    a. Photosynthesis
+    b. Fermentation
+    c. Cellular respiration
+    d. Diffusion
+
+35. What is the role of DNA polymerase in DNA replication?
+    a. Initiating DNA synthesis
+    b. Unzipping the DNA double helix
+    c. Repairing damaged DNA
+    d. Adding new nucleotides to the growing DNA strand
+
+36. The process by which certain animals enter a dormant state to conserve energy during harsh conditions is called __________.
+    a. Hibernation
+    b. Migration
+    c. Camouflage
+    d. Photosynthesis
+
+37. Which of the following diseases is caused by a virus?
+    a. Tuberculosis
+    b. Malaria
+    c. Influenza
+    d. Cholera
+
+38. What is the primary function of the lymphatic system?
+    a. Pumping blood
+    b. Regulating body temperature
+    c. Transporting nutrients
+    d. Fighting infections
+
+39. Osmosis is the movement of __________.
+    a. Solvent molecules from a lower concentration to a higher concentration
+    b. Solvent molecules from a higher concentration to a lower concentration
+    c. Solute molecules from a lower concentration to a higher concentration
+    d. Solute molecules from a higher concentration to a lower concentration
+
+40. During which phase of the cell cycle does cell division occur?
+    a. G1 phase
+    b. S phase
+    c. G2 phase
+    d. M phase
