@@ -23,11 +23,15 @@ export const POST = async (req) => {
         for (let i = 0; i < sections.length; i++) {
             let section = await txtToData(sections[i].context, sections[i].questions, sections[i].answers);
             newData = await addToSection(newData, section);
-            sections.forEach((section) => {
-                totalQuestions += section.questions.length;
-            });
-        }
 
+        }
+        newData.sections.forEach((section) => {
+            console.log(section)
+            console.log(section.questions)
+            console.log(section.questions.length)
+            totalQuestions += section.questions.length;
+            console.log(totalQuestions)
+        });
         newData.total_questions = totalQuestions;
         let oldData = await fetchOldData();
         if (Array.isArray(oldData)) {
