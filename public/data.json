@@ -3012,12 +3012,19 @@
     "topic": [
       "Chemistry"
     ],
-    "sub_topic": [],
+    "sub_topic": [
+      "Matter",
+      "Molecues & Compound",
+      "Periodic Table Elements",
+      "Chemical & Physical Properties",
+      "Chemical Reaction",
+      "Rate of Reaction"
+    ],
     "difficulty": "Medium",
     "creator": "",
     "creatorID": "",
     "type": "Normal",
-    "total_questions": 0,
+    "total_questions": 40,
     "source": "Generated",
     "sections": [{
       "context": "",
@@ -3513,12 +3520,21 @@
     "topic": [
       "Chemistry"
     ],
-    "sub_topic": [],
+    "sub_topic": [
+      "Matter",
+      "Molecues & Compound",
+      "Periodic Table Elements",
+      "Chemical & Physical Properties",
+      "Chemical Reaction",
+      "Rate of Reaction",
+      "Acid & Base",
+      "Nuclear Processes & Radioactivity"
+    ],
     "difficulty": "Medium",
     "creator": "",
     "creatorID": "",
     "type": "Normal",
-    "total_questions": 0,
+    "total_questions": 40,
     "source": "Generated",
     "sections": [{
       "context": "",
@@ -4018,7 +4034,7 @@
     "creator": "",
     "creatorID": "",
     "type": "Normal",
-    "total_questions": 0,
+    "total_questions": 40,
     "source": "Generated",
     "sections": [{
       "context": "",
@@ -4518,7 +4534,7 @@
     "creator": "",
     "creatorID": "",
     "type": "Normal",
-    "total_questions": 0,
+    "total_questions": 5,
     "source": "Generated",
     "sections": [{
       "context": "In the early 20th century, bicycles were seen as a symbol of freedom and a means of transportation for the masses. They were a cheaper and more accessible alternative to horses and carriages, and their popularity skyrocketed as manufacturers began producing them in large quantities.\n\nBicycles became a symbol of empowerment for women, who were finally able to travel independently without relying on male chaperones. They were also embraced by the working class, who used them to commute to and from work. The popularity of bicycles was so great that entire cities were redesigned to accommodate them.\n\nHowever, the rise of the automobile industry in the mid-20th century led to a decline in the use of bicycles for transportation. Cars were faster, more comfortable, and more convenient, and their use quickly became the norm. In many places, cycling was seen as a leisure activity rather than a practical means of transportation.\n\nRecently, however, there has been a renewed interest in cycling as a means of transportation. Bicycles are seen as a solution to many problems facing modern cities, including traffic congestion, air pollution, and a lack of physical activity. Cycling is also a relatively inexpensive and environmentally friendly alternative to cars.",
@@ -4599,7 +4615,7 @@
     "creator": "",
     "creatorID": "",
     "type": "Normal",
-    "total_questions": 0,
+    "total_questions": 15,
     "source": "Generated",
     "sections": [{
         "context": "The sun was shining brightly, casting a warm glow over the meadow. Sarah sat under a large oak tree, engrossed in her book. As she turned the pages, she could hear the gentle rustling of the leaves in the breeze. It was a peaceful afternoon, and Sarah felt a sense of tranquility enveloping her. The book she was reading was a gripping tale of adventure, transporting her to faraway lands and igniting her imagination. Time seemed to stand still as she delved deeper into the story, completely absorbed in the words on the page.",
@@ -4793,7 +4809,7 @@
     "creator": "",
     "creatorID": "",
     "type": "Normal",
-    "total_questions": 0,
+    "total_questions": 7,
     "source": "Generated",
     "sections": [{
       "context": "The sun slowly descended behind the horizon, casting a golden glow across the tranquil lake. As the day turned into night, the stars emerged, sparkling like diamonds in the darkened sky. A gentle breeze rustled through the leaves, whispering secrets of the night. The moon, radiant and full, illuminated the surroundings with its ethereal light. It was a scene of serenity and magic, where nature's beauty intertwined with the mysteries of the universe.",
@@ -4898,7 +4914,7 @@
     "creator": "",
     "creatorID": "",
     "type": "Normal",
-    "total_questions": 0,
+    "total_questions": 6,
     "source": "Generated",
     "sections": [{
       "context": "As the sun began its descent, casting a warm orange glow across the horizon, the children gathered at the edge of the meadow. They were eager to witness the annual migration of the monarch butterflies. Every year, thousands of these delicate creatures embarked on a remarkable journey, traveling thousands of miles to their wintering grounds. The children stood in awe as a wave of orange and black wings fluttered through the air, creating a mesmerizing spectacle. They marveled at the resilience and determination of these small creatures, overcoming obstacles and defying the odds to reach their destination. It was a reminder of the wonders of nature and the remarkable feats that can be accomplished through perseverance and unity.",
@@ -4991,7 +5007,7 @@
     "creator": "",
     "creatorID": "",
     "type": "Normal",
-    "total_questions": 0,
+    "total_questions": 6,
     "source": "Generated",
     "sections": [{
       "context": "The old lighthouse stood tall on the rocky cliff, its weathered exterior telling stories of years gone by. It had witnessed countless storms and guided ships safely to shore. As the sun dipped below the horizon, the lighthouse came to life, its beam of light piercing through the darkness. It served as a constant beacon of hope and guidance for sailors navigating treacherous waters. Visitors marveled at its architectural beauty and the rich history it held within its walls. The lighthouse stood as a symbol of resilience and the enduring power of light in the face of adversity.",
@@ -5078,12 +5094,14 @@
     "topic": [
       "Biology"
     ],
-    "sub_topic": [],
+    "sub_topic": [
+      "Cell Theory"
+    ],
     "difficulty": "Medium",
     "creator": "",
     "creatorID": "",
     "type": "Normal",
-    "total_questions": 0,
+    "total_questions": 40,
     "source": "Generated",
     "sections": [{
       "context": "",
@@ -5578,12 +5596,14 @@
     "topic": [
       "Biology"
     ],
-    "sub_topic": [],
+    "sub_topic": [
+      "Cell Theory"
+    ],
     "difficulty": "Medium",
     "creator": "",
     "creatorID": "",
     "type": "Normal",
-    "total_questions": 0,
+    "total_questions": 40,
     "source": "Generated",
     "sections": [{
       "context": "",
@@ -6077,12 +6097,14 @@
     "topic": [
       "Biology"
     ],
-    "sub_topic": [],
+    "sub_topic": [
+      "Cell Theory"
+    ],
     "difficulty": "Medium",
     "creator": "",
     "creatorID": "",
     "type": "Normal",
-    "total_questions": 0,
+    "total_questions": 40,
     "source": "Generated",
     "sections": [{
       "context": "",
@@ -7573,13 +7595,17 @@
   },
   {
     "id": 20,
-    "name": "Bio Test #5",
+    "name": "Bio Test #4",
     "subject": "Sciences",
     "exam": "GED",
     "topic": [
       "Biology"
     ],
-    "sub_topic": [],
+    "sub_topic": [
+      "Cell Theory",
+      "Reproduction & Genes",
+      "Human Organ Systems"
+    ],
     "difficulty": "Medium",
     "creator": "",
     "creatorID": "",
@@ -8073,7 +8099,7 @@
   },
   {
     "id": 21,
-    "name": "Bio Test #4",
+    "name": "Bio Test #5",
     "subject": "Sciences",
     "exam": "GED",
     "topic": [
