@@ -15,6 +15,8 @@ Hi, and thanks for stopping by! This repository houses a project that I hold clo
 
 ## 📝 Latest Update
 
+05/08/2023 : Gonna finalize the design and finish the app basics tomorrow, then take a break from the app to polish up my skills a bit more before designing the user system.
+
 I have came up with a design but still not too sure about it, I want to evoke a feeling of accomplishment when the screen pops up the current design just seems to be an info window.
 
 I met with a few people today and got their feedback and idea on how to move forward with the app. I also decided to start sharing the app after I get at least a member system working, so that people can keep track of quizzes they finished, share their results and more.
