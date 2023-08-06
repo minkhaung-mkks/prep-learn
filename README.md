@@ -15,6 +15,8 @@ Hi, and thanks for stopping by! This repository houses a project that I hold clo
 
 ## 📝 Latest Update
 
+06/08/2023 : I was away from home the whole day so no really progress was made, but I decided to finish everything before school starts again on wednesday
+
 05/08/2023 : Gonna finalize the design and finish the app basics tomorrow, then take a break from the app to polish up my skills a bit more before designing the user system.
 
 I have came up with a design but still not too sure about it, I want to evoke a feeling of accomplishment when the screen pops up the current design just seems to be an info window.
