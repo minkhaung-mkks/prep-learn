@@ -121,3 +121,104 @@ a {
     color: #cfcfcf;
     pointer-events: none;
 }
+
+.selector_btn {
+    color: var(--text);
+    padding: 12px 30px;
+    border: none;
+    background-color: var(--secondary);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s ease-out all;
+    -webkit-transition: 0.2s ease-out all;
+    -moz-transition: 0.2s ease-out all;
+    -ms-transition: 0.2s ease-out all;
+    -o-transition: 0.2s ease-out all;
+
+}
+
+.selector_btn:hover,
+.selected_selector_btn {
+    background-color: var(--primary);
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 1px;
+}
+
+.topics_box {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.summary_card {
+    width: 60%;
+    max-width: 980px;
+    height: 35vh;
+    padding: 0px 20px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background-color: #f9fbff;
+    border: 1px solid rgb(209,
+            209,
+            209);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.user_score_box {
+    border: 1px solid var(--faded);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.number_line {
+    width: 50%;
+    height: 1px;
+    background-color: var(--text);
+}
+
+.summary_l,
+.summary_r {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.summary_topics {
+    padding: 8px 8px;
+    font-size: 0.8rem;
+}
+
+.user_score {
+    font-weight: 100;
+}
