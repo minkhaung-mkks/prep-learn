@@ -157,7 +157,7 @@ a {
 }
 
 .summary_card {
-    width: 60%;
+    width: 100%;
     max-width: 980px;
     height: 35vh;
     padding: 0px 20px;
@@ -213,4 +213,9 @@ a {
 
 .user_score {
     font-weight: 100;
+}
+
+.no_scroll {
+    height: 90vh;
+    overflow: hidden;
 }
