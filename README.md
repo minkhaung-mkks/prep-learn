@@ -15,30 +15,19 @@ Hi, and thanks for stopping by! This repository houses a project that I hold clo
 
 ## 📝 Latest Update
 
-06/08/2023 : I was away from home the whole day so no really progress was made, but I decided to finish everything before school starts again on wednesday
+Quiz mode is done along with the summary screen, while time quizzes still remain, I think I gonna take a break from this app for now, the whole thing is pretty much ready and built. Bugs have been tested and fixed. While some design leave me unsatisfied it majority of the time they look great. I gonna focus on learning a bit more and finishing my GED exams, I might come back to this app to add new tests for myself and friends but thats probably it for now. I look forward to gaining enough skills to craft a login and user system by which I would consider the app to be fully ready and done.
 
-05/08/2023 : Gonna finalize the design and finish the app basics tomorrow, then take a break from the app to polish up my skills a bit more before designing the user system.
-
-I have came up with a design but still not too sure about it, I want to evoke a feeling of accomplishment when the screen pops up the current design just seems to be an info window.
-
-I met with a few people today and got their feedback and idea on how to move forward with the app. I also decided to start sharing the app after I get at least a member system working, so that people can keep track of quizzes they finished, share their results and more.
-
-The whole app is pretty much finished except for the summary screen to show the show, I'm currently designing it but tbh dont even have a base idea for it.
-
-I'm trying to get the practice test used at my school, it has much more questions that relates to reading passages instead of my own knowledge, which I found to be a challange right now. ( Still trying T_T )
-
+Good luck to anyone that stumbles on my app. The source code as it stands is free to use just give me credit. I might take this whole thing private when I implement the member system for commerical and security reasons, but the code as it stands right now will remain on this repo, I will only take the further codes private.
 
 
 ## 🕖 Current Planned Timeline
 
-## Turns out I dont have to go anymore, so more time for this project, but I thinking of pausing any further big updates after the quiz mode, and go back to learning for a while, there were many times during my time coding this that I felt like I was exploring something completely foreign to me and it has only gotten stronger as the app progressed furthered.
-
 Please note these times are the worst possible times, In reality I hope to have everything production ready by mid July
 
 - [x] Launch of the app with just the functions to choose quizes and answer them (June 20th 2023) Progess : 100% DONE
-- [x] New method to save answers ( July 20th 2023 ) Crucial for the new Quiz mode.
+- [x] New method to save answers ( July 20th 2023 ) Done
 - [ ] Time Quizes (July 25th 2023) Progress : Might prioritize Quiz Mode Over this
-- [ ] Quiz Mode (July 15th 2023) Progress : The complexity is reduced abit, but still need to change how saved answers are stored.
+- [x] Quiz Mode (July 15th 2023) Progress : Done.
 - [ ] Switch to MongoDB for data storage (N/A) Not sure if I wanna switch to Database yet.
 - [ ] Login with google (N/A) Not sure if I want to go this route, instead focusing on making the base functions a lot better and more user friendly
 - [ ] Login with other providers (N/A)
