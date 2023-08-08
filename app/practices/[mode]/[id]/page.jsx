@@ -4,6 +4,7 @@ import { useRouter } from 'next/navigation'
 import '@styles/global.css'
 import '@styles/quiz.css'
 import QuestionCard from '@components/QuestionCard';
+import SummaryCard from '@components/SummaryCard';
 
 const PraticePage = ({ params }) => {
     const [quiz, setQuiz] = useState({})
@@ -386,22 +387,20 @@ const PraticePage = ({ params }) => {
                     )
                 }
             </form>
-            {false &&
+            {hasFinished && (
                 <div className="summary_box">
-                    <h3 className="quiz_name">
-
-                    </h3>
-                    <div className="summary_l">
-                        {/* Quiz Infos */}
-                    </div>
-                    <div className="summary_r">
-                        <h2 className="user_score">
-                            {convertToPercent(totalScore, score)} %
-                        </h2>
+                    <SummaryCard quiz={quiz} score={40} total={total} />
+                    <div className="summary_btn_box">
+                        <button className="close_btn">
+                            Close Summary
+                        </button>
+                        <button className="go_back_btn">
+                            Choose another quiz
+                        </button>
                     </div>
                 </div>
+            )
             }
-            {showScore && <h1>Your Score: {score}/{totalScore}</h1>}
         </main>
     )
 }
