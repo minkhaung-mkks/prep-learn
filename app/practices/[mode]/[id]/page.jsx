@@ -138,9 +138,6 @@ const PraticePage = ({ params }) => {
 
         return answer.toLowerCase() === question.correct.toLowerCase();
     }
-    const convertToPercent = (max, number) => {
-        return Math.ceil((number / max) * 100)
-    }
     const handleSubmit = async (e) => {
         e.preventDefault();
         if (mode === "test") {
@@ -158,6 +155,10 @@ const PraticePage = ({ params }) => {
         setShowScore(true);
         setHasSubmitted(true);
         setHasFinished(true);
+
+    };
+
+    const resetQuiz = async () => {
         const response = await fetch('/data.json');
         if (!response.ok) {
             throw new Error('Failed to fetch JSON file');
@@ -191,8 +192,22 @@ const PraticePage = ({ params }) => {
         };
 
         localStorage.setItem('savedData', JSON.stringify(updatedSavedData));
-        // router.push('/')
-    };
+    }
+
+
+    const goBackToQuizChooser = () => {
+        resetQuiz()
+        router.push('/')
+    }
+
+    const retryQuiz = () => {
+        resetQuiz()
+        window.location.reload();
+    }
+
+    const toggleSummary = () => {
+        setShowScore(!showScore)
+    }
 
     const quizModeSubmit = (e, sectionIndex, questionIndex) => {
         e.preventDefault();
@@ -387,14 +402,14 @@ const PraticePage = ({ params }) => {
                     )
                 }
             </form>
-            {hasFinished && (
+            {hasFinished && showScore && (
                 <div className="summary_box">
-                    <SummaryCard quiz={quiz} score={40} total={total} />
+                    <SummaryCard quiz={quiz} score={score} total={totalScore} />
                     <div className="summary_btn_box">
-                        <button className="close_btn">
+                        <button onClick={toggleSummary} className="close_btn">
                             Close Summary
                         </button>
-                        <button className="go_back_btn">
+                        <button onClick={goBackToQuizChooser} className="go_back_btn">
                             Choose another quiz
                         </button>
                     </div>
