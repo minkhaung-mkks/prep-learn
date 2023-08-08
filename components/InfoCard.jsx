@@ -57,8 +57,11 @@ const InfoCard = ({ index, quiz }) => {
 
             </div>
             <div className="take_quiz_btn_box">
+                <Link href={`/practices/quiz/${quiz.id}`} className="take_quiz_btn">
+                    Start in Quiz Mode
+                </Link>
                 <Link href={`/practices/test/${quiz.id}`} className="take_quiz_btn">
-                    Start
+                    Start in Test Mode
                 </Link>
             </div>
         </div>
