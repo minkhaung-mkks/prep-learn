@@ -197,7 +197,7 @@ const PraticePage = ({ params }) => {
 
     const goBackToQuizChooser = () => {
         resetQuiz()
-        router.push('/pratices')
+        router.push('/practices')
     }
 
     const retryQuiz = () => {
