@@ -197,7 +197,7 @@ const PraticePage = ({ params }) => {
 
     const goBackToQuizChooser = () => {
         resetQuiz()
-        router.push('/')
+        router.push('/pratices')
     }
 
     const retryQuiz = () => {
@@ -266,8 +266,8 @@ const PraticePage = ({ params }) => {
         localStorage.setItem('savedData', JSON.stringify(updatedAnswers));
     }, [answers, quizId, currentQuestion, submittedQuestions, savedData]);
     return (
-        <main id="web_page">
-            <form onSubmit={handleSubmit} className="quiz_box">
+        <main id="web_page" className={`${hasFinished && showScore ? 'no_scroll' : ''}`}>
+            <form onSubmit={handleSubmit} className={`${hasFinished && showScore ? 'no_scroll quiz_box' : 'quiz_box'}`}>
                 {mode === "test" ? (
                     <>
                         {quizFetch.current && quiz.sections.map((section, index) => (
@@ -406,10 +406,10 @@ const PraticePage = ({ params }) => {
                 <div className="summary_box">
                     <SummaryCard quiz={quiz} score={score} total={totalScore} />
                     <div className="summary_btn_box">
-                        <button onClick={toggleSummary} className="close_btn">
+                        <button onClick={toggleSummary} className="nav_btn close_btn">
                             Close Summary
                         </button>
-                        <button onClick={goBackToQuizChooser} className="go_back_btn">
+                        <button onClick={goBackToQuizChooser} className="nav_btn go_back_btn">
                             Choose another quiz
                         </button>
                     </div>
