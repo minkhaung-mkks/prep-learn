@@ -161,16 +161,8 @@ a {
     max-width: 980px;
     height: 35vh;
     padding: 0px 20px;
-    position: absolute;
     display: flex;
     justify-content: space-around;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
     background-color: #f9fbff;
     border: 1px solid rgb(209,
             209,
