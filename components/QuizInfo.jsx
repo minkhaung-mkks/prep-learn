@@ -94,6 +94,13 @@ const QuizInfo = ({ quizInfoState, updateQuizInfoState, nextPage }) => {
         <button className={`selectingBtn ${quizSubtopic.includes(`Acid & Base`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Acid & Base')}>Acid & Base</button>
         <button className={`selectingBtn ${quizSubtopic.includes(`Nuclear Processes & Radioactivity`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Nuclear Processes & Radioactivity')}>Nuclear Processes & Radioactivity</button>
         <h5>Physics</h5>
+        <button className={`selectingBtn ${quizSubtopic.includes(`Motion`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Motion')}>Motion</button>
+        <button className={`selectingBtn ${quizSubtopic.includes(`Force`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Force')}>Force</button>
+        <button className={`selectingBtn ${quizSubtopic.includes(`Work`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Work')}>Work</button>
+        <button className={`selectingBtn ${quizSubtopic.includes(`Energy`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Energy')}>Energy</button>
+        <button className={`selectingBtn ${quizSubtopic.includes(`Waves & Light`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Waves & Light')}>Waves & Light</button>
+        <button className={`selectingBtn ${quizSubtopic.includes(`Heat & Temperatures`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Heat & Temperatures')}>Heat & Temperatures</button>
+        <button className={`selectingBtn ${quizSubtopic.includes(`Electricity & Magnetism`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Electricity & Magnetism')}>Electricity & Magnetism</button>
         <h5>Biology</h5>
         <button className={`selectingBtn ${quizSubtopic.includes(`Cell Theory`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Cell Theory')}>Cell Theory</button>
         <button className={`selectingBtn ${quizSubtopic.includes(`Reproduction & Genes`) ? 'selectedBtn' : ''} `} onClick={() => handleSubtopicClick('Reproduction & Genes')}>Reproduction & Genes</button>
