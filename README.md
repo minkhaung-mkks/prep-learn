@@ -15,6 +15,8 @@ Hi, and thanks for stopping by! This repository houses a project that I hold clo
 
 ## 📝 Latest Update
 
+Urgent Goal: I have to finish the mobile version and polish up the tablet version too.
+
 Quiz mode is done along with the summary screen, while time quizzes still remain, I think I gonna take a break from this app for now, the whole thing is pretty much ready and built. Bugs have been tested and fixed. While some design leave me unsatisfied it majority of the time they look great. I gonna focus on learning a bit more and finishing my GED exams, I might come back to this app to add new tests for myself and friends but thats probably it for now. I look forward to gaining enough skills to craft a login and user system by which I would consider the app to be fully ready and done.
 
 Good luck to anyone that stumbles on my app. The source code as it stands is free to use just give me credit. I might take this whole thing private when I implement the member system for commerical and security reasons, but the code as it stands right now will remain on this repo, I will only take the further codes private.
