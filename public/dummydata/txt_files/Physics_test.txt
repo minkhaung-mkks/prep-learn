@@ -1,0 +1,361 @@
+
+1. What is the SI unit for measuring electric current?
+a. Volt
+b. Ampere
+c. Ohm
+d. Watt
+
+2. Which law states that every action has an equal and opposite reaction?
+a. Newton's First Law
+b. Newton's Second Law
+c. Newton's Third Law
+d. Coulomb's Law
+
+3. The force of gravity on an object is dependent on its:
+a. Volume
+b. Mass
+c. Density
+d. Temperature
+
+4. Which of the following is a vector quantity?
+a. Speed
+b. Mass
+c. Distance
+d. Velocity
+
+5. The process of a gas turning into a liquid is called:
+a. Condensation
+b. Evaporation
+c. Sublimation
+d. Fusion
+
+6. What is the term for the resistance of an object to a change in its state of motion?
+a. Velocity
+b. Acceleration
+c. Inertia
+d. Friction
+
+7. Which type of energy is associated with the motion of particles in a substance?
+a. Potential energy
+b. Mechanical energy
+c. Thermal energy
+d. Kinetic energy
+
+8. What type of wave does not require a medium to travel through?
+a. Sound wave
+b. Transverse wave
+c. Longitudinal wave
+d. Electromagnetic wave
+
+9. According to the law of conservation of energy, energy cannot be:
+a. Created
+b. Destroyed
+c. Transferred
+d. Converted
+
+10. What is the speed of light in a vacuum?
+a. 300,000 m/s
+b. 3,000,000 m/s
+c. 30,000 m/s
+d. 300,000,000 m/s
+
+11. Which color of light has the shortest wavelength?
+a. Red
+b. Green
+c. Blue
+d. Yellow
+
+12. What is the unit of measurement for frequency?
+a. Meters
+b. Joules
+c. Hertz
+d. Newtons
+
+13. In which type of lens is the center thicker than the edges?
+a. Concave lens
+b. Convex lens
+c. Diverging lens
+d. Converging lens
+
+14. What type of mirror is used in a rearview mirror?
+a. Concave mirror
+b. Convex mirror
+c. Plane mirror
+d. Spherical mirror
+
+15. What is the force exerted by a fluid on an immersed object called?
+a. Buoyant force
+b. Centripetal force
+c. Frictional force
+d. Tension force
+
+16. The process of a solid directly turning into a gas is called:
+a. Sublimation
+b. Evaporation
+c. Condensation
+d. Fusion
+
+17. What is the process of a radioactive nucleus spontaneously decaying over time called?
+a. Fission
+b. Fusion
+c. Radioactivity
+d. Decay
+
+18. Which law of thermodynamics states that energy cannot be transferred from a cooler object to a hotter object without external work?
+a. Zeroth law
+b. First law
+c. Second law
+d. Third law
+
+19. What is the SI unit for measuring capacitance?
+a. Volt
+b. Ampere
+c. Ohm
+d. Farad
+
+20. Which phenomenon is responsible for the apparent change in frequency of a wave due to the motion of the source or the observer?
+a. Diffraction
+b. Refraction
+c. Doppler effect
+d. Polarization
+
+21. What is the minimum velocity required for an object to escape the gravitational pull of a celestial body?
+a. Terminal velocity
+b. Escape velocity
+c. Orbital velocity
+d. Critical velocity
+
+22. What is the process by which a solid changes directly into a gas without passing through the liquid phase?
+a. Sublimation
+b. Evaporation
+c. Condensation
+d. Vaporization
+
+23. Which law states that the pressure of a gas is inversely proportional to its volume when the temperature is held constant?
+a. Boyle's law
+b. Charles's law
+c. Gay-Lussac's law
+d. Avogadro's law
+
+24. What is the SI unit of power?
+a. Joule
+b. Watt
+c. Newton
+d. Kilogram
+
+25. The energy stored in an object due to its position is called:
+a. Kinetic energy
+b. Potential energy
+c. Mechanical energy
+d. Thermal energy
+
+26. Which type of electromagnetic radiation has the shortest wavelength?
+a. Radio waves
+b. Microwaves
+c. X-rays
+d. Gamma rays
+
+27. What is the process of a gas turning into a solid directly?
+a. Sublimation
+b. Condensation
+c. Deposition
+d. Evaporation
+
+28. What is the SI unit of electric charge?
+a. Ampere
+b. Coulomb
+c. Ohm
+d. Volt
+
+29. Which law states that the total electric charge in an isolated system remains constant over time?
+a. Coulomb's law
+b. Ohm's law
+c. Gauss's law
+d. Law of conservation of charge
+
+30. What is the process of a liquid turning into a gas at its boiling point called?
+a. Evaporation
+b. Condensation
+c. Sublimation
+d. Vaporization
+
+31. The unit of measurement for magnetic flux is:
+a. Weber
+b. Tesla
+c. Ampere
+d. Coulomb
+
+32. Which type of energy is associated with the motion of electrons?
+a. Potential energy
+b. Mechanical energy
+c. Electrical energy
+d. Kinetic energy
+
+33. What is the process of a gas turning into a liquid called?
+a. Condensation
+b. Evaporation
+c. Sublimation
+d. Vaporization
+
+34. Which law states that the volume of a gas is directly proportional to its temperature when pressure is held constant?
+a. Boyle's law
+b. Charles's law
+c. Gay-Lussac's law
+d. Avogadro's law
+
+35. What is the term for the bending of light when it passes from one medium to another?
+a. Reflection
+b. Diffraction
+c. Dispersion
+d. Refraction
+
+36. Which type of energy is stored within the nucleus of an atom?
+a. Potential energy
+b. Mechanical energy
+c. Nuclear energy
+d. Kinetic energy
+
+37. The energy of motion is known as:
+a. Potential energy
+b. Mechanical energy
+c. Thermal energy
+d. Kinetic energy
+
+38. What is the SI unit of frequency?
+a. Watt
+b. Hertz
+c. Joule
+d. Newton
+
+39. What is the term for the amount of matter in an object?
+a. Volume
+b. Density
+c. Mass
+d. Weight
+
+40. Which law of thermodynamics states that energy cannot be created or destroyed, only transferred or converted from one form to another?
+a. Zeroth law
+b. First law
+c. Second law
+d. Third law
+
+
+1. b. Ampere
+    - The SI unit for measuring electric current is the ampere.
+
+2. c. Newton's Third Law
+    - Newton's Third Law states that every action has an equal and opposite reaction.
+
+3. b. Mass
+    - The force of gravity on an object is dependent on its mass.
+
+4. d. Velocity
+    - Velocity is a vector quantity that includes both speed and direction.
+
+5. a. Condensation
+    - The process of a gas turning into a liquid is called condensation.
+
+6. c. Inertia
+    - Inertia is the resistance of an object to a change in its state of motion.
+
+7. d. Kinetic energy
+    - The energy associated with the motion of particles in a substance is kinetic energy.
+
+8. d. Electromagnetic wave
+    - Electromagnetic waves, like light, can travel through a vacuum.
+
+9. b. Destroyed
+    - According to the law of conservation of energy, energy cannot be destroyed, only transferred or converted.
+
+10. d. 300,000,000 m/s
+    - The speed of light in a vacuum is approximately 300,000,000 meters per second.
+
+11. c. Blue
+    - Blue light has the shortest wavelength among the given options.
+
+12. c. Hertz
+    - Frequency is measured in hertz (Hz).
+
+13. b. Convex lens
+    - In a convex lens, the center is thicker than the edges.
+
+14. b. Convex mirror
+    - A convex mirror is commonly used in rearview mirrors.
+
+15. a. Buoyant force
+    - The force exerted by a fluid on an immersed object is the buoyant force.
+
+16. a. Sublimation
+    - The process of a solid directly turning into a gas is sublimation.
+
+17. c. Radioactivity
+    - The spontaneous decay of a radioactive nucleus is known as radioactivity.
+
+18. c. Second law
+    - The second law of thermodynamics states that energy cannot be transferred from a cooler object to a hotter object without external work.
+
+19. d. Farad
+    - The SI unit for measuring capacitance is the farad.
+
+20. c. Doppler effect
+    - The change in frequency of a wave due to motion is the Doppler effect.
+
+21. b. Escape velocity
+    - Escape velocity is the minimum velocity required to escape a celestial body's gravitational pull.
+
+22. a. Sublimation
+    - The process of a solid changing directly into a gas is sublimation.
+
+23. a. Boyle's law
+    - Boyle's law relates the pressure and volume of a gas at constant temperature.
+
+24. b. Watt
+    - The SI unit of power is the watt.
+
+25. b. Potential energy
+    - Energy stored due to an object's position is potential energy.
+
+26. d. Gamma rays
+    - Gamma rays have the shortest wavelength among the given options.
+
+27. c. Deposition
+    - The process of a gas turning into a solid directly is deposition.
+
+28. b. Coulomb
+    - The SI unit of electric charge is the coulomb.
+
+29. d. Law of conservation of charge
+    - The law stating that total electric charge in an isolated system remains constant is the law of conservation of charge.
+
+30. d. Vaporization
+    - The process of a liquid turning into a gas at its boiling point is vaporization.
+
+31. a. Weber
+    - The unit of measurement for magnetic flux is the weber.
+
+32. c. Electrical energy
+    - The energy associated with the motion of electrons is electrical energy.
+
+33. a. Condensation
+    - The process of a gas turning into a liquid is condensation.
+
+34. b. Charles's law
+    - Charles's law relates the volume and temperature of a gas at constant pressure.
+
+35. d. Refraction
+    - The bending of light when it passes from one medium to another is refraction.
+
+36. c. Nuclear energy
+    - The energy stored within the nucleus of an atom is nuclear energy.
+
+37. d. Kinetic energy
+    - The energy of motion is kinetic energy.
+
+38. b. Hertz
+    - Frequency is measured in hertz.
+
+39. c. Mass
+    - The amount of matter in an object is its mass.
+
+40. c. Third law
+    - The third law of thermodynamics states that energy cannot be created or destroyed, only transferred or converted from one form to another.
