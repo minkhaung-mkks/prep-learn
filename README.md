@@ -19,7 +19,7 @@ Currently Known Bugs : Cant search any of the sciences without causing a crash. 
 
 Urgent Goal: I have to finish the mobile version and polish up the tablet version too.
 
-Goal for a spare time: add the option to type the section and questions by hand.
+Goal for a spare time: add the option to type the section and questions by hand. ( Might try it to make it tmr after school)
 
 Quiz mode is done along with the summary screen, while time quizzes still remain, I think I gonna take a break from this app for now, the whole thing is pretty much ready and built. Bugs have been tested and fixed. While some design leave me unsatisfied it majority of the time they look great. I gonna focus on learning a bit more and finishing my GED exams, I might come back to this app to add new tests for myself and friends but thats probably it for now. I look forward to gaining enough skills to craft a login and user system by which I would consider the app to be fully ready and done.
 
