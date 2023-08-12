@@ -15,6 +15,8 @@ Hi, and thanks for stopping by! This repository houses a project that I hold clo
 
 ## 📝 Latest Update
 
+Gonna get my AC tmr or the day after which means I can finally work in a good env, so gonna take a day off for this
+
 Currently Known Bugs : Cant search any of the sciences without causing a crash. (Gonna fix this during the weekend as I looked through the code and couldnt really pinpoint anything that would cause this.)
 
 Urgent Goal: I have to finish the mobile version and polish up the tablet version too.
