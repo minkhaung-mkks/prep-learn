@@ -40,6 +40,9 @@ const Form = () => {
                 ...updatedSections[index],
                 ...updatedState,
             };
+            console.log(updatedSections)
+            console.log(updatedSections[index])
+            console.log(updatedSections[index].questions)
             return {
                 ...prevState,
                 sections: updatedSections,
@@ -63,7 +66,7 @@ const Form = () => {
             if (formState.sections.length === 0) {
                 const newSection = {
                     context: '',
-                    question: '',
+                    questions: '',
                     answer: '',
                 };
                 setFormState((prevState) => ({
@@ -84,7 +87,7 @@ const Form = () => {
     const addSection = () => {
         const newSection = {
             context: '',
-            question: '',
+            questions: '',
             answer: '',
         };
         setFormState((prevState) => ({
