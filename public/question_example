@@ -1,0 +1,25 @@
+"questions": [{
+        "text": "Which scientist is credited with developing the cell theory?",
+        "answers": {
+            "a": "Louis Pasteur",
+            "b": "Robert Hooke",
+            "c": "Anton van Leeuwenhoek",
+            "d": "Rudolf Virchow"
+        },
+        "correct": "d",
+        "answer_text": "Rudolf Virchow",
+        "reason": "Rudolf Virchow is credited with developing the cell theory."
+    },
+    {
+        "text": "Which statement best describes the cell theory?",
+        "answers": {
+            "a": "Cells are the basic units of life.",
+            "b": "Cells can only be found in plants.",
+            "c": "Cells are composed of organelles.",
+            "d": "All cells have a nucleus."
+        },
+        "correct": "a",
+        "answer_text": "Cells are the basic units of life.",
+        "reason": "The cell theory states that cells are the fundamental building blocks of all living organisms."
+    },
+]
