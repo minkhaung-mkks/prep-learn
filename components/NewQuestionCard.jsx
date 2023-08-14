@@ -4,12 +4,14 @@ import { useState, useEffect } from 'react'
 const NewQuestionCard = () => {
 
     const [currentQuestion, setCurrentQuestion] = useState('')
+    const [currentQuestionText, setCurrentQuestionText] = useState('')
     const [answerOptions, setAnswerOptions] = useState({});
     const [correctOption, setCorrectOption] = useState('');
     const [questions, setQuestions] = useState([])
     const [convertedQuestions, setConvertedQuestions] = useState([])
-    const newQuestion = () => {
-        setQuestions((prev) => [...prev, currentQuestion])
+    const newQuestion = async () => {
+        const newFormattedQuestion = await transformToFormattedString()
+        setQuestions((prev) => [...prev, newFormattedQuestion])
     }
     const handleAddOption = () => {
         const nextOptionIndex = Object.keys(answerOptions).length;
@@ -46,6 +48,13 @@ const NewQuestionCard = () => {
         const newQuestions = await parseQuestions(JSON.stringify(questions));
         return newQuestions;
     }, [questions]);
+    const transformToFormattedString = () => {
+        let formattedString = `${currentQuestionText}\n`;
+        Object.keys(answerOptions).forEach((optionLetter, index) => {
+            formattedString += `${optionLetter}. ${answerOptions[optionLetter]}\n`;
+        });
+        return formattedString;
+    };
     useEffect(() => {
         const convertData = async () => {
             const convertedQuestions = await convertQuestion();
@@ -71,7 +80,7 @@ const NewQuestionCard = () => {
                 </div>
             ))}
             <div>
-                <h2>Question: <span> <input type={'text'} className={'input_box'} value={currentQuestionText} onChange={(e) => setCurrentQuestion(e.target.value)}></input> </span></h2>
+                <h2>Question: <span> <input type={'text'} className={'input_box'} value={currentQuestionText} onChange={(e) => setCurrentQuestionText(e.target.value)}></input> </span></h2>
                 <h4>Answers</h4>
                 {Object.keys(answerOptions).map((optionLetter) => (
                     <div key={optionLetter}>
