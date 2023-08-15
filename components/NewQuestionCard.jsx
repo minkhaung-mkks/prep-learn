@@ -74,7 +74,7 @@ const NewQuestionCard = () => {
                             {convertedQuestion.answers[answerKey]}
                         </p>
                     ))}
-                    <p className='reasonText'>
+                    <p className='reason_text'>
                         {convertedQuestion.reason}
                     </p>
                 </div>
