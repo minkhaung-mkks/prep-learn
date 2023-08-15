@@ -4,9 +4,11 @@ import { useState, useEffect } from 'react'
 const NewQuestionCard = () => {
 
     const [currentQuestion, setCurrentQuestion] = useState('')
+    const [isEditing, setIsEditing] = useState(false)
     const [currentQuestionText, setCurrentQuestionText] = useState('')
     const [answerOptions, setAnswerOptions] = useState({});
     const [correctOption, setCorrectOption] = useState('');
+    const [context, setContext] = useState('');
     const [questions, setQuestions] = useState([])
     const [convertedQuestions, setConvertedQuestions] = useState([])
     const newQuestion = async () => {
@@ -22,7 +24,7 @@ const NewQuestionCard = () => {
         });
     };
     const handleRemoveOption = (optionLetter) => {
-        const updatedOptions = { ...answerOptions };
+        let updatedOptions = { ...answerOptions };
         delete updatedOptions[optionLetter];
         setAnswerOptions(updatedOptions);
 
@@ -38,20 +40,26 @@ const NewQuestionCard = () => {
     };
     const handleSelectCorrectOption = (optionLetter) => {
         const optionText = answerOptions[optionLetter];
-        setCorrectOption(optionLetter);
         setAnswerOptions({
             ...answerOptions,
             [optionLetter]: optionText + '*'
         });
+        setCorrectOption(optionLetter);
     };
+    const handleEdit = (index, editedQuestionText, editedAnswers) => {
+        let editedQuestions = [...questions]
+        const formattedQuestion = transformToFormattedString(editedQuestionText, editedAnswers)
+        editedQuestions[index] = formattedQuestion
+        setQuestions(editedQuestions)
+    }
     const convertQuestion = useCallback(async () => {
         const newQuestions = await parseQuestions(JSON.stringify(questions));
         return newQuestions;
     }, [questions]);
-    const transformToFormattedString = () => {
-        let formattedString = `${currentQuestionText}\n`;
-        Object.keys(answerOptions).forEach((optionLetter, index) => {
-            formattedString += `${optionLetter}. ${answerOptions[optionLetter]}\n`;
+    const transformToFormattedString = (questionText = currentQuestionText, answers = answerOptions) => {
+        let formattedString = `${questionText}\n`;
+        Object.keys(answers).forEach((optionLetter, index) => {
+            formattedString += `${optionLetter}. ${answers[optionLetter]}\n`;
         });
         return formattedString;
     };
@@ -64,19 +72,41 @@ const NewQuestionCard = () => {
     }, [convertQuestion])
     return (
         <>
+            <div className="context_box">
+                <h2>
+                    Context / Passage
+                </h2>
+                <textarea name="context_text_area" id="" cols="30" rows="10"
+                    value={context}
+                    onChange={(e) => setContext(e.target.value)}
+                />
+            </div>
             {convertedQuestions.map((convertedQuestion, index) => (
                 <div key={index} className='new_question_card'>
-                    <h2 className="question_text">
+                    <input type={'text'} contentEditable={isEditing} className="question_text">
                         {convertedQuestion.text}
-                    </h2>
+                    </input>
                     {Object.keys(convertedQuestion.answers).map(answerKey => (
-                        <p key={answerKey} className={`answer_text ${answerKey === convertedQuestion.correct ? 'correct_option' : ''}`}>
-                            {convertedQuestion.answers[answerKey]}
-                        </p>
+                        <>
+                            <p className="option">
+                                {answerKey}
+                            </p>
+                            <input type={'text'} contentEditable={isEditing} key={answerKey} className={`answer_text ${answerKey === convertedQuestion.correct ? 'correct_option' : ''}`}>
+                                {convertedQuestion.answers[answerKey]}
+                            </input>
+                        </>
                     ))}
                     <p className='reason_text'>
                         {convertedQuestion.reason}
                     </p>
+
+                    {isEditing ?
+                        <button>Save Edit</button>
+                        :
+                        <button className="edit_btn">
+                            Edit
+                        </button>
+                    }
                 </div>
             ))}
             <div className='new_create_form'>
@@ -96,8 +126,14 @@ const NewQuestionCard = () => {
                     </div>
                 ))}
                 <button onClick={handleAddOption}>Add Option</button>
-            </div>
 
+            </div>
+            <button className="save_question_btn">
+                Add Another Question
+            </button>
+            <button className="save_btn">
+                Create Quiz
+            </button>
         </>
     )
 }
