@@ -39,11 +39,23 @@ const NewQuestionCard = () => {
         });
     };
     const handleSelectCorrectOption = (optionLetter) => {
+        // Remove asterisk from previous correct option
+        if (correctOption !== null) {
+            const prevCorrectOptionText = answerOptions[correctOption];
+            const cleanedPrevCorrectOptionText = prevCorrectOptionText.replace('*', '');
+            setAnswerOptions({
+                ...answerOptions,
+                [correctOption]: cleanedPrevCorrectOptionText
+            });
+        }
+
+        // Mark new correct option with an asterisk
         const optionText = answerOptions[optionLetter];
         setAnswerOptions({
             ...answerOptions,
             [optionLetter]: optionText + '*'
         });
+
         setCorrectOption(optionLetter);
     };
     const handleEdit = (index, editedQuestionText, editedAnswers) => {
