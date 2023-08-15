@@ -39,33 +39,45 @@ const NewQuestionCard = () => {
             [optionLetter]: newText
         });
     };
-    const handleSelectCorrectOption = (optionLetter) => {
+    const handleSelectCorrectOption = async (optionLetter, answers = answerOptions, correct = correctOption, editMode = false) => {
         // Remove asterisk from previous correct option
-        if (correctOption !== null) {
-            const prevCorrectOptionText = answerOptions[correctOption];
-            const cleanedPrevCorrectOptionText = prevCorrectOptionText.replace('*', '');
-            setAnswerOptions({
-                ...answerOptions,
-                [correctOption]: cleanedPrevCorrectOptionText
-            });
+        let prevCorrectOptionText;
+        let cleanedPrevCorrectOptionText;
+        let editedAnswers = [...answers]
+        if (correct !== null) {
+            prevCorrectOptionText = answers[correct];
+            cleanedPrevCorrectOptionText = prevCorrectOptionText.replace('*', '');
+            editedAnswers[correct] = cleanedPrevCorrectOptionText
         }
-
         // Mark new correct option with an asterisk
-        const optionText = answerOptions[optionLetter];
-        setAnswerOptions({
-            ...answerOptions,
-            [optionLetter]: optionText + '*'
-        });
-
-        setCorrectOption(optionLetter);
+        const optionText = answers[optionLetter];
+        editedAnswers[optionLetter] = optionText + '*'
+        if (!editMode) {
+            setAnswerOptions(editedAnswers)
+            // setAnswerOptions({
+            //     ...answerOptions,
+            //     [correct]: cleanedPrevCorrectOptionText
+            // });
+            // setAnswerOptions({
+            //     ...answerOptions,
+            //     [optionLetter]: optionText + '*'
+            // });
+            setCorrectOption(optionLetter);
+        }
+        else {
+            return editedAnswers
+        }
     };
+    const handleCorrectOptionEdit = async (index, editedQuestionText, editedAnswers, newOption, correct) => {
+        const newAnswers = await handleSelectCorrectOption(newOption, editedAnswers, correct, true)
+        handleEdit(index, editedQuestionText, newAnswers)
+    }
     const handleEdit = (index, editedQuestionText, editedAnswers) => {
         let editedQuestions = [...questions]
         const formattedQuestion = transformToFormattedString(editedQuestionText, editedAnswers)
         editedQuestions[index] = formattedQuestion
         setQuestions(editedQuestions)
     }
-    const handleCorrectOptionEdit = (index)
     const convertQuestion = useCallback(async () => {
         const newQuestions = await parseQuestions(JSON.stringify(questions));
         return newQuestions;
@@ -102,13 +114,13 @@ const NewQuestionCard = () => {
                     </input>
                     {Object.keys(convertedQuestion.answers).map(answerKey => (
                         <>
-                            <p className="option">
+                            <p className="option_text">
                                 {answerKey}
                             </p>
                             <input type={'text'} contentEditable={isEditing && editingIndex === index} key={answerKey} className={`answer_text ${answerKey === convertedQuestion.correct ? 'correct_option' : ''}`}>
                                 {convertedQuestion.answers[answerKey]}
                             </input>
-                            {isEditing &&
+                            {isEditing && editingIndex === index &&
                                 <>
                                     <button onClick={() => handleRemoveOption(optionLetter)}>Remove</button>
                                     <button onClick={() => handleSelectCorrectOption(optionLetter)}>Mark as Correct</button>
