@@ -5,6 +5,7 @@ const NewQuestionCard = () => {
 
     const [currentQuestion, setCurrentQuestion] = useState('')
     const [isEditing, setIsEditing] = useState(false)
+    const [editingIndex, setEditingIndex] = useState(null)
     const [currentQuestionText, setCurrentQuestionText] = useState('')
     const [answerOptions, setAnswerOptions] = useState({});
     const [correctOption, setCorrectOption] = useState('');
@@ -64,6 +65,7 @@ const NewQuestionCard = () => {
         editedQuestions[index] = formattedQuestion
         setQuestions(editedQuestions)
     }
+    const handleCorrectOptionEdit = (index)
     const convertQuestion = useCallback(async () => {
         const newQuestions = await parseQuestions(JSON.stringify(questions));
         return newQuestions;
@@ -95,7 +97,7 @@ const NewQuestionCard = () => {
             </div>
             {convertedQuestions.map((convertedQuestion, index) => (
                 <div key={index} className='new_question_card'>
-                    <input type={'text'} contentEditable={isEditing} className="question_text">
+                    <input type={'text'} contentEditable={isEditing && editingIndex === index} className="question_text">
                         {convertedQuestion.text}
                     </input>
                     {Object.keys(convertedQuestion.answers).map(answerKey => (
@@ -103,24 +105,32 @@ const NewQuestionCard = () => {
                             <p className="option">
                                 {answerKey}
                             </p>
-                            <input type={'text'} contentEditable={isEditing} key={answerKey} className={`answer_text ${answerKey === convertedQuestion.correct ? 'correct_option' : ''}`}>
+                            <input type={'text'} contentEditable={isEditing && editingIndex === index} key={answerKey} className={`answer_text ${answerKey === convertedQuestion.correct ? 'correct_option' : ''}`}>
                                 {convertedQuestion.answers[answerKey]}
                             </input>
+                            {isEditing &&
+                                <>
+                                    <button onClick={() => handleRemoveOption(optionLetter)}>Remove</button>
+                                    <button onClick={() => handleSelectCorrectOption(optionLetter)}>Mark as Correct</button>
+                                </>
+                            }
                         </>
                     ))}
                     <p className='reason_text'>
                         {convertedQuestion.reason}
                     </p>
 
-                    {isEditing ?
+                    {isEditing && editingIndex === index &&
                         <button>Save Edit</button>
-                        :
+                    }
+                    {!isEditing &&
                         <button className="edit_btn">
                             Edit
                         </button>
                     }
                 </div>
-            ))}
+            ))
+            }
             <div className='new_create_form'>
                 <h2>Question: <span> <input type={'text'} className={'input_box'} value={currentQuestionText} onChange={(e) => setCurrentQuestionText(e.target.value)}></input> </span></h2>
                 <h4>Answers</h4>
