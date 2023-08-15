@@ -65,12 +65,12 @@ const NewQuestionCard = () => {
     return (
         <>
             {convertedQuestions.map((convertedQuestion, index) => (
-                <div key={index}>
-                    <h2 className="questionText">
+                <div key={index} className='new_question_card'>
+                    <h2 className="question_text">
                         {convertedQuestion.text}
                     </h2>
                     {Object.keys(convertedQuestion.answers).map(answerKey => (
-                        <p key={answerKey} className={`answerText ${answerKey === convertedQuestion.correct ? 'correctOption' : ''}`}>
+                        <p key={answerKey} className={`answer_text ${answerKey === convertedQuestion.correct ? 'correct_option' : ''}`}>
                             {convertedQuestion.answers[answerKey]}
                         </p>
                     ))}
@@ -79,7 +79,7 @@ const NewQuestionCard = () => {
                     </p>
                 </div>
             ))}
-            <div>
+            <div className='new_create_form'>
                 <h2>Question: <span> <input type={'text'} className={'input_box'} value={currentQuestionText} onChange={(e) => setCurrentQuestionText(e.target.value)}></input> </span></h2>
                 <h4>Answers</h4>
                 {Object.keys(answerOptions).map((optionLetter) => (
@@ -97,6 +97,7 @@ const NewQuestionCard = () => {
                 ))}
                 <button onClick={handleAddOption}>Add Option</button>
             </div>
+
         </>
     )
 }
