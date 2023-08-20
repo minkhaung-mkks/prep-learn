@@ -15,6 +15,8 @@ Hi, and thanks for stopping by! This repository houses a project that I hold clo
 
 ## 📝 Latest Update
 
+Looking into Firebase to serve as an actual backened for the app.
+
 About 40% done on the new method of creating tests(question creation logic pretty much done)
 
 Currently Known Bugs : Cant search any of the sciences without causing a crash. (Gonna fix this during the weekend as I looked through the code and couldnt really pinpoint anything that would cause this.)
