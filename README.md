@@ -15,6 +15,8 @@ Hi, and thanks for stopping by! This repository houses a project that I hold clo
 
 ## 📝 Latest Update
 
+23/09/2023 : Still a bit sick and have exams for this whole week, also I'm focusing on learning firebase for now so everything gonna be on hold for a while
+
 Looking into Firebase to serve as an actual backened for the app.
 
 About 40% done on the new method of creating tests(question creation logic pretty much done)
