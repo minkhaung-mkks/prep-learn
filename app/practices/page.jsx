@@ -15,11 +15,12 @@ const PracticeListPage = () => {
     const selectSubTopics = (sub_topic) => {
         // When provided a function on setState, react calls the function with the current State
         // so setSelectedSubTopic(prev => prev + topic) = setSelectedSubTopic((prev)=> prev + topic)
-        if (sub_topic !== 'All' && !selectSubTopics.includes(sub_topic)) {
+
+        if (sub_topic !== 'All' && !selectedSubTopics.includes(sub_topic)) {
             setSelectedSubTopics((prev) => [...prev, sub_topic])
         }
         else if (selectedSubTopics.includes(sub_topic)) {
-
+            setSelectedSubTopics(prev => prev.filter(sub_topics => sub_topics !== sub_topic));
         }
         else {
             setSelectedSubTopics([])
@@ -31,7 +32,7 @@ const PracticeListPage = () => {
             setSelectedTopics((prev) => [...prev, topic])
         }
         else if (selectedTopics.includes(topic)) {
-
+            setSelectedTopics(prev => prev.filter(topics => topics !== topic));
         }
         else {
             setSelectedTopics([])
@@ -51,7 +52,6 @@ const PracticeListPage = () => {
                     temp_data = data.filter(quiz => quiz.subject === selectedSubject);
                     if (temp_data.length > 0) {
                         data = temp_data
-
                     }
                 }
 
@@ -61,13 +61,15 @@ const PracticeListPage = () => {
                     console.log(temp_data.length)
                     if (temp_data.length > 0) {
                         data = temp_data
-
                     }
                 }
 
                 // Filter by selected subtopics if any subtopic is selected
                 if (selectedSubTopics.length > 0) {
+                    console.log(selectedSubTopics)
+
                     temp_data = data.filter(quiz => quiz.sub_topic.some(subTopic => selectedSubTopics.includes(subTopic)))
+                    console.log(temp_data.length)
                     if (temp_data.length > 0) {
                         data = temp_data
                     }
@@ -197,7 +199,7 @@ const PracticeListPage = () => {
                     <div className="heading_line"></div>
                     {selectedTopics.includes('Chemistry') && (
                         <div id="GEDScience_chemistry" className="selector_btns_box">
-                            <button onClick={selectSubTopics('All')} className={`selector_btn ${selectedSubTopics.length < 1 ? "selected_selector_btn" : ""}`}>
+                            <button onClick={() => selectSubTopics('All')} className={`selector_btn ${selectedSubTopics.length < 1 ? "selected_selector_btn" : ""}`}>
                                 All
                             </button>
                         </div>
@@ -205,7 +207,7 @@ const PracticeListPage = () => {
                     }
                     {selectedTopics.includes('Biology') && (
                         <div id="GEDScience_biology" className="selector_btns_box">
-                            <button onClick={selectSubTopics('All')} className={`selector_btn ${selectedSubTopics.length < 1 ? "selected_selector_btn" : ""}`}>
+                            <button onClick={() => selectSubTopics('All')} className={`selector_btn ${selectedSubTopics.length < 1 ? "selected_selector_btn" : ""}`}>
                                 All
                             </button>
                         </div>
@@ -213,7 +215,7 @@ const PracticeListPage = () => {
                     }
                     {selectedTopics.includes('Physics') && (
                         <div id="GEDScience_physics" className="selector_btns_box">
-                            <button onClick={selectSubTopics('All')} className={`selector_btn ${selectedSubTopics.length < 1 ? "selected_selector_btn" : ""}`}>
+                            <button onClick={() => selectSubTopics('All')} className={`selector_btn ${selectedSubTopics.length < 1 ? "selected_selector_btn" : ""}`}>
                                 All
                             </button>
                         </div>
@@ -221,7 +223,7 @@ const PracticeListPage = () => {
                     }
                     {selectedTopics.includes('EarthAndScience') && (
                         <div id="GEDScience_EarthAndSpace" className="selector_btns_box">
-                            <button onClick={selectSubTopics('All')} className={`selector_btn ${selectedSubTopics.length < 1 ? "selected_selector_btn" : ""}`}>
+                            <button onClick={() => selectSubTopics('All')} className={`selector_btn ${selectedSubTopics.length < 1 ? "selected_selector_btn" : ""}`}>
                                 All
                             </button>
                         </div>
