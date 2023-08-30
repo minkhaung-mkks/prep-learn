@@ -15,7 +15,7 @@
     text-align: justify;
     letter-spacing: 1.2px;
     line-height: 1.6rem;
-    text-indent: 100px;
+    text-indent: clamp(20px, 10vw, 100px);
 }
 
 .section_box {
@@ -221,3 +221,31 @@
     filter: brightness(1.5);
     -webkit-filter: brightness(1.5);
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+    #web_page {
+        width: 90%;
+    }
+
+    .check_btn {
+        margin-right: auto;
+    }
+
+    .section_box {
+        margin-top: 5vh;
+    }
+
+    .nav_btn {
+        padding: 15px 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 767px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
