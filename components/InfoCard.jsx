@@ -46,7 +46,7 @@ const InfoCard = ({ index, quiz }) => {
             </div>
             <div className="quiz_info_box">
 
-                <div className="quiz_title_box">
+                <div className="quiz_title_box quiz_extra_info_box">
 
                     <h3 className="quiz_title">Difficulty : {quiz.difficulty}</h3>
 
@@ -60,7 +60,7 @@ const InfoCard = ({ index, quiz }) => {
                 <Link href={`/practices/quiz/${quiz.id}`} className="take_quiz_btn">
                     Start in Quiz Mode
                 </Link>
-                <Link href={`/practices/test/${quiz.id}`} className="take_quiz_btn">
+                <Link href={`/practices/test/${quiz.id}`} className="take_quiz_btn test_mode_btn">
                     Start in Test Mode
                 </Link>
             </div>
