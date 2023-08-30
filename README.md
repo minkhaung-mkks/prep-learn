@@ -15,15 +15,17 @@ Hi, and thanks for stopping by! This repository houses a project that I hold clo
 
 ## 📝 Latest Update
 
-23/09/2023 : Still a bit sick and have exams for this whole week, also I'm focusing on learning firebase for now so everything gonna be on hold for a while
+30/08/2023 : Fixed The crashing bug, also finished up the mobile version.
+
+23/08/2023 : Still a bit sick and have exams for this whole week, also I'm focusing on learning firebase for now so everything gonna be on hold for a while
 
 Looking into Firebase to serve as an actual backened for the app.
 
 About 40% done on the new method of creating tests(question creation logic pretty much done)
 
-Currently Known Bugs : Cant search any of the sciences without causing a crash. (Gonna fix this during the weekend as I looked through the code and couldnt really pinpoint anything that would cause this.)
+Currently Known Bugs : None
 
-Urgent Goal: I have to finish the mobile version and polish up the tablet version too.
+Urgent Goal: Polish up the tablet version too.
 
 Goal for a spare time: add the option to type the section and questions by hand. ( Might try it to make it tmr after school)
 
