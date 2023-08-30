@@ -124,6 +124,15 @@
     -o-border-radius: 15px;
 }
 
+.test_mode_btn {
+    background-color: var(--secondary);
+}
+
+.test_mode_btn:hover,
+.test_mode_btn:focus {
+    background-color: var(--primary);
+}
+
 /* CSS */
 /* .take_quiz_btn {
     align-items: center;
@@ -200,9 +209,6 @@
         gap: 20px;
     }
 
-    .test_mode_btn {
-        background-color: var(--secondary);
-    }
 
     .quiz_title_box {
         gap: 10px;
