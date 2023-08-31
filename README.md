@@ -15,6 +15,8 @@ Hi, and thanks for stopping by! This repository houses a project that I hold clo
 
 ## 📝 Latest Update
 
+31/08/2023 : The mobile version is really helping people get onboard, I was even asked to work on the school education platform. I gonna focus on trying to get auth to work with firebase. Gonna see how it goes from there.
+
 30/08/2023 : Fixed The crashing bug, also finished up the mobile version.
 
 23/08/2023 : Still a bit sick and have exams for this whole week, also I'm focusing on learning firebase for now so everything gonna be on hold for a while
