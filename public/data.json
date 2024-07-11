@@ -9678,5 +9678,2017 @@
         ]
       }
     ]
+  },
+  {
+    "id": 24,
+    "name": "AU Eco #2",
+    "subject": "Social Studies",
+    "exam": "GED",
+    "topic": [
+      "Economy"
+    ],
+    "sub_topic": [],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What is the law of supply?",
+            "answers": {
+              "a": "As the price of a good increases, the quantity supplied increases",
+              "b": "As the price of a good increases, the quantity supplied decreases",
+              "c": "As the price of a good decreases, the quantity supplied increases",
+              "d": "The quantity supplied is independent of price"
+            },
+            "correct": "a",
+            "answer_text": "As the price of a good increases, the quantity supplied increases",
+            "reason": "This is the basic principle of the law of supply, which states that there is a direct relationship between price and quantity supplied."
+          },
+          {
+            "text": "What does the supply curve represent?",
+            "answers": {
+              "a": "The relationship between price and quantity demanded",
+              "b": "The relationship between supply and demand",
+              "c": "The relationship between cost and price",
+              "d": "The relationship between price and quantity supplied"
+            },
+            "correct": "d",
+            "answer_text": "The relationship between price and quantity supplied",
+            "reason": "The supply curve shows the relationship between the price of a good and the quantity supplied."
+          },
+          {
+            "text": "What is \"market equilibrium\"?",
+            "answers": {
+              "a": "The highest price consumers are willing to pay",
+              "b": "The lowest price producers are willing to accept",
+              "c": "The average market price",
+              "d": "The point where quantity demanded equals quantity supplied"
+            },
+            "correct": "d",
+            "answer_text": "The point where quantity demanded equals quantity supplied",
+            "reason": "Market equilibrium is the point where the quantity of goods demanded equals the quantity of goods supplied."
+          },
+          {
+            "text": "What is the effect of a price floor set below the equilibrium price?",
+            "answers": {
+              "a": "Creates a surplus",
+              "b": "Creates a shortage",
+              "c": "Increases demand",
+              "d": "No effect"
+            },
+            "correct": "d",
+            "answer_text": "No effect",
+            "reason": "A price floor set below the equilibrium price has no effect because the market price is already above the floor."
+          },
+          {
+            "text": "What is the impact of government-imposed price controls?",
+            "answers": {
+              "a": "They always balance supply and demand",
+              "b": "They have no effect on the market",
+              "c": "They only affect the equilibrium price",
+              "d": "They can lead to shortages or surpluses"
+            },
+            "correct": "d",
+            "answer_text": "They can lead to shortages or surpluses",
+            "reason": "Government-imposed price controls can create imbalances in the market, leading to shortages or surpluses."
+          },
+          {
+            "text": "What does a shift to the right of the supply curve indicate?",
+            "answers": {
+              "a": "Decrease in supply",
+              "b": "Increase in demand",
+              "c": "Decrease in demand",
+              "d": "Increase in supply"
+            },
+            "correct": "d",
+            "answer_text": "Increase in supply",
+            "reason": "A rightward shift in the supply curve indicates an increase in supply."
+          },
+          {
+            "text": "What is \"price elasticity of supply\"?",
+            "answers": {
+              "a": "The responsiveness of quantity demanded to changes in price",
+              "b": "The fixed relationship between price and quantity supplied",
+              "c": "The inverse relationship between price and quantity supplied",
+              "d": "The responsiveness of quantity supplied to changes in price"
+            },
+            "correct": "d",
+            "answer_text": "The responsiveness of quantity supplied to changes in price",
+            "reason": "Price elasticity of supply measures how much the quantity supplied of a good responds to changes in its price."
+          },
+          {
+            "text": "What is a \"price ceiling\"?",
+            "answers": {
+              "a": "The minimum price set by the government that sellers can charge",
+              "b": "The average price in the market",
+              "c": "The equilibrium price in the market",
+              "d": "The maximum price set by the government that sellers can charge"
+            },
+            "correct": "d",
+            "answer_text": "The maximum price set by the government that sellers can charge",
+            "reason": "A price ceiling is a government-imposed limit on how high a price can be charged for a product."
+          },
+          {
+            "text": "What is \"consumer surplus\"?",
+            "answers": {
+              "a": "The total amount consumers pay for goods and services",
+              "b": "The excess supply of goods in the market",
+              "c": "The difference between what consumers are willing to pay and what they actually pay",
+              "d": "The difference between the market price and the minimum price producers are willing to accept"
+            },
+            "correct": "c",
+            "answer_text": "The difference between what consumers are willing to pay and what they actually pay",
+            "reason": "Consumer surplus is the difference between the maximum price consumers are willing to pay and the market price they actually pay."
+          },
+          {
+            "text": "What happens to the supply curve when production technology improves?",
+            "answers": {
+              "a": "Shifts to the left",
+              "b": "Shifts to the right",
+              "c": "Remains the same",
+              "d": "Becomes vertical"
+            },
+            "correct": "b",
+            "answer_text": "Shifts to the right",
+            "reason": "An improvement in production technology increases supply, shifting the supply curve to the right."
+          },
+          {
+            "text": "What does the demand curve represent?",
+            "answers": {
+              "a": "The relationship between price and quantity supplied",
+              "b": "The relationship between demand and supply",
+              "c": "The relationship between cost and price",
+              "d": "The relationship between price and quantity demanded"
+            },
+            "correct": "d",
+            "answer_text": "The relationship between price and quantity demanded",
+            "reason": "The demand curve shows the relationship between the price of a good and the quantity demanded."
+          },
+          {
+            "text": "What is \"income elasticity of demand\"?",
+            "answers": {
+              "a": "The responsiveness of income to changes in quantity demanded",
+              "b": "The fixed relationship between income and quantity demanded",
+              "c": "The inverse relationship between income and quantity demanded",
+              "d": "The responsiveness of quantity demanded to changes in income"
+            },
+            "correct": "d",
+            "answer_text": "The responsiveness of quantity demanded to changes in income",
+            "reason": "Income elasticity of demand measures how much the quantity demanded of a good responds to changes in consumer income."
+          },
+          {
+            "text": "What is the effect of a decrease in the number of buyers in a market?",
+            "answers": {
+              "a": "Increases demand",
+              "b": "Shifts the supply curve to the right",
+              "c": "Shifts the supply curve to the left",
+              "d": "Decreases demand"
+            },
+            "correct": "d",
+            "answer_text": "Decreases demand",
+            "reason": "A decrease in the number of buyers in a market decreases demand, shifting the demand curve to the left."
+          },
+          {
+            "text": "What is a \"substitute good\"?",
+            "answers": {
+              "a": "A good that is used together with another good",
+              "b": "A good that has no effect on the demand of another good",
+              "c": "A good that increases the price of another good",
+              "d": "A good that can be used in place of another good"
+            },
+            "correct": "d",
+            "answer_text": "A good that can be used in place of another good",
+            "reason": "A substitute good is one that can be used in place of another good, such as tea for coffee."
+          },
+          {
+            "text": "What is the impact of an increase in the cost of production on the supply curve?",
+            "answers": {
+              "a": "Shifts to the right",
+              "b": "Shifts to the left",
+              "c": "Remains the same",
+              "d": "Becomes vertical"
+            },
+            "correct": "b",
+            "answer_text": "Shifts to the left",
+            "reason": "An increase in the cost of production decreases supply, shifting the supply curve to the left."
+          },
+          {
+            "text": "What does \"elasticity\" measure in economics?",
+            "answers": {
+              "a": "The absolute change in one variable",
+              "b": "The fixed relationship between two variables",
+              "c": "The inverse relationship between two variables",
+              "d": "The responsiveness of one variable to changes in another variable"
+            },
+            "correct": "d",
+            "answer_text": "The responsiveness of one variable to changes in another variable",
+            "reason": "Elasticity measures how much one economic variable responds to changes in another economic variable."
+          },
+          {
+            "text": "What happens to the quantity supplied when the price of a good decreases?",
+            "answers": {
+              "a": "Increases",
+              "b": "Decreases",
+              "c": "Remains the same",
+              "d": "Becomes zero"
+            },
+            "correct": "b",
+            "answer_text": "Decreases",
+            "reason": "When the price of a good decreases, the quantity supplied also decreases, according to the law of supply."
+          },
+          {
+            "text": "What is the effect of a price floor on agricultural products?",
+            "answers": {
+              "a": "Creates a shortage",
+              "b": "Decreases supply",
+              "c": "Increases demand",
+              "d": "Creates a surplus"
+            },
+            "correct": "d",
+            "answer_text": "Creates a surplus",
+            "reason": "A price floor on agricultural products above the equilibrium price creates a surplus because it sets a minimum price that is higher than the market price."
+          },
+          {
+            "text": "What is the impact of an increase in the price of a complementary good?",
+            "answers": {
+              "a": "Increases demand for the related good",
+              "b": "Shifts the supply curve to the right",
+              "c": "Shifts the supply curve to the left",
+              "d": "Decreases demand for the related good"
+            },
+            "correct": "d",
+            "answer_text": "Decreases demand for the related good",
+            "reason": "An increase in the price of a complementary good decreases the demand for the related good, as they are often used together."
+          },
+          {
+            "text": "What is \"producer surplus\"?",
+            "answers": {
+              "a": "The total revenue received by producers",
+              "b": "The excess demand for goods in the market",
+              "c": "The difference between the market price and the maximum price producers are willing to accept",
+              "d": "The difference between the market price and the minimum price producers are willing to accept"
+            },
+            "correct": "d",
+            "answer_text": "The difference between the market price and the minimum price producers are willing to accept",
+            "reason": "Producer surplus is the difference between the market price and the lowest price at which producers are willing to sell a good."
+          },
+          {
+            "text": "What is the effect of a government-imposed quota?",
+            "answers": {
+              "a": "Limits the minimum quantity that can be sold",
+              "b": "Increases the market equilibrium quantity",
+              "c": "Decreases the market equilibrium quantity",
+              "d": "Limits the maximum quantity that can be sold"
+            },
+            "correct": "d",
+            "answer_text": "Limits the maximum quantity that can be sold",
+            "reason": "A government-imposed quota limits the maximum quantity of a good that can be sold in the market."
+          },
+          {
+            "text": "What is the relationship between \"inferior goods\" and consumer income?",
+            "answers": {
+              "a": "Demand increases as consumer income increases",
+              "b": "Demand remains the same regardless of income",
+              "c": "Demand decreases as consumer income increases",
+              "d": "Demand becomes perfectly inelastic"
+            },
+            "correct": "c",
+            "answer_text": "Demand decreases as consumer income increases",
+            "reason": "For inferior goods, demand decreases as consumer income increases because consumers can afford better alternatives."
+          },
+          {
+            "text": "What is the impact of an increase in taxes on consumers?",
+            "answers": {
+              "a": "Increases demand",
+              "b": "Shifts the supply curve to the right",
+              "c": "Shifts the supply curve to the left",
+              "d": "Decreases demand"
+            },
+            "correct": "d",
+            "answer_text": "Decreases demand",
+            "reason": "An increase in taxes on consumers decreases demand because it reduces consumers' disposable income."
+          },
+          {
+            "text": "What does a leftward shift in the supply curve indicate?",
+            "answers": {
+              "a": "Increase in demand",
+              "b": "Decrease in supply",
+              "c": "Increase in supply",
+              "d": "Decrease in demand"
+            },
+            "correct": "b",
+            "answer_text": "Decrease in supply",
+            "reason": "A leftward shift in the supply curve indicates a decrease in supply."
+          },
+          {
+            "text": "What is \"cross-price elasticity of demand\"?",
+            "answers": {
+              "a": "The responsiveness of quantity demanded of one good to changes in its own price",
+              "b": "The responsiveness of price of one good to changes in the quantity demanded of another good",
+              "c": "The fixed relationship between the prices of two goods",
+              "d": "The responsiveness of quantity demanded of one good to changes in the price of another good"
+            },
+            "correct": "d",
+            "answer_text": "The responsiveness of quantity demanded of one good to changes in the price of another good",
+            "reason": "Cross-price elasticity of demand measures how the quantity demanded of one good responds to changes in the price of another good."
+          },
+          {
+            "text": "What is the effect of a price ceiling on essential goods?",
+            "answers": {
+              "a": "Creates a surplus",
+              "b": "Increases supply",
+              "c": "Decreases demand",
+              "d": "Creates a shortage"
+            },
+            "correct": "d",
+            "answer_text": "Creates a shortage",
+            "reason": "A price ceiling on essential goods below the equilibrium price creates a shortage because it sets a maximum price that is lower than the market price."
+          },
+          {
+            "text": "What happens to the equilibrium price when there is an increase in demand and no change in supply?",
+            "answers": {
+              "a": "Remains the same",
+              "b": "Decreases",
+              "c": "Increases",
+              "d": "Becomes zero"
+            },
+            "correct": "c",
+            "answer_text": "Increases",
+            "reason": "When there is an increase in demand and no change in supply, the equilibrium price increases."
+          },
+          {
+            "text": "What is the effect of a decrease in production costs on the supply curve?",
+            "answers": {
+              "a": "Shifts to the left",
+              "b": "Remains the same",
+              "c": "Becomes vertical",
+              "d": "Shifts to the right"
+            },
+            "correct": "d",
+            "answer_text": "Shifts to the right",
+            "reason": "A decrease in production costs increases supply, shifting the supply curve to the right."
+          },
+          {
+            "text": "What is the primary goal of firms in a competitive market?",
+            "answers": {
+              "a": "To minimize costs",
+              "b": "To maximize production",
+              "c": "To maximize employee satisfaction",
+              "d": "To maximize profits"
+            },
+            "correct": "d",
+            "answer_text": "To maximize profits",
+            "reason": "The primary goal of firms in a competitive market is to maximize profits by increasing revenue and minimizing costs."
+          },
+          {
+            "text": "What does \"marginal utility\" refer to?",
+            "answers": {
+              "a": "The total satisfaction received from consuming all units of a good",
+              "b": "The average satisfaction received from consuming all units of a good",
+              "c": "The fixed satisfaction received from consuming all units of a good",
+              "d": "The additional satisfaction received from consuming one more unit of a good"
+            },
+            "correct": "d",
+            "answer_text": "The additional satisfaction received from consuming one more unit of a good",
+            "reason": "Marginal utility refers to the additional satisfaction or utility gained from consuming one additional unit of a good."
+          },
+          {
+            "text": "What is the impact of an increase in consumer preferences for a good?",
+            "answers": {
+              "a": "Decreases demand",
+              "b": "Shifts the supply curve to the right",
+              "c": "Shifts the supply curve to the left",
+              "d": "Increases demand"
+            },
+            "correct": "a",
+            "answer_text": "Increases demand",
+            "reason": "An increase in consumer preferences for a good increases demand, shifting the demand curve to the right."
+          },
+          {
+            "text": "What does a downward-sloping supply curve indicate?",
+            "answers": {
+              "a": "Direct relationship between price and quantity supplied",
+              "b": "Inverse relationship between price and quantity supplied",
+              "c": "No relationship between price and quantity supplied",
+              "d": "Unpredictable relationship between price and quantity supplied"
+            },
+            "correct": "b",
+            "answer_text": "Inverse relationship between price and quantity supplied",
+            "reason": "A downward-sloping supply curve would indicate an inverse relationship between price and quantity supplied, although this is unusual in most markets."
+          },
+          {
+            "text": "What is the impact of a subsidy to producers?",
+            "answers": {
+              "a": "Decreases supply",
+              "b": "No effect on supply",
+              "c": "Shifts the demand curve to the right",
+              "d": "Increases supply"
+            },
+            "correct": "d",
+            "answer_text": "Increases supply",
+            "reason": "A subsidy to producers lowers their production costs, increasing supply and shifting the supply curve to the right."
+          },
+          {
+            "text": "What is the effect of an increase in the price of a substitute good?",
+            "answers": {
+              "a": "Decreases demand for the related good",
+              "b": "Shifts the supply curve to the right",
+              "c": "Shifts the supply curve to the left",
+              "d": "Increases demand for the related good"
+            },
+            "correct": "d",
+            "answer_text": "Increases demand for the related good",
+            "reason": "An increase in the price of a substitute good increases the demand for the related good as consumers switch to the cheaper alternative."
+          },
+          {
+            "text": "What does \"perfectly inelastic demand\" mean?",
+            "answers": {
+              "a": "Quantity demanded does not change with a change in price",
+              "b": "Quantity demanded changes significantly with a change in price",
+              "c": "Quantity supplied does not change with a change in price",
+              "d": "Quantity supplied changes significantly with a change in price"
+            },
+            "correct": "a",
+            "answer_text": "Quantity demanded does not change with a change in price",
+            "reason": "Perfectly inelastic demand means that quantity demanded remains constant regardless of changes in price."
+          },
+          {
+            "text": "What is \"equilibrium quantity\"?",
+            "answers": {
+              "a": "The total quantity demanded in the market",
+              "b": "The total quantity supplied in the market",
+              "c": "The average quantity sold in the market",
+              "d": "The quantity bought and sold at the equilibrium price"
+            },
+            "correct": "d",
+            "answer_text": "The quantity bought and sold at the equilibrium price",
+            "reason": "Equilibrium quantity is the amount of goods bought and sold at the equilibrium price where supply equals demand."
+          },
+          {
+            "text": "What is the effect of a decrease in the price of a complementary good?",
+            "answers": {
+              "a": "Decreases demand for the related good",
+              "b": "Shifts the supply curve to the right",
+              "c": "Shifts the supply curve to the left",
+              "d": "Increases demand for the related good"
+            },
+            "correct": "d",
+            "answer_text": "Increases demand for the related good",
+            "reason": "A decrease in the price of a complementary good increases the demand for the related good as they are often used together."
+          },
+          {
+            "text": "What is \"demand elasticity\"?",
+            "answers": {
+              "a": "The responsiveness of quantity supplied to changes in price",
+              "b": "The fixed relationship between price and quantity demanded",
+              "c": "The inverse relationship between price and quantity demanded",
+              "d": "The responsiveness of quantity demanded to changes in price"
+            },
+            "correct": "d",
+            "answer_text": "The responsiveness of quantity demanded to changes in price",
+            "reason": "Demand elasticity measures how much the quantity demanded of a good responds to changes in its price."
+          },
+          {
+            "text": "What happens to the equilibrium quantity when there is a decrease in supply and no change in demand?",
+            "answers": {
+              "a": "Increases",
+              "b": "Decreases",
+              "c": "Remains the same",
+              "d": "Becomes zero"
+            },
+            "correct": "b",
+            "answer_text": "Decreases",
+            "reason": "When there is a decrease in supply and no change in demand, the equilibrium quantity decreases."
+          },
+          {
+            "text": "What is the effect of an increase in consumer income on the demand for normal goods?",
+            "answers": {
+              "a": "Decreases demand",
+              "b": "No effect on demand",
+              "c": "Makes demand perfectly inelastic",
+              "d": "Increases demand"
+            },
+            "correct": "d",
+            "answer_text": "Increases demand",
+            "reason": "An increase in consumer income increases the demand for normal goods as consumers have more disposable income to spend."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "AU Eco #3",
+    "subject": "Social Studies",
+    "exam": "GED",
+    "topic": [
+      "Economy"
+    ],
+    "sub_topic": [],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What is the law of diminishing returns?",
+            "answers": {
+              "a": "As more units of a variable input are added to fixed inputs, the additional output will eventually decrease",
+              "b": "As more units of a variable input are added, total output will always increase",
+              "c": "As more units of a fixed input are added, total output will decrease",
+              "d": "The total output decreases with every additional unit of input"
+            },
+            "correct": "a",
+            "answer_text": "As more units of a variable input are added to fixed inputs, the additional output will eventually decrease",
+            "reason": "This is the law of diminishing returns, which states that adding more of a variable input to fixed inputs will eventually result in smaller increases in output."
+          },
+          {
+            "text": "What is the goal of a firm according to economic theory?",
+            "answers": {
+              "a": "To maximize revenue",
+              "b": "To minimize costs",
+              "c": "To maximize profits",
+              "d": "To achieve the highest market share"
+            },
+            "correct": "c",
+            "answer_text": "To maximize profits",
+            "reason": "The goal of a firm is to maximize profits, which is calculated as total revenue minus total cost."
+          },
+          {
+            "text": "What happens to fixed costs in the long run?",
+            "answers": {
+              "a": "They become variable",
+              "b": "They increase exponentially",
+              "c": "They remain the same",
+              "d": "They are eliminated"
+            },
+            "correct": "d",
+            "answer_text": "They are eliminated",
+            "reason": "In the long run, all costs are variable, and there are no fixed costs."
+          },
+          {
+            "text": "Which of the following is a characteristic of the long run in production?",
+            "answers": {
+              "a": "Fixed costs remain constant",
+              "b": "All inputs are variable",
+              "c": "Only labor is variable",
+              "d": "Only capital is variable"
+            },
+            "correct": "b",
+            "answer_text": "All inputs are variable",
+            "reason": "In the long run, all inputs can be varied, allowing firms to adjust all factors of production."
+          },
+          {
+            "text": "What does the long-run average cost (LAC) curve represent?",
+            "answers": {
+              "a": "The average cost per unit of output when all inputs are fixed",
+              "b": "The minimum cost at which any output level can be produced when all inputs are variable",
+              "c": "The maximum cost of production",
+              "d": "The average cost when some inputs are fixed"
+            },
+            "correct": "b",
+            "answer_text": "The minimum cost at which any output level can be produced when all inputs are variable",
+            "reason": "The long-run average cost curve represents the minimum cost at which a firm can produce any given level of output when all inputs are variable."
+          },
+          {
+            "text": "What is the minimum efficient scale (MES)?",
+            "answers": {
+              "a": "The output level at which the long-run average cost is minimized",
+              "b": "The maximum output level achievable",
+              "c": "The point where marginal cost equals average total cost",
+              "d": "The level of output where total revenue is maximized"
+            },
+            "correct": "a",
+            "answer_text": "The output level at which the long-run average cost is minimized",
+            "reason": "The minimum efficient scale is the lowest level of output at which a firm can achieve the minimum long-run average cost."
+          },
+          {
+            "text": "What is the role of managerial specialization in economies of scale?",
+            "answers": {
+              "a": "It increases coordination costs",
+              "b": "It allows managers to oversee more workers efficiently",
+              "c": "It reduces the need for skilled labor",
+              "d": "It leads to higher wages for all employees"
+            },
+            "correct": "b",
+            "answer_text": "It allows managers to oversee more workers efficiently",
+            "reason": "Managerial specialization contributes to economies of scale by enabling managers to supervise more workers without a proportional increase in costs."
+          },
+          {
+            "text": "What is the impact of outsourcing on a firm's cost structure?",
+            "answers": {
+              "a": "It increases fixed costs",
+              "b": "It reduces variable costs",
+              "c": "It can reduce overall costs by accessing specialized skills",
+              "d": "It always leads to higher costs due to outsourcing fees"
+            },
+            "correct": "c",
+            "answer_text": "It can reduce overall costs by accessing specialized skills",
+            "reason": "Outsourcing can lower costs by leveraging the specialized skills of external providers and reducing the need for heavy investments in infrastructure and personnel."
+          },
+          {
+            "text": "What is vertical integration?",
+            "answers": {
+              "a": "Acquiring firms at the same level of production",
+              "b": "Expanding into different markets with the same product",
+              "c": "Taking direct ownership of key components in the supply chain",
+              "d": "Outsourcing production to reduce costs"
+            },
+            "correct": "c",
+            "answer_text": "Taking direct ownership of key components in the supply chain",
+            "reason": "Vertical integration involves a firm taking control of key stages of its supply chain to reduce costs and improve efficiency."
+          },
+          {
+            "text": "What is the law of marginal returns?",
+            "answers": {
+              "a": "Marginal product increases indefinitely with more input",
+              "b": "Marginal product decreases after a certain level of input",
+              "c": "Marginal product remains constant with additional input",
+              "d": "Marginal product decreases immediately with more input"
+            },
+            "correct": "b",
+            "answer_text": "Marginal product decreases after a certain level of input",
+            "reason": "The law of marginal returns states that the marginal product of an input will eventually decrease as more of the input is used, holding other inputs constant."
+          },
+          {
+            "text": "What are fixed resources?",
+            "answers": {
+              "a": "Resources that change with the level of output",
+              "b": "Resources that remain constant regardless of output",
+              "c": "Resources that only apply to variable costs",
+              "d": "Resources that vary only in the long run"
+            },
+            "correct": "b",
+            "answer_text": "Resources that remain constant regardless of output",
+            "reason": "Fixed resources do not change with the level of output produced."
+          },
+          {
+            "text": "What does the marginal cost (MC) represent?",
+            "answers": {
+              "a": "The total cost of producing all units of output",
+              "b": "The additional cost of producing one more unit of output",
+              "c": "The average cost of production",
+              "d": "The fixed cost divided by the number of units produced"
+            },
+            "correct": "b",
+            "answer_text": "The additional cost of producing one more unit of output",
+            "reason": "Marginal cost is the increase in total cost that arises from producing one additional unit of output."
+          },
+          {
+            "text": "What does the average variable cost (AVC) measure?",
+            "answers": {
+              "a": "The variable cost per unit of output",
+              "b": "The fixed cost per unit of output",
+              "c": "The total cost per unit of output",
+              "d": "The marginal cost per unit of output"
+            },
+            "correct": "a",
+            "answer_text": "The variable cost per unit of output",
+            "reason": "Average variable cost is calculated by dividing total variable costs by the quantity of output produced."
+          },
+          {
+            "text": "What causes shifts in cost curves?",
+            "answers": {
+              "a": "Changes in output levels",
+              "b": "Changes in resource prices or technology",
+              "c": "Changes in consumer preferences",
+              "d": "Changes in fixed inputs only"
+            },
+            "correct": "b",
+            "answer_text": "Changes in resource prices or technology",
+            "reason": "Shifts in cost curves occur due to changes in resource prices or advancements in technology."
+          },
+          {
+            "text": "What is economies of scale?",
+            "answers": {
+              "a": "Decreasing average costs with increasing production",
+              "b": "Increasing average costs with increasing production",
+              "c": "Constant average costs regardless of production level",
+              "d": "Increasing fixed costs with increasing production"
+            },
+            "correct": "a",
+            "answer_text": "Decreasing average costs with increasing production",
+            "reason": "Economies of scale occur when increasing production leads to lower average costs."
+          },
+          {
+            "text": "What are diseconomies of scale?",
+            "answers": {
+              "a": "Decreasing costs with increased production",
+              "b": "Increasing costs with decreased production",
+              "c": "Increasing average costs with increased production",
+              "d": "Constant costs regardless of production level"
+            },
+            "correct": "c",
+            "answer_text": "Increasing average costs with increased production",
+            "reason": "Diseconomies of scale happen when increasing production leads to higher average costs."
+          },
+          {
+            "text": "What is the impact of labor specialization on production?",
+            "answers": {
+              "a": "It decreases productivity",
+              "b": "It increases efficiency and reduces costs",
+              "c": "It has no impact on production costs",
+              "d": "It only affects fixed costs"
+            },
+            "correct": "b",
+            "answer_text": "It increases efficiency and reduces costs",
+            "reason": "Labor specialization improves efficiency and helps reduce costs by allowing workers to become more skilled at specific tasks."
+          },
+          {
+            "text": "What does vertical integration help achieve?",
+            "answers": {
+              "a": "Lower production quality",
+              "b": "Reduced control over supply chain",
+              "c": "Greater efficiency and cost control",
+              "d": "Increased competition"
+            },
+            "correct": "c",
+            "answer_text": "Greater efficiency and cost control",
+            "reason": "Vertical integration helps firms achieve greater efficiency and control over their supply chain, reducing costs."
+          },
+          {
+            "text": "What is the role of fixed costs in the short run?",
+            "answers": {
+              "a": "They change with the level of production",
+              "b": "They remain constant regardless of production level",
+              "c": "They are eliminated",
+              "d": "They are always variable"
+            },
+            "correct": "b",
+            "answer_text": "They remain constant regardless of production level",
+            "reason": "Fixed costs do not change with the level of production in the short run."
+          },
+          {
+            "text": "What does the term \"marginal product\" refer to?",
+            "answers": {
+              "a": "The total output produced by all inputs",
+              "b": "The additional output produced by one more unit of input",
+              "c": "The average output per unit of input",
+              "d": "The output produced with fixed inputs only"
+            },
+            "correct": "b",
+            "answer_text": "The additional output produced by one more unit of input",
+            "reason": "Marginal product refers to the additional output resulting from the use of one more unit of a variable input."
+          },
+          {
+            "text": "How does outsourcing affect a firm's focus?",
+            "answers": {
+              "a": "It diverts attention from core business activities",
+              "b": "It eliminates the need for external experts",
+              "c": "It allows the firm to focus more on core activities",
+              "d": "It increases internal production costs"
+            },
+            "correct": "c",
+            "answer_text": "It allows the firm to focus more on core activities",
+            "reason": "Outsourcing non-core activities enables firms to concentrate on their main business operations."
+          },
+          {
+            "text": "What is the relationship between average total cost (ATC) and marginal cost (MC)?",
+            "answers": {
+              "a": "ATC always equals MC",
+              "b": "MC intersects ATC at its minimum point",
+              "c": "ATC is always higher than MC",
+              "d": "MC is always lower than ATC"
+            },
+            "correct": "b",
+            "answer_text": "MC intersects ATC at its minimum point",
+            "reason": "Marginal cost intersects average total cost at the point where average total cost is minimized."
+          },
+          {
+            "text": "What are variable costs?",
+            "answers": {
+              "a": "Costs that remain constant regardless of output",
+              "b": "Costs that change with the level of production",
+              "c": "Costs that only occur in the long run",
+              "d": "Costs that only occur in the short run"
+            },
+            "correct": "b",
+            "answer_text": "Costs that change with the level of production",
+            "reason": "Variable costs vary directly with the level of production."
+          },
+          {
+            "text": "What is the effect of economies of scale on the long-run average cost curve?",
+            "answers": {
+              "a": "It slopes downward as output increases",
+              "b": "It remains constant regardless of output",
+              "c": "It slopes upward as output increases",
+              "d": "It becomes vertical"
+            },
+            "correct": "a",
+            "answer_text": "It slopes downward as output increases",
+            "reason": "Economies of scale cause the long-run average cost curve to slope downward as production increases, reducing average costs."
+          },
+          {
+            "text": "What is a production function?",
+            "answers": {
+              "a": "The relationship between inputs and total costs",
+              "b": "The relationship between inputs and outputs",
+              "c": "The total cost of producing a given level of output",
+              "d": "The total revenue generated from selling outputs"
+            },
+            "correct": "b",
+            "answer_text": "The relationship between inputs and outputs",
+            "reason": "A production function shows the relationship between the inputs used in production and the resulting output."
+          },
+          {
+            "text": "What happens to marginal cost when marginal product is increasing?",
+            "answers": {
+              "a": "Marginal cost decreases",
+              "b": "Marginal cost remains constant",
+              "c": "Marginal cost increases",
+              "d": "Marginal cost equals fixed cost"
+            },
+            "correct": "a",
+            "answer_text": "Marginal cost decreases",
+            "reason": "When marginal product is increasing, marginal cost decreases."
+          },
+          {
+            "text": "What does the term \"average product\" refer to?",
+            "answers": {
+              "a": "The total output produced by all inputs",
+              "b": "The additional output produced by one more unit of input",
+              "c": "The output per unit of input",
+              "d": "The fixed output level"
+            },
+            "correct": "c",
+            "answer_text": "The output per unit of input",
+            "reason": "Average product is the total output divided by the number of units of input used."
+          },
+          {
+            "text": "What is the role of economies of scope in production?",
+            "answers": {
+              "a": "Reducing costs by producing a single product",
+              "b": "Increasing costs by producing multiple products",
+              "c": "Reducing costs by producing a variety of products",
+              "d": "Increasing costs by focusing on one product"
+            },
+            "correct": "c",
+            "answer_text": "Reducing costs by producing a variety of products",
+            "reason": "Economies of scope occur when producing a variety of products reduces overall costs."
+          },
+          {
+            "text": "What is the relationship between fixed and variable costs in the short run?",
+            "answers": {
+              "a": "Fixed costs can be changed, but variable costs cannot",
+              "b": "Variable costs can be changed, but fixed costs cannot",
+              "c": "Both fixed and variable costs can be changed",
+              "d": "Neither fixed nor variable costs can be changed"
+            },
+            "correct": "b",
+            "answer_text": "Variable costs can be changed, but fixed costs cannot",
+            "reason": "In the short run, fixed costs remain constant, while variable costs can change with production levels."
+          },
+          {
+            "text": "What is the impact of technological improvement on production costs?",
+            "answers": {
+              "a": "It increases production costs",
+              "b": "It decreases production costs",
+              "c": "It has no impact on production costs",
+              "d": "It only affects fixed costs"
+            },
+            "correct": "b",
+            "answer_text": "It decreases production costs",
+            "reason": "Technological improvements typically reduce production costs by increasing efficiency."
+          },
+          {
+            "text": "What is the law of marginal productivity?",
+            "answers": {
+              "a": "Marginal product increases indefinitely with more input",
+              "b": "Marginal product decreases after a certain level of input",
+              "c": "Marginal product remains constant with additional input",
+              "d": "Marginal product decreases immediately with more input"
+            },
+            "correct": "b",
+            "answer_text": "Marginal product decreases after a certain level of input",
+            "reason": "The law of marginal productivity states that marginal product will decrease after a certain level of input."
+          },
+          {
+            "text": "What is the difference between short-run and long-run production decisions?",
+            "answers": {
+              "a": "In the short run, all inputs are variable",
+              "b": "In the long run, some inputs are fixed",
+              "c": "In the short run, some inputs are fixed",
+              "d": "In the long run, no inputs are variable"
+            },
+            "correct": "c",
+            "answer_text": "In the short run, some inputs are fixed",
+            "reason": "In the short run, some inputs are fixed, whereas in the long run, all inputs are variable."
+          },
+          {
+            "text": "What does the average fixed cost (AFC) measure?",
+            "answers": {
+              "a": "The fixed cost per unit of output",
+              "b": "The variable cost per unit of output",
+              "c": "The total cost per unit of output",
+              "d": "The marginal cost per unit of output"
+            },
+            "correct": "a",
+            "answer_text": "The fixed cost per unit of output",
+            "reason": "Average fixed cost is calculated by dividing total fixed costs by the quantity of output produced."
+          },
+          {
+            "text": "What happens to average total cost when marginal cost is below it?",
+            "answers": {
+              "a": "Average total cost increases",
+              "b": "Average total cost decreases",
+              "c": "Average total cost remains constant",
+              "d": "Average total cost equals marginal cost"
+            },
+            "correct": "b",
+            "answer_text": "Average total cost decreases",
+            "reason": "When marginal cost is below average total cost, it pulls the average total cost down."
+          },
+          {
+            "text": "What is the impact of vertical integration on competition?",
+            "answers": {
+              "a": "It increases competition",
+              "b": "It reduces competition",
+              "c": "It has no impact on competition",
+              "d": "It eliminates all competition"
+            },
+            "correct": "b",
+            "answer_text": "It reduces competition",
+            "reason": "Vertical integration can reduce competition by increasing barriers to entry for other firms."
+          },
+          {
+            "text": "What is the role of the firm in the economy?",
+            "answers": {
+              "a": "To maximize government revenue",
+              "b": "To transform factors of production into goods and services",
+              "c": "To minimize consumer costs",
+              "d": "To reduce employment levels"
+            },
+            "correct": "b",
+            "answer_text": "To transform factors of production into goods and services",
+            "reason": "The primary role of a firm is to convert inputs (factors of production) into outputs (goods and services)."
+          },
+          {
+            "text": "What is the effect of fixed costs on production decisions in the short run?",
+            "answers": {
+              "a": "Fixed costs can be adjusted easily",
+              "b": "Fixed costs remain constant and affect total cost",
+              "c": "Fixed costs vary with the level of production",
+              "d": "Fixed costs have no impact on production decisions"
+            },
+            "correct": "b",
+            "answer_text": "Fixed costs remain constant and affect total cost",
+            "reason": "Fixed costs remain unchanged in the short run and contribute to the total cost of production."
+          },
+          {
+            "text": "What happens to total cost when variable cost increases?",
+            "answers": {
+              "a": "Total cost remains the same",
+              "b": "Total cost decreases",
+              "c": "Total cost increases",
+              "d": "Total cost equals fixed cost"
+            },
+            "correct": "c",
+            "answer_text": "Total cost increases",
+            "reason": "When variable cost increases, the total cost also increases."
+          },
+          {
+            "text": "What is the relationship between marginal cost and marginal product?",
+            "answers": {
+              "a": "They are inversely related",
+              "b": "They are directly related",
+              "c": "They are not related",
+              "d": "They are equal at all levels of output"
+            },
+            "correct": "a",
+            "answer_text": "They are inversely related",
+            "reason": "Marginal cost and marginal product are inversely related: as marginal product increases, marginal cost decreases, and vice versa."
+          },
+          {
+            "text": "What is the primary benefit of outsourcing for a firm?",
+            "answers": {
+              "a": "Higher production costs",
+              "b": "Increased focus on non-core activities",
+              "c": "Access to specialized skills and cost reduction",
+              "d": "Increased control over the production process"
+            },
+            "correct": "c",
+            "answer_text": "Access to specialized skills and cost reduction",
+            "reason": "Outsourcing provides firms with access to specialized skills and can help reduce overall costs."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "AU Eco #4",
+    "subject": "Social Studies",
+    "exam": "GED",
+    "topic": [
+      "Economy"
+    ],
+    "sub_topic": [],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": 0,
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What does the term \"economies of scope\" refer to?",
+            "answers": {
+              "a": "Cost savings from producing a wide variety of products",
+              "b": "Cost savings from producing a large quantity of a single product",
+              "c": "Increased costs from producing multiple products",
+              "d": "No change in costs regardless of production variety"
+            },
+            "correct": "a",
+            "answer_text": "Cost savings from producing a wide variety of products",
+            "reason": "Economies of scope refer to cost savings when a firm produces a variety of products rather than specializing in just one."
+          },
+          {
+            "text": "What is the \"learning curve\" effect?",
+            "answers": {
+              "a": "Increased costs as production experience grows",
+              "b": "Decreased costs as production experience grows",
+              "c": "Constant costs regardless of production experience",
+              "d": "Variable costs that change with each production cycle"
+            },
+            "correct": "b",
+            "answer_text": "Decreased costs as production experience grows",
+            "reason": "The learning curve effect describes how costs decrease as workers and management gain experience with production."
+          },
+          {
+            "text": "What is meant by \"constant returns to scale\"?",
+            "answers": {
+              "a": "Doubling inputs leads to less than double the output",
+              "b": "Doubling inputs leads to exactly double the output",
+              "c": "Doubling inputs leads to more than double the output",
+              "d": "Inputs have no effect on output"
+            },
+            "correct": "b",
+            "answer_text": "Doubling inputs leads to exactly double the output",
+            "reason": "Constant returns to scale occur when increasing all inputs by a certain factor results in an increase in output by the same factor."
+          },
+          {
+            "text": "What is the primary characteristic of variable costs?",
+            "answers": {
+              "a": "They remain constant regardless of production levels",
+              "b": "They change with the level of production",
+              "c": "They only occur in the long run",
+              "d": "They are not affected by production levels"
+            },
+            "correct": "b",
+            "answer_text": "They change with the level of production",
+            "reason": "Variable costs change directly with the level of production."
+          },
+          {
+            "text": "What is the definition of fixed costs?",
+            "answers": {
+              "a": "Costs that vary with the level of output",
+              "b": "Costs that remain constant regardless of output",
+              "c": "Costs that are incurred only when production stops",
+              "d": "Costs that decrease with increased production"
+            },
+            "correct": "b",
+            "answer_text": "Costs that remain constant regardless of output",
+            "reason": "Fixed costs do not change with the level of output produced."
+          },
+          {
+            "text": "What does \"average fixed cost\" (AFC) measure?",
+            "answers": {
+              "a": "The fixed cost per unit of output",
+              "b": "The total fixed cost",
+              "c": "The variable cost per unit of output",
+              "d": "The marginal cost per unit of output"
+            },
+            "correct": "a",
+            "answer_text": "The fixed cost per unit of output",
+            "reason": "Average fixed cost is calculated by dividing total fixed costs by the quantity of output produced."
+          },
+          {
+            "text": "What is the impact of a decrease in variable costs on the marginal cost (MC) curve?",
+            "answers": {
+              "a": "Shifts the MC curve upward",
+              "b": "Shifts the MC curve downward",
+              "c": "Has no effect on the MC curve",
+              "d": "Makes the MC curve vertical"
+            },
+            "correct": "b",
+            "answer_text": "Shifts the MC curve downward",
+            "reason": "A decrease in variable costs reduces the marginal cost of production, shifting the MC curve downward."
+          },
+          {
+            "text": "What happens to the average variable cost (AVC) when output increases?",
+            "answers": {
+              "a": "AVC remains constant",
+              "b": "AVC increases",
+              "c": "AVC decreases",
+              "d": "AVC becomes zero"
+            },
+            "correct": "c",
+            "answer_text": "AVC decreases",
+            "reason": "As output increases, the average variable cost typically decreases due to economies of scale."
+          },
+          {
+            "text": "What is the main difference between short-run and long-run production?",
+            "answers": {
+              "a": "In the short run, some inputs are fixed",
+              "b": "In the long run, all inputs are fixed",
+              "c": "In the short run, all inputs are variable",
+              "d": "In the long run, no costs are variable"
+            },
+            "correct": "a",
+            "answer_text": "In the short run, some inputs are fixed",
+            "reason": "The main difference between short-run and long-run production is that in the short run, some inputs are fixed, while in the long run, all inputs can be varied."
+          },
+          {
+            "text": "What is the \"minimum efficient scale\" (MES)?",
+            "answers": {
+              "a": "The smallest level of production at which long-run average cost is minimized",
+              "b": "The largest level of production at which costs are minimized",
+              "c": "The point where total costs are maximized",
+              "d": "The level of output where profits are maximized"
+            },
+            "correct": "a",
+            "answer_text": "The smallest level of production at which long-run average cost is minimized",
+            "reason": "The minimum efficient scale is the lowest level of output at which a firm can achieve the minimum long-run average cost."
+          },
+          {
+            "text": "What is the \"shutdown point\" for a firm?",
+            "answers": {
+              "a": "The point where total revenue equals total cost",
+              "b": "The point where total revenue equals total variable cost",
+              "c": "The point where price equals average total cost",
+              "d": "The point where price equals average variable cost"
+            },
+            "correct": "d",
+            "answer_text": "The point where price equals average variable cost",
+            "reason": "The shutdown point is where the firm's total revenue just covers its total variable costs, meaning the firm cannot cover any of its fixed costs."
+          },
+          {
+            "text": "What is the \"breakeven point\" for a firm?",
+            "answers": {
+              "a": "The point where total revenue equals total cost",
+              "b": "The point where total revenue equals total variable cost",
+              "c": "The point where price equals marginal cost",
+              "d": "The point where price equals average fixed cost"
+            },
+            "correct": "a",
+            "answer_text": "The point where total revenue equals total cost",
+            "reason": "The breakeven point is where total revenue equals total cost, meaning the firm makes no profit but also incurs no loss."
+          },
+          {
+            "text": "What does \"diminishing marginal returns\" imply?",
+            "answers": {
+              "a": "Each additional unit of input increases output by a constant amount",
+              "b": "Each additional unit of input decreases output",
+              "c": "Each additional unit of input increases output, but by a smaller amount",
+              "d": "Each additional unit of input has no effect on output"
+            },
+            "correct": "c",
+            "answer_text": "Each additional unit of input increases output, but by a smaller amount",
+            "reason": "Diminishing marginal returns imply that each additional unit of input adds less to output than the previous unit."
+          },
+          {
+            "text": "What happens to total fixed cost (TFC) as output increases?",
+            "answers": {
+              "a": "TFC increases",
+              "b": "TFC decreases",
+              "c": "TFC remains constant",
+              "d": "TFC becomes zero"
+            },
+            "correct": "c",
+            "answer_text": "TFC remains constant",
+            "reason": "Total fixed cost does not change with the level of output produced."
+          },
+          {
+            "text": "What is the \"law of diminishing returns\"?",
+            "answers": {
+              "a": "Adding more of a variable input to fixed inputs will eventually result in smaller increases in output",
+              "b": "Adding more of a variable input to fixed inputs will result in constant increases in output",
+              "c": "Adding more of a fixed input to variable inputs will result in smaller increases in output",
+              "d": "Adding more of a fixed input to variable inputs will result in constant increases in output"
+            },
+            "correct": "a",
+            "answer_text": "Adding more of a variable input to fixed inputs will eventually result in smaller increases in output",
+            "reason": "The law of diminishing returns states that as more of a variable input is added to fixed inputs, the additional output will eventually decrease."
+          },
+          {
+            "text": "What is \"total cost\" (TC)?",
+            "answers": {
+              "a": "The sum of fixed costs and variable costs",
+              "b": "The cost of producing one more unit",
+              "c": "The average cost of production",
+              "d": "The revenue minus costs"
+            },
+            "correct": "a",
+            "answer_text": "The sum of fixed costs and variable costs",
+            "reason": "Total cost is the sum of all fixed and variable costs associated with production."
+          },
+          {
+            "text": "What is \"average total cost\" (ATC)?",
+            "answers": {
+              "a": "The total cost divided by the number of units produced",
+              "b": "The variable cost divided by the number of units produced",
+              "c": "The fixed cost divided by the number of units produced",
+              "d": "The marginal cost divided by the number of units produced"
+            },
+            "correct": "a",
+            "answer_text": "The total cost divided by the number of units produced",
+            "reason": "Average total cost is calculated by dividing total cost by the number of units produced."
+          },
+          {
+            "text": "What does \"marginal product\" (MP) refer to?",
+            "answers": {
+              "a": "The total output produced by all inputs",
+              "b": "The additional output produced by one more unit of input",
+              "c": "The average output per unit of input",
+              "d": "The fixed output level"
+            },
+            "correct": "b",
+            "answer_text": "The additional output produced by one more unit of input",
+            "reason": "Marginal product refers to the additional output resulting from the use of one more unit of a variable input."
+          },
+          {
+            "text": "What is the relationship between average variable cost (AVC) and average total cost (ATC)?",
+            "answers": {
+              "a": "AVC is always higher than ATC",
+              "b": "AVC is always lower than ATC",
+              "c": "AVC equals ATC at all levels of output",
+              "d": "AVC is unrelated to ATC"
+            },
+            "correct": "b",
+            "answer_text": "AVC is always lower than ATC",
+            "reason": "Average variable cost is always lower than average total cost because ATC includes both variable and fixed costs."
+          },
+          {
+            "text": "What is the impact of economies of scale on long-run average cost?",
+            "answers": {
+              "a": "It causes the long-run average cost curve to slope downward",
+              "b": "It causes the long-run average cost curve to slope upward",
+              "c": "It causes the long-run average cost curve to remain constant",
+              "d": "It has no impact on the long-run average cost curve"
+            },
+            "correct": "a",
+            "answer_text": "It causes the long-run average cost curve to slope downward",
+            "reason": "Economies of scale result in decreasing long-run average costs as production increases, causing the LRAC curve to slope downward."
+          },
+          {
+            "text": "What does \"production function\" mean in economics?",
+            "answers": {
+              "a": "The relationship between input costs and total revenue",
+              "b": "The relationship between inputs and the quantity of output produced",
+              "c": "The relationship between total cost and total revenue",
+              "d": "The relationship between profit and quantity of output produced"
+            },
+            "correct": "b",
+            "answer_text": "The relationship between inputs and the quantity of output produced",
+            "reason": "A production function shows how different inputs are transformed into output."
+          },
+          {
+            "text": "What is the \"learning curve\" in production?",
+            "answers": {
+              "a": "A graphical representation of the relationship between experience and efficiency",
+              "b": "A graphical representation of the relationship between costs and output",
+              "c": "A graphical representation of the relationship between fixed costs and variable costs",
+              "d": "A graphical representation of the relationship between profit and output"
+            },
+            "correct": "a",
+            "answer_text": "A graphical representation of the relationship between experience and efficiency",
+            "reason": "The learning curve illustrates how increased production experience leads to greater efficiency and lower costs."
+          },
+          {
+            "text": "What happens to marginal cost (MC) when marginal product (MP) is increasing?",
+            "answers": {
+              "a": "MC increases",
+              "b": "MC remains constant",
+              "c": "MC decreases",
+              "d": "MC equals fixed cost"
+            },
+            "correct": "c",
+            "answer_text": "MC decreases",
+            "reason": "When marginal product is increasing, marginal cost decreases because each additional unit of input is more productive."
+          },
+          {
+            "text": "What is \"average product\" (AP)?",
+            "answers": {
+              "a": "The total output produced by all inputs",
+              "b": "The additional output produced by one more unit of input",
+              "c": "The output per unit of input",
+              "d": "The fixed output level"
+            },
+            "correct": "c",
+            "answer_text": "The output per unit of input",
+            "reason": "Average product is the total output divided by the number of units of input used."
+          },
+          {
+            "text": "What is \"constant returns to scale\"?",
+            "answers": {
+              "a": "Doubling inputs leads to less than double the output",
+              "b": "Doubling inputs leads to exactly double the output",
+              "c": "Doubling inputs leads to more than double the output",
+              "d": "Inputs have no effect on output"
+            },
+            "correct": "b",
+            "answer_text": "Doubling inputs leads to exactly double the output",
+            "reason": "Constant returns to scale occur when increasing all inputs by a certain factor results in an increase in output by the same factor."
+          },
+          {
+            "text": "What does \"diseconomies of scale\" refer to?",
+            "answers": {
+              "a": "Decreasing average costs with increased production",
+              "b": "Increasing average costs with increased production",
+              "c": "Constant average costs regardless of production level",
+              "d": "Decreasing fixed costs with increased production"
+            },
+            "correct": "b",
+            "answer_text": "Increasing average costs with increased production",
+            "reason": "Diseconomies of scale refer to the situation where average costs increase as production increases."
+          },
+          {
+            "text": "What is the \"minimum efficient scale\" (MES)?",
+            "answers": {
+              "a": "The smallest level of production at which long-run average cost is minimized",
+              "b": "The largest level of production at which costs are minimized",
+              "c": "The point where total costs are maximized",
+              "d": "The level of output where profits are maximized"
+            },
+            "correct": "a",
+            "answer_text": "The smallest level of production at which long-run average cost is minimized",
+            "reason": "The minimum efficient scale is the lowest level of output at which a firm can achieve the minimum long-run average cost."
+          },
+          {
+            "text": "What is the \"shutdown point\" for a firm?",
+            "answers": {
+              "a": "The point where total revenue equals total cost",
+              "b": "The point where total revenue equals total variable cost",
+              "c": "The point where price equals average total cost",
+              "d": "The point where price equals average variable cost"
+            },
+            "correct": "d",
+            "answer_text": "The point where price equals average variable cost",
+            "reason": "The shutdown point is where the firm's total revenue just covers its total variable costs, meaning the firm cannot cover any of its fixed costs."
+          },
+          {
+            "text": "What is the \"breakeven point\" for a firm?",
+            "answers": {
+              "a": "The point where total revenue equals total cost",
+              "b": "The point where total revenue equals total variable cost",
+              "c": "The point where price equals marginal cost",
+              "d": "The point where price equals average fixed cost"
+            },
+            "correct": "a",
+            "answer_text": "The point where total revenue equals total cost",
+            "reason": "The breakeven point is where total revenue equals total cost, meaning the firm makes no profit but also incurs no loss."
+          },
+          {
+            "text": "What does \"diminishing marginal returns\" imply?",
+            "answers": {
+              "a": "Each additional unit of input increases output by a constant amount",
+              "b": "Each additional unit of input decreases output",
+              "c": "Each additional unit of input increases output, but by a smaller amount",
+              "d": "Each additional unit of input has no effect on output"
+            },
+            "correct": "c",
+            "answer_text": "Each additional unit of input increases output, but by a smaller amount",
+            "reason": "Diminishing marginal returns imply that each additional unit of input adds less to output than the previous unit."
+          },
+          {
+            "text": "What happens to total fixed cost (TFC) as output increases?",
+            "answers": {
+              "a": "TFC increases",
+              "b": "TFC decreases",
+              "c": "TFC remains constant",
+              "d": "TFC becomes zero"
+            },
+            "correct": "c",
+            "answer_text": "TFC remains constant",
+            "reason": "Total fixed cost does not change with the level of output produced."
+          },
+          {
+            "text": "What is the \"law of diminishing returns\"?",
+            "answers": {
+              "a": "Adding more of a variable input to fixed inputs will eventually result in smaller increases in output",
+              "b": "Adding more of a variable input to fixed inputs will result in constant increases in output",
+              "c": "Adding more of a fixed input to variable inputs will result in smaller increases in output",
+              "d": "Adding more of a fixed input to variable inputs will result in constant increases in output"
+            },
+            "correct": "a",
+            "answer_text": "Adding more of a variable input to fixed inputs will eventually result in smaller increases in output",
+            "reason": "The law of diminishing returns states that as more of a variable input is added to fixed inputs, the additional output will eventually decrease."
+          },
+          {
+            "text": "What is \"total cost\" (TC)?",
+            "answers": {
+              "a": "The sum of fixed costs and variable costs",
+              "b": "The cost of producing one more unit",
+              "c": "The average cost of production",
+              "d": "The revenue minus costs"
+            },
+            "correct": "a",
+            "answer_text": "The sum of fixed costs and variable costs",
+            "reason": "Total cost is the sum of all fixed and variable costs associated with production."
+          },
+          {
+            "text": "What is \"average total cost\" (ATC)?",
+            "answers": {
+              "a": "The total cost divided by the number of units produced",
+              "b": "The variable cost divided by the number of units produced",
+              "c": "The fixed cost divided by the number of units produced",
+              "d": "The marginal cost divided by the number of units produced"
+            },
+            "correct": "a",
+            "answer_text": "The total cost divided by the number of units produced",
+            "reason": "Average total cost is calculated by dividing total cost by the number of units produced."
+          },
+          {
+            "text": "What does \"marginal product\" (MP) refer to?",
+            "answers": {
+              "a": "The total output produced by all inputs",
+              "b": "The additional output produced by one more unit of input",
+              "c": "The average output per unit of input",
+              "d": "The fixed output level"
+            },
+            "correct": "b",
+            "answer_text": "The additional output produced by one more unit of input",
+            "reason": "Marginal product refers to the additional output resulting from the use of one more unit of a variable input."
+          },
+          {
+            "text": "What is the relationship between average variable cost (AVC) and average total cost (ATC)?",
+            "answers": {
+              "a": "AVC is always higher than ATC",
+              "b": "AVC is always lower than ATC",
+              "c": "AVC equals ATC at all levels of output",
+              "d": "AVC is unrelated to ATC"
+            },
+            "correct": "b",
+            "answer_text": "AVC is always lower than ATC",
+            "reason": "Average variable cost is always lower than average total cost because ATC includes both variable and fixed costs."
+          },
+          {
+            "text": "What is the impact of economies of scale on long-run average cost?",
+            "answers": {
+              "a": "It causes the long-run average cost curve to slope downward",
+              "b": "It causes the long-run average cost curve to slope upward",
+              "c": "It causes the long-run average cost curve to remain constant",
+              "d": "It has no impact on the long-run average cost curve"
+            },
+            "correct": "a",
+            "answer_text": "It causes the long-run average cost curve to slope downward",
+            "reason": "Economies of scale result in decreasing long-run average costs as production increases, causing the LRAC curve to slope downward."
+          },
+          {
+            "text": "What does \"production function\" mean in economics?",
+            "answers": {
+              "a": "The relationship between input costs and total revenue",
+              "b": "The relationship between inputs and the quantity of output produced",
+              "c": "The relationship between total cost and total revenue",
+              "d": "The relationship between profit and quantity of output produced"
+            },
+            "correct": "b",
+            "answer_text": "The relationship between inputs and the quantity of output produced",
+            "reason": "A production function shows how different inputs are transformed into output."
+          },
+          {
+            "text": "What is the \"learning curve\" in production?",
+            "answers": {
+              "a": "A graphical representation of the relationship between experience and efficiency",
+              "b": "A graphical representation of the relationship between costs and output",
+              "c": "A graphical representation of the relationship between fixed costs and variable costs",
+              "d": "A graphical representation of the relationship between profit and output"
+            },
+            "correct": "a",
+            "answer_text": "A graphical representation of the relationship between experience and efficiency",
+            "reason": "The learning curve illustrates how increased production experience leads to greater efficiency and lower costs."
+          },
+          {
+            "text": "What happens to marginal cost (MC) when marginal product (MP) is increasing?",
+            "answers": {
+              "a": "MC increases",
+              "b": "MC remains constant",
+              "c": "MC decreases",
+              "d": "MC equals fixed cost"
+            },
+            "correct": "c",
+            "answer_text": "MC decreases",
+            "reason": "When marginal product is increasing, marginal cost decreases because each additional unit of input is more productive."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "AU Eco #5",
+    "subject": "Social Studies",
+    "exam": "GED",
+    "topic": [
+      "Economy"
+    ],
+    "sub_topic": [],
+    "difficulty": "Hard",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What is the primary objective of a firm in a competitive market?",
+            "answers": {
+              "a": "To maximize revenue",
+              "b": "To maximize profits",
+              "c": "To minimize costs",
+              "d": "To achieve market dominance"
+            },
+            "correct": "b",
+            "answer_text": "To maximize profits",
+            "reason": "The primary objective of a firm in a competitive market is to maximize profits."
+          },
+          {
+            "text": "What does the law of diminishing returns state?",
+            "answers": {
+              "a": "Adding more of a variable input to fixed inputs will eventually result in smaller increases in output",
+              "b": "Adding more of a variable input to fixed inputs will result in constant increases in output",
+              "c": "Adding more of a fixed input to variable inputs will result in smaller increases in output",
+              "d": "Adding more of a fixed input to variable inputs will result in constant increases in output"
+            },
+            "correct": "a",
+            "answer_text": "Adding more of a variable input to fixed inputs will eventually result in smaller increases in output",
+            "reason": "This is the law of diminishing returns."
+          },
+          {
+            "text": "What is the relationship between total cost (TC), fixed cost (FC), and variable cost (VC)?",
+            "answers": {
+              "a": "TC = FC - VC",
+              "b": "TC = VC - FC",
+              "c": "TC = FC + VC",
+              "d": "TC = FC / VC"
+            },
+            "correct": "c",
+            "answer_text": "TC = FC + VC",
+            "reason": "Total cost is the sum of fixed costs and variable costs."
+          },
+          {
+            "text": "What is marginal cost (MC)?",
+            "answers": {
+              "a": "The cost of producing one more unit of output",
+              "b": "The total cost divided by the number of units produced",
+              "c": "The fixed cost per unit of output",
+              "d": "The variable cost per unit of output"
+            },
+            "correct": "a",
+            "answer_text": "The cost of producing one more unit of output",
+            "reason": "Marginal cost is the additional cost incurred by producing one more unit of output."
+          },
+          {
+            "text": "What happens to average fixed cost (AFC) as output increases?",
+            "answers": {
+              "a": "AFC increases",
+              "b": "AFC decreases",
+              "c": "AFC remains constant",
+              "d": "AFC becomes zero"
+            },
+            "correct": "b",
+            "answer_text": "AFC decreases",
+            "reason": "Average fixed cost decreases as output increases because fixed costs are spread over more units."
+          },
+          {
+            "text": "What is the minimum efficient scale (MES)?",
+            "answers": {
+              "a": "The smallest level of production at which long-run average cost is minimized",
+              "b": "The largest level of production at which costs are minimized",
+              "c": "The point where total costs are maximized",
+              "d": "The level of output where profits are maximized"
+            },
+            "correct": "a",
+            "answer_text": "The smallest level of production at which long-run average cost is minimized",
+            "reason": "The minimum efficient scale is the lowest level of output at which a firm can achieve the minimum long-run average cost."
+          },
+          {
+            "text": "What is the difference between short-run and long-run production decisions?",
+            "answers": {
+              "a": "In the short run, some inputs are fixed",
+              "b": "In the long run, some inputs are fixed",
+              "c": "In the short run, all inputs are variable",
+              "d": "In the long run, no inputs are variable"
+            },
+            "correct": "a",
+            "answer_text": "In the short run, some inputs are fixed",
+            "reason": "In the short run, some inputs are fixed, while in the long run, all inputs can be varied."
+          },
+          {
+            "text": "What is the breakeven point for a firm?",
+            "answers": {
+              "a": "The point where total revenue equals total cost",
+              "b": "The point where total revenue equals total variable cost",
+              "c": "The point where price equals marginal cost",
+              "d": "The point where price equals average fixed cost"
+            },
+            "correct": "a",
+            "answer_text": "The point where total revenue equals total cost",
+            "reason": "The breakeven point is where total revenue equals total cost, meaning the firm makes no profit but also incurs no loss."
+          },
+          {
+            "text": "What is the role of economies of scale in production?",
+            "answers": {
+              "a": "Reducing costs by producing a variety of products",
+              "b": "Increasing costs by producing multiple products",
+              "c": "Reducing costs by producing a large quantity of a single product",
+              "d": "Increasing costs by producing a large quantity of a single product"
+            },
+            "correct": "c",
+            "answer_text": "Reducing costs by producing a large quantity of a single product",
+            "reason": "Economies of scale refer to cost advantages that firms obtain due to size, output, or scale of operation."
+          },
+          {
+            "text": "What is the impact of outsourcing on a firm's cost structure?",
+            "answers": {
+              "a": "It increases fixed costs",
+              "b": "It reduces variable costs",
+              "c": "It can reduce overall costs by accessing specialized skills",
+              "d": "It always leads to higher costs due to outsourcing fees"
+            },
+            "correct": "c",
+            "answer_text": "It can reduce overall costs by accessing specialized skills",
+            "reason": "Outsourcing can lower costs by leveraging the specialized skills of external providers."
+          },
+          {
+            "text": "What is vertical integration?",
+            "answers": {
+              "a": "Acquiring firms at the same level of production",
+              "b": "Expanding into different markets with the same product",
+              "c": "Taking direct ownership of key components in the supply chain",
+              "d": "Outsourcing production to reduce costs"
+            },
+            "correct": "c",
+            "answer_text": "Taking direct ownership of key components in the supply chain",
+            "reason": "Vertical integration involves a firm taking control of key stages of its supply chain to reduce costs and improve efficiency."
+          },
+          {
+            "text": "What does the term \"average product\" (AP) refer to?",
+            "answers": {
+              "a": "The total output produced by all inputs",
+              "b": "The additional output produced by one more unit of input",
+              "c": "The output per unit of input",
+              "d": "The fixed output level"
+            },
+            "correct": "c",
+            "answer_text": "The output per unit of input",
+            "reason": "Average product is the total output divided by the number of units of input used."
+          },
+          {
+            "text": "What is the relationship between average variable cost (AVC) and average total cost (ATC)?",
+            "answers": {
+              "a": "AVC is always higher than ATC",
+              "b": "AVC is always lower than ATC",
+              "c": "AVC equals ATC at all levels of output",
+              "d": "AVC is unrelated to ATC"
+            },
+            "correct": "b",
+            "answer_text": "AVC is always lower than ATC",
+            "reason": "Average variable cost is always lower than average total cost because ATC includes both variable and fixed costs."
+          },
+          {
+            "text": "What does the shutdown point for a firm represent?",
+            "answers": {
+              "a": "The point where total revenue equals total cost",
+              "b": "The point where total revenue equals total variable cost",
+              "c": "The point where price equals average total cost",
+              "d": "The point where price equals average variable cost"
+            },
+            "correct": "d",
+            "answer_text": "The point where price equals average variable cost",
+            "reason": "The shutdown point is where the firm's total revenue just covers its total variable costs."
+          },
+          {
+            "text": "What are fixed resources?",
+            "answers": {
+              "a": "Resources that change with the level of output",
+              "b": "Resources that remain constant regardless of output",
+              "c": "Resources that only apply to variable costs",
+              "d": "Resources that vary only in the long run"
+            },
+            "correct": "b",
+            "answer_text": "Resources that remain constant regardless of output",
+            "reason": "Fixed resources do not change with the level of output produced."
+          },
+          {
+            "text": "What is the impact of technological improvement on production costs?",
+            "answers": {
+              "a": "It increases production costs",
+              "b": "It decreases production costs",
+              "c": "It has no impact on production costs",
+              "d": "It only affects fixed costs"
+            },
+            "correct": "b",
+            "answer_text": "It decreases production costs",
+            "reason": "Technological improvements typically reduce production costs by increasing efficiency."
+          },
+          {
+            "text": "What is the difference between fixed and variable costs in the short run?",
+            "answers": {
+              "a": "Fixed costs can be changed, but variable costs cannot",
+              "b": "Variable costs can be changed, but fixed costs cannot",
+              "c": "Both fixed and variable costs can be changed",
+              "d": "Neither fixed nor variable costs can be changed"
+            },
+            "correct": "b",
+            "answer_text": "Variable costs can be changed, but fixed costs cannot",
+            "reason": "In the short run, fixed costs remain constant, while variable costs can change with production levels."
+          },
+          {
+            "text": "What does the long-run average cost (LAC) curve represent?",
+            "answers": {
+              "a": "The average cost per unit of output when all inputs are fixed",
+              "b": "The minimum cost at which any output level can be produced when all inputs are variable",
+              "c": "The maximum cost of production",
+              "d": "The average cost when some inputs are fixed"
+            },
+            "correct": "b",
+            "answer_text": "The minimum cost at which any output level can be produced when all inputs are variable",
+            "reason": "The long-run average cost curve represents the minimum cost at which a firm can produce any given level of output when all inputs are variable."
+          },
+          {
+            "text": "What is the primary benefit of outsourcing for a firm?",
+            "answers": {
+              "a": "Higher production costs",
+              "b": "Increased focus on non-core activities",
+              "c": "Access to specialized skills and cost reduction",
+              "d": "Increased control over the production process"
+            },
+            "correct": "c",
+            "answer_text": "Access to specialized skills and cost reduction",
+            "reason": "Outsourcing provides firms with access to specialized skills and can help reduce overall costs."
+          },
+          {
+            "text": "What is the law of marginal returns?",
+            "answers": {
+              "a": "Marginal product increases indefinitely with more input",
+              "b": "Marginal product decreases after a certain level of input",
+              "c": "Marginal product remains constant with additional input",
+              "d": "Marginal product decreases immediately with more input"
+            },
+            "correct": "b",
+            "answer_text": "Marginal product decreases after a certain level of input",
+            "reason": "The law of marginal returns states that the marginal product of an input will eventually decrease as more of the input is used."
+          },
+          {
+            "text": "What is the role of managerial specialization in economies of scale?",
+            "answers": {
+              "a": "It increases coordination costs",
+              "b": "It allows managers to oversee more workers efficiently",
+              "c": "It reduces the need for skilled labor",
+              "d": "It leads to higher wages for all employees"
+            },
+            "correct": "b",
+            "answer_text": "It allows managers to oversee more workers efficiently",
+            "reason": "Managerial specialization contributes to economies of scale by enabling managers to supervise more workers without a proportional increase in costs."
+          },
+          {
+            "text": "What is the relationship between marginal cost (MC) and average total cost (ATC)?",
+            "answers": {
+              "a": "MC is always higher than ATC",
+              "b": "MC intersects ATC at its minimum point",
+              "c": "MC is always lower than ATC",
+              "d": "MC equals ATC at all levels of output"
+            },
+            "correct": "b",
+            "answer_text": "MC intersects ATC at its minimum point",
+            "reason": "Marginal cost intersects average total cost at the point where average total cost is minimized."
+          },
+          {
+            "text": "What is the definition of total cost (TC)?",
+            "answers": {
+              "a": "The sum of fixed costs and variable costs",
+              "b": "The cost of producing one more unit",
+              "c": "The average cost of production",
+              "d": "The revenue minus costs"
+            },
+            "correct": "a",
+            "answer_text": "The sum of fixed costs and variable costs",
+            "reason": "Total cost is the sum of all fixed and variable costs associated with production."
+          },
+          {
+            "text": "What is the role of fixed costs in the short run?",
+            "answers": {
+              "a": "They change with the level of production",
+              "b": "They remain constant regardless of production level",
+              "c": "They are eliminated",
+              "d": "They are always variable"
+            },
+            "correct": "b",
+            "answer_text": "They remain constant regardless of production level",
+            "reason": "Fixed costs do not change with the level of production in the short run."
+          },
+          {
+            "text": "What is the impact of labor specialization on production?",
+            "answers": {
+              "a": "It decreases productivity",
+              "b": "It increases efficiency and reduces costs",
+              "c": "It has no impact on production costs",
+              "d": "It only affects fixed costs"
+            },
+            "correct": "b",
+            "answer_text": "It increases efficiency and reduces costs",
+            "reason": "Labor specialization improves efficiency and helps reduce costs by allowing workers to become more skilled at specific tasks."
+          },
+          {
+            "text": "What happens to total cost when variable cost increases?",
+            "answers": {
+              "a": "Total cost remains the same",
+              "b": "Total cost decreases",
+              "c": "Total cost increases",
+              "d": "Total cost equals fixed cost"
+            },
+            "correct": "c",
+            "answer_text": "Total cost increases",
+            "reason": "When variable cost increases, the total cost also increases."
+          },
+          {
+            "text": "What is the difference between short-run and long-run average cost curves?",
+            "answers": {
+              "a": "Short-run curves are U-shaped, while long-run curves are L-shaped",
+              "b": "Short-run curves are L-shaped, while long-run curves are U-shaped",
+              "c": "Both are always upward sloping",
+              "d": "Short-run curves reflect fixed inputs, while long-run curves reflect variable inputs"
+            },
+            "correct": "d",
+            "answer_text": "Short-run curves reflect fixed inputs, while long-run curves reflect variable inputs",
+            "reason": "Short-run cost curves reflect the presence of fixed inputs, while long-run cost curves assume all inputs are variable."
+          },
+          {
+            "text": "What is economies of scale?",
+            "answers": {
+              "a": "Decreasing average costs with increasing production",
+              "b": "Increasing average costs with increasing production",
+              "c": "Constant average costs regardless of production level",
+              "d": "Increasing fixed costs with increasing production"
+            },
+            "correct": "a",
+            "answer_text": "Decreasing average costs with increasing production",
+            "reason": "Economies of scale occur when increasing production leads to lower average costs."
+          },
+          {
+            "text": "What are diseconomies of scale?",
+            "answers": {
+              "a": "Decreasing costs with increased production",
+              "b": "Increasing costs with decreased production",
+              "c": "Increasing average costs with increased production",
+              "d": "Constant costs regardless of production level"
+            },
+            "correct": "c",
+            "answer_text": "Increasing average costs with increased production",
+            "reason": "Diseconomies of scale happen when increasing production leads to higher average costs."
+          },
+          {
+            "text": "What is the role of the firm in the economy?",
+            "answers": {
+              "a": "To maximize government revenue",
+              "b": "To transform factors of production into goods and services",
+              "c": "To minimize consumer costs",
+              "d": "To reduce employment levels"
+            },
+            "correct": "b",
+            "answer_text": "To transform factors of production into goods and services",
+            "reason": "The primary role of a firm is to convert inputs (factors of production) into outputs (goods and services)."
+          },
+          {
+            "text": "What does the term \"marginal product\" refer to?",
+            "answers": {
+              "a": "The total output produced by all inputs",
+              "b": "The additional output produced by one more unit of input",
+              "c": "The average output per unit of input",
+              "d": "The output produced with fixed inputs only"
+            },
+            "correct": "b",
+            "answer_text": "The additional output produced by one more unit of input",
+            "reason": "Marginal product refers to the additional output resulting from the use of one more unit of a variable input."
+          },
+          {
+            "text": "What is the primary goal of firms in a competitive market?",
+            "answers": {
+              "a": "To minimize costs",
+              "b": "To maximize production",
+              "c": "To maximize employee satisfaction",
+              "d": "To maximize profits"
+            },
+            "correct": "d",
+            "answer_text": "To maximize profits",
+            "reason": "The primary goal of firms in a competitive market is to maximize profits by increasing revenue and minimizing costs."
+          },
+          {
+            "text": "What is the impact of an increase in consumer preferences for a good?",
+            "answers": {
+              "a": "Decreases demand",
+              "b": "Shifts the supply curve to the right",
+              "c": "Shifts the supply curve to the left",
+              "d": "Increases demand"
+            },
+            "correct": "d",
+            "answer_text": "Increases demand",
+            "reason": "An increase in consumer preferences for a good increases demand, shifting the demand curve to the right."
+          },
+          {
+            "text": "What is the primary characteristic of variable costs?",
+            "answers": {
+              "a": "They remain constant regardless of production levels",
+              "b": "They change with the level of production",
+              "c": "They only occur in the long run",
+              "d": "They are not affected by production levels"
+            },
+            "correct": "b",
+            "answer_text": "They change with the level of production",
+            "reason": "Variable costs vary directly with the level of production."
+          },
+          {
+            "text": "What is the learning curve effect?",
+            "answers": {
+              "a": "Increased costs as production experience grows",
+              "b": "Decreased costs as production experience grows",
+              "c": "Constant costs regardless of production experience",
+              "d": "Variable costs that change with each production cycle"
+            },
+            "correct": "b",
+            "answer_text": "Decreased costs as production experience grows",
+            "reason": "The learning curve effect describes how costs decrease as workers and management gain experience with production."
+          },
+          {
+            "text": "What does the term \"production function\" mean?",
+            "answers": {
+              "a": "The relationship between input costs and total revenue",
+              "b": "The relationship between inputs and the quantity of output produced",
+              "c": "The relationship between total cost and total revenue",
+              "d": "The relationship between profit and quantity of output produced"
+            },
+            "correct": "b",
+            "answer_text": "The relationship between inputs and the quantity of output produced",
+            "reason": "A production function shows the relationship between the inputs used in production and the resulting output."
+          },
+          {
+            "text": "What is marginal cost (MC)?",
+            "answers": {
+              "a": "The cost of producing one more unit of output",
+              "b": "The total cost divided by the number of units produced",
+              "c": "The fixed cost per unit of output",
+              "d": "The variable cost per unit of output"
+            },
+            "correct": "a",
+            "answer_text": "The cost of producing one more unit of output",
+            "reason": "Marginal cost is the increase in total cost that arises from producing one additional unit of output."
+          },
+          {
+            "text": "What is the effect of economies of scale on long-run average cost?",
+            "answers": {
+              "a": "It causes the long-run average cost curve to slope downward",
+              "b": "It causes the long-run average cost curve to slope upward",
+              "c": "It causes the long-run average cost curve to remain constant",
+              "d": "It has no impact on the long-run average cost curve"
+            },
+            "correct": "a",
+            "answer_text": "It causes the long-run average cost curve to slope downward",
+            "reason": "Economies of scale result in decreasing long-run average costs as production increases, causing the LRAC curve to slope downward."
+          },
+          {
+            "text": "What is the role of fixed costs in production decisions in the short run?",
+            "answers": {
+              "a": "Fixed costs can be adjusted easily",
+              "b": "Fixed costs remain constant and affect total cost",
+              "c": "Fixed costs vary with the level of production",
+              "d": "Fixed costs have no impact on production decisions"
+            },
+            "correct": "b",
+            "answer_text": "Fixed costs remain constant and affect total cost",
+            "reason": "Fixed costs remain unchanged in the short run and contribute to the total cost of production."
+          },
+          {
+            "text": "What does the term \"marginal utility\" refer to?",
+            "answers": {
+              "a": "The total satisfaction received from consuming all units of a good",
+              "b": "The average satisfaction received from consuming all units of a good",
+              "c": "The fixed satisfaction received from consuming all units of a good",
+              "d": "The additional satisfaction received from consuming one more unit of a good"
+            },
+            "correct": "d",
+            "answer_text": "The additional satisfaction received from consuming one more unit of a good",
+            "reason": "Marginal utility refers to the additional satisfaction or utility gained from consuming one additional unit of a good."
+          }
+        ]
+      }
+    ]
   }
 ]
