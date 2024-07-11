@@ -71,6 +71,7 @@ const QuizInfo = ({ quizInfoState, updateQuizInfoState, nextPage }) => {
         <button className={`selectingBtn ${quizTopic.includes(`American History`) ? 'selectedBtn' : ''} `} onClick={() => handleTopicClick('American History')}>American History</button>
         <button className={`selectingBtn ${quizTopic.includes(`Famouse Speeches`) ? 'selectedBtn' : ''} `} onClick={() => handleTopicClick('Famouse Speeches')}>Famouse Speeches</button>
         <button className={`selectingBtn ${quizTopic.includes(`World History`) ? 'selectedBtn' : ''} `} onClick={() => handleTopicClick('World History')}>World History</button>
+        <button className={`selectingBtn ${quizTopic.includes(`Economy`) ? 'selectedBtn' : ''} `} onClick={() => handleTopicClick('Economy')}>Economy</button>
         <h5>Sciences</h5>
         <button className={`selectingBtn ${quizTopic.includes(`Chemistry`) ? 'selectedBtn' : ''} `} onClick={() => handleTopicClick('Chemistry')}>Chemistry</button>
         <button className={`selectingBtn ${quizTopic.includes(`Biology`) ? 'selectedBtn' : ''} `} onClick={() => handleTopicClick('Biology')}>Biology</button>

@@ -9175,5 +9175,508 @@
         ]
       }
     ]
+  },
+  {
+    "id": 23,
+    "name": "AU ECO #1",
+    "subject": "Social Studies",
+    "exam": "GED",
+    "topic": [
+      "Economy"
+    ],
+    "sub_topic": [],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What is the law of demand?",
+            "answers": {
+              "a": "As the price of a good increases, the quantity demanded decreases",
+              "b": "As the price of a good decreases, the quantity demanded decreases",
+              "c": "As the price of a good increases, the quantity demanded increases",
+              "d": "The quantity demanded is independent of price"
+            },
+            "correct": "a",
+            "answer_text": "As the price of a good increases, the quantity demanded decreases",
+            "reason": "This is the basic principle of the law of demand, which states that there is an inverse relationship between price and quantity demanded."
+          },
+          {
+            "text": "What factors can cause a demand curve to shift to the right?",
+            "answers": {
+              "a": "Increase in the number of buyers",
+              "b": "Decrease in consumer income",
+              "c": "Increase in the price of related goods",
+              "d": "Increase in taxes on consumers"
+            },
+            "correct": "a",
+            "answer_text": "Increase in the number of buyers",
+            "reason": "More buyers in the market increases demand, shifting the demand curve to the right."
+          },
+          {
+            "text": "What does the term \"ceteris paribus\" mean?",
+            "answers": {
+              "a": "All other factors are constant",
+              "b": "All factors are variable",
+              "c": "Price and quantity are constant",
+              "d": "Price and quantity are variable"
+            },
+            "correct": "a",
+            "answer_text": "All other factors are constant",
+            "reason": "\"Ceteris paribus\" is a Latin phrase meaning \"all other things being equal\" or \"holding other factors constant.\""
+          },
+          {
+            "text": "What is a market?",
+            "answers": {
+              "a": "An institution that brings buyers and sellers together",
+              "b": "A place where only buyers gather",
+              "c": "A place where only sellers gather",
+              "d": "An online platform only"
+            },
+            "correct": "a",
+            "answer_text": "An institution that brings buyers and sellers together",
+            "reason": "A market is a mechanism or institution that facilitates the exchange of goods and services."
+          },
+          {
+            "text": "What is the opportunity cost of attending a class if your second choice is to sleep?",
+            "answers": {
+              "a": "The value of sleeping",
+              "b": "The value of watching a movie",
+              "c": "The value of going shopping",
+              "d": "The value of doing nothing"
+            },
+            "correct": "a",
+            "answer_text": "The value of sleeping",
+            "reason": "Opportunity cost is the value of the next best alternative foregone when a decision is made."
+          },
+          {
+            "text": "What does the term \"marginal cost\" refer to?",
+            "answers": {
+              "a": "The additional cost of producing one more unit",
+              "b": "The total cost of production",
+              "c": "The average cost of production",
+              "d": "The fixed cost of production"
+            },
+            "correct": "a",
+            "answer_text": "The additional cost of producing one more unit",
+            "reason": "Marginal cost refers to the cost of producing one additional unit of a good."
+          },
+          {
+            "text": "What is the effect of a price ceiling set below the equilibrium price?",
+            "answers": {
+              "a": "Creates a shortage",
+              "b": "Creates a surplus",
+              "c": "Increases the equilibrium price",
+              "d": "Decreases the demand"
+            },
+            "correct": "a",
+            "answer_text": "Creates a shortage",
+            "reason": "A price ceiling set below the equilibrium price results in a higher quantity demanded than supplied, creating a shortage."
+          },
+          {
+            "text": "What happens to the demand curve when consumer income increases?",
+            "answers": {
+              "a": "Shifts to the right for normal goods",
+              "b": "Shifts to the left for normal goods",
+              "c": "Remains the same",
+              "d": "Becomes vertical"
+            },
+            "correct": "a",
+            "answer_text": "Shifts to the right for normal goods",
+            "reason": "An increase in consumer income increases the demand for normal goods, shifting the demand curve to the right."
+          },
+          {
+            "text": "What is the equilibrium price?",
+            "answers": {
+              "a": "The price at which quantity demanded equals quantity supplied",
+              "b": "The highest price a seller can charge",
+              "c": "The lowest price a buyer is willing to pay",
+              "d": "The average market price"
+            },
+            "correct": "a",
+            "answer_text": "The price at which quantity demanded equals quantity supplied",
+            "reason": "The equilibrium price is the price at which the quantity of goods demanded equals the quantity of goods supplied."
+          },
+          {
+            "text": "What is the primary goal of a firm?",
+            "answers": {
+              "a": "To maximize profits",
+              "b": "To minimize costs",
+              "c": "To maximize production",
+              "d": "To maximize employee satisfaction"
+            },
+            "correct": "a",
+            "answer_text": "To maximize profits",
+            "reason": "The primary goal of a firm is to maximize profits by increasing revenue and minimizing costs."
+          },
+          {
+            "text": "What happens when a price floor is set above the equilibrium price?",
+            "answers": {
+              "a": "Creates a surplus",
+              "b": "Creates a shortage",
+              "c": "Decreases the equilibrium price",
+              "d": "Increases the demand"
+            },
+            "correct": "a",
+            "answer_text": "Creates a surplus",
+            "reason": "A price floor set above the equilibrium price results in a higher quantity supplied than demanded, creating a surplus."
+          },
+          {
+            "text": "What is the relationship between price and quantity supplied according to the law of supply?",
+            "answers": {
+              "a": "Direct relationship",
+              "b": "Inverse relationship",
+              "c": "No relationship",
+              "d": "Unpredictable relationship"
+            },
+            "correct": "a",
+            "answer_text": "Direct relationship",
+            "reason": "The law of supply states that there is a direct relationship between the price of a good and the quantity supplied."
+          },
+          {
+            "text": "What factors can cause a supply curve to shift to the left?",
+            "answers": {
+              "a": "Increase in production costs",
+              "b": "Improvement in technology",
+              "c": "Increase in the number of sellers",
+              "d": "Decrease in the price of other produced goods"
+            },
+            "correct": "a",
+            "answer_text": "Increase in production costs",
+            "reason": "An increase in production costs can cause the supply curve to shift to the left, indicating a decrease in supply."
+          },
+          {
+            "text": "What is \"marginal benefit\"?",
+            "answers": {
+              "a": "The additional benefit received from consuming one more unit",
+              "b": "The total benefit received from consuming all units",
+              "c": "The average benefit received from consuming all units",
+              "d": "The fixed benefit received from consuming all units"
+            },
+            "correct": "a",
+            "answer_text": "The additional benefit received from consuming one more unit",
+            "reason": "Marginal benefit refers to the additional satisfaction or benefit received from consuming one more unit of a good."
+          },
+          {
+            "text": "What does the concept of \"scarcity\" imply?",
+            "answers": {
+              "a": "Limited resources and unlimited wants",
+              "b": "Unlimited resources and limited wants",
+              "c": "Equal resources and wants",
+              "d": "No resources and unlimited wants"
+            },
+            "correct": "a",
+            "answer_text": "Limited resources and unlimited wants",
+            "reason": "Scarcity implies that there are limited resources to satisfy unlimited human wants."
+          },
+          {
+            "text": "What is \"elasticity\" in economics?",
+            "answers": {
+              "a": "A measure of responsiveness of one variable to changes in another variable",
+              "b": "A measure of the absolute change in one variable",
+              "c": "The fixed relationship between two variables",
+              "d": "The inverse relationship between two variables"
+            },
+            "correct": "a",
+            "answer_text": "A measure of responsiveness of one variable to changes in another variable",
+            "reason": "Elasticity measures how much one economic variable responds to changes in another economic variable."
+          },
+          {
+            "text": "What happens to the quantity demanded when the price of a substitute good increases?",
+            "answers": {
+              "a": "Increases",
+              "b": "Decreases",
+              "c": "Remains the same",
+              "d": "Becomes zero"
+            },
+            "correct": "a",
+            "answer_text": "Increases",
+            "reason": "When the price of a substitute good increases, the quantity demanded for the other good increases."
+          },
+          {
+            "text": "What is the effect of a price ceiling on the market for rental apartments?",
+            "answers": {
+              "a": "Decreases the supply of rental apartments",
+              "b": "Increases the supply of rental apartments",
+              "c": "Has no effect on the supply of rental apartments",
+              "d": "Equates the supply and demand of rental apartments"
+            },
+            "correct": "a",
+            "answer_text": "Decreases the supply of rental apartments",
+            "reason": "A price ceiling on rental apartments below the equilibrium price reduces the incentive for landlords to rent out apartments, decreasing the supply."
+          },
+          {
+            "text": "What does \"market equilibrium\" mean?",
+            "answers": {
+              "a": "The point where quantity demanded equals quantity supplied",
+              "b": "The highest price consumers are willing to pay",
+              "c": "The lowest price producers are willing to accept",
+              "d": "The point where demand exceeds supply"
+            },
+            "correct": "a",
+            "answer_text": "The point where quantity demanded equals quantity supplied",
+            "reason": "Market equilibrium is achieved when the quantity of goods demanded equals the quantity of goods supplied."
+          },
+          {
+            "text": "What is \"opportunity cost\"?",
+            "answers": {
+              "a": "The next best alternative foregone",
+              "b": "The total cost of all alternatives",
+              "c": "The average cost of all alternatives",
+              "d": "The fixed cost of all alternatives"
+            },
+            "correct": "a",
+            "answer_text": "The next best alternative foregone",
+            "reason": "Opportunity cost is the value of the next best alternative that is given up when making a decision."
+          },
+          {
+            "text": "What is the impact of an increase in consumer income on the demand for inferior goods?",
+            "answers": {
+              "a": "Decreases demand",
+              "b": "Increases demand",
+              "c": "No impact on demand",
+              "d": "Makes demand perfectly inelastic"
+            },
+            "correct": "a",
+            "answer_text": "Decreases demand",
+            "reason": "An increase in consumer income decreases the demand for inferior goods as people shift to higher-quality alternatives."
+          },
+          {
+            "text": "What does a downward-sloping demand curve represent?",
+            "answers": {
+              "a": "Inverse relationship between price and quantity demanded",
+              "b": "Direct relationship between price and quantity demanded",
+              "c": "No relationship between price and quantity demanded",
+              "d": "Unpredictable relationship between price and quantity demanded"
+            },
+            "correct": "a",
+            "answer_text": "Inverse relationship between price and quantity demanded",
+            "reason": "A downward-sloping demand curve indicates an inverse relationship between price and quantity demanded."
+          },
+          {
+            "text": "What is \"price elasticity of demand\"?",
+            "answers": {
+              "a": "The responsiveness of quantity demanded to changes in price",
+              "b": "The responsiveness of price to changes in quantity demanded",
+              "c": "The fixed relationship between price and quantity demanded",
+              "d": "The inverse relationship between price and quantity demanded"
+            },
+            "correct": "a",
+            "answer_text": "The responsiveness of quantity demanded to changes in price",
+            "reason": "Price elasticity of demand measures how much the quantity demanded of a good responds to changes in its price."
+          },
+          {
+            "text": "What does a rightward shift in the supply curve indicate?",
+            "answers": {
+              "a": "Increase in supply",
+              "b": "Decrease in supply",
+              "c": "Increase in demand",
+              "d": "Decrease in demand"
+            },
+            "correct": "a",
+            "answer_text": "Increase in supply",
+            "reason": "A rightward shift in the supply curve indicates an increase in supply."
+          },
+          {
+            "text": "What is the primary goal of marginal thinking?",
+            "answers": {
+              "a": "To make decisions based on additional benefits and costs",
+              "b": "To make decisions based on total benefits and costs",
+              "c": "To make decisions based on fixed benefits and costs",
+              "d": "To make decisions based on past benefits and costs"
+            },
+            "correct": "a",
+            "answer_text": "To make decisions based on additional benefits and costs",
+            "reason": "Marginal thinking involves making decisions based on the additional benefits and costs of an action."
+          },
+          {
+            "text": "What is \"consumer surplus\"?",
+            "answers": {
+              "a": "The difference between what consumers are willing to pay and what they actually pay",
+              "b": "The difference between what consumers actually pay and the market price",
+              "c": "The total amount consumers pay for goods and services",
+              "d": "The excess supply of goods in the market"
+            },
+            "correct": "a",
+            "answer_text": "The difference between what consumers are willing to pay and what they actually pay",
+            "reason": "Consumer surplus is the difference between the highest price consumers are willing to pay and the actual market price."
+          },
+          {
+            "text": "What happens to the equilibrium price when there is a decrease in supply and no change in demand?",
+            "answers": {
+              "a": "Increases",
+              "b": "Decreases",
+              "c": "Remains the same",
+              "d": "Becomes zero"
+            },
+            "correct": "a",
+            "answer_text": "Increases",
+            "reason": "When there is a decrease in supply and no change in demand, the equilibrium price increases."
+          },
+          {
+            "text": "What is the impact of a government-imposed quantity restriction?",
+            "answers": {
+              "a": "Limits the maximum quantity that can be sold",
+              "b": "Limits the minimum quantity that can be sold",
+              "c": "Increases the market equilibrium quantity",
+              "d": "Decreases the market equilibrium quantity"
+            },
+            "correct": "a",
+            "answer_text": "Limits the maximum quantity that can be sold",
+            "reason": "A government-imposed quantity restriction limits the maximum quantity of a good that can be sold in the market."
+          },
+          {
+            "text": "What is \"producer surplus\"?",
+            "answers": {
+              "a": "The difference between the market price and the minimum price producers are willing to accept",
+              "b": "The difference between the market price and the maximum price producers are willing to accept",
+              "c": "The total revenue received by producers",
+              "d": "The excess demand for goods in the market"
+            },
+            "correct": "a",
+            "answer_text": "The difference between the market price and the minimum price producers are willing to accept",
+            "reason": "Producer surplus is the difference between the market price and the lowest price at which producers are willing to sell a good."
+          },
+          {
+            "text": "What does a leftward shift in the demand curve indicate?",
+            "answers": {
+              "a": "Decrease in demand",
+              "b": "Increase in demand",
+              "c": "Decrease in supply",
+              "d": "Increase in supply"
+            },
+            "correct": "a",
+            "answer_text": "Decrease in demand",
+            "reason": "A leftward shift in the demand curve indicates a decrease in demand."
+          },
+          {
+            "text": "What is the effect of an improvement in technology on the supply curve?",
+            "answers": {
+              "a": "Shifts the supply curve to the right",
+              "b": "Shifts the supply curve to the left",
+              "c": "Makes the supply curve vertical",
+              "d": "Has no effect on the supply curve"
+            },
+            "correct": "a",
+            "answer_text": "Shifts the supply curve to the right",
+            "reason": "An improvement in technology typically increases supply, shifting the supply curve to the right."
+          },
+          {
+            "text": "What is \"cross-price elasticity of demand\"?",
+            "answers": {
+              "a": "The responsiveness of quantity demanded of one good to changes in the price of another good",
+              "b": "The responsiveness of quantity demanded of one good to changes in its own price",
+              "c": "The responsiveness of price of one good to changes in the quantity demanded of another good",
+              "d": "The fixed relationship between the prices of two goods"
+            },
+            "correct": "a",
+            "answer_text": "The responsiveness of quantity demanded of one good to changes in the price of another good",
+            "reason": "Cross-price elasticity of demand measures how the quantity demanded of one good responds to changes in the price of another good."
+          },
+          {
+            "text": "What happens to the demand for a good when its price falls, holding everything else constant?",
+            "answers": {
+              "a": "Increases",
+              "b": "Decreases",
+              "c": "Remains the same",
+              "d": "Becomes zero"
+            },
+            "correct": "a",
+            "answer_text": "Increases",
+            "reason": "When the price of a good falls, holding everything else constant, the quantity demanded increases."
+          },
+          {
+            "text": "What is \"income elasticity of demand\"?",
+            "answers": {
+              "a": "The responsiveness of quantity demanded to changes in income",
+              "b": "The responsiveness of income to changes in quantity demanded",
+              "c": "The fixed relationship between income and quantity demanded",
+              "d": "The inverse relationship between income and quantity demanded"
+            },
+            "correct": "a",
+            "answer_text": "The responsiveness of quantity demanded to changes in income",
+            "reason": "Income elasticity of demand measures how the quantity demanded of a good responds to changes in consumer income."
+          },
+          {
+            "text": "What is the effect of a decrease in the number of sellers in a market?",
+            "answers": {
+              "a": "Shifts the supply curve to the left",
+              "b": "Shifts the supply curve to the right",
+              "c": "Shifts the demand curve to the left",
+              "d": "Shifts the demand curve to the right"
+            },
+            "correct": "a",
+            "answer_text": "Shifts the supply curve to the left",
+            "reason": "A decrease in the number of sellers in the market decreases supply, shifting the supply curve to the left."
+          },
+          {
+            "text": "What does \"price floor\" refer to?",
+            "answers": {
+              "a": "The minimum price set by the government that producers can charge",
+              "b": "The maximum price set by the government that producers can charge",
+              "c": "The equilibrium price in the market",
+              "d": "The average market price"
+            },
+            "correct": "a",
+            "answer_text": "The minimum price set by the government that producers can charge",
+            "reason": "A price floor is a government-imposed minimum price that producers must charge for a good or service."
+          },
+          {
+            "text": "What is the relationship between complementary goods?",
+            "answers": {
+              "a": "They are used together",
+              "b": "They are used in place of each other",
+              "c": "They have no effect on each other's demand",
+              "d": "They increase the price of each other"
+            },
+            "correct": "a",
+            "answer_text": "They are used together",
+            "reason": "Complementary goods are goods that are typically used together, such as peanut butter and jelly."
+          },
+          {
+            "text": "What happens to the equilibrium quantity when there is an increase in demand and no change in supply?",
+            "answers": {
+              "a": "Increases",
+              "b": "Decreases",
+              "c": "Remains the same",
+              "d": "Becomes zero"
+            },
+            "correct": "a",
+            "answer_text": "Increases",
+            "reason": "When there is an increase in demand and no change in supply, the equilibrium quantity increases."
+          },
+          {
+            "text": "What is the impact of taxes on goods with inelastic demand?",
+            "answers": {
+              "a": "Consumers bear most of the tax burden",
+              "b": "Producers bear most of the tax burden",
+              "c": "No impact on tax burden distribution",
+              "d": "Tax burden is equally shared between consumers and producers"
+            },
+            "correct": "a",
+            "answer_text": "Consumers bear most of the tax burden",
+            "reason": "When demand is inelastic, consumers tend to bear most of the tax burden because they are less responsive to price changes."
+          },
+          {
+            "text": "What is \"marginal utility\"?",
+            "answers": {
+              "a": "The additional satisfaction received from consuming one more unit of a good",
+              "b": "The total satisfaction received from consuming all units of a good",
+              "c": "The average satisfaction received from consuming all units of a good",
+              "d": "The fixed satisfaction received from consuming all units of a good"
+            },
+            "correct": "a",
+            "answer_text": "The additional satisfaction received from consuming one more unit of a good",
+            "reason": "Marginal utility refers to the additional satisfaction or utility gained from consuming one additional unit of a good."
+          }
+        ]
+      }
+    ]
   }
 ]

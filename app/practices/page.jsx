@@ -136,6 +136,9 @@ const PracticeListPage = () => {
                     <button onClick={() => selectTopics('World History')} className={`selector_btn ${selectedTopics.includes('World History') ? "selected_selector_btn" : ""}`}>
                         World History
                     </button>
+                    <button onClick={() => selectTopics('Economy')} className={`selector_btn ${selectedTopics.includes('Economy') ? "selected_selector_btn" : ""}`}>
+                        Economy
+                    </button>
                 </div>
             )}
             {selectedSubject === 'Sciences' && (
