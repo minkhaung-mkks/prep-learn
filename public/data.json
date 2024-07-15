@@ -11690,5 +11690,3526 @@
         ]
       }
     ]
+  },
+  {
+    "id": 28,
+    "name": "Au IT #01",
+    "subject": "Sciences",
+    "exam": "GED",
+    "topic": [
+      "Earth & Space"
+    ],
+    "sub_topic": [],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "Who is credited with building the first mechanical computer in the 1820s?",
+            "answers": {
+              "a": "Charles Babbage",
+              "b": "Alan Turing",
+              "c": "John von Neumann",
+              "d": "Steve Jobs"
+            },
+            "correct": "a",
+            "answer_text": "Charles Babbage",
+            "reason": "Charles Babbage is credited with building the first mechanical computer."
+          },
+          {
+            "text": "What was the name of the first programmable, general-purpose computer reported in 1946?",
+            "answers": {
+              "a": "ENIAC",
+              "b": "UNIVAC",
+              "c": "PDP-1",
+              "d": "Altair 8800"
+            },
+            "correct": "a",
+            "answer_text": "ENIAC",
+            "reason": "The ENIAC was the first programmable, general-purpose computer."
+          },
+          {
+            "text": "What significant contribution did the ENIAC make during WWII?",
+            "answers": {
+              "a": "Calculating firing tables for artillery",
+              "b": "Breaking enemy codes",
+              "c": "Designing aircraft",
+              "d": "Managing logistics"
+            },
+            "correct": "a",
+            "answer_text": "Calculating firing tables for artillery",
+            "reason": "The ENIAC's significant contribution during WWII was calculating firing tables for artillery."
+          },
+          {
+            "text": "What does an operating system (OS) do in a computer?",
+            "answers": {
+              "a": "Controls all parts of a computer and coordinates actions",
+              "b": "Manages internet connections",
+              "c": "Protects against malware",
+              "d": "Provides storage solutions"
+            },
+            "correct": "a",
+            "answer_text": "Controls all parts of a computer and coordinates actions",
+            "reason": "An operating system (OS) controls all parts of a computer and coordinates actions."
+          },
+          {
+            "text": "Which company developed the Unix operating system in 1971?",
+            "answers": {
+              "a": "AT&T",
+              "b": "IBM",
+              "c": "Microsoft",
+              "d": "Apple"
+            },
+            "correct": "a",
+            "answer_text": "AT&T",
+            "reason": "AT&T developed the Unix operating system in 1971."
+          },
+          {
+            "text": "What was the original purpose of the Unix operating system?",
+            "answers": {
+              "a": "Supporting games on office machines",
+              "b": "Managing large data centers",
+              "c": "Developing business applications",
+              "d": "Facilitating scientific research"
+            },
+            "correct": "a",
+            "answer_text": "Supporting games on office machines",
+            "reason": "The original purpose of the Unix operating system was supporting games on office machines."
+          },
+          {
+            "text": "What was a key principle guiding the development of Unix?",
+            "answers": {
+              "a": "Minimum number of keystrokes for maximum effort",
+              "b": "Maximum security at any cost",
+              "c": "User-friendly graphical interface",
+              "d": "High-speed processing"
+            },
+            "correct": "a",
+            "answer_text": "Minimum number of keystrokes for maximum effort",
+            "reason": "A key principle guiding the development of Unix was achieving the maximum effort with the minimum number of keystrokes."
+          },
+          {
+            "text": "What was the first popular personal computer introduced by IBM in 1981?",
+            "answers": {
+              "a": "IBM PC",
+              "b": "Macintosh",
+              "c": "Altair 8800",
+              "d": "Apple II"
+            },
+            "correct": "a",
+            "answer_text": "IBM PC",
+            "reason": "The first popular personal computer introduced by IBM in 1981 was the IBM PC."
+          },
+          {
+            "text": "Where was the IBM personal computer invented?",
+            "answers": {
+              "a": "Boca Raton, Florida",
+              "b": "Palo Alto, California",
+              "c": "Redmond, Washington",
+              "d": "Austin, Texas"
+            },
+            "correct": "a",
+            "answer_text": "Boca Raton, Florida",
+            "reason": "The IBM personal computer was invented in Boca Raton, Florida."
+          },
+          {
+            "text": "What significant feature did the IBM PC have that helped it revolutionize the market?",
+            "answers": {
+              "a": "Open design allowing components from multiple vendors",
+              "b": "High-speed processing capabilities",
+              "c": "Built-in graphical user interface",
+              "d": "Advanced gaming capabilities"
+            },
+            "correct": "a",
+            "answer_text": "Open design allowing components from multiple vendors",
+            "reason": "The IBM PC's open design allowed components from multiple vendors to interoperate, revolutionizing the market."
+          },
+          {
+            "text": "What is a key role of IT infrastructure in large organizations?",
+            "answers": {
+              "a": "Keeping systems up and running and minimizing downtime",
+              "b": "Developing software applications",
+              "c": "Designing user interfaces",
+              "d": "Conducting market research"
+            },
+            "correct": "a",
+            "answer_text": "Keeping systems up and running and minimizing downtime",
+            "reason": "IT infrastructure in large organizations focuses on keeping systems up and running and minimizing downtime."
+          },
+          {
+            "text": "Which job role involves creating user-facing applications that interact with people?",
+            "answers": {
+              "a": "Front-end developer",
+              "b": "Back-end developer",
+              "c": "Data architect",
+              "d": "Systems administrator"
+            },
+            "correct": "a",
+            "answer_text": "Front-end developer",
+            "reason": "A front-end developer creates user-facing applications that interact with people."
+          },
+          {
+            "text": "What is the primary responsibility of a cybersecurity expert?",
+            "answers": {
+              "a": "Protecting organizations from hackers and malicious users",
+              "b": "Developing mobile applications",
+              "c": "Designing user interfaces",
+              "d": "Managing databases"
+            },
+            "correct": "a",
+            "answer_text": "Protecting organizations from hackers and malicious users",
+            "reason": "The primary responsibility of a cybersecurity expert is protecting organizations from hackers and malicious users."
+          },
+          {
+            "text": "What does computer forensics involve?",
+            "answers": {
+              "a": "Collection and preservation of evidence from computers for legal cases",
+              "b": "Designing and developing software",
+              "c": "Managing network infrastructure",
+              "d": "Conducting market research"
+            },
+            "correct": "a",
+            "answer_text": "Collection and preservation of evidence from computers for legal cases",
+            "reason": "Computer forensics involves the collection and preservation of evidence from computers for legal cases."
+          },
+          {
+            "text": "What is the Internet of Things (IoT)?",
+            "answers": {
+              "a": "A network of Internet-connected devices and sensors",
+              "b": "A software development methodology",
+              "c": "A type of cybersecurity threat",
+              "d": "A cloud computing service"
+            },
+            "correct": "a",
+            "answer_text": "A network of Internet-connected devices and sensors",
+            "reason": "The Internet of Things (IoT) is a network of Internet-connected devices and sensors."
+          },
+          {
+            "text": "What are soft skills in the context of IT careers?",
+            "answers": {
+              "a": "Interpersonal skills that affect effective work with others",
+              "b": "Technical skills in programming and software development",
+              "c": "Skills related to hardware maintenance",
+              "d": "Advanced data analysis skills"
+            },
+            "correct": "a",
+            "answer_text": "Interpersonal skills that affect effective work with others",
+            "reason": "Soft skills in IT careers refer to interpersonal skills that affect effective work with others."
+          },
+          {
+            "text": "What is the primary function of project management skills in IT?",
+            "answers": {
+              "a": "Coordinating resources to accomplish business objectives",
+              "b": "Writing and debugging code",
+              "c": "Managing network security",
+              "d": "Designing hardware components"
+            },
+            "correct": "a",
+            "answer_text": "Coordinating resources to accomplish business objectives",
+            "reason": "Project management skills in IT involve coordinating resources to accomplish business objectives."
+          },
+          {
+            "text": "What is a fundamental requirement for succeeding in IT support roles?",
+            "answers": {
+              "a": "Ability to resolve technical issues related to computers and devices",
+              "b": "Expertise in graphic design",
+              "c": "Skills in financial analysis",
+              "d": "Knowledge of marketing strategies"
+            },
+            "correct": "a",
+            "answer_text": "Ability to resolve technical issues related to computers and devices",
+            "reason": "A fundamental requirement for succeeding in IT support roles is the ability to resolve technical issues related to computers and devices."
+          },
+          {
+            "text": "What is a critical difference between IT infrastructure employees and cybersecurity employees?",
+            "answers": {
+              "a": "Ability to act under pressure during active cybersecurity threats",
+              "b": "Expertise in developing user interfaces",
+              "c": "Skills in managing cloud services",
+              "d": "Proficiency in database design"
+            },
+            "correct": "a",
+            "answer_text": "Ability to act under pressure during active cybersecurity threats",
+            "reason": "A critical difference between IT infrastructure employees and cybersecurity employees is the ability to act under pressure during active cybersecurity threats."
+          },
+          {
+            "text": "What role do data scientists play in organizations?",
+            "answers": {
+              "a": "Analyzing and interpreting complex data to aid decision-making",
+              "b": "Managing network infrastructure",
+              "c": "Providing technical support",
+              "d": "Developing mobile applications"
+            },
+            "correct": "a",
+            "answer_text": "Analyzing and interpreting complex data to aid decision-making",
+            "reason": "Data scientists play the role of analyzing and interpreting complex data to aid decision-making in organizations."
+          },
+          {
+            "text": "What is a significant aspect of IT infrastructure management?",
+            "answers": {
+              "a": "Deploying and maintaining hardware, software, and networking components",
+              "b": "Creating user interfaces",
+              "c": "Conducting market analysis",
+              "d": "Managing human resources"
+            },
+            "correct": "a",
+            "answer_text": "Deploying and maintaining hardware, software, and networking components",
+            "reason": "A significant aspect of IT infrastructure management is deploying and maintaining hardware, software, and networking components."
+          },
+          {
+            "text": "Which role focuses on building applications optimized for smartphones?",
+            "answers": {
+              "a": "Mobile application developer",
+              "b": "Data analyst",
+              "c": "Network architect",
+              "d": "Systems administrator"
+            },
+            "correct": "a",
+            "answer_text": "Mobile application developer",
+            "reason": "A mobile application developer focuses on building applications optimized for smartphones."
+          },
+          {
+            "text": "What is the main focus of IT support groups in organizations?",
+            "answers": {
+              "a": "Providing technical support to resolve issues related to IT devices",
+              "b": "Conducting research and development",
+              "c": "Designing and developing software",
+              "d": "Managing cybersecurity threats"
+            },
+            "correct": "a",
+            "answer_text": "Providing technical support to resolve issues related to IT devices",
+            "reason": "The main focus of IT support groups is providing technical support to resolve issues related to IT devices."
+          },
+          {
+            "text": "What does the role of a data architect involve?",
+            "answers": {
+              "a": "Developing systems for data capture, storage, and analysis",
+              "b": "Creating user interfaces",
+              "c": "Managing network security",
+              "d": "Providing technical support"
+            },
+            "correct": "a",
+            "answer_text": "Developing systems for data capture, storage, and analysis",
+            "reason": "A data architect is responsible for developing systems for data capture, storage, and analysis."
+          },
+          {
+            "text": "What is the primary task of a front-end developer?",
+            "answers": {
+              "a": "Creating user interfaces that people interact with",
+              "b": "Managing databases",
+              "c": "Providing technical support",
+              "d": "Analyzing cybersecurity threats"
+            },
+            "correct": "a",
+            "answer_text": "Creating user interfaces that people interact with",
+            "reason": "The primary task of a front-end developer is creating user interfaces that people interact with."
+          },
+          {
+            "text": "What is the role of embedded developers?",
+            "answers": {
+              "a": "Creating software for non-PC devices like cars and refrigerators",
+              "b": "Managing IT infrastructure",
+              "c": "Providing technical support",
+              "d": "Conducting market research"
+            },
+            "correct": "a",
+            "answer_text": "Creating software for non-PC devices like cars and refrigerators",
+            "reason": "Embedded developers create software for non-PC devices like cars and refrigerators."
+          },
+          {
+            "text": "What does IT infrastructure include?",
+            "answers": {
+              "a": "Hardware, software, and networking components",
+              "b": "User interface design",
+              "c": "Cybersecurity measures",
+              "d": "Data analysis tools"
+            },
+            "correct": "a",
+            "answer_text": "Hardware, software, and networking components",
+            "reason": "IT infrastructure includes hardware, software, and networking components."
+          },
+          {
+            "text": "What is the focus of research and development in IT?",
+            "answers": {
+              "a": "Making IT simpler to use, secure, and efficient",
+              "b": "Providing technical support",
+              "c": "Developing marketing strategies",
+              "d": "Managing human resources"
+            },
+            "correct": "a",
+            "answer_text": "Making IT simpler to use, secure, and efficient",
+            "reason": "Research and development in IT focus on making IT simpler to use, secure, and efficient."
+          },
+          {
+            "text": "What is a key requirement for careers in data management?",
+            "answers": {
+              "a": "Specialized data handling abilities and programming skills",
+              "b": "Expertise in graphic design",
+              "c": "Knowledge of marketing strategies",
+              "d": "Skills in financial analysis"
+            },
+            "correct": "a",
+            "answer_text": "Specialized data handling abilities and programming skills",
+            "reason": "Careers in data management require specialized data handling abilities and programming skills."
+          },
+          {
+            "text": "What is the primary responsibility of network managers?",
+            "answers": {
+              "a": "Managing a firm's network architecture",
+              "b": "Developing software applications",
+              "c": "Analyzing data for decision-making",
+              "d": "Providing technical support"
+            },
+            "correct": "a",
+            "answer_text": "Managing a firm's network architecture",
+            "reason": "The primary responsibility of network managers is managing a firm's network architecture."
+          },
+          {
+            "text": "What is a significant role of business analysts in IT?",
+            "answers": {
+              "a": "Managing information and synthesizing it for decision-making",
+              "b": "Providing technical support",
+              "c": "Designing user interfaces",
+              "d": "Developing hardware components"
+            },
+            "correct": "a",
+            "answer_text": "Managing information and synthesizing it for decision-making",
+            "reason": "A significant role of business analysts in IT is managing information and synthesizing it for decision-making."
+          },
+          {
+            "text": "What is a crucial skill for IT professionals working in cybersecurity?",
+            "answers": {
+              "a": "Ability to act under pressure during cybersecurity threats",
+              "b": "Expertise in graphic design",
+              "c": "Skills in financial analysis",
+              "d": "Knowledge of marketing strategies"
+            },
+            "correct": "a",
+            "answer_text": "Ability to act under pressure during cybersecurity threats",
+            "reason": "A crucial skill for IT professionals in cybersecurity is the ability to act under pressure during cybersecurity threats."
+          },
+          {
+            "text": "What is the main function of a cloud specialist?",
+            "answers": {
+              "a": "Advising businesses on cloud computing solutions",
+              "b": "Developing user interfaces",
+              "c": "Managing network security",
+              "d": "Analyzing data for decision-making"
+            },
+            "correct": "a",
+            "answer_text": "Advising businesses on cloud computing solutions",
+            "reason": "The main function of a cloud specialist is advising businesses on cloud computing solutions."
+          },
+          {
+            "text": "What is the primary focus of IT infrastructure groups?",
+            "answers": {
+              "a": "Keeping systems up and running and minimizing downtime",
+              "b": "Conducting market research",
+              "c": "Designing software applications",
+              "d": "Managing human resources"
+            },
+            "correct": "a",
+            "answer_text": "Keeping systems up and running and minimizing downtime",
+            "reason": "The primary focus of IT infrastructure groups is keeping systems up and running and minimizing downtime."
+          },
+          {
+            "text": "What is the role of a systems administrator?",
+            "answers": {
+              "a": "Implementation, maintenance, and security of a firm's computers",
+              "b": "Developing mobile applications",
+              "c": "Conducting market research",
+              "d": "Designing user interfaces"
+            },
+            "correct": "a",
+            "answer_text": "Implementation, maintenance, and security of a firm's computers",
+            "reason": "The role of a systems administrator involves the implementation, maintenance, and security of a firm's computers."
+          },
+          {
+            "text": "What does the term \"data management\" refer to?",
+            "answers": {
+              "a": "Storing, structuring, and retrieving data efficiently",
+              "b": "Developing software applications",
+              "c": "Providing technical support",
+              "d": "Managing network security"
+            },
+            "correct": "a",
+            "answer_text": "Storing, structuring, and retrieving data efficiently",
+            "reason": "Data management refers to storing, structuring, and retrieving data efficiently."
+          },
+          {
+            "text": "What is a significant task for IT support staff?",
+            "answers": {
+              "a": "Resolving issues related to computers, phones, networks, and printers",
+              "b": "Developing software applications",
+              "c": "Conducting market research",
+              "d": "Analyzing data for decision-making"
+            },
+            "correct": "a",
+            "answer_text": "Resolving issues related to computers, phones, networks, and printers",
+            "reason": "A significant task for IT support staff is resolving issues related to computers, phones, networks, and printers."
+          },
+          {
+            "text": "What is the primary responsibility of a data scientist?",
+            "answers": {
+              "a": "Analyzing and interpreting complex data to aid decision-making",
+              "b": "Managing network infrastructure",
+              "c": "Providing technical support",
+              "d": "Developing mobile applications"
+            },
+            "correct": "a",
+            "answer_text": "Analyzing and interpreting complex data to aid decision-making",
+            "reason": "The primary responsibility of a data scientist is analyzing and interpreting complex data to aid decision-making."
+          },
+          {
+            "text": "What does \"Internet of Things\" (IoT) encompass?",
+            "answers": {
+              "a": "A network of Internet-connected devices and sensors",
+              "b": "A type of cybersecurity threat",
+              "c": "A software development methodology",
+              "d": "A cloud computing service"
+            },
+            "correct": "a",
+            "answer_text": "A network of Internet-connected devices and sensors",
+            "reason": "The Internet of Things (IoT) encompasses a network of Internet-connected devices and sensors."
+          },
+          {
+            "text": "What is the main focus of IT support groups in organizations?",
+            "answers": {
+              "a": "Providing technical support to resolve issues related to IT devices",
+              "b": "Conducting research and development",
+              "c": "Designing and developing software",
+              "d": "Managing cybersecurity threats"
+            },
+            "correct": "a",
+            "answer_text": "Providing technical support to resolve issues related to IT devices",
+            "reason": "The main focus of IT support groups in organizations is providing technical support to resolve issues related to IT devices."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Au IT #02",
+    "subject": "Sciences",
+    "exam": "GED",
+    "topic": [
+      "Earth & Space"
+    ],
+    "sub_topic": [],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What is a primary function of a search engine?",
+            "answers": {
+              "a": "To provide the latest news updates",
+              "b": "To find documents on the Internet that correspond to search terms entered by the user",
+              "c": "To store user data for advertising purposes",
+              "d": "To offer online courses and training"
+            },
+            "correct": "b",
+            "answer_text": "To find documents on the Internet that correspond to search terms entered by the user",
+            "reason": "The primary function of a search engine is to find documents on the Internet that correspond to search terms entered by the user."
+          },
+          {
+            "text": "What is one of the earliest forms of search engines?",
+            "answers": {
+              "a": "Manually curated table of contents",
+              "b": "Keyword-based indexes of webpages",
+              "c": "Link-based ranking of webpages",
+              "d": "Embedded goal-specific search engines"
+            },
+            "correct": "a",
+            "answer_text": "Manually curated table of contents",
+            "reason": "One of the earliest forms of search engines was a manually curated table of contents."
+          },
+          {
+            "text": "What is the primary source of revenue for search engines like Google and Bing?",
+            "answers": {
+              "a": "Subscription fees from users",
+              "b": "Selling user data to third parties",
+              "c": "Advertisements and sponsored placements",
+              "d": "Offering premium services and features"
+            },
+            "correct": "c",
+            "answer_text": "Advertisements and sponsored placements",
+            "reason": "The primary source of revenue for search engines like Google and Bing is advertisements and sponsored placements."
+          },
+          {
+            "text": "What are specialized review platforms used for?",
+            "answers": {
+              "a": "Aggregating expert opinions and crowd-sourced reviews on products and services",
+              "b": "Hosting user-generated content and videos",
+              "c": "Providing free educational courses",
+              "d": "Offering cloud storage solutions"
+            },
+            "correct": "a",
+            "answer_text": "Aggregating expert opinions and crowd-sourced reviews on products and services",
+            "reason": "Specialized review platforms are used for aggregating expert opinions and crowd-sourced reviews on products and services."
+          },
+          {
+            "text": "What is a common risk associated with using the web for research?",
+            "answers": {
+              "a": "Slow internet speed",
+              "b": "Inconsistent information quality and reliability",
+              "c": "Limited access to resources",
+              "d": "High subscription costs for premium content"
+            },
+            "correct": "b",
+            "answer_text": "Inconsistent information quality and reliability",
+            "reason": "A common risk associated with using the web for research is inconsistent information quality and reliability."
+          },
+          {
+            "text": "What should you check to ensure the credibility of an online source?",
+            "answers": {
+              "a": "The website's design and layout",
+              "b": "The URL and the reputation of the source",
+              "c": "The number of advertisements on the page",
+              "d": "The length of the article"
+            },
+            "correct": "b",
+            "answer_text": "The URL and the reputation of the source",
+            "reason": "To ensure the credibility of an online source, you should check the URL and the reputation of the source."
+          },
+          {
+            "text": "What is the main purpose of online training sites like Coursera and Khan Academy?",
+            "answers": {
+              "a": "To provide entertainment and leisure content",
+              "b": "To offer free and paid educational courses and certifications",
+              "c": "To sell software and hardware products",
+              "d": "To connect professionals with job opportunities"
+            },
+            "correct": "b",
+            "answer_text": "To offer free and paid educational courses and certifications",
+            "reason": "The main purpose of online training sites like Coursera and Khan Academy is to offer free and paid educational courses and certifications."
+          },
+          {
+            "text": "What are Massive Open Online Courses (MOOCs)?",
+            "answers": {
+              "a": "Large-scale online courses open to anyone worldwide",
+              "b": "Online tutorials for specific technical skills",
+              "c": "Private online coaching sessions",
+              "d": "Paid subscription-based professional training programs"
+            },
+            "correct": "a",
+            "answer_text": "Large-scale online courses open to anyone worldwide",
+            "reason": "Massive Open Online Courses (MOOCs) are large-scale online courses open to anyone worldwide."
+          },
+          {
+            "text": "What is a significant advantage of using YouTube for informal training?",
+            "answers": {
+              "a": "It offers live one-on-one tutoring sessions",
+              "b": "It provides a vast array of community-rated tutorials and videos",
+              "c": "It requires a monthly subscription for access",
+              "d": "It has limited content on niche topics"
+            },
+            "correct": "b",
+            "answer_text": "It provides a vast array of community-rated tutorials and videos",
+            "reason": "A significant advantage of using YouTube for informal training is that it provides a vast array of community-rated tutorials and videos."
+          },
+          {
+            "text": "What is website spoofing?",
+            "answers": {
+              "a": "Creating look-alike websites to confuse users and steal credentials",
+              "b": "Optimizing websites for search engine rankings",
+              "c": "Enhancing website design for better user experience",
+              "d": "Using fake reviews to promote products"
+            },
+            "correct": "a",
+            "answer_text": "Creating look-alike websites to confuse users and steal credentials",
+            "reason": "Website spoofing involves creating look-alike websites to confuse users and steal credentials."
+          },
+          {
+            "text": "What is the purpose of a URL in web browsing?",
+            "answers": {
+              "a": "To track user activity on the internet",
+              "b": "To identify the location of a resource on the internet",
+              "c": "To store cookies and session data",
+              "d": "To display advertisements to users"
+            },
+            "correct": "b",
+            "answer_text": "To identify the location of a resource on the internet",
+            "reason": "The purpose of a URL in web browsing is to identify the location of a resource on the internet."
+          },
+          {
+            "text": "What is a common feature of public wikis like Wikipedia?",
+            "answers": {
+              "a": "Restricted access to verified experts",
+              "b": "User-generated and editable content",
+              "c": "Paid subscriptions for premium articles",
+              "d": "High-level security and privacy features"
+            },
+            "correct": "b",
+            "answer_text": "User-generated and editable content",
+            "reason": "A common feature of public wikis like Wikipedia is user-generated and editable content."
+          },
+          {
+            "text": "What is the primary function of a desktop computer?",
+            "answers": {
+              "a": "To provide portable computing capabilities",
+              "b": "To handle the computational needs of a single user at a fixed location",
+              "c": "To serve as a primary device for gaming and entertainment",
+              "d": "To function as a central server for large organizations"
+            },
+            "correct": "b",
+            "answer_text": "To handle the computational needs of a single user at a fixed location",
+            "reason": "The primary function of a desktop computer is to handle the computational needs of a single user at a fixed location."
+          },
+          {
+            "text": "What is a key benefit of using a laptop over a desktop computer?",
+            "answers": {
+              "a": "Higher processing power",
+              "b": "Portability and ability to work from anywhere",
+              "c": "Larger storage capacity",
+              "d": "Better compatibility with peripherals"
+            },
+            "correct": "b",
+            "answer_text": "Portability and ability to work from anywhere",
+            "reason": "A key benefit of using a laptop over a desktop computer is its portability and ability to work from anywhere."
+          },
+          {
+            "text": "What is an advantage of using tablets for media consumption?",
+            "answers": {
+              "a": "High processing power for complex tasks",
+              "b": "Ease of use with touchscreens and portability",
+              "c": "Extensive peripheral support",
+              "d": "Long battery life for continuous use"
+            },
+            "correct": "b",
+            "answer_text": "Ease of use with touchscreens and portability",
+            "reason": "An advantage of using tablets for media consumption is their ease of use with touchscreens and portability."
+          },
+          {
+            "text": "What is a significant feature of smartphones that distinguishes them from other microcomputers?",
+            "answers": {
+              "a": "Fixed storage and memory",
+              "b": "Cellular connectivity for internet access",
+              "c": "High processing power for gaming",
+              "d": "Large screen size and resolution"
+            },
+            "correct": "b",
+            "answer_text": "Cellular connectivity for internet access",
+            "reason": "A significant feature of smartphones that distinguishes them from other microcomputers is their cellular connectivity for internet access."
+          },
+          {
+            "text": "What is the unique selling proposition of smartwatches?",
+            "answers": {
+              "a": "High-speed internet connectivity",
+              "b": "Comprehensive health monitoring capabilities",
+              "c": "Extensive storage capacity",
+              "d": "Advanced gaming features"
+            },
+            "correct": "b",
+            "answer_text": "Comprehensive health monitoring capabilities",
+            "reason": "The unique selling proposition of smartwatches is their comprehensive health monitoring capabilities."
+          },
+          {
+            "text": "What is the primary function of a motherboard in a microcomputer?",
+            "answers": {
+              "a": "To store data and files",
+              "b": "To house the CPU, memory, and other essential components",
+              "c": "To provide power to all components",
+              "d": "To connect to the internet"
+            },
+            "correct": "b",
+            "answer_text": "To house the CPU, memory, and other essential components",
+            "reason": "The primary function of a motherboard in a microcomputer is to house the CPU, memory, and other essential components."
+          },
+          {
+            "text": "What is the role of the CPU in a microcomputer?",
+            "answers": {
+              "a": "To store data temporarily",
+              "b": "To execute instructions and perform calculations",
+              "c": "To manage network connections",
+              "d": "To provide audio and video output"
+            },
+            "correct": "b",
+            "answer_text": "To execute instructions and perform calculations",
+            "reason": "The role of the CPU in a microcomputer is to execute instructions and perform calculations."
+          },
+          {
+            "text": "What is the purpose of RAM in a microcomputer?",
+            "answers": {
+              "a": "To store permanent data and files",
+              "b": "To temporarily store data for quick access by the CPU",
+              "c": "To manage power supply to components",
+              "d": "To connect peripheral devices"
+            },
+            "correct": "b",
+            "answer_text": "To temporarily store data for quick access by the CPU",
+            "reason": "The purpose of RAM in a microcomputer is to temporarily store data for quick access by the CPU."
+          },
+          {
+            "text": "What is a key advantage of SSDs over HDDs?",
+            "answers": {
+              "a": "Higher storage capacity",
+              "b": "Faster data access and lower power consumption",
+              "c": "Lower cost per gigabyte",
+              "d": "Better compatibility with older systems"
+            },
+            "correct": "b",
+            "answer_text": "Faster data access and lower power consumption",
+            "reason": "A key advantage of SSDs over HDDs is faster data access and lower power consumption."
+          },
+          {
+            "text": "What is the primary function of a GPU in a microcomputer?",
+            "answers": {
+              "a": "To handle audio processing",
+              "b": "To render graphics and video content",
+              "c": "To manage network security",
+              "d": "To provide data storage solutions"
+            },
+            "correct": "b",
+            "answer_text": "To render graphics and video content",
+            "reason": "The primary function of a GPU in a microcomputer is to render graphics and video content."
+          },
+          {
+            "text": "What is the main purpose of input devices like keyboards and mice?",
+            "answers": {
+              "a": "To provide audio output",
+              "b": "To allow users to interact with the computer and input data",
+              "c": "To store data and files",
+              "d": "To manage network connections"
+            },
+            "correct": "b",
+            "answer_text": "To allow users to interact with the computer and input data",
+            "reason": "The main purpose of input devices like keyboards and mice is to allow users to interact with the computer and input data."
+          },
+          {
+            "text": "What is the primary function of output devices like monitors and speakers?",
+            "answers": {
+              "a": "To process data and perform calculations",
+              "b": "To display information and provide audio output",
+              "c": "To connect to the internet",
+              "d": "To store temporary data"
+            },
+            "correct": "b",
+            "answer_text": "To display information and provide audio output",
+            "reason": "The primary function of output devices like monitors and speakers is to display information and provide audio output."
+          },
+          {
+            "text": "What is a significant difference between desktops and laptops in terms of performance?",
+            "answers": {
+              "a": "Desktops generally offer better performance due to less stringent size and power constraints",
+              "b": "Laptops are always faster than desktops",
+              "c": "Desktops have less storage capacity than laptops",
+              "d": "Laptops have more powerful GPUs than desktops"
+            },
+            "correct": "a",
+            "answer_text": "Desktops generally offer better performance due to less stringent size and power constraints",
+            "reason": "A significant difference between desktops and laptops in terms of performance is that desktops generally offer better performance due to less stringent size and power constraints."
+          },
+          {
+            "text": "What is the primary benefit of using Chromebooks in educational settings?",
+            "answers": {
+              "a": "High processing power for complex tasks",
+              "b": "Cost-effectiveness and cloud-based storage solutions",
+              "c": "Extensive peripheral support",
+              "d": "Long battery life for continuous use"
+            },
+            "correct": "b",
+            "answer_text": "Cost-effectiveness and cloud-based storage solutions",
+            "reason": "The primary benefit of using Chromebooks in educational settings is their cost-effectiveness and cloud-based storage solutions."
+          },
+          {
+            "text": "What is a common use for microcomputers in homes and offices?",
+            "answers": {
+              "a": "Serving as central servers for large networks",
+              "b": "Performing everyday tasks like browsing the internet, creating documents, and playing games",
+              "c": "Managing industrial processes",
+              "d": "Running large-scale data centers"
+            },
+            "correct": "b",
+            "answer_text": "Performing everyday tasks like browsing the internet, creating documents, and playing games",
+            "reason": "A common use for microcomputers in homes and offices is performing everyday tasks like browsing the internet, creating documents, and playing games."
+          },
+          {
+            "text": "What is a primary consideration when selecting a desktop computer for gaming?",
+            "answers": {
+              "a": "Lightweight and portability",
+              "b": "High processing power and advanced graphics capabilities",
+              "c": "Small form factor",
+              "d": "Built-in touchscreen"
+            },
+            "correct": "b",
+            "answer_text": "High processing power and advanced graphics capabilities",
+            "reason": "A primary consideration when selecting a desktop computer for gaming is high processing power and advanced graphics capabilities."
+          },
+          {
+            "text": "What is the advantage of using a tablet over a smartphone for reading and media consumption?",
+            "answers": {
+              "a": "Larger screen size and better viewing experience",
+              "b": "Higher processing power",
+              "c": "Better compatibility with peripherals",
+              "d": "Enhanced cellular connectivity"
+            },
+            "correct": "a",
+            "answer_text": "Larger screen size and better viewing experience",
+            "reason": "The advantage of using a tablet over a smartphone for reading and media consumption is a larger screen size and better viewing experience."
+          },
+          {
+            "text": "What is the main purpose of cloud storage solutions like Google Drive and Dropbox?",
+            "answers": {
+              "a": "To provide offline storage for files",
+              "b": "To offer remote storage and access to data from any device with internet connectivity",
+              "c": "To enhance the processing power of devices",
+              "d": "To provide software development tools"
+            },
+            "correct": "b",
+            "answer_text": "To offer remote storage and access to data from any device with internet connectivity",
+            "reason": "The main purpose of cloud storage solutions like Google Drive and Dropbox is to offer remote storage and access to data from any device with internet connectivity."
+          },
+          {
+            "text": "What is the role of a systems administrator in an organization?",
+            "answers": {
+              "a": "Developing software applications",
+              "b": "Managing and maintaining IT infrastructure and systems",
+              "c": "Designing user interfaces",
+              "d": "Conducting market research"
+            },
+            "correct": "b",
+            "answer_text": "Managing and maintaining IT infrastructure and systems",
+            "reason": "The role of a systems administrator in an organization is managing and maintaining IT infrastructure and systems."
+          },
+          {
+            "text": "What is the primary focus of cybersecurity measures?",
+            "answers": {
+              "a": "Enhancing user experience",
+              "b": "Protecting information and systems from unauthorized access and attacks",
+              "c": "Providing technical support",
+              "d": "Managing network performance"
+            },
+            "correct": "b",
+            "answer_text": "Protecting information and systems from unauthorized access and attacks",
+            "reason": "The primary focus of cybersecurity measures is protecting information and systems from unauthorized access and attacks."
+          },
+          {
+            "text": "What is a significant feature of microcomputers that enhances their versatility?",
+            "answers": {
+              "a": "Fixed configurations and limited expandability",
+              "b": "Compatibility with a wide range of peripherals and devices",
+              "c": "High cost and specialized usage",
+              "d": "Limited storage options"
+            },
+            "correct": "b",
+            "answer_text": "Compatibility with a wide range of peripherals and devices",
+            "reason": "A significant feature of microcomputers that enhances their versatility is their compatibility with a wide range of peripherals and devices."
+          },
+          {
+            "text": "What is a key benefit of using smartwatches for health monitoring?",
+            "answers": {
+              "a": "High processing power for complex tasks",
+              "b": "Continuous monitoring of vital signs and fitness tracking",
+              "c": "Extensive peripheral support",
+              "d": "Enhanced gaming features"
+            },
+            "correct": "b",
+            "answer_text": "Continuous monitoring of vital signs and fitness tracking",
+            "reason": "A key benefit of using smartwatches for health monitoring is continuous monitoring of vital signs and fitness tracking."
+          },
+          {
+            "text": "What is the main advantage of using SSDs in laptops?",
+            "answers": {
+              "a": "Higher storage capacity",
+              "b": "Faster data access and improved battery life",
+              "c": "Lower cost per gigabyte",
+              "d": "Better compatibility with older systems"
+            },
+            "correct": "b",
+            "answer_text": "Faster data access and improved battery life",
+            "reason": "The main advantage of using SSDs in laptops is faster data access and improved battery life."
+          },
+          {
+            "text": "What is the primary function of a trackpad on a laptop?",
+            "answers": {
+              "a": "To provide audio output",
+              "b": "To allow users to input data and control the cursor",
+              "c": "To store data and files",
+              "d": "To connect to the internet"
+            },
+            "correct": "b",
+            "answer_text": "To allow users to input data and control the cursor",
+            "reason": "The primary function of a trackpad on a laptop is to allow users to input data and control the cursor."
+          },
+          {
+            "text": "What is the purpose of a microphone in a microcomputer?",
+            "answers": {
+              "a": "To provide audio output",
+              "b": "To capture audio input for communication and recording",
+              "c": "To store data and files",
+              "d": "To manage network connections"
+            },
+            "correct": "b",
+            "answer_text": "To capture audio input for communication and recording",
+            "reason": "The purpose of a microphone in a microcomputer is to capture audio input for communication and recording."
+          },
+          {
+            "text": "What is a significant advantage of using external monitors with desktops?",
+            "answers": {
+              "a": "Increased portability",
+              "b": "Enhanced viewing experience and larger screen size",
+              "c": "Lower power consumption",
+              "d": "Improved battery life"
+            },
+            "correct": "b",
+            "answer_text": "Enhanced viewing experience and larger screen size",
+            "reason": "A significant advantage of using external monitors with desktops is an enhanced viewing experience and larger screen size."
+          },
+          {
+            "text": "What is the main use of cloud-based applications in modern computing?",
+            "answers": {
+              "a": "Enhancing offline functionality",
+              "b": "Providing software and services accessible over the internet",
+              "c": "Storing data locally on devices",
+              "d": "Improving hardware performance"
+            },
+            "correct": "b",
+            "answer_text": "Providing software and services accessible over the internet",
+            "reason": "The main use of cloud-based applications in modern computing is providing software and services accessible over the internet."
+          },
+          {
+            "text": "What is a common risk associated with using public wikis like Wikipedia for research?",
+            "answers": {
+              "a": "High subscription costs",
+              "b": "Potential for inaccurate or biased information",
+              "c": "Limited access to information",
+              "d": "Slow internet speed"
+            },
+            "correct": "b",
+            "answer_text": "Potential for inaccurate or biased information",
+            "reason": "A common risk associated with using public wikis like Wikipedia for research is the potential for inaccurate or biased information."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Au IT #04",
+    "subject": "Sciences",
+    "exam": "GED",
+    "topic": [
+      "Earth & Space"
+    ],
+    "sub_topic": [],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What is the primary function of the physical layer in the TCP/IP stack?",
+            "answers": {
+              "a": "To transmit signals across a physical medium",
+              "b": "To organize data for network transmission",
+              "c": "To provide error detection and correction",
+              "d": "To specify the needs of users"
+            },
+            "correct": "a",
+            "answer_text": "To transmit signals across a physical medium",
+            "reason": "The primary function of the physical layer in the TCP/IP stack is to transmit signals across a physical medium."
+          },
+          {
+            "text": "What type of cable is commonly used in networks and has a connector called RJ45?",
+            "answers": {
+              "a": "Fiber optic cable",
+              "b": "Coaxial cable",
+              "c": "Cat5e cable",
+              "d": "HDMI cable"
+            },
+            "correct": "c",
+            "answer_text": "Cat5e cable",
+            "reason": "Cat5e cable is commonly used in networks and has a connector called RJ45."
+          },
+          {
+            "text": "What is the primary role of the data link layer in the TCP/IP stack?",
+            "answers": {
+              "a": "To transmit signals across a physical medium",
+              "b": "To provide addressing and error detection",
+              "c": "To organize data for network transmission",
+              "d": "To specify the needs of users"
+            },
+            "correct": "b",
+            "answer_text": "To provide addressing and error detection",
+            "reason": "The primary role of the data link layer in the TCP/IP stack is to provide addressing and error detection."
+          },
+          {
+            "text": "What is the unique identifier assigned to network interface hardware called?",
+            "answers": {
+              "a": "IP address",
+              "b": "Domain name",
+              "c": "MAC address",
+              "d": "Hostname"
+            },
+            "correct": "c",
+            "answer_text": "MAC address",
+            "reason": "The unique identifier assigned to network interface hardware is called a MAC address."
+          },
+          {
+            "text": "What is the primary function of the network layer in the TCP/IP stack?",
+            "answers": {
+              "a": "To transmit signals across a physical medium",
+              "b": "To provide addressing and error detection",
+              "c": "To route packets across multiple networks",
+              "d": "To specify the needs of users"
+            },
+            "correct": "c",
+            "answer_text": "To route packets across multiple networks",
+            "reason": "The primary function of the network layer in the TCP/IP stack is to route packets across multiple networks."
+          },
+          {
+            "text": "What device is commonly used to connect home devices to the internet?",
+            "answers": {
+              "a": "Switch",
+              "b": "Router",
+              "c": "Modem",
+              "d": "Firewall"
+            },
+            "correct": "b",
+            "answer_text": "Router",
+            "reason": "A router is commonly used to connect home devices to the internet."
+          },
+          {
+            "text": "What is the function of the transport layer in the TCP/IP stack?",
+            "answers": {
+              "a": "To transmit signals across a physical medium",
+              "b": "To provide addressing and error detection",
+              "c": "To ensure reliable data delivery over a network",
+              "d": "To specify the needs of users"
+            },
+            "correct": "c",
+            "answer_text": "To ensure reliable data delivery over a network",
+            "reason": "The function of the transport layer in the TCP/IP stack is to ensure reliable data delivery over a network."
+          },
+          {
+            "text": "What protocol is most commonly used at the transport layer?",
+            "answers": {
+              "a": "HTTP",
+              "b": "SMTP",
+              "c": "FTP",
+              "d": "TCP"
+            },
+            "correct": "d",
+            "answer_text": "TCP",
+            "reason": "The most commonly used protocol at the transport layer is the Transmission Control Protocol (TCP)."
+          },
+          {
+            "text": "What is the main purpose of the application layer in the TCP/IP stack?",
+            "answers": {
+              "a": "To transmit signals across a physical medium",
+              "b": "To provide addressing and error detection",
+              "c": "To organize data for network transmission",
+              "d": "To support the needs of technology users"
+            },
+            "correct": "d",
+            "answer_text": "To support the needs of technology users",
+            "reason": "The main purpose of the application layer in the TCP/IP stack is to support the needs of technology users."
+          },
+          {
+            "text": "What is the function of the Domain Name Service (DNS)?",
+            "answers": {
+              "a": "To assign IP addresses to devices on a network",
+              "b": "To translate domain names into IP addresses",
+              "c": "To provide secure communication between devices",
+              "d": "To route packets across multiple networks"
+            },
+            "correct": "b",
+            "answer_text": "To translate domain names into IP addresses",
+            "reason": "The function of the Domain Name Service (DNS) is to translate domain names into IP addresses."
+          },
+          {
+            "text": "What is a WHOIS query used for?",
+            "answers": {
+              "a": "To find the MAC address of a device",
+              "b": "To identify the owner of a domain name",
+              "c": "To assign IP addresses to devices",
+              "d": "To encrypt data for secure communication"
+            },
+            "correct": "b",
+            "answer_text": "To identify the owner of a domain name",
+            "reason": "A WHOIS query is used to identify the owner of a domain name."
+          },
+          {
+            "text": "What does the term \"encryption\" refer to?",
+            "answers": {
+              "a": "The process of converting data into a secure coded format",
+              "b": "The process of routing packets across networks",
+              "c": "The process of assigning IP addresses to devices",
+              "d": "The process of detecting and correcting errors in data"
+            },
+            "correct": "a",
+            "answer_text": "The process of converting data into a secure coded format",
+            "reason": "Encryption refers to the process of converting data into a secure coded format."
+          },
+          {
+            "text": "What is the role of a firewall in a computer network?",
+            "answers": {
+              "a": "To transmit signals across a physical medium",
+              "b": "To provide addressing and error detection",
+              "c": "To block unwanted or malicious network traffic",
+              "d": "To organize data for network transmission"
+            },
+            "correct": "c",
+            "answer_text": "To block unwanted or malicious network traffic",
+            "reason": "The role of a firewall in a computer network is to block unwanted or malicious network traffic."
+          },
+          {
+            "text": "What is the main advantage of using fiber optic cables in networks?",
+            "answers": {
+              "a": "Lower cost",
+              "b": "Faster data transfer speeds",
+              "c": "Greater flexibility",
+              "d": "Easier installation"
+            },
+            "correct": "b",
+            "answer_text": "Faster data transfer speeds",
+            "reason": "The main advantage of using fiber optic cables in networks is faster data transfer speeds."
+          },
+          {
+            "text": "What does TCP stand for in the TCP/IP stack?",
+            "answers": {
+              "a": "Transmission Control Protocol",
+              "b": "Transport Communication Protocol",
+              "c": "Transfer Control Protocol",
+              "d": "Transmission Communication Protocol"
+            },
+            "correct": "a",
+            "answer_text": "Transmission Control Protocol",
+            "reason": "TCP stands for Transmission Control Protocol in the TCP/IP stack."
+          },
+          {
+            "text": "What is the purpose of the Hypertext Transfer Protocol (HTTP)?",
+            "answers": {
+              "a": "To encrypt data for secure communication",
+              "b": "To standardize how documents are transferred across systems",
+              "c": "To assign IP addresses to devices",
+              "d": "To detect and correct errors in data"
+            },
+            "correct": "b",
+            "answer_text": "To standardize how documents are transferred across systems",
+            "reason": "The purpose of the Hypertext Transfer Protocol (HTTP) is to standardize how documents are transferred across systems."
+          },
+          {
+            "text": "What is a key characteristic of the Internet?",
+            "answers": {
+              "a": "It is a single, centralized network",
+              "b": "It is a collection of interconnected networks using standardized protocols",
+              "c": "It is limited to specific geographical regions",
+              "d": "It is a closed network accessible only to certain users"
+            },
+            "correct": "b",
+            "answer_text": "It is a collection of interconnected networks using standardized protocols",
+            "reason": "A key characteristic of the Internet is that it is a collection of interconnected networks using standardized protocols."
+          },
+          {
+            "text": "What is a packet in the context of computer networks?",
+            "answers": {
+              "a": "A physical cable used to connect devices",
+              "b": "A small segment of a larger piece of data sent over a network",
+              "c": "A unique identifier assigned to network interface hardware",
+              "d": "A protocol used for secure communication"
+            },
+            "correct": "b",
+            "answer_text": "A small segment of a larger piece of data sent over a network",
+            "reason": "In the context of computer networks, a packet is a small segment of a larger piece of data sent over a network."
+          },
+          {
+            "text": "What is the primary function of the Dynamic Host Configuration Protocol (DHCP)?",
+            "answers": {
+              "a": "To translate domain names into IP addresses",
+              "b": "To assign IP addresses to devices on a network",
+              "c": "To encrypt data for secure communication",
+              "d": "To provide error detection and correction"
+            },
+            "correct": "b",
+            "answer_text": "To assign IP addresses to devices on a network",
+            "reason": "The primary function of the Dynamic Host Configuration Protocol (DHCP) is to assign IP addresses to devices on a network."
+          },
+          {
+            "text": "What type of signal is generated when an energy source transmitting the signal turns on and off?",
+            "answers": {
+              "a": "Analog signal",
+              "b": "Digital signal",
+              "c": "Continuous signal",
+              "d": "Modulated signal"
+            },
+            "correct": "b",
+            "answer_text": "Digital signal",
+            "reason": "A digital signal is generated when an energy source transmitting the signal turns on and off."
+          },
+          {
+            "text": "What does the acronym OSI stand for in networking?",
+            "answers": {
+              "a": "Open Standards Integration",
+              "b": "Open Systems Interconnection",
+              "c": "Operational Systems Interoperability",
+              "d": "Organizational Standards Implementation"
+            },
+            "correct": "b",
+            "answer_text": "Open Systems Interconnection",
+            "reason": "OSI stands for Open Systems Interconnection in networking."
+          },
+          {
+            "text": "What is the function of the transport layer in the TCP/IP stack?",
+            "answers": {
+              "a": "To transmit signals across a physical medium",
+              "b": "To ensure reliable data delivery over a network",
+              "c": "To provide addressing and error detection",
+              "d": "To specify the needs of users"
+            },
+            "correct": "b",
+            "answer_text": "To ensure reliable data delivery over a network",
+            "reason": "The function of the transport layer in the TCP/IP stack is to ensure reliable data delivery over a network."
+          },
+          {
+            "text": "What is the role of the application layer in the TCP/IP stack?",
+            "answers": {
+              "a": "To transmit signals across a physical medium",
+              "b": "To organize data for network transmission",
+              "c": "To support the needs of technology users",
+              "d": "To provide addressing and error detection"
+            },
+            "correct": "c",
+            "answer_text": "To support the needs of technology users",
+            "reason": "The role of the application layer in the TCP/IP stack is to support the needs of technology users."
+          },
+          {
+            "text": "What is the purpose of the Internet Protocol (IP)?",
+            "answers": {
+              "a": "To encrypt data for secure communication",
+              "b": "To route packets across interconnected networks",
+              "c": "To assign IP addresses to devices",
+              "d": "To provide error detection and correction"
+            },
+            "correct": "b",
+            "answer_text": "To route packets across interconnected networks",
+            "reason": "The purpose of the Internet Protocol (IP) is to route packets across interconnected networks."
+          },
+          {
+            "text": "What does the acronym MAC stand for in networking?",
+            "answers": {
+              "a": "Media Access Control",
+              "b": "Multiple Access Channel",
+              "c": "Managed Access Communication",
+              "d": "Modular Access Configuration"
+            },
+            "correct": "a",
+            "answer_text": "Media Access Control",
+            "reason": "MAC stands for Media Access Control in networking."
+          },
+          {
+            "text": "What is the main advantage of using Cat5e cables in networks?",
+            "answers": {
+              "a": "Lower cost",
+              "b": "Higher data transfer speeds",
+              "c": "Greater flexibility",
+              "d": "Easier installation"
+            },
+            "correct": "b",
+            "answer_text": "Higher data transfer speeds",
+            "reason": "The main advantage of using Cat5e cables in networks is higher data transfer speeds."
+          },
+          {
+            "text": "What is the primary function of the physical layer in the OSI model?",
+            "answers": {
+              "a": "To transmit signals across a physical medium",
+              "b": "To provide addressing and error detection",
+              "c": "To organize data for network transmission",
+              "d": "To specify the needs of users"
+            },
+            "correct": "a",
+            "answer_text": "To transmit signals across a physical medium",
+            "reason": "The primary function of the physical layer in the OSI model is to transmit signals across a physical medium."
+          },
+          {
+            "text": "What is a key characteristic of the TCP/IP stack?",
+            "answers": {
+              "a": "It is a single, centralized protocol",
+              "b": "It is a layered network architecture",
+              "c": "It is limited to specific geographical regions",
+              "d": "It is a closed protocol accessible only to certain users"
+            },
+            "correct": "b",
+            "answer_text": "It is a layered network architecture",
+            "reason": "A key characteristic of the TCP/IP stack is that it is a layered network architecture."
+          },
+          {
+            "text": "What is the role of the data link layer in the TCP/IP stack?",
+            "answers": {
+              "a": "To transmit signals across a physical medium",
+              "b": "To provide addressing and error detection",
+              "c": "To route packets across multiple networks",
+              "d": "To specify the needs of users"
+            },
+            "correct": "b",
+            "answer_text": "To provide addressing and error detection",
+            "reason": "The role of the data link layer in the TCP/IP stack is to provide addressing and error detection."
+          },
+          {
+            "text": "What is the primary function of the network layer in the TCP/IP stack?",
+            "answers": {
+              "a": "To transmit signals across a physical medium",
+              "b": "To provide addressing and error detection",
+              "c": "To route packets across multiple networks",
+              "d": "To specify the needs of users"
+            },
+            "correct": "c",
+            "answer_text": "To route packets across multiple networks",
+            "reason": "The primary function of the network layer in the TCP/IP stack is to route packets across multiple networks."
+          },
+          {
+            "text": "What is the purpose of the Application layer in the TCP/IP stack?",
+            "answers": {
+              "a": "To encrypt data for secure communication",
+              "b": "To support the needs of technology users",
+              "c": "To assign IP addresses to devices",
+              "d": "To provide error detection and correction"
+            },
+            "correct": "b",
+            "answer_text": "To support the needs of technology users",
+            "reason": "The purpose of the application layer in the TCP/IP stack is to support the needs of technology users."
+          },
+          {
+            "text": "What does the term \"routing\" refer to in networking?",
+            "answers": {
+              "a": "The process of encrypting data for secure communication",
+              "b": "The process of assigning IP addresses to devices",
+              "c": "The process of transferring packets of data from a source to a destination",
+              "d": "The process of providing error detection and correction"
+            },
+            "correct": "c",
+            "answer_text": "The process of transferring packets of data from a source to a destination",
+            "reason": "In networking, routing refers to the process of transferring packets of data from a source to a destination."
+          },
+          {
+            "text": "What is the function of the Transport layer in the OSI model?",
+            "answers": {
+              "a": "To transmit signals across a physical medium",
+              "b": "To ensure reliable data delivery over a network",
+              "c": "To provide addressing and error detection",
+              "d": "To specify the needs of users"
+            },
+            "correct": "b",
+            "answer_text": "To ensure reliable data delivery over a network",
+            "reason": "The function of the transport layer in the OSI model is to ensure reliable data delivery over a network."
+          },
+          {
+            "text": "What is the role of the Network layer in the OSI model?",
+            "answers": {
+              "a": "To transmit signals across a physical medium",
+              "b": "To provide addressing and error detection",
+              "c": "To route packets across multiple networks",
+              "d": "To specify the needs of users"
+            },
+            "correct": "c",
+            "answer_text": "To route packets across multiple networks",
+            "reason": "The role of the network layer in the OSI model is to route packets across multiple networks."
+          },
+          {
+            "text": "What is the purpose of the Data Link layer in the OSI model?",
+            "answers": {
+              "a": "To encrypt data for secure communication",
+              "b": "To provide addressing and error detection",
+              "c": "To assign IP addresses to devices",
+              "d": "To organize data for network transmission"
+            },
+            "correct": "b",
+            "answer_text": "To provide addressing and error detection",
+            "reason": "The purpose of the data link layer in the OSI model is to provide addressing and error detection."
+          },
+          {
+            "text": "What is the main function of the Physical layer in the OSI model?",
+            "answers": {
+              "a": "To transmit signals across a physical medium",
+              "b": "To provide addressing and error detection",
+              "c": "To organize data for network transmission",
+              "d": "To specify the needs of users"
+            },
+            "correct": "a",
+            "answer_text": "To transmit signals across a physical medium",
+            "reason": "The main function of the physical layer in the OSI model is to transmit signals across a physical medium."
+          },
+          {
+            "text": "What is the function of the Application layer in the OSI model?",
+            "answers": {
+              "a": "To transmit signals across a physical medium",
+              "b": "To support the needs of technology users",
+              "c": "To provide addressing and error detection",
+              "d": "To organize data for network transmission"
+            },
+            "correct": "b",
+            "answer_text": "To support the needs of technology users",
+            "reason": "The function of the application layer in the OSI model is to support the needs of technology users."
+          },
+          {
+            "text": "What does the acronym TCP/IP stand for?",
+            "answers": {
+              "a": "Transmission Control Protocol/Internet Protocol",
+              "b": "Transport Communication Protocol/Internet Protocol",
+              "c": "Transmission Control Protocol/Internal Protocol",
+              "d": "Transport Communication Protocol/Internal Protocol"
+            },
+            "correct": "a",
+            "answer_text": "Transmission Control Protocol/Internet Protocol",
+            "reason": "TCP/IP stands for Transmission Control Protocol/Internet Protocol."
+          },
+          {
+            "text": "What is the role of the Hypertext Transfer Protocol (HTTP) in networking?",
+            "answers": {
+              "a": "To encrypt data for secure communication",
+              "b": "To standardize how documents are transferred across systems",
+              "c": "To assign IP addresses to devices",
+              "d": "To provide error detection and correction"
+            },
+            "correct": "b",
+            "answer_text": "To standardize how documents are transferred across systems",
+            "reason": "The role of the Hypertext Transfer Protocol (HTTP) in networking is to standardize how documents are transferred across systems."
+          },
+          {
+            "text": "What is the purpose of the Transport layer in the TCP/IP stack?",
+            "answers": {
+              "a": "To encrypt data for secure communication",
+              "b": "To ensure reliable data delivery over a network",
+              "c": "To assign IP addresses to devices",
+              "d": "To provide error detection and correction"
+            },
+            "correct": "b",
+            "answer_text": "To ensure reliable data delivery over a network",
+            "reason": "The purpose of the transport layer in the TCP/IP stack is to ensure reliable data delivery over a network."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Au IT #05",
+    "subject": "Sciences",
+    "exam": "GED",
+    "topic": [
+      "Earth & Space"
+    ],
+    "sub_topic": [],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What does the CIA triad stand for in cybersecurity?",
+            "answers": {
+              "a": "Confidentiality, Integrity, Availability",
+              "b": "Confidentiality, Identity, Accessibility",
+              "c": "Control, Integrity, Authentication",
+              "d": "Confidentiality, Integration, Access"
+            },
+            "correct": "a",
+            "answer_text": "Confidentiality, Integrity, Availability",
+            "reason": "The CIA triad stands for Confidentiality, Integrity, and Availability."
+          },
+          {
+            "text": "What is the primary goal of cybersecurity?",
+            "answers": {
+              "a": "To enhance network speed",
+              "b": "To protect information and the systems that manage it",
+              "c": "To develop new software applications",
+              "d": "To improve user interfaces"
+            },
+            "correct": "b",
+            "answer_text": "To protect information and the systems that manage it",
+            "reason": "The primary goal of cybersecurity is to protect information and the systems that manage it."
+          },
+          {
+            "text": "Which law defines information security in the U.S.?",
+            "answers": {
+              "a": "44 USC 3552",
+              "b": "42 USC 300aa",
+              "c": "15 USC 78dd",
+              "d": "18 USC 1030"
+            },
+            "correct": "a",
+            "answer_text": "44 USC 3552",
+            "reason": "Information security is defined in U.S. law by 44 USC 3552."
+          },
+          {
+            "text": "What is the primary function of confidentiality in cybersecurity?",
+            "answers": {
+              "a": "Ensuring timely and reliable access to information",
+              "b": "Preserving authorized restrictions on access and disclosure",
+              "c": "Guarding against improper information modification or destruction",
+              "d": "Ensuring data is available when needed"
+            },
+            "correct": "b",
+            "answer_text": "Preserving authorized restrictions on access and disclosure",
+            "reason": "Confidentiality in cybersecurity means preserving authorized restrictions on access and disclosure."
+          },
+          {
+            "text": "What does integrity ensure in the context of information security?",
+            "answers": {
+              "a": "Availability of data",
+              "b": "Timely access to information",
+              "c": "Guarding against improper modification or destruction of information",
+              "d": "Restricting access to data"
+            },
+            "correct": "c",
+            "answer_text": "Guarding against improper information modification or destruction",
+            "reason": "Integrity ensures that information is not improperly modified or destroyed."
+          },
+          {
+            "text": "What does availability mean in the CIA triad?",
+            "answers": {
+              "a": "Ensuring timely and reliable access to information",
+              "b": "Ensuring data is encrypted",
+              "c": "Ensuring data cannot be modified",
+              "d": "Ensuring user authentication"
+            },
+            "correct": "a",
+            "answer_text": "Ensuring timely and reliable access to information",
+            "reason": "Availability means ensuring timely and reliable access to information."
+          },
+          {
+            "text": "What major cybersecurity event occurred in October 2021 affecting Facebook, Instagram, and WhatsApp?",
+            "answers": {
+              "a": "A data breach",
+              "b": "A global outage",
+              "c": "A denial of service attack",
+              "d": "A ransomware attack"
+            },
+            "correct": "b",
+            "answer_text": "A global outage",
+            "reason": "In October 2021, Facebook, Instagram, and WhatsApp experienced a global outage."
+          },
+          {
+            "text": "What caused the October 4, 2021, outage of Facebook, Instagram, and WhatsApp?",
+            "answers": {
+              "a": "A cybersecurity attack",
+              "b": "Routine maintenance command",
+              "c": "Phishing attack",
+              "d": "SQL injection"
+            },
+            "correct": "b",
+            "answer_text": "Routine maintenance command",
+            "reason": "The October 4, 2021, outage was caused by a routine maintenance command."
+          },
+          {
+            "text": "What cybersecurity law was enacted in 1986 to criminalize unauthorized access to federal and commercial computer systems?",
+            "answers": {
+              "a": "Computer Fraud and Abuse Act",
+              "b": "Sarbanes–Oxley Act",
+              "c": "HIPAA",
+              "d": "DMCA"
+            },
+            "correct": "a",
+            "answer_text": "Computer Fraud and Abuse Act",
+            "reason": "The Computer Fraud and Abuse Act of 1986 criminalized unauthorized access to federal and commercial computer systems."
+          },
+          {
+            "text": "What was the first known Internet worm called?",
+            "answers": {
+              "a": "Melissa",
+              "b": "ILOVEYOU",
+              "c": "Morris worm",
+              "d": "SQL Slammer"
+            },
+            "correct": "c",
+            "answer_text": "Morris worm",
+            "reason": "The Morris worm was the first known Internet worm."
+          },
+          {
+            "text": "What did the Morris worm prompt the US government to establish?",
+            "answers": {
+              "a": "NIST",
+              "b": "CERT/CC",
+              "c": "FBI Cyber Division",
+              "d": "CISA"
+            },
+            "correct": "b",
+            "answer_text": "CERT/CC",
+            "reason": "The Morris worm prompted the establishment of the CERT/CC (CERT coordination center)."
+          },
+          {
+            "text": "What significant cybersecurity incident involved the ILOVEYOU virus?",
+            "answers": {
+              "a": "Deletion of images on infected computers",
+              "b": "Shutdown of global financial systems",
+              "c": "Defacement of government websites",
+              "d": "Disruption of email services"
+            },
+            "correct": "a",
+            "answer_text": "Deletion of images on infected computers",
+            "reason": "The ILOVEYOU virus deleted images on infected computers."
+          },
+          {
+            "text": "What major cybersecurity legislation was enacted in response to corporate frauds like Enron and WorldCom?",
+            "answers": {
+              "a": "HIPAA",
+              "b": "Sarbanes–Oxley Act",
+              "c": "Computer Fraud and Abuse Act",
+              "d": "DMCA"
+            },
+            "correct": "b",
+            "answer_text": "Sarbanes–Oxley Act",
+            "reason": "The Sarbanes–Oxley Act was enacted in response to corporate frauds like Enron and WorldCom."
+          },
+          {
+            "text": "What did the Sarbanes–Oxley Act require CEOs and CFOs of firms to do?",
+            "answers": {
+              "a": "Sign a declaration of personal knowledge of all the information in annual filings",
+              "b": "Perform regular cybersecurity audits",
+              "c": "Encrypt all sensitive data",
+              "d": "Implement multi-factor authentication"
+            },
+            "correct": "a",
+            "answer_text": "Sign a declaration of personal knowledge of all the information in annual filings",
+            "reason": "The Sarbanes–Oxley Act required CEOs and CFOs to sign a declaration of personal knowledge of all the information in annual filings."
+          },
+          {
+            "text": "What type of attack did Albert Gonzalez lead, targeting retailers like T.J.Maxx?",
+            "answers": {
+              "a": "Phishing attack",
+              "b": "SQL injection attack",
+              "c": "Denial of service attack",
+              "d": "Ransomware attack"
+            },
+            "correct": "b",
+            "answer_text": "SQL injection attack",
+            "reason": "Albert Gonzalez led SQL injection attacks on retailers like T.J.Maxx."
+          },
+          {
+            "text": "What was the outcome of the SQL injection attacks on retailers like T.J.Maxx?",
+            "answers": {
+              "a": "Theft of over 45 million credit card numbers",
+              "b": "Shutdown of retail operations",
+              "c": "Massive financial losses due to ransom payments",
+              "d": "Public release of sensitive customer information"
+            },
+            "correct": "a",
+            "answer_text": "Theft of over 45 million credit card numbers",
+            "reason": "The SQL injection attacks on retailers led to the theft of over 45 million credit card numbers."
+          },
+          {
+            "text": "What did the attacks on Georgia in 2008 demonstrate?",
+            "answers": {
+              "a": "The impact of cyber-attacks as an instrument of warfare",
+              "b": "The vulnerability of online banking systems",
+              "c": "The effectiveness of phishing campaigns",
+              "d": "The necessity of strong passwords"
+            },
+            "correct": "a",
+            "answer_text": "The impact of cyber-attacks as an instrument of warfare",
+            "reason": "The 2008 attacks on Georgia demonstrated the impact of cyber-attacks as an instrument of warfare."
+          },
+          {
+            "text": "What is the primary function of the US Cyber Command established in 2009?",
+            "answers": {
+              "a": "To develop new cybersecurity software",
+              "b": "To defend US military computer networks against attacks",
+              "c": "To monitor civilian internet usage",
+              "d": "To provide cybersecurity training"
+            },
+            "correct": "b",
+            "answer_text": "To defend US military computer networks against attacks",
+            "reason": "The primary function of the US Cyber Command is to defend US military computer networks against attacks."
+          },
+          {
+            "text": "What was the purpose of the Google-China cyber-attack in 2010?",
+            "answers": {
+              "a": "To steal intellectual property and access emails of human-rights activists",
+              "b": "To disrupt Google's search algorithms",
+              "c": "To hack into Google's financial systems",
+              "d": "To manipulate Google's advertising metrics"
+            },
+            "correct": "a",
+            "answer_text": "To steal intellectual property and access emails of human-rights activists",
+            "reason": "The Google-China cyber-attack aimed to steal intellectual property and access emails of human-rights activists."
+          },
+          {
+            "text": "What happened during the Sony PlayStation Network (PSN) breach in 2011?",
+            "answers": {
+              "a": "Hackers obtained personal information on 70 million subscribers",
+              "b": "A ransomware attack shut down the network",
+              "c": "Phishing emails were sent to all users",
+              "d": "Denial of service attacks crippled the network"
+            },
+            "correct": "a",
+            "answer_text": "Hackers obtained personal information on 70 million subscribers",
+            "reason": "During the Sony PlayStation Network (PSN) breach in 2011, hackers obtained personal information on 70 million subscribers."
+          },
+          {
+            "text": "What is an advanced persistent threat (APT)?",
+            "answers": {
+              "a": "A simple, short-term cyber attack",
+              "b": "A sophisticated, well-resourced adversary using multiple attack methods over time",
+              "c": "A type of malware that encrypts data for ransom",
+              "d": "A phishing campaign targeting financial institutions"
+            },
+            "correct": "b",
+            "answer_text": "A sophisticated, well-resourced adversary using multiple attack methods over time",
+            "reason": "An advanced persistent threat (APT) is a sophisticated, well-resourced adversary using multiple attack methods over time."
+          },
+          {
+            "text": "What did the 2014 Yahoo cyber-attack involve?",
+            "answers": {
+              "a": "Theft of 500 million accounts' information",
+              "b": "Defacement of Yahoo's homepage",
+              "c": "Denial of service attacks",
+              "d": "Introduction of ransomware into Yahoo's servers"
+            },
+            "correct": "a",
+            "answer_text": "Theft of 500 million accounts' information",
+            "reason": "The 2014 Yahoo cyber-attack involved the theft of 500 million accounts' information."
+          },
+          {
+            "text": "What significant cybersecurity event occurred in 2021 involving user passwords?",
+            "answers": {
+              "a": "RockYou2021 password leak",
+              "b": "SolarWinds supply chain attack",
+              "c": "Colonial Pipeline ransomware attack",
+              "d": "Capital One data breach"
+            },
+            "correct": "a",
+            "answer_text": "RockYou2021 password leak",
+            "reason": "The significant cybersecurity event in 2021 involving user passwords was the RockYou2021 password leak."
+          },
+          {
+            "text": "What is the purpose of the MITRE ATT&CK framework?",
+            "answers": {
+              "a": "To provide a globally accessible knowledge inventory of tactics and techniques used by cybercriminals",
+              "b": "To develop new cybersecurity hardware",
+              "c": "To monitor internet traffic",
+              "d": "To provide online cybersecurity training"
+            },
+            "correct": "a",
+            "answer_text": "To provide a globally accessible knowledge inventory of tactics and techniques used by cybercriminals",
+            "reason": "The purpose of the MITRE ATT&CK framework is to provide a globally accessible knowledge inventory of tactics and techniques used by cybercriminals."
+          },
+          {
+            "text": "What does \"phishing\" refer to in cybersecurity?",
+            "answers": {
+              "a": "Attempting to compromise a user by masquerading as a trustworthy entity in electronic communication",
+              "b": "Using malware to encrypt data for ransom",
+              "c": "Overloading a network with fraudulent traffic",
+              "d": "Gaining unauthorized access to a computer system"
+            },
+            "correct": "a",
+            "answer_text": "Attempting to compromise a user by masquerading as a trustworthy entity in electronic communication",
+            "reason": "Phishing refers to attempting to compromise a user by masquerading as a trustworthy entity in electronic communication."
+          },
+          {
+            "text": "What is the primary function of malware?",
+            "answers": {
+              "a": "To exploit a computer or the data it contains without the user’s consent",
+              "b": "To provide antivirus protection",
+              "c": "To encrypt data for secure transmission",
+              "d": "To improve system performance"
+            },
+            "correct": "a",
+            "answer_text": "To exploit a computer or the data it contains without the user’s consent",
+            "reason": "The primary function of malware is to exploit a computer or the data it contains without the user’s consent."
+          },
+          {
+            "text": "What is a common method for distributing malware?",
+            "answers": {
+              "a": "Through free downloads that appear useful",
+              "b": "By sending secure emails",
+              "c": "By updating antivirus software",
+              "d": "By using encrypted communication channels"
+            },
+            "correct": "a",
+            "answer_text": "Through free downloads that appear useful",
+            "reason": "A common method for distributing malware is through free downloads that appear useful."
+          },
+          {
+            "text": "What does the term \"vulnerability\" mean in cybersecurity?",
+            "answers": {
+              "a": "A weakness in an information system that gives a threat the opportunity to compromise an asset",
+              "b": "A secure encryption method",
+              "c": "A type of malware",
+              "d": "A secure method of data transmission"
+            },
+            "correct": "a",
+            "answer_text": "A weakness in an information system that gives a threat the opportunity to compromise an asset",
+            "reason": "In cybersecurity, a vulnerability is a weakness in an information system that gives a threat the opportunity to compromise an asset."
+          },
+          {
+            "text": "What is the Common Vulnerabilities and Exposures (CVE) list?",
+            "answers": {
+              "a": "An inventory of known software vulnerabilities",
+              "b": "A list of secure communication protocols",
+              "c": "A database of encryption methods",
+              "d": "A collection of antivirus software"
+            },
+            "correct": "a",
+            "answer_text": "An inventory of known software vulnerabilities",
+            "reason": "The Common Vulnerabilities and Exposures (CVE) list is an inventory of known software vulnerabilities."
+          },
+          {
+            "text": "What is SQL Injection?",
+            "answers": {
+              "a": "An attack where malicious SQL code is injected into a database query",
+              "b": "A method for encrypting SQL databases",
+              "c": "A type of firewall used to protect databases",
+              "d": "A way to backup SQL databases"
+            },
+            "correct": "a",
+            "answer_text": "An attack where malicious SQL code is injected into a database query",
+            "reason": "SQL Injection is an attack where malicious SQL code is injected into a database query."
+          },
+          {
+            "text": "What is the role of controls in cybersecurity?",
+            "answers": {
+              "a": "To minimize the impact of threats by deploying security safeguards",
+              "b": "To increase the speed of network connections",
+              "c": "To develop new software applications",
+              "d": "To provide technical support to users"
+            },
+            "correct": "a",
+            "answer_text": "To minimize the impact of threats by deploying security safeguards",
+            "reason": "The role of controls in cybersecurity is to minimize the impact of threats by deploying security safeguards."
+          },
+          {
+            "text": "What is cyber hygiene?",
+            "answers": {
+              "a": "Practices that reduce the risk of a successful cyber-attack",
+              "b": "Techniques for cleaning computer hardware",
+              "c": "Methods for speeding up software performance",
+              "d": "Strategies for reducing network latency"
+            },
+            "correct": "a",
+            "answer_text": "Practices that reduce the risk of a successful cyber-attack",
+            "reason": "Cyber hygiene refers to practices that reduce the risk of a successful cyber-attack."
+          },
+          {
+            "text": "What is a key aspect of good cyber hygiene?",
+            "answers": {
+              "a": "Regularly updating security software",
+              "b": "Avoiding the use of passwords",
+              "c": "Sharing passwords with trusted friends",
+              "d": "Ignoring software updates"
+            },
+            "correct": "a",
+            "answer_text": "Regularly updating security software",
+            "reason": "A key aspect of good cyber hygiene is regularly updating security software."
+          },
+          {
+            "text": "What is the purpose of using end-point protection software?",
+            "answers": {
+              "a": "To monitor devices for known viruses and other malicious technologies",
+              "b": "To develop new software applications",
+              "c": "To enhance network speed",
+              "d": "To provide technical support"
+            },
+            "correct": "a",
+            "answer_text": "To monitor devices for known viruses and other malicious technologies",
+            "reason": "The purpose of using end-point protection software is to monitor devices for known viruses and other malicious technologies."
+          },
+          {
+            "text": "What is a Red Team in cybersecurity?",
+            "answers": {
+              "a": "A group that uses tools and techniques typically used by malicious actors to attack a system",
+              "b": "A team that develops new cybersecurity software",
+              "c": "A group that monitors network traffic for anomalies",
+              "d": "A team that provides user support and training"
+            },
+            "correct": "a",
+            "answer_text": "A group that uses tools and techniques typically used by malicious actors to attack a system",
+            "reason": "A Red Team in cybersecurity is a group that uses tools and techniques typically used by malicious actors to attack a system."
+          },
+          {
+            "text": "What is a Blue Team in cybersecurity?",
+            "answers": {
+              "a": "A team that focuses on the constant defense of systems and information managed by organizations",
+              "b": "A group that performs offensive cyber-attacks",
+              "c": "A team that develops new encryption methods",
+              "d": "A group that manages network hardware"
+            },
+            "correct": "a",
+            "answer_text": "A team that focuses on the constant defense of systems and information managed by organizations",
+            "reason": "A Blue Team in cybersecurity focuses on the constant defense of systems and information managed by organizations."
+          },
+          {
+            "text": "What is a brute force attack?",
+            "answers": {
+              "a": "A programming script designed to repeatedly execute its code while attempting to log into a system with a user account",
+              "b": "A type of denial of service attack",
+              "c": "A method for encrypting data",
+              "d": "A way to backup data"
+            },
+            "correct": "a",
+            "answer_text": "A programming script designed to repeatedly execute its code while attempting to log into a system with a user account",
+            "reason": "A brute force attack is a programming script designed to repeatedly execute its code while attempting to log into a system with a user account."
+          },
+          {
+            "text": "What is a common vulnerability in IT systems?",
+            "answers": {
+              "a": "Unauthorized access due to weak passwords",
+              "b": "Use of strong encryption methods",
+              "c": "Regular software updates",
+              "d": "Use of multi-factor authentication"
+            },
+            "correct": "a",
+            "answer_text": "Unauthorized access due to weak passwords",
+            "reason": "A common vulnerability in IT systems is unauthorized access due to weak passwords."
+          },
+          {
+            "text": "What is the primary role of the National Institute of Standards and Technology (NIST) in cybersecurity?",
+            "answers": {
+              "a": "To advance measurements and standards in science and technologies that enhance economic security and quality of life",
+              "b": "To develop new software applications",
+              "c": "To provide technical support to users",
+              "d": "To monitor network traffic"
+            },
+            "correct": "a",
+            "answer_text": "To advance measurements and standards in science and technologies that enhance economic security and quality of life",
+            "reason": "The primary role of the National Institute of Standards and Technology (NIST) in cybersecurity is to advance measurements and standards in science and technologies that enhance economic security and quality of life."
+          },
+          {
+            "text": "What is the purpose of the Cybersecurity & Infrastructure Security Agency (CISA)?",
+            "answers": {
+              "a": "To provide cyber hygiene services and publish security tips",
+              "b": "To develop new cybersecurity hardware",
+              "c": "To monitor internet traffic",
+              "d": "To offer online cybersecurity training"
+            },
+            "correct": "a",
+            "answer_text": "To provide cyber hygiene services and publish security tips",
+            "reason": "The purpose of the Cybersecurity & Infrastructure Security Agency (CISA) is to provide cyber hygiene services and publish security tips."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Au 06",
+    "subject": "Sciences",
+    "exam": "GED",
+    "topic": [
+      "Earth & Space"
+    ],
+    "sub_topic": [],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What is the primary function of a search engine?",
+            "answers": {
+              "a": "To find documents on the Internet that correspond to search terms entered by the user",
+              "b": "To store user data for advertising purposes",
+              "c": "To provide cloud storage solutions",
+              "d": "To host user-generated content and videos"
+            },
+            "correct": "a",
+            "answer_text": "To find documents on the Internet that correspond to search terms entered by the user",
+            "reason": "The primary function of a search engine is to find documents on the Internet that correspond to search terms entered by the user."
+          },
+          {
+            "text": "Which of the following is a common revenue model for search engines like Google and Bing?",
+            "answers": {
+              "a": "Selling user data to third parties",
+              "b": "Subscription fees from users",
+              "c": "Advertisements and sponsored placements",
+              "d": "Offering premium services and features"
+            },
+            "correct": "c",
+            "answer_text": "Advertisements and sponsored placements",
+            "reason": "A common revenue model for search engines like Google and Bing is advertisements and sponsored placements."
+          },
+          {
+            "text": "What type of information do specialized review platforms typically provide?",
+            "answers": {
+              "a": "News updates",
+              "b": "User-generated reviews and expert opinions on products and services",
+              "c": "Cloud storage solutions",
+              "d": "Online educational courses"
+            },
+            "correct": "b",
+            "answer_text": "User-generated reviews and expert opinions on products and services",
+            "reason": "Specialized review platforms typically provide user-generated reviews and expert opinions on products and services."
+          },
+          {
+            "text": "Which of the following is an example of a specialized review platform for restaurants?",
+            "answers": {
+              "a": "TripAdvisor",
+              "b": "Yelp",
+              "c": "G2",
+              "d": "WebMD"
+            },
+            "correct": "b",
+            "answer_text": "Yelp",
+            "reason": "Yelp is a specialized review platform for restaurants."
+          },
+          {
+            "text": "What is a key characteristic of public wikis like Wikipedia?",
+            "answers": {
+              "a": "User-generated and editable content",
+              "b": "Paid subscriptions for premium articles",
+              "c": "Restricted access to verified experts",
+              "d": "High-level security and privacy features"
+            },
+            "correct": "a",
+            "answer_text": "User-generated and editable content",
+            "reason": "A key characteristic of public wikis like Wikipedia is user-generated and editable content."
+          },
+          {
+            "text": "What was one of the first search engines to use a manually curated table of contents?",
+            "answers": {
+              "a": "Yahoo!",
+              "b": "Google",
+              "c": "Bing",
+              "d": "AltaVista"
+            },
+            "correct": "a",
+            "answer_text": "Yahoo!",
+            "reason": "Yahoo! was one of the first search engines to use a manually curated table of contents."
+          },
+          {
+            "text": "What technology did Google use to improve the relevance of its search results?",
+            "answers": {
+              "a": "Keyword-based indexes",
+              "b": "Link-based ranking",
+              "c": "Manually curated content",
+              "d": "User-generated reviews"
+            },
+            "correct": "b",
+            "answer_text": "Link-based ranking",
+            "reason": "Google used link-based ranking to improve the relevance of its search results."
+          },
+          {
+            "text": "What is the primary purpose of Massive Open Online Courses (MOOCs)?",
+            "answers": {
+              "a": "To offer online educational courses open to anyone worldwide",
+              "b": "To provide entertainment and leisure content",
+              "c": "To sell software and hardware products",
+              "d": "To connect professionals with job opportunities"
+            },
+            "correct": "a",
+            "answer_text": "To offer online educational courses open to anyone worldwide",
+            "reason": "The primary purpose of Massive Open Online Courses (MOOCs) is to offer online educational courses open to anyone worldwide."
+          },
+          {
+            "text": "Which platform is known for offering a mix of free and paid MOOCs?",
+            "answers": {
+              "a": "Coursera",
+              "b": "YouTube",
+              "c": "Wikipedia",
+              "d": "TripAdvisor"
+            },
+            "correct": "a",
+            "answer_text": "Coursera",
+            "reason": "Coursera is known for offering a mix of free and paid MOOCs."
+          },
+          {
+            "text": "What is a common use for informal training sites like YouTube?",
+            "answers": {
+              "a": "Providing live one-on-one tutoring sessions",
+              "b": "Offering community-rated tutorials and videos on specific topics",
+              "c": "Requiring a monthly subscription for access",
+              "d": "Limiting content on niche topics"
+            },
+            "correct": "b",
+            "answer_text": "Offering community-rated tutorials and videos on specific topics",
+            "reason": "A common use for informal training sites like YouTube is offering community-rated tutorials and videos on specific topics."
+          },
+          {
+            "text": "What is website spoofing?",
+            "answers": {
+              "a": "Creating look-alike websites to confuse users and steal credentials",
+              "b": "Enhancing website design for better user experience",
+              "c": "Using fake reviews to promote products",
+              "d": "Optimizing websites for search engine rankings"
+            },
+            "correct": "a",
+            "answer_text": "Creating look-alike websites to confuse users and steal credentials",
+            "reason": "Website spoofing involves creating look-alike websites to confuse users and steal credentials."
+          },
+          {
+            "text": "What is the purpose of a URL in web browsing?",
+            "answers": {
+              "a": "To identify the location of a resource on the Internet",
+              "b": "To track user activity on the Internet",
+              "c": "To store cookies and session data",
+              "d": "To display advertisements to users"
+            },
+            "correct": "a",
+            "answer_text": "To identify the location of a resource on the Internet",
+            "reason": "The purpose of a URL in web browsing is to identify the location of a resource on the Internet."
+          },
+          {
+            "text": "What should you check to ensure the credibility of an online source?",
+            "answers": {
+              "a": "The website's design and layout",
+              "b": "The URL and the reputation of the source",
+              "c": "The number of advertisements on the page",
+              "d": "The length of the article"
+            },
+            "correct": "b",
+            "answer_text": "The URL and the reputation of the source",
+            "reason": "To ensure the credibility of an online source, you should check the URL and the reputation of the source."
+          },
+          {
+            "text": "What is a potential risk of using the web for research?",
+            "answers": {
+              "a": "Slow internet speed",
+              "b": "Inconsistent information quality and reliability",
+              "c": "Limited access to resources",
+              "d": "High subscription costs for premium content"
+            },
+            "correct": "b",
+            "answer_text": "Inconsistent information quality and reliability",
+            "reason": "A potential risk of using the web for research is inconsistent information quality and reliability."
+          },
+          {
+            "text": "What is the primary purpose of online training sites like Coursera and Khan Academy?",
+            "answers": {
+              "a": "To provide free and paid educational courses and certifications",
+              "b": "To sell software and hardware products",
+              "c": "To offer cloud storage solutions",
+              "d": "To provide entertainment and leisure content"
+            },
+            "correct": "a",
+            "answer_text": "To provide free and paid educational courses and certifications",
+            "reason": "The primary purpose of online training sites like Coursera and Khan Academy is to provide free and paid educational courses and certifications."
+          },
+          {
+            "text": "What does the term \"MOOC\" stand for?",
+            "answers": {
+              "a": "Massive Open Online Courses",
+              "b": "Multimedia Open Online Courses",
+              "c": "Managed Online Organization Courses",
+              "d": "Modular Open Online Courses"
+            },
+            "correct": "a",
+            "answer_text": "Massive Open Online Courses",
+            "reason": "MOOC stands for Massive Open Online Courses."
+          },
+          {
+            "text": "What is a key benefit of using public wikis like Wikipedia?",
+            "answers": {
+              "a": "User-generated and editable content",
+              "b": "Paid subscriptions for premium articles",
+              "c": "Restricted access to verified experts",
+              "d": "High-level security and privacy features"
+            },
+            "correct": "a",
+            "answer_text": "User-generated and editable content",
+            "reason": "A key benefit of using public wikis like Wikipedia is user-generated and editable content."
+          },
+          {
+            "text": "What does the term \"User Generated Content\" (UGC) refer to?",
+            "answers": {
+              "a": "Content created by users on platforms like Instagram, Twitter, or YouTube",
+              "b": "Content created by professional writers for online publications",
+              "c": "Content created by automated algorithms",
+              "d": "Content created by marketing teams for advertising purposes"
+            },
+            "correct": "a",
+            "answer_text": "Content created by users on platforms like Instagram, Twitter, or YouTube",
+            "reason": "User Generated Content (UGC) refers to content created by users on platforms like Instagram, Twitter, or YouTube."
+          },
+          {
+            "text": "What is a common feature of specialized review platforms?",
+            "answers": {
+              "a": "Providing expert opinions and crowd-sourced reviews on products and services",
+              "b": "Offering cloud storage solutions",
+              "c": "Hosting user-generated content and videos",
+              "d": "Providing the latest news updates"
+            },
+            "correct": "a",
+            "answer_text": "Providing expert opinions and crowd-sourced reviews on products and services",
+            "reason": "A common feature of specialized review platforms is providing expert opinions and crowd-sourced reviews on products and services."
+          },
+          {
+            "text": "What is the primary function of a search engine's algorithm?",
+            "answers": {
+              "a": "To find resources related to what is input into a search interface",
+              "b": "To store user data for advertising purposes",
+              "c": "To provide cloud storage solutions",
+              "d": "To host user-generated content and videos"
+            },
+            "correct": "a",
+            "answer_text": "To find resources related to what is input into a search interface",
+            "reason": "The primary function of a search engine's algorithm is to find resources related to what is input into a search interface."
+          },
+          {
+            "text": "What is one advantage of using YouTube for informal training?",
+            "answers": {
+              "a": "Access to a vast array of community-rated tutorials and videos",
+              "b": "Requirement for a monthly subscription for access",
+              "c": "Limited content on niche topics",
+              "d": "Provision of live one-on-one tutoring sessions"
+            },
+            "correct": "a",
+            "answer_text": "Access to a vast array of community-rated tutorials and videos",
+            "reason": "An advantage of using YouTube for informal training is access to a vast array of community-rated tutorials and videos."
+          },
+          {
+            "text": "What is the role of gatekeeping in print publications?",
+            "answers": {
+              "a": "Ensuring correctness of information through experienced editors and reliable sources",
+              "b": "Increasing the speed of news delivery",
+              "c": "Reducing the cost of publication",
+              "d": "Enhancing the visual appeal of articles"
+            },
+            "correct": "a",
+            "answer_text": "Ensuring correctness of information through experienced editors and reliable sources",
+            "reason": "The role of gatekeeping in print publications is to ensure correctness of information through experienced editors and reliable sources."
+          },
+          {
+            "text": "What is a common tactic used by unethical businesses to deceive users?",
+            "answers": {
+              "a": "Website spoofing",
+              "b": "Offering free online courses",
+              "c": "Providing high-quality content",
+              "d": "Using secure communication protocols"
+            },
+            "correct": "a",
+            "answer_text": "Website spoofing",
+            "reason": "A common tactic used by unethical businesses to deceive users is website spoofing."
+          },
+          {
+            "text": "What should you do to verify the reputability of an online source?",
+            "answers": {
+              "a": "Look up the business name of the source on search engines to check reviews",
+              "b": "Check the number of advertisements on the page",
+              "c": "Look at the website's design and layout",
+              "d": "Verify the length of the article"
+            },
+            "correct": "a",
+            "answer_text": "Look up the business name of the source on search engines to check reviews",
+            "reason": "To verify the reputability of an online source, you should look up the business name of the source on search engines to check reviews."
+          },
+          {
+            "text": "Why is it important to look at multiple sources when researching online?",
+            "answers": {
+              "a": "To get a problem/solution from different perspectives and confirm authenticity",
+              "b": "To increase the speed of research",
+              "c": "To reduce the cost of research",
+              "d": "To find the shortest articles"
+            },
+            "correct": "a",
+            "answer_text": "To get a problem/solution from different perspectives and confirm authenticity",
+            "reason": "It is important to look at multiple sources when researching online to get a problem/solution from different perspectives and confirm authenticity."
+          },
+          {
+            "text": "What is clickbait?",
+            "answers": {
+              "a": "Attention-grabbing headlines that may have little to do with the content of the article",
+              "b": "Paid subscriptions for premium content",
+              "c": "Secure communication protocols",
+              "d": "High-quality educational videos"
+            },
+            "correct": "a",
+            "answer_text": "Attention-grabbing headlines that may have little to do with the content of the article",
+            "reason": "Clickbait refers to attention-grabbing headlines that may have little to do with the content of the article."
+          },
+          {
+            "text": "What is a key characteristic of influencers in the context of online content?",
+            "answers": {
+              "a": "Individuals who have a large audience through social media platforms",
+              "b": "Professional writers for online publications",
+              "c": "Automated algorithms generating content",
+              "d": "Marketing teams creating advertisements"
+            },
+            "correct": "a",
+            "answer_text": "Individuals who have a large audience through social media platforms",
+            "reason": "Influencers are individuals who have a large audience through social media platforms."
+          },
+          {
+            "text": "What is a potential problem with relying on influencers for product recommendations?",
+            "answers": {
+              "a": "Recommendations may not be accurate or relevant to the user's specific circumstances",
+              "b": "Influencers always provide the most reliable information",
+              "c": "Influencers have no impact on user decisions",
+              "d": "Recommendations are always based on scientific research"
+            },
+            "correct": "a",
+            "answer_text": "Recommendations may not be accurate or relevant to the user's specific circumstances",
+            "reason": "A potential problem with relying on influencers for product recommendations is that the recommendations may not be accurate or relevant to the user's specific circumstances."
+          },
+          {
+            "text": "What should you do to avoid confirmation bias when researching online?",
+            "answers": {
+              "a": "Be honest with yourself and understand if you are willing to change your initial opinion",
+              "b": "Only seek out people who agree with you",
+              "c": "Ignore the opposing view",
+              "d": "Validate your opinions without considering new information"
+            },
+            "correct": "a",
+            "answer_text": "Be honest with yourself and understand if you are willing to change your initial opinion",
+            "reason": "To avoid confirmation bias when researching online, be honest with yourself and understand if you are willing to change your initial opinion."
+          },
+          {
+            "text": "What is the benefit of discussing online research findings with others?",
+            "answers": {
+              "a": "The power of community to sift out good ideas from bad ones",
+              "b": "Increasing the speed of research",
+              "c": "Reducing the cost of research",
+              "d": "Enhancing the visual appeal of articles"
+            },
+            "correct": "a",
+            "answer_text": "The power of community to sift out good ideas from bad ones",
+            "reason": "Discussing online research findings with others benefits from the power of community to sift out good ideas from bad ones."
+          },
+          {
+            "text": "What motivates many websites and search engines to prioritize displaying certain information?",
+            "answers": {
+              "a": "Earning money through advertisements and influencing user decisions",
+              "b": "Providing the most accurate and unbiased information",
+              "c": "Reducing the cost of online services",
+              "d": "Enhancing user experience through high-quality content"
+            },
+            "correct": "a",
+            "answer_text": "Earning money through advertisements and influencing user decisions",
+            "reason": "Many websites and search engines are motivated to prioritize displaying certain information to earn money through advertisements and influence user decisions."
+          },
+          {
+            "text": "What is search tracking?",
+            "answers": {
+              "a": "Holding on to queries to gauge potential needs and show targeted advertisements",
+              "b": "Storing user data for secure communication",
+              "c": "Providing cloud storage solutions",
+              "d": "Hosting user-generated content and videos"
+            },
+            "correct": "a",
+            "answer_text": "Holding on to queries to gauge potential needs and show targeted advertisements",
+            "reason": "Search tracking involves holding on to queries to gauge potential needs and show targeted advertisements."
+          },
+          {
+            "text": "What is a URL?",
+            "answers": {
+              "a": "The website/address of a resource on the Internet",
+              "b": "A digital platform for interaction between people",
+              "c": "An algorithm designed to find resources related to search terms",
+              "d": "A systematic sequence of steps to solve a problem"
+            },
+            "correct": "a",
+            "answer_text": "The website/address of a resource on the Internet",
+            "reason": "A URL is the website/address of a resource on the Internet."
+          },
+          {
+            "text": "What are MOOCs?",
+            "answers": {
+              "a": "Open access educational courses available to participants using an online platform",
+              "b": "Digital platforms for interaction between people",
+              "c": "Secure encryption methods",
+              "d": "Gatekeepers of information"
+            },
+            "correct": "a",
+            "answer_text": "Open access educational courses available to participants using an online platform",
+            "reason": "MOOCs are open access educational courses available to participants using an online platform."
+          },
+          {
+            "text": "What is the purpose of gatekeeping in information publication?",
+            "answers": {
+              "a": "To select and present information to readers with increased reliability",
+              "b": "To reduce the speed of information dissemination",
+              "c": "To increase the cost of publications",
+              "d": "To enhance the visual appeal of articles"
+            },
+            "correct": "a",
+            "answer_text": "To select and present information to readers with increased reliability",
+            "reason": "The purpose of gatekeeping in information publication is to select and present information to readers with increased reliability."
+          },
+          {
+            "text": "What are influencers?",
+            "answers": {
+              "a": "Individuals who have a large audience through social media platforms",
+              "b": "Automated algorithms generating content",
+              "c": "Professional writers for online publications",
+              "d": "Marketing teams creating advertisements"
+            },
+            "correct": "a",
+            "answer_text": "Individuals who have a large audience through social media platforms",
+            "reason": "Influencers are individuals who have a large audience through social media platforms."
+          },
+          {
+            "text": "What is spoofing in the context of web security?",
+            "answers": {
+              "a": "Disguising the true or trusted identity of a person or device",
+              "b": "Encrypting data for secure communication",
+              "c": "Optimizing websites for search engines",
+              "d": "Creating high-quality educational videos"
+            },
+            "correct": "a",
+            "answer_text": "Disguising the true or trusted identity of a person or device",
+            "reason": "In web security, spoofing refers to disguising the true or trusted identity of a person or device."
+          },
+          {
+            "text": "What should you check to ensure you are on the correct website?",
+            "answers": {
+              "a": "The URL of the website",
+              "b": "The number of advertisements",
+              "c": "The design and layout",
+              "d": "The length of the article"
+            },
+            "correct": "a",
+            "answer_text": "The URL of the website",
+            "reason": "To ensure you are on the correct website, you should check the URL of the website."
+          },
+          {
+            "text": "Why is it important to check your biases when researching online?",
+            "answers": {
+              "a": "To avoid falling into an echo chamber that magnifies your beliefs",
+              "b": "To increase the speed of research",
+              "c": "To reduce the cost of research",
+              "d": "To enhance the visual appeal of articles"
+            },
+            "correct": "a",
+            "answer_text": "To avoid falling into an echo chamber that magnifies your beliefs",
+            "reason": "It is important to check your biases when researching online to avoid falling into an echo chamber that magnifies your beliefs."
+          },
+          {
+            "text": "What is one potential pitfall of search tracking?",
+            "answers": {
+              "a": "Showing targeted advertisements based on past queries",
+              "b": "Increasing the speed of search results",
+              "c": "Providing high-quality educational videos",
+              "d": "Reducing the cost of online services"
+            },
+            "correct": "a",
+            "answer_text": "Showing targeted advertisements based on past queries",
+            "reason": "One potential pitfall of search tracking is showing targeted advertisements based on past queries."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Au 07",
+    "subject": "Sciences",
+    "exam": "GED",
+    "topic": [
+      "Earth & Space"
+    ],
+    "sub_topic": [],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What is a microcomputer primarily designed for?",
+            "answers": {
+              "a": "To handle heavy computational tasks for large organizations",
+              "b": "For personal use by one individual at a time",
+              "c": "To serve as a mainframe computer for large data centers",
+              "d": "For scientific research and development"
+            },
+            "correct": "b",
+            "answer_text": "For personal use by one individual at a time",
+            "reason": "A microcomputer is primarily designed for personal use by one individual at a time."
+          },
+          {
+            "text": "Which of the following is NOT a type of microcomputer?",
+            "answers": {
+              "a": "Desktop computer",
+              "b": "Laptop",
+              "c": "Mainframe computer",
+              "d": "Tablet"
+            },
+            "correct": "c",
+            "answer_text": "Mainframe computer",
+            "reason": "A mainframe computer is not a type of microcomputer."
+          },
+          {
+            "text": "What is the primary benefit of using a desktop computer?",
+            "answers": {
+              "a": "Portability",
+              "b": "Lower power consumption",
+              "c": "Best value for money and easy upgradeability",
+              "d": "Integrated cellular connectivity"
+            },
+            "correct": "c",
+            "answer_text": "Best value for money and easy upgradeability",
+            "reason": "The primary benefit of using a desktop computer is its best value for money and easy upgradeability."
+          },
+          {
+            "text": "Which operating system is most commonly associated with desktop computers?",
+            "answers": {
+              "a": "Android",
+              "b": "iOS",
+              "c": "Microsoft Windows",
+              "d": "Unix"
+            },
+            "correct": "c",
+            "answer_text": "Microsoft Windows",
+            "reason": "Microsoft Windows is the operating system most commonly associated with desktop computers."
+          },
+          {
+            "text": "What is a significant advantage of laptops over desktop computers?",
+            "answers": {
+              "a": "Larger screen size",
+              "b": "Portability and ability to work from anywhere",
+              "c": "Better performance for gaming",
+              "d": "Easier to upgrade components"
+            },
+            "correct": "b",
+            "answer_text": "Portability and ability to work from anywhere",
+            "reason": "A significant advantage of laptops over desktop computers is their portability and ability to work from anywhere."
+          },
+          {
+            "text": "What type of storage is typically used in laptops for its power efficiency and lightweight?",
+            "answers": {
+              "a": "HDD",
+              "b": "SSD",
+              "c": "Optical drives",
+              "d": "Magnetic tapes"
+            },
+            "correct": "b",
+            "answer_text": "SSD",
+            "reason": "SSD is typically used in laptops for its power efficiency and lightweight."
+          },
+          {
+            "text": "What is the primary input device for a computer?",
+            "answers": {
+              "a": "Monitor",
+              "b": "Mouse",
+              "c": "Keyboard",
+              "d": "Speaker"
+            },
+            "correct": "c",
+            "answer_text": "Keyboard",
+            "reason": "The primary input device for a computer is the keyboard."
+          },
+          {
+            "text": "What does RAM stand for?",
+            "answers": {
+              "a": "Read Access Memory",
+              "b": "Random Access Memory",
+              "c": "Real-time Access Memory",
+              "d": "Rapid Access Memory"
+            },
+            "correct": "b",
+            "answer_text": "Random Access Memory",
+            "reason": "RAM stands for Random Access Memory."
+          },
+          {
+            "text": "Which component is considered the brain of the computer?",
+            "answers": {
+              "a": "RAM",
+              "b": "GPU",
+              "c": "CPU",
+              "d": "Motherboard"
+            },
+            "correct": "c",
+            "answer_text": "CPU",
+            "reason": "The CPU is considered the brain of the computer."
+          },
+          {
+            "text": "What is a key feature of solid-state drives (SSDs) compared to hard disk drives (HDDs)?",
+            "answers": {
+              "a": "Slower data access speeds",
+              "b": "More moving parts",
+              "c": "Faster data access and lower power consumption",
+              "d": "Larger storage capacity"
+            },
+            "correct": "c",
+            "answer_text": "Faster data access and lower power consumption",
+            "reason": "A key feature of SSDs compared to HDDs is faster data access and lower power consumption."
+          },
+          {
+            "text": "What is the primary function of a GPU in a microcomputer?",
+            "answers": {
+              "a": "To store data permanently",
+              "b": "To render graphics and video content",
+              "c": "To perform arithmetic calculations",
+              "d": "To manage network connections"
+            },
+            "correct": "b",
+            "answer_text": "To render graphics and video content",
+            "reason": "The primary function of a GPU in a microcomputer is to render graphics and video content."
+          },
+          {
+            "text": "What is the purpose of a motherboard in a microcomputer?",
+            "answers": {
+              "a": "To house the CPU, memory, and other essential components",
+              "b": "To provide a display for the user",
+              "c": "To connect the computer to the internet",
+              "d": "To store data and applications"
+            },
+            "correct": "a",
+            "answer_text": "To house the CPU, memory, and other essential components",
+            "reason": "The purpose of a motherboard in a microcomputer is to house the CPU, memory, and other essential components."
+          },
+          {
+            "text": "What is a common feature of tablets that distinguishes them from laptops?",
+            "answers": {
+              "a": "Use of touchscreens for input",
+              "b": "Larger screen size",
+              "c": "Integrated keyboard and trackpad",
+              "d": "Higher processing power"
+            },
+            "correct": "a",
+            "answer_text": "Use of touchscreens for input",
+            "reason": "A common feature of tablets that distinguishes them from laptops is the use of touchscreens for input."
+          },
+          {
+            "text": "Which type of microcomputer is primarily used for making phone calls and accessing the internet?",
+            "answers": {
+              "a": "Desktop computer",
+              "b": "Laptop",
+              "c": "Tablet",
+              "d": "Smartphone"
+            },
+            "correct": "d",
+            "answer_text": "Smartphone",
+            "reason": "Smartphones are primarily used for making phone calls and accessing the internet."
+          },
+          {
+            "text": "What is a unique selling proposition of smartwatches compared to other microcomputers?",
+            "answers": {
+              "a": "Large display screens",
+              "b": "Enhanced gaming capabilities",
+              "c": "Health monitoring features",
+              "d": "High storage capacity"
+            },
+            "correct": "c",
+            "answer_text": "Health monitoring features",
+            "reason": "The unique selling proposition of smartwatches compared to other microcomputers is their health monitoring features."
+          },
+          {
+            "text": "What is the primary function of an input device like a mouse?",
+            "answers": {
+              "a": "To display information",
+              "b": "To store data",
+              "c": "To allow users to interact with the computer and input data",
+              "d": "To connect the computer to other devices"
+            },
+            "correct": "c",
+            "answer_text": "To allow users to interact with the computer and input data",
+            "reason": "The primary function of an input device like a mouse is to allow users to interact with the computer and input data."
+          },
+          {
+            "text": "What is a significant benefit of using external monitors with desktops?",
+            "answers": {
+              "a": "Increased portability",
+              "b": "Enhanced viewing experience and larger screen size",
+              "c": "Improved battery life",
+              "d": "Lower power consumption"
+            },
+            "correct": "b",
+            "answer_text": "Enhanced viewing experience and larger screen size",
+            "reason": "A significant benefit of using external monitors with desktops is the enhanced viewing experience and larger screen size."
+          },
+          {
+            "text": "What is the role of an operating system in a computer?",
+            "answers": {
+              "a": "To provide a physical interface for the user",
+              "b": "To manage hardware resources and software applications",
+              "c": "To store data permanently",
+              "d": "To connect the computer to the internet"
+            },
+            "correct": "b",
+            "answer_text": "To manage hardware resources and software applications",
+            "reason": "The role of an operating system in a computer is to manage hardware resources and software applications."
+          },
+          {
+            "text": "What is a common use for microcomputers in homes and offices?",
+            "answers": {
+              "a": "Performing everyday tasks like browsing the internet and creating documents",
+              "b": "Managing large-scale databases",
+              "c": "Running scientific simulations",
+              "d": "Controlling industrial machinery"
+            },
+            "correct": "a",
+            "answer_text": "Performing everyday tasks like browsing the internet and creating documents",
+            "reason": "A common use for microcomputers in homes and offices is performing everyday tasks like browsing the internet and creating documents."
+          },
+          {
+            "text": "What does the term \"form factor\" refer to in computer hardware?",
+            "answers": {
+              "a": "The performance capabilities of the computer",
+              "b": "The physical size and shape of a computer device",
+              "c": "The type of operating system used",
+              "d": "The power consumption of the computer"
+            },
+            "correct": "b",
+            "answer_text": "The physical size and shape of a computer device",
+            "reason": "The term \"form factor\" refers to the physical size and shape of a computer device."
+          },
+          {
+            "text": "What is the primary purpose of cloud storage services like Google Drive and Dropbox?",
+            "answers": {
+              "a": "To enhance offline functionality",
+              "b": "To offer remote storage and access to data from any device with internet connectivity",
+              "c": "To store data locally on devices",
+              "d": "To improve hardware performance"
+            },
+            "correct": "b",
+            "answer_text": "To offer remote storage and access to data from any device with internet connectivity",
+            "reason": "The primary purpose of cloud storage services like Google Drive and Dropbox is to offer remote storage and access to data from any device with internet connectivity."
+          },
+          {
+            "text": "What does the term \"cache\" refer to in computer memory?",
+            "answers": {
+              "a": "A type of long-term storage",
+              "b": "Extra-fast memory within the processor chip for quick access to frequently used data",
+              "c": "External storage connected via USB",
+              "d": "A backup solution for data recovery"
+            },
+            "correct": "b",
+            "answer_text": "Extra-fast memory within the processor chip for quick access to frequently used data",
+            "reason": "The term \"cache\" refers to extra-fast memory within the processor chip for quick access to frequently used data."
+          },
+          {
+            "text": "What is a common method for distributing malware?",
+            "answers": {
+              "a": "Through free downloads that appear useful",
+              "b": "By updating antivirus software",
+              "c": "By using encrypted communication channels",
+              "d": "By sending secure emails"
+            },
+            "correct": "a",
+            "answer_text": "Through free downloads that appear useful",
+            "reason": "A common method for distributing malware is through free downloads that appear useful."
+          },
+          {
+            "text": "What is the main use of microcomputers in gaming?",
+            "answers": {
+              "a": "Managing and maintaining IT infrastructure",
+              "b": "Providing high processing power and advanced graphics capabilities",
+              "c": "Storing large amounts of data",
+              "d": "Connecting to cloud storage services"
+            },
+            "correct": "b",
+            "answer_text": "Providing high processing power and advanced graphics capabilities",
+            "reason": "The main use of microcomputers in gaming is providing high processing power and advanced graphics capabilities."
+          },
+          {
+            "text": "What is a potential problem with relying on influencers for product recommendations?",
+            "answers": {
+              "a": "Recommendations may not be accurate or relevant to the user's specific circumstances",
+              "b": "Influencers always provide the most reliable information",
+              "c": "Influencers have no impact on user decisions",
+              "d": "Recommendations are always based on scientific research"
+            },
+            "correct": "a",
+            "answer_text": "Recommendations may not be accurate or relevant to the user's specific circumstances",
+            "reason": "A potential problem with relying on influencers for product recommendations is that the recommendations may not be accurate or relevant to the user's specific circumstances."
+          },
+          {
+            "text": "What is the primary function of the data bus in a computer?",
+            "answers": {
+              "a": "To store data permanently",
+              "b": "To transfer data between different components of the computer",
+              "c": "To provide a physical interface for the user",
+              "d": "To connect the computer to the internet"
+            },
+            "correct": "b",
+            "answer_text": "To transfer data between different components of the computer",
+            "reason": "The primary function of the data bus in a computer is to transfer data between different components of the computer."
+          },
+          {
+            "text": "What is the role of the task manager in a computer system?",
+            "answers": {
+              "a": "To display information on the screen",
+              "b": "To identify programs consuming the most memory and CPU resources",
+              "c": "To store data permanently",
+              "d": "To manage network connections"
+            },
+            "correct": "b",
+            "answer_text": "To identify programs consuming the most memory and CPU resources",
+            "reason": "The role of the task manager in a computer system is to identify programs consuming the most memory and CPU resources."
+          },
+          {
+            "text": "What is the primary benefit of using an SSD over an HDD?",
+            "answers": {
+              "a": "Lower cost",
+              "b": "Higher data transfer speeds and durability",
+              "c": "Larger storage capacity",
+              "d": "Easier to upgrade"
+            },
+            "correct": "b",
+            "answer_text": "Higher data transfer speeds and durability",
+            "reason": "The primary benefit of using an SSD over an HDD is higher data transfer speeds and durability."
+          },
+          {
+            "text": "What is the purpose of the Von Neumann architecture in computer design?",
+            "answers": {
+              "a": "To provide a model for the general architecture of a computer, including the CPU, memory, and input/output devices",
+              "b": "To enhance the graphical capabilities of the computer",
+              "c": "To store data permanently",
+              "d": "To connect the computer to the internet"
+            },
+            "correct": "a",
+            "answer_text": "To provide a model for the general architecture of a computer, including the CPU, memory, and input/output devices",
+            "reason": "The purpose of the Von Neumann architecture in computer design is to provide a model for the general architecture of a computer."
+          },
+          {
+            "text": "What is a common use for external storage devices like USB sticks?",
+            "answers": {
+              "a": "Enhancing offline functionality",
+              "b": "Providing remote storage and access to data",
+              "c": "Moving content from one computer to another",
+              "d": "Improving hardware performance"
+            },
+            "correct": "c",
+            "answer_text": "Moving content from one computer to another",
+            "reason": "A common use for external storage devices like USB sticks is moving content from one computer to another."
+          },
+          {
+            "text": "What is the role of the motherboard in a computer?",
+            "answers": {
+              "a": "To house the CPU, memory, and other essential components",
+              "b": "To provide a display for the user",
+              "c": "To connect the computer to the internet",
+              "d": "To store data and applications"
+            },
+            "correct": "a",
+            "answer_text": "To house the CPU, memory, and other essential components",
+            "reason": "The role of the motherboard in a computer is to house the CPU, memory, and other essential components."
+          },
+          {
+            "text": "What is the purpose of RAM in a computer system?",
+            "answers": {
+              "a": "To provide long-term storage for data and applications",
+              "b": "To temporarily store data for quick access by the CPU",
+              "c": "To manage network connections",
+              "d": "To display information on the screen"
+            },
+            "correct": "b",
+            "answer_text": "To temporarily store data for quick access by the CPU",
+            "reason": "The purpose of RAM in a computer system is to temporarily store data for quick access by the CPU."
+          },
+          {
+            "text": "What is a common feature of laptops that distinguishes them from desktops?",
+            "answers": {
+              "a": "Use of touchscreens for input",
+              "b": "Larger screen size",
+              "c": "Integrated keyboard and trackpad",
+              "d": "Higher processing power"
+            },
+            "correct": "c",
+            "answer_text": "Integrated keyboard and trackpad",
+            "reason": "A common feature of laptops that distinguishes them from desktops is the integrated keyboard and trackpad."
+          },
+          {
+            "text": "What is the primary function of an SSD in a computer?",
+            "answers": {
+              "a": "To store data permanently with faster access speeds",
+              "b": "To connect the computer to the internet",
+              "c": "To provide a physical interface for the user",
+              "d": "To enhance the graphical capabilities of the computer"
+            },
+            "correct": "a",
+            "answer_text": "To store data permanently with faster access speeds",
+            "reason": "The primary function of an SSD in a computer is to store data permanently with faster access speeds."
+          },
+          {
+            "text": "What is the purpose of the CPU in a computer?",
+            "answers": {
+              "a": "To store data permanently",
+              "b": "To perform all the computations necessary to execute the user's command",
+              "c": "To provide a display for the user",
+              "d": "To connect the computer to the internet"
+            },
+            "correct": "b",
+            "answer_text": "To perform all the computations necessary to execute the user's command",
+            "reason": "The purpose of the CPU in a computer is to perform all the computations necessary to execute the user's command."
+          },
+          {
+            "text": "What is a key benefit of using cloud storage services?",
+            "answers": {
+              "a": "Increased portability",
+              "b": "Enhanced viewing experience",
+              "c": "Improved battery life",
+              "d": "Remote storage and access to data from any device with internet connectivity"
+            },
+            "correct": "d",
+            "answer_text": "Remote storage and access to data from any device with internet connectivity",
+            "reason": "A key benefit of using cloud storage services is remote storage and access to data from any device with internet connectivity."
+          },
+          {
+            "text": "What is a common use for microcomputers in educational settings?",
+            "answers": {
+              "a": "Performing everyday tasks like browsing the internet and creating documents",
+              "b": "Managing large-scale databases",
+              "c": "Running scientific simulations",
+              "d": "Controlling industrial machinery"
+            },
+            "correct": "a",
+            "answer_text": "Performing everyday tasks like browsing the internet and creating documents",
+            "reason": "A common use for microcomputers in educational settings is performing everyday tasks like browsing the internet and creating documents."
+          },
+          {
+            "text": "What is the primary purpose of an input device like a keyboard?",
+            "answers": {
+              "a": "To display information",
+              "b": "To store data",
+              "c": "To allow users to interact with the computer and input data",
+              "d": "To connect the computer to other devices"
+            },
+            "correct": "c",
+            "answer_text": "To allow users to interact with the computer and input data",
+            "reason": "The primary purpose of an input device like a keyboard is to allow users to interact with the computer and input data."
+          },
+          {
+            "text": "What is a common feature of smartphones that distinguishes them from other microcomputers?",
+            "answers": {
+              "a": "Use of touchscreens for input",
+              "b": "Larger screen size",
+              "c": "Integrated cellular connectivity for internet access",
+              "d": "Higher processing power"
+            },
+            "correct": "c",
+            "answer_text": "Integrated cellular connectivity for internet access",
+            "reason": "A common feature of smartphones that distinguishes them from other microcomputers is integrated cellular connectivity for internet access."
+          },
+          {
+            "text": "What is the role of an operating system in a computer?",
+            "answers": {
+              "a": "To provide a physical interface for the user",
+              "b": "To manage hardware resources and software applications",
+              "c": "To store data permanently",
+              "d": "To connect the computer to the internet"
+            },
+            "correct": "b",
+            "answer_text": "To manage hardware resources and software applications",
+            "reason": "The role of an operating system in a computer is to manage hardware resources and software applications."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Au 08",
+    "subject": "Sciences",
+    "exam": "GED",
+    "topic": [
+      "Earth & Space"
+    ],
+    "sub_topic": [],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "Who is credited with building the first mechanical computer?",
+            "answers": {
+              "a": "Alan Turing",
+              "b": "Charles Babbage",
+              "c": "John von Neumann",
+              "d": "Steve Jobs"
+            },
+            "correct": "b",
+            "answer_text": "Charles Babbage",
+            "reason": "Charles Babbage is credited with building the first mechanical computer."
+          },
+          {
+            "text": "What was the first programmable, general-purpose computer?",
+            "answers": {
+              "a": "UNIVAC",
+              "b": "ENIAC",
+              "c": "IBM PC",
+              "d": "Apple I"
+            },
+            "correct": "b",
+            "answer_text": "ENIAC",
+            "reason": "The first programmable, general-purpose computer was the ENIAC."
+          },
+          {
+            "text": "What was the main purpose of the ENIAC computer?",
+            "answers": {
+              "a": "Managing business records",
+              "b": "Computing firing tables during WWII",
+              "c": "Performing financial calculations",
+              "d": "Automating industrial processes"
+            },
+            "correct": "b",
+            "answer_text": "Computing firing tables during WWII",
+            "reason": "The main purpose of the ENIAC computer was computing firing tables during WWII."
+          },
+          {
+            "text": "What did the ENIAC computer use to read inputted data?",
+            "answers": {
+              "a": "Magnetic tapes",
+              "b": "Punched paper cards",
+              "c": "Floppy disks",
+              "d": "Hard drives"
+            },
+            "correct": "b",
+            "answer_text": "Punched paper cards",
+            "reason": "The ENIAC computer used punched paper cards to read inputted data."
+          },
+          {
+            "text": "What is an operating system (OS)?",
+            "answers": {
+              "a": "A software that performs specific tasks like word processing",
+              "b": "The brain of the computer that controls all the parts of a computer",
+              "c": "A physical device used to input data into a computer",
+              "d": "A type of computer memory used for temporary storage"
+            },
+            "correct": "b",
+            "answer_text": "The brain of the computer that controls all the parts of a computer",
+            "reason": "An operating system (OS) is the brain of the computer that controls all the parts of a computer."
+          },
+          {
+            "text": "What was the first operating system called Unix created to support?",
+            "answers": {
+              "a": "Business applications",
+              "b": "Scientific research",
+              "c": "Games",
+              "d": "Network management"
+            },
+            "correct": "c",
+            "answer_text": "Games",
+            "reason": "The first operating system called Unix was created to support games."
+          },
+          {
+            "text": "What principle guided the development of Unix?",
+            "answers": {
+              "a": "Maximum number of keystrokes for maximum effort",
+              "b": "Minimum number of keystrokes for maximum effort",
+              "c": "Maximum use of graphical user interfaces",
+              "d": "Minimum use of computer memory"
+            },
+            "correct": "b",
+            "answer_text": "Minimum number of keystrokes for maximum effort",
+            "reason": "The principle guiding the development of Unix was the minimum number of keystrokes for maximum effort."
+          },
+          {
+            "text": "What operating system was developed by AT&T and widely adopted due to its capabilities and low costs?",
+            "answers": {
+              "a": "MS-DOS",
+              "b": "Unix",
+              "c": "Windows",
+              "d": "MacOS"
+            },
+            "correct": "b",
+            "answer_text": "Unix",
+            "reason": "Unix was developed by AT&T and widely adopted due to its capabilities and low costs."
+          },
+          {
+            "text": "What was the name of the first edition of Unix?",
+            "answers": {
+              "a": "Bell OS",
+              "b": "Thompson OS",
+              "c": "Unics",
+              "d": "Ritchie OS"
+            },
+            "correct": "c",
+            "answer_text": "Unics",
+            "reason": "The first edition of Unix was called Unics."
+          },
+          {
+            "text": "What company partnered with IBM to create the Disk Operating System (DOS) for personal computers?",
+            "answers": {
+              "a": "Microsoft",
+              "b": "Apple",
+              "c": "AT&T",
+              "d": "Intel"
+            },
+            "correct": "a",
+            "answer_text": "Microsoft",
+            "reason": "Microsoft partnered with IBM to create the Disk Operating System (DOS) for personal computers."
+          },
+          {
+            "text": "What was the name of the first popular personal computer introduced by IBM in 1981?",
+            "answers": {
+              "a": "Apple II",
+              "b": "Commodore 64",
+              "c": "IBM PC",
+              "d": "Atari 800"
+            },
+            "correct": "c",
+            "answer_text": "IBM PC",
+            "reason": "The first popular personal computer introduced by IBM in 1981 was the IBM PC."
+          },
+          {
+            "text": "What was the significance of IBM's open design for personal computers?",
+            "answers": {
+              "a": "It limited the choice of components",
+              "b": "It allowed components from multiple vendors to interoperate",
+              "c": "It restricted the use of third-party software",
+              "d": "It increased the cost of personal computers"
+            },
+            "correct": "b",
+            "answer_text": "It allowed components from multiple vendors to interoperate",
+            "reason": "IBM's open design for personal computers allowed components from multiple vendors to interoperate."
+          },
+          {
+            "text": "Who led the development of Microsoft Excel?",
+            "answers": {
+              "a": "Steve Jobs",
+              "b": "Doug Klunder",
+              "c": "Charles Simonyi",
+              "d": "Bill Gates"
+            },
+            "correct": "b",
+            "answer_text": "Doug Klunder",
+            "reason": "Doug Klunder led the development of Microsoft Excel."
+          },
+          {
+            "text": "What operating system did Microsoft launch in 1985?",
+            "answers": {
+              "a": "Unix",
+              "b": "MacOS",
+              "c": "Windows",
+              "d": "Linux"
+            },
+            "correct": "c",
+            "answer_text": "Windows",
+            "reason": "Microsoft launched the Windows operating system in 1985."
+          },
+          {
+            "text": "What was one of the main advantages of Graphical User Interfaces (GUIs) introduced in the 1980s?",
+            "answers": {
+              "a": "They required less memory",
+              "b": "They were easier to use than command-line interfaces",
+              "c": "They were faster than previous interfaces",
+              "d": "They were more secure"
+            },
+            "correct": "b",
+            "answer_text": "They were easier to use than command-line interfaces",
+            "reason": "One of the main advantages of Graphical User Interfaces (GUIs) introduced in the 1980s was that they were easier to use than command-line interfaces."
+          },
+          {
+            "text": "What significant demonstration by Douglas Engelbart in 1968 showcased many modern computer technologies?",
+            "answers": {
+              "a": "The Great Demo",
+              "b": "The Mother of All Demos",
+              "c": "The Big Reveal",
+              "d": "The Ultimate Presentation"
+            },
+            "correct": "b",
+            "answer_text": "The Mother of All Demos",
+            "reason": "The significant demonstration by Douglas Engelbart in 1968 was known as \"The Mother of All Demos.\""
+          },
+          {
+            "text": "What is the network effect?",
+            "answers": {
+              "a": "The decrease in value as more people join a network",
+              "b": "The increase in benefit to a community as membership grows",
+              "c": "The ability of a network to operate independently",
+              "d": "The reduction in network costs over time"
+            },
+            "correct": "b",
+            "answer_text": "The increase in benefit to a community as membership grows",
+            "reason": "The network effect refers to the increase in benefit to a community as membership grows."
+          },
+          {
+            "text": "What is the Internet?",
+            "answers": {
+              "a": "A global network connecting many smaller local networks",
+              "b": "A single large network operated by a government",
+              "c": "A private network for business use only",
+              "d": "A type of computer hardware"
+            },
+            "correct": "a",
+            "answer_text": "A global network connecting many smaller local networks",
+            "reason": "The Internet is a global network connecting many smaller local networks."
+          },
+          {
+            "text": "What does the World Wide Web enable?",
+            "answers": {
+              "a": "Secure online transactions",
+              "b": "Linking information on the Internet",
+              "c": "Storing data locally on computers",
+              "d": "Running offline applications"
+            },
+            "correct": "b",
+            "answer_text": "Linking information on the Internet",
+            "reason": "The World Wide Web enables linking information on the Internet."
+          },
+          {
+            "text": "What are Local Area Networks (LANs)?",
+            "answers": {
+              "a": "Networks connecting multiple countries",
+              "b": "Networks connecting computers within a small area like an office",
+              "c": "Networks operated by Internet providers",
+              "d": "Networks used exclusively by governments"
+            },
+            "correct": "b",
+            "answer_text": "Networks connecting computers within a small area like an office",
+            "reason": "Local Area Networks (LANs) are networks connecting computers within a small area like an office."
+          },
+          {
+            "text": "What is a Wide Area Network (WAN)?",
+            "answers": {
+              "a": "A network connecting computers within a building",
+              "b": "A large network spread across a wide geographic area",
+              "c": "A network used for secure military communications",
+              "d": "A type of network cable"
+            },
+            "correct": "b",
+            "answer_text": "A large network spread across a wide geographic area",
+            "reason": "A Wide Area Network (WAN) is a large network spread across a wide geographic area."
+          },
+          {
+            "text": "What fueled the mobile revolution in computing?",
+            "answers": {
+              "a": "Advances in storage, battery capacity, screens, and networking",
+              "b": "The development of personal computers",
+              "c": "The invention of the first computer chip",
+              "d": "The decline in Internet usage"
+            },
+            "correct": "a",
+            "answer_text": "Advances in storage, battery capacity, screens, and networking",
+            "reason": "Advances in storage, battery capacity, screens, and networking fueled the mobile revolution in computing."
+          },
+          {
+            "text": "What operating systems dominate the mobile era?",
+            "answers": {
+              "a": "Unix and Windows",
+              "b": "iOS and Android",
+              "c": "MacOS and Linux",
+              "d": "DOS and Windows"
+            },
+            "correct": "b",
+            "answer_text": "iOS and Android",
+            "reason": "iOS and Android dominate the mobile era."
+          },
+          {
+            "text": "What is Moore's Law?",
+            "answers": {
+              "a": "The prediction that computer memory will double every year",
+              "b": "The observation that the number of transistors on a microchip doubles every two years",
+              "c": "The rule that computer prices will halve every three years",
+              "d": "The principle that all technology becomes obsolete in ten years"
+            },
+            "correct": "b",
+            "answer_text": "The observation that the number of transistors on a microchip doubles every two years",
+            "reason": "Moore's Law is the observation that the number of transistors on a microchip doubles every two years."
+          },
+          {
+            "text": "Who is considered the world's first programmer?",
+            "answers": {
+              "a": "Ada Lovelace",
+              "b": "Grace Hopper",
+              "c": "Charles Babbage",
+              "d": "Alan Turing"
+            },
+            "correct": "a",
+            "answer_text": "Ada Lovelace",
+            "reason": "Ada Lovelace is considered the world's first programmer."
+          },
+          {
+            "text": "What was the primary task of women who were originally called \"computers\"?",
+            "answers": {
+              "a": "Developing computer hardware",
+              "b": "Writing software code",
+              "c": "Performing complex math problems by hand",
+              "d": "Managing data centers"
+            },
+            "correct": "c",
+            "answer_text": "Performing complex math problems by hand",
+            "reason": "The primary task of women originally called \"computers\" was performing complex math problems by hand."
+          },
+          {
+            "text": "What did the 1940s and 50s see in terms of women in programming?",
+            "answers": {
+              "a": "A decline in women's involvement in programming",
+              "b": "An increase in women's dominance in programming",
+              "c": "Equal involvement of men and women in programming",
+              "d": "Exclusive male involvement in programming"
+            },
+            "correct": "b",
+            "answer_text": "An increase in women's dominance in programming",
+            "reason": "The 1940s and 50s saw an increase in women's dominance in programming."
+          },
+          {
+            "text": "What did the article \"The Computer Girls\" encourage in the 1960s?",
+            "answers": {
+              "a": "Men to take up programming",
+              "b": "Women to enter programming",
+              "c": "Government control of programming jobs",
+              "d": "Automation of programming tasks"
+            },
+            "correct": "b",
+            "answer_text": "Women to enter programming",
+            "reason": "The article \"The Computer Girls\" encouraged women to enter programming."
+          },
+          {
+            "text": "What percentage of women leave tech companies after ten years?",
+            "answers": {
+              "a": "10%",
+              "b": "20%",
+              "c": "30%",
+              "d": "40%"
+            },
+            "correct": "d",
+            "answer_text": "40%",
+            "reason": "40% of women leave tech companies after ten years."
+          },
+          {
+            "text": "What was a key reason women left tech companies according to a report by the Center for Talent Innovation?",
+            "answers": {
+              "a": "Lack of interest in the work",
+              "b": "Family responsibilities",
+              "c": "Undermining behavior from managers",
+              "d": "Better opportunities in other fields"
+            },
+            "correct": "c",
+            "answer_text": "Undermining behavior from managers",
+            "reason": "A key reason women left tech companies was undermining behavior from managers."
+          },
+          {
+            "text": "What was the role of the ENIAC in WWII?",
+            "answers": {
+              "a": "Managing supply chains",
+              "b": "Computing firing tables for the US Army",
+              "c": "Breaking enemy codes",
+              "d": "Coordinating troop movements"
+            },
+            "correct": "b",
+            "answer_text": "Computing firing tables for the US Army",
+            "reason": "The role of the ENIAC in WWII was computing firing tables for the US Army."
+          },
+          {
+            "text": "What is a data center?",
+            "answers": {
+              "a": "A facility for processing and storing large amounts of data",
+              "b": "A type of computer hardware",
+              "c": "A programming language",
+              "d": "A software application"
+            },
+            "correct": "a",
+            "answer_text": "A facility for processing and storing large amounts of data",
+            "reason": "A data center is a facility for processing and storing large amounts of data."
+          },
+          {
+            "text": "What is an example of a WAN operated by universities in Florida?",
+            "answers": {
+              "a": "Florida Lambda Rail",
+              "b": "Sunshine Network",
+              "c": "Florida Data Net",
+              "d": "Florida Knowledge Grid"
+            },
+            "correct": "a",
+            "answer_text": "Florida Lambda Rail",
+            "reason": "An example of a WAN operated by universities in Florida is the Florida Lambda Rail."
+          },
+          {
+            "text": "What did Ken Thompson develop during his spare time at AT&T Bell Labs?",
+            "answers": {
+              "a": "The Unix operating system",
+              "b": "The first personal computer",
+              "c": "The Windows operating system",
+              "d": "The ENIAC computer"
+            },
+            "correct": "a",
+            "answer_text": "The Unix operating system",
+            "reason": "Ken Thompson developed the Unix operating system during his spare time at AT&T Bell Labs."
+          },
+          {
+            "text": "What led to the widespread adoption of Unix?",
+            "answers": {
+              "a": "Its high cost and limited capabilities",
+              "b": "Its powerful capabilities and low to no costs",
+              "c": "Its exclusive use in scientific research",
+              "d": "Its incompatibility with other operating systems"
+            },
+            "correct": "b",
+            "answer_text": "Its powerful capabilities and low to no costs",
+            "reason": "The widespread adoption of Unix was due to its powerful capabilities and low to no costs."
+          },
+          {
+            "text": "What was a significant contribution of the Unix operating system?",
+            "answers": {
+              "a": "It introduced the concept of graphical user interfaces",
+              "b": "It allowed multiple users to share the resources of a central processor",
+              "c": "It was the first operating system for personal computers",
+              "d": "It was the first commercial operating system"
+            },
+            "correct": "b",
+            "answer_text": "It allowed multiple users to share the resources of a central processor",
+            "reason": "A significant contribution of the Unix operating system was that it allowed multiple users to share the resources of a central processor."
+          },
+          {
+            "text": "What does the acronym DOS stand for?",
+            "answers": {
+              "a": "Digital Operating System",
+              "b": "Disk Operating System",
+              "c": "Dynamic Operating System",
+              "d": "Distributed Operating System"
+            },
+            "correct": "b",
+            "answer_text": "Disk Operating System",
+            "reason": "DOS stands for Disk Operating System."
+          },
+          {
+            "text": "What was one of the key features of Microsoft Windows when it was launched in 1985?",
+            "answers": {
+              "a": "It required command-line inputs",
+              "b": "It was a graphical user interface-based operating system",
+              "c": "It was exclusive to Apple computers",
+              "d": "It was designed for large mainframe computers"
+            },
+            "correct": "b",
+            "answer_text": "It was a graphical user interface-based operating system",
+            "reason": "One of the key features of Microsoft Windows when it was launched in 1985 was that it was a graphical user interface-based operating system."
+          },
+          {
+            "text": "What was one of the first user-friendly software programs released by Microsoft?",
+            "answers": {
+              "a": "Unix",
+              "b": "WordPerfect",
+              "c": "Excel",
+              "d": "Linux"
+            },
+            "correct": "c",
+            "answer_text": "Excel",
+            "reason": "One of the first user-friendly software programs released by Microsoft was Excel."
+          },
+          {
+            "text": "What is a significant impact of information technology on modern organizations?",
+            "answers": {
+              "a": "Reduced importance of data",
+              "b": "Increased investment in IT resources and personnel",
+              "c": "Decreased need for computers",
+              "d": "Limited access to information"
+            },
+            "correct": "b",
+            "answer_text": "Increased investment in IT resources and personnel",
+            "reason": "A significant impact of information technology on modern organizations is increased investment in IT resources and personnel."
+          }
+        ]
+      }
+    ]
   }
 ]
