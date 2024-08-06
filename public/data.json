@@ -15211,5 +15211,1514 @@
         ]
       }
     ]
+  },
+  {
+    "id": 35,
+    "name": "Stat 1",
+    "subject": "Sciences",
+    "exam": "GED",
+    "topic": [],
+    "sub_topic": [
+      "Matter"
+    ],
+    "difficulty": "Hard",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What distribution would you use to model the number of times a specific event occurs within a fixed interval of time or space?",
+            "answers": {
+              "a": "Normal distribution",
+              "b": "Binomial distribution",
+              "c": "Poisson distribution",
+              "d": "Exponential distribution"
+            },
+            "correct": "c",
+            "answer_text": "Poisson distribution",
+            "reason": "The Poisson distribution models the number of times a specific event occurs within a fixed interval of time or space."
+          },
+          {
+            "text": "Which distribution is used to model the time between events in a Poisson process?",
+            "answers": {
+              "a": "Binomial distribution",
+              "b": "Normal distribution",
+              "c": "Exponential distribution",
+              "d": "Gamma distribution"
+            },
+            "correct": "c",
+            "answer_text": "Exponential distribution",
+            "reason": "The exponential distribution is used to model the time between events in a Poisson process."
+          },
+          {
+            "text": "When would you use a binomial distribution?",
+            "answers": {
+              "a": "When modeling the number of successes in a fixed number of independent trials",
+              "b": "When modeling the time between events in a Poisson process",
+              "c": "When modeling the sum of independent random variables",
+              "d": "When modeling the height of individuals in a population"
+            },
+            "correct": "a",
+            "answer_text": "When modeling the number of successes in a fixed number of independent trials",
+            "reason": "A binomial distribution is used to model the number of successes in a fixed number of independent trials."
+          },
+          {
+            "text": "What is the primary characteristic of a normal distribution?",
+            "answers": {
+              "a": "It is skewed to the right",
+              "b": "It has two peaks",
+              "c": "It is symmetric and bell-shaped",
+              "d": "It is skewed to the left"
+            },
+            "correct": "c",
+            "answer_text": "It is symmetric and bell-shaped",
+            "reason": "The primary characteristic of a normal distribution is that it is symmetric and bell-shaped."
+          },
+          {
+            "text": "Which distribution is appropriate for modeling the number of failures before the first success in a series of Bernoulli trials?",
+            "answers": {
+              "a": "Poisson distribution",
+              "b": "Binomial distribution",
+              "c": "Exponential distribution",
+              "d": "Geometric distribution"
+            },
+            "correct": "d",
+            "answer_text": "Geometric distribution",
+            "reason": "The geometric distribution is appropriate for modeling the number of failures before the first success in a series of Bernoulli trials."
+          },
+          {
+            "text": "How is the gamma function \\( \\Gamma(n) \\) related to the factorial function?",
+            "answers": {
+              "a": "\\( \\Gamma(n) = (n-1)! \\)",
+              "b": "\\( \\Gamma(n) = n! \\)",
+              "c": "\\( \\Gamma(n) = (n+1)! \\)",
+              "d": "\\( \\Gamma(n) = \\sqrt{n} \\)"
+            },
+            "correct": "a",
+            "answer_text": "\\( \\Gamma(n) = (n-1)! \\)",
+            "reason": "The gamma function \\( \\Gamma(n) \\) is related to the factorial function as \\( \\Gamma(n) = (n-1)! \\)."
+          },
+          {
+            "text": "What distribution would you use to model the lifetime of a mechanical system that has a constant failure rate?",
+            "answers": {
+              "a": "Binomial distribution",
+              "b": "Normal distribution",
+              "c": "Exponential distribution",
+              "d": "Poisson distribution"
+            },
+            "correct": "c",
+            "answer_text": "Exponential distribution",
+            "reason": "The exponential distribution is used to model the lifetime of a mechanical system that has a constant failure rate."
+          },
+          {
+            "text": "When is the normal distribution a good approximation for the binomial distribution?",
+            "answers": {
+              "a": "When the number of trials is small and the probability of success is close to 0 or 1",
+              "b": "When the number of trials is large and the probability of success is close to 0.5",
+              "c": "When the number of trials is large and the probability of success is close to 1",
+              "d": "When the number of trials is small and the probability of success is close to 0.5"
+            },
+            "correct": "b",
+            "answer_text": "When the number of trials is large and the probability of success is close to 0.5",
+            "reason": "The normal distribution is a good approximation for the binomial distribution when the number of trials is large and the probability of success is close to 0.5."
+          },
+          {
+            "text": "What is the primary use of the uniform distribution?",
+            "answers": {
+              "a": "To model the number of successes in a fixed number of trials",
+              "b": "To model the time between events in a Poisson process",
+              "c": "To model random variables that are equally likely to occur within a certain range",
+              "d": "To model the height of individuals in a population"
+            },
+            "correct": "c",
+            "answer_text": "To model random variables that are equally likely to occur within a certain range",
+            "reason": "The primary use of the uniform distribution is to model random variables that are equally likely to occur within a certain range."
+          },
+          {
+            "text": "Which distribution would you use to model the number of arrivals at a service point in a fixed period of time?",
+            "answers": {
+              "a": "Exponential distribution",
+              "b": "Poisson distribution",
+              "c": "Gamma distribution",
+              "d": "Normal distribution"
+            },
+            "correct": "b",
+            "answer_text": "Poisson distribution",
+            "reason": "The Poisson distribution is used to model the number of arrivals at a service point in a fixed period of time."
+          },
+          {
+            "text": "What is the probability density function (PDF) used for in continuous distributions?",
+            "answers": {
+              "a": "To describe the likelihood of a discrete random variable taking on a specific value",
+              "b": "To describe the likelihood of a continuous random variable taking on a specific value",
+              "c": "To describe the probability of a random variable taking on a value less than or equal to a certain value",
+              "d": "To describe the relationship between two categorical variables"
+            },
+            "correct": "b",
+            "answer_text": "To describe the likelihood of a continuous random variable taking on a specific value",
+            "reason": "The probability density function (PDF) is used to describe the likelihood of a continuous random variable taking on a specific value."
+          },
+          {
+            "text": "What is the primary characteristic of a geometric distribution?",
+            "answers": {
+              "a": "It models the number of successes in a fixed number of independent trials",
+              "b": "It models the time between events in a Poisson process",
+              "c": "It models the number of trials needed to get the first success in a series of independent trials",
+              "d": "It models the height of individuals in a population"
+            },
+            "correct": "c",
+            "answer_text": "It models the number of trials needed to get the first success in a series of independent trials",
+            "reason": "The primary characteristic of a geometric distribution is that it models the number of trials needed to get the first success in a series of independent trials."
+          },
+          {
+            "text": "Which distribution is also known as the bell curve?",
+            "answers": {
+              "a": "Binomial distribution",
+              "b": "Exponential distribution",
+              "c": "Poisson distribution",
+              "d": "Normal distribution"
+            },
+            "correct": "d",
+            "answer_text": "Normal distribution",
+            "reason": "The normal distribution is also known as the bell curve."
+          },
+          {
+            "text": "When would you use a gamma distribution?",
+            "answers": {
+              "a": "When modeling the number of successes in a fixed number of trials",
+              "b": "When modeling the time until an event occurs a certain number of times",
+              "c": "When modeling the height of individuals in a population",
+              "d": "When modeling the number of arrivals at a service point"
+            },
+            "correct": "b",
+            "answer_text": "When modeling the time until an event occurs a certain number of times",
+            "reason": "The gamma distribution is used when modeling the time until an event occurs a certain number of times."
+          },
+          {
+            "text": "What is the cumulative distribution function (CDF) used for in continuous distributions?",
+            "answers": {
+              "a": "To describe the likelihood of a discrete random variable taking on a specific value",
+              "b": "To describe the probability of a continuous random variable taking on a value less than or equal to a certain value",
+              "c": "To describe the relationship between two categorical variables",
+              "d": "To describe the probability of a random variable taking on a specific value"
+            },
+            "correct": "b",
+            "answer_text": "To describe the probability of a continuous random variable taking on a value less than or equal to a certain value",
+            "reason": "The cumulative distribution function (CDF) is used to describe the probability of a continuous random variable taking on a value less than or equal to a certain value."
+          },
+          {
+            "text": "What distribution would you use to model the number of phone calls received by a call center in an hour?",
+            "answers": {
+              "a": "Normal distribution",
+              "b": "Binomial distribution",
+              "c": "Poisson distribution",
+              "d": "Geometric distribution"
+            },
+            "correct": "c",
+            "answer_text": "Poisson distribution",
+            "reason": "The Poisson distribution is used to model the number of phone calls received by a call center in an hour."
+          },
+          {
+            "text": "What is the shape parameter in the gamma distribution?",
+            "answers": {
+              "a": "Mean",
+              "b": "Standard deviation",
+              "c": "Alpha",
+              "d": "Lambda"
+            },
+            "correct": "c",
+            "answer_text": "Alpha",
+            "reason": "The shape parameter in the gamma distribution is alpha."
+          },
+          {
+            "text": "When is the exponential distribution a special case of the gamma distribution?",
+            "answers": {
+              "a": "When the shape parameter is 1",
+              "b": "When the shape parameter is 0.5",
+              "c": "When the rate parameter is 1",
+              "d": "When the rate parameter is 0.5"
+            },
+            "correct": "a",
+            "answer_text": "When the shape parameter is 1",
+            "reason": "The exponential distribution is a special case of the gamma distribution when the shape parameter is 1."
+          },
+          {
+            "text": "Which distribution is appropriate for modeling the time until a machine fails for the first time?",
+            "answers": {
+              "a": "Poisson distribution",
+              "b": "Binomial distribution",
+              "c": "Exponential distribution",
+              "d": "Geometric distribution"
+            },
+            "correct": "c",
+            "answer_text": "Exponential distribution",
+            "reason": "The exponential distribution is appropriate for modeling the time until a machine fails for the first time."
+          },
+          {
+            "text": "What is the main feature of a Poisson process?",
+            "answers": {
+              "a": "Events occur at a constant average rate",
+              "b": "Events are equally likely to occur within a certain range",
+              "c": "Events occur with a probability of 0.5",
+              "d": "Events follow a bell-shaped curve"
+            },
+            "correct": "a",
+            "answer_text": "Events occur at a constant average rate",
+            "reason": "The main feature of a Poisson process is that events occur at a constant average rate."
+          },
+          {
+            "text": "How is the variance of a binomial distribution calculated?",
+            "answers": {
+              "a": "\\( np \\)",
+              "b": "\\( np(1-p) \\)",
+              "c": "\\( \\sqrt{np} \\)",
+              "d": "\\( \\sqrt{np(1-p)} \\)"
+            },
+            "correct": "b",
+            "answer_text": "\\( np(1-p) \\)",
+            "reason": "The variance of a binomial distribution is calculated as \\( np(1-p) \\)."
+          },
+          {
+            "text": "When would you use a hypergeometric distribution?",
+            "answers": {
+              "a": "When modeling the number of successes in a fixed number of independent trials with replacement",
+              "b": "When modeling the number of successes in a fixed number of independent trials without replacement",
+              "c": "When modeling the time between events in a Poisson process",
+              "d": "When modeling the number of arrivals at a service point"
+            },
+            "correct": "b",
+            "answer_text": "When modeling the number of successes in a fixed number of independent trials without replacement",
+            "reason": "The hypergeometric distribution is used when modeling the number of successes in a fixed number of independent trials without replacement."
+          },
+          {
+            "text": "What is the primary use of the cumulative distribution function (CDF)?",
+            "answers": {
+              "a": "To describe the probability that a random variable takes on a value less than or equal to a certain value",
+              "b": "To describe the probability that a random variable takes on a specific value",
+              "c": "To describe the probability that a random variable takes on a value greater than a certain value",
+              "d": "To describe the probability that a random variable takes on a value equal to the mean"
+            },
+            "correct": "a",
+            "answer_text": "To describe the probability that a random variable takes on a value less than or equal to a certain value",
+            "reason": "The primary use of the cumulative distribution function (CDF) is to describe the probability that a random variable takes on a value less than or equal to a certain value."
+          },
+          {
+            "text": "What distribution would you use to model the waiting time until the next customer arrives at a service point?",
+            "answers": {
+              "a": "Binomial distribution",
+              "b": "Normal distribution",
+              "c": "Exponential distribution",
+              "d": "Poisson distribution"
+            },
+            "correct": "c",
+            "answer_text": "Exponential distribution",
+            "reason": "The exponential distribution is used to model the waiting time until the next customer arrives at a service point."
+          },
+          {
+            "text": "Which distribution is appropriate for modeling the number of defective items in a batch of products?",
+            "answers": {
+              "a": "Normal distribution",
+              "b": "Binomial distribution",
+              "c": "Poisson distribution",
+              "d": "Hypergeometric distribution"
+            },
+            "correct": "d",
+            "answer_text": "Hypergeometric distribution",
+            "reason": "The hypergeometric distribution is appropriate for modeling the number of defective items in a batch of products."
+          },
+          {
+            "text": "What is the primary use of the z-score in a normal distribution?",
+            "answers": {
+              "a": "To calculate the mean of a dataset",
+              "b": "To determine how many standard deviations a data point is from the mean",
+              "c": "To calculate the variance of a dataset",
+              "d": "To determine the skewness of a dataset"
+            },
+            "correct": "b",
+            "answer_text": "To determine how many standard deviations a data point is from the mean",
+            "reason": "The primary use of the z-score in a normal distribution is to determine how many standard deviations a data point is from the mean."
+          },
+          {
+            "text": "When would you use a log-normal distribution?",
+            "answers": {
+              "a": "When the logarithm of the random variable is normally distributed",
+              "b": "When the random variable is normally distributed",
+              "c": "When the random variable follows a Poisson process",
+              "d": "When the random variable is uniformly distributed"
+            },
+            "correct": "a",
+            "answer_text": "When the logarithm of the random variable is normally distributed",
+            "reason": "The log-normal distribution is used when the logarithm of the random variable is normally distributed."
+          },
+          {
+            "text": "How is the mean of a Poisson distribution calculated?",
+            "answers": {
+              "a": "As the product of the number of trials and the probability of success",
+              "b": "As the reciprocal of the rate parameter",
+              "c": "As the sum of all values divided by the number of values",
+              "d": "As the square root of the variance"
+            },
+            "correct": "b",
+            "answer_text": "As the reciprocal of the rate parameter",
+            "reason": "The mean of a Poisson distribution is calculated as the reciprocal of the rate parameter."
+          },
+          {
+            "text": "What is the shape of the probability density function (PDF) of an exponential distribution?",
+            "answers": {
+              "a": "Bell-shaped",
+              "b": "Constant",
+              "c": "Decreasing",
+              "d": "Increasing"
+            },
+            "correct": "c",
+            "answer_text": "Decreasing",
+            "reason": "The probability density function (PDF) of an exponential distribution is decreasing."
+          },
+          {
+            "text": "Which distribution is used to model the number of events occurring within a fixed interval of time or space?",
+            "answers": {
+              "a": "Normal distribution",
+              "b": "Poisson distribution",
+              "c": "Binomial distribution",
+              "d": "Exponential distribution"
+            },
+            "correct": "b",
+            "answer_text": "Poisson distribution",
+            "reason": "The Poisson distribution is used to model the number of events occurring within a fixed interval of time or space."
+          },
+          {
+            "text": "When would you use a chi-square distribution?",
+            "answers": {
+              "a": "When testing the independence of two categorical variables",
+              "b": "When modeling the number of successes in a fixed number of trials",
+              "c": "When modeling the time between events in a Poisson process",
+              "d": "When modeling the number of arrivals at a service point"
+            },
+            "correct": "a",
+            "answer_text": "When testing the independence of two categorical variables",
+            "reason": "The chi-square distribution is used when testing the independence of two categorical variables."
+          },
+          {
+            "text": "How is the mean of a normal distribution denoted?",
+            "answers": {
+              "a": "\\( \\sigma \\)",
+              "b": "\\( p \\)",
+              "c": "\\( \\mu \\)",
+              "d": "\\( \\lambda \\)"
+            },
+            "correct": "c",
+            "answer_text": "\\( \\mu \\)",
+            "reason": "The mean of a normal distribution is denoted by \\( \\mu \\)."
+          },
+          {
+            "text": "What is the primary use of the probability mass function (PMF) in discrete distributions?",
+            "answers": {
+              "a": "To describe the likelihood of a discrete random variable taking on a specific value",
+              "b": "To describe the probability of a continuous random variable taking on a specific value",
+              "c": "To describe the probability of a random",
+              "d": "To describe the relationship between two categorical variables"
+            },
+            "correct": "a",
+            "answer_text": "To describe the likelihood of a discrete random variable taking on a specific value",
+            "reason": "The primary use of the probability mass function (PMF) in discrete distributions is to describe the likelihood of a discrete random variable taking on a specific value."
+          },
+          {
+            "text": "When would you use a Weibull distribution?",
+            "answers": {
+              "a": "When modeling the number of successes in a fixed number of trials",
+              "b": "When modeling the time until a failure occurs in a reliability analysis",
+              "c": "When modeling the height of individuals in a population",
+              "d": "When modeling the number of arrivals at a service point"
+            },
+            "correct": "b",
+            "answer_text": "When modeling the time until a failure occurs in a reliability analysis",
+            "reason": "The Weibull distribution is used when modeling the time until a failure occurs in a reliability analysis."
+          },
+          {
+            "text": "What is the relationship between the mean and variance of a Poisson distribution?",
+            "answers": {
+              "a": "They are equal",
+              "b": "The mean is the square root of the variance",
+              "c": "The variance is the square of the mean",
+              "d": "The mean is twice the variance"
+            },
+            "correct": "a",
+            "answer_text": "They are equal",
+            "reason": "The mean and variance of a Poisson distribution are equal."
+          },
+          {
+            "text": "How is the standard deviation of a normal distribution calculated?",
+            "answers": {
+              "a": "As the square root of the variance",
+              "b": "As the reciprocal of the variance",
+              "c": "As the product of the mean and variance",
+              "d": "As the sum of the mean and variance"
+            },
+            "correct": "a",
+            "answer_text": "As the square root of the variance",
+            "reason": "The standard deviation of a normal distribution is calculated as the square root of the variance."
+          },
+          {
+            "text": "Which distribution is appropriate for modeling the time until an event occurs a specified number of times?",
+            "answers": {
+              "a": "Poisson distribution",
+              "b": "Gamma distribution",
+              "c": "Binomial distribution",
+              "d": "Geometric distribution"
+            },
+            "correct": "b",
+            "answer_text": "Gamma distribution",
+            "reason": "The gamma distribution is appropriate for modeling the time until an event occurs a specified number of times."
+          },
+          {
+            "text": "When would you use a beta distribution?",
+            "answers": {
+              "a": "When modeling the probability of success in a fixed number of trials",
+              "b": "When modeling random variables that are bounded between 0 and 1",
+              "c": "When modeling the height of individuals in a population",
+              "d": "When modeling the number of arrivals at a service point"
+            },
+            "correct": "b",
+            "answer_text": "When modeling random variables that are bounded between 0 and 1",
+            "reason": "The beta distribution is used when modeling random variables that are bounded between 0 and 1."
+          },
+          {
+            "text": "What is the primary characteristic of a discrete uniform distribution?",
+            "answers": {
+              "a": "It models the number of successes in a fixed number of trials",
+              "b": "It models the time between events in a Poisson process",
+              "c": "It models random variables that are equally likely to occur within a certain range",
+              "d": "It models the height of individuals in a population"
+            },
+            "correct": "c",
+            "answer_text": "It models random variables that are equally likely to occur within a certain range",
+            "reason": "The primary characteristic of a discrete uniform distribution is that it models random variables that are equally likely to occur within a certain range."
+          },
+          {
+            "text": "How is the cumulative distribution function (CDF) of a normal distribution denoted?",
+            "answers": {
+              "a": "\\( \\mu \\)",
+              "b": "\\( \\sigma \\)",
+              "c": "\\( \\phi(x) \\)",
+              "d": "\\( F(x) \\)"
+            },
+            "correct": "d",
+            "answer_text": "\\( F(x) \\)",
+            "reason": "The cumulative distribution function (CDF) of a normal distribution is denoted by \\( F(x) \\)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Stat 2",
+    "subject": "Sciences",
+    "exam": "GED",
+    "topic": [],
+    "sub_topic": [
+      "Matter"
+    ],
+    "difficulty": "Hard",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What does the symbol \\( \\cap \\) represent in set theory?",
+            "answers": {
+              "a": "Union",
+              "b": "Intersection",
+              "c": "Complement",
+              "d": "Summation"
+            },
+            "correct": "b",
+            "answer_text": "Intersection",
+            "reason": "The symbol \\( \\cap \\) represents the intersection of sets in set theory."
+          },
+          {
+            "text": "What is the factorial of a number n?",
+            "answers": {
+              "a": "The sum of all positive integers up to n",
+              "b": "The product of all positive integers up to n",
+              "c": "The difference between the maximum and minimum values",
+              "d": "The average of all positive integers up to n"
+            },
+            "correct": "b",
+            "answer_text": "The product of all positive integers up to n",
+            "reason": "The factorial of a number n is the product of all positive integers up to n."
+          },
+          {
+            "text": "How is the mode of a dataset determined?",
+            "answers": {
+              "a": "The average value",
+              "b": "The middle value",
+              "c": "The value that occurs most frequently",
+              "d": "The difference between the maximum and minimum values"
+            },
+            "correct": "c",
+            "answer_text": "The value that occurs most frequently",
+            "reason": "The mode of a dataset is the value that occurs most frequently."
+          },
+          {
+            "text": "What distribution models the time between events in a Poisson process?",
+            "answers": {
+              "a": "Normal distribution",
+              "b": "Binomial distribution",
+              "c": "Exponential distribution",
+              "d": "Gamma distribution"
+            },
+            "correct": "c",
+            "answer_text": "Exponential distribution",
+            "reason": "The exponential distribution models the time between events in a Poisson process."
+          },
+          {
+            "text": "What does the symbol \\( \\int_a^b f(x) \\, dx \\) represent?",
+            "answers": {
+              "a": "Summation",
+              "b": "Integration from a to b",
+              "c": "Probability",
+              "d": "Union"
+            },
+            "correct": "b",
+            "answer_text": "Integration from a to b",
+            "reason": "The symbol \\( \\int_a^b f(x) \\, dx \\) represents the integration of the function f(x) from a to b."
+          },
+          {
+            "text": "What is the definition of the gamma function?",
+            "answers": {
+              "a": "Sum of all values divided by the number of values",
+              "b": "Product of all positive integers up to n",
+              "c": "Generalization of the factorial function to non-integer values",
+              "d": "Difference between the first and third quartiles"
+            },
+            "correct": "c",
+            "answer_text": "Generalization of the factorial function to non-integer values",
+            "reason": "The gamma function is the generalization of the factorial function to non-integer values."
+          },
+          {
+            "text": "What is a histogram used for?",
+            "answers": {
+              "a": "To display the frequency distribution of a dataset",
+              "b": "To show the relationship between two variables",
+              "c": "To summarize the relationship between categorical variables",
+              "d": "To display the mean and median"
+            },
+            "correct": "a",
+            "answer_text": "To display the frequency distribution of a dataset",
+            "reason": "A histogram is used to display the frequency distribution of a dataset."
+          },
+          {
+            "text": "What does the term \"central tendency\" refer to in statistics?",
+            "answers": {
+              "a": "The spread of data",
+              "b": "The average value of a dataset",
+              "c": "The number of data points",
+              "d": "The relationship between variables"
+            },
+            "correct": "b",
+            "answer_text": "The average value of a dataset",
+            "reason": "Central tendency refers to the average value of a dataset."
+          },
+          {
+            "text": "What is the purpose of a frequency distribution table?",
+            "answers": {
+              "a": "To show the mean and variance",
+              "b": "To display the frequency of different outcomes in a dataset",
+              "c": "To calculate the standard deviation",
+              "d": "To show the correlation between variables"
+            },
+            "correct": "b",
+            "answer_text": "To display the frequency of different outcomes in a dataset",
+            "reason": "The purpose of a frequency distribution table is to display the frequency of different outcomes in a dataset."
+          },
+          {
+            "text": "How is a percentile calculated?",
+            "answers": {
+              "a": "By finding the middle value of a dataset",
+              "b": "By calculating the sum of all values",
+              "c": "By determining the value below which a given percentage of observations fall",
+              "d": "By finding the mode of a dataset"
+            },
+            "correct": "c",
+            "answer_text": "By determining the value below which a given percentage of observations fall",
+            "reason": "A percentile is calculated by determining the value below which a given percentage of observations fall."
+          },
+          {
+            "text": "What does the term \"outlier\" refer to in a dataset?",
+            "answers": {
+              "a": "A value that occurs most frequently",
+              "b": "The middle value",
+              "c": "A value that lies an abnormal distance from other values",
+              "d": "The average value"
+            },
+            "correct": "c",
+            "answer_text": "A value that lies an abnormal distance from other values",
+            "reason": "An outlier is a value that lies an abnormal distance from other values in a dataset."
+          },
+          {
+            "text": "What is the purpose of hypothesis testing in statistics?",
+            "answers": {
+              "a": "To calculate the mean of a dataset",
+              "b": "To determine if there is enough evidence to support a specific hypothesis",
+              "c": "To display the frequency distribution of a dataset",
+              "d": "To calculate the standard deviation"
+            },
+            "correct": "b",
+            "answer_text": "To determine if there is enough evidence to support a specific hypothesis",
+            "reason": "The purpose of hypothesis testing is to determine if there is enough evidence to support a specific hypothesis."
+          },
+          {
+            "text": "What is the primary use of a scatterplot?",
+            "answers": {
+              "a": "To show the relationship between two variables",
+              "b": "To display the frequency distribution of a dataset",
+              "c": "To summarize the relationship between categorical variables",
+              "d": "To show the median and quartiles"
+            },
+            "correct": "a",
+            "answer_text": "To show the relationship between two variables",
+            "reason": "The primary use of a scatterplot is to show the relationship between two variables."
+          },
+          {
+            "text": "What does the term \"skewness\" measure in a probability distribution?",
+            "answers": {
+              "a": "The central tendency",
+              "b": "The variability",
+              "c": "The asymmetry",
+              "d": "The number of data points"
+            },
+            "correct": "c",
+            "answer_text": "The asymmetry of the probability distribution",
+            "reason": "Skewness measures the asymmetry of the probability distribution."
+          },
+          {
+            "text": "What is the definition of a \"random variable\"?",
+            "answers": {
+              "a": "A variable that is manipulated in an experiment",
+              "b": "A variable whose possible values are numerical outcomes of a random phenomenon",
+              "c": "A variable that represents categories or groups",
+              "d": "A variable that remains constant"
+            },
+            "correct": "b",
+            "answer_text": "A variable whose possible values are numerical outcomes of a random phenomenon",
+            "reason": "A random variable refers to a variable whose possible values are numerical outcomes of a random phenomenon."
+          },
+          {
+            "text": "What does the term \"independent variable\" refer to in an experiment?",
+            "answers": {
+              "a": "The variable that is being measured or observed",
+              "b": "The variable that is being used to predict changes in the dependent variable",
+              "c": "The variable that represents categories or groups",
+              "d": "The variable that remains constant"
+            },
+            "correct": "b",
+            "answer_text": "The variable that is being used to predict changes in the dependent variable",
+            "reason": "An independent variable refers to the variable that is being used to predict changes in the dependent variable."
+          },
+          {
+            "text": "How is the sample variance calculated?",
+            "answers": {
+              "a": "Sum of all values divided by the number of values",
+              "b": "Sum of squared differences from the mean divided by the sample size",
+              "c": "Square root of the sample standard deviation",
+              "d": "Difference between the maximum and minimum values"
+            },
+            "correct": "b",
+            "answer_text": "Sum of squared differences from the mean divided by the sample size",
+            "reason": "The sample variance is calculated as the sum of squared differences from the mean divided by the sample size."
+          },
+          {
+            "text": "What is the primary characteristic of a binomial distribution?",
+            "answers": {
+              "a": "It is symmetric and bell-shaped",
+              "b": "It models the number of successes in a fixed number of independent Bernoulli trials",
+              "c": "It describes the time between events in a Poisson process",
+              "d": "It has two peaks"
+            },
+            "correct": "b",
+            "answer_text": "It models the number of successes in a fixed number of independent Bernoulli trials",
+            "reason": "The primary characteristic of a binomial distribution is that it models the number of successes in a fixed number of independent Bernoulli trials."
+          },
+          {
+            "text": "How is the range of a dataset determined?",
+            "answers": {
+              "a": "Sum of all values divided by the number of values",
+              "b": "Difference between the maximum and minimum values",
+              "c": "Product of all values",
+              "d": "Sum of squared differences from the mean"
+            },
+            "correct": "b",
+            "answer_text": "Difference between the maximum and minimum values",
+            "reason": "The range of a dataset is determined as the difference between the maximum and minimum values."
+          },
+          {
+            "text": "What does the term \"kurtosis\" measure in a dataset?",
+            "answers": {
+              "a": "The central tendency",
+              "b": "The variability",
+              "c": "The \"tailedness\" of the probability distribution",
+              "d": "The number of data points"
+            },
+            "correct": "c",
+            "answer_text": "The \"tailedness\" of the probability distribution",
+            "reason": "Kurtosis measures the \"tailedness\" of the probability distribution in a dataset."
+          },
+          {
+            "text": "What is a bar chart used for?",
+            "answers": {
+              "a": "To display the frequency distribution of a dataset",
+              "b": "To show the relationship between two variables",
+              "c": "To summarize the relationship between categorical variables",
+              "d": "To display the mean and median"
+            },
+            "correct": "c",
+            "answer_text": "To summarize the relationship between categorical variables",
+            "reason": "A bar chart is used to summarize the relationship between categorical variables."
+          },
+          {
+            "text": "What is the primary use of the z-score in statistics?",
+            "answers": {
+              "a": "To calculate the mean of a dataset",
+              "b": "To determine how many standard deviations a data point is from the mean",
+              "c": "To calculate the standard deviation",
+              "d": "To display the frequency distribution of a dataset"
+            },
+            "correct": "b",
+            "answer_text": "To determine how many standard deviations a data point is from the mean",
+            "reason": "The primary use of the z-score is to determine how many standard deviations a data point is from the mean."
+          },
+          {
+            "text": "What does the symbol \\( P(A \\cup B) \\) represent in probability?",
+            "answers": {
+              "a": "The probability of event A and event B",
+              "b": "The probability of event A or event B",
+              "c": "The probability of event A given event B",
+              "d": "The probability of event B given event A"
+            },
+            "correct": "b",
+            "answer_text": "The probability of event A or event B",
+            "reason": "The symbol \\( P(A \\cup B) \\) represents the probability of event A or event B."
+          },
+          {
+            "text": "How is the cumulative distribution function (CDF) related to the probability density function (PDF)?",
+            "answers": {
+              "a": "The CDF is the derivative of the PDF",
+              "b": "The CDF is the integral of the PDF",
+              "c": "The CDF is the sum of the PDF",
+              "d": "The CDF is the product of the PDF"
+            },
+            "correct": "b",
+            "answer_text": "The CDF is the integral of the PDF",
+            "reason": "The cumulative distribution function (CDF) is related to the probability density function (PDF) as the CDF is the integral of the PDF."
+          },
+          {
+            "text": "What does the term \"sample space\" refer to in probability?",
+            "answers": {
+              "a": "The set of all possible outcomes of a random experiment",
+              "b": "The set of observed outcomes",
+              "c": "The probability of a single outcome",
+              "d": "The set of events that cannot happen at the same time"
+            },
+            "correct": "a",
+            "answer_text": "The set of all possible outcomes of a random experiment",
+            "reason": "The sample space refers to the set of all possible outcomes of a random experiment."
+          },
+          {
+            "text": "What is the purpose of a confidence interval in statistics?",
+            "answers": {
+              "a": "To display the mean and median of a dataset",
+              "b": "To estimate the range within which a population parameter lies with a certain level of confidence",
+              "c": "To show the frequency distribution of a dataset",
+              "d": "To calculate the standard deviation"
+            },
+            "correct": "b",
+            "answer_text": "To estimate the range within which a population parameter lies with a certain level of confidence",
+            "reason": "The purpose of a confidence interval is to estimate the range within which a population parameter lies with a certain level of confidence."
+          },
+          {
+            "text": "What is a pie chart used for?",
+            "answers": {
+              "a": "To display the frequency distribution of a dataset",
+              "b": "To show the relationship between two variables",
+              "c": "To summarize the relationship between categorical variables",
+              "d": "To display the proportions of categories within a dataset"
+            },
+            "correct": "d",
+            "answer_text": "To display the proportions of categories within a dataset",
+            "reason": "A pie chart is used to display the proportions of categories within a dataset."
+          },
+          {
+            "text": "What does the term \"p-value\" refer to in hypothesis testing?",
+            "answers": {
+              "a": "The probability of obtaining a result at least as extreme as the one observed, assuming the null hypothesis is true",
+              "b": "The mean of a dataset",
+              "c": "The standard deviation of a dataset",
+              "d": "The number of data points in a dataset"
+            },
+            "correct": "a",
+            "answer_text": "The probability of obtaining a result at least as extreme as the one observed, assuming the null hypothesis is true",
+            "reason": "The p-value refers to the probability of obtaining a result at least as extreme as the one observed, assuming the null hypothesis is true."
+          },
+          {
+            "text": "How is the mean of a population denoted?",
+            "answers": {
+              "a": "\\( \\sigma \\)",
+              "b": "\\( \\mu \\)",
+              "c": "\\( p \\)",
+              "d": "\\( \\lambda \\)"
+            },
+            "correct": "b",
+            "answer_text": "\\( \\mu \\)",
+            "reason": "The mean of a population is denoted by \\( \\mu \\)."
+          },
+          {
+            "text": "What is the primary use of linear regression in statistics?",
+            "answers": {
+              "a": "To describe the relationship between categorical variables",
+              "b": "To model the relationship between a dependent variable and one or more independent variables",
+              "c": "To display the frequency distribution of a dataset",
+              "d": "To calculate the standard deviation"
+            },
+            "correct": "b",
+            "answer_text": "To model the relationship between a dependent variable and one or more independent variables",
+            "reason": "The primary use of linear regression is to model the relationship between a dependent variable and one or more independent variables."
+          },
+          {
+            "text": "What does the term \"dependent variable\" refer to in an experiment?",
+            "answers": {
+              "a": "The variable that is being measured or observed",
+              "b": "The variable that is being used to predict changes in the independent variable",
+              "c": "The variable that represents categories or groups",
+              "d": "The variable that remains constant"
+            },
+            "correct": "a",
+            "answer_text": "The variable that is being measured or observed",
+            "reason": "The dependent variable refers to the variable that is being measured or observed in an experiment."
+          },
+          {
+            "text": "What is the primary characteristic of a uniform distribution?",
+            "answers": {
+              "a": "It is symmetric and bell-shaped",
+              "b": "It has constant probability over a given interval",
+              "c": "It describes the time between events in a Poisson process",
+              "d": "It has two peaks"
+            },
+            "correct": "b",
+            "answer_text": "It has constant probability over a given interval",
+            "reason": "The primary characteristic of a uniform distribution is that it has constant probability over a given interval."
+          },
+          {
+            "text": "What does the symbol \\( \\mathbb{E}(X) \\) represent in probability?",
+            "answers": {
+              "a": "The standard deviation of a random variable X",
+              "b": "The mean or expected value of a random variable X",
+              "c": "The variance of a random variable X",
+              "d": "The probability of a random variable X"
+            },
+            "correct": "b",
+            "answer_text": "The mean or expected value of a random variable X",
+            "reason": "The symbol \\( \\mathbb{E}(X) \\) represents the mean or expected value of a random variable X."
+          },
+          {
+            "text": "How is the standard deviation of a population denoted?",
+            "answers": {
+              "a": "\\( \\mu \\)",
+              "b": "\\( p \\)",
+              "c": "\\( \\sigma \\)",
+              "d": "\\( \\lambda \\)"
+            },
+            "correct": "c",
+            "answer_text": "\\( \\sigma \\)",
+            "reason": "The standard deviation of a population is denoted by \\( \\sigma \\)."
+          },
+          {
+            "text": "What is the primary use of multiple regression in statistics?",
+            "answers": {
+              "a": "To model the relationship between a dependent variable and one or more independent variables",
+              "b": "To display the frequency distribution of a dataset",
+              "c": "To describe the relationship between categorical variables",
+              "d": "To calculate the standard deviation"
+            },
+            "correct": "a",
+            "answer_text": "To model the relationship between a dependent variable and one or more independent variables",
+            "reason": "The primary use of multiple regression is to model the relationship between a dependent variable and one or more independent variables."
+          },
+          {
+            "text": "What does the term \"mutually exclusive events\" mean?",
+            "answers": {
+              "a": "Events that cannot happen at the same time",
+              "b": "Events that have no effect on each other's occurrence",
+              "c": "Events that always happen together",
+              "d": "Events that are independent"
+            },
+            "correct": "a",
+            "answer_text": "Events that cannot happen at the same time",
+            "reason": "Mutually exclusive events are events that cannot happen at the same time."
+          },
+          {
+            "text": "What is the primary use of the chi-square test in statistics?",
+            "answers": {
+              "a": "To calculate the mean of a dataset",
+              "b": "To test the independence of two categorical variables",
+              "c": "To calculate the standard deviation",
+              "d": "To display the frequency distribution of a dataset"
+            },
+            "correct": "b",
+            "answer_text": "To test the independence of two categorical variables",
+            "reason": "The primary use of the chi-square test is to test the independence of two categorical variables."
+          },
+          {
+            "text": "What is a residual in the context of regression analysis?",
+            "answers": {
+              "a": "The sum of squared differences from the mean",
+              "b": "The difference between the observed value and the predicted value",
+              "c": "The middle value of a dataset",
+              "d": "The product of all values"
+            },
+            "correct": "b",
+            "answer_text": "The difference between the observed value and the predicted value",
+            "reason": "A residual in regression analysis is the difference between the observed value and the predicted value."
+          },
+          {
+            "text": "What does the term \"alpha level\" refer to in hypothesis testing?",
+            "answers": {
+              "a": "The mean of a dataset",
+              "b": "The standard deviation of a dataset",
+              "c": "The threshold for rejecting the null hypothesis",
+              "d": "The number of data points in a dataset"
+            },
+            "correct": "c",
+            "answer_text": "The threshold for rejecting the null hypothesis",
+            "reason": "The alpha level in hypothesis testing refers to the threshold for rejecting the null hypothesis."
+          },
+          {
+            "text": "How is the probability of an event calculated using the complement rule?",
+            "answers": {
+              "a": "By subtracting the probability of the event from 1",
+              "b": "By adding the probabilities of all possible outcomes",
+              "c": "By multiplying the probabilities of independent events",
+              "d": "By dividing the number of favorable outcomes by the total number of outcomes"
+            },
+            "correct": "a",
+            "answer_text": "By subtracting the probability of the event from 1",
+            "reason": "The probability of an event is calculated using the complement rule by subtracting the probability of the event from"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Stat 3",
+    "subject": "Sciences",
+    "exam": "GED",
+    "topic": [],
+    "sub_topic": [
+      "Matter"
+    ],
+    "difficulty": "Hard",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What does the symbol \\( \\sum \\) represent in mathematics?",
+            "answers": {
+              "a": "Integral",
+              "b": "Summation",
+              "c": "Probability",
+              "d": "Union"
+            },
+            "correct": "b",
+            "answer_text": "Summation",
+            "reason": "The summation symbol \\( \\sum \\) represents the sum of a sequence of numbers."
+          },
+          {
+            "text": "What is the definition of the binomial coefficient?",
+            "answers": {
+              "a": "Product of all positive integers up to n",
+              "b": "Number of ways to choose k successes out of n trials",
+              "c": "Average rate of occurrences in a Poisson distribution",
+              "d": "Probability of success in a single trial"
+            },
+            "correct": "b",
+            "answer_text": "Number of ways to choose k successes out of n trials",
+            "reason": "The binomial coefficient is the number of ways to choose k successes out of n trials."
+          },
+          {
+            "text": "How is the mean of a sample calculated?",
+            "answers": {
+              "a": "Sum of all values divided by the number of values",
+              "b": "Sum of all squared values",
+              "c": "Difference between the maximum and minimum values",
+              "d": "Product of all values"
+            },
+            "correct": "a",
+            "answer_text": "Sum of all values divided by the number of values",
+            "reason": "The mean of a sample is calculated as the sum of all values divided by the number of values."
+          },
+          {
+            "text": "What is the primary difference between qualitative and quantitative data?",
+            "answers": {
+              "a": "Qualitative data represents numerical values, quantitative data represents categories",
+              "b": "Qualitative data represents categories, quantitative data represents numerical values",
+              "c": "Qualitative data is continuous, quantitative data is discrete",
+              "d": "Qualitative data is used in hypothesis testing, quantitative data is used in surveys"
+            },
+            "correct": "b",
+            "answer_text": "Qualitative data represents categories, quantitative data represents numerical values",
+            "reason": "The primary difference between qualitative and quantitative data is that qualitative data represents categories, while quantitative data represents numerical values."
+          },
+          {
+            "text": "How is the median of a dataset determined if the number of values is odd?",
+            "answers": {
+              "a": "The average of all values",
+              "b": "The middle value",
+              "c": "The sum of the maximum and minimum values",
+              "d": "The mode of the dataset"
+            },
+            "correct": "b",
+            "answer_text": "The middle value",
+            "reason": "The median of a dataset with an odd number of values is the middle value."
+          },
+          {
+            "text": "What distribution models the number of successes in a fixed number of independent Bernoulli trials?",
+            "answers": {
+              "a": "Normal distribution",
+              "b": "Binomial distribution",
+              "c": "Poisson distribution",
+              "d": "Exponential distribution"
+            },
+            "correct": "b",
+            "answer_text": "Binomial distribution",
+            "reason": "The binomial distribution models the number of successes in a fixed number of independent Bernoulli trials."
+          },
+          {
+            "text": "What does the standard deviation measure in a dataset?",
+            "answers": {
+              "a": "The average value",
+              "b": "The sum of all values",
+              "c": "The variability or dispersion of the data",
+              "d": "The number of data points"
+            },
+            "correct": "c",
+            "answer_text": "The variability or dispersion of the data",
+            "reason": "The standard deviation measures the variability or dispersion of the data in a dataset."
+          },
+          {
+            "text": "What is the formula for the variance of a sample?",
+            "answers": {
+              "a": "Sum of squared differences from the mean divided by the sample size",
+              "b": "Sum of all values divided by the sample size",
+              "c": "Square root of the standard deviation",
+              "d": "Product of all values"
+            },
+            "correct": "a",
+            "answer_text": "Sum of squared differences from the mean divided by the sample size",
+            "reason": "The variance of a sample is calculated as the sum of squared differences from the mean divided by the sample size."
+          },
+          {
+            "text": "What is the shape parameter in a Gamma distribution?",
+            "answers": {
+              "a": "Alpha",
+              "b": "Beta",
+              "c": "Theta",
+              "d": "Kappa"
+            },
+            "correct": "a",
+            "answer_text": "Alpha",
+            "reason": "The shape parameter in a Gamma distribution is denoted by alpha."
+          },
+          {
+            "text": "Which of the following is a continuous data type?",
+            "answers": {
+              "a": "Number of students",
+              "b": "Temperature",
+              "c": "Types of animals",
+              "d": "Colors"
+            },
+            "correct": "b",
+            "answer_text": "Temperature",
+            "reason": "Temperature is an example of continuous data."
+          },
+          {
+            "text": "How is the interquartile range (IQR) calculated?",
+            "answers": {
+              "a": "Difference between the maximum and minimum values",
+              "b": "Difference between the first and third quartiles",
+              "c": "Sum of all values divided by the number of values",
+              "d": "Product of all values"
+            },
+            "correct": "b",
+            "answer_text": "Difference between the first and third quartiles",
+            "reason": "The interquartile range (IQR) is calculated as the difference between the first and third quartiles."
+          },
+          {
+            "text": "What does the symbol \\( \\int \\) represent in mathematics?",
+            "answers": {
+              "a": "Summation",
+              "b": "Integral",
+              "c": "Intersection",
+              "d": "Union"
+            },
+            "correct": "b",
+            "answer_text": "Integral",
+            "reason": "The symbol \\( \\int \\) represents the integral in mathematics."
+          },
+          {
+            "text": "What is the purpose of a scatterplot?",
+            "answers": {
+              "a": "To display the frequency of data",
+              "b": "To show the relationship between two variables",
+              "c": "To show the distribution of data",
+              "d": "To represent categorical data"
+            },
+            "correct": "b",
+            "answer_text": "To show the relationship between two variables",
+            "reason": "A scatterplot is used to show the relationship between two variables."
+          },
+          {
+            "text": "What is a contingency table used for?",
+            "answers": {
+              "a": "To summarize the relationship between several categorical variables",
+              "b": "To show the frequency distribution of a dataset",
+              "c": "To calculate the mean and median",
+              "d": "To display the correlation between two variables"
+            },
+            "correct": "a",
+            "answer_text": "To summarize the relationship between several categorical variables",
+            "reason": "A contingency table is used to summarize the relationship between several categorical variables."
+          },
+          {
+            "text": "What does a high positive correlation coefficient indicate?",
+            "answers": {
+              "a": "No relationship between two variables",
+              "b": "A negative relationship between two variables",
+              "c": "A strong positive relationship between two variables",
+              "d": "A weak positive relationship between two variables"
+            },
+            "correct": "c",
+            "answer_text": "A strong positive relationship between two variables",
+            "reason": "A high positive correlation coefficient indicates a strong positive relationship between two variables."
+          },
+          {
+            "text": "What is the formula for the sample standard deviation?",
+            "answers": {
+              "a": "Square root of the sample variance",
+              "b": "Sum of all values divided by the sample size",
+              "c": "Difference between the maximum and minimum values",
+              "d": "Product of all values"
+            },
+            "correct": "a",
+            "answer_text": "Square root of the sample variance",
+            "reason": "The sample standard deviation is the square root of the sample variance."
+          },
+          {
+            "text": "What does the symbol \\( \\cup \\) represent in set theory?",
+            "answers": {
+              "a": "Intersection",
+              "b": "Union",
+              "c": "Complement",
+              "d": "Summation"
+            },
+            "correct": "b",
+            "answer_text": "Union",
+            "reason": "The symbol \\( \\cup \\) represents the union of sets in set theory."
+          },
+          {
+            "text": "How is the probability of success in a single trial denoted?",
+            "answers": {
+              "a": "\\( \\mu \\)",
+              "b": "\\( \\sigma \\)",
+              "c": "\\( p \\)",
+              "d": "\\( \\lambda \\)"
+            },
+            "correct": "c",
+            "answer_text": "\\( p \\)",
+            "reason": "The probability of success in a single trial is denoted by \\( p \\)."
+          },
+          {
+            "text": "What does the Poisson distribution model?",
+            "answers": {
+              "a": "The number of successes in a fixed number of trials",
+              "b": "The number of events occurring within a fixed interval of time or space",
+              "c": "The time between events in a Poisson process",
+              "d": "The distribution of categorical data"
+            },
+            "correct": "b",
+            "answer_text": "The number of events occurring within a fixed interval of time or space",
+            "reason": "The Poisson distribution models the number of events occurring within a fixed interval of time or space."
+          },
+          {
+            "text": "What is the gamma function used for?",
+            "answers": {
+              "a": "To calculate the probability of a certain number of events",
+              "b": "To generalize the factorial function to non-integer values",
+              "c": "To calculate the mean of a distribution",
+              "d": "To determine the variance of a dataset"
+            },
+            "correct": "b",
+            "answer_text": "To generalize the factorial function to non-integer values",
+            "reason": "The gamma function is used to generalize the factorial function to non-integer values."
+          },
+          {
+            "text": "In the context of statistics, what is a parameter?",
+            "answers": {
+              "a": "A measurable characteristic of a sample",
+              "b": "A measurable characteristic of a population",
+              "c": "A value that occurs most frequently in a dataset",
+              "d": "The middle value of a dataset"
+            },
+            "correct": "b",
+            "answer_text": "A measurable characteristic of a population",
+            "reason": "In the context of statistics, a parameter is a measurable characteristic of a population."
+          },
+          {
+            "text": "What is the purpose of a box plot?",
+            "answers": {
+              "a": "To display the distribution of data",
+              "b": "To summarize the relationship between categorical variables",
+              "c": "To show the median, quartiles, and possible outliers of a dataset",
+              "d": "To calculate the mean and variance"
+            },
+            "correct": "c",
+            "answer_text": "To show the median, quartiles, and possible outliers of a dataset",
+            "reason": "A box plot is used to show the median, quartiles, and possible outliers of a dataset."
+          },
+          {
+            "text": "What does the term \"random variable\" refer to?",
+            "answers": {
+              "a": "A variable that is manipulated in an experiment",
+              "b": "A variable whose possible values are numerical outcomes of a random phenomenon",
+              "c": "A variable that represents categories or groups",
+              "d": "A variable that remains constant"
+            },
+            "correct": "b",
+            "answer_text": "A variable whose possible values are numerical outcomes of a random phenomenon",
+            "reason": "A random variable refers to a variable whose possible values are numerical outcomes of a random phenomenon."
+          },
+          {
+            "text": "What is the Cumulative Distribution Function (CDF) used for?",
+            "answers": {
+              "a": "To describe the likelihood of a continuous random variable taking on a specific value",
+              "b": "To describe the probability that a random variable takes on a value less than or equal to a certain value",
+              "c": "To summarize the relationship between categorical variables",
+              "d": "To calculate the variance of a dataset"
+            },
+            "correct": "b",
+            "answer_text": "To describe the probability that a random variable takes on a value less than or equal to a certain value",
+            "reason": "The Cumulative Distribution Function (CDF) is used to describe the probability that a random variable takes on a value less than or equal to a certain value."
+          },
+          {
+            "text": "How is the probability of an event denoted in set theory?",
+            "answers": {
+              "a": "\\( \\mu \\)",
+              "b": "\\( \\sigma \\)",
+              "c": "\\( P(E) \\)",
+              "d": "\\( \\lambda \\)"
+            },
+            "correct": "c",
+            "answer_text": "\\( P(E) \\)",
+            "reason": "The probability of an event in set theory is denoted as \\( P(E) \\)."
+          },
+          {
+            "text": "What is the primary use of Bayes' Theorem?",
+            "answers": {
+              "a": "To calculate the mean of a dataset",
+              "b": "To describe the probability of an event based on prior knowledge of conditions related to the event",
+              "c": "To calculate the standard deviation of a dataset",
+              "d": "To determine the variability of data"
+            },
+            "correct": "b",
+            "answer_text": "To describe the probability of an event based on prior knowledge of conditions related to the event",
+            "reason": "The primary use of Bayes' Theorem is to describe the probability of an event based on prior knowledge of conditions related to the event."
+          },
+          {
+            "text": "What does the term \"independent events\" refer to in probability?",
+            "answers": {
+              "a": "Events that cannot happen at the same time",
+              "b": "Events that have no effect on each other's occurrence",
+              "c": "Events that always happen together",
+              "d": "Events that are mutually exclusive"
+            },
+            "correct": "b",
+            "answer_text": "Events that have no effect on each other's occurrence",
+            "reason": "Independent events are events that have no effect on each other's occurrence."
+          },
+          {
+            "text": "What does the term \"skewness\" measure in a dataset?",
+            "answers": {
+              "a": "The central tendency",
+              "b": "The variability or dispersion",
+              "c": "The asymmetry of the probability distribution",
+              "d": "The number of data points"
+            },
+            "correct": "c",
+            "answer_text": "The asymmetry of the probability distribution",
+            "reason": "Skewness measures the asymmetry of the probability distribution in a dataset."
+          },
+          {
+            "text": "What is a joint probability distribution used for?",
+            "answers": {
+              "a": "To describe the probability distribution of a single random variable",
+              "b": "To describe the probability distribution of two or more random variables",
+              "c": "To calculate the mean and variance of a dataset",
+              "d": "To determine the correlation between two variables"
+            },
+            "correct": "b",
+            "answer_text": "To describe the probability distribution of two or more random variables",
+            "reason": "A joint probability distribution is used to describe the probability distribution of two or more random variables."
+          },
+          {
+            "text": "What is the primary characteristic of a normal distribution?",
+            "answers": {
+              "a": "It is skewed to the right",
+              "b": "It has a constant probability",
+              "c": "It is symmetric and bell-shaped",
+              "d": "It has two peaks"
+            },
+            "correct": "c",
+            "answer_text": "It is symmetric and bell-shaped",
+            "reason": "A normal distribution is symmetric and bell-shaped."
+          },
+          {
+            "text": "How is the rate parameter denoted in an exponential distribution?",
+            "answers": {
+              "a": "\\( \\mu \\)",
+              "b": "\\( \\sigma \\)",
+              "c": "\\( p \\)",
+              "d": "\\( \\lambda \\)"
+            },
+            "correct": "d",
+            "answer_text": "\\( \\lambda \\)",
+            "reason": "The rate parameter in an exponential distribution is denoted by \\( \\lambda \\)."
+          },
+          {
+            "text": "What is the purpose of the inverse CDF?",
+            "answers": {
+              "a": "To calculate the probability of an event",
+              "b": "To find the value of a random variable for a given cumulative probability",
+              "c": "To determine the mean of a distribution",
+              "d": "To describe the relationship between two variables"
+            },
+            "correct": "b",
+            "answer_text": "To find the value of a random variable for a given cumulative probability",
+            "reason": "The purpose of the inverse CDF is to find the value of a random variable for a given cumulative probability."
+          },
+          {
+            "text": "What does the term \"mutually exclusive events\" mean?",
+            "answers": {
+              "a": "Events that cannot happen at the same time",
+              "b": "Events that have no effect on each other's occurrence",
+              "c": "Events that always happen together",
+              "d": "Events that are independent"
+            },
+            "correct": "a",
+            "answer_text": "Events that cannot happen at the same time",
+            "reason": "Mutually exclusive events are events that cannot happen at the same time."
+          },
+          {
+            "text": "What is the definition of the mode in a dataset?",
+            "answers": {
+              "a": "The average value",
+              "b": "The middle value",
+              "c": "The value that occurs most frequently",
+              "d": "The difference between the maximum and minimum values"
+            },
+            "correct": "c",
+            "answer_text": "The value that occurs most frequently",
+            "reason": "The mode in a dataset is the value that occurs most frequently."
+          },
+          {
+            "text": "How is the range of a dataset calculated?",
+            "answers": {
+              "a": "Sum of all values divided by the number of values",
+              "b": "Difference between the maximum and minimum values",
+              "c": "Product of all values",
+              "d": "Sum of squared differences from the mean"
+            },
+            "correct": "b",
+            "answer_text": "Difference between the maximum and minimum values",
+            "reason": "The range of a dataset is calculated as the difference between the maximum and minimum values."
+          },
+          {
+            "text": "What does the term \"variance\" measure in a dataset?",
+            "answers": {
+              "a": "The average value",
+              "b": "The sum of all values",
+              "c": "The spread or dispersion of the data",
+              "d": "The number of data points"
+            },
+            "correct": "c",
+            "answer_text": "The spread or dispersion of the data",
+            "reason": "The variance measures the spread or dispersion of the data in a dataset."
+          },
+          {
+            "text": "How is the standard deviation related to the variance?",
+            "answers": {
+              "a": "It is the square of the variance",
+              "b": "It is the square root of the variance",
+              "c": "It is the sum of the variance",
+              "d": "It is the difference between the maximum and minimum values"
+            },
+            "correct": "b",
+            "answer_text": "It is the square root of the variance",
+            "reason": "The standard deviation is related to the variance as it is the square root of the variance."
+          },
+          {
+            "text": "What is a null hypothesis in hypothesis testing?",
+            "answers": {
+              "a": "A hypothesis that there is no effect or no difference",
+              "b": "A hypothesis that there is a significant effect or difference",
+              "c": "A hypothesis that describes the relationship between",
+              "d": "A hypothesis that predicts the outcome of an experiment"
+            },
+            "correct": "a",
+            "answer_text": "A hypothesis that there is no effect or no difference",
+            "reason": "A null hypothesis in hypothesis testing is a hypothesis that there is no effect or no difference."
+          },
+          {
+            "text": "What does the symbol \\( P(A \\cap B) \\) represent in probability?",
+            "answers": {
+              "a": "The probability of event A or event B",
+              "b": "The probability of event A and event B",
+              "c": "The probability of event A given event B",
+              "d": "The probability of event B given event A"
+            },
+            "correct": "b",
+            "answer_text": "The probability of event A and event B",
+            "reason": "The symbol \\( P(A \\cap B) \\) represents the probability of event A and event B."
+          },
+          {
+            "text": "What is the purpose of a hypothesis test?",
+            "answers": {
+              "a": "To calculate the mean of a dataset",
+              "b": "To determine if there is enough evidence to reject the null hypothesis",
+              "c": "To calculate the variance of a dataset",
+              "d": "To describe the relationship between two variables"
+            },
+            "correct": "b",
+            "answer_text": "To determine if there is enough evidence to reject the null hypothesis",
+            "reason": "The purpose of a hypothesis test is to determine if there is enough evidence to reject the null hypothesis."
+          }
+        ]
+      }
+    ]
   }
 ]
