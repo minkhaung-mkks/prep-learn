@@ -1,0 +1,2081 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>untitled-document-8-b36d5159-c71a-4d68-8299-41d9b7d97708</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.mathpix.com/fonts/cmu.css"/>
+    <style>
+  html,body {
+    width: 100%;
+    height: 100%;
+  }
+  *, *::before,*::after {
+    box-sizing: border-box;
+  }
+  @-ms-viewport {
+    width: device-width;
+  }
+  body {
+    margin: 0;
+    color: #1E2029;
+    font-size: 14px;
+    line-height: normal;
+  }
+  hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+  ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+  ol ol, ul ul, ol ul, ul ol {
+    margin-bottom: 0;
+  }
+  dt {
+    font-weight: 500;
+  }
+  dd {
+    margin-bottom: 0.5em;
+    margin-left: 0;
+  }
+  blockquote {
+    margin: 0 0 1em;
+  }
+  dfn {
+    font-style: italic;
+  }
+  b, strong {
+    font-weight: bolder;
+  }
+  small {
+    font-size: 80%;
+  }
+  sub, sup {
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  sup {
+    top: -0.5em;
+  }
+  a {
+    color: #0B93ff;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  a:hover {
+    color: #33aaff;
+  }
+  a:active {
+    color: #0070d9;
+  }
+  a:active, a:hover {
+    text-decoration: none;
+    outline: 0;
+  }
+  a[disabled] {
+    color: rgba(0, 0, 0, 0.25)
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+  pre, code, kbd, samp {
+    font-size: 1em;
+  }
+  pre {
+    margin-top: 0;
+    margin-bottom: 1em;
+    overflow: auto;
+  }
+  figure {
+    margin: 0 0 1em;
+  }
+  img {
+    vertical-align: middle;
+    border-style: none;
+  }
+  svg:not(:root) {
+    overflow: hidden;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  caption {
+    padding-top: 0.75em;
+    padding-bottom: 0.3em;
+    color: rgba(0, 0, 0, 0.45)
+    text-align: left;
+    caption-side: bottom;
+  }
+  th {
+    text-align: inherit;
+  }
+
+mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+  min-height: 1px;
+  min-width: 1px;
+}
+
+mjx-container[jax="SVG"] > svg a {
+  fill: blue;
+  stroke: blue;
+}
+
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1px 0px 0px 0px !important;
+  border: 0px !important;
+  display: block !important;
+  width: auto !important;
+  overflow: hidden !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+mjx-assistive-mml[display="block"] {
+  width: 100% !important;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][display="true"][width="full"] {
+  display: flex;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line], svg[data-table] > g > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame], svg[data-table] > g > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed, svg[data-table] > g > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted, svg[data-table] > g > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > g > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
+  stroke-width: 3;
+}
+
+    #setText > div {
+        justify-content: inherit;
+        margin-top: 0;
+        margin-bottom: 1em;
+        
+        
+    }
+    
+    
+    
+    #setText div:last-child {
+        margin-bottom: 0 !important;
+    }
+
+    #setText > br, #preview-content br {
+        line-height: 1.2;
+    }
+
+    #preview-content > div {
+        margin-top: 0;
+        margin-bottom: 1em;
+        
+    }    
+    
+    .proof > div, .theorem > div {
+        margin-top: 1rem;
+    }
+
+    #preview-content table {
+      margin-bottom: 1em;
+    }
+
+    #setText table {
+      margin-bottom: 1em;
+    }
+    
+    #preview-content .sub-table table, #setText .sub-table table {
+      margin-bottom: 0;
+    }
+
+    mjx-container {
+      text-indent: 0;
+      overflow-y: hidden;
+      overflow-x: auto;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      
+      
+    }
+    
+    
+    
+    .math-inline mjx-container {
+        display: inline-block !important;
+        page-break-inside: avoid;
+        max-width: 100%;
+        padding: 0;
+        line-height: 0;
+    }
+    .math-inline mjx-container mjx-assistive-mml {
+      max-width: 100%;
+    }
+    .math-block {
+        align-items: center;
+        page-break-after: auto;
+        page-break-inside: avoid;
+        margin: 0;
+        display: block; /* mjx-container has block */
+    }
+    
+    .math-inline {
+      display: inline-flex; /* mjx-container has inline-block. To prevent displacement during use overflow-x: auto;*/
+      max-width: 100%;
+    }
+    
+    .math-block[data-width="full"] {
+      overflow-x: auto;
+      display: flex; /* mjx-container has flex */
+    }
+    
+    svg .math-inline {
+      display: initial;
+      max-width: initial;
+    }
+    
+    svg .math-inline mjx-container {
+      max-width: initial;
+    }
+    
+    svg mjx-container {
+      overflow: visible;
+    }
+    
+    svg math-block[data-width="full"] {
+      overflow: visible;
+    }
+    
+    .math-block[data-highlight-color] mjx-container[jax="SVG"] > svg {
+      background-color: var(--mmd-highlight-color);
+    }    
+    
+    .math-block[data-highlight-text-color] mjx-container[jax="SVG"] > svg {
+      color: var(--mmd-highlight-text-color);
+    }    
+    .math-inline[data-highlight-color] mjx-container[jax="SVG"] {
+      background-color: var(--mmd-highlight-color);
+    }    
+    
+    .math-inline[data-highlight-text-color] mjx-container[jax="SVG"] {
+      color: var(--mmd-highlight-text-color);
+    }
+    
+    .math-block p {
+        flex-shrink: 1;
+    }
+    .math-block mjx-container {
+        margin: 0 !important;
+    }
+    .math-error {
+        background-color: yellow;
+        color: red;
+    }
+
+    #preview-content img, #setText img {
+        max-width: 100%;
+    }
+    
+    #preview-content blockquote,  #setText blockquote {
+        page-break-inside: avoid;
+        color: #666;
+        margin: 0 0 1em 0;
+        padding-left: 3em;
+        border-left: .5em solid #eee;
+    }
+
+    #preview-content pre, #setText pre {
+        border: none;
+        padding: 0;
+        overflow: auto;
+        font-size: 85%;
+        line-height: 1.45;
+        border-radius: 6px;
+        box-sizing: border-box;
+        background: #f8f8fa;
+    }
+    #preview-content pre code, #setText pre code{
+        padding: 1rem;
+        display: block;
+        overflow-x: auto;
+        line-height: 24px;
+    }
+    .empty {
+        text-align: center;
+        font-size: 18px;
+        padding: 50px 0 !important;
+    }
+
+    #setText table, #preview-content table {
+        display: table; 
+        overflow: auto;
+        max-width: 100%;
+        border-collapse: collapse;
+        page-break-inside: avoid;
+    }
+      
+    #setText table th, #preview-content table th {
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    #setText table td, #preview-content table td,
+    #setText table th, #preview-content table th {
+        border: 1px solid #dfe2e5;
+        padding: 6px 13px;
+    }
+      
+    #setText table tr, #preview-content table tr {
+        background-color: #fff;
+        border-top: 1px solid #c6cbd1;
+    }
+    
+    #setText table tr:nth-child(2n), #preview-content table tr:nth-child(2n) {
+        background-color: #f6f8fa;
+    }
+
+    
+    #setText .main-title, #setText .author, #preview-content .main-title, #preview-content .author  {
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    #preview-content .main-title, #setText .main-title {
+        line-height: 1.2;
+        margin-bottom: 1em;
+    }
+
+    #preview-content .author, #setText .author  {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #preview-content .author p, #setText .author p {
+        min-width: 30%;
+        max-width: 50%;
+        padding: 0 7px;
+    }
+
+    #preview-content .author > p > span, #setText .author > p > span {
+        display: block;
+        text-align: center;
+    }
+
+    #preview-content .section-title, #setText .section-title {
+        margin-top: 1.5em;
+    }
+
+    #preview-content .abstract, #setText .abstract {
+        text-align: justify;
+        margin-bottom: 1em;
+    }
+
+    #preview-content .abstract p, #setText .abstract p {
+        margin-bottom: 0;
+    }
+
+    @media print {
+
+      #preview {
+        font-size: 10pt!important;
+      }
+
+      svg {
+        shape-rendering: crispEdges;
+      }
+
+      .math-block svg, math-inline svg {
+        margin-top: 1px;
+      }
+
+      #preview-content img, #setText img {
+        display: block;
+      }
+      
+      #preview-content .figure_img img, #setText .figure_img img {
+        display: inline;
+      }
+
+      .preview-right {
+        word-break: break-word;
+      }
+
+      #preview-content h1, #setText h1 {
+        page-break-inside: avoid;
+        position: relative;
+        border: 2px solid transparent;
+      }
+  
+      #preview-content h1::after, #setText h1::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-bottom: -100px;
+        position: relative;
+      }
+  
+      #preview-content h2, #setText h2 {
+        page-break-inside: avoid;
+        position: relative;
+        border: 2px solid transparent;
+      }
+  
+      #preview-content h2::after, #setText h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-bottom: -100px;
+        position: relative;
+      }
+  
+      #preview-content h3, #setText h3 {
+        page-break-inside: avoid;
+        position: relative;
+        border: 2px solid transparent;
+      }
+  
+      #preview-content h3::after, #setText h3::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-bottom: -100px;
+        position: relative;
+      }
+  
+      #preview-content h4, #setText h4 {
+        page-break-inside: avoid;
+        position: relative;
+        border: 2px solid transparent;
+      }
+  
+      #preview-content h4::after, #setText h4::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-bottom: -100px;
+        position: relative;
+      }
+  
+      #preview-content h5, #setText h5 {
+        page-break-inside: avoid;
+        position: relative;
+        border: 2px solid transparent;
+      }
+  
+      #preview-content h5::after, #setText h5::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-bottom: -100px;
+        position: relative;
+      }
+  
+      #preview-content h6, #setText h6 {
+        page-break-inside: avoid;
+        position: relative;
+        border: 2px solid transparent;
+      }
+  
+      #preview-content h6::after, #setText h6::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-bottom: -100px;
+        position: relative;
+      }
+    }
+    #preview-content sup, #setText sup {
+      top: -.5em;
+      position: relative;
+      font-size: 75%;
+      line-height: 0;
+      vertical-align: baseline;
+    }
+    
+    #preview-content .text-url, #setText .text-url {
+      color: #0B93ff;
+      cursor: text;
+      pointer-events: none;
+    }
+    
+    #preview-content .text-url a:hover, #setText .text-url a:hover {
+      color: #0B93ff;
+    }
+    
+    mark {
+      background-color: #feffe6;
+    }
+    
+    span[data-underline-type] mark {
+      background: inherit;
+      background-color: #feffe6;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    
+    *[data-has-dotfill] {
+      position: relative;
+      overflow: hidden;
+    }
+    
+    *[data-has-dotfill] .dotfill::after {
+      position: absolute;
+      padding-left: .25ch;
+      content: " . . . . . . . . . . . . . . . . . . . "
+          ". . . . . . . . . . . . . . . . . . . . . . . "
+          ". . . . . . . . . . . . . . . . . . . . . . . "
+          ". . . . . . . . . . . . . . . . . . . . . . . "
+          ". . . . . . . . . . . . . . . . . . . . . . . "
+          ". . . . . . . . . . . . . . . . . . . . . . . "
+          ". . . . . . . . . . . . . . . . . . . . . . . ";
+      text-align: right;
+    }
+    
+   .smiles {
+     text-align: center;
+   }
+
+   div.svg-container, #setText > div.svg-container {
+      display: flex;
+      justify-content: center;
+   }
+
+    #preview-content code, #setText code {
+      font-family: Inconsolata;
+      font-size: inherit;
+      display: initial;
+      background: #f8f8fa;
+    }
+    #preview-content .mmd-highlight code, #setText .mmd-highlight code, 
+    #preview-content pre.mmd-highlight code, #setText pre.mmd-highlight code {
+      background-color: transparent;
+    }
+    #preview-content pre code, #setText pre code {
+      font-family: 'DM Mono', Inconsolata, monospace;
+      color: #333;
+      font-size: 15px;
+    }
+
+    .hljs-comment,
+    .hljs-quote {
+      color: #998;
+      font-style: italic;
+    }
+
+    .hljs-command {
+      color: #005cc5;
+    }
+
+    .hljs-keyword,
+    .hljs-selector-tag,
+    .hljs-subst {
+      color: #d73a49;
+      font-weight: bold;
+    }
+
+    .hljs-number,
+    .hljs-literal,
+    .hljs-variable,
+    .hljs-template-variable,
+    .hljs-tag .hljs-attr {
+      color: #005cc5;
+    }
+
+    .hljs-string,
+    .hljs-doctag {
+      color: #24292e;
+    }
+
+    .hljs-title,
+    .hljs-section,
+    .hljs-selector-id {
+      color: #6f42c1;
+      font-weight: bold;
+    }
+
+    .hljs-subst {
+      font-weight: normal;
+    }
+
+    .hljs-type,
+    .hljs-class .hljs-title {
+      color: #458;
+      font-weight: bold;
+    }
+
+    .hljs-tag,
+    .hljs-name,
+    .hljs-attribute {
+      color: #000080;
+      font-weight: normal;
+    }
+
+    .hljs-regexp,
+    .hljs-link {
+      color: #009926;
+    }
+
+    .hljs-symbol,
+    .hljs-bullet {
+      color: #990073;
+    }
+
+    .hljs-built_in,
+    .hljs-builtin-name {
+      color: #24292e;
+    }
+
+    .hljs-meta {
+      color: #999;
+      font-weight: bold;
+    }
+
+    .hljs-meta-keyword {
+      color: #d73a49;
+    }
+
+    .hljs-meta-string {
+      color: #032f62;
+    }
+
+    .hljs-deletion {
+      background: #fdd;
+    }
+
+    .hljs-addition {
+      background: #dfd;
+    }
+
+    .hljs-emphasis {
+      font-style: italic;
+    }
+
+    .hljs-strong {
+      font-weight: bold;
+    }
+
+    .table_tabular table th,  .table_tabular table th {
+        border: none !important;
+        padding: 6px 13px;
+    }
+      
+    #tabular tr, #tabular tr {
+        border-top: none !important;
+        border-bottom: none !important;
+    }
+    #tabular td, #tabular td {
+        border-style: none !important;
+        background-color: #fff;
+        border-color: #000 !important;
+        word-break: keep-all;
+        padding: 0.1em 0.5em !important;
+    }
+    #tabular {
+        display: inline-block !important;
+    }
+    #tabular td > p {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    #tabular td._empty {
+      height: 1.3em;
+    }
+    #tabular td .f {
+      opacity: 0;
+    }
+    
+    html[data-theme="dark"] #tabular tr, html[data-theme="dark"] #tabular td {
+      background-color: #202226;
+      border-color: #fff !important;
+    }  
+    .table_tabular {
+        overflow-x: auto;
+        padding: 0 2px 0.5em 2px;
+    }
+    .figure_img {
+       margin-bottom: 0.5em;
+       overflow-x: auto;
+    }
+
+  ol.enumerate, ul.itemize {
+    padding-inline-start: 40px;
+  }
+/* It's commented because counter not supporting to change value 
+  ol.enumerate.lower-alpha {
+    counter-reset: item ;
+    list-style-type: none !important;
+  }
+  .enumerate.lower-alpha > li {
+    position: relative;
+  }
+  .enumerate.lower-alpha > li:before { 
+    content: "("counter(item, lower-alpha)")"; 
+    counter-increment: item; 
+    position: absolute;
+    left: -47px;
+    width: 47px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 7px;
+    flex-wrap: nowrap;
+    word-break: keep-all;
+  }
+  */
+  
+  .itemize > li {
+    position: relative;
+  }
+  .itemize > li > span.li_level, .li_enumerate.not_number > span.li_level { 
+    position: absolute;
+    right: 100%;
+    white-space: nowrap;
+    width: max-content;;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+  .li_enumerate.not_number {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+  }
+
+  #preview {
+    font-family: 'CMU Serif', 'Georgia', Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    visibility: visible;
+    word-break: break-word;
+    padding: 2.5em;
+    max-width: 800px;
+    margin: auto;
+    box-sizing: content-box;
+  }
+
+  #preview h1, #preview h2, #preview h3, #preview h4, #preview h5, #preview strong {
+    font-family: 'CMU Serif Bold', 'Georgia', Helvetica, Arial, sans-serif;
+  }
+
+  #preview  i, #preview  em {
+    font-family: 'CMU Serif Italic', 'Georgia', Helvetica, Arial, sans-serif;
+  }
+
+  .mmd-menu {
+    max-width: 320px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    width: auto;
+    padding: 5px 0px;
+    border: 1px solid #E5E6EB;
+    margin: 0;
+    cursor: default;
+    font: menu;
+    text-align: left;
+    text-indent: 0;
+    text-transform: none;
+    line-height: normal;
+    letter-spacing: normal;
+    word-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    float: none;
+    z-index: 201;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    box-shadow: 0px 10px 20px #808080;
+    -webkit-box-shadow: 0px 10px 20px #808080;
+    -moz-box-shadow: 0px 10px 20px #808080;
+    -khtml-box-shadow: 0px 10px 20px #808080; 
+  }
+  
+  .mmd-menu:focus { outline: none; }
+  
+  .mmd-menu.mmd-menu-sm {
+    max-width: 100vw;
+    padding-bottom: 34px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -khtml-border-radius: 0;
+  }
+
+  .mmd-menu-item-icon {
+    color: #1e2029;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    display: none; 
+  }
+
+  .mmd-menu-item {
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    display: flex;
+    background: transparent; 
+    height: 52px;
+    max-height: 52px;
+  }
+  .mmd-menu-item:focus { outline: none; }
+
+  .mmd-menu-item.active {
+    background-color: #e1e0e5; 
+  }
+
+  .mmd-menu-item.active .mmd-menu-item-icon {
+    display: flex; 
+  }
+
+  .mmd-menu-item-container {
+    overflow: hidden; 
+  }
+
+  .mmd-menu-item-title {
+    color: #1e2029;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 20px; 
+  }
+
+  .mmd-menu-item-value {
+    color: #7d829c;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 16px; 
+  }
+  
+  html[data-theme="dark"] .mmd-menu-item-title {
+    color: #ebefe7;
+  } 
+  html[data-theme="dark"] .mmd-menu-item.active .mmd-menu-item-title {
+    color: #1e2029;
+  }
+  html[data-theme="dark"] .mmd-menu {
+    background-color: #33363a;
+  }
+  
+  .mmd-context-menu-overlay{
+    background: rgba(0, 0, 0, 0.56);
+  }
+  
+.ClipboardButton {
+  padding: 0;
+  margin: 0.5rem;
+  display: inline-block;
+  cursor: pointer;
+  color: rgb(36, 41, 47);
+  background: rgb(246, 248, 250);
+  border-radius: 6px;
+  border: 1px solid rgba(31, 35, 40, 0.15);
+  box-shadow: rgba(31, 35, 40, 0.04) 0 1px 0 0, rgba(255, 255, 255, 0.25) 0 1 0 0 inset;
+  position: relative;
+}
+
+.ClipboardButton:hover {
+  background-color: rgb(243, 244, 246);
+  border-color rgba(31, 35, 40, 0.15);
+  transition-duration: .1s;
+}
+
+.mmd-clipboard-icon {
+  fill: currentColor;
+  vertical-align: text-bottom;
+}
+
+.mmd-clipboard-copy-icon {
+  color: rgb(101, 109, 118);
+}
+.mmd-clipboard-check-icon {
+  color: rgb(26, 127, 55);
+}
+
+.mmd-tooltipped-no-delay:hover::before,
+.mmd-tooltipped-no-delay:hover::after {
+  animation-delay: 0s;
+}
+
+.mmd-tooltipped:hover::before,
+.mmd-tooltipped:hover::after {
+  display: inline-block;
+  text-decoration: none;
+  animation-name: tooltip-appear;
+  animation-duration: .1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+  animation-delay: .4s;
+}
+
+.mmd-tooltipped-w::before {
+  top: 50%;
+  bottom: 50%;
+  left: -7px;
+  margin-top: -6px;
+  border-left-color: rgb(36, 41, 47)
+}
+
+.mmd-tooltipped::before {
+  position: absolute;
+  z-index: 1000001;
+  display: none;
+  width: 0;
+  height: 0;
+  color: rgb(36, 41, 47)
+  pointer-events: none;
+  content: "";
+  border: 6px solid transparent;
+  opacity: 0;
+}
+
+.mmd-tooltipped-w::after {
+  right: 100%;
+  bottom: 50%;
+  margin-right: 6px;
+  transform: translateY(50%);
+}
+
+
+.mmd-tooltipped::after {
+    position: absolute;
+    z-index: 1000000;
+    display: none;
+    padding: 0.5em 0.75em;
+    font: normal normal 11px/1.5 'CMU Serif', 'Georgia', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: break-word;
+    white-space: pre;
+    pointer-events: none;
+    content: attr(aria-label);
+    background: rgb(36, 41, 47);
+    border-radius: 6px;
+    opacity: 0;
+}
+</style>
+</head>
+<body>
+  <div id="preview" class="preview scrollEditor">
+    <div id="container-ruller" />
+    <div id="preview-content">
+      <h1 type="title" class="main-title" id="untitled-document-8-b36d5159-c71a-4d68-8299-41d9b7d97708">
+untitled-document-8-b36d5159-c71a-4d68-8299-41d9b7d97708</h1>
+<h2 id="1.-overview" class="preview-paragraph-1 preview-line 1" data_line_start="1" data_line_end="1" data_line="1,2" count_line="1">1. <strong>Overview</strong></h2>
+<div class="preview-paragraph-3 preview-line 3" data_line_start="3" data_line_end="3" data_line="3,4" count_line="1">A <strong>word processing application</strong> is software that allows you to create, open, and update digital documents. The two most popular word processors are:</div>
+<ul class="preview-paragraph-5 preview-line 5 6 7" data_line_start="5" data_line_end="7" data_line="5,8" count_line="3">
+<li><strong>Microsoft Word</strong> (part of Office 365): Uses <code>.doc</code> (older versions) and <code>.docx</code> (newer versions) extensions.</li>
+<li><strong>Google Docs</strong>: Browser-based and free, accessible with a Gmail account.</li>
+</ul>
+<h3 id="key-features%3A" class="preview-paragraph-8 preview-line 8" data_line_start="8" data_line_end="8" data_line="8,9" count_line="1"><strong>Key Features:</strong></h3>
+<ul class="preview-paragraph-10 preview-line 10 11 12 13 14 15 16 17" data_line_start="10" data_line_end="17" data_line="10,18" count_line="8">
+<li><strong>Text Formatting</strong>: Colors, fonts, line spacing, special fonts, hyperlinks, and references.</li>
+<li><strong>Collaboration Tools</strong>: Track changes, comments, version comparison.</li>
+<li><strong>Templates</strong>: Preformatted templates for various document types (invitations, resumes, brochures).</li>
+<li><strong>Page Layout</strong>: Margins, orientation, headers, footers, page numbering, table of contents.</li>
+<li><strong>Export Options</strong>: Save in multiple formats like PDF, HTML, EPUB.</li>
+<li><strong>Revision Tools</strong>: Spell check, grammar check, thesaurus, find and replace.</li>
+<li><strong>Insert Options</strong>: Images, shapes, tables, hyperlinks, bookmarks, footnotes.</li>
+</ul>
+<hr>
+<h3 id="mini-quiz-1" class="preview-paragraph-20 preview-line 20" data_line_start="20" data_line_end="20" data_line="20,21" count_line="1"><strong>Mini Quiz 1</strong></h3>
+<ol class="preview-paragraph-22 preview-line 22 23 24 25 26 27 28 29 30 31 32 33 34 35" data_line_start="22" data_line_end="35" data_line="22,36" count_line="14">
+<li>
+<div><strong>What are the two most popular word processing applications?</strong></div>
+<div>A. Notepad and TextEdit<br>
+B. Microsoft Word and Google Docs<br>
+C. Excel and Sheets<br>
+D. PowerPoint and Slides</div>
+</li>
+<li>
+<div><strong>Which file extension is used by newer versions of Microsoft Word?</strong></div>
+<div>A. <code>.doc</code><br>
+B. <code>.txt</code><br>
+C. <code>.docx</code><br>
+D. <code>.pdf</code></div>
+</li>
+</ol>
+<div class="preview-paragraph-36 preview-line 36" data_line_start="36" data_line_end="36" data_line="36,37" count_line="1"><strong>Answers:</strong></div>
+<ol class="preview-paragraph-38 preview-line 38 39 40" data_line_start="38" data_line_end="40" data_line="38,41" count_line="3">
+<li><strong>B.</strong> Microsoft Word and Google Docs</li>
+<li><strong>C.</strong> <code>.docx</code></li>
+</ol>
+<hr>
+<h2 id="2.-getting-started" class="preview-paragraph-43 preview-line 43" data_line_start="43" data_line_end="43" data_line="43,44" count_line="1">2. <strong>Getting Started</strong></h2>
+<h3 id="launching-microsoft-word%3A" class="preview-paragraph-45 preview-line 45" data_line_start="45" data_line_end="45" data_line="45,46" count_line="1"><strong>Launching Microsoft Word:</strong></h3>
+<ol class="preview-paragraph-47 preview-line 47 48 49 50 51 52 53 54 55" data_line_start="47" data_line_end="55" data_line="47,56" count_line="9">
+<li>
+<div><strong>From Start Menu:</strong></div>
+<ul>
+<li>Click on the <strong>Microsoft Start</strong> button.</li>
+<li>Type “Word” in the search box.</li>
+<li>Click the <strong>Word</strong> application icon to open.</li>
+</ul>
+</li>
+<li>
+<div><strong>Opening an Existing Document:</strong></div>
+<ul>
+<li>Double-click on a <code>.doc</code> or <code>.docx</code> file.</li>
+<li>The operating system uses file associations to open Word and display the document.</li>
+</ul>
+</li>
+</ol>
+<h3 id="launching-google-docs%3A" class="preview-paragraph-56 preview-line 56" data_line_start="56" data_line_end="56" data_line="56,57" count_line="1"><strong>Launching Google Docs:</strong></h3>
+<ol class="preview-paragraph-58 preview-line 58 59 60 61 62 63 64 65" data_line_start="58" data_line_end="65" data_line="58,66" count_line="8">
+<li>
+<div><strong>Via URL:</strong></div>
+<ul>
+<li>Type <code>https://docs.google.com</code> in your browser’s address bar.</li>
+</ul>
+</li>
+<li>
+<div><strong>Via Gmail:</strong></div>
+<ul>
+<li>Open <strong>Gmail</strong>.</li>
+<li>Click on the <strong>dots</strong> next to your name in the top right corner.</li>
+<li>Select <strong>Docs</strong> from the list of apps.</li>
+</ul>
+</li>
+</ol>
+<h3 id="using-templates%3A" class="preview-paragraph-66 preview-line 66" data_line_start="66" data_line_end="66" data_line="66,67" count_line="1"><strong>Using Templates:</strong></h3>
+<ul class="preview-paragraph-68 preview-line 68 69 70 71" data_line_start="68" data_line_end="71" data_line="68,72" count_line="4">
+<li><strong>Accessing Templates:</strong>
+<ul>
+<li>Both Microsoft Word and Google Docs offer preformatted templates for documents like invitations, resumes, certificates, and brochures.</li>
+<li><strong>Benefits:</strong> Saves time, ensures professional appearance, includes essential elements.</li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-72 preview-line 72" data_line_start="72" data_line_end="72" data_line="72,73" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 61 — A wide variety of preformatted templates are offered in both Google Docs (top) and Microsoft Word (bottom)." data-align="center"></figure></div>
+<hr>
+<h3 id="mini-quiz-2" class="preview-paragraph-76 preview-line 76" data_line_start="76" data_line_end="76" data_line="76,77" count_line="1"><strong>Mini Quiz 2</strong></h3>
+<ol class="preview-paragraph-78 preview-line 78 79 80 81 82 83 84 85 86 87 88 89 90 91" data_line_start="78" data_line_end="91" data_line="78,92" count_line="14">
+<li>
+<div><strong>How can you launch Google Docs from Gmail?</strong></div>
+<div>A. Click on &quot;Mail Merge&quot;<br>
+B. Click on the &quot;dots&quot; next to your name and select &quot;Docs&quot;<br>
+C. Type &quot;Docs&quot; in the search box<br>
+D. Go to &quot;Insert&quot; menu and select &quot;Docs&quot;</div>
+</li>
+<li>
+<div><strong>What is one benefit of using templates in word processors?</strong></div>
+<div>A. They increase the file size<br>
+B. They save time and ensure professional formatting<br>
+C. They disable collaboration features<br>
+D. They limit font choices</div>
+</li>
+</ol>
+<div class="preview-paragraph-92 preview-line 92" data_line_start="92" data_line_end="92" data_line="92,93" count_line="1"><strong>Answers:</strong></div>
+<ol class="preview-paragraph-94 preview-line 94 95 96" data_line_start="94" data_line_end="96" data_line="94,97" count_line="3">
+<li><strong>B.</strong> Click on the &quot;dots&quot; next to your name and select &quot;Docs&quot;</li>
+<li><strong>B.</strong> They save time and ensure professional formatting</li>
+</ol>
+<hr>
+<h2 id="3.-essential-file-operations" class="preview-paragraph-99 preview-line 99" data_line_start="99" data_line_end="99" data_line="99,100" count_line="1">3. <strong>Essential File Operations</strong></h2>
+<div class="preview-paragraph-101 preview-line 101" data_line_start="101" data_line_end="101" data_line="101,102" count_line="1">Word processing applications provide essential operations for saving and sharing documents.</div>
+<h3 id="save" class="preview-paragraph-103 preview-line 103" data_line_start="103" data_line_end="103" data_line="103,104" count_line="1"><strong>Save</strong></h3>
+<ul class="preview-paragraph-105 preview-line 105 106 107 108 109 110 111 112 113 114 115 116 117" data_line_start="105" data_line_end="117" data_line="105,118" count_line="13">
+<li>
+<div><strong>Initial Save:</strong></div>
+<ul>
+<li>Save your document with a meaningful name and in a suitable location.</li>
+</ul>
+</li>
+<li>
+<div><strong>Auto Save:</strong></div>
+<ul>
+<li><strong>Microsoft Word:</strong> Integrates with OneDrive for automatic saving.</li>
+<li><strong>Google Docs:</strong> Automatically saves to Google Drive as you work.</li>
+</ul>
+</li>
+<li>
+<div><strong>Manual Save Shortcut:</strong> <code>Ctrl + S</code></div>
+</li>
+<li>
+<div><strong>Benefits:</strong></div>
+<ul>
+<li>Protects against data loss from power outages or computer issues.</li>
+<li>Saves space locally or on the cloud based on settings.</li>
+</ul>
+</li>
+</ul>
+<h3 id="print" class="preview-paragraph-118 preview-line 118" data_line_start="118" data_line_end="118" data_line="118,119" count_line="1"><strong>Print</strong></h3>
+<ul class="preview-paragraph-120 preview-line 120 121 122 123 124 125 126 127 128" data_line_start="120" data_line_end="128" data_line="120,129" count_line="9">
+<li>
+<div><strong>Accessing Print Options:</strong></div>
+<ul>
+<li><strong>Microsoft Word:</strong> <code>File &gt; Print</code> or <code>Ctrl + P</code></li>
+<li><strong>Google Docs:</strong> <code>File &gt; Print</code> or <code>Ctrl + P</code></li>
+</ul>
+</li>
+<li>
+<div><strong>Print Dialog Options:</strong></div>
+<ul>
+<li>Number of pages, specific pages, number of copies.</li>
+<li>Paper size, margins, single/double-sided printing.</li>
+<li>Print Preview to check layout before printing.</li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-129 preview-line 129" data_line_start="129" data_line_end="129" data_line="129,130" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 62 — Google Doc users can select from a range of options when printing." data-align="center"></figure></div>
+<h3 id="export" class="preview-paragraph-131 preview-line 131" data_line_start="131" data_line_end="131" data_line="131,132" count_line="1"><strong>Export</strong></h3>
+<ul class="preview-paragraph-133 preview-line 133 134 135 136 137 138 139 140 141 142 143" data_line_start="133" data_line_end="143" data_line="133,144" count_line="11">
+<li>
+<div><strong>Export Formats:</strong></div>
+<ul>
+<li><strong>PDF:</strong> Read-only format for easy sharing.</li>
+<li><strong>HTML:</strong> Save as a webpage.</li>
+<li><strong>EPUB:</strong> Electronic Book format for e-readers like Kindle or Nook.</li>
+</ul>
+</li>
+<li>
+<div><strong>Exporting in Google Docs:</strong></div>
+<ul>
+<li><code>File &gt; Download &gt;</code> choose format (e.g., <code>.docx</code>, <code>.pdf</code>, <code>.html</code>, <code>.epub</code>)</li>
+</ul>
+</li>
+<li>
+<div><strong>Exporting in Microsoft Word:</strong></div>
+<ul>
+<li><code>File &gt; Save As &gt;</code> choose format.</li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-144 preview-line 144" data_line_start="144" data_line_end="144" data_line="144,145" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 63 — Google Docs allows users to download multiple file formats increasing the compatibility of files when sharing." data-align="center"></figure></div>
+<hr>
+<h3 id="mini-quiz-3" class="preview-paragraph-148 preview-line 148" data_line_start="148" data_line_end="148" data_line="148,149" count_line="1"><strong>Mini Quiz 3</strong></h3>
+<ol class="preview-paragraph-150 preview-line 150 151 152 153 154 155 156 157 158 159 160 161 162 163" data_line_start="150" data_line_end="163" data_line="150,164" count_line="14">
+<li>
+<div><strong>What keyboard shortcut is commonly used to manually save a document?</strong></div>
+<div>A. <code>Ctrl + P</code><br>
+B. <code>Ctrl + S</code><br>
+C. <code>Ctrl + C</code><br>
+D. <code>Ctrl + V</code></div>
+</li>
+<li>
+<div><strong>Which export format is commonly used to create a read-only version of a document?</strong></div>
+<div>A. <code>.docx</code><br>
+B. <code>.pdf</code><br>
+C. <code>.html</code><br>
+D. <code>.epub</code></div>
+</li>
+</ol>
+<div class="preview-paragraph-164 preview-line 164" data_line_start="164" data_line_end="164" data_line="164,165" count_line="1"><strong>Answers:</strong></div>
+<ol class="preview-paragraph-166 preview-line 166 167 168" data_line_start="166" data_line_end="168" data_line="166,169" count_line="3">
+<li><strong>B.</strong> <code>Ctrl + S</code></li>
+<li><strong>B.</strong> <code>.pdf</code></li>
+</ol>
+<hr>
+<h2 id="4.-creating-content" class="preview-paragraph-171 preview-line 171" data_line_start="171" data_line_end="171" data_line="171,172" count_line="1">4. <strong>Creating Content</strong></h2>
+<div class="preview-paragraph-173 preview-line 173" data_line_start="173" data_line_end="173" data_line="173,174" count_line="1">Creating content in word processors involves various formatting and organizational tools to enhance readability and professionalism.</div>
+<h3 id="fonts" class="preview-paragraph-175 preview-line 175" data_line_start="175" data_line_end="175" data_line="175,176" count_line="1"><strong>Fonts</strong></h3>
+<div class="preview-paragraph-177 preview-line 177" data_line_start="177" data_line_end="177" data_line="177,178" count_line="1"><strong>Fonts</strong> refer to the style, shape, and size of text characters. They enhance readability and convey emotions.</div>
+<h4 id="categories-of-fonts%3A" class="preview-paragraph-179 preview-line 179" data_line_start="179" data_line_end="179" data_line="179,180" count_line="1"><strong>Categories of Fonts:</strong></h4>
+<ol class="preview-paragraph-181 preview-line 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198" data_line_start="181" data_line_end="198" data_line="181,199" count_line="18">
+<li>
+<div><strong>Serif Fonts:</strong></div>
+<ul>
+<li><strong>Features:</strong> Small decorative lines (serifs) at the ends of letters.</li>
+<li><strong>Perception:</strong> Formal, authoritative, mature.</li>
+<li><strong>Examples:</strong> Times New Roman, Georgia, Courier.</li>
+<li><strong>Usage:</strong> Print publications like magazines and novels.</li>
+</ul>
+</li>
+<li>
+<div><strong>Sans-Serif Fonts:</strong></div>
+<ul>
+<li><strong>Features:</strong> No serifs; clean and modern look.</li>
+<li><strong>Perception:</strong> Modern, easy to read on screens.</li>
+<li><strong>Examples:</strong> Arial, Calibri, Verdana.</li>
+<li><strong>Usage:</strong> Digital publications, online documents.</li>
+</ul>
+</li>
+<li>
+<div><strong>Script Fonts:</strong></div>
+<ul>
+<li><strong>Features:</strong> Mimic handwritten text; often decorative.</li>
+<li><strong>Perception:</strong> Personalized, elegant.</li>
+<li><strong>Examples:</strong> Segoe Script, Lucinda Handwriting, Brush Script.</li>
+<li><strong>Usage:</strong> Invitations, certificates, personalized documents.</li>
+</ul>
+</li>
+</ol>
+<div class="preview-paragraph-199 preview-line 199" data_line_start="199" data_line_end="199" data_line="199,200" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 64 — Google Doc users can select from a wide range of fonts depending on the type of document they are creating." data-align="center"></figure></div>
+<h4 id="points-and-pixels%3A" class="preview-paragraph-201 preview-line 201" data_line_start="201" data_line_end="201" data_line="201,202" count_line="1"><strong>Points and Pixels:</strong></h4>
+<ul class="preview-paragraph-203 preview-line 203 204 205 206 207" data_line_start="203" data_line_end="207" data_line="203,208" count_line="5">
+<li><strong>Point (pt):</strong> 1 pt = 1/72 inch.</li>
+<li><strong>Pixel (px):</strong> 1 px = 1/96 inch.</li>
+<li><strong>Standard Conversion:</strong> 12 pt ≈ 16 px.</li>
+<li><strong>Recommendation:</strong> Font size between 11–12 points for readability.</li>
+</ul>
+<div class="preview-paragraph-208 preview-line 208" data_line_start="208" data_line_end="208" data_line="208,209" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 66 — Within Microsoft Word’s “Font” panel, users can select and edit specific details regarding selected fonts." data-align="center"></figure></div>
+<h3 id="spacing" class="preview-paragraph-210 preview-line 210" data_line_start="210" data_line_end="210" data_line="210,211" count_line="1"><strong>Spacing</strong></h3>
+<ul class="preview-paragraph-212 preview-line 212 213 214 215 216 217" data_line_start="212" data_line_end="217" data_line="212,218" count_line="6">
+<li><strong>Line Spacing:</strong> Distance between lines within a paragraph.</li>
+<li><strong>Paragraph Spacing:</strong> Distance between separate paragraphs.</li>
+<li><strong>Recommendations:</strong>
+<ul>
+<li><strong>Line Spacing:</strong> At least single-spaced.</li>
+<li><strong>Paragraph Spacing:</strong> Add 6 points between paragraphs for clarity.</li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-218 preview-line 218" data_line_start="218" data_line_end="218" data_line="218,219" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 67 — In Google Docs, you can find “Line &amp; paragraph spacing” under the “Format” tab (top). In Word, users can edit spacing in the “Paragraph” submenu (bottom)." data-align="center"></figure></div>
+<h3 id="indentation-and-alignment" class="preview-paragraph-220 preview-line 220" data_line_start="220" data_line_end="220" data_line="220,221" count_line="1"><strong>Indentation and Alignment</strong></h3>
+<ul class="preview-paragraph-222 preview-line 222 223 224 225 226 227 228 229 230 231" data_line_start="222" data_line_end="231" data_line="222,232" count_line="10">
+<li>
+<div><strong>Indentation:</strong> Space between the margin and the beginning of text.</div>
+<ul>
+<li><strong>First Line Indent:</strong> Indents the first line of a paragraph.</li>
+<li><strong>Hanging Indent:</strong> Indents all lines except the first in a paragraph.</li>
+</ul>
+</li>
+<li>
+<div><strong>Alignment:</strong></div>
+<ul>
+<li><strong>Left-Aligned:</strong> Flush with the left margin.</li>
+<li><strong>Right-Aligned:</strong> Flush with the right margin.</li>
+<li><strong>Centered:</strong> Equidistant from both margins.</li>
+<li><strong>Justified:</strong> Flush with both margins, adding space between words as needed.</li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-232 preview-line 232" data_line_start="232" data_line_end="232" data_line="232,233" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 68 — In Google Docs alignment and indentation options are located under the “Format” tab." data-align="center"></figure></div>
+<h3 id="lists" class="preview-paragraph-234 preview-line 234" data_line_start="234" data_line_end="234" data_line="234,235" count_line="1"><strong>Lists</strong></h3>
+<ul class="preview-paragraph-236 preview-line 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252" data_line_start="236" data_line_end="252" data_line="236,253" count_line="17">
+<li>
+<div><strong>Bulleted Lists:</strong></div>
+<ul>
+<li><strong>Use:</strong> Items in no specific order.</li>
+<li><strong>Example:</strong>
+<ul>
+<li>Animals
+<ul>
+<li>Cat</li>
+<li>Dog</li>
+<li>Horse</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div><strong>Numbered Lists:</strong></div>
+<ul>
+<li><strong>Use:</strong> Items in a specific sequence.</li>
+<li><strong>Example:</strong>
+<ol>
+<li>First step</li>
+<li>Second step</li>
+<li>Third step</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<div><strong>Nested Lists:</strong> Lists within lists for hierarchical information.</div>
+</li>
+</ul>
+<div class="preview-paragraph-253 preview-line 253" data_line_start="253" data_line_end="253" data_line="253,254" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 71 — Google Docs offers users table templates, allowing users to quickly create tables based on needs." data-align="center"></figure></div>
+<h3 id="styles" class="preview-paragraph-255 preview-line 255" data_line_start="255" data_line_end="255" data_line="255,256" count_line="1"><strong>Styles</strong></h3>
+<div class="preview-paragraph-257 preview-line 257" data_line_start="257" data_line_end="257" data_line="257,258" count_line="1"><strong>Styles</strong> are predefined combinations of formatting features that can be applied to text to ensure consistency and save time.</div>
+<ul class="preview-paragraph-259 preview-line 259 260 261 262 263 264 265 266 267 268" data_line_start="259" data_line_end="268" data_line="259,269" count_line="10">
+<li>
+<div><strong>Benefits:</strong></div>
+<ul>
+<li>Consistent look and feel across the document.</li>
+<li>Easy global changes by modifying the style definition.</li>
+<li>Hierarchical styles allow for dependent changes.</li>
+</ul>
+</li>
+<li>
+<div><strong>Common Styles:</strong></div>
+<ul>
+<li><strong>Headings:</strong> Heading 1, Heading 2, etc., used for sections and chapters.</li>
+<li><strong>Body Text:</strong> Standard text formatting.</li>
+<li><strong>Captions:</strong> Titles or explanations for tables and figures.</li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-269 preview-line 269" data_line_start="269" data_line_end="269" data_line="269,270" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 69 — Google Docs provides users with preformatted paragraph styles." data-align="center"></figure></div>
+<div class="preview-paragraph-271 preview-line 271" data_line_start="271" data_line_end="271" data_line="271,272" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 70 — Word has many preformatted styles users can choose from, each with a specific purpose detailed under the style." data-align="center"></figure></div>
+<h3 id="tables" class="preview-paragraph-273 preview-line 273" data_line_start="273" data_line_end="273" data_line="273,274" count_line="1"><strong>Tables</strong></h3>
+<ul class="preview-paragraph-275 preview-line 275 276 277 278 279 280" data_line_start="275" data_line_end="280" data_line="275,281" count_line="6">
+<li><strong>Purpose:</strong> Organize complex data, highlight trends, and improve readability.</li>
+<li><strong>Features:</strong>
+<ul>
+<li>Insert, format, and edit tables easily.</li>
+<li>Use predefined table templates.</li>
+<li>Add or remove rows and columns.</li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-281 preview-line 281" data_line_start="281" data_line_end="281" data_line="281,282" count_line="1"><strong>Example Table:</strong></div>
+<table align="center">
+<thead>
+<tr>
+<th>Role</th>
+<th>Coastside High</th>
+<th>Bayside High</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quarterback</td>
+<td>Alex Johnston</td>
+<td>Conan Morrison</td>
+</tr>
+<tr>
+<td>Left Tackle</td>
+<td>Angel Howard</td>
+<td>Daryl Gilliam</td>
+</tr>
+<tr>
+<td>Left Guard</td>
+<td>Arthur Smith</td>
+<td>Edmund Day</td>
+</tr>
+<tr>
+<td>Center</td>
+<td>Ben Knight</td>
+<td>Harold Sloan</td>
+</tr>
+<tr>
+<td>Quarterback</td>
+<td>Ryan Carter</td>
+<td>Jack Walker</td>
+</tr>
+</tbody>
+</table>
+<div class="preview-paragraph-291 preview-line 291" data_line_start="291" data_line_end="291" data_line="291,292" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 71 — Google Docs offers users table templates, allowing users to quickly create tables based on needs." data-align="center"></figure></div>
+<h3 id="captions" class="preview-paragraph-293 preview-line 293" data_line_start="293" data_line_end="293" data_line="293,294" count_line="1"><strong>Captions</strong></h3>
+<ul class="preview-paragraph-295 preview-line 295 296 297 298 299 300" data_line_start="295" data_line_end="300" data_line="295,301" count_line="6">
+<li><strong>Definition:</strong> Titles or brief explanations added to tables, figures, and other objects.</li>
+<li><strong>Features:</strong>
+<ul>
+<li>Automatic sequence numbering.</li>
+<li>Distinctive appearance through style application.</li>
+<li>Referencing within the document.</li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-301 preview-line 301" data_line_start="301" data_line_end="301" data_line="301,302" count_line="1"><strong>Inserting Captions:</strong></div>
+<ul class="preview-paragraph-303 preview-line 303 304 305 306 307 308" data_line_start="303" data_line_end="308" data_line="303,309" count_line="6">
+<li>
+<div><strong>Microsoft Word:</strong></div>
+<ul>
+<li><code>References &gt; Insert Caption</code></li>
+</ul>
+</li>
+<li>
+<div><strong>Google Docs:</strong></div>
+<ul>
+<li>Insert a caption manually as Google Docs doesn’t have a direct caption feature.</li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-309 preview-line 309" data_line_start="309" data_line_end="309" data_line="309,310" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 73 — Users can add captions to tables and figures to help explain their work." data-align="center"></figure></div>
+<h3 id="references" class="preview-paragraph-311 preview-line 311" data_line_start="311" data_line_end="311" data_line="311,312" count_line="1"><strong>References</strong></h3>
+<ul class="preview-paragraph-313 preview-line 313 314 315 316 317 318 319 320 321" data_line_start="313" data_line_end="321" data_line="313,322" count_line="9">
+<li><strong>Purpose:</strong> Enhance credibility, allow readers to locate related information.</li>
+<li><strong>Types:</strong>
+<ul>
+<li><strong>Citations:</strong> References to sources of information.</li>
+<li><strong>Bibliography:</strong> List of all sources used.</li>
+<li><strong>Hyperlinks:</strong> Shortcuts to other parts of the document or external websites.</li>
+<li><strong>Bookmarks:</strong> Mark specific locations in the document for easy navigation.</li>
+<li><strong>Footnotes:</strong> Additional information at the bottom of the page.</li>
+<li><strong>Table of Contents:</strong> Organized list of chapters and sections with page numbers.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="mini-quiz-4" class="preview-paragraph-324 preview-line 324" data_line_start="324" data_line_end="324" data_line="324,325" count_line="1"><strong>Mini Quiz 4</strong></h3>
+<ol class="preview-paragraph-326 preview-line 326 327 328 329 330 331 332 333 334 335 336 337 338 339" data_line_start="326" data_line_end="339" data_line="326,340" count_line="14">
+<li>
+<div><strong>Which font category includes fonts with no decorative lines at the ends of characters?</strong></div>
+<div>A. Serif<br>
+B. Sans-Serif<br>
+C. Script<br>
+D. Monospace</div>
+</li>
+<li>
+<div><strong>What is the purpose of a hanging indent?</strong></div>
+<div>A. To indent the first line of a paragraph<br>
+B. To indent all lines except the first<br>
+C. To align text in the center<br>
+D. To justify text</div>
+</li>
+</ol>
+<div class="preview-paragraph-340 preview-line 340" data_line_start="340" data_line_end="340" data_line="340,341" count_line="1"><strong>Answers:</strong></div>
+<ol class="preview-paragraph-342 preview-line 342 343 344" data_line_start="342" data_line_end="344" data_line="342,345" count_line="3">
+<li><strong>B.</strong> Sans-Serif</li>
+<li><strong>B.</strong> To indent all lines except the first</li>
+</ol>
+<hr>
+<h2 id="5.-revision-and-proofreading" class="preview-paragraph-347 preview-line 347" data_line_start="347" data_line_end="347" data_line="347,348" count_line="1">5. <strong>Revision and Proofreading</strong></h2>
+<div class="preview-paragraph-349 preview-line 349" data_line_start="349" data_line_end="349" data_line="349,350" count_line="1">Word processors offer powerful tools to help improve your writing and correct errors.</div>
+<h3 id="track-changes" class="preview-paragraph-351 preview-line 351" data_line_start="351" data_line_end="351" data_line="351,352" count_line="1"><strong>Track Changes</strong></h3>
+<ul class="preview-paragraph-353 preview-line 353 354 355 356 357 358" data_line_start="353" data_line_end="358" data_line="353,359" count_line="6">
+<li><strong>Purpose:</strong> Keep track of edits and changes made by multiple reviewers.</li>
+<li><strong>Features:</strong>
+<ul>
+<li>Highlights additions, deletions, and modifications.</li>
+<li>Allows accepting or rejecting changes.</li>
+<li>Different colors for different authors.</li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-359 preview-line 359" data_line_start="359" data_line_end="359" data_line="359,360" count_line="1"><strong>Inserting Track Changes:</strong></div>
+<ul class="preview-paragraph-361 preview-line 361 362 363 364 365 366" data_line_start="361" data_line_end="366" data_line="361,367" count_line="6">
+<li>
+<div><strong>Microsoft Word:</strong></div>
+<ul>
+<li><code>Review &gt; Track Changes</code> or <code>Ctrl + Shift + E</code></li>
+</ul>
+</li>
+<li>
+<div><strong>Google Docs:</strong></div>
+<ul>
+<li><code>Editing</code> dropdown: Select <strong>&quot;Suggesting&quot;</strong> mode.</li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-367 preview-line 367" data_line_start="367" data_line_end="367" data_line="367,368" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 79 — Word allows users to track their changes throughout their document, this is especially useful when collaborating with others." data-align="center"></figure></div>
+<h3 id="comments" class="preview-paragraph-369 preview-line 369" data_line_start="369" data_line_end="369" data_line="369,370" count_line="1"><strong>Comments</strong></h3>
+<ul class="preview-paragraph-371 preview-line 371 372 373 374" data_line_start="371" data_line_end="374" data_line="371,375" count_line="4">
+<li><strong>Purpose:</strong> Add remarks or observations without altering the main text.</li>
+<li><strong>Usage:</strong>
+<ul>
+<li>Suggest adding examples, simplifying language, reducing length, etc.</li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-375 preview-line 375" data_line_start="375" data_line_end="375" data_line="375,376" count_line="1"><strong>Inserting Comments:</strong></div>
+<ul class="preview-paragraph-377 preview-line 377 378 379 380 381 382" data_line_start="377" data_line_end="382" data_line="377,383" count_line="6">
+<li>
+<div><strong>Microsoft Word:</strong></div>
+<ul>
+<li><code>Insert &gt; Comment</code> or highlight text and right-click to select <strong>&quot;Comment&quot;</strong></li>
+</ul>
+</li>
+<li>
+<div><strong>Google Docs:</strong></div>
+<ul>
+<li>Highlight text, click <strong>&quot;Add a comment&quot;</strong> in the toolbar.</li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-383 preview-line 383" data_line_start="383" data_line_end="383" data_line="383,384" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 81 — Word users can highlight text and insert comments making collaboration easier." data-align="center"></figure></div>
+<h3 id="find-and-replace" class="preview-paragraph-385 preview-line 385" data_line_start="385" data_line_end="385" data_line="385,386" count_line="1"><strong>Find and Replace</strong></h3>
+<ul class="preview-paragraph-387 preview-line 387 388 389 390 391" data_line_start="387" data_line_end="391" data_line="387,392" count_line="5">
+<li><strong>Purpose:</strong> Quickly locate and replace words or phrases in the document.</li>
+<li><strong>Features:</strong>
+<ul>
+<li>Replace single occurrences or all at once.</li>
+<li>Advanced options for finding variations (e.g., dance, danced, dances, dancing).</li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-392 preview-line 392" data_line_start="392" data_line_end="392" data_line="392,393" count_line="1"><strong>Using Find and Replace:</strong></div>
+<ul class="preview-paragraph-394 preview-line 394 395 396 397 398 399" data_line_start="394" data_line_end="399" data_line="394,400" count_line="6">
+<li>
+<div><strong>Microsoft Word:</strong></div>
+<ul>
+<li><code>Ctrl + F</code> for Find, <code>Ctrl + H</code> for Find and Replace</li>
+</ul>
+</li>
+<li>
+<div><strong>Google Docs:</strong></div>
+<ul>
+<li><code>Edit &gt; Find and Replace</code></li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-400 preview-line 400" data_line_start="400" data_line_end="400" data_line="400,401" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 82 — The “Find and Replace” feature in Google Docs makes replacing words in documents quick and efficient." data-align="center"></figure></div>
+<h3 id="spelling-and-grammar" class="preview-paragraph-402 preview-line 402" data_line_start="402" data_line_end="402" data_line="402,403" count_line="1"><strong>Spelling and Grammar</strong></h3>
+<ul class="preview-paragraph-404 preview-line 404 405 406 407 408" data_line_start="404" data_line_end="408" data_line="404,409" count_line="5">
+<li><strong>Purpose:</strong> Identify and correct spelling and grammatical errors.</li>
+<li><strong>Features:</strong>
+<ul>
+<li>In-built spell check and grammar suggestions.</li>
+<li>Add new words to the dictionary.</li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-409 preview-line 409" data_line_start="409" data_line_end="409" data_line="409,410" count_line="1"><strong>Using Spelling and Grammar:</strong></div>
+<ul class="preview-paragraph-411 preview-line 411 412 413 414 415 416" data_line_start="411" data_line_end="416" data_line="411,417" count_line="6">
+<li>
+<div><strong>Microsoft Word:</strong></div>
+<ul>
+<li><code>Review &gt; Spelling &amp; Grammar</code></li>
+</ul>
+</li>
+<li>
+<div><strong>Google Docs:</strong></div>
+<ul>
+<li><code>Tools &gt; Spelling and grammar</code></li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-417 preview-line 417" data_line_start="417" data_line_end="417" data_line="417,418" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 84 — The “Spelling and Grammar” feature in Google Docs allows users to quickly review their document." data-align="center"></figure></div>
+<h3 id="thesaurus" class="preview-paragraph-419 preview-line 419" data_line_start="419" data_line_end="419" data_line="419,420" count_line="1"><strong>Thesaurus</strong></h3>
+<ul class="preview-paragraph-421 preview-line 421 422 423 424" data_line_start="421" data_line_end="424" data_line="421,425" count_line="4">
+<li><strong>Purpose:</strong> Find synonyms to avoid repetition and enhance vocabulary.</li>
+<li><strong>Usage:</strong>
+<ul>
+<li>Replace overused words with alternatives.</li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-425 preview-line 425" data_line_start="425" data_line_end="425" data_line="425,426" count_line="1"><strong>Using Thesaurus:</strong></div>
+<ul class="preview-paragraph-427 preview-line 427 428 429 430 431 432" data_line_start="427" data_line_end="432" data_line="427,433" count_line="6">
+<li>
+<div><strong>Microsoft Word:</strong></div>
+<ul>
+<li><code>Review &gt; Thesaurus</code></li>
+</ul>
+</li>
+<li>
+<div><strong>Google Docs:</strong></div>
+<ul>
+<li><code>Tools &gt; Dictionary</code></li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-433 preview-line 433" data_line_start="433" data_line_end="433" data_line="433,434" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 86 — The dictionary in Google Docs can be found under the “Tools” tab and will show the results of your chosen word making it easy to quickly reference." data-align="center"></figure></div>
+<div class="preview-paragraph-435 preview-line 435" data_line_start="435" data_line_end="435" data_line="435,436" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 87 — Similar to the Dictionary in Google Docs, the Thesaurus in Word allows users to find definitions of words." data-align="center"></figure></div>
+<hr>
+<h3 id="mini-quiz-5" class="preview-paragraph-439 preview-line 439" data_line_start="439" data_line_end="439" data_line="439,440" count_line="1"><strong>Mini Quiz 5</strong></h3>
+<ol class="preview-paragraph-441 preview-line 441 442 443 444 445 446 447 448 449 450 451 452 453 454" data_line_start="441" data_line_end="454" data_line="441,455" count_line="14">
+<li>
+<div><strong>Which feature in word processors highlights changes made to a document by different authors?</strong></div>
+<div>A. Comments<br>
+B. Track Changes<br>
+C. Thesaurus<br>
+D. Find and Replace</div>
+</li>
+<li>
+<div><strong>What is the keyboard shortcut to insert a comment in Microsoft Word?</strong></div>
+<div>A. <code>Ctrl + Alt + M</code><br>
+B. <code>Ctrl + C</code><br>
+C. <code>Ctrl + V</code><br>
+D. <code>Ctrl + K</code></div>
+</li>
+</ol>
+<div class="preview-paragraph-455 preview-line 455" data_line_start="455" data_line_end="455" data_line="455,456" count_line="1"><strong>Answers:</strong></div>
+<ol class="preview-paragraph-457 preview-line 457 458 459" data_line_start="457" data_line_end="459" data_line="457,460" count_line="3">
+<li><strong>B.</strong> Track Changes</li>
+<li><strong>A.</strong> <code>Ctrl + Alt + M</code></li>
+</ol>
+<hr>
+<h2 id="6.-references" class="preview-paragraph-462 preview-line 462" data_line_start="462" data_line_end="462" data_line="462,463" count_line="1">6. <strong>References</strong></h2>
+<h3 id="citations-and-bibliography" class="preview-paragraph-464 preview-line 464" data_line_start="464" data_line_end="464" data_line="464,465" count_line="1"><strong>Citations and Bibliography</strong></h3>
+<ul class="preview-paragraph-466 preview-line 466 467 468 469 470" data_line_start="466" data_line_end="470" data_line="466,471" count_line="5">
+<li><strong>Purpose:</strong> Credit sources and allow readers to locate them.</li>
+<li><strong>Features:</strong>
+<ul>
+<li>Industry-standard formats (MLA, APA, Chicago).</li>
+<li>Automatically generate and update bibliography.</li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-471 preview-line 471" data_line_start="471" data_line_end="471" data_line="471,472" count_line="1"><strong>Creating Citations:</strong></div>
+<ul class="preview-paragraph-473 preview-line 473 474 475 476 477 478" data_line_start="473" data_line_end="478" data_line="473,479" count_line="6">
+<li>
+<div><strong>Microsoft Word:</strong></div>
+<ul>
+<li><code>References &gt; Insert Citation</code></li>
+</ul>
+</li>
+<li>
+<div><strong>Google Docs:</strong></div>
+<ul>
+<li><code>Tools &gt; Citations</code></li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-479 preview-line 479" data_line_start="479" data_line_end="479" data_line="479,480" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 88 — In Google Docs, “Citations” can be found under the “Tools” tab. Your citations are organized in a library and gives users the option to insert a works cited section to the document." data-align="center"></figure></div>
+<h3 id="hyperlinks" class="preview-paragraph-481 preview-line 481" data_line_start="481" data_line_end="481" data_line="481,482" count_line="1"><strong>Hyperlinks</strong></h3>
+<ul class="preview-paragraph-483 preview-line 483 484 485 486" data_line_start="483" data_line_end="486" data_line="483,487" count_line="4">
+<li><strong>Purpose:</strong> Link to external websites or different sections within the document.</li>
+<li><strong>Usage:</strong>
+<ul>
+<li>Enhance navigation and provide additional resources.</li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-487 preview-line 487" data_line_start="487" data_line_end="487" data_line="487,488" count_line="1"><strong>Inserting Hyperlinks:</strong></div>
+<ul class="preview-paragraph-489 preview-line 489 490 491 492 493" data_line_start="489" data_line_end="493" data_line="489,494" count_line="5">
+<li><strong>Microsoft Word:</strong>
+<ul>
+<li>Highlight text, right-click, select <strong>&quot;Link&quot;</strong>, enter URL or document section.</li>
+</ul>
+</li>
+<li><strong>Google Docs:</strong>
+<ul>
+<li>Highlight text, click <strong>&quot;Insert link&quot;</strong> icon or <code>Ctrl + K</code>, enter URL or document section.</li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-494 preview-line 494" data_line_start="494" data_line_end="494" data_line="494,495" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 89 — Word users can quickly embed links by right clicking words." data-align="center"></figure></div>
+<div class="preview-paragraph-496 preview-line 496" data_line_start="496" data_line_end="496" data_line="496,497" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 90 — Word users must enter in a web address to embed it to the highlighted words." data-align="center"></figure></div>
+<div class="preview-paragraph-498 preview-line 498" data_line_start="498" data_line_end="498" data_line="498,499" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 91 — Bookmarks allow Word users to link web addresses to different sections in the same document." data-align="center"></figure></div>
+<h3 id="bookmarks" class="preview-paragraph-500 preview-line 500" data_line_start="500" data_line_end="500" data_line="500,501" count_line="1"><strong>Bookmarks</strong></h3>
+<ul class="preview-paragraph-502 preview-line 502 503 504" data_line_start="502" data_line_end="504" data_line="502,505" count_line="3">
+<li><strong>Purpose:</strong> Mark specific locations in the document for easy navigation.</li>
+<li><strong>Usage:</strong> Create links to bookmarks for internal referencing.</li>
+</ul>
+<div class="preview-paragraph-505 preview-line 505" data_line_start="505" data_line_end="505" data_line="505,506" count_line="1"><strong>Inserting Bookmarks:</strong></div>
+<ul class="preview-paragraph-507 preview-line 507 508 509 510 511 512" data_line_start="507" data_line_end="512" data_line="507,513" count_line="6">
+<li>
+<div><strong>Microsoft Word:</strong></div>
+<ul>
+<li><code>Insert &gt; Bookmark</code></li>
+</ul>
+</li>
+<li>
+<div><strong>Google Docs:</strong></div>
+<ul>
+<li>Use headings or manually add bookmarks via <code>Insert &gt; Bookmark</code></li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-513 preview-line 513" data_line_start="513" data_line_end="513" data_line="513,514" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 92 — Bookmarks allow Word users to link web addresses to different sections in the same document." data-align="center"></figure></div>
+<h3 id="footnotes" class="preview-paragraph-515 preview-line 515" data_line_start="515" data_line_end="515" data_line="515,516" count_line="1"><strong>Footnotes</strong></h3>
+<ul class="preview-paragraph-517 preview-line 517 518 519" data_line_start="517" data_line_end="519" data_line="517,520" count_line="3">
+<li><strong>Purpose:</strong> Provide additional information without disrupting the main text flow.</li>
+<li><strong>Usage:</strong> Explain terms, cite sources, add context.</li>
+</ul>
+<div class="preview-paragraph-520 preview-line 520" data_line_start="520" data_line_end="520" data_line="520,521" count_line="1"><strong>Inserting Footnotes:</strong></div>
+<ul class="preview-paragraph-522 preview-line 522 523 524 525 526 527" data_line_start="522" data_line_end="527" data_line="522,528" count_line="6">
+<li>
+<div><strong>Microsoft Word:</strong></div>
+<ul>
+<li><code>References &gt; Insert Footnote</code></li>
+</ul>
+</li>
+<li>
+<div><strong>Google Docs:</strong></div>
+<ul>
+<li><code>Insert &gt; Footnote</code></li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-528 preview-line 528" data_line_start="528" data_line_end="528" data_line="528,529" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 93 — The “References” tab in Word allows users to insert footnotes in their documents." data-align="center"></figure></div>
+<div class="preview-paragraph-530 preview-line 530" data_line_start="530" data_line_end="530" data_line="530,531" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 94 — Footnotes appear at the bottom of a page in a document." data-align="center"></figure></div>
+<h3 id="table-of-contents" class="preview-paragraph-532 preview-line 532" data_line_start="532" data_line_end="532" data_line="532,533" count_line="1"><strong>Table of Contents</strong></h3>
+<ul class="preview-paragraph-534 preview-line 534 535 536 537 538" data_line_start="534" data_line_end="538" data_line="534,539" count_line="5">
+<li><strong>Purpose:</strong> Provide an organized list of chapters and sections with page numbers.</li>
+<li><strong>Features:</strong>
+<ul>
+<li>Automatically generated based on heading styles.</li>
+<li>Live updates as the document changes.</li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-539 preview-line 539" data_line_start="539" data_line_end="539" data_line="539,540" count_line="1"><strong>Inserting Table of Contents:</strong></div>
+<ul class="preview-paragraph-541 preview-line 541 542 543 544 545 546" data_line_start="541" data_line_end="546" data_line="541,547" count_line="6">
+<li>
+<div><strong>Microsoft Word:</strong></div>
+<ul>
+<li><code>References &gt; Table of Contents</code></li>
+</ul>
+</li>
+<li>
+<div><strong>Google Docs:</strong></div>
+<ul>
+<li><code>Insert &gt; Table of contents</code></li>
+</ul>
+</li>
+</ul>
+<div class="preview-paragraph-547 preview-line 547" data_line_start="547" data_line_end="547" data_line="547,548" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 95 — Word Processing application allow users to create tables of content by indexing headers and page numbers." data-align="center"></figure></div>
+<div class="preview-paragraph-549 preview-line 549" data_line_start="549" data_line_end="549" data_line="549,550" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 96 — Word processing application allow users to quickly update the table of contents." data-align="center"></figure></div>
+<div class="preview-paragraph-551 preview-line 551" data_line_start="551" data_line_end="551" data_line="551,552" count_line="1"><strong>Keyboard Shortcut to Update Fields and TOC:</strong></div>
+<ol class="preview-paragraph-553 preview-line 553 554 555" data_line_start="553" data_line_end="555" data_line="553,556" count_line="3">
+<li>Select entire document: <code>Ctrl + A</code></li>
+<li>Update fields: <code>F9</code></li>
+</ol>
+<hr>
+<h3 id="mini-quiz-6" class="preview-paragraph-558 preview-line 558" data_line_start="558" data_line_end="558" data_line="558,559" count_line="1"><strong>Mini Quiz 6</strong></h3>
+<ol class="preview-paragraph-560 preview-line 560 561 562 563 564 565 566 567 568 569 570 571 572 573" data_line_start="560" data_line_end="573" data_line="560,574" count_line="14">
+<li>
+<div><strong>What feature allows you to credit sources and automatically generate a bibliography?</strong></div>
+<div>A. Hyperlinks<br>
+B. Citations and Bibliography<br>
+C. Footnotes<br>
+D. Comments</div>
+</li>
+<li>
+<div><strong>Which tab in Microsoft Word contains the option to insert a Table of Contents?</strong></div>
+<div>A. Home<br>
+B. Insert<br>
+C. References<br>
+D. Review</div>
+</li>
+</ol>
+<div class="preview-paragraph-574 preview-line 574" data_line_start="574" data_line_end="574" data_line="574,575" count_line="1"><strong>Answers:</strong></div>
+<ol class="preview-paragraph-576 preview-line 576 577 578" data_line_start="576" data_line_end="578" data_line="576,579" count_line="3">
+<li><strong>B.</strong> Citations and Bibliography</li>
+<li><strong>C.</strong> References</li>
+</ol>
+<hr>
+<h2 id="7.-mail-merge" class="preview-paragraph-581 preview-line 581" data_line_start="581" data_line_end="581" data_line="581,582" count_line="1">7. <strong>Mail Merge</strong></h2>
+<div class="preview-paragraph-583 preview-line 583" data_line_start="583" data_line_end="583" data_line="583,584" count_line="1"><strong>Mail Merge</strong> allows you to create personalized documents or emails for multiple recipients by combining a template with a data source.</div>
+<h3 id="steps-to-perform-mail-merge-in-microsoft-word%3A" class="preview-paragraph-585 preview-line 585" data_line_start="585" data_line_end="585" data_line="585,586" count_line="1"><strong>Steps to Perform Mail Merge in Microsoft Word:</strong></h3>
+<ol class="preview-paragraph-587 preview-line 587 588 589 590 591 592 593 594 595 596 597 598 599 600 601 602 603 604 605 606 607 608 609 610 611 612 613" data_line_start="587" data_line_end="613" data_line="587,614" count_line="27">
+<li>
+<div><strong>Create the Template:</strong></div>
+<ul>
+<li>Write the letter or email in a Word document.</li>
+<li>Example: Holiday greetings, promotional letters, grade letters.</li>
+</ul>
+<div><figure style="text-align: center"><img src="#" alt="Figure 97 — In Word, users must first create a template of the letter or email they wish to send (top). Then in Excel, a list of recipients must be created (bottom)." data-align="center"></figure></div>
+</li>
+<li>
+<div><strong>Prepare the Recipient List:</strong></div>
+<ul>
+<li>Use an Excel sheet with a header row (e.g., First Name, Last Name, Email).</li>
+<li>Each row represents a recipient.</li>
+</ul>
+</li>
+<li>
+<div><strong>Link the Data Source:</strong></div>
+<ul>
+<li>In Word, go to <code>Mailings &gt; Select Recipients &gt; Use an Existing List</code>.</li>
+<li>Choose the Excel file with recipients.</li>
+</ul>
+<div><figure style="text-align: center"><img src="#" alt="Figure 98 — In Word users should then choose to use an existing list of contacts." data-align="center"></figure></div>
+</li>
+<li>
+<div><strong>Insert Merge Fields:</strong></div>
+<ul>
+<li><code>Mailings &gt; Insert Merge Field</code> to add personalized fields (e.g., First Name).</li>
+</ul>
+<div><figure style="text-align: center"><img src="#" alt="Figure 99 — Use the “Insert Merge Field” to set up the template. Any fields required to complete the letter can be inserted." data-align="center"></figure></div>
+</li>
+<li>
+<div><strong>Preview Results:</strong></div>
+<ul>
+<li><code>Mailings &gt; Preview Results</code> to see how the merged documents will look.</li>
+</ul>
+</li>
+<li>
+<div><strong>Finish &amp; Merge:</strong></div>
+<ul>
+<li><code>Mailings &gt; Finish &amp; Merge &gt; Print Documents</code> or <code>Send Email Messages</code>.</li>
+</ul>
+</li>
+</ol>
+<div class="preview-paragraph-614 preview-line 614" data_line_start="614" data_line_end="614" data_line="614,615" count_line="1"><figure style="text-align: center"><img src="#" alt="Figure 99 — Use the “Insert Merge Field” to set up the template. Any fields required to complete the letter can be inserted." data-align="center"></figure></div>
+<h3 id="benefits-of-mail-merge%3A" class="preview-paragraph-616 preview-line 616" data_line_start="616" data_line_end="616" data_line="616,617" count_line="1"><strong>Benefits of Mail Merge:</strong></h3>
+<ul class="preview-paragraph-618 preview-line 618 619 620 621" data_line_start="618" data_line_end="621" data_line="618,622" count_line="4">
+<li><strong>Efficiency:</strong> Create thousands of personalized documents quickly.</li>
+<li><strong>Accuracy:</strong> Reduces the risk of errors from manual entry.</li>
+<li><strong>Personalization:</strong> Each document is tailored to the recipient.</li>
+</ul>
+<hr>
+<h3 id="mini-quiz-7" class="preview-paragraph-624 preview-line 624" data_line_start="624" data_line_end="624" data_line="624,625" count_line="1"><strong>Mini Quiz 7</strong></h3>
+<ol class="preview-paragraph-626 preview-line 626 627 628 629 630 631 632 633 634 635 636 637 638 639" data_line_start="626" data_line_end="639" data_line="626,640" count_line="14">
+<li>
+<div><strong>What is the primary purpose of Mail Merge?</strong></div>
+<div>A. To format text<br>
+B. To create personalized documents for multiple recipients<br>
+C. To insert images<br>
+D. To track changes</div>
+</li>
+<li>
+<div><strong>Which application is commonly used as the data source for Mail Merge in Microsoft Word?</strong></div>
+<div>A. Google Sheets<br>
+B. Microsoft Excel<br>
+C. Microsoft Access<br>
+D. Notepad</div>
+</li>
+</ol>
+<div class="preview-paragraph-640 preview-line 640" data_line_start="640" data_line_end="640" data_line="640,641" count_line="1"><strong>Answers:</strong></div>
+<ol class="preview-paragraph-642 preview-line 642 643 644" data_line_start="642" data_line_end="644" data_line="642,645" count_line="3">
+<li><strong>B.</strong> To create personalized documents for multiple recipients</li>
+<li><strong>B.</strong> Microsoft Excel</li>
+</ol>
+<hr>
+<h2 id="8.-mini-quizzes" class="preview-paragraph-647 preview-line 647" data_line_start="647" data_line_end="647" data_line="647,648" count_line="1">8. <strong>Mini Quizzes</strong></h2>
+<h3 id="quiz-1%3A-essential-file-operations" class="preview-paragraph-649 preview-line 649" data_line_start="649" data_line_end="649" data_line="649,650" count_line="1"><strong>Quiz 1: Essential File Operations</strong></h3>
+<ol class="preview-paragraph-651 preview-line 651 652 653 654 655 656 657 658 659 660 661 662 663 664" data_line_start="651" data_line_end="664" data_line="651,665" count_line="14">
+<li>
+<div><strong>Which feature allows your document to be saved automatically as you work?</strong></div>
+<div>A. Manual Save<br>
+B. Auto Save<br>
+C. Print Preview<br>
+D. Export</div>
+</li>
+<li>
+<div><strong>What is the keyboard shortcut to manually save a document in most word processors?</strong></div>
+<div>A. <code>Ctrl + P</code><br>
+B. <code>Ctrl + S</code><br>
+C. <code>Ctrl + C</code><br>
+D. <code>Ctrl + V</code></div>
+</li>
+</ol>
+<div class="preview-paragraph-665 preview-line 665" data_line_start="665" data_line_end="665" data_line="665,666" count_line="1"><strong>Answers:</strong></div>
+<ol class="preview-paragraph-667 preview-line 667 668 669" data_line_start="667" data_line_end="669" data_line="667,670" count_line="3">
+<li><strong>B.</strong> Auto Save</li>
+<li><strong>B.</strong> <code>Ctrl + S</code></li>
+</ol>
+<hr>
+<h3 id="quiz-2%3A-creating-content" class="preview-paragraph-672 preview-line 672" data_line_start="672" data_line_end="672" data_line="672,673" count_line="1"><strong>Quiz 2: Creating Content</strong></h3>
+<ol class="preview-paragraph-674 preview-line 674 675 676 677 678 679 680 681 682 683 684 685 686 687" data_line_start="674" data_line_end="687" data_line="674,688" count_line="14">
+<li>
+<div><strong>Which font category includes fonts with small decorative lines at the ends of characters?</strong></div>
+<div>A. Sans-Serif<br>
+B. Script<br>
+C. Serif<br>
+D. Monospace</div>
+</li>
+<li>
+<div><strong>What is the standard conversion between points and pixels?</strong></div>
+<div>A. 12 pt = 16 px<br>
+B. 10 pt = 12 px<br>
+C. 14 pt = 18 px<br>
+D. 8 pt = 10 px</div>
+</li>
+</ol>
+<div class="preview-paragraph-688 preview-line 688" data_line_start="688" data_line_end="688" data_line="688,689" count_line="1"><strong>Answers:</strong></div>
+<ol class="preview-paragraph-690 preview-line 690 691 692" data_line_start="690" data_line_end="692" data_line="690,693" count_line="3">
+<li><strong>C.</strong> Serif</li>
+<li><strong>A.</strong> 12 pt = 16 px</li>
+</ol>
+<hr>
+<h3 id="quiz-3%3A-revision-and-proofreading" class="preview-paragraph-695 preview-line 695" data_line_start="695" data_line_end="695" data_line="695,696" count_line="1"><strong>Quiz 3: Revision and Proofreading</strong></h3>
+<ol class="preview-paragraph-697 preview-line 697 698 699 700 701 702 703 704 705 706 707 708 709 710" data_line_start="697" data_line_end="710" data_line="697,711" count_line="14">
+<li>
+<div><strong>Which feature in word processors highlights changes made to a document by different authors?</strong></div>
+<div>A. Comments<br>
+B. Track Changes<br>
+C. Thesaurus<br>
+D. Find and Replace</div>
+</li>
+<li>
+<div><strong>What is the keyboard shortcut to insert a comment in Microsoft Word?</strong></div>
+<div>A. <code>Ctrl + Alt + M</code><br>
+B. <code>Ctrl + C</code><br>
+C. <code>Ctrl + V</code><br>
+D. <code>Ctrl + K</code></div>
+</li>
+</ol>
+<div class="preview-paragraph-711 preview-line 711" data_line_start="711" data_line_end="711" data_line="711,712" count_line="1"><strong>Answers:</strong></div>
+<ol class="preview-paragraph-713 preview-line 713 714 715" data_line_start="713" data_line_end="715" data_line="713,716" count_line="3">
+<li><strong>B.</strong> Track Changes</li>
+<li><strong>A.</strong> <code>Ctrl + Alt + M</code></li>
+</ol>
+<hr>
+<h3 id="quiz-4%3A-references-and-hyperlinks" class="preview-paragraph-718 preview-line 718" data_line_start="718" data_line_end="718" data_line="718,719" count_line="1"><strong>Quiz 4: References and Hyperlinks</strong></h3>
+<ol class="preview-paragraph-720 preview-line 720 721 722 723 724 725 726 727 728 729 730 731 732 733" data_line_start="720" data_line_end="733" data_line="720,734" count_line="14">
+<li>
+<div><strong>What feature allows you to link to different sections within the same document?</strong></div>
+<div>A. Hyperlinks<br>
+B. Footnotes<br>
+C. Bookmarks<br>
+D. Both A and C</div>
+</li>
+<li>
+<div><strong>Which tab in Microsoft Word contains the option to insert a Table of Contents?</strong></div>
+<div>A. Home<br>
+B. Insert<br>
+C. References<br>
+D. Review</div>
+</li>
+</ol>
+<div class="preview-paragraph-734 preview-line 734" data_line_start="734" data_line_end="734" data_line="734,735" count_line="1"><strong>Answers:</strong></div>
+<ol class="preview-paragraph-736 preview-line 736 737 738" data_line_start="736" data_line_end="738" data_line="736,739" count_line="3">
+<li><strong>D.</strong> Both A and C</li>
+<li><strong>C.</strong> References</li>
+</ol>
+<hr>
+<h3 id="quiz-5%3A-mail-merge" class="preview-paragraph-741 preview-line 741" data_line_start="741" data_line_end="741" data_line="741,742" count_line="1"><strong>Quiz 5: Mail Merge</strong></h3>
+<ol class="preview-paragraph-743 preview-line 743 744 745 746 747 748 749 750 751 752 753 754 755 756" data_line_start="743" data_line_end="756" data_line="743,757" count_line="14">
+<li>
+<div><strong>What is the primary purpose of Mail Merge?</strong></div>
+<div>A. To format text<br>
+B. To create personalized documents for multiple recipients<br>
+C. To insert images<br>
+D. To track changes</div>
+</li>
+<li>
+<div><strong>Which application is commonly used as the data source for Mail Merge in Microsoft Word?</strong></div>
+<div>A. Google Sheets<br>
+B. Microsoft Excel<br>
+C. Microsoft Access<br>
+D. Notepad</div>
+</li>
+</ol>
+<div class="preview-paragraph-757 preview-line 757" data_line_start="757" data_line_end="757" data_line="757,758" count_line="1"><strong>Answers:</strong></div>
+<ol class="preview-paragraph-759 preview-line 759 760 761" data_line_start="759" data_line_end="761" data_line="759,762" count_line="3">
+<li><strong>B.</strong> To create personalized documents for multiple recipients</li>
+<li><strong>B.</strong> Microsoft Excel</li>
+</ol>
+<hr>
+<h2 id="9.-glossary-of-terms" class="preview-paragraph-764 preview-line 764" data_line_start="764" data_line_end="764" data_line="764,765" count_line="1">9. <strong>Glossary of Terms</strong></h2>
+<ul class="preview-paragraph-766 preview-line 766 767 768 769 770 771 772 773 774 775 776 777 778 779 780 781 782 783 784 785 786 787 788 789 790" data_line_start="766" data_line_end="790" data_line="766,791" count_line="25">
+<li><strong>Word Processor:</strong> Software application for creating, editing, and formatting text documents.</li>
+<li><strong>Template:</strong> Preformatted document structure that serves as a starting point for new documents.</li>
+<li><strong>Font:</strong> A set of characters with a specific style, size, and weight.</li>
+<li><strong>Serif:</strong> Decorative lines at the ends of characters in certain fonts.</li>
+<li><strong>Sans-Serif:</strong> Fonts without decorative lines at the ends of characters.</li>
+<li><strong>Script Font:</strong> Fonts that mimic handwritten or cursive styles.</li>
+<li><strong>Point (pt):</strong> Unit of measurement for font size; 1 pt = 1/72 inch.</li>
+<li><strong>Pixel (px):</strong> Unit of measurement for digital displays; 1 px = 1/96 inch.</li>
+<li><strong>Indentation:</strong> Space between the margin and the beginning of a paragraph.</li>
+<li><strong>Alignment:</strong> Orientation of text within a document (left, right, center, justified).</li>
+<li><strong>Bulleted List:</strong> A list where items are marked with bullets.</li>
+<li><strong>Numbered List:</strong> A list where items are numbered in sequence.</li>
+<li><strong>Styles:</strong> Predefined formatting settings applied to text for consistency.</li>
+<li><strong>Table:</strong> A grid of rows and columns used to organize data.</li>
+<li><strong>Caption:</strong> A title or explanation added to tables, figures, etc.</li>
+<li><strong>Citation:</strong> A reference to a source of information.</li>
+<li><strong>Bibliography:</strong> A list of all sources referenced in a document.</li>
+<li><strong>Hyperlink:</strong> A clickable link that directs to another location in the document or an external website.</li>
+<li><strong>Bookmark:</strong> A marker in the document for easy navigation.</li>
+<li><strong>Footnote:</strong> Additional information placed at the bottom of a page.</li>
+<li><strong>Table of Contents (TOC):</strong> An organized list of document sections with page numbers.</li>
+<li><strong>Track Changes:</strong> A feature that records edits made to a document.</li>
+<li><strong>Comments:</strong> Notes or remarks added to a document without altering the main text.</li>
+<li><strong>Mail Merge:</strong> A process to create personalized documents for multiple recipients using a template and data source.</li>
+</ul>
+<hr>
+
+    </div>
+  </div>
+</body>
+</html>

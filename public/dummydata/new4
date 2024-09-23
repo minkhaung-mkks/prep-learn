@@ -1,361 +1,360 @@
-1. What is the primary characteristic of frictional unemployment?
-    a. It's caused by economic downturns
-    b. It's a result of technological changes
-    c. It's temporary and occurs as people transition between jobs
-    d. It's permanent and caused by a mismatch of skills
+1. What is the primary purpose of a computer network?
+    a. To store data
+    b. To process information
+    c. To connect devices and share resources
+    d. To run applications
 
-2. Which of the following is NOT a type of unemployment discussed in the text?
-    a. Structural unemployment
-    b. Cyclical unemployment
-    c. Seasonal unemployment
-    d. Frictional unemployment
+2. Which network topology uses a central device to connect all nodes?
+    a. Bus
+    b. Star
+    c. Ring
+    d. Mesh
 
-3. What does the natural rate of unemployment represent?
-    a. Zero unemployment in the economy
-    b. The level of unemployment when the economy is at full employment
-    c. The highest level of unemployment during a recession
-    d. The unemployment rate caused only by economic downturns
+3. What is the main disadvantage of a bus topology?
+    a. High cost
+    b. Limited scalability
+    c. Single point of failure
+    d. Complex configuration
 
-4. Which type of unemployment is most directly related to economic recessions?
-    a. Frictional unemployment
-    b. Structural unemployment
-    c. Cyclical unemployment
-    d. Natural unemployment
+4. Which OSI layer is responsible for routing data?
+    a. Physical Layer
+    b. Data Link Layer
+    c. Network Layer
+    d. Transport Layer
 
-5. What is the primary cause of structural unemployment?
-    a. Seasonal changes in job availability
-    b. Temporary transitions between jobs
-    c. Economic recessions
-    d. Mismatch between workers' skills and job requirements
+5. In the TCP/IP model, which layer handles both data transmission and session management?
+    a. Link Layer
+    b. Internet Layer
+    c. Transport Layer
+    d. Application Layer
 
-6. Who is NOT included in the labor force?
-    a. Employed individuals
-    b. Unemployed individuals actively seeking work
-    c. Discouraged workers who have stopped looking for jobs
-    d. Part-time workers
+6. Why is fiber optic cable preferred for long-distance data transmission?
+    a. Lower cost
+    b. Easier installation
+    c. Higher bandwidth and less signal degradation
+    d. Better compatibility with older systems
 
-7. How is the unemployment rate calculated?
-    a. (Number of unemployed / Total population) x 100
-    b. (Number of unemployed / Labor force) x 100
-    c. (Number of employed / Labor force) x 100
-    d. (Number of unemployed / Number of employed) x 100
+7. What is the main disadvantage of wireless communication compared to wired?
+    a. Lower bandwidth
+    b. Higher latency
+    c. More susceptible to interference
+    d. Limited range
 
-8. What is the definition of full employment in economics?
-    a. When everyone who wants a job has one
-    b. When only frictional and structural unemployment exist
-    c. When the unemployment rate is zero
-    d. When cyclical unemployment is at its lowest
+8. What is a MAC address, and at which OSI layer does it operate?
+    a. A logical address operating at the Network layer
+    b. A physical address operating at the Data Link layer
+    c. An IP address operating at the Transport layer
+    d. A port number operating at the Application layer
 
-9. Which of the following is NOT considered an economic implication of unemployment?
-    a. Reduced income
-    b. Lower GDP
-    c. Increased government spending
-    d. Higher productivity
+9. How does a cyclic redundancy check (CRC) detect errors in transmitted data?
+    a. By counting the number of 1s in the data
+    b. By comparing the data to a predefined pattern
+    c. By calculating a checksum and verifying it at the receiver
+    d. By encrypting the data before transmission
 
-10. What is the labor force participation rate?
-    a. The percentage of the total population that is employed
-    b. The percentage of the eligible population in the labor force
-    c. The ratio of employed to unemployed individuals
-    d. The percentage of the labor force that is unemployed
+10. What is the main difference between IPv4 and IPv6 addressing?
+    a. IPv6 uses decimal notation while IPv4 uses hexadecimal
+    b. IPv4 has a larger address space than IPv6
+    c. IPv6 has a much larger address space than IPv4
+    d. IPv4 is more secure than IPv6
 
-11. Who is included in the eligible population for labor force calculations?
-    a. All individuals aged 16 and over
-    b. All employed and unemployed individuals
-    c. All individuals aged 16 and over, excluding those institutionalized or in the military
-    d. Only employed individuals aged 18 and over
+11. Name two routing protocols and briefly describe their purpose.
+    a. HTTP and FTP - for web browsing and file transfer
+    b. TCP and UDP - for reliable and unreliable data transfer
+    c. RIP and OSPF - for exchanging routing information between routers
+    d. DNS and DHCP - for domain name resolution and IP address assignment
 
-12. What is the primary characteristic of discouraged workers?
-    a. They are actively seeking employment
-    b. They have stopped looking for work due to believing no jobs are available
-    c. They are part-time workers seeking full-time employment
-    d. They are unemployed due to seasonal factors
+12. What are the key differences between TCP and UDP in terms of reliability?
+    a. TCP is reliable and connection-oriented, UDP is unreliable and connectionless
+    b. UDP is reliable and connection-oriented, TCP is unreliable and connectionless
+    c. Both TCP and UDP are reliable and connection-oriented
+    d. Both TCP and UDP are unreliable and connectionless
 
-13. Which phase of the business cycle is characterized by increasing economic activity and falling unemployment?
-    a. Contraction
-    b. Trough
-    c. Expansion
-    d. Peak
+13. What is the purpose of a port in network communication?
+    a. To identify the physical connection point
+    b. To specify the network protocol being used
+    c. To identify specific processes or services within a computer
+    d. To determine the packet's priority in the network
 
-14. During which phase of the business cycle is unemployment typically at its lowest?
-    a. Expansion
-    b. Peak
-    c. Contraction
-    d. Trough
+14. Why is HTTPS preferred over HTTP for sensitive data transmission?
+    a. HTTPS is faster than HTTP
+    b. HTTPS uses compression to reduce data size
+    c. HTTPS adds a layer of encryption for secure communication
+    d. HTTPS allows for larger data transfers
 
-15. What is the main difference between the peak and trough phases of the business cycle?
-    a. Peak has the highest economic activity, while trough has the lowest
-    b. Peak has the lowest unemployment, while trough has the highest
-    c. Peak has the highest inflation, while trough has deflation
-    d. All of the above
+15. How does DNS improve user experience when browsing the internet?
+    a. By compressing web pages for faster loading
+    b. By caching frequently visited websites
+    c. By translating domain names to IP addresses
+    d. By filtering out malicious websites
 
-16. Which of the following is NOT a characteristic of the contraction phase in the business cycle?
-    a. Decreasing economic activity
-    b. Falling GDP
-    c. Increasing unemployment
-    d. Rising consumer spending
+16. What is the primary function of a switch in a network?
+    a. To connect different networks
+    b. To assign IP addresses to devices
+    c. To forward data within a LAN based on MAC addresses
+    d. To encrypt network traffic
 
-17. What is the primary purpose of understanding the business cycle for policymakers?
-    a. To predict stock market trends
-    b. To implement appropriate fiscal and monetary policies
-    c. To determine election cycles
-    d. To set minimum wage rates
+17. How does a firewall contribute to network security?
+    a. By increasing network speed
+    b. By compressing data packets
+    c. By filtering incoming and outgoing network traffic
+    d. By assigning unique IP addresses to devices
 
-18. How does an economic expansion typically affect inflation?
-    a. Inflation tends to decrease
-    b. Inflation tends to increase
-    c. Inflation remains constant
-    d. There is no consistent relationship between expansion and inflation
+18. What is encryption, and why is it essential in modern networks?
+    a. A method to compress data; essential for faster transmission
+    b. A technique to convert data into code; essential for data confidentiality
+    c. A protocol for routing data; essential for efficient network performance
+    d. A system for assigning IP addresses; essential for network organization
 
-19. Which of the following groups is included in the labor force?
-    a. Retirees
-    b. Full-time students not seeking employment
-    c. Unemployed individuals actively seeking work
-    d. Homemakers not seeking employment
+19. How does a VPN enhance security for remote users?
+    a. By increasing internet speed
+    b. By providing a dedicated server for each user
+    c. By encrypting the user's internet connection
+    d. By blocking all incoming network traffic
 
-20. What is the main difference between cyclical and structural unemployment?
-    a. Cyclical is caused by economic downturns, while structural is due to mismatches in skills
-    b. Cyclical is permanent, while structural is temporary
-    c. Cyclical affects only certain industries, while structural affects the entire economy
-    d. Cyclical is voluntary, while structural is involuntary
+20. What is the main difference between Wi-Fi and Bluetooth in terms of use cases?
+    a. Wi-Fi is for short-range, Bluetooth for long-range communication
+    b. Wi-Fi is for internet access, Bluetooth for short-range device connections
+    c. Bluetooth is for internet access, Wi-Fi for short-range device connections
+    d. There is no significant difference in their use cases
 
-21. Which phase of the business cycle immediately follows the peak?
-    a. Expansion
-    b. Contraction
-    c. Trough
-    d. Recovery
+21. Which wireless standard, 802.11n or 802.11ac, offers faster speeds?
+    a. 802.11n
+    b. 802.11ac
+    c. They have the same speed
+    d. It depends on the device
 
-22. What is the primary characteristic of the recovery phase in the business cycle?
-    a. Economic activity reaches its highest point
-    b. Unemployment rates are at their peak
-    c. The economy begins to grow again after a contraction
-    d. Inflation rates are at their highest
+22. What is the relationship between bandwidth and network speed?
+    a. They are unrelated concepts
+    b. Bandwidth limits the maximum potential speed of a network
+    c. Network speed determines the available bandwidth
+    d. Bandwidth and network speed are always equal
 
-23. How does high unemployment typically affect government spending?
-    a. It leads to decreased government spending
-    b. It leads to increased government spending on social programs
-    c. It has no effect on government spending
-    d. It always leads to a balanced budget
+23. How can high latency affect online gaming or video conferencing?
+    a. It can cause delays and poor responsiveness
+    b. It can increase the quality of the connection
+    c. It has no effect on these applications
+    d. It can improve security
 
-24. Which of the following is a potential psychological impact of long-term unemployment?
-    a. Increased self-esteem
-    b. Reduced stress and anxiety
-    c. Improved mental health
-    d. Decreased sense of self-worth
+24. What is the primary purpose of the Physical layer in the OSI model?
+    a. To manage network addresses
+    b. To encrypt data
+    c. To transmit raw bit streams over a physical medium
+    d. To establish end-to-end connections
 
-25. What is the primary difference between the eligible population and the labor force?
-    a. The eligible population includes everyone over 18, while the labor force includes only those over 21
-    b. The eligible population includes discouraged workers, while the labor force does not
-    c. The labor force includes only employed individuals, while the eligible population includes both employed and unemployed
-    d. The eligible population includes all working-age individuals, while the labor force includes only those employed or actively seeking work
+25. Which layer of the OSI model is responsible for data encryption?
+    a. Network Layer
+    b. Transport Layer
+    c. Session Layer
+    d. Presentation Layer
 
-26. How does an increase in discouraged workers affect the unemployment rate?
-    a. It causes the unemployment rate to increase
-    b. It causes the unemployment rate to decrease
-    c. It has no effect on the unemployment rate
-    d. It always leads to a more accurate unemployment rate
+26. What is the main function of the Transport layer in the TCP/IP model?
+    a. To manage physical connections
+    b. To route data between networks
+    c. To ensure reliable data delivery between applications
+    d. To provide user interfaces
 
-27. What is the primary goal of calculating the labor force participation rate?
-    a. To determine the total population of a country
-    b. To measure the percentage of the eligible population that is economically active
-    c. To calculate the number of jobs available in an economy
-    d. To determine the natural rate of unemployment
+27. What type of signal is used in modern digital networks?
+    a. Analog signals
+    b. Digital signals
+    c. Both analog and digital signals equally
+    d. Neither analog nor digital signals
 
-28. How does frictional unemployment differ from structural unemployment?
-    a. Frictional is long-term, while structural is short-term
-    b. Frictional is caused by economic downturns, while structural is not
-    c. Frictional is temporary and voluntary, while structural is often long-term and involuntary
-    d. Frictional affects only certain industries, while structural affects the entire economy
+28. What is the purpose of parity bits in error detection?
+    a. To encrypt data
+    b. To compress data
+    c. To detect simple errors by counting 1s
+    d. To correct errors automatically
 
-29. What is the primary characteristic of the trough phase in the business cycle?
-    a. It represents the highest point of economic activity
-    b. It is characterized by rapid economic growth
-    c. It is the point where economic activity is at its weakest
-    d. It always leads to immediate economic recovery
+29. What is static routing in network layer operations?
+    a. Automatically updating routing tables
+    b. Manually configuring routes in routers
+    c. Randomly selecting routes for data
+    d. Using satellite navigation for routing
 
-30. How does an economic contraction typically affect consumer spending?
-    a. Consumer spending usually increases
-    b. Consumer spending usually decreases
-    c. Consumer spending remains constant
-    d. There is no consistent relationship between contraction and consumer spending
+30. What is the primary function of SMTP in networking?
+    a. To browse websites
+    b. To transfer files
+    c. To send emails between mail servers
+    d. To stream video content
 
-31. Which of the following is NOT typically considered a cause of structural unemployment?
-    a. Technological changes
-    b. Shifts in the composition of the economy
-    c. Temporary layoffs during economic downturns
-    d. Geographic mismatches between workers and job opportunities
+31. Which protocol is commonly used for secure remote access to servers?
+    a. HTTP
+    b. FTP
+    c. SSH
+    d. SMTP
 
-32. What is the primary difference between unemployment and being out of the labor force?
-    a. Unemployed individuals are actively seeking work, while those out of the labor force are not
-    b. Unemployed individuals receive benefits, while those out of the labor force do not
-    c. Those out of the labor force are retired, while unemployed individuals are not
-    d. Unemployed individuals are counted in government statistics, while those out of the labor force are not
+32. What is the purpose of NAT (Network Address Translation) in networking?
+    a. To encrypt network traffic
+    b. To compress data packets
+    c. To allow multiple devices to share a single public IP address
+    d. To increase network speed
 
-33. How does an increase in the labor force participation rate typically affect the unemployment rate in the short term?
-    a. It always causes the unemployment rate to decrease
-    b. It always causes the unemployment rate to increase
-    c. It may cause the unemployment rate to increase if job creation doesn't keep pace
-    d. It has no effect on the unemployment rate
+33. What is the function of DHCP in a network?
+    a. To secure network connections
+    b. To automatically assign IP addresses to devices
+    c. To route data between networks
+    d. To manage email servers
 
-34. What is the primary purpose of unemployment benefits in relation to the business cycle?
-    a. To encourage people to remain unemployed
-    b. To act as an automatic stabilizer during economic downturns
-    c. To increase government revenue during recessions
-    d. To reduce inflation during periods of economic growth
+34. What is the primary purpose of a proxy server?
+    a. To increase network speed
+    b. To assign IP addresses
+    c. To act as an intermediary between clients and other servers
+    d. To store website data locally
 
-35. How does structural unemployment typically respond to economic recovery?
-    a. It quickly disappears as the economy improves
-    b. It remains largely unaffected by short-term economic improvements
-    c. It always increases during economic recovery
-    d. It only affects certain age groups during recovery
+35. What is the main advantage of using fiber optic cables over copper cables?
+    a. Lower cost
+    b. Easier installation
+    c. Higher bandwidth and longer transmission distances
+    d. Better compatibility with older systems
 
-36. What is the main reason why students and retirees are typically not included in the labor force?
-    a. They are considered part of the eligible population but not the labor force
-    b. They are not allowed to work by law
-    c. They are included in a separate category of workers
-    d. They are always considered unemployed
+36. What is the purpose of subnetting in IP networking?
+    a. To increase internet speed
+    b. To divide a large network into smaller, more manageable sub-networks
+    c. To encrypt network traffic
+    d. To compress data for faster transmission
 
-37. How does the concept of full employment relate to the natural rate of unemployment?
-    a. Full employment means zero unemployment, while the natural rate allows for some unemployment
-    b. Full employment and the natural rate of unemployment are unrelated concepts
-    c. Full employment occurs when unemployment equals the natural rate
-    d. The natural rate of unemployment is always higher than full employment
+37. What is the function of ARP (Address Resolution Protocol) in networking?
+    a. To assign IP addresses
+    b. To map IP addresses to MAC addresses
+    c. To encrypt network traffic
+    d. To compress data packets
 
-38. What role do expectations play in the business cycle?
-    a. They have no impact on economic fluctuations
-    b. They can amplify or dampen economic fluctuations
-    c. They only affect the stock market, not the overall economy
-    d. They are irrelevant to economic policy decisions
+38. What is the primary purpose of QoS (Quality of Service) in networking?
+    a. To increase overall network speed
+    b. To prioritize certain types of network traffic
+    c. To assign IP addresses automatically
+    d. To encrypt all network traffic
 
-39. How does the unemployment rate typically behave during the expansion phase of the business cycle?
-    a. It steadily increases
-    b. It steadily decreases
-    c. It remains constant
-    d. It fluctuates randomly
+39. What is the main difference between a hub and a switch?
+    a. Hubs are faster than switches
+    b. Switches are more secure than hubs
+    c. Hubs broadcast data to all ports, while switches send data only to the intended recipient
+    d. Hubs can handle more connections than switches
 
-40. What is the primary difference between the labor force and the employed population?
-    a. The labor force includes unemployed individuals actively seeking work, while the employed population does not
-    b. The labor force only includes full-time workers, while the employed population includes part-time workers
-    c. The labor force is always smaller than the employed population
-    d. There is no difference; these terms are interchangeable
+40. What is the purpose of ICMP (Internet Control Message Protocol)?
+    a. To encrypt network traffic
+    b. To assign IP addresses
+    c. To send error messages and operational information about network conditions
+    d. To manage email servers
 
 Answers:
+1. c. To connect devices and share resources
+   - The primary purpose of a computer network is to connect devices and share resources.
 
-1. c. It's temporary and occurs as people transition between jobs
-   - Frictional unemployment is characterized by temporary periods as people move between jobs.
+2. b. Star
+   - A star topology uses a central device to connect all nodes.
 
-2. c. Seasonal unemployment
-   - The text does not mention seasonal unemployment as one of the main types discussed.
+3. c. Single point of failure
+   - The main disadvantage of a bus topology is that it has a single point of failure.
 
-3. b. The level of unemployment when the economy is at full employment
-   - The natural rate of unemployment represents the level of unemployment when the economy is at full employment.
+4. c. Network Layer
+   - The Network Layer is responsible for routing data.
 
-4. c. Cyclical unemployment
-   - Cyclical unemployment is directly related to economic recessions and business cycle fluctuations.
+5. d. Application Layer
+   - In the TCP/IP model, the Application Layer handles both data transmission and session management.
 
-5. d. Mismatch between workers' skills and job requirements
-   - Structural unemployment is primarily caused by a mismatch between workers' skills and available job opportunities.
+6. c. Higher bandwidth and less signal degradation
+   - Fiber optic cables are preferred for long-distance transmission due to higher bandwidth and less signal degradation.
 
-6. c. Discouraged workers who have stopped looking for jobs
-   - Discouraged workers are not included in the labor force as they are not actively seeking employment.
+7. c. More susceptible to interference
+   - Wireless communication is more susceptible to interference compared to wired communication.
 
-7. b. (Number of unemployed / Labor force) x 100
-   - This is the correct formula for calculating the unemployment rate.
+8. b. A physical address operating at the Data Link layer
+   - A MAC address is a physical address that operates at the Data Link layer.
 
-8. b. When only frictional and structural unemployment exist
-   - Full employment in economics is defined as the situation where only frictional and structural unemployment exist.
+9. c. By calculating a checksum and verifying it at the receiver
+   - CRC detects errors by calculating a checksum and verifying it at the receiver.
 
-9. d. Higher productivity
-   - Higher productivity is not mentioned as an implication of unemployment; in fact, unemployment typically leads to lower productivity.
+10. c. IPv6 has a much larger address space than IPv4
+    - The main difference is that IPv6 has a much larger address space than IPv4.
 
-10. b. The percentage of the eligible population in the labor force
-    - This correctly defines the labor force participation rate.
+11. c. RIP and OSPF - for exchanging routing information between routers
+    - RIP and OSPF are routing protocols used for exchanging routing information between routers.
 
-11. c. All individuals aged 16 and over, excluding those institutionalized or in the military
-    - This accurately describes the eligible population for labor force calculations.
+12. a. TCP is reliable and connection-oriented, UDP is unreliable and connectionless
+    - TCP provides reliable, connection-oriented communication, while UDP is unreliable and connectionless.
 
-12. b. They have stopped looking for work due to believing no jobs are available
-    - This is the defining characteristic of discouraged workers.
+13. c. To identify specific processes or services within a computer
+    - Ports are used to identify specific processes or services within a computer.
 
-13. c. Expansion
-    - The expansion phase is characterized by increasing economic activity and falling unemployment.
+14. c. HTTPS adds a layer of encryption for secure communication
+    - HTTPS is preferred because it adds a layer of encryption for secure communication.
 
-14. b. Peak
-    - Unemployment is typically at its lowest during the peak phase of the business cycle.
+15. c. By translating domain names to IP addresses
+    - DNS improves user experience by translating domain names to IP addresses.
 
-15. d. All of the above
-    - These are all correct distinctions between the peak and trough phases.
+16. c. To forward data within a LAN based on MAC addresses
+    - The primary function of a switch is to forward data within a LAN based on MAC addresses.
 
-16. d. Rising consumer spending
-    - During a contraction, consumer spending typically decreases, not rises.
+17. c. By filtering incoming and outgoing network traffic
+    - Firewalls contribute to network security by filtering incoming and outgoing network traffic.
 
-17. b. To implement appropriate fiscal and monetary policies
-    - Understanding the business cycle helps policymakers implement appropriate economic policies.
+18. b. A technique to convert data into code; essential for data confidentiality
+    - Encryption is a technique to convert data into code, essential for maintaining data confidentiality in modern networks.
 
-18. b. Inflation tends to increase
-    - During economic expansion, inflation typically tends to increase due to higher demand.
+19. c. By encrypting the user's internet connection
+    - A VPN enhances security for remote users by encrypting their internet connection.
 
-19. c. Unemployed individuals actively seeking work
-    - The labor force includes both employed individuals and unemployed individuals actively seeking work.
+20. b. Wi-Fi is for internet access, Bluetooth for short-range device connections
+    - Wi-Fi is primarily used for internet access, while Bluetooth is for short-range device connections.
 
-20. a. Cyclical is caused by economic downturns, while structural is due to mismatches in skills
-    - This correctly distinguishes between cyclical and structural unemployment.
+21. b. 802.11ac
+    - 802.11ac offers faster speeds compared to 802.11n.
 
-21. b. Contraction
-    - The contraction phase immediately follows the peak in the business cycle.
+22. b. Bandwidth limits the maximum potential speed of a network
+    - Bandwidth sets the upper limit for the potential speed of a network.
 
-22. c. The economy begins to grow again after a contraction
-    - The recovery phase is characterized by renewed economic growth following a contraction.
+23. a. It can cause delays and poor responsiveness
+    - High latency can cause delays and poor responsiveness in online gaming or video conferencing.
 
-23. b. It leads to increased government spending on social programs
-    - High unemployment typically leads to increased government spending on programs like unemployment benefits.
+24. c. To transmit raw bit streams over a physical medium
+    - The primary purpose of the Physical layer is to transmit raw bit streams over a physical medium.
 
-24. d. Decreased sense of self-worth
-    - Long-term unemployment often negatively impacts an individual's sense of self-worth.
+25. d. Presentation Layer
+    - The Presentation Layer is responsible for data encryption in the OSI model.
 
-25. d. The eligible population includes all working-age individuals, while the labor force includes only those employed or actively seeking work
-    - This correctly distinguishes between the eligible population and the labor force.
+26. c. To ensure reliable data delivery between applications
+    - The main function of the Transport layer in the TCP/IP model is to ensure reliable data delivery between applications.
 
-26. b. It causes the unemployment rate to decrease
-    - An increase in discouraged workers can cause the unemployment rate to decrease as they are no longer counted in the labor force.
+27. b. Digital signals
+    - Modern digital networks primarily use digital signals.
 
-27. b. To measure the percentage of the eligible population that is economically active
-    - This is the primary goal of calculating the labor force participation rate.
+28. c. To detect simple errors by counting 1s
+    - Parity bits are used to detect simple errors by counting the number of 1s in the data.
 
-28. c. Frictional is temporary and voluntary, while structural is often long-term and involuntary
-    - This correctly distinguishes between frictional and structural unemployment.
+29. b. Manually configuring routes in routers
+    - Static routing involves manually configuring routes in routers.
 
-29. c. It is the point where economic activity is at its weakest
-    - The trough represents the lowest point of economic activity in the business cycle.
+30. c. To send emails between mail servers
+    - SMTP's primary function is to send emails between mail servers.
 
-30. b. Consumer spending usually decreases
-    - During an economic contraction, consumer spending typically decreases.
+31. c. SSH
+    - SSH (Secure Shell) is commonly used for secure remote access to servers.
 
-31. c. Temporary layoffs during economic downturns
-    - Temporary layoffs are more characteristic of cyclical unemployment, not structural unemployment.
+32. c. To allow multiple devices to share a single public IP address
+    - NAT allows multiple devices to share a single public IP address.
 
-32. a. Unemployed individuals are actively seeking work, while those out of the labor force are not
-    - This is the key distinction between being unemployed and being out of the labor force.
+33. b. To automatically assign IP addresses to devices
+    - DHCP automatically assigns IP addresses to devices on a network.
 
-33. c. It may cause the unemployment rate to increase if job creation doesn't keep pace
-    - An increase in labor force participation can lead to higher unemployment if new jobs aren't created quickly enough.
+34. c. To act as an intermediary between clients and other servers
+    - A proxy server acts as an intermediary between clients and other servers.
 
-34. b. To act as an automatic stabilizer during economic downturns
-    - Unemployment benefits serve as automatic stabilizers, helping to moderate economic fluctuations.
+35. c. Higher bandwidth and longer transmission distances
+    - The main advantage of fiber optic cables is higher bandwidth and longer transmission distances.
 
-35. b. It remains largely unaffected by short-term economic improvements
-    - Structural unemployment often persists even as the economy improves, as it's not directly tied to the business cycle.
+36. b. To divide a large network into smaller, more manageable sub-networks
+    - Subnetting is used to divide a large network into smaller, more manageable sub-networks.
 
-36. a. They are considered part of the eligible population but not the labor force
-    - Students and retirees are typically part of the eligible population but not the labor force if they're not seeking employment.
+37. b. To map IP addresses to MAC addresses
+    - ARP maps IP addresses to MAC addresses in a network.
 
-37. c. Full employment occurs when unemployment equals the natural rate
-    - Full employment is achieved when the only unemployment is frictional and structural, which corresponds to the natural rate.
+38. b. To prioritize certain types of network traffic
+    - QoS is used to prioritize certain types of network traffic.
 
-38. b. They can amplify or dampen economic fluctuations
-    - Expectations play a significant role in the business cycle, potentially amplifying or dampening economic fluctuations.
+39. c. Hubs broadcast data to all ports, while switches send data only to the intended recipient
+    - Hubs broadcast data to all ports, while switches send data only to the intended recipient.
 
-39. b. It steadily decreases
-    - During the expansion phase, the unemployment rate typically decreases as economic activity increases.
-
-40. a. The labor force includes unemployed individuals actively seeking work, while the employed population does not
-    - This correctly distinguishes between the labor force and the employed population.
+40. c. To send error messages and operational information about network conditions
+    - ICMP is used to send error messages and operational information about network conditions.
