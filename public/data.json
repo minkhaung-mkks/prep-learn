@@ -25029,5 +25029,508 @@
         ]
       }
     ]
+  },
+  {
+    "id": 55,
+    "name": "ML",
+    "subject": "Sciences",
+    "exam": "GED",
+    "topic": [],
+    "sub_topic": [
+      "Energy"
+    ],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What was the first popular spreadsheet program?",
+            "answers": {
+              "a": "Microsoft Excel",
+              "b": "Lotus 1-2-3",
+              "c": "VisiCalc",
+              "d": "Google Sheets"
+            },
+            "correct": "c",
+            "answer_text": "VisiCalc",
+            "reason": "VisiCalc was the first popular spreadsheet program, developed by Dan Bricklin in 1978."
+          },
+          {
+            "text": "In a spreadsheet, what does the cell reference B6 indicate?",
+            "answers": {
+              "a": "Column B, Row 6",
+              "b": "Column 6, Row B",
+              "c": "The second cell in the sixth row",
+              "d": "The sixth cell in the second column"
+            },
+            "correct": "a",
+            "answer_text": "Column B, Row 6",
+            "reason": "In spreadsheet notation, the column letter comes first, followed by the row number."
+          },
+          {
+            "text": "Which of the following is NOT a common use for spreadsheets?",
+            "answers": {
+              "a": "Budgeting",
+              "b": "Data analysis",
+              "c": "Word processing",
+              "d": "Project management"
+            },
+            "correct": "c",
+            "answer_text": "Word processing",
+            "reason": "Spreadsheets are not typically used for word processing, which is better suited to dedicated word processing software."
+          },
+          {
+            "text": "What does the PMT function typically calculate in a spreadsheet?",
+            "answers": {
+              "a": "Total interest paid on a loan",
+              "b": "Monthly loan payments",
+              "c": "Loan principal amount",
+              "d": "Annual percentage rate"
+            },
+            "correct": "b",
+            "answer_text": "Monthly loan payments",
+            "reason": "The PMT function is commonly used to calculate monthly loan or mortgage payments."
+          },
+          {
+            "text": "Which menu in spreadsheet applications typically contains options for sorting and filtering data?",
+            "answers": {
+              "a": "File",
+              "b": "Edit",
+              "c": "Insert",
+              "d": "Data"
+            },
+            "correct": "d",
+            "answer_text": "Data",
+            "reason": "The Data menu typically contains options for sorting, filtering, and other data manipulation tasks."
+          },
+          {
+            "text": "What is the purpose of the autofill feature in spreadsheets?",
+            "answers": {
+              "a": "To automatically format cells",
+              "b": "To fill cells based on identified patterns",
+              "c": "To insert formulas automatically",
+              "d": "To correct spelling errors"
+            },
+            "correct": "b",
+            "answer_text": "To fill cells based on identified patterns",
+            "reason": "The autofill feature can automatically extend patterns in data, such as dates or number sequences."
+          },
+          {
+            "text": "What is the primary purpose of row and column titles in a spreadsheet?",
+            "answers": {
+              "a": "To make the spreadsheet look more professional",
+              "b": "To organize data and make it understandable",
+              "c": "To enable sorting and filtering",
+              "d": "To create charts and graphs"
+            },
+            "correct": "b",
+            "answer_text": "To organize data and make it understandable",
+            "reason": "Row and column titles (or labels) help organize data and make it easier to interpret."
+          },
+          {
+            "text": "Which of the following is NOT a common formatting option in spreadsheets?",
+            "answers": {
+              "a": "Text formatting",
+              "b": "Number formatting",
+              "c": "Cell borders and shading",
+              "d": "Voice annotation"
+            },
+            "correct": "d",
+            "answer_text": "Voice annotation",
+            "reason": "Voice annotation is not a standard formatting option in most spreadsheet applications."
+          },
+          {
+            "text": "What is the purpose of merging cells in a spreadsheet?",
+            "answers": {
+              "a": "To combine data from multiple cells",
+              "b": "To create larger cells, often used for headings",
+              "c": "To apply the same formula to multiple cells",
+              "d": "To split a cell's content into multiple cells"
+            },
+            "correct": "b",
+            "answer_text": "To create larger cells, often used for headings",
+            "reason": "Merging cells is commonly used to create larger cells for headings or titles in spreadsheets."
+          },
+          {
+            "text": "Why might you hide columns or rows in a spreadsheet?",
+            "answers": {
+              "a": "To permanently delete unnecessary data",
+              "b": "To focus on key parts of the spreadsheet",
+              "c": "To protect sensitive information",
+              "d": "To reduce file size"
+            },
+            "correct": "b",
+            "answer_text": "To focus on key parts of the spreadsheet",
+            "reason": "Hiding columns or rows can help streamline your view and focus on the most important data."
+          },
+          {
+            "text": "What does the SUM function do in a spreadsheet?",
+            "answers": {
+              "a": "Counts the number of cells in a range",
+              "b": "Calculates the average of a range of cells",
+              "c": "Adds up the values in a range of cells",
+              "d": "Finds the largest value in a range of cells"
+            },
+            "correct": "c",
+            "answer_text": "Adds up the values in a range of cells",
+            "reason": "The SUM function calculates the total of a range of cells."
+          },
+          {
+            "text": "Which type of chart is best for showing proportions of a whole?",
+            "answers": {
+              "a": "Bar chart",
+              "b": "Line chart",
+              "c": "Pie chart",
+              "d": "Scatter plot"
+            },
+            "correct": "c",
+            "answer_text": "Pie chart",
+            "reason": "Pie charts are best for showing proportions of a whole, such as market share or expense distribution."
+          },
+          {
+            "text": "In Google Sheets, what are the two ways images can be inserted?",
+            "answers": {
+              "a": "Within cells and floating above cells",
+              "b": "As background and as watermark",
+              "c": "Linked and embedded",
+              "d": "In headers and in footers"
+            },
+            "correct": "a",
+            "answer_text": "Within cells and floating above cells",
+            "reason": "In Google Sheets, images can be inserted within cells or floating above cells."
+          },
+          {
+            "text": "What is the primary benefit of using conditional formatting?",
+            "answers": {
+              "a": "It automatically corrects errors in data entry",
+              "b": "It allows for complex calculations",
+              "c": "It visually highlights data based on specific conditions",
+              "d": "It enables data validation"
+            },
+            "correct": "c",
+            "answer_text": "It visually highlights data based on specific conditions",
+            "reason": "Conditional formatting applies specific formatting to cells based on their content or value."
+          },
+          {
+            "text": "What is a pivot table used for?",
+            "answers": {
+              "a": "To create charts and graphs",
+              "b": "To sort and filter data",
+              "c": "To summarize and analyze large datasets",
+              "d": "To perform complex mathematical calculations"
+            },
+            "correct": "c",
+            "answer_text": "To summarize and analyze large datasets",
+            "reason": "Pivot tables are used to summarize and analyze large amounts of data by automatically grouping and calculating values."
+          },
+          {
+            "text": "Which of the following is NOT a common page layout option in spreadsheets?",
+            "answers": {
+              "a": "Page orientation",
+              "b": "Margins",
+              "c": "Headers and footers",
+              "d": "Text wrapping"
+            },
+            "correct": "d",
+            "answer_text": "Text wrapping",
+            "reason": "Text wrapping is a cell formatting option, not typically a page layout option."
+          },
+          {
+            "text": "What does the AVERAGE function do in a spreadsheet?",
+            "answers": {
+              "a": "Finds the median value in a range",
+              "b": "Calculates the mean of a range of cells",
+              "c": "Determines the mode of a dataset",
+              "d": "Computes the range of a dataset"
+            },
+            "correct": "b",
+            "answer_text": "Calculates the mean of a range of cells",
+            "reason": "The AVERAGE function calculates the arithmetic mean of a range of cells."
+          },
+          {
+            "text": "What is the purpose of cell styles in spreadsheets?",
+            "answers": {
+              "a": "To apply consistent formatting to multiple cells",
+              "b": "To create custom formulas",
+              "c": "To link cells across different sheets",
+              "d": "To lock cells to prevent editing"
+            },
+            "correct": "a",
+            "answer_text": "To apply consistent formatting to multiple cells",
+            "reason": "Cell styles allow users to apply a collection of formatting options consistently across multiple cells."
+          },
+          {
+            "text": "Which of the following is a benefit of using charts in spreadsheets?",
+            "answers": {
+              "a": "They automatically correct errors in data",
+              "b": "They make large datasets easier to interpret visually",
+              "c": "They perform complex calculations",
+              "d": "They reduce the file size of the spreadsheet"
+            },
+            "correct": "b",
+            "answer_text": "They make large datasets easier to interpret visually",
+            "reason": "Charts provide visual representations of data, making it easier to identify trends and patterns."
+          },
+          {
+            "text": "What does the COUNT function do in a spreadsheet?",
+            "answers": {
+              "a": "Adds up the values in a range of cells",
+              "b": "Counts the number of cells with numerical data",
+              "c": "Calculates the average of a range of cells",
+              "d": "Finds the largest value in a range of cells"
+            },
+            "correct": "b",
+            "answer_text": "Counts the number of cells with numerical data",
+            "reason": "The COUNT function counts the number of cells in a range that contain numbers."
+          },
+          {
+            "text": "What is the primary difference between Google Sheets and Microsoft Excel?",
+            "answers": {
+              "a": "Excel can't perform complex calculations",
+              "b": "Google Sheets is cloud-based, while Excel is traditionally desktop-based",
+              "c": "Excel doesn't support charts and graphs",
+              "d": "Google Sheets can't be used offline"
+            },
+            "correct": "b",
+            "answer_text": "Google Sheets is cloud-based, while Excel is traditionally desktop-based",
+            "reason": "While Excel now has cloud capabilities, it was traditionally a desktop application, unlike the cloud-native Google Sheets."
+          },
+          {
+            "text": "What does the term \"cell\" refer to in a spreadsheet?",
+            "answers": {
+              "a": "A row of data",
+              "b": "A column of data",
+              "c": "The intersection of a row and column where data can be entered",
+              "d": "A formula used to calculate values"
+            },
+            "correct": "c",
+            "answer_text": "The intersection of a row and column where data can be entered",
+            "reason": "A cell is the basic unit of a spreadsheet, where a row and column intersect."
+          },
+          {
+            "text": "What is the purpose of the VLOOKUP function in spreadsheets?",
+            "answers": {
+              "a": "To search for a value in a table and return a corresponding value from another column",
+              "b": "To calculate the variance in a dataset",
+              "c": "To validate data entry in a cell",
+              "d": "To create a vertical bar chart"
+            },
+            "correct": "a",
+            "answer_text": "To search for a value in a table and return a corresponding value from another column",
+            "reason": "VLOOKUP is used to find a value in one column and return a related value from another column."
+          },
+          {
+            "text": "Which of the following is an example of a relative cell reference?",
+            "answers": {
+              "a": "$A$1",
+              "b": "A$1",
+              "c": "$A1",
+              "d": "A1"
+            },
+            "correct": "d",
+            "answer_text": "A1",
+            "reason": "A1 is a relative cell reference, which will change when the formula is copied to other cells."
+          },
+          {
+            "text": "What does the term \"workbook\" typically refer to in spreadsheet applications?",
+            "answers": {
+              "a": "A single spreadsheet",
+              "b": "A collection of related spreadsheets",
+              "c": "A row of data",
+              "d": "A column of data"
+            },
+            "correct": "b",
+            "answer_text": "A collection of related spreadsheets",
+            "reason": "A workbook typically refers to a file containing multiple related spreadsheets or worksheets."
+          },
+          {
+            "text": "What is the purpose of freezing panes in a spreadsheet?",
+            "answers": {
+              "a": "To prevent data from being edited",
+              "b": "To keep certain rows or columns visible while scrolling",
+              "c": "To apply conditional formatting",
+              "d": "To create a chart"
+            },
+            "correct": "b",
+            "answer_text": "To keep certain rows or columns visible while scrolling",
+            "reason": "Freezing panes allows you to keep important rows or columns visible while scrolling through a large spreadsheet."
+          },
+          {
+            "text": "Which function would you use to find the smallest value in a range of cells?",
+            "answers": {
+              "a": "SMALL",
+              "b": "MIN",
+              "c": "LEAST",
+              "d": "LOWEST"
+            },
+            "correct": "b",
+            "answer_text": "MIN",
+            "reason": "The MIN function returns the smallest value in a range of cells."
+          },
+          {
+            "text": "What does the IF function do in a spreadsheet?",
+            "answers": {
+              "a": "Performs a logical test and returns one value for a TRUE result and another for a FALSE result",
+              "b": "Calculates the interest on a loan",
+              "c": "Finds and replaces specific values in a range",
+              "d": "Imports data from external sources"
+            },
+            "correct": "a",
+            "answer_text": "Performs a logical test and returns one value for a TRUE result and another for a FALSE result",
+            "reason": "The IF function allows for conditional logic in spreadsheet calculations."
+          },
+          {
+            "text": "What is the purpose of data validation in spreadsheets?",
+            "answers": {
+              "a": "To perform complex calculations",
+              "b": "To create charts and graphs",
+              "c": "To control what data can be entered into a cell",
+              "d": "To format cells based on their content"
+            },
+            "correct": "c",
+            "answer_text": "To control what data can be entered into a cell",
+            "reason": "Data validation sets rules for what type of data can be entered into specific cells."
+          },
+          {
+            "text": "Which of the following is NOT a common chart type in spreadsheets?",
+            "answers": {
+              "a": "Bar chart",
+              "b": "Line chart",
+              "c": "Pie chart",
+              "d": "Hologram chart"
+            },
+            "correct": "d",
+            "answer_text": "Hologram chart",
+            "reason": "Hologram charts are not a standard chart type in spreadsheet applications."
+          },
+          {
+            "text": "What does the CONCATENATE function do in a spreadsheet?",
+            "answers": {
+              "a": "Joins two or more text strings into one text string",
+              "b": "Splits a text string into multiple cells",
+              "c": "Counts the number of characters in a text string",
+              "d": "Converts text to uppercase"
+            },
+            "correct": "a",
+            "answer_text": "Joins two or more text strings into one text string",
+            "reason": "The CONCATENATE function combines multiple text strings into a single string."
+          },
+          {
+            "text": "What is the purpose of absolute cell references (e.g., $A$1) in formulas?",
+            "answers": {
+              "a": "To make the cell content editable",
+              "b": "To prevent the cell reference from changing when the formula is copied",
+              "c": "To apply conditional formatting",
+              "d": "To create a chart"
+            },
+            "correct": "b",
+            "answer_text": "To prevent the cell reference from changing when the formula is copied",
+            "reason": "Absolute cell references (with $ signs) don't change when a formula is copied to other cells."
+          },
+          {
+            "text": "Which of the following is a benefit of using spreadsheet templates?",
+            "answers": {
+              "a": "They automatically perform complex calculations",
+              "b": "They provide pre-designed layouts for common tasks",
+              "c": "They increase the file size of the spreadsheet",
+              "d": "They prevent collaboration with other users"
+            },
+            "correct": "b",
+            "answer_text": "They provide pre-designed layouts for common tasks",
+            "reason": "Spreadsheet templates offer pre-designed layouts for common tasks, saving time in setup."
+          },
+          {
+            "text": "What does the RAND function do in a spreadsheet?",
+            "answers": {
+              "a": "Rounds a number to the nearest integer",
+              "b": "Calculates the range of a dataset",
+              "c": "Generates a random number between 0 and 1",
+              "d": "Removes duplicate values from a range"
+            },
+            "correct": "c",
+            "answer_text": "Generates a random number between 0 and 1",
+            "reason": "The RAND function generates a random decimal number between 0 and 1."
+          },
+          {
+            "text": "Which of the following is NOT a common file format for saving spreadsheets?",
+            "answers": {
+              "a": ".xlsx",
+              "b": ".csv",
+              "c": ".ods",
+              "d": ".doc"
+            },
+            "correct": "d",
+            "answer_text": ".doc",
+            "reason": ".doc is typically used for word processing documents, not spreadsheets."
+          },
+          {
+            "text": "What is the purpose of the SUMIF function in spreadsheets?",
+            "answers": {
+              "a": "To add up values that meet a specific condition",
+              "b": "To count cells that meet a specific condition",
+              "c": "To find the average of values that meet a specific condition",
+              "d": "To multiply values that meet a specific condition"
+            },
+            "correct": "a",
+            "answer_text": "To add up values that meet a specific condition",
+            "reason": "SUMIF adds up values in a range that meet a specified condition."
+          },
+          {
+            "text": "What does the term \"cell range\" refer to in spreadsheets?",
+            "answers": {
+              "a": "The maximum value a cell can contain",
+              "b": "A group of selected cells",
+              "c": "The distance between two cells",
+              "d": "The number of decimal places in a cell's value"
+            },
+            "correct": "b",
+            "answer_text": "A group of selected cells",
+            "reason": "A cell range refers to a group of selected cells, often denoted by the first and last cell separated by a colon (e.g., A1:B10)."
+          },
+          {
+            "text": "Which of the following is a benefit of using filters in spreadsheets?",
+            "answers": {
+              "a": "They automatically correct errors in data entry",
+              "b": "They perform complex calculations",
+              "c": "They allow you to temporarily hide data that doesn't meet certain criteria",
+              "d": "They create charts and graphs"
+            },
+            "correct": "c",
+            "answer_text": "They allow you to temporarily hide data that doesn't meet certain criteria",
+            "reason": "Filters allow users to show only the data that meets specified criteria, hiding the rest."
+          },
+          {
+            "text": "What is the purpose of the TRIM function in spreadsheets?",
+            "answers": {
+              "a": "To remove leading and trailing spaces from text",
+              "b": "To round numbers to a specified number of decimal places",
+              "c": "To remove duplicate values from a range",
+              "d": "To calculate the average of a range of cells"
+            },
+            "correct": "a",
+            "answer_text": "To remove leading and trailing spaces from text",
+            "reason": "The TRIM function removes extra spaces from the beginning and end of text strings."
+          },
+          {
+            "text": "Which of the following best describes the difference between a formula and a function in a spreadsheet?",
+            "answers": {
+              "a": "Formulas are built-in, while functions are user-defined",
+              "b": "Functions are built-in, while formulas are user-defined expressions",
+              "c": "Formulas use cell references, while functions use fixed values",
+              "d": "There is no difference; the terms are interchangeable"
+            },
+            "correct": "b",
+            "answer_text": "Functions are built-in, while formulas are user-defined expressions",
+            "reason": "Functions are pre-defined calculations in spreadsheets, while formulas are custom expressions created by users."
+          }
+        ]
+      }
+    ]
   }
 ]
