@@ -24526,5 +24526,508 @@
         ]
       }
     ]
+  },
+  {
+    "id": 54,
+    "name": "ML",
+    "subject": "Sciences",
+    "exam": "GED",
+    "topic": [],
+    "sub_topic": [
+      "Energy"
+    ],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What does SQL stand for?",
+            "answers": {
+              "a": "Structured Query Language",
+              "b": "Simple Question Language",
+              "c": "System Query Logic",
+              "d": "Standard Query Lookup"
+            },
+            "correct": "a",
+            "answer_text": "Structured Query Language",
+            "reason": "SQL stands for Structured Query Language, which is used for managing and manipulating relational databases."
+          },
+          {
+            "text": "Which SQL command is used to retrieve data from a database?",
+            "answers": {
+              "a": "GET",
+              "b": "FETCH",
+              "c": "SELECT",
+              "d": "RETRIEVE"
+            },
+            "correct": "c",
+            "answer_text": "SELECT",
+            "reason": "The SELECT command is used to retrieve data from one or more tables in a database."
+          },
+          {
+            "text": "What is the purpose of the WHERE clause in a SQL statement?",
+            "answers": {
+              "a": "To specify which table to query",
+              "b": "To filter the results based on a condition",
+              "c": "To join multiple tables",
+              "d": "To sort the results"
+            },
+            "correct": "b",
+            "answer_text": "To filter the results based on a condition",
+            "reason": "The WHERE clause is used to filter the results of a query based on specified conditions."
+          },
+          {
+            "text": "Which SQL command is used to update existing records in a database?",
+            "answers": {
+              "a": "MODIFY",
+              "b": "CHANGE",
+              "c": "ALTER",
+              "d": "UPDATE"
+            },
+            "correct": "d",
+            "answer_text": "UPDATE",
+            "reason": "The UPDATE command is used to modify existing records in a database table."
+          },
+          {
+            "text": "What is a primary key in a database table?",
+            "answers": {
+              "a": "The first column in the table",
+              "b": "A unique identifier for each record",
+              "c": "The most important data in the table",
+              "d": "A foreign key from another table"
+            },
+            "correct": "b",
+            "answer_text": "A unique identifier for each record",
+            "reason": "A primary key serves as a unique identifier for each record in a database table."
+          },
+          {
+            "text": "Which SQL clause is used to sort the result set?",
+            "answers": {
+              "a": "SORT BY",
+              "b": "ORDER BY",
+              "c": "ARRANGE BY",
+              "d": "GROUP BY"
+            },
+            "correct": "b",
+            "answer_text": "ORDER BY",
+            "reason": "The ORDER BY clause is used to sort the result set in ascending or descending order."
+          },
+          {
+            "text": "What does the INNER JOIN keyword do?",
+            "answers": {
+              "a": "Combines rows from different tables if there is a match between specified columns",
+              "b": "Retrieves data from a single table",
+              "c": "Updates data in multiple tables simultaneously",
+              "d": "Deletes matching rows from different tables"
+            },
+            "correct": "a",
+            "answer_text": "Combines rows from different tables if there is a match between specified columns",
+            "reason": "An INNER JOIN combines rows from two tables when there is a match between specified columns."
+          },
+          {
+            "text": "Which SQL function is used to count the number of rows that match the query criteria?",
+            "answers": {
+              "a": "SUM()",
+              "b": "TOTAL()",
+              "c": "COUNT()",
+              "d": "AGGREGATE()"
+            },
+            "correct": "c",
+            "answer_text": "COUNT()",
+            "reason": "The COUNT() function is used to count the number of rows that match the query criteria."
+          },
+          {
+            "text": "What is the purpose of the GROUP BY clause?",
+            "answers": {
+              "a": "To sort the result set",
+              "b": "To filter the results",
+              "c": "To join tables",
+              "d": "To group rows that have the same values in specified columns"
+            },
+            "correct": "d",
+            "answer_text": "To group rows that have the same values in specified columns",
+            "reason": "The GROUP BY clause is used to group rows that have the same values in specified columns."
+          },
+          {
+            "text": "Which SQL command is used to add new data to a database?",
+            "answers": {
+              "a": "ADD",
+              "b": "CREATE",
+              "c": "INSERT",
+              "d": "APPEND"
+            },
+            "correct": "c",
+            "answer_text": "INSERT",
+            "reason": "The INSERT command is used to add new data (rows) to a database table."
+          },
+          {
+            "text": "What is a view in SQL?",
+            "answers": {
+              "a": "A physical table in the database",
+              "b": "A virtual table based on the result of a SELECT statement",
+              "c": "A graphical representation of the database schema",
+              "d": "A backup of the database"
+            },
+            "correct": "b",
+            "answer_text": "A virtual table based on the result of a SELECT statement",
+            "reason": "A view in SQL is a virtual table based on the result of a SELECT statement."
+          },
+          {
+            "text": "Which SQL command is used to delete data from a database?",
+            "answers": {
+              "a": "REMOVE",
+              "b": "DELETE",
+              "c": "DROP",
+              "d": "ERASE"
+            },
+            "correct": "b",
+            "answer_text": "DELETE",
+            "reason": "The DELETE command is used to remove data (rows) from a database table."
+          },
+          {
+            "text": "What is the purpose of an index in a database?",
+            "answers": {
+              "a": "To store backup data",
+              "b": "To improve the speed of data retrieval operations",
+              "c": "To encrypt sensitive data",
+              "d": "To create relationships between tables"
+            },
+            "correct": "b",
+            "answer_text": "To improve the speed of data retrieval operations",
+            "reason": "Indexes are used to improve the speed of data retrieval operations in a database."
+          },
+          {
+            "text": "Which SQL clause is used to filter groups in a GROUP BY query?",
+            "answers": {
+              "a": "WHERE",
+              "b": "FILTER",
+              "c": "HAVING",
+              "d": "GROUP FILTER"
+            },
+            "correct": "c",
+            "answer_text": "HAVING",
+            "reason": "The HAVING clause is used to filter groups in a GROUP BY query."
+          },
+          {
+            "text": "What does the LIKE operator do in a WHERE clause?",
+            "answers": {
+              "a": "Compares two values for exact equality",
+              "b": "Searches for a specified pattern in a column",
+              "c": "Checks if a value is within a range",
+              "d": "Performs mathematical calculations"
+            },
+            "correct": "b",
+            "answer_text": "Searches for a specified pattern in a column",
+            "reason": "The LIKE operator is used to search for a specified pattern in a column."
+          },
+          {
+            "text": "Which SQL command is used to create a new table?",
+            "answers": {
+              "a": "BUILD TABLE",
+              "b": "GENERATE TABLE",
+              "c": "CREATE TABLE",
+              "d": "CONSTRUCT TABLE"
+            },
+            "correct": "c",
+            "answer_text": "CREATE TABLE",
+            "reason": "The CREATE TABLE command is used to create a new table in a database."
+          },
+          {
+            "text": "What is a foreign key?",
+            "answers": {
+              "a": "A primary key in a foreign table",
+              "b": "A unique identifier for each record",
+              "c": "A key used to link two tables together",
+              "d": "The first column in a table"
+            },
+            "correct": "c",
+            "answer_text": "A key used to link two tables together",
+            "reason": "A foreign key is a column or set of columns that refers to the primary key of another table."
+          },
+          {
+            "text": "Which SQL operator is used to combine rows from two or more tables based on a related column between them?",
+            "answers": {
+              "a": "COMBINE",
+              "b": "MERGE",
+              "c": "JOIN",
+              "d": "UNION"
+            },
+            "correct": "c",
+            "answer_text": "JOIN",
+            "reason": "The JOIN operator is used to combine rows from two or more tables based on a related column between them."
+          },
+          {
+            "text": "What does the DISTINCT keyword do in a SELECT statement?",
+            "answers": {
+              "a": "Sorts the result set",
+              "b": "Filters the result set",
+              "c": "Removes duplicate rows from the result set",
+              "d": "Counts the number of rows in the result set"
+            },
+            "correct": "c",
+            "answer_text": "Removes duplicate rows from the result set",
+            "reason": "The DISTINCT keyword is used to remove duplicate rows from the result set of a SELECT statement."
+          },
+          {
+            "text": "Which SQL function is used to find the highest value in a column?",
+            "answers": {
+              "a": "TOP()",
+              "b": "MAXIMUM()",
+              "c": "HIGHEST()",
+              "d": "MAX()"
+            },
+            "correct": "d",
+            "answer_text": "To combine the result sets of two or more SELECT statements",
+            "reason": "The UNION operator is used to combine the result sets of two or more SELECT statements."
+          },
+          {
+            "text": "What is the purpose of the COMMIT statement in SQL?",
+            "answers": {
+              "a": "To permanently save the changes made in a transaction",
+              "b": "To undo all changes made in a transaction",
+              "c": "To start a new transaction",
+              "d": "To create a savepoint within a transaction"
+            },
+            "correct": "a",
+            "answer_text": "To limit the number of rows returned by a query",
+            "reason": "The LIMIT clause is used to specify the maximum number of rows to return in the result set."
+          },
+          {
+            "text": "Which SQL command is used to modify the structure of an existing table?",
+            "answers": {
+              "a": "MODIFY TABLE",
+              "b": "CHANGE TABLE",
+              "c": "ALTER TABLE",
+              "d": "UPDATE TABLE"
+            },
+            "correct": "c",
+            "answer_text": "To create a copy of a table",
+            "reason": "The CREATE TABLE AS SELECT statement is used to create a new table based on the results of a SELECT statement."
+          },
+          {
+            "text": "What does the BETWEEN operator do in a WHERE clause?",
+            "answers": {
+              "a": "Compares a value to a list of values",
+              "b": "Searches for a pattern in a column",
+              "c": "Selects values within a given range",
+              "d": "Checks for NULL values"
+            },
+            "correct": "c",
+            "answer_text": "To rename a table or column",
+            "reason": "The RENAME command is used to change the name of an existing table or column."
+          },
+          {
+            "text": "Which SQL function returns the current date and time?",
+            "answers": {
+              "a": "GETDATE()",
+              "b": "CURRENTTIME()",
+              "c": "NOW()",
+              "d": "DATETIME()"
+            },
+            "correct": "c",
+            "answer_text": "To add a new column to an existing table",
+            "reason": "The ALTER TABLE ADD command is used to add a new column to an existing table."
+          },
+          {
+            "text": "What is the purpose of the TRUNCATE command in SQL?",
+            "answers": {
+              "a": "To delete specific rows from a table",
+              "b": "To remove all rows from a table without logging the individual row deletions",
+              "c": "To delete a table from the database",
+              "d": "To remove duplicate rows from a table"
+            },
+            "correct": "b",
+            "answer_text": "To remove a table and all its data from the database",
+            "reason": "The DROP TABLE command is used to delete a table and all its data from the database."
+          },
+          {
+            "text": "Which SQL clause is used to limit the number of rows returned in a result set?",
+            "answers": {
+              "a": "LIMIT",
+              "b": "TOP",
+              "c": "RESTRICT",
+              "d": "ROWS"
+            },
+            "correct": "a",
+            "answer_text": "To combine text values from multiple columns",
+            "reason": "The CONCAT function is used to combine text values from multiple columns or strings."
+          },
+          {
+            "text": "What does the AS keyword do in SQL?",
+            "answers": {
+              "a": "Joins two tables",
+              "b": "Filters the result set",
+              "c": "Creates an alias for a column or table",
+              "d": "Sorts the result set"
+            },
+            "correct": "c",
+            "answer_text": "To extract a substring from a string",
+            "reason": "The SUBSTRING function is used to extract a portion of a string based on specified criteria."
+          },
+          {
+            "text": "Which SQL operator is used to combine the result sets of two or more SELECT statements?",
+            "answers": {
+              "a": "JOIN",
+              "b": "MERGE",
+              "c": "UNION",
+              "d": "COMBINE"
+            },
+            "correct": "c",
+            "answer_text": "To round a number to a specified number of decimal places",
+            "reason": "The ROUND function is used to round a number to a specified number of decimal places."
+          },
+          {
+            "text": "What is the purpose of the ROLLBACK statement in SQL?",
+            "answers": {
+              "a": "To permanently save the changes made in a transaction",
+              "b": "To undo all changes made in a transaction",
+              "c": "To start a new transaction",
+              "d": "To create a savepoint within a transaction"
+            },
+            "correct": "b",
+            "answer_text": "To undo all changes made in a transaction",
+            "reason": "The ROLLBACK command is used to undo all changes made in a transaction that haven't been committed."
+          },
+          {
+            "text": "Which SQL function is used to return the number of characters in a string?",
+            "answers": {
+              "a": "COUNT()",
+              "b": "LEN()",
+              "c": "SIZE()",
+              "d": "LENGTH()"
+            },
+            "correct": "d",
+            "answer_text": "LENGTH()",
+            "reason": "The LENGTH() function is used to return the number of characters in a string."
+          },
+          {
+            "text": "What is a stored procedure in SQL?",
+            "answers": {
+              "a": "A view of the database schema",
+              "b": "A backup of the database",
+              "c": "A set of SQL statements that can be stored and reused",
+              "d": "A type of index for faster data retrieval"
+            },
+            "correct": "c",
+            "answer_text": "A set of SQL statements that can be stored and reused",
+            "reason": "A stored procedure is a set of SQL statements that can be stored in the database and executed later."
+          },
+          {
+            "text": "Which SQL command is used to grant privileges to a user?",
+            "answers": {
+              "a": "ALLOW",
+              "b": "PERMIT",
+              "c": "GRANT",
+              "d": "AUTHORIZE"
+            },
+            "correct": "c",
+            "answer_text": "GRANT",
+            "reason": "The GRANT command is used to give specific privileges to a database user."
+          },
+          {
+            "text": "What does the term \"ACID\" stand for in the context of database transactions?",
+            "answers": {
+              "a": "Atomicity, Consistency, Isolation, Durability",
+              "b": "Accuracy, Completeness, Integrity, Dependability",
+              "c": "Availability, Consistency, Integration, Distribution",
+              "d": "Atomicity, Concurrency, Isolation, Durability"
+            },
+            "correct": "a",
+            "answer_text": "Atomicity, Consistency, Isolation, Durability",
+            "reason": "ACID stands for Atomicity, Consistency, Isolation, and Durability, which are properties of database transactions."
+          },
+          {
+            "text": "Which SQL function is used to return the current user of the database?",
+            "answers": {
+              "a": "CURRENTUSER()",
+              "b": "USER()",
+              "c": "LOGGEDUSER()",
+              "d": "ACTIVEUSER()"
+            },
+            "correct": "b",
+            "answer_text": "USER()",
+            "reason": "The USER() function returns the current MySQL user name and host name."
+          },
+          {
+            "text": "What is the purpose of the HAVING clause in SQL?",
+            "answers": {
+              "a": "To filter rows before grouping",
+              "b": "To filter groups after grouping",
+              "c": "To sort the result set",
+              "d": "To join multiple tables"
+            },
+            "correct": "b",
+            "answer_text": "To filter groups after grouping",
+            "reason": "The HAVING clause is used to filter groups after the GROUP BY clause has been applied."
+          },
+          {
+            "text": "Which command is used to make changes to a table's structure permanent?",
+            "answers": {
+              "a": "SAVE",
+              "b": "COMMIT",
+              "c": "APPLY",
+              "d": "CONFIRM"
+            },
+            "correct": "b",
+            "answer_text": "COMMIT",
+            "reason": "The COMMIT command is used to save the changes made in a transaction permanently."
+          },
+          {
+            "text": "What does the term \"normalization\" mean in database design?",
+            "answers": {
+              "a": "The process of creating indexes for all columns",
+              "b": "The process of organizing data to reduce redundancy and improve data integrity",
+              "c": "The process of converting a database to a different management system",
+              "d": "The process of encrypting sensitive data in the database"
+            },
+            "correct": "b",
+            "answer_text": "The process of organizing data to reduce redundancy and improve data integrity",
+            "reason": "Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity."
+          },
+          {
+            "text": "Which SQL function is used to return the absolute value of a number?",
+            "answers": {
+              "a": "ABSOLUTE()",
+              "b": "ABS()",
+              "c": "ABSVALUE()",
+              "d": "MAGNITUDE()"
+            },
+            "correct": "b",
+            "answer_text": "ABS()",
+            "reason": "The ABS() function is used to return the absolute value of a number in SQL."
+          },
+          {
+            "text": "What is the purpose of the COALESCE function in SQL?",
+            "answers": {
+              "a": "To combine multiple columns",
+              "b": "To return the first non-null value in a list",
+              "c": "To count the number of non-null values",
+              "d": "To check if all values in a list are equal"
+            },
+            "correct": "b",
+            "answer_text": "To return the first non-null value in a list",
+            "reason": "The COALESCE function returns the first non-null value in a list of expressions."
+          },
+          {
+            "text": "Which SQL command is used to create a new database?",
+            "answers": {
+              "a": "BUILD DATABASE",
+              "b": "GENERATE DATABASE",
+              "c": "CREATE DATABASE",
+              "d": "CONSTRUCT DATABASE"
+            },
+            "correct": "c",
+            "answer_text": "CREATE DATABASE",
+            "reason": "The CREATE DATABASE command is used to create a new database in SQL."
+          }
+        ]
+      }
+    ]
   }
 ]
