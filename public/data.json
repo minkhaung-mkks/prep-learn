@@ -27929,5 +27929,674 @@
         ]
       }
     ]
+  },
+  {
+    "id": 61,
+    "name": "Thai",
+    "subject": "Social Studies",
+    "exam": "GED",
+    "topic": [],
+    "sub_topic": [],
+    "difficulty": "Easy",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 54,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What is the thing that the beautiful lady carried and floats onto the river?",
+            "answers": {
+              "a": "A lotus",
+              "b": "A Krathong",
+              "c": "A candle",
+              "d": "A boat"
+            },
+            "correct": "b",
+            "answer_text": "A Krathong",
+            "reason": "The item carried is called a Krathong, which is floated on the river during the festival."
+          },
+          {
+            "text": "What is the shape of “the offering thing” look like?",
+            "answers": {
+              "a": "A closed lotus",
+              "b": "An open lotus",
+              "c": "A circle",
+              "d": "A square"
+            },
+            "correct": "b",
+            "answer_text": "An open lotus",
+            "reason": "The offering is described as looking like an open lotus."
+          },
+          {
+            "text": "What are the purposes of the Loy Krathong festival in Thailand?",
+            "answers": {
+              "a": "To celebrate the harvest season",
+              "b": "To purge evil or bad luck and worship the Goddess of the Water",
+              "c": "To mark the beginning of the rainy season",
+              "d": "To honor the king"
+            },
+            "correct": "b",
+            "answer_text": "To purge evil or bad luck and worship the Goddess of the Water",
+            "reason": "The festival signifies both the purging of negative luck and an act of worship toward the water goddess."
+          },
+          {
+            "text": "When is the Loy Krathong festival held?",
+            "answers": {
+              "a": "On the new moon of the 12th lunar month",
+              "b": "On the full moon of the 12th lunar month",
+              "c": "On the first day of the Thai New Year",
+              "d": "On the last day of the 11th lunar month"
+            },
+            "correct": "b",
+            "answer_text": "On the full moon of the 12th lunar month",
+            "reason": "Loy Krathong is held on the full moon of the 12th lunar month."
+          },
+          {
+            "text": "Why is the Wai Kru ceremony held on Thursday?",
+            "answers": {
+              "a": "Because Thursday is associated with wealth",
+              "b": "Because Thursday is considered an auspicious day associated with wisdom and teachers",
+              "c": "Because Thursday is the first day of the week",
+              "d": "Because Thursday is a day of rest"
+            },
+            "correct": "b",
+            "answer_text": "Because Thursday is considered an auspicious day associated with wisdom and teachers",
+            "reason": "Thursday is traditionally linked to wisdom and the honoring of teachers in Thai culture."
+          },
+          {
+            "text": "What is the significance of the eggplant flower in the Wai Kru ceremony?",
+            "answers": {
+              "a": "It symbolizes fertility",
+              "b": "It symbolizes respect and humility",
+              "c": "It represents misfortune",
+              "d": "It is used purely for decoration"
+            },
+            "correct": "b",
+            "answer_text": "It symbolizes respect and humility",
+            "reason": "The eggplant flower represents respect and humility in the ceremony."
+          },
+          {
+            "text": "What are the purposes of the Wai Kru ceremony?",
+            "answers": {
+              "a": "To celebrate the start of a school term",
+              "b": "To pay respect, seek blessings, and gain merit from teachers",
+              "c": "To announce new teachers",
+              "d": "To mark the end of a semester"
+            },
+            "correct": "b",
+            "answer_text": "To pay respect, seek blessings, and gain merit from teachers",
+            "reason": "The ceremony is performed to honor teachers, seek their blessings, and earn merit."
+          },
+          {
+            "text": "Which offering in the Wai Kru ceremony symbolizes braininess and intelligence?",
+            "answers": {
+              "a": "Dok Hom flower",
+              "b": "Dok Kem flower",
+              "c": "Orchid",
+              "d": "Jasmine"
+            },
+            "correct": "b",
+            "answer_text": "Dok Kem flower",
+            "reason": "The Dok Kem flower symbolizes wisdom and intelligence in the Wai Kru ceremony."
+          },
+          {
+            "text": "Who is responsible for presenting flower bowls to the teacher in the Wai Kru ceremony?",
+            "answers": {
+              "a": "Parents",
+              "b": "Students",
+              "c": "Teachers",
+              "d": "School administrators"
+            },
+            "correct": "b",
+            "answer_text": "Students",
+            "reason": "Students are responsible for presenting flower bowls to the teacher during the ceremony."
+          },
+          {
+            "text": "Who is on duty to read a prayer and wish aloud in the Wai Kru ceremony?",
+            "answers": {
+              "a": "Younger students",
+              "b": "Senior students and/or teachers",
+              "c": "Parents",
+              "d": "The principal"
+            },
+            "correct": "b",
+            "answer_text": "Senior students and/or teachers",
+            "reason": "Senior students and/or teachers read prayers and voice wishes during the ceremony."
+          },
+          {
+            "text": "When is the Songkran festival held?",
+            "answers": {
+              "a": "March 13th to 15th",
+              "b": "April 13th to 15th",
+              "c": "May 13th to 15th",
+              "d": "June 13th to 15th"
+            },
+            "correct": "b",
+            "answer_text": "April 13th to 15th",
+            "reason": "Songkran is celebrated from April 13th to 15th."
+          },
+          {
+            "text": "What is the significance of Songkran?",
+            "answers": {
+              "a": "It marks the end of the harvest season",
+              "b": "It marks the Thai traditional New Year",
+              "c": "It commemorates a historical battle",
+              "d": "It celebrates the arrival of the monsoon"
+            },
+            "correct": "b",
+            "answer_text": "It marks the Thai traditional New Year",
+            "reason": "Songkran is the celebration of the traditional Thai New Year."
+          },
+          {
+            "text": "Why do people throw water at one another on Songkran Day?",
+            "answers": {
+              "a": "To cool down in the heat",
+              "b": "To bless and give best wishes by washing away misfortunes for a fresh start",
+              "c": "To clean the streets",
+              "d": "To show off water skills"
+            },
+            "correct": "b",
+            "answer_text": "To bless and give best wishes by washing away misfortunes for a fresh start",
+            "reason": "The water throwing symbolizes cleansing past misfortunes and welcoming a fresh start."
+          },
+          {
+            "text": "Why do people pour water onto older hands during Songkran?",
+            "answers": {
+              "a": "To wash away the dirt from the hands",
+              "b": "As a sign of respect and to seek blessings",
+              "c": "To initiate a water fight",
+              "d": "To cool the elders down"
+            },
+            "correct": "b",
+            "answer_text": "As a sign of respect and to seek blessings",
+            "reason": "Pouring water on older hands is a gesture of respect and a request for blessings."
+          },
+          {
+            "text": "At what age do Thai men become ordained?",
+            "answers": {
+              "a": "At least 15 years old",
+              "b": "At least 20 years old",
+              "c": "At least 25 years old",
+              "d": "At least 30 years old"
+            },
+            "correct": "b",
+            "answer_text": "At least 20 years old",
+            "reason": "Thai men are ordained as monks when they reach at least 20 years of age."
+          },
+          {
+            "text": "What are the purposes for Thai men becoming monks?",
+            "answers": {
+              "a": "To escape family responsibilities",
+              "b": "To acquire Buddhist knowledge, progress toward enlightenment, and bring merit to their parents",
+              "c": "To travel abroad",
+              "d": "To engage in political activities"
+            },
+            "correct": "b",
+            "answer_text": "To acquire Buddhist knowledge, progress toward enlightenment, and bring merit to their parents",
+            "reason": "Becoming a monk is meant for spiritual growth, enlightenment, and earning merit for one’s family."
+          },
+          {
+            "text": "Why are the Nak’s hair and eyebrows shaved in the ordination ceremony?",
+            "answers": {
+              "a": "To symbolize intelligence",
+              "b": "To reject vanity and sexuality",
+              "c": "To mark the transition to adulthood",
+              "d": "To follow government regulations"
+            },
+            "correct": "b",
+            "answer_text": "To reject vanity and sexuality",
+            "reason": "Shaving the hair and eyebrows symbolizes the rejection of vanity and sexuality."
+          },
+          {
+            "text": "Why does the Nak dress in white?",
+            "answers": {
+              "a": "To symbolize mourning",
+              "b": "To represent purity",
+              "c": "To imitate monks",
+              "d": "To indicate wealth"
+            },
+            "correct": "b",
+            "answer_text": "To represent purity",
+            "reason": "Dressing in white signifies purity."
+          },
+          {
+            "text": "How many rules of conduct must monks keep?",
+            "answers": {
+              "a": "150 rules",
+              "b": "200 rules",
+              "c": "227 rules",
+              "d": "300 rules"
+            },
+            "correct": "c",
+            "answer_text": "227 rules",
+            "reason": "Monks are required to observe 227 rules of conduct."
+          },
+          {
+            "text": "How many steps are there in the wedding ceremony? ",
+            "answers": {
+              "a": "1 step",
+              "b": "2 steps",
+              "c": "3 steps",
+              "d": "4 steps"
+            },
+            "correct": "c",
+            "answer_text": "3 steps",
+            "reason": "Step 1 merit‑making, Step 2 Wedding Cremony, Step 3 The newlyweds are led to the bed—often for a few symbolic nights—to receive blessings for luck, fertility, and prosperous future."
+          },
+          {
+            "text": "Why do elders and guests pour sacred water over the couple’s hands during a wedding ceremony?",
+            "answers": {
+              "a": "To wash away sins",
+              "b": "To bless the couple",
+              "c": "To cool the couple",
+              "d": "To mark the beginning of the ceremony"
+            },
+            "correct": "b",
+            "answer_text": "To bless the couple",
+            "reason": "Pouring sacred water is a ritual to bless the couple."
+          },
+          {
+            "text": "What is the purpose of linking the bride and groom’s head with a white thread?",
+            "answers": {
+              "a": "To indicate wealth",
+              "b": "To symbolize their union and commitment",
+              "c": "To ward off evil spirits",
+              "d": "To show their social status"
+            },
+            "correct": "b",
+            "answer_text": "To symbolize their union and commitment",
+            "reason": "The white thread linking the bride and groom signifies their union and commitment."
+          },
+          {
+            "text": "How many steps are there in the Thai traditional birth ceremony? (Uncertain)",
+            "answers": {
+              "a": "1 step",
+              "b": "2 steps",
+              "c": "3 steps",
+              "d": "4 steps"
+            },
+            "correct": "c",
+            "answer_text": "3 steps",
+            "reason": "Although most sources say its 2 steps, I remember Ajarn saying something about knot cutting ceremony too and it is part of the PPTX so I am saying 3."
+          },
+          {
+            "text": "What is the rationale of “Tham Khwan Sam Wan” in the birth ceremony?",
+            "answers": {
+              "a": "To celebrate a baby's first smile",
+              "b": "To make a soul after three days",
+              "c": "To name the baby",
+              "d": "To predict the baby’s future"
+            },
+            "correct": "b",
+            "answer_text": "To make a soul after three days",
+            "reason": "“Tham Khwan Sam Wan” means making a soul after three days, reflecting a belief about a spirit entering the baby."
+          },
+          {
+            "text": "Why does an old woman act as if buying the three days child during the birth ceremony?",
+            "answers": {
+              "a": "To show her wealth",
+              "b": "To trick the evil spirit by \"buying\" the baby with one coin",
+              "c": "To honor the baby",
+              "d": "To cleanse the baby"
+            },
+            "correct": "b",
+            "answer_text": "To trick the evil spirit by \"buying\" the baby with one coin",
+            "reason": "The act is meant to trick the evil spirit, ensuring it cannot reclaim the baby."
+          },
+          {
+            "text": "How does “Tham Khwan Duen” differ from “Tham Khwan Sam Wan”?",
+            "answers": {
+              "a": "One is performed after two days and the other after three days",
+              "b": "One is for girls and the other for boys",
+              "c": "“Tham Khwan Duen” is making a soul after one month, while “Tham Khwan Sam Wan” is after three days",
+              "d": "They are identical ceremonies"
+            },
+            "correct": "c",
+            "answer_text": "“Tham Khwan Duen” is making a soul after one month, while “Tham Khwan Sam Wan” is after three days",
+            "reason": "The two ceremonies differ in timing: one month versus three days, with distinct protective purposes."
+          },
+          {
+            "text": "Why do relatives and friends pour water over the right hand of the corpse during a funeral ceremony?",
+            "answers": {
+              "a": "To wake the deceased",
+              "b": "To cleanse and bless the deceased",
+              "c": "To cool the body",
+              "d": "To show disrespect"
+            },
+            "correct": "b",
+            "answer_text": "To cleanse and bless the deceased",
+            "reason": "Pouring water over the right hand is a ritual to cleanse and bless the corpse."
+          },
+          {
+            "text": "On which day are cremations never held in Thailand?",
+            "answers": {
+              "a": "Monday",
+              "b": "Wednesday",
+              "c": "Friday",
+              "d": "Sunday"
+            },
+            "correct": "c",
+            "answer_text": "Friday",
+            "reason": "Cremations in Thailand are never held on Friday."
+          },
+          {
+            "text": "Why is one Baht coin placed in the corpse’s mouth during a funeral ceremony?",
+            "answers": {
+              "a": "To pay for the funeral",
+              "b": "To remind that wealth cannot be taken into the afterlife",
+              "c": "To symbolize the deceased's greed",
+              "d": "To measure the deceased's wealth"
+            },
+            "correct": "b",
+            "answer_text": "To remind that wealth cannot be taken into the afterlife",
+            "reason": "Placing a Baht coin in the mouth symbolizes that material wealth cannot accompany one into the afterlife."
+          },
+          {
+            "text": "What ingredient do Thai people use for seasoning in their cuisine?",
+            "answers": {
+              "a": "Soy sauce",
+              "b": "Fish sauce",
+              "c": "Salt",
+              "d": "Chili paste"
+            },
+            "correct": "b",
+            "answer_text": "Fish sauce",
+            "reason": "Fish sauce is a primary seasoning used in Thai cuisine."
+          },
+          {
+            "text": "During which historical period was coconut milk introduced to Thailand?",
+            "answers": {
+              "a": "Sukhothai period",
+              "b": "Ayutthaya period",
+              "c": "Rattanakosin period",
+              "d": "Lanna period"
+            },
+            "correct": "b",
+            "answer_text": "Ayutthaya period",
+            "reason": "Coconut milk was introduced during the Ayutthaya period."
+          },
+          {
+            "text": "What method is used to cook spicy soup with shrimp in Thai cuisine? ",
+            "answers": {
+              "a": "Frying",
+              "b": "Boiling",
+              "c": "Steaming",
+              "d": "Grilling"
+            },
+            "correct": "b",
+            "answer_text": "Boiling",
+            "reason": "Spicy shrimp soup is typically prepared by boiling."
+          },
+          {
+            "text": "What cutlery is typically used to eat Thai food?",
+            "answers": {
+              "a": "Chopsticks",
+              "b": "Spoon and fork",
+              "c": "Knife and fork",
+              "d": "Hands"
+            },
+            "correct": "b",
+            "answer_text": "Spoon and fork",
+            "reason": "Thai food is commonly eaten with a spoon and fork."
+          },
+          {
+            "text": "What is the main taste of Northern regional food in Thailand?",
+            "answers": {
+              "a": "Sweet",
+              "b": "Sour",
+              "c": "Rich and savoury",
+              "d": "Bitter"
+            },
+            "correct": "c",
+            "answer_text": "Rich and savoury",
+            "reason": "The northern regional cuisine is known for its rich and savoury flavors."
+          },
+          {
+            "text": "What is the main taste of Central regional food in Thailand?",
+            "answers": {
+              "a": "Extremely spicy",
+              "b": "Mild and bland",
+              "c": "Balanced with fresh, sweet, salty, sour, and spicy flavors",
+              "d": "Overly salty"
+            },
+            "correct": "c",
+            "answer_text": "Balanced with fresh, sweet, salty, sour, and spicy flavors",
+            "reason": "Central Thai cuisine is characterized by a balanced mix of these flavors."
+          },
+          {
+            "text": "Why is Thai food considered medicinal?",
+            "answers": {
+              "a": "It uses rare spices only",
+              "b": "It is served cold",
+              "c": "It incorporates herbs, spices, and fresh ingredients that promote health",
+              "d": "It is prepared by monks"
+            },
+            "correct": "c",
+            "answer_text": "It incorporates herbs, spices, and fresh ingredients that promote health",
+            "reason": "The medicinal aspect of Thai food comes from its use of healthful herbs, spices, and fresh produce."
+          },
+          {
+            "text": "What is the staple food of Thai people?",
+            "answers": {
+              "a": "Noodles",
+              "b": "Rice",
+              "c": "Bread",
+              "d": "Potatoes"
+            },
+            "correct": "b",
+            "answer_text": "Rice",
+            "reason": "Rice is the staple food in Thailand."
+          },
+          {
+            "text": "Which region of Thailand is credited with being the birthplace of \"SomTam\" (a spicy salad)?",
+            "answers": {
+              "a": "Northern region",
+              "b": "Central region",
+              "c": "North Eastern region",
+              "d": "Southern region"
+            },
+            "correct": "c",
+            "answer_text": "North Eastern region",
+            "reason": "The North Eastern region is credited as the birthplace of SomTam, the spicy salad."
+          },
+          {
+            "text": "What are the purposes of performing “Wai” in Thai culture?",
+            "answers": {
+              "a": "To show aggression",
+              "b": "As a greeting, expression of respect, and to show gratitude or apology",
+              "c": "To indicate wealth",
+              "d": "To announce an event"
+            },
+            "correct": "b",
+            "answer_text": "As a greeting, expression of respect, and to show gratitude or apology",
+            "reason": "The \"Wai\" is a traditional gesture for greeting, respect, gratitude, or apology."
+          },
+          {
+            "text": "What is the difference between “Wai” and “Krab”?",
+            "answers": {
+              "a": "Wai is a physical gesture, while Krab is a type of food",
+              "b": "Wai is a physical gesture of respect, while Krab is a polite particle added at the end of sentences",
+              "c": "Wai is only used in formal settings, while Krab is used in casual conversation",
+              "d": "Wai is used only by elders, while Krab is used by everyone"
+            },
+            "correct": "b",
+            "answer_text": "Wai is a physical gesture of respect, while Krab is a polite particle added at the end of sentences",
+            "reason": "The distinction is that Wai involves a physical gesture, whereas Krab is used in speech."
+          },
+          {
+            "text": "Why do Thais consider the head the most respected part of the body?",
+            "answers": {
+              "a": "Because it is the source of intelligence",
+              "b": "Because it houses the spirit or soul",
+              "c": "Because it is the largest part of the body",
+              "d": "Because it is the easiest to decorate"
+            },
+            "correct": "b",
+            "answer_text": "Because it houses the spirit or soul",
+            "reason": "The head is considered sacred because it is believed to contain the spirit or soul."
+          },
+          {
+            "text": "What is expected when visiting a temple in Thailand?",
+            "answers": {
+              "a": "Wear bright, flashy clothes",
+              "b": "Wear modest clothing that covers the shoulders and knees",
+              "c": "Wear only traditional Thai costumes",
+              "d": "Wear a hat and sunglasses"
+            },
+            "correct": "b",
+            "answer_text": "Wear modest clothing that covers the shoulders and knees",
+            "reason": "Modest attire is expected when visiting temples."
+          },
+          {
+            "text": "What is “Nam Jai” in Thai culture?",
+            "answers": {
+              "a": "A gesture of disrespect",
+              "b": "Being considerate, caring, and generous towards others",
+              "c": "A traditional dance",
+              "d": "A type of local cuisine"
+            },
+            "correct": "b",
+            "answer_text": "Being considerate, caring, and generous towards others",
+            "reason": "“Nam Jai” embodies the spirit of being considerate, caring, and generous."
+          },
+          {
+            "text": "What is “Kreang Jai” in Thai culture?",
+            "answers": {
+              "a": "Being aggressive and dominant",
+              "b": "Being considerate and not wanting to burden others",
+              "c": "A form of ritual sacrifice",
+              "d": "A celebration of wealth"
+            },
+            "correct": "b",
+            "answer_text": "Being considerate and not wanting to burden others",
+            "reason": "“Kreang Jai” reflects a mindset of consideration and avoiding imposing on others."
+          },
+          {
+            "text": "What are the key principles of Thai art?",
+            "answers": {
+              "a": "Complexity, modernity, extravagance, and minimalism",
+              "b": "Simplicity, spirituality, sincerity, and symbolism",
+              "c": "Abstractness, intensity, colorfulness, and dynamism",
+              "d": "Realism, naturalism, grandeur, and boldness"
+            },
+            "correct": "b",
+            "answer_text": "Simplicity, spirituality, sincerity, and symbolism",
+            "reason": "These are the key principles that underpin Thai art."
+          },
+          {
+            "text": "What is a main characteristic of a Thai traditional house?",
+            "answers": {
+              "a": "It is built on flat ground with a flat roof",
+              "b": "It is raised on stilts",
+              "c": "It is constructed using glass and steel",
+              "d": "It is built underground"
+            },
+            "correct": "b",
+            "answer_text": "It is raised on stilts",
+            "reason": "A characteristic feature of traditional Thai houses is that they are built on stilts."
+          },
+          {
+            "text": "What materials are primarily used to build a Thai traditional house?",
+            "answers": {
+              "a": "Concrete and brick",
+              "b": "Hardwood and bamboo",
+              "c": "Plastic and metal",
+              "d": "Stone and mortar"
+            },
+            "correct": "b",
+            "answer_text": "Hardwood and bamboo",
+            "reason": "Traditional Thai houses are primarily constructed from hardwood and bamboo."
+          },
+          {
+            "text": "What are the main purposes of Muay Thai?",
+            "answers": {
+              "a": "Only as a competitive sport",
+              "b": "As military training, martial art, national sport, self-defense, and exercise",
+              "c": "To perform traditional dances",
+              "d": "To practice meditation"
+            },
+            "correct": "b",
+            "answer_text": "As military training, martial art, national sport, self-defense, and exercise",
+            "reason": "Muay Thai serves multiple roles including military training, a martial art, national sport, self-defense, and a form of exercise."
+          },
+          {
+            "text": "What is “Wai Kru Ram Muay”?",
+            "answers": {
+              "a": "A strength training exercise",
+              "b": "A dancelike movement reflecting gratitude and respect by Thai boxers",
+              "c": "A type of protective gear",
+              "d": "A ceremonial ritual for choosing a coach"
+            },
+            "correct": "b",
+            "answer_text": "A dancelike movement reflecting gratitude and respect by Thai boxers",
+            "reason": "“Wai Kru Ram Muay” is a dancelike ritual that expresses gratitude and respect in Muay Thai."
+          },
+          {
+            "text": "What materials are commonly used to create Thai crafts?",
+            "answers": {
+              "a": "Plastic, aluminum, and synthetic fabrics",
+              "b": "Wood, bamboo, clay, silk and textiles, and metals such as bronze, silver, and gold",
+              "c": "Paper and cardboard only",
+              "d": "Recycled materials exclusively"
+            },
+            "correct": "b",
+            "answer_text": "Wood, bamboo, clay, silk and textiles, and metals such as bronze, silver, and gold",
+            "reason": "These are the common materials used in creating traditional Thai crafts."
+          },
+          {
+            "text": "How do Thai crafts reflect the way of life and character of Thai people?",
+            "answers": {
+              "a": "They emphasize individual achievement and competition",
+              "b": "They reflect community spirit, hospitality, and collective effort",
+              "c": "They focus solely on modern technology",
+              "d": "They are designed only for commercial export"
+            },
+            "correct": "b",
+            "answer_text": "They reflect community spirit, hospitality, and collective effort",
+            "reason": "Thai crafts emphasize communal values, hospitality, and the importance of working together."
+          },
+          {
+            "text": "Why is Thai food considered medicinal?",
+            "answers": {
+              "a": "Because it is served cold",
+              "b": "Because it incorporates herbs, spices, and fresh ingredients that promote health",
+              "c": "Because it is highly processed",
+              "d": "Because it has no nutritional value"
+            },
+            "correct": "b",
+            "answer_text": "Because it incorporates herbs, spices, and fresh ingredients that promote health",
+            "reason": "The medicinal reputation of Thai food is due to its healthful ingredients."
+          },
+          {
+            "text": "Which cutlery is typically used to eat Thai food?",
+            "answers": {
+              "a": "Fork and knife",
+              "b": "Spoon and fork",
+              "c": "Chopsticks only",
+              "d": "Hands"
+            },
+            "correct": "b",
+            "answer_text": "Spoon and fork",
+            "reason": "The standard cutlery used to eat Thai food is a spoon and fork."
+          },
+          {
+            "text": "What is the staple food of Thai people?",
+            "answers": {
+              "a": "Wheat",
+              "b": "Rice",
+              "c": "Corn",
+              "d": "Potatoes"
+            },
+            "correct": "b",
+            "answer_text": "Rice",
+            "reason": "Rice is the staple food for Thai people."
+          }
+        ]
+      }
+    ]
   }
 ]
