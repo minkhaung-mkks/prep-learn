@@ -28598,5 +28598,3011 @@
         ]
       }
     ]
+  },
+  {
+    "id": 62,
+    "name": "Ethics",
+    "subject": "Social Studies",
+    "exam": "GED",
+    "topic": [],
+    "sub_topic": [],
+    "difficulty": "Hard",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "When was the United Nations founded?",
+            "answers": {
+              "a": "July 4, 1776",
+              "b": "September 1, 1939",
+              "c": "October 24, 1945",
+              "d": "December 25, 1950"
+            },
+            "correct": "c",
+            "answer_text": "October 24, 1945",
+            "reason": "The United Nations was founded on October 24, 1945, following the end of World War II."
+          },
+          {
+            "text": "What was the primary purpose of establishing the United Nations?",
+            "answers": {
+              "a": "To create a global military alliance",
+              "b": "To replace the League of Nations and prevent future conflicts",
+              "c": "To promote global trade",
+              "d": "To establish a single world government"
+            },
+            "correct": "b",
+            "answer_text": "To replace the League of Nations and prevent future conflicts",
+            "reason": "The UN was established to serve as a successor to the League of Nations and to help prevent future global conflicts."
+          },
+          {
+            "text": "Who was a key figure in initiating the creation of the UN?",
+            "answers": {
+              "a": "Winston Churchill",
+              "b": "Joseph Stalin",
+              "c": "Franklin D. Roosevelt",
+              "d": "Mahatma Gandhi"
+            },
+            "correct": "c",
+            "answer_text": "Franklin D. Roosevelt",
+            "reason": "US President Franklin D. Roosevelt was instrumental in initiating the talks that led to the creation of the UN."
+          },
+          {
+            "text": "How many member states were there when the UN was first founded?",
+            "answers": {
+              "a": "25",
+              "b": "51",
+              "c": "100",
+              "d": "193"
+            },
+            "correct": "b",
+            "answer_text": "51",
+            "reason": "The United Nations started with 51 member states at its inception."
+          },
+          {
+            "text": "What is the current number of member states in the United Nations?",
+            "answers": {
+              "a": "150",
+              "b": "175",
+              "c": "193",
+              "d": "210"
+            },
+            "correct": "c",
+            "answer_text": "193",
+            "reason": "The UN has grown to include 193 member states in the current day."
+          },
+          {
+            "text": "How is the UN primarily funded?",
+            "answers": {
+              "a": "Through private donations only",
+              "b": "Through taxes collected by the UN",
+              "c": "Through both assessed and voluntary contributions from member states",
+              "d": "Through a global sales tax"
+            },
+            "correct": "c",
+            "answer_text": "Through both assessed and voluntary contributions from member states",
+            "reason": "The UN is funded by a combination of assessed contributions and voluntary contributions provided by its member countries."
+          },
+          {
+            "text": "Where is the headquarters of the United Nations located?",
+            "answers": {
+              "a": "Geneva",
+              "b": "New York City",
+              "c": "Vienna",
+              "d": "Nairobi"
+            },
+            "correct": "b",
+            "answer_text": "New York City",
+            "reason": "The headquarters of the United Nations is located in New York City."
+          },
+          {
+            "text": "Which of the following cities is NOT listed as a key office location of the UN?",
+            "answers": {
+              "a": "Geneva",
+              "b": "Nairobi",
+              "c": "Vienna",
+              "d": "London"
+            },
+            "correct": "d",
+            "answer_text": "London",
+            "reason": "Key UN offices are located in Geneva, Nairobi, and Vienna, but not in London."
+          },
+          {
+            "text": "Which of the following is an objective of the United Nations?",
+            "answers": {
+              "a": "Expanding international trade barriers",
+              "b": "Maintaining international peace and security",
+              "c": "Promoting regional isolation",
+              "d": "Establishing a single world currency"
+            },
+            "correct": "b",
+            "answer_text": "Maintaining international peace and security",
+            "reason": "One of the primary objectives of the UN is to maintain international peace and security."
+          },
+          {
+            "text": "Which objective of the UN focuses on safeguarding individual freedoms and dignity?",
+            "answers": {
+              "a": "Promoting technological advancement",
+              "b": "Protecting national borders",
+              "c": "Promoting human rights",
+              "d": "Enhancing economic competitiveness"
+            },
+            "correct": "c",
+            "answer_text": "Promoting human rights",
+            "reason": "Safeguarding individual freedoms and dignity is achieved through promoting human rights."
+          },
+          {
+            "text": "What is one of the objectives of the UN related to crises?",
+            "answers": {
+              "a": "Conducting space research",
+              "b": "Providing humanitarian aid during crises",
+              "c": "Regulating global stock markets",
+              "d": "Organizing international sports events"
+            },
+            "correct": "b",
+            "answer_text": "Providing humanitarian aid during crises",
+            "reason": "The UN is actively involved in providing humanitarian aid during crises such as natural disasters and armed conflicts."
+          },
+          {
+            "text": "Which core function of the UN includes peacekeeping and crisis defusing operations?",
+            "answers": {
+              "a": "Justice & Human Rights",
+              "b": "Peace",
+              "c": "Development",
+              "d": "Humanitarian Assistance"
+            },
+            "correct": "b",
+            "answer_text": "Peace",
+            "reason": "The UN's function of \"Peace\" encompasses peacekeeping and crisis defusing operations."
+          },
+          {
+            "text": "Which initiative is associated with the UN's efforts in justice and human rights?",
+            "answers": {
+              "a": "The International Monetary Fund",
+              "b": "Universal Declaration of Human Rights",
+              "c": "The World Health Organization",
+              "d": "The Global Trade Organization"
+            },
+            "correct": "b",
+            "answer_text": "Universal Declaration of Human Rights",
+            "reason": "The Universal Declaration of Human Rights is a cornerstone initiative under the UN’s justice and human rights efforts."
+          },
+          {
+            "text": "What is a key focus of the UN's humanitarian assistance function?",
+            "answers": {
+              "a": "Economic policy development",
+              "b": "Emergency disaster relief",
+              "c": "Cultural exchange programs",
+              "d": "Infrastructure building"
+            },
+            "correct": "b",
+            "answer_text": "Emergency disaster relief",
+            "reason": "Humanitarian assistance by the UN focuses on providing emergency disaster relief."
+          },
+          {
+            "text": "In the context of the UN, what does the development function primarily promote?",
+            "answers": {
+              "a": "Military expansion",
+              "b": "Socio-economic goals through specialized agencies",
+              "c": "Political propaganda",
+              "d": "Exclusive trade agreements"
+            },
+            "correct": "b",
+            "answer_text": "Socio-economic goals through specialized agencies",
+            "reason": "The UN’s development function promotes socio-economic progress via various specialized agencies."
+          },
+          {
+            "text": "Which major conflict was a key operation involving UN peacekeeping efforts?",
+            "answers": {
+              "a": "World War I",
+              "b": "Korean War",
+              "c": "Vietnam War",
+              "d": "Gulf War"
+            },
+            "correct": "b",
+            "answer_text": "Korean War",
+            "reason": "The Korean War was a significant operation that involved UN peacekeeping efforts."
+          },
+          {
+            "text": "In which operation did the UN engage in both peacekeeping and humanitarian efforts in Africa?",
+            "answers": {
+              "a": "The Vietnam Conflict",
+              "b": "The Operations in the Congo",
+              "c": "The Falklands War",
+              "d": "The Cold War interventions"
+            },
+            "correct": "b",
+            "answer_text": "The Operations in the Congo",
+            "reason": "The UN conducted peacekeeping and humanitarian operations in the Congo."
+          },
+          {
+            "text": "What significant decision regarding statehood was approved by the UN in 1947?",
+            "answers": {
+              "a": "The formation of the European Union",
+              "b": "The creation of the State of Israel",
+              "c": "The dissolution of the Soviet Union",
+              "d": "The establishment of the Republic of China"
+            },
+            "correct": "b",
+            "answer_text": "The creation of the State of Israel",
+            "reason": "In 1947, the UN approved the establishment of the State of Israel."
+          },
+          {
+            "text": "What is the primary role of the UN General Assembly?",
+            "answers": {
+              "a": "Enforcing international law through military action",
+              "b": "Serving as the main deliberative body where all member states have an equal voice",
+              "c": "Managing the UN’s financial investments",
+              "d": "Directing peacekeeping missions exclusively"
+            },
+            "correct": "b",
+            "answer_text": "Serving as the main deliberative body where all member states have an equal voice",
+            "reason": "The General Assembly is the primary forum for deliberation, where every member state has an equal say."
+          },
+          {
+            "text": "How many members are on the UN Security Council, and what special power do five of these hold?",
+            "answers": {
+              "a": "10 members, with five having veto power",
+              "b": "15 members, with five permanent members having veto power",
+              "c": "20 members, with no veto power",
+              "d": "25 members, with five having double voting rights"
+            },
+            "correct": "b",
+            "answer_text": "15 members, with five permanent members having veto power",
+            "reason": "The UN Security Council consists of 15 members, and the five permanent members have veto power."
+          },
+          {
+            "text": "What is required for the UN Security Council to pass a decision, aside from the veto power issue?",
+            "answers": {
+              "a": "Unanimous consent of all members",
+              "b": "At least 9 affirmative votes",
+              "c": "A simple majority of 8 votes",
+              "d": "Approval from the General Assembly"
+            },
+            "correct": "b",
+            "answer_text": "At least 9 affirmative votes",
+            "reason": "For a decision to pass in the Security Council, it requires at least 9 affirmative votes, aside from the veto power held by the permanent members."
+          },
+          {
+            "text": "What is one of the main functions of the Economic and Social Council (ECOSOC)?",
+            "answers": {
+              "a": "Conducting military operations",
+              "b": "Coordinating the economic and social work of the UN and its specialized agencies",
+              "c": "Drafting international treaties exclusively",
+              "d": "Managing the UN’s secretariat"
+            },
+            "correct": "b",
+            "answer_text": "Coordinating the economic and social work of the UN and its specialized agencies",
+            "reason": "ECOSOC’s role is to coordinate the economic and social initiatives of the UN and its associated agencies."
+          },
+          {
+            "text": "What is the role of the UN Secretariat?",
+            "answers": {
+              "a": "Leading peacekeeping missions in conflict zones",
+              "b": "Handling the day-to-day administrative and substantive work of the UN",
+              "c": "Organizing cultural festivals",
+              "d": "Conducting international trade negotiations"
+            },
+            "correct": "b",
+            "answer_text": "Handling the day-to-day administrative and substantive work of the UN",
+            "reason": "The Secretariat is responsible for managing the everyday operations and administrative functions of the UN."
+          },
+          {
+            "text": "What is a primary function of the International Court of Justice (ICJ)?",
+            "answers": {
+              "a": "Issuing binding economic policies",
+              "b": "Resolving legal disputes between states and providing advisory opinions",
+              "c": "Managing the UN’s budget",
+              "d": "Coordinating international disaster relief"
+            },
+            "correct": "b",
+            "answer_text": "Resolving legal disputes between states and providing advisory opinions",
+            "reason": "The International Court of Justice settles legal disputes between states and offers advisory opinions on legal matters."
+          },
+          {
+            "text": "Which organ of the UN is currently inactive?",
+            "answers": {
+              "a": "The Economic and Social Council",
+              "b": "The International Court of Justice",
+              "c": "The Trusteeship Council",
+              "d": "The Secretariat"
+            },
+            "correct": "c",
+            "answer_text": "The Trusteeship Council",
+            "reason": "The Trusteeship Council has been inactive since 1994 after completing its mission of overseeing trust territories."
+          },
+          {
+            "text": "What are the Sustainable Development Goals (SDGs)?",
+            "answers": {
+              "a": "A set of goals to increase military spending worldwide",
+              "b": "An intergovernmentally agreed set of targets for international development",
+              "c": "A list of global economic sanctions",
+              "d": "Guidelines for international trade tariffs"
+            },
+            "correct": "b",
+            "answer_text": "An intergovernmentally agreed set of targets for international development",
+            "reason": "The Sustainable Development Goals (SDGs) are a set of internationally agreed targets designed to guide global development."
+          },
+          {
+            "text": "The SDGs replaced which previous global initiative?",
+            "answers": {
+              "a": "The Global Security Agenda",
+              "b": "The Millennium Development Goals (MDGs)",
+              "c": "The International Development Program",
+              "d": "The World Economic Forum Agenda"
+            },
+            "correct": "b",
+            "answer_text": "The Millennium Development Goals (MDGs)",
+            "reason": "The SDGs replaced the Millennium Development Goals, which expired in 2015."
+          },
+          {
+            "text": "Under which agenda are the SDGs included?",
+            "answers": {
+              "a": "Agenda 2020",
+              "b": "Agenda 2030",
+              "c": "Agenda 2040",
+              "d": "Agenda 2050"
+            },
+            "correct": "b",
+            "answer_text": "Agenda 2030",
+            "reason": "The SDGs are part of the 2030 Agenda for Sustainable Development."
+          },
+          {
+            "text": "When were the SDGs formally adopted by all UN member states?",
+            "answers": {
+              "a": "2000",
+              "b": "2010",
+              "c": "2015",
+              "d": "2020"
+            },
+            "correct": "c",
+            "answer_text": "2015",
+            "reason": "All UN member states formally adopted the SDGs in 2015 during the UN Sustainable Development Summit."
+          },
+          {
+            "text": "How many Sustainable Development Goals are there?",
+            "answers": {
+              "a": "10",
+              "b": "12",
+              "c": "17",
+              "d": "20"
+            },
+            "correct": "c",
+            "answer_text": "17",
+            "reason": "There are 17 Sustainable Development Goals established under the 2030 Agenda."
+          },
+          {
+            "text": "Which of the following is NOT one of the 17 Sustainable Development Goals?",
+            "answers": {
+              "a": "End poverty in all its forms everywhere",
+              "b": "Ensure sustainable consumption and production patterns",
+              "c": "Promote international sports competitions",
+              "d": "Conserve and sustainably use the oceans"
+            },
+            "correct": "c",
+            "answer_text": "Promote international sports competitions",
+            "reason": "Promoting international sports competitions is not one of the 17 Sustainable Development Goals."
+          },
+          {
+            "text": "Which SDG focuses on eradicating poverty?",
+            "answers": {
+              "a": "SDG 1",
+              "b": "SDG 4",
+              "c": "SDG 10",
+              "d": "SDG 15"
+            },
+            "correct": "a",
+            "answer_text": "SDG 1",
+            "reason": "SDG 1 focuses on ending poverty in all its forms everywhere."
+          },
+          {
+            "text": "Which SDG is dedicated to ensuring inclusive and equitable quality education?",
+            "answers": {
+              "a": "SDG 2",
+              "b": "SDG 4",
+              "c": "SDG 6",
+              "d": "SDG 8"
+            },
+            "correct": "b",
+            "answer_text": "SDG 4",
+            "reason": "SDG 4 is dedicated to ensuring inclusive and equitable quality education for all."
+          },
+          {
+            "text": "Which Sustainable Development Goal addresses the urgent need to combat climate change?",
+            "answers": {
+              "a": "SDG 7",
+              "b": "SDG 9",
+              "c": "SDG 13",
+              "d": "SDG 17"
+            },
+            "correct": "c",
+            "answer_text": "SDG 13",
+            "reason": "SDG 13 addresses the urgent need to combat climate change and its impacts."
+          },
+          {
+            "text": "What temperature target does the Paris Climate Deal aim to achieve?",
+            "answers": {
+              "a": "Keep global temperature increase well below 2°C with efforts to limit it to 1.5°C",
+              "b": "Limit global temperature rise to 3°C",
+              "c": "Achieve a maximum increase of 4°C",
+              "d": "Maintain current global temperature levels"
+            },
+            "correct": "a",
+            "answer_text": "Keep global temperature increase well below 2°C with efforts to limit it to 1.5°C",
+            "reason": "The Paris Climate Deal aims to keep the global temperature increase well below 2°C, with efforts to limit it to 1.5°C."
+          },
+          {
+            "text": "What does UNFCCC stand for?",
+            "answers": {
+              "a": "United Nations Framework for Climate Change Cooperation",
+              "b": "United Nations Framework Convention on Climate Change",
+              "c": "United Nations Fund for Climate Change Control",
+              "d": "United Nations Foundation for Clean Climate"
+            },
+            "correct": "b",
+            "answer_text": "United Nations Framework Convention on Climate Change",
+            "reason": "UNFCCC stands for the United Nations Framework Convention on Climate Change."
+          },
+          {
+            "text": "Which COP meeting resulted in the landmark Paris Agreement?",
+            "answers": {
+              "a": "COP 1 in Berlin",
+              "b": "COP 3 in Kyoto",
+              "c": "COP 11 in Montreal",
+              "d": "COP 21 in Paris"
+            },
+            "correct": "d",
+            "answer_text": "COP 21 in Paris",
+            "reason": "COP 21, held in Paris, led to the landmark Paris Agreement."
+          },
+          {
+            "text": "Who is recognized as a pioneer in the field of peacebuilding?",
+            "answers": {
+              "a": "Martin Luther King Jr.",
+              "b": "Nelson Mandela",
+              "c": "Johan Galtung",
+              "d": "Mahatma Gandhi"
+            },
+            "correct": "c",
+            "answer_text": "Johan Galtung",
+            "reason": "Johan Galtung is recognized as a pioneer in the field of peacebuilding."
+          },
+          {
+            "text": "According to the text, what forms the foundation of peace?",
+            "answers": {
+              "a": "Economic growth and technological innovation",
+              "b": "Justice, love, and respect for human dignity",
+              "c": "Military strength and strategic alliances",
+              "d": "Political power and dominance"
+            },
+            "correct": "b",
+            "answer_text": "Justice, love, and respect for human dignity",
+            "reason": "The foundation of peace is built on principles of justice, love, and respect for human dignity."
+          },
+          {
+            "text": "What is considered an essential element for achieving peace in the peacebuilding process?",
+            "answers": {
+              "a": "Economic sanctions",
+              "b": "Political isolation",
+              "c": "Effective dialogue",
+              "d": "Military intervention"
+            },
+            "correct": "c",
+            "answer_text": "Effective dialogue",
+            "reason": "Effective dialogue is considered essential for achieving sustainable peace in the peacebuilding process."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Ethics 2",
+    "subject": "Social Studies",
+    "exam": "GED",
+    "topic": [],
+    "sub_topic": [],
+    "difficulty": "Hard",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "Which conflict is described as an ongoing civil war in its seventh year?",
+            "answers": {
+              "a": "Syria",
+              "b": "Mexico",
+              "c": "Mali",
+              "d": "Afghanistan"
+            },
+            "correct": "a",
+            "answer_text": "Syria",
+            "reason": "Syria is described as having an ongoing civil war in its seventh year."
+          },
+          {
+            "text": "In which conflict are over 40,000 fighters involved along with thousands of foreign troops?",
+            "answers": {
+              "a": "Afghanistan",
+              "b": "Syria",
+              "c": "Yemen",
+              "d": "Ukraine"
+            },
+            "correct": "b",
+            "answer_text": "Syria",
+            "reason": "Syria’s conflict involves over 40,000 fighters and thousands of foreign troops."
+          },
+          {
+            "text": "Who is the leader of Syria mentioned in the file?",
+            "answers": {
+              "a": "Bashar al-Assad",
+              "b": "Recep Tayyip Erdogan",
+              "c": "Vladimir Putin",
+              "d": "Mahmoud Abbas"
+            },
+            "correct": "a",
+            "answer_text": "Bashar al-Assad",
+            "reason": "Bashar al-Assad is identified as the leader of Syria in the file."
+          },
+          {
+            "text": "Which two countries back the Syrian regime?",
+            "answers": {
+              "a": "Russia and Iran",
+              "b": "US and Britain",
+              "c": "Saudi Arabia and Turkey",
+              "d": "France and China"
+            },
+            "correct": "a",
+            "answer_text": "Russia and Iran",
+            "reason": "The Syrian regime is backed by Russia and Iran."
+          },
+          {
+            "text": "Which group is part of the opposition in the Syrian conflict?",
+            "answers": {
+              "a": "US, Britain, and several Arab countries",
+              "b": "Russia, China, and Iran",
+              "c": "European Union and NATO",
+              "d": "United Nations and ASEAN"
+            },
+            "correct": "a",
+            "answer_text": "US, Britain, and several Arab countries",
+            "reason": "The opposition in Syria includes the US, Britain, and various Arab countries, with Saudi Arabia linked to extremist groups."
+          },
+          {
+            "text": "Which country's conflict is driven by 54 ruthless cartels?",
+            "answers": {
+              "a": "Mexico",
+              "b": "Colombia",
+              "c": "Brazil",
+              "d": "Venezuela"
+            },
+            "correct": "a",
+            "answer_text": "Mexico",
+            "reason": "Mexico’s conflict is driven by 54 ruthless cartels."
+          },
+          {
+            "text": "Approximately how many people have been killed in Mexico’s drug war since 2006?",
+            "answers": {
+              "a": "50,000",
+              "b": "85,000",
+              "c": "100,000",
+              "d": "120,000"
+            },
+            "correct": "b",
+            "answer_text": "85,000",
+            "reason": "Approximately 85,000 people have been killed in Mexico’s drug war since 2006."
+          },
+          {
+            "text": "Which type of violence is characteristic of Mexico's drug war?",
+            "answers": {
+              "a": "Cyber attacks",
+              "b": "Shootings, torture, dismemberment, and beheadings",
+              "c": "Naval skirmishes",
+              "d": "Economic sanctions"
+            },
+            "correct": "b",
+            "answer_text": "Shootings, torture, dismemberment, and beheadings",
+            "reason": "The violence in Mexico’s drug war is characterized by shootings, torture, dismemberment, and beheadings."
+          },
+          {
+            "text": "Which conflict in Mali has resulted in approximately 4,000 deaths since 2012?",
+            "answers": {
+              "a": "Territorial dispute",
+              "b": "Islamist insurgency",
+              "c": "Drug war",
+              "d": "Civil unrest"
+            },
+            "correct": "b",
+            "answer_text": "Islamist insurgency",
+            "reason": "Mali’s conflict, marked by Islamist insurgency, has resulted in about 4,000 deaths since 2012."
+          },
+          {
+            "text": "Which extremist group has established a presence in northern Mali?",
+            "answers": {
+              "a": "ISIS",
+              "b": "Al-Qaeda",
+              "c": "Boko Haram",
+              "d": "Taliban"
+            },
+            "correct": "b",
+            "answer_text": "Al-Qaeda",
+            "reason": "Islamist groups, including al-Qaeda, have established a presence in northern Mali."
+          },
+          {
+            "text": "Which two European countries are involved in military operations in Mali?",
+            "answers": {
+              "a": "Germany and Italy",
+              "b": "France and Britain",
+              "c": "Spain and Portugal",
+              "d": "Netherlands and Belgium"
+            },
+            "correct": "b",
+            "answer_text": "France and Britain",
+            "reason": "French and British military forces are involved in operations in Mali."
+          },
+          {
+            "text": "Which country is experiencing a Taliban resurgence despite the presence of nearly 9,000 US troops?",
+            "answers": {
+              "a": "Afghanistan",
+              "b": "Pakistan",
+              "c": "Iraq",
+              "d": "Syria"
+            },
+            "correct": "a",
+            "answer_text": "Afghanistan",
+            "reason": "Afghanistan is experiencing a Taliban resurgence despite the presence of nearly 9,000 US troops."
+          },
+          {
+            "text": "What advanced bomb is mentioned in connection with military operations in Afghanistan?",
+            "answers": {
+              "a": "Fat Man",
+              "b": "Little Boy",
+              "c": "“Mother of all Bombs”",
+              "d": "Davy Crockett"
+            },
+            "correct": "c",
+            "answer_text": "“Mother of all Bombs”",
+            "reason": "The file mentions the use of the “Mother of all Bombs” in Afghanistan."
+          },
+          {
+            "text": "Alongside the Taliban, which group is trying to gain a foothold in Afghanistan?",
+            "answers": {
+              "a": "ISIS",
+              "b": "Al-Qaeda",
+              "c": "Hezbollah",
+              "d": "PKK"
+            },
+            "correct": "a",
+            "answer_text": "ISIS",
+            "reason": "Alongside the Taliban, ISIS is trying to gain a foothold in Afghanistan."
+          },
+          {
+            "text": "In which conflict are both al-Qaeda and Islamic State fighters active?",
+            "answers": {
+              "a": "Syria",
+              "b": "Yemen",
+              "c": "Pakistan",
+              "d": "Mexico"
+            },
+            "correct": "b",
+            "answer_text": "Yemen",
+            "reason": "Both al-Qaeda and Islamic State fighters are active in Yemen."
+          },
+          {
+            "text": "Approximately what percentage of Yemen's population requires humanitarian aid?",
+            "answers": {
+              "a": "30%",
+              "b": "50%",
+              "c": "70%",
+              "d": "90%"
+            },
+            "correct": "c",
+            "answer_text": "70%",
+            "reason": "Approximately 70% of Yemen’s population requires humanitarian aid."
+          },
+          {
+            "text": "Which region's conflict involves territorial disputes and increased naval incursions?",
+            "answers": {
+              "a": "East and South China Sea",
+              "b": "Mediterranean Sea",
+              "c": "Baltic Sea",
+              "d": "Caribbean Sea"
+            },
+            "correct": "a",
+            "answer_text": "East and South China Sea",
+            "reason": "The conflict in the East and South China Sea involves territorial disputes and increased naval incursions."
+          },
+          {
+            "text": "The territorial disputes in the East and South China Sea primarily involve China and which other country?",
+            "answers": {
+              "a": "South Korea",
+              "b": "Japan",
+              "c": "India",
+              "d": "Vietnam"
+            },
+            "correct": "b",
+            "answer_text": "Japan",
+            "reason": "The territorial dispute in the East and South China Sea primarily involves China and Japan over the Senkaku/Diaoyu islands."
+          },
+          {
+            "text": "Which country is experiencing ongoing conflict with the Taliban since 9/11?",
+            "answers": {
+              "a": "Pakistan",
+              "b": "Afghanistan",
+              "c": "Iraq",
+              "d": "Syria"
+            },
+            "correct": "a",
+            "answer_text": "Pakistan",
+            "reason": "Pakistan has been in conflict with the Taliban since 9/11."
+          },
+          {
+            "text": "Approximately how many nuclear weapons is Pakistan reported to house?",
+            "answers": {
+              "a": "50",
+              "b": "90",
+              "c": "130",
+              "d": "200"
+            },
+            "correct": "c",
+            "answer_text": "130",
+            "reason": "Pakistan is reported to house around 130 nuclear weapons."
+          },
+          {
+            "text": "Under whose leadership is North Korea currently ruled?",
+            "answers": {
+              "a": "Kim Il-sung",
+              "b": "Kim Jong-il",
+              "c": "Kim Jong-un",
+              "d": "Moon Jae-in"
+            },
+            "correct": "c",
+            "answer_text": "Kim Jong-un",
+            "reason": "North Korea is currently led by Kim Jong-un."
+          },
+          {
+            "text": "North Korea is technically still at war with which country since the 1953 armistice?",
+            "answers": {
+              "a": "Japan",
+              "b": "South Korea",
+              "c": "China",
+              "d": "Russia"
+            },
+            "correct": "b",
+            "answer_text": "South Korea",
+            "reason": "North Korea is technically still at war with South Korea since the 1953 armistice."
+          },
+          {
+            "text": "Which country's post-invasion legacy includes massive casualties and the rise of Islamic State?",
+            "answers": {
+              "a": "Iraq",
+              "b": "Syria",
+              "c": "Afghanistan",
+              "d": "Libya"
+            },
+            "correct": "a",
+            "answer_text": "Iraq",
+            "reason": "Iraq’s post-invasion legacy includes massive casualties and the rise of Islamic State."
+          },
+          {
+            "text": "Which city is notably mentioned in the context of international support for Iraqi forces?",
+            "answers": {
+              "a": "Baghdad",
+              "b": "Mosul",
+              "c": "Basra",
+              "d": "Fallujah"
+            },
+            "correct": "b",
+            "answer_text": "Mosul",
+            "reason": "Mosul is notably mentioned regarding international support for Iraqi forces."
+          },
+          {
+            "text": "Which ethnic group spans across Iraq, Syria, Iran, and Turkey and is featured in the file?",
+            "answers": {
+              "a": "Kurds",
+              "b": "Armenians",
+              "c": "Palestinians",
+              "d": "Azeris"
+            },
+            "correct": "a",
+            "answer_text": "Kurds",
+            "reason": "The Kurds, numbering around 30 million, span across Iraq, Syria, Iran, and Turkey."
+          },
+          {
+            "text": "Which country is highlighted for having a high proportion of Syrian refugees and sectarian tensions involving Hezbollah?",
+            "answers": {
+              "a": "Jordan",
+              "b": "Lebanon",
+              "c": "Egypt",
+              "d": "Turkey"
+            },
+            "correct": "b",
+            "answer_text": "Lebanon",
+            "reason": "Lebanon is highlighted for its high proportion of Syrian refugees and sectarian tensions involving Hezbollah."
+          },
+          {
+            "text": "Which conflict in Libya began with the Arab Spring in 2011?",
+            "answers": {
+              "a": "Civil unrest and power vacuum",
+              "b": "Territorial dispute with Italy",
+              "c": "Insurgency in Tunisia",
+              "d": "Border conflict with Egypt"
+            },
+            "correct": "a",
+            "answer_text": "Civil unrest and power vacuum",
+            "reason": "Libya’s conflict began with civil unrest and a power vacuum following the Arab Spring in 2011."
+          },
+          {
+            "text": "Which extremist groups gained a foothold in Libya after the fall of Gaddafi?",
+            "answers": {
+              "a": "ISIS and al-Qaeda",
+              "b": "Boko Haram and Taliban",
+              "c": "PKK and YPG",
+              "d": "Hamas and Hezbollah"
+            },
+            "correct": "a",
+            "answer_text": "ISIS and al-Qaeda",
+            "reason": "After the fall of Gaddafi, extremist groups such as ISIS and al-Qaeda gained footholds in Libya."
+          },
+          {
+            "text": "The conflict in the Democratic Republic of Congo (DRC) stems from which historical event?",
+            "answers": {
+              "a": "The Cold War",
+              "b": "The Rwandan genocide of 1994",
+              "c": "World War II",
+              "d": "The Nigerian Civil War"
+            },
+            "correct": "b",
+            "answer_text": "The Rwandan genocide of 1994",
+            "reason": "The conflict in the DRC stems from the aftermath of the 1994 Rwandan genocide."
+          },
+          {
+            "text": "What major humanitarian crisis is associated with the conflict in the DRC?",
+            "answers": {
+              "a": "Economic collapse",
+              "b": "Mass displacement and widespread casualties",
+              "c": "Cyber warfare",
+              "d": "Environmental disaster"
+            },
+            "correct": "b",
+            "answer_text": "Mass displacement and widespread casualties",
+            "reason": "The DRC conflict has led to mass displacement and widespread casualties."
+          },
+          {
+            "text": "Which terror group remains a persistent threat in Somalia despite setbacks in Mogadishu?",
+            "answers": {
+              "a": "Boko Haram",
+              "b": "Al-Shabaab",
+              "c": "ISIS",
+              "d": "Taliban"
+            },
+            "correct": "b",
+            "answer_text": "Al-Shabaab",
+            "reason": "Al-Shabaab remains a persistent threat in Somalia despite setbacks in Mogadishu."
+          },
+          {
+            "text": "Which conflict in South Asia is characterized by ongoing violence in a disputed region?",
+            "answers": {
+              "a": "Kashmir conflict in India",
+              "b": "Tamil conflict in Sri Lanka",
+              "c": "Border dispute in Nepal",
+              "d": "Insurgency in Bangladesh"
+            },
+            "correct": "a",
+            "answer_text": "Kashmir conflict in India",
+            "reason": "The Kashmir conflict in India is characterized by ongoing violence in a disputed region."
+          },
+          {
+            "text": "Since what year has a fragile ceasefire been maintained in the Kashmir conflict between India and Pakistan?",
+            "answers": {
+              "a": "1990",
+              "b": "2000",
+              "c": "2003",
+              "d": "2010"
+            },
+            "correct": "c",
+            "answer_text": "2003",
+            "reason": "A fragile ceasefire in the Kashmir conflict between India and Pakistan has been maintained since 2003."
+          },
+          {
+            "text": "Which conflict involves continuous strife between Israel and another territory?",
+            "answers": {
+              "a": "The Palestinian conflict",
+              "b": "The Syrian conflict",
+              "c": "The Lebanese conflict",
+              "d": "The Iraqi conflict"
+            },
+            "correct": "a",
+            "answer_text": "The Palestinian conflict",
+            "reason": "The Palestinian conflict involves continuous strife between Israel and Palestine."
+          },
+          {
+            "text": "What are some key issues in the Palestinian conflict mentioned in the file?",
+            "answers": {
+              "a": "Economic policies and trade agreements",
+              "b": "Forced displacement, refugee camps, and disputes over a two-state solution",
+              "c": "Sports rivalries and cultural differences",
+              "d": "Technological innovation and development"
+            },
+            "correct": "b",
+            "answer_text": "Forced displacement, refugee camps, and disputes over a two-state solution",
+            "reason": "Key issues in the Palestinian conflict include forced displacement, overcrowded refugee camps, and disputes over a two-state solution."
+          },
+          {
+            "text": "Which country has experienced a civil war since 2013, resulting in over 50,000 deaths?",
+            "answers": {
+              "a": "Libya",
+              "b": "South Sudan",
+              "c": "Syria",
+              "d": "Yemen"
+            },
+            "correct": "b",
+            "answer_text": "South Sudan",
+            "reason": "South Sudan has experienced a civil war since 2013 with over 50,000 deaths."
+          },
+          {
+            "text": "Which region in Egypt is experiencing intensifying conflict against Islamist militants?",
+            "answers": {
+              "a": "Cairo",
+              "b": "Alexandria",
+              "c": "The Sinai Peninsula",
+              "d": "Luxor"
+            },
+            "correct": "c",
+            "answer_text": "The Sinai Peninsula",
+            "reason": "The Sinai Peninsula in Egypt is experiencing intensifying conflict against Islamist militants."
+          },
+          {
+            "text": "What type of terror attacks has Egypt faced in the Sinai region?",
+            "answers": {
+              "a": "Cyber attacks",
+              "b": "Bombings targeting Coptic Christian churches",
+              "c": "Drone strikes",
+              "d": "Maritime piracy"
+            },
+            "correct": "b",
+            "answer_text": "Bombings targeting Coptic Christian churches",
+            "reason": "Egypt has faced bombings targeting Coptic Christian churches in the Sinai region."
+          },
+          {
+            "text": "Which country's conflict is driven by Muslim Seleka groups that seized the capital, Bangui?",
+            "answers": {
+              "a": "Central African Republic (CAR)",
+              "b": "Democratic Republic of Congo (DRC)",
+              "c": "Somalia",
+              "d": "Mali"
+            },
+            "correct": "a",
+            "answer_text": "Central African Republic (CAR)",
+            "reason": "The conflict in the CAR is driven by Muslim Seleka groups that seized the capital, Bangui."
+          },
+          {
+            "text": "The ongoing conflict in Ukraine began following which major event?",
+            "answers": {
+              "a": "The dissolution of the Soviet Union",
+              "b": "Russia’s 2014 annexation of Crimea",
+              "c": "The Orange Revolution",
+              "d": "The Euromaidan protests"
+            },
+            "correct": "b",
+            "answer_text": "Russia’s 2014 annexation of Crimea",
+            "reason": "Ukraine’s ongoing conflict began following Russia’s annexation of Crimea in 2014."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Ethics 3",
+    "subject": "Social Studies",
+    "exam": "GED",
+    "topic": [],
+    "sub_topic": [],
+    "difficulty": "Hard",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What scale does the Corruption Perceptions Index (CPI) use to rate countries?",
+            "answers": {
+              "a": "0 to 10",
+              "b": "0 to 50",
+              "c": "0 to 100",
+              "d": "1 to 100"
+            },
+            "correct": "c",
+            "answer_text": "0 to 100",
+            "reason": "The CPI evaluates public sector corruption on a scale from 0 (highly corrupt) to 100 (very clean)."
+          },
+          {
+            "text": "What was the overall average CPI score in 2018?",
+            "answers": {
+              "a": "55",
+              "b": "43",
+              "c": "67",
+              "d": "32"
+            },
+            "correct": "b",
+            "answer_text": "43",
+            "reason": "The overall average CPI score in 2018 was 43."
+          },
+          {
+            "text": "Which two countries topped the CPI in 2018 with scores of 88 and 87 respectively?",
+            "answers": {
+              "a": "Denmark and New Zealand",
+              "b": "Finland and Sweden",
+              "c": "Norway and Switzerland",
+              "d": "Canada and Australia"
+            },
+            "correct": "a",
+            "answer_text": "Denmark and New Zealand",
+            "reason": "Denmark and New Zealand topped the CPI with scores of 88 and 87 respectively."
+          },
+          {
+            "text": "Which region had the highest average CPI score in 2018?",
+            "answers": {
+              "a": "North America",
+              "b": "Western Europe and the EU",
+              "c": "East Asia",
+              "d": "Sub-Saharan Africa"
+            },
+            "correct": "b",
+            "answer_text": "Western Europe and the EU",
+            "reason": "Western Europe and the EU had the highest average CPI score, with an average of 66."
+          },
+          {
+            "text": "Full democracies, according to the CPI data, average what score?",
+            "answers": {
+              "a": "30",
+              "b": "49",
+              "c": "75",
+              "d": "88"
+            },
+            "correct": "c",
+            "answer_text": "75",
+            "reason": "Full democracies average a CPI score of 75."
+          },
+          {
+            "text": "What average CPI score is associated with autocratic regimes?",
+            "answers": {
+              "a": "75",
+              "b": "49",
+              "c": "35",
+              "d": "30"
+            },
+            "correct": "d",
+            "answer_text": "30",
+            "reason": "Autocratic regimes perform worst, with an average CPI score of 30."
+          },
+          {
+            "text": "Which of the following is NOT one of the global countermeasures against corruption mentioned in the text?",
+            "answers": {
+              "a": "Strengthening institutional checks and balances",
+              "b": "Closing the gap between legislation and enforcement",
+              "c": "Increasing public surveillance via CCTV",
+              "d": "Supporting civil society organizations and independent media"
+            },
+            "correct": "c",
+            "answer_text": "Increasing public surveillance via CCTV",
+            "reason": "The text does not mention public CCTV surveillance as a countermeasure against corruption."
+          },
+          {
+            "text": "In the Thai context, what anecdotal evidence indicates corruption begins early?",
+            "answers": {
+              "a": "Reports of widespread tax evasion in universities",
+              "b": "A survey of over 640,000 students showing tolerance for cheating",
+              "c": "Interviews with retired civil servants",
+              "d": "Social media polls among teenagers"
+            },
+            "correct": "b",
+            "answer_text": "A survey of over 640,000 students showing tolerance for cheating",
+            "reason": "A survey revealed widespread tolerance for cheating among over 640,000 students, indicating early acceptance of corrupt practices."
+          },
+          {
+            "text": "Which respected statesman criticized corruption as \"robbing the country\" in Thailand?",
+            "answers": {
+              "a": "Thaksin Shinawatra",
+              "b": "General Prem Tinsulanonda",
+              "c": "Abhisit Vejjajiva",
+              "d": "Prayut Chan-o-cha"
+            },
+            "correct": "b",
+            "answer_text": "General Prem Tinsulanonda",
+            "reason": "General Prem Tinsulanonda criticized corruption as \"robbing the country.\""
+          },
+          {
+            "text": "What do reports suggest about the workload of the National Anti-Corruption Commission (NACC) in Thailand?",
+            "answers": {
+              "a": "It processes cases in a few months",
+              "b": "It could take a lifetime to handle all corruption cases",
+              "c": "It focuses only on high-profile cases",
+              "d": "It has recently doubled its capacity"
+            },
+            "correct": "b",
+            "answer_text": "It could take a lifetime to handle all corruption cases",
+            "reason": "Reports suggest that the pervasive nature of corruption would take the NACC a lifetime to process all cases."
+          },
+          {
+            "text": "Which body, chaired by the Prime Minister, was created to enforce anti-corruption measures in Thailand?",
+            "answers": {
+              "a": "National Anti-Corruption Commission (NACC)",
+              "b": "Centre for National Anti-Corruption (CNAC)",
+              "c": "Super Board for State Enterprises",
+              "d": "Office of Public Integrity"
+            },
+            "correct": "b",
+            "answer_text": "Centre for National Anti-Corruption (CNAC)",
+            "reason": "The CNAC, chaired by the Prime Minister, was created to enforce anti-corruption measures."
+          },
+          {
+            "text": "Which legislative act holds Thai public officials accountable for maintaining a corruption-free performance?",
+            "answers": {
+              "a": "The Public Accountability Act",
+              "b": "The Licence Facilitation Act",
+              "c": "The Anti-Bribery Act",
+              "d": "The Civil Service Reform Act"
+            },
+            "correct": "b",
+            "answer_text": "The Licence Facilitation Act",
+            "reason": "The Licence Facilitation Act holds public officials accountable for maintaining a corruption-free performance."
+          },
+          {
+            "text": "Which country is cited as a model for successful anti-corruption measures in the text?",
+            "answers": {
+              "a": "Hong Kong",
+              "b": "Singapore",
+              "c": "Sweden",
+              "d": "Germany"
+            },
+            "correct": "b",
+            "answer_text": "Singapore",
+            "reason": "Singapore is cited as a model of successful anti-corruption efforts."
+          },
+          {
+            "text": "According to the document, what is Thailand’s primary role in the international drug trade?",
+            "answers": {
+              "a": "A major producer of opiates",
+              "b": "A destination and transshipment hub",
+              "c": "A leading exporter of cannabis",
+              "d": "A financial center for drug money"
+            },
+            "correct": "b",
+            "answer_text": "A destination and transshipment hub",
+            "reason": "Thailand primarily functions as a destination and transshipment hub for illicit drugs."
+          },
+          {
+            "text": "Which type of drugs is increasingly abused domestically in Thailand?",
+            "answers": {
+              "a": "Heroin",
+              "b": "Cocaine",
+              "c": "Amphetamine-type stimulants (ATS)",
+              "d": "LSD"
+            },
+            "correct": "c",
+            "answer_text": "Amphetamine-type stimulants (ATS)",
+            "reason": "There is an increasing domestic abuse of ATS, especially methamphetamine."
+          },
+          {
+            "text": "Which neighboring country is a major source of drugs trafficked into Thailand?",
+            "answers": {
+              "a": "Laos",
+              "b": "Burma (Myanmar)",
+              "c": "Cambodia",
+              "d": "Vietnam"
+            },
+            "correct": "b",
+            "answer_text": "Burma (Myanmar)",
+            "reason": "Cross-border trafficking from Burma (Myanmar) is a major source of drugs in Thailand."
+          },
+          {
+            "text": "What trend in drug seizures in Thailand is noted in the file?",
+            "answers": {
+              "a": "A decrease in crystal methamphetamine seizures",
+              "b": "A reduction in heroin seizures with an increase in MDMA and methamphetamine seizures",
+              "c": "An increase in heroin seizures with a drop in MDMA",
+              "d": "No significant change in drug seizure trends"
+            },
+            "correct": "b",
+            "answer_text": "A reduction in heroin seizures with an increase in MDMA and methamphetamine seizures",
+            "reason": "Heroin seizures have decreased, while MDMA, crystal methamphetamine, and methamphetamine tablet seizures have increased."
+          },
+          {
+            "text": "Which Thai agency is primarily responsible for tracking international drug trafficking organizations?",
+            "answers": {
+              "a": "Royal Thai Navy",
+              "b": "Royal Thai Police Narcotics Suppression Bureau (RTP/NSB)",
+              "c": "Department of Business Development",
+              "d": "Thai Customs Department"
+            },
+            "correct": "b",
+            "answer_text": "Royal Thai Police Narcotics Suppression Bureau (RTP/NSB)",
+            "reason": "The RTP/NSB is primarily responsible for tracking international drug trafficking organizations."
+          },
+          {
+            "text": "The text mentions that Africa-based syndicates control portions of which part of the drug trade?",
+            "answers": {
+              "a": "Cocaine trafficking",
+              "b": "Methamphetamine trafficking",
+              "c": "Cannabis distribution",
+              "d": "Heroin production"
+            },
+            "correct": "b",
+            "answer_text": "Methamphetamine trafficking",
+            "reason": "Africa-based syndicates are linked to portions of the methamphetamine trafficking network, including inbound crystal meth shipments."
+          },
+          {
+            "text": "What challenge hampers effective patrolling along Thailand’s borders?",
+            "answers": {
+              "a": "Excessive manpower",
+              "b": "Limited resources for patrolling long, remote borders",
+              "c": "Overabundance of border checkpoints",
+              "d": "High-tech surveillance oversaturation"
+            },
+            "correct": "b",
+            "answer_text": "Limited resources for patrolling long, remote borders",
+            "reason": "Limited resources hamper effective patrolling along Thailand’s long, remote borders."
+          },
+          {
+            "text": "In supply reduction efforts, what percentage of methamphetamine seizures are estimated to enter through Thailand’s northern border?",
+            "answers": {
+              "a": "50%",
+              "b": "60%",
+              "c": "80%",
+              "d": "90%"
+            },
+            "correct": "c",
+            "answer_text": "80%",
+            "reason": "Approximately 80% of methamphetamine seizures are estimated to enter through Thailand’s northern border."
+          },
+          {
+            "text": "Which drug is noted as having increased inbound trafficking from China, linked to Africa-based syndicates?",
+            "answers": {
+              "a": "MDMA",
+              "b": "Heroin",
+              "c": "Crystal methamphetamine",
+              "d": "Cocaine"
+            },
+            "correct": "c",
+            "answer_text": "Crystal methamphetamine",
+            "reason": "There is increased inbound trafficking of crystal methamphetamine from China, linked to Africa-based syndicates."
+          },
+          {
+            "text": "What is the penalty for possession of significant quantities of narcotics with intent to sell in Thailand?",
+            "answers": {
+              "a": "Life imprisonment",
+              "b": "Deportation",
+              "c": "Death penalty",
+              "d": "Fines only"
+            },
+            "correct": "c",
+            "answer_text": "Death penalty",
+            "reason": "Thailand enforces the death penalty for possession of significant quantities of narcotics with intent to sell."
+          },
+          {
+            "text": "Which drugs have a smaller domestic market in Thailand, generally affecting affluent urban populations and tourists?",
+            "answers": {
+              "a": "Ketamine and cannabis",
+              "b": "MDMA (ecstasy) and cocaine",
+              "c": "Crystal methamphetamine and heroin",
+              "d": "Opiates and LSD"
+            },
+            "correct": "b",
+            "answer_text": "MDMA (ecstasy) and cocaine",
+            "reason": "The domestic market for MDMA and cocaine is smaller and generally affects affluent urban populations and tourists."
+          },
+          {
+            "text": "Since 2011, drug treatment initiatives in Thailand have reached approximately how many individuals?",
+            "answers": {
+              "a": "100,000",
+              "b": "250,000",
+              "c": "500,000",
+              "d": "Over 700,000"
+            },
+            "correct": "d",
+            "answer_text": "Over 700,000",
+            "reason": "Drug treatment initiatives have reached over 700,000 individuals since 2011."
+          },
+          {
+            "text": "What internal challenge is highlighted as an obstacle to effective drug control in Thailand?",
+            "answers": {
+              "a": "Excessive bureaucracy",
+              "b": "Corruption among officials",
+              "c": "Overfunding of law enforcement",
+              "d": "Lack of international cooperation"
+            },
+            "correct": "b",
+            "answer_text": "Corruption among officials",
+            "reason": "Corruption among officials is highlighted as a major internal challenge in drug control."
+          },
+          {
+            "text": "Which U.S. agency is mentioned as collaborating with Thai law enforcement in counter-narcotics efforts?",
+            "answers": {
+              "a": "FBI",
+              "b": "CIA",
+              "c": "Drug Enforcement Administration (DEA)",
+              "d": "Department of Homeland Security"
+            },
+            "correct": "c",
+            "answer_text": "Drug Enforcement Administration (DEA)",
+            "reason": "The DEA collaborates closely with Thai law enforcement in counter-narcotics efforts."
+          },
+          {
+            "text": "Which U.S.-funded program provides specialized training to enhance Thailand’s counter-trafficking capabilities?",
+            "answers": {
+              "a": "International Law Enforcement Academy",
+              "b": "Global Counter-Narcotics Institute",
+              "c": "Southeast Asia Training Center",
+              "d": "United Nations Police Academy"
+            },
+            "correct": "a",
+            "answer_text": "International Law Enforcement Academy",
+            "reason": "The International Law Enforcement Academy, a U.S.-funded program, provides specialized training to Thailand’s counter-trafficking forces."
+          },
+          {
+            "text": "In the context of human trafficking, Thailand is described as functioning in which roles?",
+            "answers": {
+              "a": "Source only",
+              "b": "Transit only",
+              "c": "Destination only",
+              "d": "Source, transit, and destination country"
+            },
+            "correct": "d",
+            "answer_text": "Source, transit, and destination country",
+            "reason": "Thailand functions as a source, transit, and destination country for human trafficking."
+          },
+          {
+            "text": "Thailand is a regional hub for human trafficking in which sub-region?",
+            "answers": {
+              "a": "ASEAN",
+              "b": "Greater Mekong Sub-region",
+              "c": "South Asia",
+              "d": "Middle East"
+            },
+            "correct": "b",
+            "answer_text": "Greater Mekong Sub-region",
+            "reason": "Thailand is a regional hub for trafficking in the Greater Mekong Sub-region."
+          },
+          {
+            "text": "What forms of exploitation are prevalent in human trafficking in Thailand?",
+            "answers": {
+              "a": "Cyber exploitation and digital fraud",
+              "b": "Commercial sexual exploitation and forced labor",
+              "c": "Environmental exploitation and resource theft",
+              "d": "Political espionage and blackmail"
+            },
+            "correct": "b",
+            "answer_text": "Commercial sexual exploitation and forced labor",
+            "reason": "Victims in Thailand are primarily exploited for commercial sexual exploitation and forced labor."
+          },
+          {
+            "text": "Which groups are identified as particularly vulnerable to human trafficking in Thailand?",
+            "answers": {
+              "a": "Wealthy entrepreneurs",
+              "b": "Migrants, ethnic minorities, and stateless people",
+              "c": "University students",
+              "d": "Government officials"
+            },
+            "correct": "b",
+            "answer_text": "Migrants, ethnic minorities, and stateless people",
+            "reason": "These groups are particularly vulnerable to human trafficking in Thailand."
+          },
+          {
+            "text": "What mechanism is commonly used by employers to exploit migrant workers in Thailand?",
+            "answers": {
+              "a": "Providing excessive wages",
+              "b": "Withholding travel documents and work permits",
+              "c": "Offering extensive training programs",
+              "d": "Granting permanent residency automatically"
+            },
+            "correct": "b",
+            "answer_text": "Withholding travel documents and work permits",
+            "reason": "Employers commonly exploit migrant workers by withholding their travel documents and work permits."
+          },
+          {
+            "text": "As a transit country, trafficking victims in Thailand originate from all of the following countries EXCEPT:",
+            "answers": {
+              "a": "North Korea",
+              "b": "China",
+              "c": "Vietnam",
+              "d": "Australia"
+            },
+            "correct": "d",
+            "answer_text": "Australia",
+            "reason": "Trafficking victims originate from North Korea, China, Vietnam, Pakistan, and Burma; Australia is not mentioned."
+          },
+          {
+            "text": "Trafficking victims brought into Thailand are exploited in which of the following sectors?",
+            "answers": {
+              "a": "High-tech manufacturing",
+              "b": "Maritime fishing, seafood processing, garment production, and domestic work",
+              "c": "Financial services",
+              "d": "Tourism management"
+            },
+            "correct": "b",
+            "answer_text": "Maritime fishing, seafood processing, garment production, and domestic work",
+            "reason": "Victims are exploited in sectors such as maritime fishing, seafood processing, garment production, and domestic work."
+          },
+          {
+            "text": "What internal trafficking issue is noted as a significant problem in Thailand?",
+            "answers": {
+              "a": "Urban-to-rural migration",
+              "b": "Sex tourism and child exploitation",
+              "c": "Over-regulation of labor markets",
+              "d": "Political asylum abuses"
+            },
+            "correct": "b",
+            "answer_text": "Sex tourism and child exploitation",
+            "reason": "Internal trafficking issues include persistent problems with sex tourism and child exploitation."
+          },
+          {
+            "text": "Which factor is cited as contributing to human trafficking in Thailand?",
+            "answers": {
+              "a": "Economic and social vulnerabilities such as poverty and lack of education",
+              "b": "High levels of technological advancement",
+              "c": "Excessive government surveillance",
+              "d": "Robust employment opportunities"
+            },
+            "correct": "a",
+            "answer_text": "Economic and social vulnerabilities such as poverty and lack of education",
+            "reason": "Vulnerabilities like poverty and lack of education contribute significantly to human trafficking."
+          },
+          {
+            "text": "Which structural issue exacerbates trafficking in Thailand?",
+            "answers": {
+              "a": "Overabundance of legal employment",
+              "b": "Migration policies and labor recruitment practices that tie immigration status to specific employers",
+              "c": "Too many labor unions",
+              "d": "Lack of international travel"
+            },
+            "correct": "b",
+            "answer_text": "Migration policies and labor recruitment practices that tie immigration status to specific employers",
+            "reason": "Such structural issues exacerbate trafficking by creating legal vulnerabilities for migrant workers."
+          },
+          {
+            "text": "What national strategy did the Thai government develop in 2010 to combat human trafficking?",
+            "answers": {
+              "a": "A 10-year anti-trafficking action plan",
+              "b": "A six-year National Policy Strategy on human trafficking (2011–2016)",
+              "c": "A regional cooperation agreement with ASEAN countries",
+              "d": "A public-private partnership initiative"
+            },
+            "correct": "b",
+            "answer_text": "A six-year National Policy Strategy on human trafficking (2011–2016)",
+            "reason": "In 2010, Thailand developed a six-year National Policy Strategy on human trafficking covering 2011–2016."
+          },
+          {
+            "text": "Which of the following is a recommendation made to the Thai government in the U.S. Department of State’s report?",
+            "answers": {
+              "a": "Reducing penalties for trafficking offenses",
+              "b": "Enhancing efforts to identify victims among vulnerable populations",
+              "c": "Limiting international cooperation to prevent information leaks",
+              "d": "Increasing tourism to distract from trafficking issues"
+            },
+            "correct": "b",
+            "answer_text": "Enhancing efforts to identify victims among vulnerable populations",
+            "reason": "The U.S. Department of State recommends enhancing efforts to identify victims among vulnerable populations."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Ethics 4",
+    "subject": "Social Studies",
+    "exam": "GED",
+    "topic": [],
+    "sub_topic": [],
+    "difficulty": "Hard",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What is the definition of self-esteem as described in the text?",
+            "answers": {
+              "a": "Confidence in one’s own worth or abilities",
+              "b": "The measure of external achievements",
+              "c": "The respect earned from others",
+              "d": "The degree of physical attractiveness"
+            },
+            "correct": "a",
+            "answer_text": "Confidence in one’s own worth or abilities",
+            "reason": "Self-esteem is defined as the confidence in one’s own worth or abilities, incorporating self-respect and pride."
+          },
+          {
+            "text": "Which component is NOT mentioned as part of self-esteem?",
+            "answers": {
+              "a": "Self-worth",
+              "b": "Self-respect",
+              "c": "Confidence in personal abilities",
+              "d": "Material wealth"
+            },
+            "correct": "d",
+            "answer_text": "Material wealth",
+            "reason": "The text does not list material wealth as a component of self-esteem, which focuses instead on self-worth, self-respect, and confidence in personal abilities."
+          },
+          {
+            "text": "Which factor is cited as influencing the acquisition of self-esteem?",
+            "answers": {
+              "a": "Family upbringing and early childhood experiences",
+              "b": "Academic degrees only",
+              "c": "Social media popularity",
+              "d": "Financial status"
+            },
+            "correct": "a",
+            "answer_text": "Family upbringing and early childhood experiences",
+            "reason": "Early family experiences and upbringing are highlighted as key factors that shape self-esteem."
+          },
+          {
+            "text": "What role does the \"inner voice\" or \"inner critic\" play in self-esteem?",
+            "answers": {
+              "a": "It solely reinforces a positive self-image",
+              "b": "It can either uplift or undermine one’s self-esteem",
+              "c": "It has no effect on self-esteem",
+              "d": "It only causes self-doubt"
+            },
+            "correct": "b",
+            "answer_text": "It can either uplift or undermine one’s self-esteem",
+            "reason": "The “inner voice” or “inner critic” plays a dual role by either reinforcing a positive self-image or contributing to self-doubt."
+          },
+          {
+            "text": "Which of the following is a characteristic of healthy self-esteem?",
+            "answers": {
+              "a": "Overestimating one's abilities",
+              "b": "Denying personal weaknesses",
+              "c": "Accurate self-assessment",
+              "d": "Avoiding feedback from others"
+            },
+            "correct": "c",
+            "answer_text": "Accurate self-assessment",
+            "reason": "Healthy self-esteem is characterized by an accurate self-assessment that acknowledges both strengths and weaknesses."
+          },
+          {
+            "text": "How does healthy self-esteem impact decision-making?",
+            "answers": {
+              "a": "It promotes impulsivity",
+              "b": "It fosters self-confidence and informed decisions",
+              "c": "It discourages all risk-taking",
+              "d": "It makes decisions based solely on others’ opinions"
+            },
+            "correct": "b",
+            "answer_text": "It fosters self-confidence and informed decisions",
+            "reason": "When self-esteem is healthy, it leads to better decision-making by promoting self-confidence and a clear understanding of one’s abilities."
+          },
+          {
+            "text": "Which of the following is a practical step for increasing self-esteem?",
+            "answers": {
+              "a": "Ignoring personal limitations",
+              "b": "Accepting the reality and totality of oneself",
+              "c": "Constantly comparing oneself to others",
+              "d": "Relying solely on external validation"
+            },
+            "correct": "b",
+            "answer_text": "Accepting the reality and totality of oneself",
+            "reason": "Embracing all aspects of oneself—including strengths and inherent traits—is a practical step to boost self-esteem."
+          },
+          {
+            "text": "Which activity is recommended for enhancing self-esteem through self-care?",
+            "answers": {
+              "a": "Avoiding physical exercise",
+              "b": "Maintaining a healthy diet and regular exercise",
+              "c": "Skipping meals to lose weight quickly",
+              "d": "Ignoring mental well-being"
+            },
+            "correct": "b",
+            "answer_text": "Maintaining a healthy diet and regular exercise",
+            "reason": "A healthy lifestyle that includes a nutritious diet and regular physical activity is recommended to improve both physical and mental well-being."
+          },
+          {
+            "text": "What does the Johari Window model illustrate?",
+            "answers": {
+              "a": "The dynamics of power in a group",
+              "b": "Self-awareness and interpersonal relationships",
+              "c": "Strategies for economic success",
+              "d": "The hierarchy within organizations"
+            },
+            "correct": "b",
+            "answer_text": "Self-awareness and interpersonal relationships",
+            "reason": "The Johari Window is a model designed to enhance self-awareness and improve interactions by revealing the interplay between known and unknown aspects of the self."
+          },
+          {
+            "text": "Who created the Johari Window model?",
+            "answers": {
+              "a": "Sigmund Freud and Carl Jung",
+              "b": "Joseph Luft and Harry Ingham",
+              "c": "B.F. Skinner and John Watson",
+              "d": "Erik Erikson and Jean Piaget"
+            },
+            "correct": "b",
+            "answer_text": "Joseph Luft and Harry Ingham",
+            "reason": "The Johari Window was created in the 1950s by American psychologists Joseph Luft and Harry Ingham."
+          },
+          {
+            "text": "Which of the following is NOT one of the four areas of the Johari Window?",
+            "answers": {
+              "a": "The Public Self",
+              "b": "The Private (Hidden) Self",
+              "c": "The Blind Self",
+              "d": "The Undiscovered Self"
+            },
+            "correct": "c",
+            "answer_text": "The traits others observe in you that you are unaware of",
+            "reason": "The Johari Window includes the Public Self, the Private (Hidden) Self, the Blind Self, and the Undiscovered Self; thus, none of the options is incorrect."
+          },
+          {
+            "text": "What is described by the \"Blind Self\" in the Johari Window?",
+            "answers": {
+              "a": "Information known to both you and others",
+              "b": "Information known to others but not to you",
+              "c": "Traits deliberately kept hidden from everyone",
+              "d": "Latent potentials not yet discovered"
+            },
+            "correct": "b",
+            "answer_text": "Latent abilities and characteristics unknown to both you and others",
+            "reason": "The “Blind Self” comprises information about yourself that others can see but you may not be aware of."
+          },
+          {
+            "text": "The \"Undiscovered Self\" includes:",
+            "answers": {
+              "a": "Traits that everyone already knows about you",
+              "b": "Latent abilities and characteristics unknown to both you and others",
+              "c": "Negative behaviors you are aware of",
+              "d": "Publicly visible habits"
+            },
+            "correct": "b",
+            "answer_text": "It empowers personal growth and enhances decision-making",
+            "reason": "The “Undiscovered Self” contains aspects of your personality that remain hidden from both yourself and others until uncovered through new experiences."
+          },
+          {
+            "text": "Why is self-knowledge considered important according to the text?",
+            "answers": {
+              "a": "It makes you more competitive in the workplace",
+              "b": "It empowers personal growth and enhances decision-making",
+              "c": "It allows you to dominate social interactions",
+              "d": "It primarily boosts financial success"
+            },
+            "correct": "c",
+            "answer_text": "Guaranteed professional promotions",
+            "reason": "Self-knowledge is crucial because it encourages personal growth, helps in setting realistic goals, and improves decision-making."
+          },
+          {
+            "text": "Which benefit is NOT mentioned as resulting from self-knowledge?",
+            "answers": {
+              "a": "Improved interpersonal relationships",
+              "b": "Enhanced life enjoyment",
+              "c": "Guaranteed professional promotions",
+              "d": "Better understanding of others"
+            },
+            "correct": "b",
+            "answer_text": "Acknowledging both strengths and weaknesses",
+            "reason": "While self-knowledge leads to many benefits, it does not guarantee professional promotions; that is not mentioned in the text."
+          },
+          {
+            "text": "How does the text describe the paradox of pain?",
+            "answers": {
+              "a": "Pain is unnecessary and should be avoided at all costs",
+              "b": "Pain is essential for growth and transformation",
+              "c": "Pain always leads to suffering without benefits",
+              "d": "Pain is a sign of personal weakness"
+            },
+            "correct": "b",
+            "answer_text": "It leads to better understanding and empathy",
+            "reason": "Accepting oneself as a whole person means recognizing and embracing both your positive qualities and areas for improvement."
+          },
+          {
+            "text": "What is the lesson of the Butterfly Story?",
+            "answers": {
+              "a": "Helping others always leads to better outcomes",
+              "b": "Struggle is necessary for developing strength and proper growth",
+              "c": "Intervening to make things easier is always best",
+              "d": "Shortcuts in life lead to success"
+            },
+            "correct": "a",
+            "answer_text": "Controlling your emotions through mindfulness and relaxation",
+            "reason": "Effective self-knowledge improves interpersonal relationships by fostering empathy and better understanding of both oneself and others."
+          },
+          {
+            "text": "In the Barber Story, what is the central moral dilemma?",
+            "answers": {
+              "a": "Whether to steal or not",
+              "b": "Whether suffering exists due to a lack of divine guidance",
+              "c": "Whether to follow fashion trends",
+              "d": "Whether to trust strangers"
+            },
+            "correct": "c",
+            "answer_text": "Pain, though difficult, is necessary for strength and transformation",
+            "reason": "Managing your emotions with mindfulness and relaxation techniques is identified as a practical method to boost self-esteem."
+          },
+          {
+            "text": "According to the Barber Story, what does suffering indicate about divine help?",
+            "answers": {
+              "a": "Divine help is always immediately available",
+              "b": "Suffering occurs because people often fail to seek divine assistance",
+              "c": "Divine intervention is unnecessary for personal growth",
+              "d": "Only negative outcomes result from seeking help"
+            },
+            "correct": "c",
+            "answer_text": "The butterfly develops a stunted body and undeveloped wings, impairing its ability to fly",
+            "reason": "The text explains that pain is a catalyst for growth and renewal, embodying the idea that “no pain, no gain.”"
+          },
+          {
+            "text": "What is a key theological perspective of Pope Saint John Paul II on suffering?",
+            "answers": {
+              "a": "Suffering is solely a punishment for sin",
+              "b": "Suffering has multiple meanings, including charity, humility, and transformation",
+              "c": "Suffering is irrelevant in modern life",
+              "d": "Suffering should be completely eradicated through technology"
+            },
+            "correct": "b",
+            "answer_text": "Their hidden and public aspects of self",
+            "reason": "In the Butterfly Story, premature intervention prevents the natural struggle needed for the butterfly’s wing development, resulting in a weakened state."
+          },
+          {
+            "text": "Which of the following is NOT one of the seven deadly sins?",
+            "answers": {
+              "a": "Envy",
+              "b": "Wrath",
+              "c": "Kindness",
+              "d": "Greed"
+            },
+            "correct": "c",
+            "answer_text": "The Blind Self",
+            "reason": "The Johari Window helps individuals understand both the aspects of themselves that are known to others and those that are kept hidden."
+          },
+          {
+            "text": "The seven capital virtues serve as antidotes to the deadly sins. Which virtue is the antidote to lust?",
+            "answers": {
+              "a": "Chastity",
+              "b": "Temperance",
+              "c": "Generosity",
+              "d": "Diligence"
+            },
+            "correct": "b",
+            "answer_text": "It empowers informed decision-making and personal growth",
+            "reason": "This area of the Johari Window represents the traits and behaviors others see in you, which you may not be aware of."
+          },
+          {
+            "text": "Which virtue is associated with overcoming gluttony?",
+            "answers": {
+              "a": "Temperance",
+              "b": "Humility",
+              "c": "Kindness",
+              "d": "Meekness"
+            },
+            "correct": "b",
+            "answer_text": "Sacrifice vs. Self-Preservation",
+            "reason": "Self-knowledge provides clarity that enhances decision-making, fostering continuous personal development."
+          },
+          {
+            "text": "Which virtue counters the sin of greed?",
+            "answers": {
+              "a": "Generosity",
+              "b": "Chastity",
+              "c": "Diligence",
+              "d": "Temperance"
+            },
+            "correct": "b",
+            "answer_text": "Choosing the action that produces the greatest good for the greatest number",
+            "reason": "This ethical theme explores the conflict between sacrificing personal well-being for the greater good and protecting oneself."
+          },
+          {
+            "text": "What does the virtue of humility encourage?",
+            "answers": {
+              "a": "Arrogance",
+              "b": "Self-importance",
+              "c": "Modesty and recognition of one’s dependence on God",
+              "d": "Overindulgence"
+            },
+            "correct": "c",
+            "answer_text": "The traits others observe in you that you are unaware of",
+            "reason": "The utilitarian approach in ethical dilemmas involves making decisions that maximize overall benefits."
+          },
+          {
+            "text": "In the context of self-esteem, what does “accepting oneself as a whole person” mean?",
+            "answers": {
+              "a": "Ignoring personal flaws",
+              "b": "Acknowledging both strengths and weaknesses",
+              "c": "Focusing only on achievements",
+              "d": "Seeking constant external validation"
+            },
+            "correct": "b",
+            "answer_text": "Engaging in practices like prayer, meditation, or mindfulness",
+            "reason": "Reiterating the concept of the Blind Self, this area includes characteristics visible to others but not recognized by oneself."
+          },
+          {
+            "text": "How can effective self-knowledge impact interpersonal relationships?",
+            "answers": {
+              "a": "It makes interactions more superficial",
+              "b": "It leads to better understanding and empathy",
+              "c": "It reduces the need for communication",
+              "d": "It creates unnecessary conflicts"
+            },
+            "correct": "b",
+            "answer_text": "It builds on authentic strengths and fosters empathy",
+            "reason": "The text recommends practices such as meditation and mindfulness as effective methods for controlling emotions and boosting self-esteem."
+          },
+          {
+            "text": "Which of the following is a practical step to increase self-esteem according to the text?",
+            "answers": {
+              "a": "Controlling your emotions through mindfulness and relaxation",
+              "b": "Isolating yourself from others",
+              "c": "Focusing exclusively on your failures",
+              "d": "Comparing yourself to others constantly"
+            },
+            "correct": "c",
+            "answer_text": "Spam Filtering",
+            "reason": "Ethical self-knowledge contributes to better leadership by grounding decisions in genuine self-awareness and empathy towards others."
+          },
+          {
+            "text": "Which statement best describes the relationship between pain and personal growth as discussed in the text?",
+            "answers": {
+              "a": "Pain always hinders growth",
+              "b": "Pain is irrelevant to personal development",
+              "c": "Pain, though difficult, is necessary for strength and transformation",
+              "d": "Pain should be avoided at all costs"
+            },
+            "correct": "a",
+            "answer_text": "Whether to save yourself at the cost of others or to sacrifice for the group’s collective well-being",
+            "reason": "The Spam Filtering dilemma questions whether personal loyalty and moral duty should override strict confidentiality rules."
+          },
+          {
+            "text": "In the Butterfly Story, what is the negative consequence of prematurely aiding the butterfly?",
+            "answers": {
+              "a": "The butterfly escapes with no issues",
+              "b": "The butterfly remains in the cocoon",
+              "c": "The butterfly develops a stunted body and undeveloped wings, impairing its ability to fly",
+              "d": "The butterfly becomes too strong"
+            },
+            "correct": "b",
+            "answer_text": "Acknowledging both strengths and weaknesses",
+            "reason": "The Lifeboat dilemma centers on the ethical choice between self-preservation and sacrificing for the survival of others."
+          },
+          {
+            "text": "What does the Johari Window help individuals understand?",
+            "answers": {
+              "a": "Their financial potential",
+              "b": "Their hidden and public aspects of self",
+              "c": "Their political beliefs",
+              "d": "Their cultural heritage"
+            },
+            "correct": "b",
+            "answer_text": "It empowers informed decision-making and personal growth",
+            "reason": "A key component of healthy self-esteem is accepting all aspects of oneself, which involves recognizing both positive traits and areas for growth."
+          },
+          {
+            "text": "Which area of the Johari Window contains information that others see but you do not?",
+            "answers": {
+              "a": "The Public Self",
+              "b": "The Private (Hidden) Self",
+              "c": "The Blind Self",
+              "d": "The Undiscovered Self"
+            },
+            "correct": "",
+            "answer_text": "",
+            "reason": "Self-knowledge equips individuals with the insight needed to make better decisions and foster continuous improvement."
+          },
+          {
+            "text": "What is the primary benefit of self-knowledge as outlined in the text?",
+            "answers": {
+              "a": "It guarantees success in every endeavor",
+              "b": "It empowers informed decision-making and personal growth",
+              "c": "It makes you immune to criticism",
+              "d": "It increases your popularity"
+            },
+            "correct": "",
+            "answer_text": "",
+            "reason": "The study guide on the Seven Deadly Sins and Seven Capital Virtues is designed to promote self-reflection and moral growth."
+          },
+          {
+            "text": "Which ethical theme examines the conflict between saving many lives at the expense of one?",
+            "answers": {
+              "a": "Confidentiality vs. Honesty",
+              "b": "Sacrifice vs. Self-Preservation",
+              "c": "Justice vs. Revenge",
+              "d": "Utilitarian vs. Deontological Approaches"
+            },
+            "correct": "",
+            "answer_text": "",
+            "reason": "Examining dilemmas is meant to encourage deep reflection and consideration of various ethical perspectives."
+          },
+          {
+            "text": "In ethical dilemmas, what does the utilitarian approach refer to?",
+            "answers": {
+              "a": "Following strict moral rules regardless of outcomes",
+              "b": "Choosing the action that produces the greatest good for the greatest number",
+              "c": "Making decisions based solely on personal emotions",
+              "d": "Upholding tradition without questioning it"
+            },
+            "correct": "",
+            "answer_text": "",
+            "reason": "The Concentration Camp dilemma challenges individuals to determine the ethically appropriate sacrifice when faced with conflicting losses."
+          },
+          {
+            "text": "What does the \"blind self\" in the Johari Window represent?",
+            "answers": {
+              "a": "The aspects of oneself that are visible to oneself",
+              "b": "The unknown potential within oneself",
+              "c": "The traits others observe in you that you are unaware of",
+              "d": "The complete self as perceived by everyone"
+            },
+            "correct": "",
+            "answer_text": "",
+            "reason": "The Accident Ambulance dilemma presents a heartbreaking choice where saving one life directly endangers another."
+          },
+          {
+            "text": "Which step is recommended for controlling your emotions to boost self-esteem?",
+            "answers": {
+              "a": "Suppressing all feelings",
+              "b": "Engaging in practices like prayer, meditation, or mindfulness",
+              "c": "Ignoring emotional responses",
+              "d": "Venting anger immediately"
+            },
+            "correct": "",
+            "answer_text": "",
+            "reason": "In the Spam Filtering dilemma, the conflict lies in balancing personal relationships against strict ethical and professional guidelines."
+          },
+          {
+            "text": "How does ethical self-knowledge contribute to better leadership?",
+            "answers": {
+              "a": "It allows leaders to ignore team feedback",
+              "b": "It builds on authentic strengths and fosters empathy",
+              "c": "It promotes authoritarian decision-making",
+              "d": "It eliminates all risk in decision-making"
+            },
+            "correct": "",
+            "answer_text": "",
+            "reason": "The Neighbor dilemma forces a decision between seeking vengeance and upholding the principles of justice."
+          },
+          {
+            "text": "Which dilemma raises questions about balancing personal loyalty with legal responsibility?",
+            "answers": {
+              "a": "Concentration Camp",
+              "b": "The Accident Ambulance",
+              "c": "Spam Filtering",
+              "d": "Hit and Run"
+            },
+            "correct": "",
+            "answer_text": "",
+            "reason": "The Pregnant Woman dilemma asks whether it is ethically acceptable to sacrifice an individual to potentially save a larger group."
+          },
+          {
+            "text": "In the \"Lifeboat\" dilemma, what is the main ethical question being raised?",
+            "answers": {
+              "a": "Whether to save yourself at the cost of others or to sacrifice for the group’s collective well-being",
+              "b": "Whether to abandon the lifeboat entirely",
+              "c": "Whether to call for help immediately",
+              "d": "Whether to fight for control of the lifeboat"
+            },
+            "correct": "",
+            "answer_text": "",
+            "reason": "The Hit and Run dilemma challenges the individual to weigh self-preservation against the moral imperative of honesty."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Ethics 5",
+    "subject": "Social Studies",
+    "exam": "GED",
+    "topic": [],
+    "sub_topic": [],
+    "difficulty": "Hard",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What is the main topic of the document?",
+            "answers": {
+              "a": "Economics and Politics",
+              "b": "Marriage and Family",
+              "c": "Education and Career",
+              "d": "Health and Wellness"
+            },
+            "correct": "b",
+            "answer_text": "Marriage and Family",
+            "reason": "The document is titled \"Marriage and Family\" and discusses various aspects of marital relationships and family life."
+          },
+          {
+            "text": "In Section I.A, what is the central debate discussed?",
+            "answers": {
+              "a": "The role of religion in marriage",
+              "b": "Sexual Orientation Debate",
+              "c": "Financial compatibility in marriage",
+              "d": "Divorce and reconciliation"
+            },
+            "correct": "b",
+            "answer_text": "Sexual Orientation Debate",
+            "reason": "Section I.A specifically addresses the debate over whether sexual orientation is determined by nature or nurture."
+          },
+          {
+            "text": "What central question does the Sexual Orientation Debate raise?",
+            "answers": {
+              "a": "Is marriage a social construct?",
+              "b": "Is sexual orientation determined at birth (nature) or shaped by environmental factors (nurture)?",
+              "c": "Should couples live together before marriage?",
+              "d": "Can love overcome financial differences?"
+            },
+            "correct": "b",
+            "answer_text": "Is sexual orientation determined at birth (nature) or shaped by environmental factors (nurture)?",
+            "reason": "This central question encapsulates the debate between the immutable, biological perspective and the view that it is influenced by environmental factors."
+          },
+          {
+            "text": "What do proponents of the “nature” perspective argue regarding sexual orientation?",
+            "answers": {
+              "a": "It is solely a lifestyle choice influenced by upbringing.",
+              "b": "It is a natural, immutable trait influenced by biological factors such as genes and hormones.",
+              "c": "It is determined by cultural traditions.",
+              "d": "It can be easily changed through therapy."
+            },
+            "correct": "b",
+            "answer_text": "It is a natural, immutable trait influenced by biological factors such as genes and hormones",
+            "reason": "Proponents of the \"nature\" perspective argue that sexual orientation is inherent and biologically determined."
+          },
+          {
+            "text": "According to opponents in the debate, what is claimed about homosexuality?",
+            "answers": {
+              "a": "It is an inherent trait that requires equal legal rights.",
+              "b": "It is a lifestyle choice resulting from factors like poor child-parent relationships or abuse.",
+              "c": "It is solely a genetic disorder.",
+              "d": "It is a temporary phase of adolescence."
+            },
+            "correct": "b",
+            "answer_text": "It is a lifestyle choice resulting from factors like poor child-parent relationships or abuse",
+            "reason": "Opponents argue that homosexuality is a result of environmental influences and lifestyle choices rather than an inherent trait."
+          },
+          {
+            "text": "In Section I.B, what is emphasized as crucial when choosing a marriage partner?",
+            "answers": {
+              "a": "Financial stability only",
+              "b": "The process of choosing well, as it impacts your entire life",
+              "c": "Strict adherence to traditional roles",
+              "d": "Superficial physical attraction"
+            },
+            "correct": "b",
+            "answer_text": "The process of choosing well, as it impacts your entire life",
+            "reason": "The text emphasizes that choosing a marriage partner is foundational and has long-term effects on one's life."
+          },
+          {
+            "text": "Under Practical Considerations, what does “Acceptance” refer to?",
+            "answers": {
+              "a": "Changing your partner to fit your expectations",
+              "b": "Accepting each other “warts and all” without trying to change the other",
+              "c": "Accepting only the positive traits of a partner",
+              "d": "Accepting societal norms regardless of personal feelings"
+            },
+            "correct": "b",
+            "answer_text": "Accepting each other “warts and all” without trying to change the other",
+            "reason": "\"Acceptance\" means embracing a partner’s full self, including their imperfections."
+          },
+          {
+            "text": "What does “Value Compatibility” involve in choosing a partner?",
+            "answers": {
+              "a": "Only matching hobbies and interests",
+              "b": "Sharing similar values in commitment, views on children, religion, and lifestyle",
+              "c": "Having identical financial backgrounds",
+              "d": "Following the same career path"
+            },
+            "correct": "b",
+            "answer_text": "Sharing similar values in commitment, views on children, religion, and lifestyle",
+            "reason": "Value compatibility involves aligning on core beliefs and lifestyle preferences."
+          },
+          {
+            "text": "What role does “Intuition” play in the selection of a marriage partner?",
+            "answers": {
+              "a": "It suggests ignoring all logical considerations",
+              "b": "It signals whether a relationship is likely to lead to a fulfilling life",
+              "c": "It is irrelevant to long-term compatibility",
+              "d": "It only matters in the early stages of dating"
+            },
+            "correct": "b",
+            "answer_text": "It signals whether a relationship is likely to lead to a fulfilling life",
+            "reason": "Intuition is presented as an inner guide indicating the potential success of a relationship."
+          },
+          {
+            "text": "In the discussion of “Attraction vs. Substance,” what is emphasized?",
+            "answers": {
+              "a": "Physical attraction is sufficient for a successful marriage.",
+              "b": "Substance and character are more important than mere physical appearance.",
+              "c": "Financial attractiveness overrides personality.",
+              "d": "Only intellectual compatibility matters."
+            },
+            "correct": "b",
+            "answer_text": "Substance and character are more important than mere physical appearance",
+            "reason": "The discussion stresses that while physical attraction matters, true compatibility requires depth and strong character."
+          },
+          {
+            "text": "Which traditional role is highlighted in the “Role of Pursuit” section?",
+            "answers": {
+              "a": "Women taking the lead in dating",
+              "b": "The man taking the initiative in dating",
+              "c": "Equal roles for both partners",
+              "d": "Avoiding any pursuit to maintain independence"
+            },
+            "correct": "b",
+            "answer_text": "The man taking the initiative in dating",
+            "reason": "Traditional roles are highlighted where the man is expected to pursue the relationship."
+          },
+          {
+            "text": "What is stressed as essential for personal growth in a relationship?",
+            "answers": {
+              "a": "Self-improvement and striving for excellence",
+              "b": "Focusing only on the partner’s needs",
+              "c": "Avoiding personal change after marriage",
+              "d": "Relying solely on the relationship for validation"
+            },
+            "correct": "d",
+            "answer_text": "Personal growth, striving for excellence, and spiritual practices like prayer",
+            "reason": "The text underscores the importance of self-improvement as a key factor in fostering a healthy relationship."
+          },
+          {
+            "text": "In Section II.A, how is marriage defined?",
+            "answers": {
+              "a": "A legal contract with financial benefits",
+              "b": "A union based solely on romantic love",
+              "c": "The gift of oneself to another with selfless commitment",
+              "d": "A temporary arrangement for companionship"
+            },
+            "correct": "c",
+            "answer_text": "The gift of oneself to another with selfless commitment",
+            "reason": "Marriage is defined as a selfless giving of oneself to another, beyond just romantic love."
+          },
+          {
+            "text": "What is emphasized as the essence of marriage in the document?",
+            "answers": {
+              "a": "A means to achieve social status",
+              "b": "A selfless commitment to love and support each other, even at personal cost",
+              "c": "An arrangement for economic gain",
+              "d": "A short-term relationship based on convenience"
+            },
+            "correct": "b",
+            "answer_text": "A selfless commitment to love and support each other, even at personal cost",
+            "reason": "The essence of marriage is depicted as an enduring, sacrificial commitment to the partner."
+          },
+          {
+            "text": "According to the text, what does true love in marriage require?",
+            "answers": {
+              "a": "Focusing solely on personal happiness",
+              "b": "A commitment to love “until death do us part” by prioritizing the good of the other person",
+              "c": "Strict adherence to societal expectations",
+              "d": "Continuous financial support"
+            },
+            "correct": "b",
+            "answer_text": "A commitment to love “until death do us part” by prioritizing the good of the other person",
+            "reason": "True love in marriage involves a lifelong commitment to putting the partner’s well-being first."
+          },
+          {
+            "text": "In Section II.B, what difference in communication styles is noted between men and women?",
+            "answers": {
+              "a": "Men use language primarily for expressing emotions, while women use it to solve problems.",
+              "b": "Men tend to use language to solve problems, while women also use it to express their feelings.",
+              "c": "Both use language in exactly the same way.",
+              "d": "Women are generally silent compared to men."
+            },
+            "correct": "b",
+            "answer_text": "Men tend to use language to solve problems, while women also use it to express their feelings",
+            "reason": "The text contrasts the practical use of language by men with the emotional expression often used by women."
+          },
+          {
+            "text": "Why are premarital sex and cohabitation discouraged according to the text?",
+            "answers": {
+              "a": "They are seen as modern practices that enhance relationship quality.",
+              "b": "They may cause lasting scars from infidelity, unwanted pregnancies, and feelings of being “used.”",
+              "c": "They are too expensive to maintain.",
+              "d": "They are legally prohibited in all cultures."
+            },
+            "correct": "b",
+            "answer_text": "They may cause lasting scars from infidelity, unwanted pregnancies, and feelings of being “used”",
+            "reason": "Premarital sex and cohabitation are discouraged due to potential emotional and relational scars."
+          },
+          {
+            "text": "What additional aspect of marriage is highlighted in Section II.B?",
+            "answers": {
+              "a": "The importance of individual careers over family",
+              "b": "Family integration, which involves bringing together two families",
+              "c": "Avoiding any contact with extended family",
+              "d": "Focusing exclusively on the couple’s interests"
+            },
+            "correct": "b",
+            "answer_text": "Family integration, which involves bringing together two families",
+            "reason": "Marriage is seen not just as a union of individuals but also as the merging of families."
+          },
+          {
+            "text": "In the “Major Key Points” section, what is one of the topics summarized?",
+            "answers": {
+              "a": "The economic benefits of marriage",
+              "b": "The essence of marriage as a selfless gift and enduring commitment",
+              "c": "The technological advances in wedding planning",
+              "d": "The rise of online dating platforms"
+            },
+            "correct": "b",
+            "answer_text": "The essence of marriage as a selfless gift and enduring commitment",
+            "reason": "One of the major key points summarized is the view of marriage as a selfless, committed gift of oneself to another."
+          },
+          {
+            "text": "How is marriage viewed from the Catholic perspective in the document?",
+            "answers": {
+              "a": "As a purely secular institution",
+              "b": "As a union solely based on individual freedom",
+              "c": "As the foundation of society, crucial for child-rearing and social stability, based on traditional gender complementarity",
+              "d": "As an outdated concept with no relevance today"
+            },
+            "correct": "c",
+            "answer_text": "As the foundation of society, crucial for child-rearing and social stability, based on traditional gender complementarity",
+            "reason": "From the Catholic perspective, marriage is portrayed as a foundational institution essential for societal stability and child-rearing."
+          },
+          {
+            "text": "According to the text, what role does marriage play in society from a traditional standpoint?",
+            "answers": {
+              "a": "It is the basis for economic competition.",
+              "b": "It is seen as essential for the upbringing of children and maintaining social stability.",
+              "c": "It is irrelevant to societal well-being.",
+              "d": "It is only important for legal benefits."
+            },
+            "correct": "b",
+            "answer_text": "It is seen as essential for the upbringing of children and maintaining social stability",
+            "reason": "Traditional views hold that marriage is fundamental for the nurturing of children and the overall stability of society."
+          },
+          {
+            "text": "What is the primary focus when choosing a marriage partner, as described in Section I.B?",
+            "answers": {
+              "a": "Superficial attractiveness and wealth",
+              "b": "Mutual acceptance, compatibility in values, and personal growth",
+              "c": "Strict adherence to cultural stereotypes",
+              "d": "Immediate physical chemistry"
+            },
+            "correct": "b",
+            "answer_text": "Mutual acceptance, compatibility in values, and personal growth",
+            "reason": "The focus is on deep compatibility and the willingness for continuous personal development rather than superficial factors."
+          },
+          {
+            "text": "Which factor is NOT mentioned as a key point in choosing a marriage partner?",
+            "answers": {
+              "a": "Acceptance of each other’s flaws",
+              "b": "Value compatibility in areas such as religion and lifestyle",
+              "c": "Intuition and self-improvement",
+              "d": "Prioritizing financial assets above all else"
+            },
+            "correct": "d",
+            "answer_text": "Prioritizing financial assets above all else",
+            "reason": "The text does not emphasize financial assets as a key factor when choosing a marriage partner."
+          },
+          {
+            "text": "What does “Self-Improvement” imply in the context of choosing a partner?",
+            "answers": {
+              "a": "That only one partner should work on self-improvement",
+              "b": "That personal growth and striving to be the right person contribute to a strong relationship",
+              "c": "That self-improvement is unnecessary once in a relationship",
+              "d": "That self-improvement only benefits career success"
+            },
+            "correct": "b",
+            "answer_text": "That personal growth and striving to be the right person contribute to a strong relationship",
+            "reason": "Self-improvement is highlighted as a critical factor for both individual and relational health."
+          },
+          {
+            "text": "Which dating dynamic is mentioned as being valued by many women in the document?",
+            "answers": {
+              "a": "Women taking the lead in dating",
+              "b": "A dynamic where the man takes the initiative in dating",
+              "c": "Equal initiation by both partners",
+              "d": "Avoiding any pursuit to maintain mystery"
+            },
+            "correct": "b",
+            "answer_text": "A dynamic where the man takes the initiative in dating",
+            "reason": "The traditional role of the man pursuing the relationship is noted as valued by many women."
+          },
+          {
+            "text": "What aspect of marriage is highlighted as requiring a “willing commitment to love and support” one another?",
+            "answers": {
+              "a": "The legal benefits of marriage",
+              "b": "The essence of marriage as the selfless gift of oneself to another",
+              "c": "The financial stability provided by marriage",
+              "d": "The social recognition that comes with marriage"
+            },
+            "correct": "b",
+            "answer_text": "The essence of marriage as the selfless gift of oneself to another",
+            "reason": "Marriage is characterized as involving a deep, selfless commitment to the partner’s well-being."
+          },
+          {
+            "text": "How does the document suggest communication affects a marriage?",
+            "answers": {
+              "a": "It is irrelevant as long as both partners are independent.",
+              "b": "Understanding different communication styles is crucial for a strong marital relationship.",
+              "c": "Communication should be minimal to avoid conflicts.",
+              "d": "Only written communication matters in a relationship."
+            },
+            "correct": "b",
+            "answer_text": "Understanding different communication styles is crucial for a strong marital relationship",
+            "reason": "Effective communication, acknowledging different styles, is key to sustaining a healthy marriage."
+          },
+          {
+            "text": "What role does family integration play in marriage according to the text?",
+            "answers": {
+              "a": "It complicates the relationship unnecessarily.",
+              "b": "It is a key factor, as marriage also brings together two families.",
+              "c": "It should be avoided to maintain couple privacy.",
+              "d": "It is less important than financial compatibility."
+            },
+            "correct": "b",
+            "answer_text": "It is a key factor, as marriage also brings together two families",
+            "reason": "Family integration is stressed as an important component of a successful marriage."
+          },
+          {
+            "text": "In the Sexual Orientation Debate, what legal rights do proponents argue should be extended?",
+            "answers": {
+              "a": "Exclusive rights for heterosexual people only",
+              "b": "The same legal rights and protections for gay people as for heterosexual people",
+              "c": "Rights based solely on age",
+              "d": "Rights determined by regional customs"
+            },
+            "correct": "b",
+            "answer_text": "The same legal rights and protections for gay people as for heterosexual people",
+            "reason": "Proponents argue that if sexual orientation is an inherent trait, then legal rights should be equally extended."
+          },
+          {
+            "text": "According to opponents in the debate, if homosexuality were a choice, what should be the implication?",
+            "answers": {
+              "a": "Same-sex relationships should receive full legal rights.",
+              "b": "Same-sex relationships should not be entitled to marriage or anti-discrimination protections.",
+              "c": "There should be no differences in rights.",
+              "d": "All relationships should be deregulated."
+            },
+            "correct": "b",
+            "answer_text": "Same-sex relationships should not be entitled to marriage or anti-discrimination protections",
+            "reason": "Opponents of the \"nurture\" perspective claim that if homosexuality were a choice, then such relationships should not have the same rights."
+          },
+          {
+            "text": "Which aspect emphasizes the importance of listening to one’s inner guidance in partner selection?",
+            "answers": {
+              "a": "Value Compatibility",
+              "b": "Intuition",
+              "c": "Physical Attraction",
+              "d": "Financial Status"
+            },
+            "correct": "b",
+            "answer_text": "Intuition",
+            "reason": "Intuition is identified as the internal guide that signals whether a relationship is likely to be fulfilling."
+          },
+          {
+            "text": "In the discussion on choosing a partner, what does “Attraction vs. Substance” mean?",
+            "answers": {
+              "a": "Physical attraction is more important than personality.",
+              "b": "A balance is needed where physical attraction must be supported by strong character and substance.",
+              "c": "Substance should be ignored in favor of physical beauty.",
+              "d": "Only material wealth matters."
+            },
+            "correct": "b",
+            "answer_text": "A balance is needed where physical attraction must be supported by strong character and substance",
+            "reason": "The discussion emphasizes that while physical attraction is important, it must be complemented by genuine personal qualities."
+          },
+          {
+            "text": "What does the phrase “warts and all” imply in the context of acceptance?",
+            "answers": {
+              "a": "That minor flaws should be ignored for a genuine relationship",
+              "b": "That partners must be perfect with no flaws",
+              "c": "That only physical attributes matter",
+              "d": "That flaws are unimportant and should be concealed"
+            },
+            "correct": "a",
+            "answer_text": "That minor flaws should be ignored for a genuine relationship",
+            "reason": "“Warts and all” implies accepting a partner's imperfections without trying to change them."
+          },
+          {
+            "text": "How is marriage described beyond the concept of romantic love?",
+            "answers": {
+              "a": "As a business transaction",
+              "b": "As the gift of oneself to another, involving commitment and sacrifice",
+              "c": "As a temporary relationship based on convenience",
+              "d": "As a purely legal contract"
+            },
+            "correct": "b",
+            "answer_text": "As the gift of oneself to another, involving commitment and sacrifice",
+            "reason": "Beyond romantic love, marriage is seen as a profound commitment and a selfless gift."
+          },
+          {
+            "text": "From the Catholic perspective presented, what is the traditional definition of marriage?",
+            "answers": {
+              "a": "A union between any two individuals",
+              "b": "A union exclusively between a man and a woman, foundational for society and child-rearing",
+              "c": "A casual relationship without commitments",
+              "d": "A modern concept that rejects traditional roles"
+            },
+            "correct": "b",
+            "answer_text": "A union exclusively between a man and a woman, foundational for society and child-rearing",
+            "reason": "The Catholic perspective defines traditional marriage as between a man and a woman, essential for societal structure and raising children."
+          },
+          {
+            "text": "What negative outcomes are associated with premarital sex and cohabitation as mentioned in the document?",
+            "answers": {
+              "a": "Improved relationship satisfaction",
+              "b": "Potential scars from infidelity, unwanted pregnancies, and feelings of being “used”",
+              "c": "Enhanced family bonding",
+              "d": "Increased financial stability"
+            },
+            "correct": "b",
+            "answer_text": "Potential scars from infidelity, unwanted pregnancies, and feelings of being “used”",
+            "reason": "The negative outcomes associated with premarital sex and cohabitation include lasting emotional and relational scars."
+          },
+          {
+            "text": "Which key point is emphasized as essential for a strong marriage in the document?",
+            "answers": {
+              "a": "Superficial compatibility only",
+              "b": "Mutual acceptance, value compatibility, and ongoing self-improvement",
+              "c": "Total independence from each other",
+              "d": "Ignoring family influences"
+            },
+            "correct": "b",
+            "answer_text": "Mutual acceptance, value compatibility, and ongoing self-improvement",
+            "reason": "These factors are emphasized as critical for sustaining a strong and healthy marriage."
+          },
+          {
+            "text": "According to the text, what role does effective communication play in marriage?",
+            "answers": {
+              "a": "It is unnecessary if both partners are strong-willed.",
+              "b": "It helps partners understand and value their differing approaches and integrates two families.",
+              "c": "It should be limited to avoid conflicts.",
+              "d": "It only matters during the wedding ceremony."
+            },
+            "correct": "b",
+            "answer_text": "It helps partners understand and value their differing approaches and integrates two families",
+            "reason": "Effective communication is presented as vital for bridging differences and uniting families within a marriage."
+          },
+          {
+            "text": "How are the debates about sexual orientation described in the \"Major Key Points\" section?",
+            "answers": {
+              "a": "As irrelevant to modern society",
+              "b": "As an ongoing controversy between nature (immutable traits) and nurture (lifestyle choice)",
+              "c": "As settled issues with no further discussion needed",
+              "d": "As purely political arguments"
+            },
+            "correct": "b",
+            "answer_text": "As an ongoing controversy between nature (immutable traits) and nurture (lifestyle choice)",
+            "reason": "The debates about sexual orientation are framed as a contest between the ideas of inherent traits versus environmental influence."
+          },
+          {
+            "text": "What overall theme can be derived from the debates and considerations discussed in the document?",
+            "answers": {
+              "a": "The irrelevance of traditional values in modern marriage",
+              "b": "The importance of balancing personal values, communication, and commitment in building a strong marriage and family",
+              "c": "The superiority of financial compatibility over emotional connection",
+              "d": "The need for rapid changes in traditional marriage models"
+            },
+            "correct": "b",
+            "answer_text": "The importance of balancing personal values, communication, and commitment in building a strong marriage and family",
+            "reason": "The overall theme stresses that a robust marriage relies on a balanced mix of personal integrity, effective communication, and mutual commitment."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Ethics 6",
+    "subject": "Social Studies",
+    "exam": "GED",
+    "topic": [],
+    "sub_topic": [],
+    "difficulty": "Hard",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 40,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What is one of the key environmental issues discussed in the document?",
+            "answers": {
+              "a": "Cybersecurity",
+              "b": "Air Pollution",
+              "c": "Urban Planning",
+              "d": "Space Exploration"
+            },
+            "correct": "b",
+            "answer_text": "Air Pollution",
+            "reason": "One of the key environmental issues discussed is air pollution, which affects urban and rural areas in Thailand."
+          },
+          {
+            "text": "In the Bangkok Metropolitan Area, what is a major contributing factor to air pollution?",
+            "answers": {
+              "a": "Excessive tree planting",
+              "b": "High population density and industrial activity with inadequate waste treatment",
+              "c": "Overuse of renewable energy",
+              "d": "Advanced public transportation"
+            },
+            "correct": "b",
+            "answer_text": "High population density and industrial activity with inadequate waste treatment",
+            "reason": "In the Bangkok Metropolitan Area, dense population and industrial emissions, combined with insufficient waste treatment, significantly contribute to air pollution."
+          },
+          {
+            "text": "Which of the following is a significant source of vehicle-related air pollution mentioned in the text?",
+            "answers": {
+              "a": "Electric scooters",
+              "b": "Motorbikes, diesel trucks, and buses",
+              "c": "Bicycle emissions",
+              "d": "Trains"
+            },
+            "correct": "b",
+            "answer_text": "Motorbikes, diesel trucks, and buses",
+            "reason": "These vehicles are highlighted as major contributors to vehicle-related air pollution."
+          },
+          {
+            "text": "Besides vehicle emissions, what other activities contribute to air pollution in Thailand?",
+            "answers": {
+              "a": "Wind energy production",
+              "b": "Garbage burning, open cooking, and agricultural burning practices",
+              "c": "Solar panel installations",
+              "d": "Urban gardening"
+            },
+            "correct": "b",
+            "answer_text": "Garbage burning, open cooking, and agricultural burning practices",
+            "reason": "Besides vehicle emissions, these activities are noted for adding to air pollution."
+          },
+          {
+            "text": "What seasonal effect is linked to agricultural burning in Southeast Asia?",
+            "answers": {
+              "a": "Increase in snowfall",
+              "b": "Formation of haze and seasonal flooding",
+              "c": "Decrease in temperature",
+              "d": "Extended summer days"
+            },
+            "correct": "b",
+            "answer_text": "Formation of haze and seasonal flooding",
+            "reason": "Agricultural burning in Southeast Asia is linked to the formation of haze, which can also contribute to seasonal flooding."
+          },
+          {
+            "text": "According to WWF estimates, by what percentage did forest cover decline in Thailand between 1973 and 2009?",
+            "answers": {
+              "a": "10%",
+              "b": "25%",
+              "c": "43%",
+              "d": "60%"
+            },
+            "correct": "c",
+            "answer_text": "43%",
+            "reason": "WWF estimates that forest cover in Thailand declined by 43% between 1973 and 2009."
+          },
+          {
+            "text": "What is NOT listed as a cause of deforestation in Thailand?",
+            "answers": {
+              "a": "Conversion of forests to agriculture",
+              "b": "Misappropriation of public lands for private use",
+              "c": "Urban sprawl",
+              "d": "Sustainable reforestation practices"
+            },
+            "correct": "d",
+            "answer_text": "Sustainable reforestation practices",
+            "reason": "Sustainable reforestation is not a cause of deforestation; instead, practices like conversion of forests to agriculture, misappropriation of public lands, and urban sprawl contribute to deforestation."
+          },
+          {
+            "text": "Which environmental consequence is associated with deforestation?",
+            "answers": {
+              "a": "Improved water quality",
+              "b": "Soil erosion and sedimentation of rivers",
+              "c": "Increased biodiversity",
+              "d": "Enhanced air quality"
+            },
+            "correct": "b",
+            "answer_text": "Soil erosion and sedimentation of rivers",
+            "reason": "Deforestation leads to soil erosion and increased sedimentation in rivers, degrading water quality."
+          },
+          {
+            "text": "Deforestation in Thailand has been linked to severe drought conditions in which region?",
+            "answers": {
+              "a": "Southern Thailand",
+              "b": "Northeastern Thailand",
+              "c": "Central Thailand",
+              "d": "Western Thailand"
+            },
+            "correct": "b",
+            "answer_text": "Northeastern Thailand",
+            "reason": "Severe drought conditions linked to deforestation have been particularly observed in northeastern Thailand."
+          },
+          {
+            "text": "In northern Thailand, what practice is sometimes used to stimulate the growth of high-value products like the earth star mushroom?",
+            "answers": {
+              "a": "Controlled irrigation",
+              "b": "Deliberate forest fires",
+              "c": "Organic fertilization",
+              "d": "Reforestation"
+            },
+            "correct": "b",
+            "answer_text": "Deliberate forest fires",
+            "reason": "In northern Thailand, deliberate forest fires are sometimes set to stimulate the growth of high-value products like the earth star mushroom."
+          },
+          {
+            "text": "What is one major consequence of field and forest burning?",
+            "answers": {
+              "a": "Increased soil fertility",
+              "b": "Intense air pollution leading to respiratory and cardiac conditions",
+              "c": "Enhanced natural regeneration",
+              "d": "Reduction in urban heat islands"
+            },
+            "correct": "b",
+            "answer_text": "Intense air pollution leading to respiratory and cardiac conditions",
+            "reason": "Field and forest burning causes intense air pollution that has been linked to serious health issues such as lung and heart conditions."
+          },
+          {
+            "text": "Aside from air pollution, what environmental impact is caused by burning practices?",
+            "answers": {
+              "a": "Reduced risk of flash-flooding",
+              "b": "Erosion, loss of vegetation, and flash-flooding",
+              "c": "Improved water retention in soil",
+              "d": "Increased cloud cover"
+            },
+            "correct": "b",
+            "answer_text": "Erosion, loss of vegetation, and flash-flooding",
+            "reason": "Burning practices lead to environmental degradation, including erosion, loss of vegetation, and flash-flooding."
+          },
+          {
+            "text": "What effect has overfishing had on Thailand’s marine resources?",
+            "answers": {
+              "a": "An 86% decline in average catches per unit effort since the 1960s",
+              "b": "A steady increase in fish populations",
+              "c": "No measurable impact",
+              "d": "Diversification of fish species"
+            },
+            "correct": "a",
+            "answer_text": "An 86% decline in average catches per unit effort since the 1960s",
+            "reason": "Overfishing has led to a dramatic 86% decline in average fish catches per unit effort since the 1960s."
+          },
+          {
+            "text": "Which international body threatened a trade ban on Thai seafood exports due to illegal fishing practices?",
+            "answers": {
+              "a": "United Nations",
+              "b": "European Commission",
+              "c": "World Bank",
+              "d": "International Maritime Organization"
+            },
+            "correct": "b",
+            "answer_text": "European Commission",
+            "reason": "The European Commission threatened a trade ban on Thai seafood exports due to illegal fishing practices."
+          },
+          {
+            "text": "What is a primary source of industrial water pollution in Thailand?",
+            "answers": {
+              "a": "Treated wastewater",
+              "b": "Untreated domestic sewage, industrial wastewater, and hazardous solid wastes",
+              "c": "Rainwater harvesting systems",
+              "d": "Natural spring water"
+            },
+            "correct": "b",
+            "answer_text": "Untreated domestic sewage, industrial wastewater, and hazardous solid wastes",
+            "reason": "These sources are major contributors to industrial water pollution in Thailand."
+          },
+          {
+            "text": "Which incident is cited as a notable example of water pollution in Thailand?",
+            "answers": {
+              "a": "The Chao Phraya River cleanup of 2010",
+              "b": "The 1997 Nam Phong River incident, where hundreds of thousands of fish died",
+              "c": "The Bangkok Water Initiative of 2005",
+              "d": "The Mekong Delta flood control project"
+            },
+            "correct": "b",
+            "answer_text": "The 1997 Nam Phong River incident, where hundreds of thousands of fish died",
+            "reason": "This incident is a notable example of the devastating effects of industrial water pollution."
+          },
+          {
+            "text": "Which heavy metal is mentioned as exceeding safe levels in the Chao Phraya estuary?",
+            "answers": {
+              "a": "Lead",
+              "b": "Mercury",
+              "c": "Arsenic",
+              "d": "Cadmium"
+            },
+            "correct": "b",
+            "answer_text": "Mercury",
+            "reason": "Mercury levels exceeding safe limits have been reported in the Chao Phraya estuary."
+          },
+          {
+            "text": "What health issues are linked to industrial water pollution in Thailand?",
+            "answers": {
+              "a": "Diabetes and obesity",
+              "b": "Typhoid, dysentery, hepatitis, skin diseases, liver cancer, and birth defects",
+              "c": "High blood pressure and cholesterol",
+              "d": "Asthma and allergies"
+            },
+            "correct": "b",
+            "answer_text": "Typhoid, dysentery, hepatitis, skin diseases, liver cancer, and birth defects",
+            "reason": "These serious health issues are linked to industrial water pollution in Thailand."
+          },
+          {
+            "text": "What measure has been implemented to address industrial water pollution in Thailand?",
+            "answers": {
+              "a": "Complete shutdown of factories",
+              "b": "Legislation passed since 1992 and investments in wastewater treatment facilities",
+              "c": "Privatization of all water resources",
+              "d": "Importing water from neighboring countries"
+            },
+            "correct": "b",
+            "answer_text": "Legislation passed since 1992 and investments in wastewater treatment facilities",
+            "reason": "To address water pollution, Thailand has implemented legislation and invested in modern wastewater treatment facilities."
+          },
+          {
+            "text": "How many river basins is Thailand divided into?",
+            "answers": {
+              "a": "10",
+              "b": "15",
+              "c": "25",
+              "d": "30"
+            },
+            "correct": "c",
+            "answer_text": "25",
+            "reason": "Thailand is divided into 25 river basins."
+          },
+          {
+            "text": "What environmental issue has led to a significant decline in fish catches in Thailand?",
+            "answers": {
+              "a": "Overfishing",
+              "b": "Climate change only",
+              "c": "Marine pollution exclusively",
+              "d": "Increased aquaculture"
+            },
+            "correct": "a",
+            "answer_text": "Overfishing",
+            "reason": "Overfishing is identified as a major factor leading to the decline in fish stocks."
+          },
+          {
+            "text": "By what percentage have average fish catches per unit effort declined since the 1960s?",
+            "answers": {
+              "a": "50%",
+              "b": "86%",
+              "c": "30%",
+              "d": "10%"
+            },
+            "correct": "b",
+            "answer_text": "86%",
+            "reason": "Average fish catches have declined by 86% since the 1960s due to overfishing."
+          },
+          {
+            "text": "What industry has grown as a response to declining fish stocks?",
+            "answers": {
+              "a": "Tourism",
+              "b": "Aquaculture",
+              "c": "Oil drilling",
+              "d": "Offshore banking"
+            },
+            "correct": "b",
+            "answer_text": "Aquaculture",
+            "reason": "The aquaculture industry has grown significantly as a response to declining wild fish stocks."
+          },
+          {
+            "text": "Overfishing has indirectly contributed to what social issue?",
+            "answers": {
+              "a": "Increased urban employment",
+              "b": "Increased human trafficking for labor on fishing vessels",
+              "c": "Reduced migration rates",
+              "d": "Enhanced food safety"
+            },
+            "correct": "b",
+            "answer_text": "Increased human trafficking for labor on fishing vessels",
+            "reason": "Declining fish stocks and overfishing have indirectly spurred human trafficking to meet labor demands on fishing vessels."
+          },
+          {
+            "text": "Which practice contributes to deforestation and the transformation of wetlands into agricultural land?",
+            "answers": {
+              "a": "Urban reforestation",
+              "b": "Conversion of forests to agriculture",
+              "c": "Controlled logging",
+              "d": "Eco-friendly farming"
+            },
+            "correct": "b",
+            "answer_text": "Conversion of forests to agriculture",
+            "reason": "This practice is a major cause of deforestation and the conversion of wetlands into agricultural land."
+          },
+          {
+            "text": "What is one major environmental consequence of converting forests to agriculture?",
+            "answers": {
+              "a": "Enhanced biodiversity",
+              "b": "Soil erosion and sedimentation of rivers",
+              "c": "Improved air quality",
+              "d": "Increased natural water filtration"
+            },
+            "correct": "b",
+            "answer_text": "Soil erosion and sedimentation of rivers",
+            "reason": "Converting forests to agriculture significantly contributes to soil erosion and river sedimentation."
+          },
+          {
+            "text": "How does field and forest burning affect natural regeneration?",
+            "answers": {
+              "a": "It promotes rapid natural growth",
+              "b": "It prevents natural regeneration, often necessitating replanting efforts",
+              "c": "It has no impact on regeneration",
+              "d": "It enhances the soil nutrient cycle permanently"
+            },
+            "correct": "b",
+            "answer_text": "It prevents natural regeneration, often necessitating replanting efforts",
+            "reason": "Field and forest burning hinders natural regeneration of vegetation, often requiring human-led replanting."
+          },
+          {
+            "text": "What percentage decline in average fish catches has occurred since the 1960s?",
+            "answers": {
+              "a": "50%",
+              "b": "86%",
+              "c": "30%",
+              "d": "10%"
+            },
+            "correct": "b",
+            "answer_text": "86%",
+            "reason": "As mentioned earlier, there is an 86% decline in average fish catches per unit effort, reflecting the impact of overfishing."
+          },
+          {
+            "text": "Which region is particularly affected by industrial water pollution and land subsidence?",
+            "answers": {
+              "a": "The northern highlands",
+              "b": "The central region, especially Bangkok",
+              "c": "The southern islands",
+              "d": "The eastern coastal region"
+            },
+            "correct": "b",
+            "answer_text": "The central region, especially Bangkok",
+            "reason": "Bangkok and its central region are particularly affected by industrial water pollution and land subsidence."
+          },
+          {
+            "text": "Which of the following practices contributes to air pollution in addition to vehicle emissions?",
+            "answers": {
+              "a": "Use of solar energy",
+              "b": "Garbage burning",
+              "c": "Wind turbine operation",
+              "d": "Hydroelectric power generation"
+            },
+            "correct": "b",
+            "answer_text": "Garbage burning",
+            "reason": "Garbage burning is one of the practices, aside from vehicle emissions, that contributes to air pollution."
+          },
+          {
+            "text": "What sources contribute to coastal water pollution in Thailand?",
+            "answers": {
+              "a": "Natural tidal movements",
+              "b": "Domestic, industrial, and tourism-related waste",
+              "c": "Pristine coral reefs",
+              "d": "Ocean currents"
+            },
+            "correct": "b",
+            "answer_text": "Domestic, industrial, and tourism-related waste",
+            "reason": "These types of waste are significant contributors to coastal water pollution in Thailand."
+          },
+          {
+            "text": "Which environmental issue is associated with the decline of elephant populations in Thailand?",
+            "answers": {
+              "a": "Overfishing",
+              "b": "Wildlife conservation challenges due to poaching and habitat loss",
+              "c": "Industrial water pollution",
+              "d": "Air pollution"
+            },
+            "correct": "b",
+            "answer_text": "Wildlife conservation challenges due to poaching and habitat loss",
+            "reason": "The decline in elephant populations is linked to poaching and habitat loss, key issues in wildlife conservation."
+          },
+          {
+            "text": "What has been the impact of poaching on Thailand’s wild elephant populations?",
+            "answers": {
+              "a": "An increase in population numbers",
+              "b": "A decline to about 2,000 elephants in the wild",
+              "c": "Stable populations due to conservation efforts",
+              "d": "Relocation of elephants to urban areas"
+            },
+            "correct": "b",
+            "answer_text": "A decline to about 2,000 elephants in the wild",
+            "reason": "Poaching has resulted in wild elephant populations falling to around 2,000."
+          },
+          {
+            "text": "Which market is noted for the illegal trade of endangered species in Thailand?",
+            "answers": {
+              "a": "Chatuchak",
+              "b": "Khao San Road",
+              "c": "Siam Paragon",
+              "d": "MBK Center"
+            },
+            "correct": "a",
+            "answer_text": "Chatuchak",
+            "reason": "The Chatuchak market is noted for the illegal trade of endangered species."
+          },
+          {
+            "text": "What minimum percentage of land must be protected as forest in Thailand as part of conservation efforts?",
+            "answers": {
+              "a": "10%",
+              "b": "15%",
+              "c": "25%",
+              "d": "30%"
+            },
+            "correct": "b",
+            "answer_text": "15%",
+            "reason": "Legislation mandates that at least 15% of land in Thailand must be protected as forest."
+          },
+          {
+            "text": "What percentage of land is required to be designated as wildlife sanctuaries or national parks?",
+            "answers": {
+              "a": "15%",
+              "b": "22%",
+              "c": "30%",
+              "d": "40%"
+            },
+            "correct": "b",
+            "answer_text": "22%",
+            "reason": "Additionally, 22% of land must be designated as wildlife sanctuaries or national parks."
+          },
+          {
+            "text": "With which international agreement does Thailand cooperate to protect endangered species?",
+            "answers": {
+              "a": "NAFTA",
+              "b": "CITES (Convention on International Trade in Endangered Species)",
+              "c": "UNESCO World Heritage",
+              "d": "WTO"
+            },
+            "correct": "b",
+            "answer_text": "CITES (Convention on International Trade in Endangered Species)",
+            "reason": "Thailand cooperates with CITES to protect endangered species."
+          },
+          {
+            "text": "In November 2015, what conservation action did Thailand take as part of CITES compliance?",
+            "answers": {
+              "a": "Banned all ivory trade",
+              "b": "Returned 12 smuggled orangutans to Indonesia",
+              "c": "Established a new wildlife sanctuary",
+              "d": "Increased penalties for poaching"
+            },
+            "correct": "b",
+            "answer_text": "Returned 12 smuggled orangutans to Indonesia",
+            "reason": "In November 2015, Thailand returned 12 smuggled orangutans to Indonesia as part of its compliance with CITES."
+          },
+          {
+            "text": "Which environmental issue is linked to the use of pesticides and urban development affecting wildlife?",
+            "answers": {
+              "a": "Overfishing",
+              "b": "Wildlife Conservation Challenges",
+              "c": "Field and Forest Burning",
+              "d": "Industrial Water Pollution"
+            },
+            "correct": "b",
+            "answer_text": "Wildlife Conservation Challenges",
+            "reason": "The use of pesticides and urban development contribute to challenges in wildlife conservation by affecting natural habitats."
+          },
+          {
+            "text": "What is one of the serious health impacts associated with industrial water pollution mentioned in the text?",
+            "answers": {
+              "a": "Diabetes",
+              "b": "Liver cancer",
+              "c": "Asthma",
+              "d": "Hypertension"
+            },
+            "correct": "b",
+            "answer_text": "Liver cancer",
+            "reason": "Liver cancer is one of the serious health impacts linked to industrial water pollution in Thailand."
+          }
+        ]
+      }
+    ]
   }
 ]
