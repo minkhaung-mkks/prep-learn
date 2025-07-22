@@ -31604,5 +31604,1094 @@
         ]
       }
     ]
+  },
+  {
+    "id": 68,
+    "name": "Cloud computing - ch 4 & 5",
+    "subject": "Sciences",
+    "exam": "GED",
+    "topic": [
+      "Civics & Government"
+    ],
+    "sub_topic": [],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 30,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "Which role is responsible for owning and maintaining cloud infrastructure?",
+            "answers": {
+              "a": "Cloud Consumer",
+              "b": "Cloud Provider",
+              "c": "Cloud Service Owner",
+              "d": "Cloud Resource Administrator"
+            },
+            "correct": "b",
+            "answer_text": "Cloud Provider",
+            "reason": "Cloud Providers own and maintain infrastructure such as AWS, Microsoft Azure, and Google Cloud."
+          },
+          {
+            "text": "Who typically uses cloud services to develop and deploy applications?",
+            "answers": {
+              "a": "Cloud Provider",
+              "b": "Cloud Resource Administrator",
+              "c": "Cloud Consumer",
+              "d": "Cloud Service Owner"
+            },
+            "correct": "c",
+            "answer_text": "Cloud Consumer",
+            "reason": "Cloud Consumers are typically web software developers who use cloud services to develop and deploy applications."
+          },
+          {
+            "text": "Which role is ultimately responsible for the end software delivered on the cloud?",
+            "answers": {
+              "a": "Cloud Provider",
+              "b": "Cloud Resource Administrator",
+              "c": "Cloud Consumer",
+              "d": "Cloud Service Owner"
+            },
+            "correct": "d",
+            "answer_text": "Cloud Service Owner",
+            "reason": "The Cloud Service Owner is ultimately responsible for the end software running on the cloud."
+          },
+          {
+            "text": "True or false: A cloud consumer can also be a cloud service owner.",
+            "answers": {
+              "a": "True",
+              "b": "False",
+              "c": "Only in private clouds",
+              "d": "Only in public clouds"
+            },
+            "correct": "a",
+            "answer_text": "True",
+            "reason": "A cloud consumer can also serve as the cloud service owner (e.g., a developer hosting their own application)."
+          },
+          {
+            "text": "Which characteristic allows consumers to dynamically provision resources and pay only for what they use?",
+            "answers": {
+              "a": "Elasticity",
+              "b": "Measured Usage",
+              "c": "On-Demand Usage",
+              "d": "Resiliency"
+            },
+            "correct": "c",
+            "answer_text": "On-Demand Usage",
+            "reason": "This characteristic allows dynamic provisioning of resources with pay-as-you-go billing."
+          },
+          {
+            "text": "Which characteristic enables users to access cloud services from any location using standard devices?",
+            "answers": {
+              "a": "Measured Usage",
+              "b": "Ubiquitous Access",
+              "c": "Multitenancy",
+              "d": "Resource Pooling"
+            },
+            "correct": "b",
+            "answer_text": "Ubiquitous Access",
+            "reason": "Enables users to access cloud services from any location via standard devices and the internet."
+          },
+          {
+            "text": "What term describes sharing infrastructure among multiple consumers while ensuring isolation?",
+            "answers": {
+              "a": "Elasticity",
+              "b": "Ubiquitous Access",
+              "c": "Multitenancy",
+              "d": "Resiliency"
+            },
+            "correct": "c",
+            "answer_text": "Multitenancy",
+            "reason": "Allows multiple consumers to share infrastructure while maintaining logical separation and privacy."
+          },
+          {
+            "text": "Which cloud characteristic automatically scales resources based on demand?",
+            "answers": {
+              "a": "Elasticity",
+              "b": "On-Demand Usage",
+              "c": "Measured Usage",
+              "d": "Multitenancy"
+            },
+            "correct": "a",
+            "answer_text": "Elasticity",
+            "reason": "Supports automatic scaling of resources in response to fluctuating demand."
+          },
+          {
+            "text": "What mechanism supports accurate billing by tracking resource consumption?",
+            "answers": {
+              "a": "Resiliency",
+              "b": "Elasticity",
+              "c": "Measured Usage",
+              "d": "Ubiquitous Access"
+            },
+            "correct": "c",
+            "answer_text": "Measured Usage",
+            "reason": "Involves metering resource consumption to support accurate billing and usage optimization."
+          },
+          {
+            "text": "Which feature ensures service availability through redundancy and fault tolerance?",
+            "answers": {
+              "a": "Elasticity",
+              "b": "Resiliency",
+              "c": "Measured Usage",
+              "d": "On-Demand Usage"
+            },
+            "correct": "b",
+            "answer_text": "Resiliency",
+            "reason": "Ensures uninterrupted service availability through redundancy and fault‑tolerant design."
+          },
+          {
+            "text": "When would a developer choose a single-tenant cloud environment?",
+            "answers": {
+              "a": "To reduce infrastructure cost",
+              "b": "To ensure client compliance and privacy",
+              "c": "To maximize resource pooling",
+              "d": "To enable ubiquitous access"
+            },
+            "correct": "b",
+            "answer_text": "To ensure client compliance and privacy",
+            "reason": "Single‑tenant environments are chosen for sensitive data and strict compliance requirements."
+          },
+          {
+            "text": "Which cloud service model provides virtualized computing resources like storage and networking?",
+            "answers": {
+              "a": "SaaS",
+              "b": "PaaS",
+              "c": "IaaS",
+              "d": "FaaS"
+            },
+            "correct": "c",
+            "answer_text": "IaaS",
+            "reason": "Infrastructure‑as‑a‑Service provides virtualized compute, storage, and networking resources."
+          },
+          {
+            "text": "Which model offers a platform with development tools and runtime environments, abstracting infrastructure?",
+            "answers": {
+              "a": "IaaS",
+              "b": "SaaS",
+              "c": "PaaS",
+              "d": "CaaS"
+            },
+            "correct": "c",
+            "answer_text": "PaaS",
+            "reason": "Platform‑as‑a‑Service offers development tools and runtime environments, abstracting the underlying infrastructure."
+          },
+          {
+            "text": "Which model delivers fully managed software applications over the internet?",
+            "answers": {
+              "a": "IaaS",
+              "b": "PaaS",
+              "c": "SaaS",
+              "d": "DaaS"
+            },
+            "correct": "c",
+            "answer_text": "SaaS",
+            "reason": "Software‑as‑a‑Service delivers fully managed applications accessible over the internet."
+          },
+          {
+            "text": "Which combination represents a fully integrated solution encompassing infrastructure, development tools, and applications?",
+            "answers": {
+              "a": "IaaS + PaaS",
+              "b": "PaaS + SaaS",
+              "c": "IaaS + SaaS",
+              "d": "IaaS + PaaS + SaaS"
+            },
+            "correct": "d",
+            "answer_text": "IaaS + PaaS + SaaS",
+            "reason": "A fully integrated solution covers infrastructure, platform, and software layers."
+          },
+          {
+            "text": "Which deployment model uses infrastructure exclusively for a single organization?",
+            "answers": {
+              "a": "Public Cloud",
+              "b": "Community Cloud",
+              "c": "Private Cloud",
+              "d": "Hybrid Cloud"
+            },
+            "correct": "c",
+            "answer_text": "Private Cloud",
+            "reason": "Private clouds are exclusively used by a single organization, offering enhanced control and security."
+          },
+          {
+            "text": "Which deployment model is shared among organizations with common objectives?",
+            "answers": {
+              "a": "Public Cloud",
+              "b": "Community Cloud",
+              "c": "Private Cloud",
+              "d": "Hybrid Cloud"
+            },
+            "correct": "b",
+            "answer_text": "Community Cloud",
+            "reason": "Shared among organizations with common objectives and jointly managed governance."
+          },
+          {
+            "text": "Which deployment model combines public and private clouds to allow workload portability?",
+            "answers": {
+              "a": "Public Cloud",
+              "b": "Community Cloud",
+              "c": "Private Cloud",
+              "d": "Hybrid Cloud"
+            },
+            "correct": "d",
+            "answer_text": "Hybrid Cloud",
+            "reason": "Combines public and private cloud infrastructures to enable workload portability."
+          },
+          {
+            "text": "What term refers to using more than one public cloud provider to reduce vendor lock-in?",
+            "answers": {
+              "a": "Hybrid Cloud",
+              "b": "Community Cloud",
+              "c": "Multi-Cloud",
+              "d": "Private Cloud"
+            },
+            "correct": "c",
+            "answer_text": "Multi‑Cloud",
+            "reason": "The use of more than one public cloud provider to mitigate vendor lock‑in."
+          },
+          {
+            "text": "In cloud‑enabling technology, what describes transmitting data in discrete packets without a fixed path?",
+            "answers": {
+              "a": "Circuit Switching",
+              "b": "Packet Flooding",
+              "c": "Datagram Networks",
+              "d": "Virtual Circuits"
+            },
+            "correct": "c",
+            "answer_text": "Datagram Networks",
+            "reason": "Connectionless packet switching transmits data in separate packets without a fixed path."
+          },
+          {
+            "text": "Which technology uses routers to forward data packets based on destination IP addresses?",
+            "answers": {
+              "a": "Datagram Networks",
+              "b": "Circuit Switching",
+              "c": "Router‑Based Interconnectivity",
+              "d": "Edge Computing"
+            },
+            "correct": "c",
+            "answer_text": "Router‑Based Interconnectivity",
+            "reason": "Utilizes routers and routing protocols to forward data packets based on destination IP addresses."
+          },
+          {
+            "text": "Which layer protocol ensures reliable data delivery with error detection and flow control?",
+            "answers": {
+              "a": "Network Layer",
+              "b": "Transport Layer",
+              "c": "Application Layer",
+              "d": "Data Link Layer"
+            },
+            "correct": "b",
+            "answer_text": "Transport Layer",
+            "reason": "Ensures reliable delivery, error detection, retransmission, and flow control via TCP/UDP."
+          },
+          {
+            "text": "Which layer includes protocols such as HTTP and FTP for high‑level communication?",
+            "answers": {
+              "a": "Transport Layer",
+              "b": "Network Layer",
+              "c": "Application Layer",
+              "d": "Physical Layer"
+            },
+            "correct": "c",
+            "answer_text": "Application Layer",
+            "reason": "Includes high‑level protocols like HTTP and FTP for application‑level data exchange."
+          },
+          {
+            "text": "In data centers, what software layer allows multiple operating systems to run on a single physical server?",
+            "answers": {
+              "a": "Middleware",
+              "b": "Operating System",
+              "c": "Hypervisor",
+              "d": "Container Runtime"
+            },
+            "correct": "c",
+            "answer_text": "Hypervisor",
+            "reason": "A software layer that enables multiple virtual machines to run concurrently on one physical host."
+          },
+          {
+            "text": "Which data center component manages virtual machines and abstracts hardware, known as VIM?",
+            "answers": {
+              "a": "Virtualized Infrastructure Manager",
+              "b": "Hypervisor",
+              "c": "Router",
+              "d": "Switch"
+            },
+            "correct": "a",
+            "answer_text": "Virtualized Infrastructure Manager",
+            "reason": "The VIM orchestrates and manages virtualized resources within a data center."
+          },
+          {
+            "text": "Which hypervisor type runs directly on physical hardware without a host operating system?",
+            "answers": {
+              "a": "Type 1 Hypervisor",
+              "b": "Type 2 Hypervisor",
+              "c": "Container Runtime",
+              "d": "Middleware"
+            },
+            "correct": "a",
+            "answer_text": "Type 1 Hypervisor",
+            "reason": "Runs directly on the hardware (bare‑metal) without requiring a host operating system."
+          },
+          {
+            "text": "Which hypervisor type runs on top of a host operating system?",
+            "answers": {
+              "a": "Type 1 Hypervisor",
+              "b": "Type 2 Hypervisor",
+              "c": "Bare‑Metal Hypervisor",
+              "d": "Virtual Switch"
+            },
+            "correct": "b",
+            "answer_text": "Type 2 Hypervisor",
+            "reason": "Runs on top of a host operating system as an application layer."
+          },
+          {
+            "text": "Which virtualization concept merges multiple workloads onto fewer physical servers?",
+            "answers": {
+              "a": "Resource Replication",
+              "b": "Server Consolidation",
+              "c": "Standardization and Modularity",
+              "d": "Edge Computing"
+            },
+            "correct": "b",
+            "answer_text": "Server Consolidation",
+            "reason": "Merges multiple workloads onto fewer physical servers to improve utilization."
+          },
+          {
+            "text": "Which virtualization concept duplicates computing environments for redundancy and load balancing?",
+            "answers": {
+              "a": "Hardware Independence",
+              "b": "Resource Replication",
+              "c": "Server Consolidation",
+              "d": "Multi‑Tenancy"
+            },
+            "correct": "b",
+            "answer_text": "Resource Replication",
+            "reason": "Duplicates computing environments to support redundancy and load balancing."
+          },
+          {
+            "text": "Which multi‑tenant feature ensures usage isolation among tenants?",
+            "answers": {
+              "a": "Usage Isolation",
+              "b": "Resource Pooling",
+              "c": "Data Security",
+              "d": "Metered Usage"
+            },
+            "correct": "a",
+            "answer_text": "Usage Isolation",
+            "reason": "Ensures one tenant’s usage or performance does not affect others in a multi‑tenant system."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Cloud computing - ch 6 & 7",
+    "subject": "Sciences",
+    "exam": "GED",
+    "topic": [
+      "Civics & Government"
+    ],
+    "sub_topic": [],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 30,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What does the ‘C’ in the CIA Triad stand for?",
+            "answers": {
+              "a": "Confidentiality",
+              "b": "Integrity",
+              "c": "Availability",
+              "d": "Authentication"
+            },
+            "correct": "a",
+            "answer_text": "Confidentiality",
+            "reason": "Keeps data secret and viewable only by authorized parties."
+          },
+          {
+            "text": "Which principle verifies that users, systems, or data are genuinely who or what they claim to be?",
+            "answers": {
+              "a": "Accountability",
+              "b": "Authenticity",
+              "c": "Non‑repudiation",
+              "d": "Authorization"
+            },
+            "correct": "b",
+            "answer_text": "Authenticity",
+            "reason": "Verifies that users, systems, or data are genuinely who or what they claim to be."
+          },
+          {
+            "text": "What principle ensures actions can be traced back to a specific entity?",
+            "answers": {
+              "a": "Confidentiality",
+              "b": "Integrity",
+              "c": "Accountability",
+              "d": "Availability"
+            },
+            "correct": "c",
+            "answer_text": "Accountability",
+            "reason": "Ensures that actions can be traced back to a specific entity."
+          },
+          {
+            "text": "In the Shared Responsibility Model, who is responsible for securing the physical data centers?",
+            "answers": {
+              "a": "Cloud Customer",
+              "b": "Cloud Service Owner",
+              "c": "Cloud Provider",
+              "d": "Security Vendor"
+            },
+            "correct": "c",
+            "answer_text": "Cloud Provider",
+            "reason": "Responsible for security of the cloud, including physical data centers and virtualization layers."
+          },
+          {
+            "text": "Under the Shared Responsibility Model, who must correctly configure network security and IAM policies?",
+            "answers": {
+              "a": "Cloud Provider",
+              "b": "Cloud Customer",
+              "c": "Virtualization Layer",
+              "d": "Third‑party Auditor"
+            },
+            "correct": "b",
+            "answer_text": "Cloud Customer",
+            "reason": "Responsible for security in the cloud, such as configuring network and IAM policies."
+          },
+          {
+            "text": "Which threat agent is defined as an outsider with no legitimate access?",
+            "answers": {
+              "a": "Malicious Insider",
+              "b": "Anonymous Attacker",
+              "c": "Trusted Attacker",
+              "d": "Malicious Service Agent"
+            },
+            "correct": "b",
+            "answer_text": "Anonymous Attacker",
+            "reason": "An outsider with no legitimate access to cloud resources."
+          },
+          {
+            "text": "Which threat agent refers to a compromised software component inside the cloud?",
+            "answers": {
+              "a": "Anonymous Attacker",
+              "b": "Malicious Insider",
+              "c": "Trusted Attacker",
+              "d": "Malicious Service Agent"
+            },
+            "correct": "d",
+            "answer_text": "Malicious Service Agent",
+            "reason": "A compromised piece of software inside the cloud environment."
+          },
+          {
+            "text": "Which attack vector involves errors like publicly exposed storage buckets?",
+            "answers": {
+              "a": "Insecure APIs",
+              "b": "Cloud Misconfigurations",
+              "c": "Traffic Eavesdropping",
+              "d": "DDoS"
+            },
+            "correct": "b",
+            "answer_text": "Cloud Misconfigurations",
+            "reason": "Misconfigured cloud services like public storage buckets are common breach vectors."
+          },
+          {
+            "text": "Which attack method secretly listens to data as it travels over a network?",
+            "answers": {
+              "a": "Identity & Access Management Issues",
+              "b": "Insecure APIs",
+              "c": "Traffic Eavesdropping",
+              "d": "Cloud Misconfigurations"
+            },
+            "correct": "c",
+            "answer_text": "Traffic Eavesdropping",
+            "reason": "Secretly listening to data in transit, compromising confidentiality."
+          },
+          {
+            "text": "Which security mechanism scrambles data to protect confidentiality?",
+            "answers": {
+              "a": "Hashing",
+              "b": "Encryption",
+              "c": "Load Balancing",
+              "d": "Authorization"
+            },
+            "correct": "b",
+            "answer_text": "Encryption",
+            "reason": "Scrambles data to protect confidentiality at rest and in transit."
+          },
+          {
+            "text": "What mechanism uses cryptographic keys to verify data integrity and non‑repudiation?",
+            "answers": {
+              "a": "Encryption",
+              "b": "Redundancy",
+              "c": "Digital Signatures",
+              "d": "Virtual Firewalls"
+            },
+            "correct": "c",
+            "answer_text": "Digital Signatures",
+            "reason": "Create unique fingerprints of data to verify integrity and support non‑repudiation."
+          },
+          {
+            "text": "Which mechanism distributes traffic and duplicates systems to ensure availability?",
+            "answers": {
+              "a": "Authentication",
+              "b": "Redundancy & Load Balancing",
+              "c": "Non‑repudiation",
+              "d": "Traffic Filtering"
+            },
+            "correct": "b",
+            "answer_text": "Redundancy & Load Balancing",
+            "reason": "Distributes traffic and duplicates systems to ensure availability during failures."
+          },
+          {
+            "text": "Which access control model defines what an authenticated user is allowed to do?",
+            "answers": {
+              "a": "RBAC",
+              "b": "MFA",
+              "c": "DNS",
+              "d": "ACL"
+            },
+            "correct": "a",
+            "answer_text": "RBAC",
+            "reason": "Role‑Based Access Control defines what an authenticated user is allowed to do."
+          },
+          {
+            "text": "Which authentication technique confirms a user’s identity using multiple factors?",
+            "answers": {
+              "a": "Single Sign‑On",
+              "b": "Role‑Based Access Control",
+              "c": "Multi‑Factor Authentication",
+              "d": "Password Rotation"
+            },
+            "correct": "c",
+            "answer_text": "Multi‑Factor Authentication",
+            "reason": "Requires multiple forms of verification to confirm user identity."
+          },
+          {
+            "text": "What is the first step in the Risk Management Process?",
+            "answers": {
+              "a": "Risk Treatment",
+              "b": "Risk Assessment",
+              "c": "Risk Control",
+              "d": "Risk Monitoring"
+            },
+            "correct": "b",
+            "answer_text": "Risk Assessment",
+            "reason": "Identifies potential security risks and evaluates their impact."
+          },
+          {
+            "text": "Which logical network component filters traffic based on defined security rules?",
+            "answers": {
+              "a": "Virtual Router",
+              "b": "Security Group",
+              "c": "Virtual Switch",
+              "d": "Container Runtime"
+            },
+            "correct": "a",
+            "answer_text": "Virtual Firewall",
+            "reason": "Filters network traffic based on security rules in a logical perimeter."
+          },
+          {
+            "text": "Which component connects virtual machines within the same network segment?",
+            "answers": {
+              "a": "Virtual Firewall",
+              "b": "Virtual Switch",
+              "c": "Security Group",
+              "d": "Load Balancer"
+            },
+            "correct": "b",
+            "answer_text": "Virtual Switch",
+            "reason": "Connects virtual machines within the same network segment."
+          },
+          {
+            "text": "What type of hypervisor runs directly on the physical hardware without a host operating system?",
+            "answers": {
+              "a": "Type 2 Hypervisor",
+              "b": "Type 1 Hypervisor",
+              "c": "Container Runtime",
+              "d": "Virtual Switch"
+            },
+            "correct": "b",
+            "answer_text": "Type 1 Hypervisor",
+            "reason": "Runs directly on hardware without a host OS, used in enterprise data centers."
+          },
+          {
+            "text": "Which storage model stores data in fixed-size blocks accessed directly by the OS?",
+            "answers": {
+              "a": "Object Storage",
+              "b": "Block Storage",
+              "c": "File Storage",
+              "d": "Database Storage"
+            },
+            "correct": "b",
+            "answer_text": "Block Storage",
+            "reason": "Stores data in fixed-size blocks with direct OS access, ideal for databases."
+          },
+          {
+            "text": "Which storage model provides a hierarchical file and folder structure?",
+            "answers": {
+              "a": "Block Storage",
+              "b": "Object Storage",
+              "c": "File Storage",
+              "d": "Datasets"
+            },
+            "correct": "c",
+            "answer_text": "File Storage",
+            "reason": "Organizes data hierarchically in files and folders via NFS or SMB."
+          },
+          {
+            "text": "Which storage type uses RESTful APIs and includes metadata with each object?",
+            "answers": {
+              "a": "File Storage",
+              "b": "Block Storage",
+              "c": "Object Storage",
+              "d": "Relational Storage"
+            },
+            "correct": "c",
+            "answer_text": "Object Storage",
+            "reason": "Uses RESTful APIs and flexible metadata for scalable, unstructured data storage."
+          },
+          {
+            "text": "Which database interface uses fixed schemas and ACID properties?",
+            "answers": {
+              "a": "NoSQL Storage",
+              "b": "Relational Storage",
+              "c": "Object Storage",
+              "d": "Block Storage"
+            },
+            "correct": "b",
+            "answer_text": "Relational Storage",
+            "reason": "Fixed schema with tables and ACID properties for transactional consistency."
+          },
+          {
+            "text": "Which monitoring agent responds to specific cloud resource events and triggers actions?",
+            "answers": {
+              "a": "Polling Agent",
+              "b": "Resource Agent",
+              "c": "Intercepting Agent",
+              "d": "Logging Agent"
+            },
+            "correct": "b",
+            "answer_text": "Resource Agent",
+            "reason": "Event-driven agent that monitors resource states and triggers automated actions."
+          },
+          {
+            "text": "Which monitoring agent regularly queries resources at configurable intervals?",
+            "answers": {
+              "a": "Resource Agent",
+              "b": "Polling Agent",
+              "c": "Intercepting Agent",
+              "d": "Analytics Engine"
+            },
+            "correct": "b",
+            "answer_text": "Polling Agent",
+            "reason": "Periodically queries resources for status updates and health checks."
+          },
+          {
+            "text": "Which replication strategy writes data to primary and replica simultaneously for strong consistency?",
+            "answers": {
+              "a": "Asynchronous Replication",
+              "b": "Master‑Slave Replication",
+              "c": "Synchronous Replication",
+              "d": "Active‑Passive Replication"
+            },
+            "correct": "c",
+            "answer_text": "Synchronous Replication",
+            "reason": "Writes data to primary and replica simultaneously to guarantee strong consistency."
+          },
+          {
+            "text": "Which replication pattern has one active instance and others on standby?",
+            "answers": {
+              "a": "Active‑Active",
+              "b": "Master‑Slave",
+              "c": "Multi‑Master",
+              "d": "Active‑Passive"
+            },
+            "correct": "d",
+            "answer_text": "Active‑Passive",
+            "reason": "One active instance serves traffic while others remain on standby for failover."
+          },
+          {
+            "text": "Which Infrastructure as Code tool supports provisioning across multiple cloud providers?",
+            "answers": {
+              "a": "AWS CloudFormation",
+              "b": "Azure ARM Templates",
+              "c": "Kubernetes YAML",
+              "d": "Terraform"
+            },
+            "correct": "d",
+            "answer_text": "Terraform",
+            "reason": "An IaC tool for multi‑cloud infrastructure provisioning."
+          },
+          {
+            "text": "Which benefit of Infrastructure as Code ensures consistent configurations across environments?",
+            "answers": {
+              "a": "Speed",
+              "b": "Consistency",
+              "c": "Agility",
+              "d": "Compliance"
+            },
+            "correct": "b",
+            "answer_text": "Consistency",
+            "reason": "Eliminates configuration drift, ensuring identical setups across environments."
+          },
+          {
+            "text": "In an Integrated Cloud Architecture, which component collects metrics and generates alerts?",
+            "answers": {
+              "a": "Virtual Router",
+              "b": "Usage Monitoring",
+              "c": "Resource Replication",
+              "d": "Ready‑Made Environment"
+            },
+            "correct": "b",
+            "answer_text": "Usage Monitoring",
+            "reason": "Collects telemetry data, analyzes metrics, and sends alerts for operational health."
+          },
+          {
+            "text": "Which environment type is designed for isolated quality assurance and CI/CD integration?",
+            "answers": {
+              "a": "Development Environment",
+              "b": "Testing Environment",
+              "c": "Production‑Ready Template",
+              "d": "Container‑Based Environment"
+            },
+            "correct": "b",
+            "answer_text": "Testing Environment",
+            "reason": "Provides isolated environments for quality assurance and CI/CD integration."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Cloud computing - ch 8 & 9",
+    "subject": "Sciences",
+    "exam": "GED",
+    "topic": [
+      "Civics & Government"
+    ],
+    "sub_topic": [],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 25,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "Which mechanism automatically adjusts resources in response to workload changes?",
+            "answers": {
+              "a": "Load Balancer",
+              "b": "Automated Scaling Listener",
+              "c": "Audit Monitor",
+              "d": "Hypervisor"
+            },
+            "correct": "b",
+            "answer_text": "Automated Scaling Listener",
+            "reason": "Automatically adjusts resource allocation based on workload changes."
+          },
+          {
+            "text": "Which scaling approach uses machine learning to predict future traffic?",
+            "answers": {
+              "a": "Threshold-Based Scaling",
+              "b": "Predictive Scaling",
+              "c": "Combined Approach",
+              "d": "Container Scaling"
+            },
+            "correct": "b",
+            "answer_text": "Predictive Scaling",
+            "reason": "Uses machine learning to forecast and provision resources proactively."
+          },
+          {
+            "text": "What Kubernetes tool scales application pods horizontally based on metrics?",
+            "answers": {
+              "a": "Vertical Pod Autoscaler",
+              "b": "Horizontal Pod Autoscaler",
+              "c": "Pod Replicator",
+              "d": "Cluster Autoscaler"
+            },
+            "correct": "b",
+            "answer_text": "Horizontal Pod Autoscaler",
+            "reason": "Scales pods horizontally based on metrics like CPU usage."
+          },
+          {
+            "text": "Which load balancing algorithm sends requests to servers in rotation?",
+            "answers": {
+              "a": "Least Connections",
+              "b": "IP Hash",
+              "c": "Round Robin",
+              "d": "Content-Aware Distribution"
+            },
+            "correct": "c",
+            "answer_text": "Round Robin",
+            "reason": "Distributes requests evenly by cycling through servers."
+          },
+          {
+            "text": "At which OSI layer does a Layer 7 load balancer operate?",
+            "answers": {
+              "a": "Network Layer",
+              "b": "Transport Layer",
+              "c": "Application Layer",
+              "d": "Data Link Layer"
+            },
+            "correct": "c",
+            "answer_text": "Application Layer",
+            "reason": "Inspects request content at the application layer for routing decisions."
+          },
+          {
+            "text": "What metric measures the percentage of time a service is operational?",
+            "answers": {
+              "a": "Response Time",
+              "b": "Throughput",
+              "c": "Availability",
+              "d": "Error Rate"
+            },
+            "correct": "c",
+            "answer_text": "Availability",
+            "reason": "Measures the percentage of uptime over a given period."
+          },
+          {
+            "text": "Which monitoring agent periodically sends queries to check service health?",
+            "answers": {
+              "a": "Resource Agent",
+              "b": "Polling Agent",
+              "c": "Monitoring Agent",
+              "d": "Intercepting Agent"
+            },
+            "correct": "b",
+            "answer_text": "Polling Agent",
+            "reason": "Periodically pings services to check health status."
+          },
+          {
+            "text": "What billing model charges users based on actual resource consumption?",
+            "answers": {
+              "a": "Subscription Billing",
+              "b": "Flat-Rate Billing",
+              "c": "Pay-Per-Use Billing",
+              "d": "Tiered Billing"
+            },
+            "correct": "c",
+            "answer_text": "Pay-Per-Use Billing",
+            "reason": "Charges based on actual resource consumption."
+          },
+          {
+            "text": "Which mechanism logs all user login attempts for security auditing?",
+            "answers": {
+              "a": "SLA Monitor",
+              "b": "Audit Monitor",
+              "c": "Pay-Per-Use Monitor",
+              "d": "Resource Cluster"
+            },
+            "correct": "b",
+            "answer_text": "Audit Monitor",
+            "reason": "Logs and tracks user login attempts for security investigations."
+          },
+          {
+            "text": "In an active-passive failover, how many instances are active at a time?",
+            "answers": {
+              "a": "None",
+              "b": "One",
+              "c": "Two",
+              "d": "All"
+            },
+            "correct": "b",
+            "answer_text": "One",
+            "reason": "Active-passive setup has one active instance and one standby."
+          },
+          {
+            "text": "What is the maximum acceptable downtime after failure called?",
+            "answers": {
+              "a": "RTO",
+              "b": "RPO",
+              "c": "SLA",
+              "d": "MTBF"
+            },
+            "correct": "a",
+            "answer_text": "RTO",
+            "reason": "Recovery Time Objective defines the maximum acceptable downtime."
+          },
+          {
+            "text": "Which hypervisor type runs as software on a host operating system?",
+            "answers": {
+              "a": "Type 1 Hypervisor",
+              "b": "Type 2 Hypervisor",
+              "c": "Container Runtime",
+              "d": "Bare-Metal Hypervisor"
+            },
+            "correct": "b",
+            "answer_text": "Type 2 Hypervisor",
+            "reason": "Runs on top of a host OS as an application."
+          },
+          {
+            "text": "What service translates messages between IoT devices and cloud services?",
+            "answers": {
+              "a": "Multi-Device Broker",
+              "b": "State Management Database",
+              "c": "SLA Monitor",
+              "d": "Automated Scaling Listener"
+            },
+            "correct": "a",
+            "answer_text": "Multi-Device Broker",
+            "reason": "Translates messages between diverse devices and cloud services."
+          },
+          {
+            "text": "Which gateway type is specialized for XML data?",
+            "answers": {
+              "a": "API Gateway",
+              "b": "XML Gateway",
+              "c": "IoT Gateway",
+              "d": "Cloud Storage Gateway"
+            },
+            "correct": "b",
+            "answer_text": "XML Gateway",
+            "reason": "Manages and validates XML-based data exchanges."
+          },
+          {
+            "text": "Which database is optimized for storing application state in memory?",
+            "answers": {
+              "a": "Cassandra",
+              "b": "Redis",
+              "c": "MongoDB",
+              "d": "MySQL"
+            },
+            "correct": "b",
+            "answer_text": "Redis",
+            "reason": "An in-memory database ideal for fast state management."
+          },
+          {
+            "text": "What portal allows users to request new cloud services themselves?",
+            "answers": {
+              "a": "Usage and Administration Portal",
+              "b": "Resource Management Console",
+              "c": "Self-Service Portal",
+              "d": "CLI"
+            },
+            "correct": "c",
+            "answer_text": "Self-Service Portal",
+            "reason": "Allows users to provision services from a service catalog."
+          },
+          {
+            "text": "Which controller orchestrates VM creation and resource allocation?",
+            "answers": {
+              "a": "Remote Administration System",
+              "b": "Virtualization Infrastructure Manager (VIM)",
+              "c": "Billing Management System",
+              "d": "SLA Management System"
+            },
+            "correct": "b",
+            "answer_text": "Virtualization Infrastructure Manager (VIM)",
+            "reason": "Manages VM lifecycle and allocates compute, storage, and network resources."
+          },
+          {
+            "text": "Which system component stores quality-of-service measurements and reports SLA compliance?",
+            "answers": {
+              "a": "Billing Repository",
+              "b": "SLA Manager",
+              "c": "Monitoring Agent",
+              "d": "VIM"
+            },
+            "correct": "b",
+            "answer_text": "SLA Manager",
+            "reason": "Processes collected QoS metrics and stores SLA compliance data."
+          },
+          {
+            "text": "Which agent tracks the start and stop times of a cloud service directly?",
+            "answers": {
+              "a": "Monitoring Agent",
+              "b": "Resource Agent",
+              "c": "Polling Agent",
+              "d": "Audit Agent"
+            },
+            "correct": "b",
+            "answer_text": "Resource Agent",
+            "reason": "Logs service start/stop events for billing and monitoring."
+          },
+          {
+            "text": "What is the main function of a Resource Management System?",
+            "answers": {
+              "a": "Handling billing and invoicing",
+              "b": "Distributing traffic across servers",
+              "c": "Overseeing dynamic provisioning of resources",
+              "d": "Translating device protocols"
+            },
+            "correct": "c",
+            "answer_text": "Overseeing dynamic provisioning of resources",
+            "reason": "Ensures optimal allocation to meet real-time demands."
+          },
+          {
+            "text": "Which modern tool is commonly used for real-time SLA monitoring and visualization?",
+            "answers": {
+              "a": "AWS CloudWatch",
+              "b": "Terraform",
+              "c": "Prometheus",
+              "d": "Kubernetes"
+            },
+            "correct": "c",
+            "answer_text": "Prometheus",
+            "reason": "An open-source system for real-time monitoring and alerting."
+          },
+          {
+            "text": "What is a key benefit of stateless application design?",
+            "answers": {
+              "a": "Harder to scale",
+              "b": "Simplified load balancing",
+              "c": "Increased resource contention",
+              "d": "Reduced fault tolerance"
+            },
+            "correct": "b",
+            "answer_text": "Simplified load balancing",
+            "reason": "Stateless services can be easily distributed among multiple servers."
+          },
+          {
+            "text": "What component generates invoices in a billing management system?",
+            "answers": {
+              "a": "Usage Monitoring Agent",
+              "b": "Pricing and Contract Manager",
+              "c": "SLA Manager",
+              "d": "Resource Cluster"
+            },
+            "correct": "b",
+            "answer_text": "Pricing and Contract Manager",
+            "reason": "Calculates fees and generates invoices based on usage data."
+          },
+          {
+            "text": "What cluster type features nodes connected by high-speed links sharing resources?",
+            "answers": {
+              "a": "Loosely Coupled Cluster",
+              "b": "Tightly Coupled Cluster",
+              "c": "Kubernetes Cluster",
+              "d": "Edge Cluster"
+            },
+            "correct": "b",
+            "answer_text": "Tightly Coupled Cluster",
+            "reason": "Nodes share physical resources via high-speed connections for high performance."
+          },
+          {
+            "text": "In failover strategies, which pattern prevents cascading failures by stopping calls to failing services?",
+            "answers": {
+              "a": "DNS-Based Failover",
+              "b": "Circuit Breaker Pattern",
+              "c": "Multi-Region Failover",
+              "d": "Active-Passive Failover"
+            },
+            "correct": "b",
+            "answer_text": "Circuit Breaker Pattern",
+            "reason": "Prevents cascading failures by halting calls to unstable services."
+          }
+        ]
+      }
+    ]
   }
 ]
