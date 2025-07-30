@@ -32693,5 +32693,628 @@
         ]
       }
     ]
+  },
+  {
+    "id": 71,
+    "name": "",
+    "subject": "Sciences",
+    "exam": "GED",
+    "topic": [],
+    "sub_topic": [
+      "Energy"
+    ],
+    "difficulty": "Hard",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 50,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What is the approximate amount of data created every day?",
+            "answers": {
+              "a": "2.5 billion bytes",
+              "b": "2.5 million TB",
+              "c": "2.5 quintillion bytes",
+              "d": "2.5 petabytes"
+            },
+            "correct": "c",
+            "answer_text": "2.5 quintillion bytes",
+            "reason": "2,500,000,000,000,000,000 Bytes (~2.5 quintillion bytes) of data are created every day."
+          },
+          {
+            "text": "According to the sources, what percentage of the world's data has been generated in the last two years?",
+            "answers": {
+              "a": "50%",
+              "b": "75%",
+              "c": "90%",
+              "d": "100%"
+            },
+            "correct": "c",
+            "answer_text": "90%",
+            "reason": "90% of the data in the world has been generated in the last two years."
+          },
+          {
+            "text": "What is the foundation of data analytics, often targeted towards business problems or objectives?",
+            "answers": {
+              "a": "Data processing tools",
+              "b": "Data driven questions",
+              "c": "Statistical models",
+              "d": "Business intelligence dashboards"
+            },
+            "correct": "b",
+            "answer_text": "Data driven questions",
+            "reason": "Data driven questions are the foundation of data analytics and are usually targeted towards problems or objectives a business wants to address."
+          },
+          {
+            "text": "Which of the following is considered one of the three types of questions in data analytics?",
+            "answers": {
+              "a": "How much revenue did we generate?",
+              "b": "Do we have a problem to solve?",
+              "c": "When did this problem occur?",
+              "d": "Who is responsible for the data?"
+            },
+            "correct": "b",
+            "answer_text": "Do we have a problem to solve?",
+            "reason": "\"Do we have a problem to solve?\" is one of the three types of questions in data analytics."
+          },
+          {
+            "text": "Which common reason for solving a problem directly impacts profitability due to fewer sales?",
+            "answers": {
+              "a": "Poor User Experience",
+              "b": "Increased Customer Acquisition Cost (CAC)",
+              "c": "Direct Revenue Loss",
+              "d": "Negative Brand Perception"
+            },
+            "correct": "c",
+            "answer_text": "Direct Revenue Loss",
+            "reason": "Direct Revenue Loss, such as fewer sales, is a common reason for solving a problem, as it directly impacts profitability."
+          },
+          {
+            "text": "What is the definition of Data Analytics?",
+            "answers": {
+              "a": "The process of collecting and storing data",
+              "b": "The process of examining, transforming and interpreting data to discover meaningful patterns and trends",
+              "c": "The process of creating charts and graphs for presentations",
+              "d": "The process of inputting data into a database"
+            },
+            "correct": "b",
+            "answer_text": "The process of examining, transforming and interpreting data to discover meaningful patterns and trends",
+            "reason": "Data Analytics is defined as the process of examining, transforming and interpreting data to discover meaningful patterns and trends."
+          },
+          {
+            "text": "Which type of data analytics answers the question \"What happened\"?",
+            "answers": {
+              "a": "Diagnostic Analytics",
+              "b": "Predictive Analytics",
+              "c": "Prescriptive Analytics",
+              "d": "Descriptive Analytics"
+            },
+            "correct": "d",
+            "answer_text": "Descriptive Analytics",
+            "reason": "Descriptive Analytics answers \"What happened\"."
+          },
+          {
+            "text": "Which type of data analytics explores \"Why that happened\" by identifying causes and patterns?",
+            "answers": {
+              "a": "Descriptive Analytics",
+              "b": "Diagnostic Analytics",
+              "c": "Predictive Analytics",
+              "d": "Prescriptive Analytics"
+            },
+            "correct": "b",
+            "answer_text": "Diagnostic Analytics",
+            "reason": "Diagnostic Analytics explores \"Why that happened\" by identifying causes and patterns."
+          },
+          {
+            "text": "Which type of data analytics uses historical data to make predictions about future outcomes?",
+            "answers": {
+              "a": "Descriptive Analytics",
+              "b": "Diagnostic Analytics",
+              "c": "Predictive Analytics",
+              "d": "Prescriptive Analytics"
+            },
+            "correct": "c",
+            "answer_text": "Predictive Analytics",
+            "reason": "Predictive Analytics uses historical data to make predictions about future outcomes."
+          },
+          {
+            "text": "Which type of data analytics recommends actions to achieve a desired outcome?",
+            "answers": {
+              "a": "Descriptive Analytics",
+              "b": "Diagnostic Analytics",
+              "c": "Predictive Analytics",
+              "d": "Prescriptive Analytics"
+            },
+            "correct": "d",
+            "answer_text": "Prescriptive Analytics",
+            "reason": "Prescriptive Analytics recommends actions to achieve a desired outcome."
+          },
+          {
+            "text": "What is the definition of data collection?",
+            "answers": {
+              "a": "Analyzing data patterns and relationships",
+              "b": "Preparing data by removing errors",
+              "c": "Gathering relevant data from different sources",
+              "d": "Applying statistical models to make predictions"
+            },
+            "correct": "c",
+            "answer_text": "Gathering relevant data from different sources",
+            "reason": "Data collection is defined as gathering relevant data from different sources, such as databases, sensors, social media, or surveys."
+          },
+          {
+            "text": "Which of the following is a common source for data collection?",
+            "answers": {
+              "a": "Newspapers",
+              "b": "Surveys",
+              "c": "Encyclopedias",
+              "d": "Phone books"
+            },
+            "correct": "b",
+            "answer_text": "Surveys",
+            "reason": "Surveys are listed as a source for data collection."
+          },
+          {
+            "text": "What is a key goal of data collection?",
+            "answers": {
+              "a": "To generate reports",
+              "b": "To create a comprehensive dataset to fulfill an objective",
+              "c": "To store data securely",
+              "d": "To validate statistical models"
+            },
+            "correct": "b",
+            "answer_text": "To create a comprehensive dataset to fulfill an objective",
+            "reason": "The goal of data collection is to get a comprehensive dataset to fulfill an objective or address a problem."
+          },
+          {
+            "text": "What is the definition of data cleaning?",
+            "answers": {
+              "a": "Gathering data from multiple sources",
+              "b": "Analyzing data patterns for insights",
+              "c": "Preparing the data by removing errors, duplicates, and inconsistencies",
+              "d": "Presenting data visually in dashboards"
+            },
+            "correct": "c",
+            "answer_text": "Preparing the data by removing errors, duplicates, and inconsistencies",
+            "reason": "Data Cleaning is defined as preparing the data by removing errors, duplicates, and inconsistencies, ensuring it's accurate and ready for analysis."
+          },
+          {
+            "text": "Which of the following is a keyword associated with data cleaning?",
+            "answers": {
+              "a": "Identify data sources",
+              "b": "Handle missing values",
+              "c": "Make predictions",
+              "d": "Summarize insights"
+            },
+            "correct": "b",
+            "answer_text": "Handle missing values",
+            "reason": "\"Handle missing values\" is a keyword associated with data cleaning."
+          },
+          {
+            "text": "What is the goal of data cleaning?",
+            "answers": {
+              "a": "To get a dataset ready for analysis with minimal biases or errors",
+              "b": "To identify new data sources",
+              "c": "To apply machine learning algorithms",
+              "d": "To communicate findings to stakeholders"
+            },
+            "correct": "a",
+            "answer_text": "To get a dataset ready for analysis with minimal biases or errors",
+            "reason": "The goal of data cleaning is to get a dataset ready for analysis with minimal biases or errors and consistently formatted."
+          },
+          {
+            "text": "What is the first step in the summary of data cleaning steps?",
+            "answers": {
+              "a": "Removing Duplicates",
+              "b": "Correcting Data Types",
+              "c": "Handling Missing Values",
+              "d": "Removing Invalid Data"
+            },
+            "correct": "c",
+            "answer_text": "Handling Missing Values",
+            "reason": "Handling Missing Values is the first step in the summary of data cleaning steps."
+          },
+          {
+            "text": "What action is suggested if \"Quantity\" is negative during data cleaning?",
+            "answers": {
+              "a": "Standardize the data",
+              "b": "Remove the rows or adjust analysis to account for returned items",
+              "c": "Correct the data type",
+              "d": "Fill with default values"
+            },
+            "correct": "b",
+            "answer_text": "Remove the rows or adjust analysis to account for returned items",
+            "reason": "If negative quantities signify returned items, the analysis should be adjusted, or the rows should be removed."
+          },
+          {
+            "text": "In the example provided for data cleaning, what change was made to \"Invalid Date\" in the \"Purchase Date\" field?",
+            "answers": {
+              "a": "Converted to a default date",
+              "b": "Marked as (missing)",
+              "c": "Converted to a numeric value",
+              "d": "Removed the entire row"
+            },
+            "correct": "b",
+            "answer_text": "Marked as (missing)",
+            "reason": "In the example, \"Invalid Date\" in the Purchase Date field was marked as (missing)."
+          },
+          {
+            "text": "In the example provided for data cleaning, what was done with blank \"Discount\" fields?",
+            "answers": {
+              "a": "Set to 100%",
+              "b": "Removed the rows",
+              "c": "Set to 0%",
+              "d": "Marked as (missing)"
+            },
+            "correct": "c",
+            "answer_text": "Set to 0%",
+            "reason": "In the example, blank \"Discount\" fields were set to 0%."
+          },
+          {
+            "text": "What is data exploration often referred to as?",
+            "answers": {
+              "a": "The final step of data analysis",
+              "b": "The first step of analyzing data",
+              "c": "The process of data storage",
+              "d": "The process of database management"
+            },
+            "correct": "b",
+            "answer_text": "The first step of analyzing data",
+            "reason": "Data Exploration is often referred to as the first step of analyzing data."
+          },
+          {
+            "text": "Data exploration and data cleaning are often an iterative process. What does this mean?",
+            "answers": {
+              "a": "They are performed only once at the beginning.",
+              "b": "They must be done in strict sequential order.",
+              "c": "While data exploration, more cleaning might be needed.",
+              "d": "They are unrelated processes."
+            },
+            "correct": "c",
+            "answer_text": "While data exploration, more cleaning might be needed.",
+            "reason": "Data exploration and data cleaning is often an iterative process, meaning while data exploration, more cleaning might be needed."
+          },
+          {
+            "text": "Which of the following is an \"unofficial step\" of data exploration related to \"Quality Assessment\"?",
+            "answers": {
+              "a": "Note data sources and any merges",
+              "b": "Check for missing/null values and decide how to handle them",
+              "c": "List variables (columns) and types",
+              "d": "Summarize key insights"
+            },
+            "correct": "b",
+            "answer_text": "Check for missing/null values and decide how to handle them",
+            "reason": "Checking for missing/null values is part of \"Quality Assessment,\" an unofficial step in data exploration."
+          },
+          {
+            "text": "What type of analysis involves calculating the average, minimum, and maximum sales for each month?",
+            "answers": {
+              "a": "Bivariate Analysis",
+              "b": "Multivariate Analysis",
+              "c": "Descriptive Statistics (Univariate Analysis)",
+              "d": "Inferential Statistics"
+            },
+            "correct": "c",
+            "answer_text": "Descriptive Statistics (Univariate Analysis)",
+            "reason": "Calculating the average, minimum, and maximum sales for each month is an example of Descriptive Statistics (Univariate Analysis)."
+          },
+          {
+            "text": "Which data visualization is used to show which product categories generate the most revenue?",
+            "answers": {
+              "a": "Histogram of Order Values",
+              "b": "Box Plot of Order Values",
+              "c": "Bar Chart of Sales by Product Category",
+              "d": "Line Chart of Monthly Sales Trends"
+            },
+            "correct": "c",
+            "answer_text": "Bar Chart of Sales by Product Category",
+            "reason": "A Bar Chart of Sales by Product Category shows which categories generate the most revenue."
+          },
+          {
+            "text": "Which data visualization displays the distribution of individual order totals, helping to see skew or common purchase sizes?",
+            "answers": {
+              "a": "Bar Chart of Sales by Product Category",
+              "b": "Histogram of Order Values",
+              "c": "Scatter Plot of Sales vs. Advertising Spend",
+              "d": "Heatmap of Sales by Region"
+            },
+            "correct": "b",
+            "answer_text": "Histogram of Order Values",
+            "reason": "A Histogram of Order Values displays the distribution of individual order totals."
+          },
+          {
+            "text": "Which data visualization is best for assessing correlation between total sales and ad spend?",
+            "answers": {
+              "a": "Line Chart of Monthly Sales Trends",
+              "b": "Heatmap of Sales by Region",
+              "c": "Contingency Table of Region vs. Product Category",
+              "d": "Scatter Plot of Sales vs. Advertising Spend"
+            },
+            "correct": "d",
+            "answer_text": "Scatter Plot of Sales vs. Advertising Spend",
+            "reason": "A Scatter Plot of Sales vs. Advertising Spend assesses correlation between total sales and ad spend."
+          },
+          {
+            "text": "What is the definition of Data Modeling?",
+            "answers": {
+              "a": "The process of applying statistical models to make predictions",
+              "b": "The process of creating charts and dashboards",
+              "c": "The process of creating the \"blueprint\" for how you’ll store and organize your data",
+              "d": "The process of gathering data from various sources"
+            },
+            "correct": "c",
+            "answer_text": "The process of creating the “blueprint” for how you’ll store and organize your data",
+            "reason": "Data Modeling is defined as the process of creating the \"blueprint\" for how you’ll store and organize your data."
+          },
+          {
+            "text": "Data models are built around an organization’s what?",
+            "answers": {
+              "a": "Existing database systems",
+              "b": "Specific business needs",
+              "c": "Available data analysis tools",
+              "d": "Technical team's preferences"
+            },
+            "correct": "b",
+            "answer_text": "Specific business needs",
+            "reason": "Data models are built around the organization’s specific business needs."
+          },
+          {
+            "text": "Which of the following is one of the key parts of data modeling in simple terms?",
+            "answers": {
+              "a": "Algorithms",
+              "b": "Reports",
+              "c": "Entities",
+              "d": "Queries"
+            },
+            "correct": "c",
+            "answer_text": "Entities",
+            "reason": "\"Entities\" are listed as one of the key parts of data modeling."
+          },
+          {
+            "text": "What is the first step in the provided steps of Data Modeling?",
+            "answers": {
+              "a": "Detail Attributes & Keys (Logical Model)",
+              "b": "Translate to Physical Model",
+              "c": "Gather Business Requirements",
+              "d": "Identify Entities & Relationships (Conceptual Model)"
+            },
+            "correct": "c",
+            "answer_text": "Gather Business Requirements",
+            "reason": "\"Gather Business Requirements\" is the first step in the provided steps of Data Modeling, though noted as \"Not in PDF\" in that section."
+          },
+          {
+            "text": "Which type of data model sketches high-level entity-relationship diagrams without detailed attributes?",
+            "answers": {
+              "a": "Physical Model",
+              "b": "Logical Model",
+              "c": "Conceptual Model",
+              "d": "Relational Model"
+            },
+            "correct": "c",
+            "answer_text": "Conceptual Model",
+            "reason": "The Conceptual Model involves sketching high-level entity-relationship diagrams showing main entities and relationships without detailed attributes."
+          },
+          {
+            "text": "Which step in data modeling involves defining all entities, attributes, and relationships, including primary and foreign keys, without specifying physical implementation?",
+            "answers": {
+              "a": "Gather Business Requirements",
+              "b": "Define Scope & Boundaries",
+              "c": "Identify Entities & Relationships (Conceptual Model)",
+              "d": "Detail Attributes & Keys (Logical Model)"
+            },
+            "correct": "d",
+            "answer_text": "Detail Attributes & Keys (Logical Model)",
+            "reason": "The Logical Model adds more detail, defining all entities, attributes, and relationships, and includes data types and constraints without specifying physical implementation."
+          },
+          {
+            "text": "What is the definition of Data Interpretation?",
+            "answers": {
+              "a": "The stage where you collect raw data for analysis",
+              "b": "The stage where you cleanse data by removing errors",
+              "c": "The stage where you turn raw analysis results into clear, concise insights",
+              "d": "The stage where you design database schemas"
+            },
+            "correct": "c",
+            "answer_text": "The stage where you turn raw analysis results into clear, concise insights",
+            "reason": "Data interpretation is the stage where you take the raw results of your analysis and turn them into clear, concise insights."
+          },
+          {
+            "text": "Which of the following is a key element of interpretation related to \"Communicate Findings\"?",
+            "answers": {
+              "a": "Identify Limitations",
+              "b": "Contextualize Results",
+              "c": "Summarize Insights",
+              "d": "Propose Next Steps"
+            },
+            "correct": "c",
+            "answer_text": "Summarize Insights",
+            "reason": "Summarizing insights is a key element of interpretation under \"Communicate Findings\"."
+          },
+          {
+            "text": "When interpreting findings, why is it important to \"Identify Limitations\"?",
+            "answers": {
+              "a": "To explain how to collect more data",
+              "b": "To call out data or analysis caveats",
+              "c": "To justify further analysis projects",
+              "d": "To validate hypotheses with more rigor"
+            },
+            "correct": "b",
+            "answer_text": "To call out data or analysis caveats",
+            "reason": "Identifying limitations involves calling out data or analysis caveats to explain how they might affect confidence in conclusions."
+          },
+          {
+            "text": "What is the first step in the \"2 Steps Process\" alternative take on data analytics?",
+            "answers": {
+              "a": "Data Exploration",
+              "b": "Data Preparation",
+              "c": "Data Modeling",
+              "d": "Data Interpretation"
+            },
+            "correct": "b",
+            "answer_text": "Data Preparation",
+            "reason": "The \"2 Steps Process\" alternative take on data analytics begins with Data Preparation."
+          },
+          {
+            "text": "What is the definition of Exploratory Data Analysis (EDA)?",
+            "answers": {
+              "a": "The process of collecting and storing data for future use.",
+              "b": "The process of creating predictive models from raw data.",
+              "c": "The process of using statistical summaries and visualizations to systematically uncover patterns, anomalies, and relationships in a dataset.",
+              "d": "The process of formal hypothesis testing to confirm specific theories."
+            },
+            "correct": "c",
+            "answer_text": "The process of using statistical summaries and visualizations to systematically uncover patterns, anomalies, and relationships in a dataset.",
+            "reason": "Exploratory Data Analysis (EDA) is defined as the process of using statistical summaries and visualizations to systematically uncover the structure, patterns, anomalies, and relationships in a dataset."
+          },
+          {
+            "text": "What is the initial step in doing EDA according to the sources?",
+            "answers": {
+              "a": "Import & Inspect the Data",
+              "b": "Handle Missing Data",
+              "c": "Define the Problem & Understand Your Data",
+              "d": "Transform Your Data for Analysis"
+            },
+            "correct": "c",
+            "answer_text": "Define the Problem & Understand Your Data",
+            "reason": "The first step in any data analysis project, including EDA, is to fully understand the problem and the data."
+          },
+          {
+            "text": "What is an action involved in \"Step 2: Import & Inspect the Data\" during EDA?",
+            "answers": {
+              "a": "Compute basic summary statistics",
+              "b": "Verify Data Types",
+              "c": "Apply math transforms like logarithms",
+              "d": "Create new features from existing ones"
+            },
+            "correct": "b",
+            "answer_text": "Verify Data Types",
+            "reason": "Verifying data types is an action performed during the initial inspection of data in \"Step 2: Import & Inspect the Data\"."
+          },
+          {
+            "text": "In EDA, what is the strategy that preserves dataset size but must be done thoughtfully?",
+            "answers": {
+              "a": "Removal of missing data",
+              "b": "Imputation of missing data",
+              "c": "Ignoring missing data",
+              "d": "Deleting the dataset"
+            },
+            "correct": "b",
+            "answer_text": "Imputation of missing data",
+            "reason": "Imputation preserves dataset size but must be done thoughtfully when handling missing data."
+          },
+          {
+            "text": "Which simple imputation method is suggested for numerical fields during EDA?",
+            "answers": {
+              "a": "Regression",
+              "b": "K-nearest neighbors",
+              "c": "Mean or median imputation",
+              "d": "Decision-tree methods"
+            },
+            "correct": "c",
+            "answer_text": "Mean or median imputation",
+            "reason": "Simple imputation methods suggested for numerical fields include mean or median imputation."
+          },
+          {
+            "text": "What is involved in \"Step 4: Exploring Your Data’s Key Characteristics\" during EDA?",
+            "answers": {
+              "a": "Creating new predictors from existing ones",
+              "b": "Checking Distributions & Spot Oddities",
+              "c": "Converting categories into numbers",
+              "d": "Applying one-hot encoding"
+            },
+            "correct": "b",
+            "answer_text": "Checking Distributions & Spot Oddities",
+            "reason": "Checking distributions and spotting oddities is part of \"Step 4: Exploring Your Data’s Key Characteristics\"."
+          },
+          {
+            "text": "What does Min-Max Scaling do?",
+            "answers": {
+              "a": "Centers data at zero with unit variance.",
+              "b": "Assigns each category a unique integer.",
+              "c": "Rescales numeric features into a fixed range (usually 0 to 1).",
+              "d": "Applies a logarithm to data."
+            },
+            "correct": "c",
+            "answer_text": "Rescales numeric features into a fixed range (usually 0 to 1).",
+            "reason": "Min-Max Scaling rescales numeric features into a fixed range (usually 0 to 1)."
+          },
+          {
+            "text": "What transformation method turns a categorical variable with *k* distinct values into *k* binary (0/1) columns?",
+            "answers": {
+              "a": "Label Encoding",
+              "b": "Standardization (Z-Score)",
+              "c": "One-Hot Encoding",
+              "d": "Log Transformation"
+            },
+            "correct": "c",
+            "answer_text": "One-Hot Encoding",
+            "reason": "One-Hot Encoding transforms a categorical variable with *k* distinct values into *k* binary (0/1) columns."
+          },
+          {
+            "text": "What type of transformation is useful for reducing right-skew and stabilizing variance in data?",
+            "answers": {
+              "a": "Min-Max Scaling",
+              "b": "Label Encoding",
+              "c": "Log Transformation",
+              "d": "One-Hot Encoding"
+            },
+            "correct": "c",
+            "answer_text": "Log Transformation",
+            "reason": "Logarithms are useful for reducing right-skew and stabilizing variance."
+          },
+          {
+            "text": "When visualizing relationships in data, what type of chart is recommended for categorical variables to compare category counts?",
+            "answers": {
+              "a": "Scatter plots",
+              "b": "Histograms",
+              "c": "Bar charts or pie charts",
+              "d": "Heatmap-style correlation matrices"
+            },
+            "correct": "c",
+            "answer_text": "Bar charts or pie charts",
+            "reason": "For categorical variables, bar charts or pie charts are used to compare category counts, spot imbalances, and highlight unexpected groupings."
+          },
+          {
+            "text": "What type of visualization is used to examine each numerical feature’s distribution, central tendency, variability, and outliers?",
+            "answers": {
+              "a": "Frequency tables",
+              "b": "Bar charts",
+              "c": "Histograms, box plots, violin plots or density curves",
+              "d": "Contingency tables"
+            },
+            "correct": "c",
+            "answer_text": "Histograms, box plots, violin plots or density curves",
+            "reason": "These visualizations are used for numerical variables to examine each feature’s distribution, central tendency, variability, and outliers."
+          },
+          {
+            "text": "What is the final step in the EDA process?",
+            "answers": {
+              "a": "Handle Missing Data",
+              "b": "Transform Your Data for Analysis",
+              "c": "Communicate Your Findings",
+              "d": "Explore Your Data’s Key Characteristics"
+            },
+            "correct": "c",
+            "answer_text": "Communicate Your Findings",
+            "reason": "The final step listed for doing EDA is \"Step 7: Communicate Your Findings\"."
+          },
+          {
+            "text": "When communicating findings, what should be done to make complex insights more digestible?",
+            "answers": {
+              "a": "Provide raw data tables",
+              "b": "Use charts and tables to illustrate key results",
+              "c": "Avoid any visual aids",
+              "d": "Only present statistical summaries"
+            },
+            "correct": "b",
+            "answer_text": "Use charts and tables to illustrate key results",
+            "reason": "Leveraging visuals like charts and tables helps illustrate key results and make complex insights more digestible when communicating findings."
+          }
+        ]
+      }
+    ]
   }
 ]
