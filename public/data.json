@@ -33316,5 +33316,314 @@
         ]
       }
     ]
+  },
+  {
+    "id": 72,
+    "name": "DSA time-space",
+    "subject": "Sciences",
+    "exam": "GED",
+    "topic": [],
+    "sub_topic": [],
+    "difficulty": "Medium",
+    "creator": "",
+    "creatorID": "",
+    "type": "Normal",
+    "total_questions": 24,
+    "source": "Generated",
+    "sections": [
+      {
+        "context": "",
+        "questions": [
+          {
+            "text": "What is the best-case time complexity of Linear Search?",
+            "answers": {
+              "a": "O(1)",
+              "b": "O(n)",
+              "c": "O(log n)",
+              "d": "O(n log n)"
+            },
+            "correct": "a",
+            "answer_text": "O(1)",
+            "reason": "Found at the first element."
+          },
+          {
+            "text": "What is the worst-case time complexity of Linear Search?",
+            "answers": {
+              "a": "O(n)",
+              "b": "O(log n)",
+              "c": "O(n^2)",
+              "d": "O(1)"
+            },
+            "correct": "a",
+            "answer_text": "O(n)",
+            "reason": "Worst-case is scanning the whole list."
+          },
+          {
+            "text": "What is the space complexity of Linear Search?",
+            "answers": {
+              "a": "O(1)",
+              "b": "O(n)",
+              "c": "O(log n)",
+              "d": "O(n^2)"
+            },
+            "correct": "a",
+            "answer_text": "O(1)",
+            "reason": "Linear search uses constant space."
+          },
+          {
+            "text": "What is the best-case time complexity of Binary Search?",
+            "answers": {
+              "a": "O(n)",
+              "b": "O(1)",
+              "c": "O(log n)",
+              "d": "O(n log n)"
+            },
+            "correct": "b",
+            "answer_text": "O(1)",
+            "reason": "Best case: middle element matches."
+          },
+          {
+            "text": "What is the worst-case time complexity of Binary Search?",
+            "answers": {
+              "a": "O(n)",
+              "b": "O(1)",
+              "c": "O(log n)",
+              "d": "O(n^2)"
+            },
+            "correct": "c",
+            "answer_text": "O(log n)",
+            "reason": "Binary Search divides list each step."
+          },
+          {
+            "text": "What is the space complexity of Binary Search (recursive)?",
+            "answers": {
+              "a": "O(1)",
+              "b": "O(log n)",
+              "c": "O(n)",
+              "d": "O(n^2)"
+            },
+            "correct": "b",
+            "answer_text": "O(log n)",
+            "reason": "Due to recursion stack."
+          },
+          {
+            "text": "What is the best-case time complexity of Insertion Sort?",
+            "answers": {
+              "a": "O(n)",
+              "b": "O(log n)",
+              "c": "O(n log n)",
+              "d": "O(n^2)"
+            },
+            "correct": "a",
+            "answer_text": "O(n)",
+            "reason": "Already sorted input."
+          },
+          {
+            "text": "What is the worst-case time complexity of Insertion Sort?",
+            "answers": {
+              "a": "O(n)",
+              "b": "O(n log n)",
+              "c": "O(log n)",
+              "d": "O(n^2)"
+            },
+            "correct": "d",
+            "answer_text": "O(n^2)",
+            "reason": "Reverse sorted input."
+          },
+          {
+            "text": "What is the space complexity of Insertion Sort?",
+            "answers": {
+              "a": "O(1)",
+              "b": "O(n)",
+              "c": "O(log n)",
+              "d": "O(n^2)"
+            },
+            "correct": "a",
+            "answer_text": "O(1)",
+            "reason": "In-place algorithm."
+          },
+          {
+            "text": "What is the best-case time complexity of Merge Sort?",
+            "answers": {
+              "a": "O(n)",
+              "b": "O(n log n)",
+              "c": "O(n^2)",
+              "d": "O(log n)"
+            },
+            "correct": "b",
+            "answer_text": "O(n log n)",
+            "reason": "Divide and merge even in best case."
+          },
+          {
+            "text": "What is the worst-case time complexity of Merge Sort?",
+            "answers": {
+              "a": "O(n log n)",
+              "b": "O(n)",
+              "c": "O(n^2)",
+              "d": "O(log n)"
+            },
+            "correct": "a",
+            "answer_text": "O(n log n)",
+            "reason": "Merge Sort is consistently efficient."
+          },
+          {
+            "text": "What is the space complexity of Merge Sort?",
+            "answers": {
+              "a": "O(1)",
+              "b": "O(log n)",
+              "c": "O(n)",
+              "d": "O(n^2)"
+            },
+            "correct": "c",
+            "answer_text": "O(n)",
+            "reason": "Extra array for merging."
+          },
+          {
+            "text": "What is the best-case time complexity of Selection Sort?",
+            "answers": {
+              "a": "O(n)",
+              "b": "O(log n)",
+              "c": "O(n^2)",
+              "d": "O(n log n)"
+            },
+            "correct": "c",
+            "answer_text": "O(n^2)",
+            "reason": "Always performs full scans."
+          },
+          {
+            "text": "What is the worst-case time complexity of Selection Sort?",
+            "answers": {
+              "a": "O(n log n)",
+              "b": "O(n)",
+              "c": "O(n^2)",
+              "d": "O(log n)"
+            },
+            "correct": "c",
+            "answer_text": "O(n^2)",
+            "reason": "Same regardless of input."
+          },
+          {
+            "text": "What is the space complexity of Selection Sort?",
+            "answers": {
+              "a": "O(1)",
+              "b": "O(n)",
+              "c": "O(log n)",
+              "d": "O(n^2)"
+            },
+            "correct": "a",
+            "answer_text": "O(1)",
+            "reason": "In-place sort."
+          },
+          {
+            "text": "What is the best-case time complexity of Bubble Sort (optimized)?",
+            "answers": {
+              "a": "O(n)",
+              "b": "O(n^2)",
+              "c": "O(log n)",
+              "d": "O(n log n)"
+            },
+            "correct": "a",
+            "answer_text": "O(n)",
+            "reason": "Optimized with swap flag."
+          },
+          {
+            "text": "What is the worst-case time complexity of Bubble Sort?",
+            "answers": {
+              "a": "O(n)",
+              "b": "O(n^2)",
+              "c": "O(log n)",
+              "d": "O(n log n)"
+            },
+            "correct": "b",
+            "answer_text": "O(n^2)",
+            "reason": "Repeated swapping in worst case."
+          },
+          {
+            "text": "What is the space complexity of Bubble Sort?",
+            "answers": {
+              "a": "O(n)",
+              "b": "O(log n)",
+              "c": "O(1)",
+              "d": "O(n^2)"
+            },
+            "correct": "c",
+            "answer_text": "O(1)",
+            "reason": "No extra space needed."
+          },
+          {
+            "text": "What is the best-case time complexity of Quick Sort?",
+            "answers": {
+              "a": "O(n)",
+              "b": "O(log n)",
+              "c": "O(n log n)",
+              "d": "O(n^2)"
+            },
+            "correct": "c",
+            "answer_text": "O(n log n)",
+            "reason": "Balanced partitions."
+          },
+          {
+            "text": "What is the worst-case time complexity of Quick Sort?",
+            "answers": {
+              "a": "O(n log n)",
+              "b": "O(n)",
+              "c": "O(n^2)",
+              "d": "O(log n)"
+            },
+            "correct": "c",
+            "answer_text": "O(n^2)",
+            "reason": "Worst case with poor pivot choice."
+          },
+          {
+            "text": "What is the space complexity of Quick Sort (in-place)?",
+            "answers": {
+              "a": "O(1)",
+              "b": "O(log n)",
+              "c": "O(n)",
+              "d": "O(n log n)"
+            },
+            "correct": "b",
+            "answer_text": "O(log n)",
+            "reason": "Due to recursive calls."
+          },
+          {
+            "text": "What is the best-case time complexity of Heap Sort?",
+            "answers": {
+              "a": "O(n)",
+              "b": "O(n log n)",
+              "c": "O(n^2)",
+              "d": "O(log n)"
+            },
+            "correct": "b",
+            "answer_text": "O(n log n)",
+            "reason": "Always performs heap operations."
+          },
+          {
+            "text": "What is the worst-case time complexity of Heap Sort?",
+            "answers": {
+              "a": "O(n)",
+              "b": "O(log n)",
+              "c": "O(n log n)",
+              "d": "O(n^2)"
+            },
+            "correct": "c",
+            "answer_text": "O(n log n)",
+            "reason": "Worst-case still same as best-case."
+          },
+          {
+            "text": "What is the space complexity of Heap Sort?",
+            "answers": {
+              "a": "O(n)",
+              "b": "O(1)",
+              "c": "O(log n)",
+              "d": "O(n log n)"
+            },
+            "correct": "b",
+            "answer_text": "O(1)",
+            "reason": "In-place sorting."
+          }
+        ]
+      }
+    ]
   }
 ]
